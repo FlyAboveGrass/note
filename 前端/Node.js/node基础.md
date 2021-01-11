@@ -63,6 +63,8 @@ dry原则： don't repeat yourselfnode没有全局作用域，只有模块作用
 
 ## **模块的分类** 
 
+#### [常用API](https://github.com/lq782655835/blogs/issues/36)
+
 ### 内置模块
 
 ​			内置模块已经编译成了二进制文件，直接按照名字引入即可
@@ -179,184 +181,205 @@ package.json会默认解析目录的时候查找的文件名，如 require('./so
 
 # 三、[express ](http://www.expressjs.com.cn/starter/installing.html)
 
-1. 安装express
+## [安装express](https://www.expressjs.com.cn/starter/generator.html)
 
-2. 服务器相关
+## 静态文件服务
 
-   + 服务器就是一台电脑
+```
+express.static(root, [options])  // 第一个参数是别名，第二个参数是static方法
+app.use(express.static('public'));
+```
 
-   - 服务器软件（apach， tomcat， iis， ngnix， node）
-   - 服务器的 ip（确定主机位置）和 端口（程序的位置）
 
-   1. 局域网
 
-   2. 外网
+## API
 
-   3. api
+#### 常用api
 
-      + ip port pathname method 
+ip port pathname method 
 
-      - method（get， post...）
+#### 请求处理
 
-        - get方法接受请求参数使用req.query
+##### GET
 
-        - post传递的消息有消息体和请求体
+方法接受请求参数使用req.query
 
-          - json -- application/json
-          - 表单 -- application/x-www-form-urlencoded
+##### POST
 
-          - 消息体读取使用req.body。express不能够解析消息体，需要通过第三方插件实现消息体的解析 --  **[body-parser](http://www.expressjs.com.cn/en/resources/middleware/body-parser.html)** 
+传递的消息有消息体和请求体
 
-      ```
-      var express = require('express')
-      var bodyParser = require('body-parser')
-      
-      var app = express()
-      // 
-      app.use(bodyParser.urlencoded({ extended: false }))
-      
-      // parse application/json
-      app.use(bodyParser.json())
-      
-      app.use(function (req, res) {
-          res.setHeader('Content-Type', 'text/plain')
-          res.write('you posted:\n')
-          res.end(JSON.stringify(req.body, null, 2))
-      })
-      ```
+- json -- application/json
+- 表单 -- application/x-www-form-urlencoded
 
-      
+- 消息体读取使用req.body。express不能够解析消息体，需要通过第三方插件实现消息体的解析 --  **[body-parser](http://www.expressjs.com.cn/en/resources/middleware/body-parser.html)** 
 
-4. 路由
+```
+var express = require('express')
+var bodyParser = require('body-parser')
 
-4. 基本路由
+var app = express()
+// 
+app.use(bodyParser.urlencoded({ extended: false }))
 
-   - app.all('route', function(req, res[, fun]) {}): 为**所有** HTTP请求方法（get， post， put...）的路径加载中间件功能,执行某一个处理
+// parse application/json
+app.use(bodyParser.json())
 
-   - 路线： 路由路径可以是字符串，字符串模式或正则表达式。
+app.use(function (req, res) {
+    res.setHeader('Content-Type', 'text/plain')
+    res.write('you posted:\n')
+    res.end(JSON.stringify(req.body, null, 2))
+})
+```
 
-   - app.route():   [为同一个路由同时指定不同请求方法的回调](http://www.expressjs.com.cn/en/4x/api.html#router)
 
-     ```
-     app.route('/book')
-     .get(function (req, res) {
-     	res.send('Get a random book')
-     })
-     .post(function (req, res) {
-     	res.send('Add a book')
-     })
-     .put(function (req, res) {
-     	res.send('Update the book')
-     })
-     ```
 
-   - express.Router: 创建模块化的、挂载式的路由处理
+## [路由处理](https://expressjs.com/zh-cn/guide/routing.html)
 
-     ```
-    // 定义一个Router模块
-     var express = require('express')
-     var router = express.Router()
-     router.use(function timeLog (req, res, next) {
-         console.log('Time: ', Date.now())
-         next()
-     })
-     router.get('/', function (req, res) {
-     	res.send('Birds home page')
-     })
-     router.get('/about', function (req, res) {
-     	res.send('About birds')
-     })
-     module.exports = router
-     
-     //在其它地方应用这个Router模块
-     var birds = require('./birds')
-     app.use('/birds', birds)
-     // 会匹配 /birds /birds/about
-     ```
-   
-6. [middlewear（中间件）](http://www.expressjs.com.cn/en/guide/using-middleware.html)： 可以访问[请求对象](http://www.expressjs.com.cn/en/4x/api.html#req) （req），[响应对象](http://www.expressjs.com.cn/en/4x/api.html#res)（res）和next应用程序的请求-响应周期中的功能的功能 
+### 基本路由
 
-6. 应用层中间件
+- app.all('route', function(req, res[, fun]) {}): 为**所有** HTTP请求方法（get， post， put...）的路径加载中间件功能,执行某一个处理
 
-7. 使用和函数将[应用](http://www.expressjs.com.cn/en/4x/api.html#app)程序级中间件绑定到[应用程序对象](http://www.expressjs.com.cn/en/4x/api.html#app)的实例
+- 路线： 路由路径可以是字符串，字符串模式或正则表达式。
 
-   - 局部中间件
+  ```
+  app.get('/ab?cd', function(req, res) {}); // 匹配 acd 和 abcd
+  app.get('/ab(cd)?e', function(req, res) {}); // 匹配 /abe 和 /abcde
+  ```
 
-     ```
-     app.use('/user/:id', function (req, res, next) {
-         console.log('Request URL:', req.originalUrl)
-         next()
-     }, function (req, res, next) {
-         console.log('Request Type:', req.method)
-         next()
-     })
-     ```
+- app.route():   [为同一个路由同时指定不同请求方法的回调](http://www.expressjs.com.cn/en/4x/api.html#router)
 
-     
+  ```
+  app.route('/book')
+  .get(function (req, res) {
+  	res.send('Get a random book')
+  })
+  .post(function (req, res) {
+  	res.send('Add a book')
+  })
+  .put(function (req, res) {
+  	res.send('Update the book')
+  })
+  ```
 
-     - 为一个路径定义多个路由，其它路由不会被调用,因为第一条路由就会结束请求-响应周期,  使用 next（‘route’）方法将控制权传递给下一条路由。（ next('route')仅适用于使用app.METHOD()或router.METHOD()函数加载的中间件函数）
+- express.Router: 创建模块化的、挂载式的路由处理
 
-       ```
-       app.get('/user/:id', function (req, res, next) {
-           if (req.params.id === '0')
-              next('route')
-           else
-           	next()
-       }, function (req, res, next) {
-           res.send('regular')
-       })
-       
-       app.get('/user/:id', function (req, res, next) {
-       	res.send('special')
-       })
-       ```
+  ```
+ // 定义一个Router模块
+  var express = require('express')
+  var router = express.Router()
+  router.use(function timeLog (req, res, next) {
+      console.log('Time: ', Date.now())
+      next()
+  })
+  router.get('/', function (req, res) {
+  	res.send('Birds home page')
+  })
+  router.get('/about', function (req, res) {
+  	res.send('About birds')
+  })
+  module.exports = router
+  
+  //在其它地方应用这个Router模块
+  var birds = require('./birds')
+  app.use('/birds', birds)
+  // 会匹配 /birds /birds/about
+  ```
 
-       
+### [middlewear（中间件）](http://www.expressjs.com.cn/en/guide/using-middleware.html)
 
-   - 路由器级中间件： 工作方式和应用级中间件一样，不过绑定到的实例是express.Router()
+中间件可以访问[请求对象](http://www.expressjs.com.cn/en/4x/api.html#req) （req），[响应对象](http://www.expressjs.com.cn/en/4x/api.html#res)（res）和next应用程序的请求-响应周期中的功能的功能
 
-     + 使用router.use()和router.METHOD()函数加载路由器级中间件
+中间件是按顺序执行的，定义中间件的顺序非常重要
 
-       ```
-       var app = express()
-       var router = express.Router()
-       
-       router.use(function (req, res, next) {
-           if (!req.headers['x-auth'])
-              return next('router')
-           next()
-       })
-       
-       router.get('/', function (req, res) {
-       	res.send('hello, user!')
-       })
-       
-       //加载中间件
-       app.use('/admin', router, function (req, res) {
-       	res.sendStatus(401)
-       })
-       ```
+ ![理解中间件](E:\Code\笔记\笔记图片\理解中间件.jpg)
 
-   - 错误处理中间件
+##### 应用层中间件
 
-     - 错误处理中间件始终采用**四个**参数。您必须提供四个参数以将其标识为错误处理中间件函数。即使不需要使用该next对象，也必须指定它以维护签名。否则，该next对象将被解释为常规中间件，并且将无法处理错误。
+使用和函数将[应用](http://www.expressjs.com.cn/en/4x/api.html#app)程序级中间件绑定到[应用程序对象](http://www.expressjs.com.cn/en/4x/api.html#app)的实例
 
-       ```
-       app.use(function (err, req, res, next) {
-           console.error(err.stack)
-           res.status(500).send('Something broke!')
-       })
-       ```
+##### 局部中间件
 
-   - 内置中间件 static
+```
+app.use('/user/:id', function (req, res, next) {
+    console.log('Request URL:', req.originalUrl)
+    next()
+}, function (req, res, next) {
+    console.log('Request Type:', req.method)
+    next()
+})
+```
 
-     - [express.static](http://www.expressjs.com.cn/en/4x/api.html#express.static) 
-     - [express.json](http://www.expressjs.com.cn/en/4x/api.html#express.json) 
-     - [express.urlencoded](http://www.expressjs.com.cn/en/4x/api.html#express.urlencoded) 
+为一个路径定义多个路由，其它路由不会被调用,因为第一条路由就会结束请求-响应周期,  使用 next（‘route’）方法将控制权传递给下一条路由。（ next('route')仅适用于使用app.METHOD()或router.METHOD()函数加载的中间件函数）
 
-   - [第三方中间件](http://www.expressjs.com.cn/en/resources/middleware.html)
+```
+app.get('/user/:id', function (req, res, next) {
+    if (req.params.id === '0')
+       next('route')
+    else
+    	next()
+}, function (req, res, next) {
+    res.send('regular')
+})
 
-   - next（），拦截器，业务逻辑处理之后，next决定是否继续往下走， 调用next()将控制权传递给下一个中间件功能。否则，该请求将被挂起。
+app.get('/user/:id', function (req, res, next) {
+	res.send('special')
+})
+```
+
+
+
+##### 路由器级中间件： 
+
+工作方式和应用级中间件一样，不过绑定到的实例是express.Router()
+
++ 使用router.use()和router.METHOD()函数加载路由器级中间件
+
+  ```
+  var app = express()
+  var router = express.Router()
+  
+  router.use(function (req, res, next) {
+      if (!req.headers['x-auth'])
+         return next('router')
+      next()
+  })
+  
+  router.get('/', function (req, res) {
+  	res.send('hello, user!')
+  })
+  
+  //加载中间件
+  app.use('/admin', router, function (req, res) {
+  	res.sendStatus(401)
+  })
+  ```
+
+##### 错误处理中间件
+
+- 错误处理中间件始终采用**四个**参数。您必须提供四个参数以将其标识为错误处理中间件函数。即使不需要使用该next对象，也必须指定它以维护签名。否则，该next对象将被解释为常规中间件，并且将无法处理错误。
+
+  ```
+  app.use(function (err, req, res, next) {
+      console.error(err.stack)
+      res.status(500).send('Something broke!')
+  })
+  ```
+
+##### 内置中间件 static
+
+- [express.static](http://www.expressjs.com.cn/en/4x/api.html#express.static) 
+- [express.json](http://www.expressjs.com.cn/en/4x/api.html#express.json) 
+- [express.urlencoded](http://www.expressjs.com.cn/en/4x/api.html#express.urlencoded) 
+
+##### [第三方中间件](http://www.expressjs.com.cn/en/resources/middleware.html)
+
+- next（），拦截器，业务逻辑处理之后，next决定是否继续往下走， 调用next()将控制权传递给下一个中间件功能。否则，该请求将被挂起。
+
+> 在中间件中写 `console.log` 语句是比较糟糕的做法，因为 `console.log`（包括其他同步的代码）都会阻塞 Node.js 的异步事件循环，降低服务器的吞吐率。在实际生产中，推荐使用第三方优秀的日志中间件，例如 [morgan](https://www.npmjs.com/package/morgan)、[winston](https://www.npmjs.com/package/winston) 等等。
+
+
+
+
 
 # 四、mongodb  
 
@@ -460,8 +483,4 @@ blogItem.save((err) => {})
 5. [数据库的增删改查](https://itbilu.com/nodejs/npm/B1FfBss6X.html#model)
 
 
-
-五、异步处理Promise
-
-六、curd
 

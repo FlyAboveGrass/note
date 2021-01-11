@@ -143,9 +143,6 @@ redis是一个缓存数据库，数据存放在内存中。因为在内存中存
 
 ```
 // 处理请求参数
-req.query = queryString.parse(req.url.split('?')[1])
-req.url = req.url.split('?')[0]    
-
 if(req.method === 'POST') {
 	req.body = await formatPostData(req)
 }
@@ -169,11 +166,67 @@ const formatPostData = (req) => {
 }
 ```
 
+#### express跨域处理
+
+```
+// cores跨域
+const cors = require('cors')
+// 1、一定要设置{credentials: true, origin: 'http://127.0.0.1:8080'}， 否则跨域失败
+app.use(cors({credentials: true, origin: 'http://127.0.0.1:8080'}));
+app.all('*', function (req, res, next) {
+  res.header("Access-Control-Allow-Credentials", true);
+  // 2、一定要设置准确的协议。域名和端口，否则跨域失败
+  res.header("Access-Control-Allow-Origin", "http://127.0.0.1:8080");
+  res.header('Access-Control-Allow-Headers', "*");
+  res.header("Access-Control-Allow-Methods", "*");
+  next();
+});
+```
+
+#### cookie和session处理
+
+```
+// redis客户端
+const { REDIS_CONF } = require('../conf/enviroment')
+const redis = require('redis')
+
+// 创建redis客户端
+const redisClient = redis.createClient(REDIS_CONF.port, REDIS_CONF.host)
+redisClient.on('error', (err) => {
+    console.log('error', err);
+})
+
+module.exports = redisClient
+
+
+// app.js代码
+var expressSession = require('express-session')
+const RedisStore = require('connect-redis')(expressSession)
+const redisClient = require('./db/redis')
+
+// session 保存
+app.use(cookieParser(SESSION_SECRET));
+const sessionStore = new RedisStore({
+  client: redisClient
+})
+// 从cookie过来（secret的值一定要和cookieParser的一致），拿到cookie的值然后去找session，session存在则放到req.session, 如果存在store则通过store存起来
+app.use(expressSession({
+  secret: SESSION_SECRET,
+  name: 'username',
+  resave: true,
+  saveUninitialized: false,
+  cookie: {
+    // path: '/',
+    // httpOnly: true,
+    maxAge: 24 * 60 * 60 * 1000
+  },
+  store: sessionStore
+}))
+```
 
 
 
-
-
+#### 
 
 
 
