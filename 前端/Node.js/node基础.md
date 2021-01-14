@@ -39,7 +39,7 @@
 - npm update ** : 更新模块
 - npm search ** : 搜索模块
 - npm init : 初始化模块，生成package.json文件
-- npm publish: 发布模块
+- npm publish: 发布模块 
 - npm cache clear： 清空本地缓存
 - 使用模块的方式： required（‘**’）
 

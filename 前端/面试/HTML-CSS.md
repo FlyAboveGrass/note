@@ -119,7 +119,7 @@ box-sizing:border-box;
 + 若是内联元素，则会尽可能围绕浮动元素
 + 脱离文档流之后，父元素不会被撑开
 
-#### 清除浮动的方式
+#### 清除浮动方式
 
 ```
  // div1, div2都是浮动元素
@@ -151,7 +151,7 @@ box-sizing:border-box;
 }
 ```
 
-##### 伪元素法（推荐）
+##### 伪元素（推荐）
 
 原理和空div一样，但是没有添加多余标签
 
@@ -168,9 +168,47 @@ box-sizing:border-box;
 
 
 
-### 没看： BFC（Block Formatting Contexts，块级格式化上下文）
+### BFC
+
+BFC（Block Formatting Contexts，块级格式化上下文）是Web页面中盒模型布局的CSS渲染模式，指一个独立的渲染区域或者说是一个隔离的独立容器，容器内外互不影响。
+
+#### BFC特性
+
+1. 垂直放置。内部的元素会在垂直方向，从顶部开始一个接一个地放置。 
+2. margin叠加。元素垂直方向的距离由margin决定。属于同一个BFC的两个相邻 元素的margin会发生叠加
+3. 从最左边开始。每个元素的margin box的左边，与包含块border box的左边(对于从左往右的格式化，否则相反)。即使存在浮动也是如此
+4. 不与float box叠加。 
+5. 独立容器。BFC就是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面的元素，反之亦然。 
+6. 计算浮动元素计算BFC的高度时，浮动元素也参与计算（当BFC内部有浮动时，为了不影响外部元素的布局，**BFC计算高度时会包****括浮动元素的高度**）
+
+#### 触发BFC方式
+
+- float 除了none以外的值 
+
+- overflow 除了visible 以外的值（hidden，auto，scroll ） 
+  - display (table-cell，table-caption，inline-block, **flex**, inline-flex) 
+- 绝对定位，即position值为（absolute，fixed） 
+
+- fieldset元素
+
+#### BFC的作用
+
+1. 清除浮动。 BFC 会根据子元素的情况自适高度，这个特性是对父元素使用 overflow:hidden/auto/scroll就可以清除浮动。
+2. 不被浮动元素覆盖。 浮动元素会无视兄弟元素的存在， 覆盖在兄弟元素的上面， 为该兄弟元素创建 BFC 后可以阻止这种情况的出现
+3. 防止外边距折叠。标准文档流中，块级标签之间竖直方向的margin会以大的为准，这就是margin的塌陷现象。
+
+### 伪类/伪元素
+
+#### 伪类
+
+伪类有四个 :linked, :hover, :visited, :active,
+
+> 顺序不可以变化，必须是这样。 简记  LV好
+
+#### 伪元素
 
 
 
 
 
+### Flex布局
