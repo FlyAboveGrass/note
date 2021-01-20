@@ -139,6 +139,24 @@ redis是一个缓存数据库，数据存放在内存中。因为在内存中存
 
 ## 项目部分代码
 
+#### 生产环境和开发环境
+
+```
+// 安装 crosss-env
+npm install cross-env --save
+
+// 配置环境
+// 在package.json里面配置命令
+"scripts": {
+  "dev": "cross-env NODE_ENV=dev ./node_modules/.bin/nodemon bin/www",
+  "prd": "cross-env NODE_ENV=production pm2 start bin/www"
+},
+
+
+```
+
+
+
 #### 请求参数处理
 
 ```

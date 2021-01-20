@@ -1,10 +1,17 @@
 # HTML
 
+### XHTML和HTML
+
+XHTML是当前HTML版的继承者， XHTML规范会更加严格
+
++ XHTML 元素必须被正确地嵌套， 必须成双成对
++ XHTML 元素必须被关闭
++ 标签名必须用小写字母
++ XHTML 文档必须拥有根元素
+
 ### HTML语义化
 
-定义： 对于正确的内容，选择正确的标签
-
-
+定义：   用正确的标签做正确的事情
 
 优点：
 
@@ -205,6 +212,18 @@ BFC（Block Formatting Contexts，块级格式化上下文）是Web页面中盒�
 
 > 顺序不可以变化，必须是这样。 简记  LV好
 
+##### CSS3新增伪类
+
+```
+p:first-of-type	父元素的首个 <p> 元素的每个 <p> 元素
+p:last-of-type	父元素的最后 <p> 元素的每个 <p> 元素
+p:only-of-type	父元素唯一的 <p> 元素的每个 <p> 元素
+p:only-child	父元素的唯一子元素的每个 <p> 元素。
+p:nth-child(2)	父元素的第二个子元素的每个 <p> 元素。
+:enabled/:disabled 	控制表单控件的禁用状态。
+:checked        单选框或复选框被选中。
+```
+
 #### 伪元素
 
 
@@ -212,3 +231,10 @@ BFC（Block Formatting Contexts，块级格式化上下文）是Web页面中盒�
 
 
 ### Flex布局
+
+
+
+
+
+### [CSS图形](https://segmentfault.com/a/1190000002780453)
+
