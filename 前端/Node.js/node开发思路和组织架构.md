@@ -1,3 +1,5 @@
+# 组织架构
+
 ## 项目目录的组织方式
 
 1. 首先是入口文件 bin/www.js。 这个文件负责创建这个server
@@ -9,6 +11,12 @@
 4. contoller中将各种逻辑组合成一个个的功能模块，负责逻辑的处理
 
 5. model中存放着各种模型，规范数据的格式
+
+   
+
+   ![image-20210121154432518](E:\Code\笔记\笔记图片\node项目组织架构.png)
+
+   
 
 
 
@@ -30,9 +38,9 @@
 
 
 
-## 项目工具
+# 项目工具
 
-###  [路径别名的设置](https://blog.csdn.net/Rotten_LKZ/article/details/109263290)
+###  [路径别名](https://blog.csdn.net/Rotten_LKZ/article/details/109263290)
 
 1. 安装module-alias npm install module-alias --save
 
@@ -40,9 +48,7 @@
 
 ```
 "_moduleAliases": {
-
   "@": "src"
-
 },
 ```
 
@@ -87,6 +93,50 @@ http协议是无状态的，如果要关联两次请求，就可以使用cookie�
 
 - 用session只需要在客户端保存一个id，实际上大量数据都是保存在服务端。如果全部用cookie，数据量大的时候客户端是没有那么多空间的。
 - 如果只用cookie不用session，那么账户信息全部保存在客户端，一旦被劫持，全部信息都会泄露。并且客户端数据量变大，网络传输的数据量也会变大
+
+
+
+#### [jwt](https://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html)
+
+> JSON Web Token（缩写 JWT）是目前最流行的跨域认证解决方案.广义上，定义了一种紧凑和自包含的方式，用于在各方之间作为JSON对象安全地传输信息。 JWT是一个标准的名称；狭义上，JWT指的就是用来传递的那个token字符串
+
+##### 为什么需要jwt
+
+​		session在单机服务器中没有问题，如果是服务器集群，或者是跨域的服务导向架构，就要求 session 数据共享，每台服务器都能够读取 session。
+
+​		方案一：  session 数据持久化，写入数据库或别的持久层。
+
+​		方案二： 服务器索性不保存 session 数据，所有数据都保存在客户端。 JWT 就是这样的一个方案。
+
+​	
+
+##### jwt的原理和结构
+
+**原理**
+
+ 服务端生成一个JSON对象，发回客户端。客户端与服务端通信的时候都要带上这个JSON 对象，服务器靠这个对象确认用户身份。服务器还会在对象中放一个签名，防止用户篡改数据。
+
+> 由于用户信息都在客户端，所以传输的时候务必使用 HTTPS 而不是 HTTP
+
+**结构**
+
+- Header（头部）
+- Payload（负载）
+- Signature（签名）
+
+
+
+#### [session 和 JWT](https://zhuanlan.zhihu.com/p/82785839)
+
+|   特性   |          JWT          |                    session                    |
+| :------: | :-------------------: | :-------------------------------------------: |
+|   用途   | 短暂授权token，无状态 |                   会话管理                    |
+|  跨平台  |      方便跨平台       |                  难于跨平台                   |
+|   时效   |        时效短         |                    时效长                     |
+|   含义   |   本身就是用户信息    |          一个标识，用户信息在server           |
+| 解析方法 |   利用自身签名解析    |              需要额外的map来解析              |
+|  安全性  |        不安全         |                     安全                      |
+| 可拓展性 |      可拓展性好       | 拓展性差，多端状态共享需要借助redis或者数据库 |
 
 ### redis缓存
 
@@ -135,9 +185,19 @@ redis是一个缓存数据库，数据存放在内存中。因为在内存中存
 
 
 
+### [sequelize](https://www.sequelize.com.cn/core-concepts/getting-started)
+
+>  Sequelize 是一个基于 promise 的 Node.js [ORM](http://www.ruanyifeng.com/blog/2019/02/orm-tutorial.html),具有强大的事务支持, 关联关系, 预读和延迟加载,读取复制等功能。
 
 
-## 项目部分代码
+
+#### 如何使用sequelize
+
+1. 数据表。 用JS中的模型（class 或者对象）
+2. 一条或者多条记录。 用JS中的一个对象或数组代替
+3. sql 语句。 用对象方法代替
+
+# 项目部分代码
 
 #### 生产环境和开发环境
 
