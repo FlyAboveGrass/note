@@ -42,7 +42,7 @@
 
 ###  [路径别名](https://blog.csdn.net/Rotten_LKZ/article/details/109263290)
 
-1. 安装module-alias npm install module-alias --save
+1. 安装module-alias：  npm install module-alias --save
 
 2. 在package.json文件中设置路径别名
 
@@ -52,11 +52,26 @@
 },
 ```
 
-3. 在入口文件引入（**一定要放在所有自定义模块引入之前	**）
+3. 在入口文件引入（**一定要放在所有自定义模块引入之前**）
 
 ```
 require('module-alias/register'); // 这是路径别名模块的导入
 ```
+
+4. vscode中使用jsconfig.js指定路径别名，然后重启vscode
+
+   ```
+   {
+       "compilerOptions": {
+           "baseUrl": "./",
+           "paths": {
+               "@/*": ["src/*"]
+           }
+       }
+   }
+   ```
+
+   
 
 ### 登录持久化
 
