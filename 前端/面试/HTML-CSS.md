@@ -238,3 +238,14 @@ p:nth-child(2)	父元素的第二个子元素的每个 <p> 元素。
 
 ### [CSS图形](https://segmentfault.com/a/1190000002780453)
 
+
+
+
+
+
+
+### margin和padding
+
+  margin是用来隔开元素与元素的间距；padding是用来隔开元素与内容的间隔。
+  margin用于布局分开元素使元素与元素互不相干；
+  padding用于元素与内容之间的间隔，让内容（文字）与（包裹）元素之间有一段
