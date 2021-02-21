@@ -72,6 +72,8 @@ box-sizing:content-box;
 box-sizing:border-box;
 ```
 
+### [css选择器](https://juejin.cn/post/6844903460794531848#heading-1)
+
 ### link和import引入标签
 
 建议使用`link`标签，慎用`@import`方式
@@ -83,6 +85,20 @@ box-sizing:border-box;
 |  兼容性   |                     没有兼容问题                     |    css2.1以上才支持     |
 | DOM可控性 |              可以通过js插入link改变样式              |      不可以js导入       |
 |   权重    |                        权重大                        |         权重小          |
+
+
+
+### css性能优化
+
+1. 避免过度约束
+2. 避免后代选择符
+3. 避免链式选择符
+4. 使用紧凑的语法
+5. 避免不必要的命名空间
+6. 避免不必要的重复
+7. 最好使用表示语义的名字。一个好的类名应该是描述他是什么而不是像什么
+8. 避免！important，可以选择其他选择器
+9. 尽可能的精简规则，你可以合并不同类里的重复规则
 
 ### [flex布局](https://www.google.com/search?q=flex%E5%B8%83%E5%B1%80&oq=flex%E5%B8%83%E5%B1%80&aqs=chrome..69i57j69i59l2.2299j0j1&sourceid=chrome&ie=UTF-8)
 
@@ -226,26 +242,13 @@ p:nth-child(2)	父元素的第二个子元素的每个 <p> 元素。
 
 #### 伪元素
 
-
-
-
-
-### Flex布局
-
-
-
-
-
 ### [CSS图形](https://segmentfault.com/a/1190000002780453)
-
-
-
-
 
 
 
 ### margin和padding
 
-  margin是用来隔开元素与元素的间距；padding是用来隔开元素与内容的间隔。
-  margin用于布局分开元素使元素与元素互不相干；
-  padding用于元素与内容之间的间隔，让内容（文字）与（包裹）元素之间有一段
+  margin是用来隔开元素与元素的间距，margin用于布局分开元素使元素与元素互不相干；
+
+  padding用于元素与内容之间的间隔，让内容（文字）与（包裹）元素之间有一段间距
+
