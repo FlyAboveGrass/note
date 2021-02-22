@@ -1,3 +1,45 @@
+### let和const
+
+#### let
+
+- 不存在变量提升
+- 暂时性死区： let 声明的变量就“绑定”（binding）这个区域，不再受外部的影响。（即使外面也有定义，里面已已经定义的话就不可以再访问外界的同名变量了）
+- 不允许重复声明
+
+#### const
+
+- 定义时必须赋值
+- 基本类型不可修改，对象内的变量值可以改变。 
+  - 使用 Object.freeze（obj）函数可以将对象也锁死，里面值不可以再改变
+
+
+
+### [箭头函数](https://zhuanlan.zhihu.com/p/62482741)
+
+- 没有this。 
+  - 箭头函数的this永远指向包裹箭头函数的作用域
+  - 不可以使用bind/apply/call 改变this指向
+  - 没有arguments。 但是可以访问外部的arguments对象。
+- 没有原型prototype
+  - 不能通过 new 关键词调用。
+
+
+
+### [Symbol类型](https://www.jianshu.com/p/e36a558bec34)
+
+#### 用途
+
+1. 属性名
+2. 类的私有属性/方法
+3. 模块化机制
+4. 使用`Symbol`来替代常量
+5. 
+
+#### 常用api
+
+1. Symbol.for(key) ： key相同的情况下返回同一个symbol值，
+2. Symbol.keyFor ： 找到一个symbol的 key
+
 ### 异步编程
 
 异步编程的方法： 
