@@ -16,12 +16,14 @@
 
 ### [箭头函数](https://zhuanlan.zhihu.com/p/62482741)
 
+- 语法简洁清晰
 - 没有this。 
-  - 箭头函数的this永远指向包裹箭头函数的作用域
+  - 箭头函数的this永远从作用域链的上层继承而来，没有自己的this
   - 不可以使用bind/apply/call 改变this指向
   - 没有arguments。 但是可以访问外部的arguments对象。
 - 没有原型prototype
-  - 不能通过 new 关键词调用。
+  - 不能作为构造函数,不能通过 new 关键词调用。
+- 不能用作Generator函数
 
 
 
