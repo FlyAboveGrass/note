@@ -215,23 +215,141 @@ filters: {
 
 
 
+### 问题
+
+#### 为什么不能修改props中的数据
+
+一个父组件下不只有你一个子组件。使用这份 prop 数据的也不只有你一个子组件。
+如果每个子组件都能修改 prop 的话，将会导致修改数据的源头不止一处。
+
+<u>所以我们需要将修改数据的源头统一为父组件，子组件像要改 prop 只能委托父组件帮它。从而保证数据修改源唯一</u>
 
 
 
+#### [Object.defineProperty 和 Proxy](https://github.com/mqyqingfeng/Blog/issues/107)
+
+##### **Object.defineProperty**
+
+###### 特性描述
+
+Object.defineProperty 用于给对象添加特性描述（数据描述和存取器描述）
+
+**数据描述**
+
+value: 设置属性的值
+writable: 值是否可以重写。true | false
+enumerable: 目标属性是否可以被枚举。true | false
+configurable: 目标属性是否可以被删除或是否可以再次修改特性 true | false
+
+**存取器描述**
+
+- getter 是一种获得属性值的方法
+- setter是一种设置属性值的方法。
+
+###### 特点
+
+- 代理的是**属性**。 给单一的属性设置 getter和 setter
+- 对数组数据的变化无能为力
+- 返回修饰过后的对象
+
+##### [**Proxy**](http://caibaojian.com/es6/proxy.html)
+
+- 代理的是 **对象**。给对象自身来设置setter和getter
+
+- 可以拦截到数组的变化
+
+- 返回劫持之后的对象 
+
+- 浏览器支持度不够
+
+- 拦截的方法多达13种
+
+  （1）get(target, propKey, receiver)
+
+  （2）set(target, propKey, value, receiver)
+
+  （3）has(target, propKey)
+
+  （4）deleteProperty(target, propKey)
+
+  （5）ownKeys(target)
+
+  ​	.......
 
 
 
+```
+Object.defineProperty({}, "num", {
+    get : function(){
+      return value;
+    },
+    set : function(newValue){
+      value = newValue;
+    },
+    enumerable : true,
+    configurable : true
+});
+
+var proxy = new Proxy({}, {
+    get: function(obj, prop) {
+        console.log('设置 get 操作')
+        return obj[prop];
+    },
+    set: function(obj, prop, value) {
+        console.log('设置 set 操作')
+        obj[prop] = value;
+    }
+});
+```
 
 
 
+#### 优化大量数据的渲染
+
+1. 分页加载
+2. 服务器渲染SSR，在服务端渲染组件
+3. 固定的非响应式的数据，使用Object.freeze冻结
+4. 尽量不要使用双向绑定
+5. 增加加载动画或者骨架屏，提升体验
+6. [虚拟列表](https://github.com/dwqs/blog/issues/70)
 
 
 
+#### 单页应用的优缺点
+
+**优点**
+
+1. 提供了更加吸引人的用户体验。具有桌面应用的即时性、网站的可移植性和可访问性。
+2. 单页应用的内容的改变不需要重新加载整个页面。web应用更具响应性。
+3. 单页应用没有页面之间的切换。就不会出现“白屏现象”,也不会出现假死并有“闪烁”现象
+4. 单页应用相对服务器压力小。服务器只用出数据就可以，不用管展示逻辑和页面合成，吞吐能力会提高几倍。
+5. 良好的前后端分离。后端不再负责模板渲染、输出页面工作，后端API通用化，即同一套后端程序代码，不用修改就可以用于Web界面、手机、平板等多种客户端。
+
+**缺点**
+
+1. 首次加载耗时比较多。
+2. SEO问题，不利于百度，360等搜索引擎收录。
+3. 容易造成Css命名冲突。
+4. 前进、后退、地址栏、书签等，都需要程序进行管理
 
 
 
+#### **如何优化首页的加载速度**
+
+##### 为什么首页加载慢
+
+单页面应用的 html 是靠 js 生成，首屏需要将需要的所有资源都下载到浏览器端并解析(`app.js` `vendor.js`)
 
 
+
+##### 解决方案
+
+1. 优化 webpack 减少模块打包体积
+2. 服务端渲染
+3. 首页加 loading 或 骨架屏
+4. gzip压缩
+5. 多页面+单页面组合。酌情拆分一些其他页面作为新页面
+6. 其它： cdn、减少请求、雪碧图、gzip、浏览器缓存
 
 # Vuex
 
@@ -246,6 +364,13 @@ filters: {
 - **action**
 - **getter**
 - **module**
+
+### 疑问
+
+#### 为什么 mutation不能异步
+
+1. devtool快照可以正确记录值的变化。每一个 mutation 执行完成后都可以对应到一个新的状态（和 reducer 一样），这样 devtools 就可以打个 snapshot 存下来
+2. 同步修改放在mutation中，有副作用的函数放在action中。这样的设计可以更好的进行解耦和接口封装，把脏活留给 action 做。
 
 # Vue-Router
 
