@@ -1,6 +1,65 @@
-### 原型链
+### [原型链](https://segmentfault.com/a/1190000021232132)
+
+>  参考链接  
+>
+>  [JavaScript深入之从原型到原型链 · Issue #2 · mqyqingfeng/Blog (github.com)](https://github.com/mqyqingfeng/blog/issues/2),
+>
+> [一张图搞定JS原型&原型链 - SegmentFault 思否](https://segmentfault.com/a/1190000021232132)
+
+
 
 ![](E:\Code\笔记\笔记图片\js原型链.jpg)
+
+#### 基本概念
+
+\__proto\__ 、 prototype和constructor
+
+1. 对象中都有两个属性， \__proto\__ 和constructor
+2. prototype 是函数独有的
+3. 函数是一种特殊的对象，所以函数同时拥有 \__proto\__ 和constructor 和 prototype
+
+
+
+![](E:\Code\笔记\笔记图片\__proto__ 、 prototype和constructor.jpg)
+
+ \__proto__  属性是实例对象指向原型对象的属性
+
+ prototype 属性指向一个对象，这个对象正是调用该构造函数而创建的**实例**的原型。
+
+constructor属性，用于记录实例是由哪个构造函数创建；
+
+原型对象也有一个自己的原型对象(  \___proto\___ ) ，层层向上直到一个对象的原型对象为 null。(根据定义，null 没有原型，并作为这个原型链中的最后一个环节)
+
+
+
+#### 四个概念和两个原则
+
+四个概念	
+
+1. js分为**函数对**象和**普通对象**，每个对象都有\__proto\__属性，但是只有函数对象才有prototype属性
+2. Object、Function都是js内置的**函数**, 类似的还有我们常用到的Array、RegExp、Date、Boolean、Number、String
+3. 属性\__proto\__是一个对象，它有两个属性，constructor和\__proto\__；
+4. 原型对象prototype有一个默认的constructor属性，用于记录实例是由哪个构造函数创建；
+
+
+
+两个原则
+
+1. Person.prototype.constructor === Person 
+
+    **准则1：原型对象（即Person.prototype）的constructor指向构造函数本身** 
+
+2. person01.\__proto__ == Person.prototype 
+
+   **准则2：实例（即person01）的__proto__和原型对象指向同一一个地方**
+
+
+
+#### 注意事项
+
+instanceof（f1） === Function的返回值是false，因为instanceof会一直沿着__proto__寻找，Foo.prototype.__prpto__ 将直接指Object.propotype.
+
+用function funName（）定义的函数，包括js内置的function Object（）和 function Function() 都属于同一个原型——Function.prototype.
 
 ### this的指向问题
 
