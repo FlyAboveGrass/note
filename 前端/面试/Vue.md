@@ -125,6 +125,65 @@ MyComponent.prototype.data = function() {
 </keep-alive>
 ```
 
+
+
+### [异步组件](https://cn.vuejs.org/v2/guide/components-dynamic-async.html)
+
+用于做性能优化，我们有时需要将应用分割成多个部分，把一些暂时不需要或者不一定需要的代码进行按需加载。
+
+在一些体量很大的页面中，如果不设置优先级进行加载，那么可能会导致前面的组件阻塞后面的重要信息的加载。
+
+>  `Vue` 允许你以一个工厂函数的方式定义你的组件，这个工厂函数会异步解析你的组件定义。**`Vue` 只有在这个组件需要被渲染的时候才会触发该工厂函数，且会把结果缓存起来供未来重渲染**
+
+
+
+#### 用法
+
+```
+<template>
+  <div>
+    <p>11111111111</p>
+    <com-b></com-b>
+  </div>
+</template>
+<script>
+// import comB from '../asyncComponentB/index'
+export default {
+  name: 'comA',
+  components: {
+    'comB': () => import('../asyncComponentB/index')
+    // comB
+  },
+  data () {
+    return {
+    }
+  }
+}
+</script>
+```
+
+#### 异步组件加载状态
+
+加载异步组件有时也会花费比较长的时间，为了保持良好的体验，可以对加载异步组件做定制效果
+
+```
+const AsyncComponent = () => ({
+  // 需要加载的组件 (应该是一个 `Promise` 对象)
+  component: import('./MyComponent.vue'),
+  // 异步组件加载时使用的组件
+  loading: LoadingComponent,
+  // 加载失败时使用的组件
+  error: ErrorComponent,
+  // 展示加载时组件的延时时间。默认值是 200 (毫秒)
+  delay: 200,
+  // 如果提供了超时时间且组件加载也超时了，
+  // 则使用加载失败时使用的组件。默认值是：`Infinity`
+  timeout: 3000
+})
+```
+
+
+
 ### [生命周期](https://zhuanlan.zhihu.com/p/71958016)
 
 ![](E:\Code\笔记\笔记图片\vue生命周期.jpg)
