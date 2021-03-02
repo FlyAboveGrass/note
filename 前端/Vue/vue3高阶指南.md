@@ -278,3 +278,50 @@ Teleport 提供了一种干净的方法，允许控制在哪一个父节点下�
 如果teleport包含Vue组件，那个Vue组件是 <teleport> 父组件的逻辑子组件。
 
 如果在同一个目标上使用多个teleport，那么多个teleport的内容会按顺序挂载到同一个目标元素中。
+
+
+
+### [Suspense](https://juejin.cn/post/6854573214547312654)
+
+vue3中自带的内置标签，类似keep-alive的用法
+
+当要加载的组件不满足状态时,`Suspense` 将回退到 `fallback`状态一直到加载的组件满足条件，才会进行渲染。（<AsyncComponent/>组件需要返回一个Promise）
+
+```
+// #default插槽里面的内容就是你需要渲染的异步组件;#fallback就是你指定的加载中的静态组件。
+  <Suspense>
+      <template #default>
+      	<AsyncComponent/>
+      </template>
+      <template #fallback>
+      	<h1>Loading</h1>
+      </template>
+  </Suspense>
+```
+
+​	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -87,6 +87,22 @@ obj.foo()
 const c = new foo()
 ```
 
+#### bind/apply/call
+
+这三个函数都可以用来改变this的指向
+
+**bind**返回的是一个函数， call/apply 是立刻执行的
+
+call 传入的参数是一系列的参数， apply 传入的是一个参数数组
+
+
+
+
+
+
+
+
+
 ### 深拷贝和浅拷贝
 
 拷贝：将一个对象复制一份给新对象
