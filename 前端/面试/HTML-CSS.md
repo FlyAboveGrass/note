@@ -193,7 +193,7 @@ box-sizing:border-box;
 
 ### BFC
 
-BFC（Block Formatting Contexts，块级格式化上下文）是Web页面中盒模型布局的CSS渲染模式，指一个独立的渲染区域或者说是一个隔离的独立容器，容器内外互不影响。
+BFC（Block Formatting Contexts，块级格式化上下文）**是Web页面中盒模型布局的CSS渲染模式**，指一个独立的渲染区域或者说是一个隔离的独立容器，容器内外互不影响。
 
 #### BFC特性
 
@@ -202,14 +202,14 @@ BFC（Block Formatting Contexts，块级格式化上下文）是Web页面中盒�
 3. 从最左边开始。每个元素的margin box的左边，与包含块border box的左边(对于从左往右的格式化，否则相反)。即使存在浮动也是如此
 4. 不与float box叠加。 
 5. 独立容器。BFC就是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面的元素，反之亦然。 
-6. 计算浮动元素计算BFC的高度时，浮动元素也参与计算（当BFC内部有浮动时，为了不影响外部元素的布局，**BFC计算高度时会包****括浮动元素的高度**）
+6. 计算浮动元素计算BFC的高度时，浮动元素也参与计算（当BFC内部有浮动时，为了不影响外部元素的布局，**BFC计算高度时会包括浮动元素的高度**）
 
 #### 触发BFC方式
 
-- float 除了none以外的值 
+- float 除了none以外的值 	
 
 - overflow 除了visible 以外的值（hidden，auto，scroll ） 
-  - display (table-cell，table-caption，inline-block, **flex**, inline-flex) 
+- display (table-cell，table-caption，inline-block, **flex**, inline-flex) 
 - 绝对定位，即position值为（absolute，fixed） 
 
 - fieldset元素
@@ -252,3 +252,8 @@ p:nth-child(2)	父元素的第二个子元素的每个 <p> 元素。
 
   padding用于元素与内容之间的间隔，让内容（文字）与（包裹）元素之间有一段间距
 
+
+
+
+
+### [Less学习](https://less.bootcss.com/#%E5%8F%98%E9%87%8F%EF%BC%88variables%EF%BC%89)

@@ -11,7 +11,34 @@
    1. [Vuex](https://vuex.vuejs.org/zh/)
    2. eventBus事件总线
 
+### 如何理解[MVVM](https://juejin.cn/post/6844903825225023502#heading-2)
 
+![](../../笔记图片/MVVM.png)
+
+##### 分层
+
+View 是视图层，也就是用户界面。
+
+Model 是指数据层，泛指后端进行的各种业务逻辑处理和数据操控，主要围绕数据库系统展开。
+
+**MVVM 的核心是 ViewModel （业务逻辑层）**，是由前端开发人员组织生成和维护的视图数据层，它就像是一个中转站（value converter），负责转换 Model 中的数据对象来让数据变得更容易管理和使用，该层向上与视图层进行**双向数据绑定**，向下与 Model 层通过接口请求进行数据交互
+
+
+
+##### 优缺点
+
+**优点**
+
+1. 双向绑定
+2. 简化了controller
+3. 易于维护
+4. 易于测试
+5. 低耦合，可重用
+
+**缺点**
+
+1. bug难调试。 页面的异常可能来自 M 也可能来自VM
+2. 对于大型的图形应用程序，视图状态较多，ViewModel的构建和维护的成本都会比较高。
 
 ### [v-for为什么需要key](https://vue3js.cn/docs/zh/guide/list.html#%E7%BB%B4%E6%8A%A4%E7%8A%B6%E6%80%81)
 
@@ -507,19 +534,80 @@ beforeRouteUpdate (to, from, next) {
 
 
 
+# Axios
 
 
 
+### [axios取消请求](https://juejin.cn/post/6844903621784502280)
+
+#### 使用方法
+
+```
+var CancelToken = axios.CancelToken;
+var source = CancelToken.source();
+axios.get('/get?name=xmz', {
+    cancelToken : source.token
+}).then((response)=>{
+    console.log('response', response)
+}).catch((error)=>{
+    if(axios.isCancel(error)){
+        console.log('取消请求传递的消息', error.message)
+    }else{
+        console.log('error', error)
+    }
+})
+// 取消请求
+source.cancel('取消请求传递这条消息');
+```
+
+#### 原理
+
+##### source是什么？
+
+source是一个函数，返回一个包含token和cancel方法的对象。token标识该请求，cancel取消请求
+
+##### 如何取消的
+
+1. 创建一个promise，并且**将这个promise的resolve函数保存在外部**。
+2. 创建一个token， 标识这一个cancelToken类的实例
+3. 向外暴露一个执行器函数， 这个执行器函数的作用是执行CancelToken步骤1保存在外部的resolve函数，把promise状态变成Resolved.
+4. 在发送请求的时候，会把cancelToken和请求的promise放在一起，**类似于promise.race**。 cancel就是让cancelToken的promise的状态变成Resolved，所以如果执行了，取消请求的函数，cancelToken的then就会先执行，取消发送请求，并且把发送请求的promise变成reject,被axiox.get().catch()捕获
 
 
 
+```
+CancelToken.source = function(){
+    var cancel;
+    var token = new CancelToken(function executor(c) {
+        cancel = c
+    })
+    return {
+        token : token,
+        cancel : cancel
+    }
+}
+```
 
-
-
-
-
-
-
+```
+function CancelToken (executor){
+    // ...
+    // 判断executor是一个函数，不然就报错
+    var resolvePromise;
+    this.promise = new Promise(function(resolve){
+        resolvePromise = resolve;
+    })
+    var token = this;
+    // 以上token现在有一个promise属性，是一个未成功的promise对象；
+    executor(function cancel(message){
+        if(token.reason){
+            return;
+        }
+        token.reason = new Cancel(message); // Cancel就是给token一个结果信息
+        resolvePromise(token.reason);
+    })
+    // 这个cancel函数就是 上面函数中的cancel，也就是source.cancel；
+}
+```
 
 
 
