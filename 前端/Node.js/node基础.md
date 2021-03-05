@@ -47,7 +47,7 @@
 
 # 二、node的模块化  
 
-dry原则： don't repeat yourselfnode没有全局作用域，只有模块作用域。
+dry原则： don't repeat yourself。 node没有全局作用域，只有模块作用域。
 
 ## 模块是什么：   
 
@@ -57,9 +57,10 @@ dry原则： don't repeat yourselfnode没有全局作用域，只有模块作用
 
 ​	node.js遵循的是CommonJs的规范，与ES6的模块系统不同。[CommonJs和ES6模块的区别](https://juejin.cn/post/6844904067651600391) 
 
-+ 模块作用域
-+ exports 导出值拷贝，修改不会影响原来模块
-+ 运行时加载
++ CommonJS模块输出的是一个值的拷贝，ES6 模块输出的是值的引用；
++ CommonJS 模块是运行时加载，ES6 模块是编译时输出接口。
++ ES6模块顶层，`this`指向`undefined`；而CommonJS模块的顶层的`this`指向当前模块
++ ES6模块中可以直接加载CommonJS模块，但是只能整体加载，不能加载单一的输出项
 
 ## **模块的分类** 
 

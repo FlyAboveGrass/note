@@ -430,12 +430,18 @@ var proxy = new Proxy({}, {
 
 ##### 解决方案
 
+>  参考链接： https://www.cnblogs.com/whisperzzZ/p/13524309.html
+
 1. 优化 webpack 减少模块打包体积
-2. 服务端渲染
-3. 首页加 loading 或 骨架屏
-4. gzip压缩
-5. 多页面+单页面组合。酌情拆分一些其他页面作为新页面
-6. 其它： cdn、减少请求、雪碧图、gzip、浏览器缓存
+2. [多入口](https://www.jianshu.com/p/00b51e4e2b2e)
+3. 服务端渲染
+4. 路由懒加载
+5. 首页加 loading 或 骨架屏
+6. gzip压缩
+7. 关闭sourceMap
+8. 使用更轻量级的工具库
+9. 多页面+单页面组合。酌情拆分一些其他页面作为新页面
+10. 其它： cdn、减少请求、雪碧图、gzip、浏览器缓存
 
 # Vuex
 
