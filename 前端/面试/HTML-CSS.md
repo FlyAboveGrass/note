@@ -88,6 +88,30 @@ box-sizing:border-box;
 
 
 
+### [文本超出截断](https://www.zoo.team/article/text-overflow)
+
+```
+// 单行文本
+.ellipsis-line {
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis; // 文本溢出显示省略号
+    white-space: nowrap; // 文本一行内显示， 不换行
+}
+
+// 多行文本
+.multi-line {
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; // 必须
+    -webkit-line-clamp: 3;  // 截断行数
+    -webkit-box-orient: vertical; 
+}
+```
+
+
+
 ### css性能优化
 
 1. 避免过度约束

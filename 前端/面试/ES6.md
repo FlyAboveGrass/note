@@ -53,6 +53,18 @@
 - generator
 - async/await（终极方案，同步的方式实现异步）
 
+
+
+### Promise
+
+#### [手写promise](https://juejin.cn/post/6850037281206566919#heading-3)
+
+```
+
+```
+
+
+
 ### [set和map](http://caibaojian.com/es6/set-map.html)
 
 #### Set
