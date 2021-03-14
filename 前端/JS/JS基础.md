@@ -49,3 +49,36 @@ function instanceof(left,right){
 }
 ```
 
+### for of 和for in区别
+
+#### for in 
+
+**枚举**。 适合遍历对象
+
+1. 可以枚举对象，获得对象的key值
+
+2. 可以遍历数组，数组获得**下标**，通过下标可以得到值
+
+   
+
+   
+
+#### for of 
+
+**迭代**。适合遍历数组
+
+1. 不可以枚举对象
+2. 可以迭代数组，获得数组的**值**
+3. 可以迭代类数组， 如字符串、arguments、nodeList、map/set、generator
+4. 可以用break中断遍历
+
+
+
+
+
+
+
+
+
+
+
