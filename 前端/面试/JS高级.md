@@ -99,7 +99,150 @@ call 传入的参数是一系列的参数， apply 传入的是一个参数数�
 
 
 
+### JS继承
 
+
+
+> 参考链接：
+>
+> https://segmentfault.com/a/1190000016708006
+>
+> https://segmentfault.com/a/1190000015727237
+
+
+
+![](../../笔记图片/JS继承方式演化.png)
+
+#### 原型链继承
+
+**原型式继承**
+
+> 通过将子类的原型指向了父类的实例
+
+
+
+优点：实现基于一个对象的简单继承，不必创建构造函数
+
+缺点：
+
+1. 创建子类实例时，无法向父类构造函数传参
+2. 父类的引用属性会被所有子类实例共享， 实例1修改原型对象上的属性会影响实例2
+3. 不能多继承
+
+```
+function object(o){  
+    function F(){};  
+    F.prototype = o;  
+    return new F();
+}
+```
+
+#### 借用构造函数
+
+> 在子类型构造函数中通用call()调用父类型构造函数
+
+
+
+**特点：**
+
+- 解决了原型链继承中子类实例共享父类引用属性的问题
+- 创建子类实例时，可以向父类传递参数
+- 可以实现多继承(call多个父类对象)
+
+**缺点**：
+
+- 实例并不是父类的实例，只是子类的实例
+- 只能继承父类的实例属性和方法，不能继承原型属性和方法
+- 无法实现函数复用，每个子类都有父类实例函数的副本，影响性能
+
+```
+  function Person(name, age) {
+    this.name = name,
+    this.age = age,
+    this.setName = function () {}
+  }
+  Person.prototype.setAge = function () {}
+  function Student(name, age, price) {
+  	// 相当于:：this.Person(name, age)
+    Person.call(this, name, age)  
+    this.price = price
+  }
+```
+
+#### 组合继承
+
+> 通过调用父类构造，继承父类的属性并保留传参的优点，然后通过将父类实例作为子类原型，实现函数复用。
+
+
+
+**优点**：
+
+- 可以继承实例属性/方法，也可以继承原型属性/方法
+- 不存在引用属性共享问题
+- 可传参
+- 函数可复用
+
+**缺点**：
+
+- 调用了两次父类构造函数，生成了两份实例
+
+```
+ function Person(name, age) {
+ 	this.name = name,
+ 	this.age = age,
+ 	this.setAge = function () { }
+ }
+ Person.prototype.setAge = function () {
+ 	console.log("111")
+ }
+ function Student(name, age, price) {
+ 	Person.call(this,name,age)
+ 	this.price = price
+ 	this.setScore = function () { }
+ }
+Student.prototype = new Person()
+//组合继承也是需要修复构造函数指向的
+Student.prototype.constructor = Student
+```
+
+
+
+#### 原型式继承
+
+#### 寄生式继承
+
+```
+function inheritPrototype(subType, superType){
+    var prototype = object(superType.prototype); // 创建了父类原型的浅复制
+    prototype.constructor = subType;             // 修正原型的构造函数
+    subType.prototype = prototype;               // 将子类的原型替换为这个原型
+}
+
+function SuperType(name){
+    this.name = name;
+    this.colors = ["red", "blue", "green"];
+}
+
+SuperType.prototype.sayName = function(){
+    alert(this.name);
+};
+
+function SubType(name, age){
+    SuperType.call(this, name);
+    this.age = age;
+}
+// 核心：因为是对父类原型的复制，所以不包含父类的构造函数，也就不会调用两次父类的构造函数造成浪费
+inheritPrototype(SubType, SuperType);
+SubType.prototype.sayAge = function(){
+    alert(this.age);
+}
+```
+
+
+
+####  寄生组合继承
+
+> 开发人员普遍认为寄生组合式继承是引用类型最理想的继承范式。
 
 
 
