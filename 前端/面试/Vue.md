@@ -80,6 +80,12 @@ Model 是指数据层，泛指后端进行的各种业务逻辑处理和数据�
 
 
 
+**设置 nextTick 回调 + 过滤 watcher**
+
+当数据变化后，把 watcher.update 函数存放进 nextTick 的 回调数组中，并且会做过滤。通过 watcher.id 来判断 回调数组 中是否已经存在这个 watcher 的更新函数，不存在，才 push；以这样的方式将重复的dom更新合并。
+
+
+
 ```
 getText:function(){
     this.showDiv = true;
