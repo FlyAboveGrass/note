@@ -6,6 +6,8 @@
 4. JSX。在js里面书写html
 5. 组件化、模块化。React最大的优点，能够很好的进行代码的复用
 6. 单向数据流。
+7. 函数式编程
+8. 视图层框架
 
 
 
@@ -47,6 +49,8 @@ React DOM 在渲染所有输入内容之前，默认会进行[转义](https://st
 1. 混入js表达式的时候用 {} ， 指定内联样式用 {{}}
 2. 必须保证有且仅有一个根元素。标签名小写，大写的默认为组件
 3. 指定样式的类名使用 className 而不是 class
+4. 使用 Fragment 可以让 jsx 外层div不显示出来 
+5. 书写注释使用大括号，页面不会显示。   { // }
 
 
 
@@ -86,6 +90,8 @@ react中的组件类似于函数，接受任意入参（props），返回描述�
 
 作用： 复用编码，简化编码， 提高运行时效率
 
+
+
 #### 函数组件 & class组件
 
 ```
@@ -112,8 +118,6 @@ class Welcome extends React.Component {
 
 
 ### State & 生命周期
-
--
 
 ```
 // 复杂的元素只能用class组件
@@ -190,6 +194,10 @@ react中的e 是一个合成事件， 是react 根据 w3c 规范定义的，没�
 
 
 #### JSX 回调函数中的 this 
+
+> JavaScript 中，class 的方法默认不会[绑定](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind) `this`。
+
+
 
 1. render方法中的this为组件的实例对象
 
@@ -355,7 +363,7 @@ key 会传递信息给react ， 但是不会传递给组件。 如果组件中�
 
 ### [状态提升](https://zh-hans.reactjs.org/docs/lifting-state-up.html)
 
-
+多个组件需要反映相同的变化数据，这时我们建议将共享状态提升到最近的共同父组件中去。
 
 ```
 class Calculator extends React.Component {
@@ -400,7 +408,95 @@ class Calculator extends React.Component {
 
 
 
-### 
+### 组合 & 继承
+
+> 推荐使用组合而非继承来实现组件间的代码重用
+
+
+
+#### 包含关系
+
+当无法提前知晓子组件的具体内容时， 使用一个特殊的 `children` prop 来将他们的子组件传递到渲染结果，这使得别的组件可以通过 JSX 嵌套，将任意组件作为子组件传递给它们
+
+```
+function FancyBorder(props) {
+  return (
+    <div className={'FancyBorder FancyBorder-' + props.color}>
+      {props.children}
+    </div>
+  );
+}
+
+function WelcomeDialog() {
+  return (
+    <FancyBorder color="blue">
+      <h1 className="Dialog-title">
+        Welcome
+      </h1>
+      <p className="Dialog-message">
+        Thank you for visiting our spacecraft!
+      </p>
+    </FancyBorder>
+  );
+}
+```
+
+
+
+
+
+有时我们需要将所需内容传入 props ，然后指定 元素的位置。
+
+```
+function SplitPane(props) {
+  return (
+    <div className="SplitPane">
+      <div className="SplitPane-left">
+        {props.left}
+      </div>
+      <div className="SplitPane-right">
+        {props.right}
+      </div>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <SplitPane
+      left={
+        <Contacts />
+      }
+      right={
+        <Chat />
+      } />
+  );
+}
+```
+
+
+
+有点类似于Vue 里面插槽的概念，但在 **React 中没有“插槽**” 这一概念的限制，你可以将任何东西作为 props 进行传递
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -411,6 +507,4 @@ class Calculator extends React.Component {
 // react中的全局状态管理
 
 // 有没有数据驱动和双向绑定
-
-// 
 
