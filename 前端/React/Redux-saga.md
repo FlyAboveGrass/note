@@ -4,7 +4,12 @@
 
 `redux-saga` 是一个用于管理应用程序 Side Effect（副作用，例如异步获取数据，访问浏览器缓存等）的库。
 
-​		不同于redux-thunk， redux-thunk 是有可能遇到回调地狱的，但是 redux-saga 使用的是generator 进行异步的管理，所以不会遇到回调地狱。
+
+
+不同于redux-thunk， 
+
+- redux-thunk 是有可能遇到回调地狱的，但是 redux-saga 使用的是generator 进行异步的管理，所以不会遇到回调地狱。
+- redux-saga 是在action 和 reducer 中间加了一层去处理 action。thunk 没有改变原来 redux 的运行流程，只是让action 可以接受一个可执行的 函数。
 
 
 
@@ -210,7 +215,31 @@ const id = yield select(state => state.id);
 
  `takeEvery` 的情况中，被调用的任务无法控制何时被调用， 它们将在每次 action 被匹配时一遍又一遍地被调用。并且它们也无法控制何时停止监听。
 
- `take` 的情况中，控制恰恰相反。与 action 被推向任务处理函数不同，Saga 是自己主动拉取action 的。 看起来就像是 Saga 在执行一个普通的函数调用 `action = getNextAction()`，这个函数将在 action 被发起时 resolve。
+ `take` 的情况中，控制恰恰相反。与 action 被推向任务处理函数不同，Saga 是自己主动拉取action 的。 看起来就像是 Saga 在执行一个普通的函数调用 `action = getNextAction()`，他会这个函数将在 action 被发起时 resolve。
+
+
+
+takeEvery 只是单纯的监听所有的action。
+
+take 可以直接定义在一个相关联的流程中 action 的顺序是什么样的。
+
+```
+//takeEvery 
+function* loginFlow() {
+	yield takeEvery('LOGIN', login_logic_fn)
+	yield takeEvery('LOGOUT', logout_logic_fn)
+}
+
+// take
+function* loginFlow() {
+  while (true) {
+    yield take('LOGIN')
+    // ... perform the login logic
+    yield take('LOGOUT')
+    // ... perform the logout logic
+  }
+}
+```
 
 
 

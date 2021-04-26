@@ -16,7 +16,7 @@
 
 
 
-> 注： 下面的 input-selector 指的是createSelector 的第一个参数。
+> 注： 下面的 input-selector 指的是createSelector 的最后的结果函数前面的函数
 
 ## 缓存 selector
 
@@ -85,13 +85,42 @@ createSelector(…inputSelectors|[inputSelectors],resultFunc)
 
 
 
+## createSelectorCreator
+
+```
+createSelectorCreator(memoize, …memoizeOptions)
+```
 
 
 
+`createSelectorCreator`用来配置定制版本的`createSelector`.
 
 
 
+### 定义一个定制的 createSelector
 
+```
+const customSelectorCreator = createSelectorCreator(
+  customMemoize, // function to be used to memoize resultFunc,记忆resultFunc
+  option1, // option1 will be passed as second argument to customMemoize 第二个惨呼
+  option2, // option2 will be passed as third argument to customMemoize 第三个参数
+  option3 // option3 will be passed as fourth argument to customMemoize   第四个参数
+)
+
+const customSelector = customSelectorCreator(
+  input1,
+  input2,
+  resultFunc // resultFunc will be passed as first argument to customMemoize  作为第一个参数传递给customMomize
+)
+```
+
+
+
+在 `customSelecotr` 内部使用memoize的函数的代码如下:
+
+```
+customMemoize(resultFunc, option1, option2, option3)
+```
 
 
 

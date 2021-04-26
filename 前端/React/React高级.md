@@ -679,6 +679,200 @@ ReactDOM.createPortal(child, container)
 
 
 
+## Refs and the DOM
+
+
+
+在典型的 react 数据流中， props 是父组件和子组件交互的唯一方式；如果想要修改一个子组件，那么我们需要使用新的props 去重新渲染它。
+
+
+
+refs 提供了一种新的方式，**让我们可以强制的去修改子组件**。
+
+
+
+### 使用场景
+
+
+
+下面是几个适合使用 refs 的情况：
+
+- 管理焦点，文本选择或媒体播放。
+- 触发强制动画。
+- 集成第三方 DOM 库。
+
+
+
+
+
+我们应当避免使用 refs 去做 props 就可以做到的事情。 例如状态提升让子组件反应相同的变化数据。
+
+
+
+
+
+### 使用方法
+
+ref 的值根据节点的类型而有所不同：
+
+- 当 `ref` 属性用于 HTML 元素时，构造函数中使用 `React.createRef()` 创建的 `ref` 接收**底层 DOM 元素**作为其 `current` 属性。
+- 当 `ref` 属性用于自定义 class 组件时，`ref` 对象接收组件的**挂载实例**作为其 `current` 属性。
+- **你不能在函数组件上使用 `ref` 属性**，因为他们没有实例。
+
+
+
+```
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+  }
+  render() {
+    return <div ref={this.myRef} />;
+  }
+}
+
+
+const node = this.myRef.current;
+```
+
+
+
+### 将 DOM refs 暴露给父组件
+
+
+
+有时候需要父组件引用子组件中的 DOM 节点，（不建议这样，会打破组件封装）。
+
+- 可以在父组件向子组件添加 ref ， 但是这只能获取组件实例获取不到组件的 dom
+- **Ref 转发**使组件可以像暴露自己的 ref 一样暴露子组件的 ref
+
+
+
+
+
+### 回调 Refs
+
+
+
+回调 refs 中，你会传递一个函数。这个函数中接受 React 组件实例或 HTML DOM 元素作为参数，以使它们能在其他地方被存储和访问。
+
+
+
+React 将在组件挂载时，会调用 `ref` 回调函数并传入 DOM 元素，当卸载时调用它并传入 `null`。在 `componentDidMount` 或 `componentDidUpdate` 触发前，React 会保证 refs 一定是最新的。
+
+
+
+## Rander Props
+
+
+
+**render prop 是一个用于告知组件需要渲染什么内容的函数 prop。**
+
+
+
+
+
+## PropTypes 类型检查
+
+
+
+```
+// 普通用法
+MyComponent.PropTypes = {
+	title: PropTypes.string.required,
+	id: PropTypes.oneOfType(PropTypes.string, PropTypes.number)
+}
+
+// 只允许一个 prop
+MyComponent.propTypes = {
+  children: PropTypes.element.isRequired
+};
+
+// 指定 props 的默认值：
+Greeting.defaultProps = {
+  name: 'Stranger'
+};
+```
+
+
+
+
+
+
+
+## 静态类型检查
+
+
+
+我们建议在大型代码库中使用 Flow 或 TypeScript 来代替 `PropTypes`进行静态类型检查
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

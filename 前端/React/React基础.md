@@ -119,6 +119,12 @@ class Welcome extends React.Component {
 
 ### State & 生命周期
 
+
+
+#### 生命周期
+
+ 
+
 ```
 // 复杂的元素只能用class组件
 class Clock extends React.Component {
