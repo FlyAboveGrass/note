@@ -1,3 +1,7 @@
+# react高级
+
+
+
 ## 代码分割
 
 
@@ -817,6 +821,308 @@ Greeting.defaultProps = {
 
 
 
+# Hook
+
+
+
+hook 可以让你在不写 class 租价的时候就可以使用state 和其他 react 特性
+
+
+
+### hook 基础
+
+
+
+#### **hook 的特点**
+
+- 完全可选
+-  100 % 向后兼容
+- 现在可用
+- 替换 state 而不是合并
+
+
+
+#### 为什么需要 hook 
+
+
+
+**状态的复用**
+
+react 没有提供将可复用性行为 “附加” 到组件的途径（例如连接到 store）。 **hook 使你能够在无需修改组件结构的情况下复用状态逻辑**
+
+
+
+**复杂组件的简化**
+
+hook 可以将组件中相互关联的部分拆分成更小的函数，不用强制按照生命周期划分，你还可以使用 reducer 去管理组件内部的状态。
+
+
+
+**class 难以理解**
+
+Hook 使你在非 class 的情况下可以使用更多的 React 特性
+
+
+
+
+
+### state hook
+
+在没有 hook 的时候，我们如果要给一个组件设定一个状态，那么我们必须把它写成 class 组件，因为函数组件没有状态，只能够编写静态内容。
+
+有hook 之后，我们就可以向现有的函数组件里面添加状态了。
+
+
+
+```
+import React, { useState } from 'react';
+
+function Example() {
+  // 声明一个叫 "count" 的 state 变量
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+```
+
+
+
+#### **useState**
+
+
+
+useState 定义一个变量，他是一个新的方法，作用和 class 组件里面的 `this.state ` 完全相同。一般的变量会在函数退出的时候销毁变量，useState 定义的变量会被 react 保留。
+
+
+
+**参数**
+
+
+
+**返回值**
+
+当前 state 以及更新 state 的函数
+
+
+
+**读取**
+
+
+
+
+
+
+
+
+
+### Effect Hook
+
+数据获取，设置订阅以及手动更改 React 组件中的 DOM 都属于副作用。
+
+
+
+使用 Hook 其中一个[目的](https://zh-hans.reactjs.org/docs/hooks-intro.html#complex-components-become-hard-to-understand)就是要解决 class 中生命周期函数经常包含不相关的逻辑，但又把相关逻辑分离到了几个不同方法中的问题
+
+
+
+可以把 `useEffect` Hook 看做 `componentDidMount`，`componentDidUpdate` 和 `componentWillUnmount` 这三个函数的组合。
+
+
+
+#### 无需清除的effect
+
+
+
+react 更新 dom 之后额外运行一些代码（例如 发送网络请求， 手动变更 dom， 记录日志），这些属于常见的不需要清除的effect
+
+
+
+
+
+##### **class中的副作用**
+
+class 组件中，我们不希望在 `render` 函数中有任何的副作用，我们希望在 react 更新 dom 之后才执行我们的操作。
+
+这就是为什么我们把副作用放到了 `componentDidMount` 和 `componentDidUpdate` 函数中
+
+
+
+
+
+#### useEffect
+
+由于添加和删除订阅的代码的紧密性，所以 `useEffect` 的设计是在同一个地方执行。如果你的 effect 返回一个函数，React 将会在执行清除操作时调用它：
+
+
+
+```
+function FriendStatus(props) {
+  const [isOnline, setIsOnline] = useState(null);
+
+  useEffect(() => {
+    function handleStatusChange(status) {
+      setIsOnline(status.isOnline);
+    }
+    ChatAPI.subscribeToFriendStatus(props.friend.id, handleStatusChange);
+
+		return function cleanup() {
+      ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
+    };
+  });
+
+  if (isOnline === null) {
+    return 'Loading...';
+  }
+  return isOnline ? 'Online' : 'Offline';
+}
+```
+
+
+
+**为什么返回函数**
+
+这是 effect 可选的清除机制，每个 effect 可以返回一个清除函数，可以将副作用的添加和清除放在一起。
+
+
+
+**什么时候清除**
+
+react 会在组件卸载的时候进行清除。
+
+
+
+### effect 使用提示
+
+
+
+#### 使用多个 effect 实现关注点分离
+
+
+
+
+
+
+
+#### 为什么每次更新都要运行 effect
+
+
+
+
+
+#### 通过跳过 effect 进行性能优化
+
+
+
+每次渲染后都执行清理或者执行 effect 可能会导致性能问题。
+
+
+
+可以通知 React **跳过**对 effect 的调用，只要传递数组作为 `useEffect` 的第二个可选参数即可
+
+
+
+```
+useEffect(() => {
+  document.title = `You clicked ${count} times`;
+}, [count]); // 仅在 count 更改时更新
+```
+
+
+
+
+
+### hook 规则
+
+
+
+#### 只在最顶层使用 hook
+
+**不要在循环，条件或嵌套函数中调用 Hook，** 确保总是在你的 React 函数的最顶层以及任何 return 之前调用他们。
+
+遵守这条规则，你就能确保 Hook 在每一次渲染中都按照同样的顺序被调用。（React 靠的是 Hook 调用的顺序识别 state 对应哪一个 useState ）
+
+
+
+#### 只在 react 函数中调用 hook
+
+不要在普通函数中调用 hook
+
+
+
+react 函数中调用 hook：
+
+- react 函数组件
+- 其他自定义 hook
+
+
+
+
+
+
+
+### 自定义 Hook
+
+
+
+自定义 hook 可以让我们把组件逻辑提取到可重用的函数中
+
+
+
+
+
+#### 提取自定义 hook
+
+
+
+hook 是一个函数，名称总是以 `use` 开头，函数内部可以调用其他的hook
+
+
+
+
+
+```
+// 定义自定义的 hook
+function useFriendStatus(friendID) {
+  const [isOnline, setIsOnline] = useState(null);
+
+  useEffect(() => {
+    function handleStatusChange(status) {
+      setIsOnline(status.isOnline);
+    }
+
+    ChatAPI.subscribeToFriendStatus(friendID, handleStatusChange);
+    return () => {
+      ChatAPI.unsubscribeFromFriendStatus(friendID, handleStatusChange);
+    };
+  });
+
+  return isOnline;
+}
+
+// 使用自定义 hook
+function FriendListItem(props) {
+  const isOnline = useFriendStatus(props.friend.id);
+
+  return (
+    <li style={{ color: isOnline ? 'green' : 'black' }}>
+      {props.friend.name}
+    </li>
+  );
+}
+```
+
+
+
+
+
+#### 多个 hook 之间信息传递
 
 
 
@@ -830,52 +1136,35 @@ Greeting.defaultProps = {
 
 
 
+### hook API
 
 
 
+#### [基础 Hook](https://zh-hans.reactjs.org/docs/hooks-reference.html#basic-hooks)
+
+##### [`useState`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usestate)
+
+##### [`useEffect`](https://zh-hans.reactjs.org/docs/hooks-reference.html#useeffect)
+
+##### [`useContext`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usecontext)
 
 
 
+#### [额外的 Hook](https://zh-hans.reactjs.org/docs/hooks-reference.html#additional-hooks)
 
+##### [`useReducer`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usereducer)
 
+##### [`useCallback`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usecallback)
 
+##### [`useMemo`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usememo)
 
+##### [`useRef`](https://zh-hans.reactjs.org/docs/hooks-reference.html#useref)
 
+##### [`useImperativeHandle`](https://zh-hans.reactjs.org/docs/hooks-reference.html#useimperativehandle)
 
+##### [`useLayoutEffect`](https://zh-hans.reactjs.org/docs/hooks-reference.html#uselayouteffect)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##### [`useDebugValue`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usedebugvalue)
 
 
 
