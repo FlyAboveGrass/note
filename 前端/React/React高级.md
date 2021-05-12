@@ -44,13 +44,31 @@ function MyComponent() {
 
 
 
+```
+const Home = lazy(() => import('./routes/Home'));
+const About = lazy(() => import('./routes/About'));
 
+const App = () => (
+  <Router>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route path="/about" component={About}/>
+      </Switch>
+    </Suspense>
+  </Router>
+);
+```
 
 
 
 ### 命名导出
 
 React.lazy 只支持默认导出，如果想要被引入的模块用命名导出（ Named exports），可以创建一个中间组件，来重新导出为默认模块。这能保证 tree shaking 不会出错，且不必要引入不需要的组件。
+
+
+
+
 
 
 
