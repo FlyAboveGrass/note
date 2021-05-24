@@ -311,6 +311,101 @@ unsubscribe();
 
 
 
+## 搭配 react
+
+
+
+### 容器组件和展示组件
+
+|       展示组件 | 容器组件                   |                                    |
+| -------------: | :------------------------- | ---------------------------------- |
+|           作用 | 描述如何展现（骨架、样式） | 描述如何运行（数据获取、状态更新） |
+| 直接使用 Redux | 否                         | 是                                 |
+|       数据来源 | props                      | 监听 Redux state                   |
+|       数据修改 | 从 props 调用回调函数      | 向 Redux 派发 actions              |
+|       调用方式 | 手动                       | 通常由 React Redux 生成            |
+
+
+
+大部分组件式展示型组件，但是需要少量容器组件把他们和 redux store 联系在一起。
+
+如果容器组件变得太复杂，那么在组件树中引入另一个容器。
+
+技术上讲可以使用 `store.subscribe` 来编写容器组件。但是不建议这样做，这样无法使用 react redux 带来的性能优化。
+
+
+
+### 实现展示组件
+
+
+
+
+
+### 实现容器组件
+
+容器组件就是使用 [`store.subscribe()`](https://cn.redux.js.org/docs/api/Store.html#subscribe) 从 Redux state 树中读取部分数据，并通过 props 来把这些数据提供给要渲染的组件。
+
+建议使用 React Redux 库的 [`connect()`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options) 方法来生成，这个方法做了性能优化来避免很多不必要的重复渲染。
+
+
+
+下面的定义是为了 [`connect()`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options)  函数做准备的参数
+
+**指定state到props的映射mapStateToProps**
+
+获取容器中要用的 state
+
+```
+const mapStateToProps = (state) => {
+    return {
+        list: state.getIn(['header', 'list'])
+    }
+}
+```
+
+
+
+**容器组件分发 action 方式**
+
+与store建立联系，定义函数供容器组件使用
+
+`mapDispatchToProps()` 方法接收 [`dispatch()`](https://cn.redux.js.org/docs/api/Store.html#dispatch) 方法并返回期望注入到展示组件的 props 中的回调方法
+
+```
+const mapDispathToProps = (dispatch) => {
+	return {
+		// 在组件中可以触发这个方法去 dispatch 一个 action
+		handleChangePage(page, totalPage, spin) {
+			dispatch(actionCreators.changePage(page + 1))
+		}
+	}
+}
+```
+
+
+
+**将store 和容器组件关联起来**
+
+```
+export default connect(mapStateToProps, mapDispathToProps)(ComponentName);
+```
+
+
+
+
+
+经过上面的步骤，就可以在其他地方使用这个容器组件了
+
+
+
+### 传入 store
+
+React Redux 组件 [`Provider`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#provider-store) 来 [魔法般的](https://doc.react-china.org/docs/context.html) 让所有容器组件都可以访问 store，而不必显式地传递它
+
+
+
+
+
 # 高级
 
 
