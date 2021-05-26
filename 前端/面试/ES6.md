@@ -237,9 +237,34 @@ class PromiseA {
 遍历方法
 
 - `keys()`：返回键名的遍历器
+
 - `values()`：返回键值的遍历器
+
 - `entries()`：返回键值对的遍历器
+
 - `forEach()`：使用回调函数遍历每个成员
+
+    
+
+#### Map
+
+类似于对象，也是键值对的集合，但是“键”的范围不限于字符串，各种类型的值（包括对象）都可以当作键。
+
+
+
+
+
+#### 弱引用
+
+如果没有其他的对WeakSet中对象的引用，那么这些对象会被当成垃圾回收掉。 
+
+a 强引用 obj，b 弱引用 obj，那么当 a 不再引用 obj ，obj就会被垃圾回收回收掉，而不顾及b的引用（引用计数法垃圾回收）。
+
+
+
+> 无法预测垃圾回收触发的时机，所以弱引用的属性不能遍历。
+
+
 
 #### WeakSet
 
@@ -247,15 +272,90 @@ class PromiseA {
 2. WeakSet中的对象都是弱引用，即垃圾回收机制不考虑WeakSet对该对象的引用
 3. 没有size属性，无法遍历
 
->  WeakSet 是弱引用：集合中对象的引用为弱引用。 如果没有其他的对WeakSet中对象的引用，那么这些对象会被当成垃圾回收掉。 这也意味着WeakSet中没有存储当前对象的列表。 正因为这样，WeakSet 是不可枚举的。
+>  WeakSet 是弱引用：集合中对象的引用为弱引用。 
 
-#### Map
 
-类似于对象，也是键值对的集合，但是“键”的范围不限于字符串，各种类型的值（包括对象）都可以当作键。
 
 #### WeakMap
 
 和map类似。只接受对象作为键名，且键名所指向的对象，不计入垃圾回收机制。
 
+不能包含无引用的对象，否则会被自动清除出集合
 
+
+
+
+
+
+
+##### WeakMap的应用：
+
+###### 私有数据
+
+```
+const privateData = new WeakMap();
+
+class Person {
+    constructor(name, age) {
+        privateData.set(this, { name: name, age: age });
+    }
+
+    getName() {
+        return privateData.get(this).name;
+    }
+
+    getAge() {
+        return privateData.get(this).age;
+    }
+}
+
+export default Person;
+```
+
+
+
+###### 缓存
+
+缓存实际上是给数据一个快速访问的方式，当数据销毁，我们就不必再保存这个数据的缓存信息了，应当将它去除从而给其他数据提供位置。weakMap 可以让我们不用手动的去控制缓存的删除。
+
+```
+const cache = new WeakMap();
+
+function countOwnKeys(obj) {
+  if (cache.has(obj)) {
+    return [cache.get(obj), 'cached'];
+  } else {
+    const count = Object.keys(obj).length;
+    cache.set(obj, count);
+    return [count, 'computed'];
+  }
+}
+```
+
+
+
+###### 保持数据
+
+这也是我后面看 vue3 源码的时候看到的，用 WeakMap来保持对data中的数据的劫持，当实例销毁，data 消失，那么对应的数据劫持也就失效了。
+
+```
+function createReactiveObject(
+  target: Target,
+  isReadonly: boolean,
+  baseHandlers: ProxyHandler<any>,
+  collectionHandlers: ProxyHandler<any>,
+  proxyMap: WeakMap<Target, any>
+) {
+  const existingProxy = proxyMap.get(target)
+  if (existingProxy) {
+    return existingProxy
+  }
+  const proxy = new Proxy(
+    target,
+    targetType === TargetType.COLLECTION ? collectionHandlers : baseHandlers
+  )
+  proxyMap.set(target, proxy)
+  return proxy
+}
+```
 
