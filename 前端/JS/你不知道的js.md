@@ -349,6 +349,12 @@ var foo2 = function() {
 
 ### 闭包实质
 
+
+
+**当函数可以记住并访问所在的词法作用域时，就产生了闭包，即使函数是在当前词法作用域之外执行**
+
+
+
 ```
 function foo() {
 var a = 2;
@@ -372,6 +378,367 @@ bar（）被foo作为返回值返回到了外部 baz ， bar 是可以访问foo�
 
 
 无论使用何种方式对函数类型的值进行传递，当函数在别处被调用时都可以观察到闭包。
+
+
+
+立即执行函数不是闭包
+
+
+
+
+
+
+
+
+
+
+
+# --------------------------------
+
+
+
+
+
+# this 和对象原型
+
+
+
+## this
+
+
+
+this 提供了一种更加优雅的方式来隐式的传递一个对象的引用。
+
+
+
+### 误解
+
+
+
+**this 的指向的就是函数本身？** 
+
+ 这是错误的。
+
+```
+function foo(num) {
+ console.log( "foo: " + num );
+ // 记录 foo 被调用的次数
+this.count++;
+}
+foo.count = 0;
+var i;
+for (i=0; i<10; i++) {
+if (i > 5) {
+ foo( i );
+ }
+}
+// foo: 6
+// foo: 7
+// foo: 8
+// foo: 9
+// foo 被调用了多少次？
+console.log( foo.count ); // 0 
+```
+
+
+
+执行 foo.count = 0 时，的确向函数对象 foo 添加了一个属性 count。但是函数内部代码 this.count  中的 this 并不是指向那个函数对象，所以虽然属性名相同，根对象却并不相同，困惑随之产生。
+
+
+
+> 这段代码在无意中创建了一个全局变量 count，它的值为 NaN
+
+
+
+**this 指向它所在的作用域？**
+
+在某种情况下它是正确的，但是在其他情况下它是错误的
+
+
+
+> 在 JavaScript 内部，作用域确实和对象类似，可见的标识符都是它的属性。但是作用域“对象”无法通过 JavaScript代码访问，它存在于 JavaScript 引擎内部。当你想要把 this 和词法作用域的查找混合使用时,这是无法实现的。
+
+
+
+### 实质
+
+this 是在运行时擦爱进行绑定的，this 的绑定和函数声明的位置没有任何关系，只取决于函数的调用方式。
+
+
+
+### this的调用位置
+
+我们关心的调用位置就在当前正在执行的函数的前一个调用中。
+
+
+
+#### 判断this的原则
+
+1. **函数引用的位置是关注点**。以引用的维度去思考函数的位置。
+2. **调用的位置是决定点**。以函数被调用的地方为准。调用是指函数的后面已经带了 `()` ,而不是在赋值传递
+
+
+
+#### 绑定规则
+
+
+
+**默认绑定**
+
+最常用的函数调用类型 —— 独立函数调用。
+
+```
+function foo() { 
+ console.log( this.a );
+}
+var a = 2;
+foo(); // 2
+```
+
+
+
+这样的情况下，foo 函数是直接使用不带任何修饰的函数引用进行调用的，因此只能使用默认绑定。 
+
+*在严格模式下，this 与foo 调用的位置无关*
+
+
+
+**隐式绑定**
+
+```
+function foo() { 
+ console.log( this.a );
+}
+var obj = { 
+ a: 2,
+ foo: foo 
+};
+obj.foo(); // 2
+```
+
+调用位置是否有上下文对象，或者说是否被某个对象拥有或者包含。
+
+在这个例子中，foo 函数是 obj 调用的， obj 此时拥有这个函数。
+
+当函数引用有上下文对象时，**隐式绑定**会把函数调用的this 绑定到这个上下文对象。
+
+ 
+
+**隐式丢失**
+
+有一种比较特殊的情况
+
+```
+function foo() { 
+ console.log( this.a );
+}
+var obj = { 
+ a: 2,
+ foo: foo 
+};
+var bar = obj.foo; // 函数别名！
+var a = "oops, global"; // a 是全局对象的属性
+bar(); // "oops, global"
+```
+
+虽然 bar 是 obj.foo 的一个引用，但是实际上，它引用的是 foo 函数本身，因此此时的 bar() 其实是一个不带任何修饰的函数调用，因此应用了默认绑定。
+
+
+
+[这又适用于我们开头说的规则了](#判断this的原则)
+
+
+
+**显式绑定**
+
+通过 call 和 apply 强行改变 this 的指向。
+
+
+
+**new 绑定**
+
+使用 new 来调用函数，或者说发生构造函数调用时，会自动执行下面的操作。
+
+1. 创建（或者说构造）一个全新的对象。
+
+2. 这个新对象会被执行 [[ 原型 ]] 连接。
+
+3. 这个新对象会绑定到函数调用的 this。
+
+4. 如果函数没有返回其他对象，那么 new 表达式中的函数调用会自动返回这个新对象。
+
+
+
+```
+function foo(a) { 
+this.a = a;
+} 
+var bar = new foo(2);
+console.log( bar.a ); // 2
+```
+
+使用 new 来调用 foo(..) 时，我们会构造一个新对象并把它绑定到 foo(..) 调用中的 this上。new 是最后一种可以影响函数调用时 this 绑定行为的方法，我们称之为 new 绑定。
+
+
+
+#### 优先级
+
+1. 函数是否在 new 中调用（new 绑定）？如果是的话 this 绑定的是新创建的对象。
+
+    var bar = new foo()
+
+2. 函数是否通过 call、apply（显式绑定）或者硬绑定调用？如果是的话，this 绑定的是指定的对象。
+
+    var bar = foo.call(obj2)
+
+3. 函数是否在某个上下文对象中调用（隐式绑定）？如果是的话，this 绑定的是那个上下文对象。
+
+    var bar = obj1.foo()
+
+4. 如果都不是的话，使用默认绑定。如果在严格模式下，就绑定到 undefined，否则绑定到全局对象。
+
+    var bar = foo()
+
+
+
+### 绑定例外
+
+
+
+this的位置判断也有例外
+
+
+
+#### 被忽略的 this
+
+把 null 或者 undefined等作为this的绑定对象传入call/apply/bind，那么这些值在调用时会被忽略。此时应用的还是默认绑定规则
+
+
+
+**什么时候我们会传入 null/undefined ？**
+
+
+
+函数柯里化
+
+```
+function foo(a,b) {
+ console.log( "a:" + a + ", b:" + b );
+}
+// 把数组“展开”成参数
+foo.apply( null, [2, 3] ); // a:2, b:3
+// 使用 bind(..) 进行柯里化
+var bar = foo.bind( null, 2 ); 
+bar( 3 ); // a:2, b:3
+```
+
+
+
+更安全的this
+
+`在使用函数的时候传入一个特殊的对象`
+
+`（ null、undefined、object.create(null) ），`
+
+`把 this 绑定到这个对象不会对你的程序产生任何副作用。`
+
+
+
+#### 间接引用
+
+你有可能（有意或者无意地）创建一个函数的“间接引用”，在这种情况下，调用这个函数会应用默认绑定规则。
+
+
+
+```
+function foo() { 
+ console.log( this.a );
+}
+var a = 2; 
+var o = { a: 3, foo: foo }; 
+var p = { a: 4 };
+o.foo(); // 3
+(p.foo = o.foo)(); // 2
+```
+
+
+
+> 首先明确一点， 执行 `a = b` 这个表达式的时候，返回值是 b 
+
+
+
+当 执行`p.foo = o.foo` ，返回的是 foo 的引用，根据前面说到的原则，在`(p.foo = o.foo)()`这里函数应用的会是默认绑定规则
+
+
+
+#### 软绑定
+
+硬绑定会大大降低函数的灵活性，使用硬绑定之后就无法使用隐式绑定或者显式绑定来修改 this。
+
+可以给默认绑定指定一个全局对象和 undefined 以外的值，那就可以实现和硬绑定相同的效果，同时保留隐式绑定或者显式绑定修改 this 的能力
+
+```
+if (!Function.prototype.softBind) { 
+ Function.prototype.softBind = function(obj) {
+ var fn = this;
+ // 捕获所有 curried 参数
+var curried = [].slice.call( arguments, 1 ); 
+var bound = function() {
+return fn.apply(
+ (!this || this === (window || global)) ?
+ obj : this
+ curried.concat.apply( curried, arguments )
+ ); 
+ };
+ bound.prototype = Object.create( fn.prototype );
+return bound; 
+ };
+}
+```
+
+
+
+# ---------------------
+
+
+
+# 对象
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
