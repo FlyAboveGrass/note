@@ -708,6 +708,56 @@ return bound;
 
 
 
+### 类型 和 内容
+
+• String
+
+• Number
+
+• Boolean
+
+• Object
+
+• Function
+
+• Array
+
+• RegExp
+
+• Error
+
+
+
+这些内置对象从表现形式来说很像其他语言中的类型（type）或者类（class），比如 Java中的 String 类。但是在 JavaScript 中，它们实际上只是一些内置函数。这些内置函数可以当作构造函数来使用，从而可以构造一个对应子类型的新对象。
+
+
+
+
+
+在读取对象的内容时，有两种方式
+
+1. 属性访问。 `obj.a`
+2. 键访问。 `obj["a"]`
+
+
+
+在对象中，属性名永远是字符串，如果使用 string 以外的其他值作为属性名，都会被转化成一个字符串。在数组对象中使用的的确是数字，但是也会被转换成字符串。
+
+
+
+#### 存在性
+
+myObject.a 的属性访问返回值可能是 undefined，但是这个值有可能是属性中存储的 undefined，也可能是因为属性不存在所以返回 undefined。如何区分呢？
+
+```
+// in 会在原型链中查找
+("a" in myObject); // true
+("b" in myObject); // false 
+
+// hasOwnProperty 不会在原型链中查找
+myObject.hasOwnProperty( "a" ); // true
+myObject.hasOwnProperty( "b" ); // false
+```
 
 
 
@@ -717,12 +767,7 @@ return bound;
 
 
 
-
-
-
-
-
-
+# 类
 
 
 
