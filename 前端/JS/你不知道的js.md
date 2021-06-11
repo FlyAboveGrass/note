@@ -771,11 +771,130 @@ myObject.hasOwnProperty( "b" ); // false
 
 
 
+### 类理论
+
+面向对象编程强调的是数据和操作数据的行为本质上是互相关联的（当然，不同的数据有不同的行为），因此好的设计就是把数据以及和它相关的行为打包（或者说封装）起来。
+
+
+
+类的特性： 封装、继承和多态
+
+
+
+**多重继承**
+
+多重继承可以让一个类同事继承多个父类。但是这样会出现如果两个父类都存在同一个方法时，子类不知道应该采用谁的。
+
+
+
+### 混入
+
+当进行继承和实例化的时候， JS 并不会自动执行复制行为，因为在 JS 中不存在类的概念，JS 中只有对象和函数。
+
+因此 js 的开发者相处了一个方法模拟类的复制，这个方法就是混入。
+
+
+
+#### 显式混入
+
+```
+// 非常简单的 mixin(..) 例子 :
+function mixin( sourceObj, targetObj ) { 
+  for (var key in sourceObj) {
+   // 只会在不存在的情况下复制
+  if (!(key in targetObj)) { 
+   	targetObj[key] = sourceObj[key];
+   } 
+  }
+  return targetObj; 
+}
+
+var Vehicle = { 
+ engines: 1,
+ ignition: function() {
+ 	console.log( "Turning on my engine." );
+ },
+ drive: function() { 
+	this.ignition();
+ 	console.log( "Steering and moving forward!" );
+ }
+};
+var Car = mixin( Vehicle, {
+ wheels: 4,
+ drive: function() { 
+   Vehicle.drive.call( this ); 
+   console.log(
+   "Rolling on all " + this.wheels + " wheels!" 
+   );
+ } 
+} );
+```
+
+这种情况下，值的复制是直接复制的，但是函数的复制是引用的复制，当函数改变所有的函数定义都会改变。并且，这种方式实现了对父类的重写。
+
+
+
+**再说多态**
+
+- 显式多态： `Vehicle.drive.call( this )`
+- 相对多态： `inherited:drive()`
+
+
+
+由于存在标识符重叠，为了区分它们必须使用更加复杂的显式伪多态方法。
+
+ JavaScript 中（由于屏蔽）使用显式伪多态会在所有需要使用（伪）多态引用的地方创建一个函数关联，这会极大地增加维护成本。此外，由于显式伪多态可以模拟多重继承，所以它会进一步增加代码的复杂度和维护难度。
+
+
+
+**混合复制**
+
+mixin(..) 的工作原理。它会遍历 sourceObj（本例中是 Vehicle）的属性，如果在 targetObj（本例中是 Car）没有这个属性就会进行复制。
+
+我们一定要小心不要覆盖目标对象的原有属性。
+
+
+
+即使我们成功的复制了。由于两个对象引用的是同一个函数，因此这种复制（或者说混入）实际上并不能完全模拟面向类的语言中的复制。
+
+
+
+> 只在能够提高代码可读性的前提下使用显式混入，避免使用增加代码理解难度或者让对象关系更加复杂的模式。
+
+
+
+如果使用混入时感觉越来越困难，那或许你应该停止使用它了。实际上，如果你必须使用一个复杂的库或者函数来实现这些细节，那就标志着你的方法是有问题的或者是不必要的。
+
+
+
+**寄生继承**
 
 
 
 
 
+#### 隐式混入
+
+
+
+```
+var Something = { 
+ cool: function() {
+	this.greeting = "Hello World";
+	this.count = this.count ? this.count + 1 : 1; 
+ }
+};
+
+var Another = {
+ cool: function() {
+ // 隐式把 Something 混入 Another
+ Something.cool.call( this ); 
+}
+```
+
+这样子，我们可以成功的借用了父类的方法，最终的结果是父类的操作应用在了我们的子类对象上。
+
+但是我们依旧无法让函数变成相对引用。
 
 
 
