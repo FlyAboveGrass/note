@@ -898,6 +898,166 @@ var Another = {
 
 
 
+# 原型
+
+
+
+### Prototype
+
+JS 所有的对象都有一个Prototype属性，几乎所有的对象在创建时 prototype 属性都会赋予一个非空值。
+
+
+
+**Prototype 用处？**
+
+对于我们默认的 Get 操作来说，当我们读区一个对象上的属性，如果我们不能够在对象上找到，那么会继续在对象的 prototype 上去寻找。
+
+
+
+> ES6 中的 Proxy 超出了这个限制，当存在Proxy 的时候，这个规则就不适用
+
+
+
+#### 属性设置和屏蔽
+
+
+
+`myObject.foo = "bar";`
+
+
+
+如果 myObject 对象中包含名为 foo 的普通数据访问属性，这条赋值语句只会修改已有的属性值。
+
+如果 foo 不是直接存在于 myObject 中，[[Prototype]] 链就会被遍历，类似 [[Get]] 操作。如果原型链上找不到 foo，foo 就会被直接添加到 myObject 上。
+
+
+
+如果 foo 存在于原型链上层，赋值语句 myObject.foo = "bar" 的行为就会有些不同
+
+1. 如果在 [[Prototype]] 链上层存在名为 foo 的普通数据访问属性（参见第 3 章）并且没有被标记为只读（writable:false），那就会直接在 myObject 中添加一个名为 foo 的新属性，它是**屏蔽属性**
+2. 如果在 [[Prototype]] 链上层存在 foo，但是它被标记为只读（writable:false），那么无法修改已有属性或者在 myObject 上创建屏蔽属性。如果运行在严格模式下，代码会抛出一个错误。否则，这条赋值语句会被忽略
+3.  如果在 [[Prototype]] 链上层存在 foo 并且它是一个 setter，那就一定会调用这个 setter。foo 不会被添加到（或者说屏蔽于）myObject，也不会重新定义 foo 这 个 setter。
+
+
+
+>  如果你希望在第二种和第三种情况下也屏蔽 foo，那就不能使用 = 操作符来赋值，而是使用 Object.defineProperty(..)
+
+> 第二种情况可能是最令人意外的，只读属性会阻止 [[Prototype]] 链下层隐式创建（屏蔽）同名属性。这样做主要是为了模拟类属性的继承。你可以把原型链上层的 foo 看作是父类中的属性，它会被 myObject 继承（复制），这样一来 myObject 中的 foo 属性也是只读，所以无法创建。
+
+
+
+**隐式屏蔽**
+
+```
+var anotherObject = { 
+ a:2
+};
+var myObject = Object.create( anotherObject ); 
+
+anotherObject.a; // 2
+myObject.a; // 2 
+
+anotherObject.hasOwnProperty( "a" ); // true
+myObject.hasOwnProperty( "a" ); // false 
+
+myObject.a++; // 隐式屏蔽！
+anotherObject.a; // 2 
+myObject.a; // 3
+myObject.hasOwnProperty( "a" ); // true
+```
+
+
+
+在这样的情况下，此 ++ 操作首先会通过 [[Prototype]]查找属性 a 并从 anotherObject.a 获取当前属性值 2，然后给这个值加 1，接着用 [[Put]]将值 3 赋给 myObject 中新建的屏蔽属性 a
+
+
+
+修改委托属性时一定要小心。如果想让 anotherObject.a 的值增加，唯一的办法是anotherObject.a++
+
+
+
+### “类”
+
+
+
+#### 类函数
+
+JavaScript 中有一种奇怪的行为一直在被无耻地滥用，那就是模仿类。
+
+
+
+```
+function Foo() { 
+ // ...
+}
+var a = new Foo();
+Object.getPrototypeOf( a ) === Foo.prototype; // true
+```
+
+是在 JavaScript 中，并没有类似的复制机制。你不能创建一个类的多个实例，只能创建多个对象，它们 [[Prototype]] 关联的是同一个对象。但是在默认情况下并不会进行复制，因此这些对象之间并不会完全失去联系，它们是互相关联的。
+
+绝大多数 JavaScript 开发者不知道的秘密是，new Foo() 这个函数调用实际上并没有直接创建关联，这个关联只是一个意外的副作用。new Foo() 只是间接完成了我们的目标：一个关联到其他对象的新对象。
+
+
+
+
+
+#### 构造函数
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
