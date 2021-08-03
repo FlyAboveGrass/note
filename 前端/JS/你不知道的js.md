@@ -900,7 +900,7 @@ var Another = {
 
 # 原型
 
-
+![原型链.png](https://segmentfault.com/img/remote/1460000021232137)
 
 ### Prototype
 
@@ -1004,6 +1004,50 @@ Object.getPrototypeOf( a ) === Foo.prototype; // true
 
 #### 构造函数
 
+```
+function Foo() { 
+ // ...
+}
+var a = new Foo();
+```
+
+这样的函数写法会让我们误会成 Foo 是一个类。但是这样的想法其实是错误的。
+
+
+
+```
+function Foo() { 
+ // ...
+}
+Foo.prototype.constructor === Foo; // true
+var a = new Foo(); 
+a.constructor === Foo; // true
+```
+
+实际上 a 本身并没有 .constructor 属性。而且，虽然 a.constructor 确实指向 Foo 函数，但是这个属性并不是表示 a 由 Foo“构造”。
+
+.constructor 引用同样被委托给了 Foo.prototype，而 Foo.prototype.constructor 默认指向 Foo。当在 a 上没有找到 constructor 属性时，会到他的原型上去查找，所以说 a 上面并没有 constructor 属性，这个属性是在 prototype 上的。
+
+
+
+##### 构造函数还是调用
+
+当你在普通的函数调用前面加上 new 关键字之后，就会把这个函数调用变成一个“构造函数调用”。实际上，new 会劫持所有普通函数并用构造对象的形式来调用它。
+
+```
+function NothingSpecial() { 
+ console.log( "Don't mind me!" );
+}
+var a = new NothingSpecial();
+// "Don't mind me!" 
+a; // {}
+```
+
+
+
+如果你创建了一个新对象并替换了函数默认的 .prototype 对象引用，那么新对象并不会自动获得 .constructor 属性。
+
+.constructor 是一个非常不可靠并且不安全的引用。通常来说要尽量避免使用这些引用。
 
 
 
@@ -1013,6 +1057,17 @@ Object.getPrototypeOf( a ) === Foo.prototype; // true
 
 
 
+### 对象关联
+
+
+
+#### 创建关联
+
+Object.create(..) 会创建一个新对象（bar）并把它关联到我们指定的对象（foo），这样我们就可以充分发挥 [[Prototype]] 机制的威力（委托）并且避免不必要的麻烦（比如使用 new 的构造函数调用会生成 .prototype 和 .constructor 引用）。
+
+
+
+>  Object.create(null) 会 创 建 一 个 拥 有 空（ 或 者 说 null）[[Prototype]]链接的对象，这个对象无法进行委托。由于这个对象没有原型链，所以instanceof 操作符（之前解释过）无法进行判断，因此总是会返回 false。这些特殊的空 [[Prototype]] 对象通常被称作“字典”，它们完全不会受到原型链的干扰，因此非常适合用来存储数据。
 
 
 
@@ -1020,29 +1075,38 @@ Object.getPrototypeOf( a ) === Foo.prototype; // true
 
 
 
+# 行为委托
 
 
 
+## 面向委托的设计
 
 
 
+### 委托理论
 
 
 
+```
+Task = {
+ setID: function(ID) { this.id = ID; }, 
+ outputID: function() { console.log( this.id ); }
+};
+// 让 XYZ 委托 Task
+XYZ = Object.create( Task );
+XYZ.prepareTask = function(ID,Label) { 
+this.setID( ID );
+this.label = Label;
+};
+XYZ.outputTaskDetails = function() { 
+this.outputID();
+ console.log( this.label ); 
+};
+```
 
+在 这 段 代 码 中，Task 和 XYZ 并 不 是 类（ 或 者 函 数 ）， 它 们 是 对 象。XYZ 通 过 Object.create(..) 创建，它的 [[Prototype]] 委托了 Task 对象。我们和 XYZ 进行交互时可以使用 Task 中的通用方法，因为 XYZ 委托了 Task。
 
-
-
-
-
-
-
-
-
-
-
-
-
+委托行为意味着某些对象（XYZ）在找不到属性或者方法引用时会把这个请求委托给另一个对象（Task）。这是一种极其强大的设计模式，和父类、子类、继承、多态等概念完全不同。在你的脑海中对象并不是按照父类到子类的关系垂直组织的，而是通过任意方向的委托关联并排组织的。
 
 
 
