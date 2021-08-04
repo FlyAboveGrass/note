@@ -1213,3 +1213,227 @@ var c = 42.0
 
 
 
+# 原生函数
+
+
+
+常用的原生函数有：
+
+• String()
+
+• Number()
+
+• Boolean()
+
+• Array()
+
+• Object()
+
+• Function()
+
+• RegExp()
+
+• Date()
+
+• Error()
+
+• Symbol()——ES6 中新加入的
+
+
+
+
+
+### 内部属性
+
+
+
+所有 typeof 返回值为 "object" 的对象（如数组）都包含一个内部属性 [[Class]]（我们可以把它看作一个内部的分类，而非传统的面向对象意义上的类）。这个属性无法直接访问，一般通过 Object.prototype.toString(..) 来查看。
+
+
+
+```
+// [[Class]] 属性值是 "Array"
+Object.prototype.toString.call( [1,2,3] );// "[object Array]" 
+// 正则表达式的值是 "RegExp"
+Object.prototype.toString.call( /regex-literal/i );// "[object RegExp]"
+```
+
+
+
+
+
+### 包装对象
+
+由 于 基 本 类 型 值 没 有 .length和 .toString() 这样的属性和方法，需要通过封装对象才能访问，此时 JavaScript 会自动为基本类型值包装（box 或者 wrap）一个封装对象：
+
+```
+var a = "abc";
+
+a.length; // 3
+a.toUpperCase(); // "ABC"
+```
+
+
+
+**注意**：
+
+我们为 false 创建了一个封装对象，然而该对象隐式转换是真值，所以这里使用封装对象得到的结果和使用 false 截然相反。
+
+```
+var a = new Boolean( false );
+if (!a) {
+ console.log( "Oops" ); // 执行不到这里
+}
+```
+
+
+
+#### 拆封
+
+想要得到封装对象中的基本类型值，可以使用 valueOf() 函数：
+
+```
+var a = new Boolean( false );
+if (!a.valueOf()) {
+ console.log( "Oops" ); // 可以执行
+}
+```
+
+
+
+
+
+### 原生函数作为构造函数
+
+
+
+#### Array
+
+>  构造函数 Array(..) 不要求必须带 new 关键字。不带时，它会被自动补上。因此 Array(1,2,3) 和 new Array(1,2,3) 的效果是一样的。
+
+> 我们将包含至少一个“空单元”的数组称为“稀疏数组”。
+
+
+
+如若一个数组没有任何单元，但它的 length 属性中却显示有单元数量，这样奇特的数据结构会导致一些怪异的行为。
+
+```
+var a = new Array( 3 );
+var b = [ undefined, undefined, undefined ];
+var c = [];
+c.length = 3;
+```
+
+ a 和 b 的行为有时相同，有时又大相径庭：
+
+```
+a.join( "-" ); // "--"
+b.join( "-" ); // "--"
+a.map(function(v,i){ return i; }); // [ undefined x 3 ]
+b.map(function(v,i){ return i; }); // [ 0, 1, 2 ]
+```
+
+
+
+
+
+我们可以通过下述方式来创建包含 undefined 单元（而非“空单元”）的数组：
+
+```
+var a = Array.apply( null, { length: 3 } );
+```
+
+Array.apply(..) 调用 Array(..) 函数，并且将 { length: 3 } 作为函数的参数。我们可以设想 apply(..) 内部有一个 for 循环（与上述 join(..) 类似），从 0 开始循环到length（即循环到 2，不包括 3）。假设在 apply(..) 内部该数组参数名为 arr，for 循环就会这样来遍历数组：arr[0]、arr[1]、arr[2]。 然 而， 由 于 { length: 3 } 中 并 不 存 在 这 些 属 性， 所 以 返 回 值 为undefined。
+
+
+
+虽然 Array.apply( null, { length: 3 } ) 在创建 undefined 值的数组时有些奇怪和繁琐，但是其结果远比 Array(3) 更准确可靠。
+
+
+
+==永远不要创建和使用空单元数组。==
+
+
+
+
+
+#### Object、Function、 RegExp
+
+
+
+除非万不得已，否则尽量不要使用 Object(..)/Function(..)/RegExp(..)
+
+
+
+**Object**
+
+实际情况中没有必要使用 new Object() 来创建对象，因为这样就无法像常量形式那样一次设定多个属性，而必须逐一设定。
+
+
+
+**Function**
+
+构造函数 Function 只在极少数情况下很有用，比如动态定义函数参数和函数体的时候。
+
+
+
+**RegExp**
+
+强烈建议使用常量形式（如 /^a*b+/g）来定义正则表达式，这样不仅语法简单，执行效率也更高，因为 JavaScript 引擎在代码执行前会对它们进行预编译和缓存。
+
+与前面的构造函数不同，RegExp(..) 有时还是很有用的，比如动态定义正则表达式时：
+
+```
+var name = "Kyle";
+var namePattern = new RegExp( "\\b(?:" + name + ")+\\b", "ig" );
+var matches = someText.match( namePattern );
+```
+
+
+
+
+
+#### Date 和 Error
+
+
+
+**Date**
+
+创建日期对象必须使用 new Date()。Date(..) 可以带参数，用来指定日期和时间，而不带参数的话则使用当前的日期和时间。
+
+
+
+**Error**
+
+创建错误对象（error object）主要是为了获得当前运行栈的上下文（大部分 JavaScript 引擎通过只读属性 .stack 来访问）。栈上下文信息包括函数调用栈信息和产生错误的代码行号，以便于调试（debug）。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
