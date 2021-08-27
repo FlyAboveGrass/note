@@ -1557,6 +1557,1171 @@ true 转换为 1，false 转换为 0。undefined 转换为 NaN，null 转换为 
 
 
 
+### 字符串与数字
+
+比较通用的方法是 String（） 和 Number（）
+
+```
+var a = 42;
+var b = a.toString();
+
+var c = "3.14";
+var d = +c;
+
+b; // "42"
+d; // 3.14
+```
+
+
+
+> 在 JavaScript 开源社区中，一元运算 + 被普遍认为是显式强制类型转换。
+
+
+
+有时候也会产生误会，当一元运算 + 和 - 与其他操作符用会产生意料之外的结果, **必须用空格隔开**。**尽量不要把一元操作符和其他运算符一起使用**
+
+```
+var c = "3.14";
+
+
+var d = 5++c; // error
+var d = 5+ +c; // 8.14 
+```
+
+
+
+#### 日期转换成数字
+
+一元操作符的另一个常见的用途是将日期强制转换成数字，结果为时间戳。
+
+
+
+> JavaScript 有一处奇特的语法，即构造函数没有参数时可以不用带 ()。于是我们可能会碰到 var timestamp = +new Date; 这样的写法。这样能否提高代码可读性还存在争议，因为这仅用于 new fn()，对一般的函数调用 fn() 并不适用。
+
+
+
+
+
+### 显式转化成布尔值
+
+通用的方式是 Boolean（）
+
+
+
+与前面的 + 一元操作符类似， 一元操作符 ！显式的将值转换成布尔值。所以显式强制类型转换为布尔值最常用的方法是 !!
+
+
+
+
+
+
+
+## 隐式强制类型转换
+
+
+
+
+
+### 字符串与数字隐式转换
+
+对于 + 运算符， 如果其中一个操作数是对象（包括数组），则首先对其调用ToPrimitive 抽象操作，该抽象操作再调用 [[DefaultValue]]，以数字作为上下文。
+
+如果 + 的其中一个操作数是字符串（或者通过以上步骤可以得到字符串），则执行字符串拼接；否则执行数字加法。
+
+```
+var a = [1,2];
+var b = [3,4];
+a + b; // "1,23,4"
+```
+
+
+
+**\- 是数字减法运算符，因此 a - 0 会将 a 强制类型转换为数字**。也可以使用 a * 1 和 a / 1，因为这两个运算符也只适用于数字，只不过这样的用法不太常见。
+
+```
+’3.14‘ - 0 // 3.14
+
+var a = [3];
+var b = [1];
+a - b; // 2
+```
+
+
+
+
+
+### 布尔值到数字的隐式强制类型转换
+
+
+
+由布尔值转成数字可以用于处理复杂的判断逻辑。true 是 1 ，false  是 0。
+
+```
+// 判断只有一个为true
+function onlyOne(a,b,c) {
+ return !!((a && !b && !c) ||
+ (!a && b && !c) || (!a && !b && c));
+}
+
+function onlyOne() { // 可读性大大提高了
+ var sum = 0;
+ for (var i=0; i < arguments.length; i++) {
+   // 跳过假值，和处理0一样，但是避免了NaN
+   if (arguments[i]) {
+    sum += arguments[i];
+   }
+ }
+ return sum == 1;
+}
+```
+
+
+
+### 抽象相等
+
+有几个非常规的情况需要注意。
+
+• NaN 不等于 NaN
+
+• +0 等于 -0
+
+
+
+
+
+# 语法
+
+
+
+## 语句和表达式
+
+
+
+### 语句的结果值
+
+
+
+语句都有一个结果值
+
+获得结果值最直接的方法是在浏览器开发控制台中输入语句，默认情况下控制台会显示所执行的最后一条语句的结果值。
+
+
+
+代码块的结果值就如同一个隐式的返回，即返回最后一个语句的结果值。但是语法不允许我们将语句的结果值赋值给其他变量。
+
+
+
+### 表达式的副作用
+
+++ 在前面时，如 ++a，它的副作用（将 a 递增）产生*在表达式返回结果值之前*，而 a++ 的副作用则产生在之后
+
+```
+var a = 42;
+var b = a++;
+a; // 43
+b; // 42
+```
+
+
+
+有人误以为可以用括号 ( ) 将 a++ 的副作用封装起来。事实并非如此。( ) 本身并不是一个封装表达式，不会在表达式 a++ 产生副作用之后执行。
+
+```
+var a = 42;
+var b = (a++);
+a; // 43
+b; // 42
+```
+
+
+
+但也不是没有办法，可以使用 , 语句系列逗号运算符（statement-series comma operator）将多个独立的表达式语句串联成一个语句：
+
+```
+var a = 42, b;
+b = ( a++, a );
+a; // 43
+b; // 43
+```
+
+
+
+### 上下文规则
+
+有一个坑常被提到（涉及强制类型转换，参见第 4 章）：
+
+```
+[] + {}; // "[object Object]"
+
+{} + []; // 0
+```
+
+表面上看 + 运算符根据第一个操作数（[] 或 {}）的不同会产生不同的结果，实则不然。
+
+第一行代码中，{} 出现在 + 运算符表达式中，因此它被当作一个值（空对象）来处理。第4 章讲过 [] 会被强制类型转换为 ""，而 {} 会被强制类型转换为 "[object Object]"。
+
+但在第二行代码中，{} 被当作一个独立的空代码块（不执行任何操作）。代码块结尾不需要分号，所以这里不存在语法上的问题。最后 + [] 将 [] 显式强制类型转换（参见第 4 章）为 0。
+
+
+
+
+
+很多人误以为 JavaScript 中有 else if，因为我们可以这样来写代码：
+
+```
+if (a) { 
+ // ..
+}
+else if (b) {
+ // .. 
+}
+else { 
+ // ..
+}
+
+
+```
+
+
+
+事实上 JavaScript 没有 else if，但 if 和 else 只包含单条语句的时候可以省略代码块的 { }。所以我们经常用的 else if 其实本质是这样的： 
+
+```
+if (a) { 
+ // ..
+} 
+else {
+ if (b) { 
+ // ..
+ } 
+ else {
+ // .. 
+ }
+}
+```
+
+
+
+## 运算符的优先级
+
+
+
+ , 来连接一系列语句的时候，它的优先级最低，其他操作数的优先级都比它高。
+
+
+
+**条件运算符**：  && 运算符的优先级高于 ||，而 || 的优先级又高于 ? :
+
+
+
+
+
+
+
+# --------------------------------
+
+
+
+# 异步
+
+
+
+## 异步： 现在和未来
+
+
+
+### 事件循环
+
+JavaScript 引擎并不是独立运行的，它运行在宿主环境中，对多数开发者来说通常就是Web 浏览器。经过最近几年（不仅于此）的发展，JavaScript 已经超出了浏览器的范围，进入了其他环境，比如通过像 Node.js 这样的工具进入服务器领域。实际上，JavaScript 现如今已经嵌入到了从机器人到电灯泡等各种各样的设备中。
+
+JavaScript 引擎本身并没有时间的概念，只是一个按需执行 JavaScript 任意代码片段的环境。“事件”（JavaScript 代码执行）调度总是由包含它的环境进行。
+
+
+
+setTimeout(..) 并没有把你的回调函数挂在事件循环队列中。它所做的是设定一个定时器。当定时器到时后，环境会把你的回调函数放在事件循环中，这样，在未来某个时刻的 tick 会摘下并执行这个回调。此时若队列中已经存在了其他的事件，那么setTimeout还需要排队，这也解释了为什么 setTimeout(..) 定时器的精度可能不高。
+
+
+
+
+
+### 并行线程
+
+异步是关于现在和将来的时间间隙，而并行是关于能够同时发生的事情。
+
+
+
+并行计算最常见的工具就是进程和线程。进程和线程独立运行，并可能同时运行：在不同的处理器，甚至不同的计算机上，但多个线程能够共享单个进程的内存。
+
+与之相对的是，事件循环把自身的工作分成一个个任务并顺序执行，不允许对共享内存的并行访问和修改。通过分立线程中彼此合作的事件循环，并行和顺序执行可以共存。
+
+
+
+并行线程的交替执行和异步事件的交替调度，其粒度是完全不同的。
+
+
+
+
+
+### 并发
+
+
+
+**非交互**
+
+两个或多个“进程”在同一个程序内并发地交替运行它们的步骤 / 事件时，如果这些任务彼此不相关，就不一定需要交互。如果进程间没有相互影响的话，不确定性是完全可以接受的。
+
+
+
+
+
+
+
+**交互**
+
+更常见的情况是，并发的“进程”需要相互交流，通过作用域或 DOM 间接交互。如果出现这样的交互，就需要对它们的交互进行协调以避免竞态的出现。
+
+
+
+处理顺序相关竞态条件（协调交互顺序）：
+
+```
+var res = []; 
+function response(data) { 
+ if (data.url == "http://some.url.1") { 
+ res[0] = data; 
+ } 
+ else if (data.url == "http://some.url.2") { 
+ res[1] = data; 
+ } 
+} 
+// ajax(..)是某个库中提供的某个Ajax函数
+ajax( "http://some.url.1", response ); 
+ajax( "http://some.url.2", response );
+```
+
+
+
+处理多资源竟态：
+
+```
+// ajax(..)是某个库中的某个Ajax函数
+ajax( "http://some.url.1", foo ); 
+ajax( "http://some.url.2", bar );
+```
+
+
+
+```
+// 同时需要多个资源
+var a, b; 
+function foo(x) { 
+ a = x * 2; 
+ if (a && b) { 
+ baz(); 
+ } 
+} 
+function bar(y) { 
+ b = y * 2; 
+ if (a && b) { 
+ baz(); 
+ } 
+} 
+function baz() { 
+ console.log( a + b ); 
+} 
+```
+
+```
+// 竞争单个资源
+var a; 
+function foo(x) { 
+ if (!a) { 
+ a = x * 2; 
+ baz(); 
+ } 
+} 
+function bar(x) { 
+ if (!a) { 
+ a = x / 2; 
+ baz(); 
+ } 
+} 
+function baz() { 
+ console.log( a ); 
+}
+```
+
+
+
+
+
+### 协作
+
+还有一种并发合作方式，称为并发协作（cooperative concurrency）。这里的重点不再是通过共享作用域中的值进行交互。这里的目标是取到一个长期运行的“进程”，并将其分割成多个步骤或多批任务，使得其他并发“进程”有机会将自己的运算插入到事件循环队列中交替运行。
+
+
+
+当处理大量数据的时候，如果我们一致处理这部分的数据，这会导致期间的其他必须的js都得不到执行，这是非常糟糕的。我们可以通过 *异步地批处理* 这些结果。每次处理之后返回事件循环，让其他等待事件有机会运行。
+
+```
+// response(..)从Ajax调用中取得结果数组
+function response(data) { 
+ // 一次处理1000个
+ var chunk = data.splice( 0, 1000 ); 
+ // 添加到已有的res组
+ res = res.concat( 
+ // 创建一个新的数组把chunk中所有值加倍
+ chunk.map( function(val){ 
+ return val * 2; 
+ } ) 
+ ); 
+ // 还有剩下的需要处理吗？
+ if (data.length > 0) { 
+ // 异步调度下一次批处理
+ setTimeout( function(){ 
+ response( data ); 
+ }, 0 ); 
+ } 
+}
+```
+
+
+
+### 任务
+
+为对于任务队列最好的理解方式就是，它是挂在事件循环队列的每个 tick 之后的一个队列。在事件循环的每个 tick 中，可能出现的异步动作不会导致一个完整的新事件添加到事件循环队列中，而会在当前 tick 的任务队列末尾添加一个项目（一个任务）。
+
+
+
+
+
+## Promise
+
+
+
+基础知识可以参考： [ES6 Promise对象 - ES6文档 (caibaojian.com)](http://caibaojian.com/es6/promise.html)
+
+
+
+### 具有 then 方法的鸭子类型
+
+
+
+是如何确定某个值是不是真正的 Promise？
+
+
+
+既然 Promise 是通过 new Promise(..) 语法创建的，那你可能就认为可以通过 p instanceof Promise 来检查。但遗憾的是，这并不足以作为检查方法，原因有许多。
+
+1. 最主要的是，Promise 值可能是从其他浏览器窗口（iframe 等）接收到的。这个浏览器窗口自己的 Promise 可能和当前窗口 /frame 的不同，因此这样的检查无法识别 Promise实例。
+2. 库或框架可能会选择实现自己的 Promise，而不是使用原生 ES6 Promise 实现。实际上，很有可能你是在早期根本没有 Promise 实现的浏览器中使用由库提供的 Promise。
+
+
+
+
+
+
+
+正确识别 Promise（或者行为类似于 Promise 的东西）的方式就是定义某种称为 thenable 的东西，将其定义为任何具有 then(..) 方法的对象和函数。我们认为，任何这样的值就是 Promise 一致的 thenable。
+
+> 根据一个值的形态（具有哪些属性）对这个值的类型做出一些假定。这种类型检查（type check）一般用术语鸭子类型（duck typing）来表示——“如果它看起来像只鸭子，叫起来像只鸭子，那它一定就是只鸭子”
+
+
+
+
+
+如果你试图使用恰好有 then(..) 函数的一个对象或函数值完成一个 Promise，但并不希望它被当作 Promise 或 thenable，那就有点麻烦了，因为它会自动被识别为 thenable，并被按照特定的规则处理（参见本章后面的内容）。
+
+如果有任何其他代码无意或恶意地给 Object.prototype、Array.prototype 或任何其他原生原型添加 then(..)，你无法控制也无法预测。并且，如果指定的是不调用其参数作为回调的函数，那么如果有 Promise 决议到这样的值，就会永远挂住！
+
+标准决定劫持之前未保留的——听起来是完全通用的——属性名 then。这意味着所有值（或其委托），不管是过去的、现存的还是未来的，都不能拥有 then(..) 函数，不管是有意的还是无意的；否则这个值在 Promise 系统中就会被误认为是一个 thenable，这可能会导致非常难以追踪的 bug。
+
+
+
+### 错误处理
+
+
+
+Promise 的错误处理易于出错
+
+
+
+```
+var p = Promise.resolve( 42 ); 
+p.then( 
+ function fulfilled(msg){ 
+ // 数字没有string函数，所以会抛出错误
+ console.log( msg.toLowerCase() ); 
+ }, 
+ function rejected(err){ 
+ // 永远不会到达这里
+ } 
+);
+```
+
+如果 msg.toLowerCase() 合法地抛出一个错误（事实确实如此！），为什么我们的错误处理函数没有得到通知呢？正如前面解释过的，这是因为那个错误处理函数是为 promise p 准备的，而这个 promise 已经用值 42 填充了。promise p 是不可变的，所以唯一可以被通知这个错误的 promise 是从 p.then(..) 返回的那一个，但我们在此例中没有捕捉。
+
+
+
+> 如果通过无效的方式使用 Promise API，并且出现一个错误阻碍了正常的 Promise 构造，那么结果会得到一个立即抛出的异常，而不是一个被拒绝的 Promise。这里是一些错误使用导致 Promise 构造失败的例子：new Promise(null)、Promise.all()、Promise.race(42)，等等。
+>
+> 如果一开始你就没能有效使用 Promise API 真正构造出一个 Promise，那就无法得到一个被拒绝的 Promise ！
+
+
+
+
+
+#### 处理未捕获的错误
+
+
+
+**以catch结束promise**
+
+为了避免丢失被忽略和抛弃的 Promise 错误，一些开发者表示，Promise 链的一个最佳实践就是最后总以一个 catch(..) 结束
+
+
+
+**全局未处理拒绝**
+
+有些 Promise 库增加了一些方法，用于注册一个类似于“全局未处理拒绝”处理函数的东西，这样就不会抛出全局错误，而是调用这个函数。
+
+但它们辨识未捕获错误的方法是定义一个某个时长的定时器，比如 3 秒钟，在拒绝的时刻启动。如果 Promise 被拒绝，而在定时器触发之前都没有错误处理函数被注册，那它就会假定你不会注册处理函数，进而就是未被捕获错误。
+
+但是这种模式可能会有些麻烦，因为 3 秒这个时间太随意了（即使是经验值），也因为确实有一些情况下会需要 Promise 在一段不确定的时间内保持其拒绝状态。而且你绝对不希望因为这些误报（还没被处理的未捕获错误）而调用未捕获错误处理函数。
+
+
+
+
+
+**done 函数标示 Promise 结束**
+
+Promsie 应该添加一个 done(..) 函数，从本质上标识 Promsie 链的结束。done(..) 不会创建和返回 Promise，所以传递给 done(..) 的回调显然不会报告一个并不存在的链接 Promise 的问题。
+
+但目前最大的问题是，它并不是 ES6 标准的一部分，所以不管听起来怎么好，要成为可靠的普遍解决方案，它还有很长一段路要走。
+
+
+
+
+
+### 成功的坑
+
+接下来的内容只是理论上的，关于未来的 Promise 可以变成什么样。
+
+
+
+还有，如果你认真对待的话，它可能是可以 polyfifill/prollyfifill 的。我们来看一下。
+
+• 默认情况下，Promsie 在下一个任务或时间循环 tick 上（向开发者终端）报告所有拒绝，如果在这个时间点上该 Promise 上还没有注册错误处理函数。
+
+• 如果想要一个被拒绝的 Promise 在查看之前的某个时间段内保持被拒绝状态，可以调用defer()，这个函数优先级高于该 Promise 的自动错误报告。
+
+
+
+
+
+### Promise 局限性
+
+
+
+#### 顺序错误处理
+
+由于一个 Promise 链仅仅是连接到一起的成员 Promise，没有把整个链标识为一个个体的实体，这意味着没有外部方法可以用于观察可能发生的错误。没有这样的为 Promise 链序列的中间步骤保留的引用，你就无法关联错误处理函数来可靠地检查错误。
+
+如果构建了一个没有错误处理函数的 Promise 链，链中任何地方的任何错误都会在链中一直传播下去，直到被查看。
+
+
+
+#### 单一值
+
+Promise 只能有一个完成值或一个拒绝理由
+
+
+
+一般的建议是构造一个对象或数组来保持这样的多个信息，但要在 Promise 链中的每一步都进行封装和解封，就十分丑陋和笨重了。
+
+
+
+**单决议**
+
+Promise 最本质的一个特征是：Promise 只能被决议一次（完成或拒绝）
+
+
+
+**无法取消**
+
+一旦创建了一个 Promise 并为其注册了完成和 / 或拒绝处理函数，如果出现某种情况使得这个任务悬而未决的话，你也没有办法从外部停止它的进程。
+
+
+
+
+
+## 生成器 Generator
+
+
+
+基础知识参考： [ES6 Generator函数 - ES6文档 (caibaojian.com)](http://caibaojian.com/es6/generator.html)
+
+
+
+
+
+### 打破完成运行
+
+
+
+在普通的 js 代码中，一个函数一旦开始执行，就会运行到结束，期间不会有其他代码能够打断它并插入其间。
+
+
+
+ES6 引入了一个新的函数类型，它并不符合这种运行到结束的特性。这类新的函数被称为生成器。
+
+
+
+
+
+#### 输入和输出
+
+
+
+```
+function *foo(x) { 
+ var y = x * (yield "Hello"); // <-- yield一个值！
+ return y; 
+} 
+var it = foo( 6 ); 
+var res = it.next(); // 第一个next()，并不传入任何东西
+res.value; // "Hello" 
+res = it.next( 7 ); // 向等待的yield传入7
+res.value; // 42
+```
+
+首先，传入 6 作为参数 x。然后调用 it.next()，这会启动 *foo(..)。
+
+ 在 *foo(..) 内部，开始执行语句 var y = x ..，但随后就遇到了一个 yield 表达式。它就会在这一点上暂停 *foo(..)**（在赋值语句中间！）**，并在本质上要求调用代码为 yield表达式提供一个结果值。
+
+接下来，调用 it.next( 7 )，这一句把值 7 传回作为被暂停的 yield 表达式的结果。
+
+
+
+消息是**双向传递**的——yield.. 作为一个表达式可以发出消息响应 next(..) 调用，next(..) 也可以向暂停的 yield 表达式发送值。
+
+
+
+
+
+#### 多个迭代器
+
+有一个细微之处很容易忽略：每次构建一个迭代器，实际上就隐式构建了生成器的一个实例，通过这个迭代器来控制的是这个生成器实例。
+
+同一个生成器的多个实例可以同时运行，它们甚至可以彼此交互
+
+
+
+```
+function *foo() { 
+ var x = yield 2; 
+ z++; 
+ var y = yield (x * z); 
+ console.log( x, y, z ); 
+} 
+var z = 1; 
+var it1 = foo(); 
+var it2 = foo(); 
+var val1 = it1.next().value; // 2 <-- yield 2 
+var val2 = it2.next().value; // 2 <-- yield 2 
+val1 = it1.next( val2 * 10 ).value; // 40 <-- x:20, z:2 
+val2 = it2.next( val1 * 5 ).value; // 600 <-- x:200, z:3 
+it1.next( val2 / 2 ); // y:300 
+ // 20 300 3 
+it2.next( val1 / 4 ); // y:10 
+ // 200 10 3
+```
+
+
+
+在普通的 js 函数当中，函数的执行顺序一般是固定的。但是使用生成器的话，**交替执行**（甚至在语句当中！）显然是可能的。
+
+
+
+### 生成器产生值
+
+
+
+#### 生产者和迭代器
+
+
+
+假定你要产生一系列值，其中每个值都与前面一个有特定的关系。要实现这一点，需要一个有状态的生产者能够记住其生成的最后一个值。
+
+
+
+我们可以通过两种方式自动迭代标准迭代器：
+
+```
+// 自动调用 next()，它不会向 next() 传入任何值，并且会在接收到 done:true 之后自动停止。
+for (var v of something) { 
+ console.log( v ); 
+ // 不要死循环！
+ if (v > 500) break;
+} 
+// 1 9 33 105 321 969
+
+
+// 语法丑陋，但其优点是，这样就可以在需要时向 next() 传递值
+for ( 
+ var ret; 
+ (ret = something.next()) && !ret.done; 
+) { 
+ console.log( ret.value ); 
+ // 不要死循环！
+ if (ret.value > 500) break;
+} 
+```
+
+
+
+#### iterable
+
+一个对象被称为迭代器，因为它的接口中有一个 next() 方法。而与其紧密相关的一个术语是 iterable（可迭代），即指一个包含可以在其值上迭代的迭代器的对象。
+
+从 ES6 开始，从一个 iterable 中提取迭代器的方法是：iterable 必须支持一个函数，其名称是专门的 ES6 符号值 Symbol.iterator。调用这个函数时，它会返回一个迭代器。通常每次调用会返回一个全新的迭代器，虽然这一点并不是必须的。
+
+
+
+#### 生成器迭代器
+
+可以把生成器看作一个值的生产者，我们通过迭代器接口的 next() 调用一次提取出一个值。
+
+严格说来，生成器本身并不是 iterable，尽管非常类似——当你执行一个生成器，就得到了一个迭代器。
+
+
+
+> 在实际的 JavaScript 程序中使用 while..true 循环是非常糟糕的主意，至少如果其中没有 break 或 return 的话是这样，因为它有可能会同步地无限循环，并阻塞和锁住浏览器 UI。
+>
+> 但是，如果在生成器中有 yield 的话，使用这样的循环就完全没有问题。因为生成器会在每次迭代中暂停，通过 yield 返回到主程序或事件循环队列中。
+
+
+
+### 异步迭代生成器
+
+在平时的请求当中
+
+```
+function foo(x,y,cb) { 
+ ajax( 
+ "http://some.url.1/?x=" + x + "&y=" + y, 
+ cb 
+ ); 
+} 
+foo( 11, 31, function(err,text) { 
+ if (err) { 
+ console.error( err ); 
+ } 
+ else { 
+ console.log( text ); 
+ } 
+} );
+```
+
+
+
+当用生成器实现：
+
+```
+function foo(x,y) { 
+ ajax( 
+ "http://some.url.1/?x=" + x + "&y=" + y, 
+ function(err,data){ 
+ if (err) { 
+ // 向*main()抛出一个错误
+ it.throw( err ); 
+ } 
+ else { 
+ // 用收到的data恢复*main() 
+ it.next( data ); 
+ } 
+ } 
+ ); 
+} 
+function *main() { 
+ try { 
+ var text = yield foo( 11, 31 ); 
+ console.log( text ); 
+ } 
+ catch (err) { 
+ console.error( err ); 
+ } 
+} 
+var it = main(); 
+// 这里启动！
+it.next();
+```
+
+
+
+我们在生成器内部有了看似完全同步的代码（除了 yield 关键字本身），但隐藏在背后的是，在 foo(..) 内的运行可以完全异步。
+
+在我们的大脑中，将异步请求放在回调中是一个混乱的方式，并且这很容易导致回调地狱。
+
+生成器是巨大的改进！对于我们前面陈述的回调无法以顺序同步的、符合我们大脑思考模式的方式表达异步这个问题，这是一个近乎完美的解决方案。
+
+
+
+#### 同步的错误处理
+
+ yield 暂停时也使得生成器能够捕获错误。
+
+在异步代码中实现看似同步的错误处理（通过 try..catch）在可读性和合理性方面都是一个巨大的进步。
+
+
+
+
+
+### 生成器 +Promise
+
+ES6 中最完美的世界就是生成器（看似同步的异步代码）和 Promise（可信任可组合）的结合。
+
+
+
+获得 Promise 和生成器最大效用的最自然的方法就是 yield 出来一个 Promise，然后通过这个 Promise 来控制生成器的迭代器。
+
+```
+function foo(x,y) { 
+ return request( 
+ "http://some.url.1/?x=" + x + "&y=" + y 
+ ); 
+} 
+function *main() { 
+ try { 
+ var text = yield foo( 11, 31 ); 
+ console.log( text ); 
+ } 
+ catch (err) { 
+ console.error( err ); 
+ } 
+}
+
+var it = main(); 
+var p = it.next().value; 
+// 等待promise p决议
+p.then( 
+ function(text){ 
+ 	it.next( text ); 
+ }, 
+ function(err){ 
+ 	it.throw( err ); 
+ } 
+);
+```
+
+
+
+#### 支持 Promise 的 Generator Runner
+
+
+
+```
+function run(gen) {
+  const args = [].slice.call(arguments, 1), it
+  // 在当前上下文中初始化生成器
+  it = gen.apply(this, args)
+  // 返回一个promise用于生成器完成
+  return Promise.resolve()
+    .then(function handleNext(value) {
+    // 对下一个yield出的值运行
+      const next = it.next(value)
+      return (function handleResult(next) {
+      // 生成器运行完毕了吗？
+        if (next.done) {
+          return next.value
+        }
+        return Promise.resolve(next.value)
+          .then(
+          // 成功就恢复异步循环，把决议的值发回生成器
+            handleNext,
+            // 如果value是被拒绝的 promise，
+            // 就把错误传回生成器进行出错处理
+            function handleErr(err) {
+              return Promise.resolve(
+                it.throw(err)
+              ).then(handleResult)
+            }
+          )
+      }(next))
+    })
+}
+```
+
+这种运行 run(..) 的方式，它会自动异步运行你传给它的生成器，直到结束。
+
+
+
+
+
+#### 生成器中的 Promise 并发
+
+当我们需要并发发送请求并且统一处理结果的时候，generator 的一般写法会是：
+
+```
+function *foo() { 
+ var r1 = yield request( "http://some.url.1" ); 
+ var r2 = yield request( "http://some.url.2" ); 
+ var r3 = yield request( 
+ "http://some.url.3/?v=" + r1 + "," + r2 
+ ); 
+ console.log( r3 ); 
+} 
+// 使用前面定义的工具run(..) 
+run( foo );
+```
+
+这样的方式会导致请求不是一起发送的，慢了很多，有了 promise 我们就可以很方便的解决这个问题。
+
+
+
+```
+function *foo() { 
+ // 让两个请求"并行"，并等待两个promise都决议
+ var results = yield Promise.all( [ 
+ request( "http://some.url.1" ), 
+ request( "http://some.url.2" ) 
+ ] ); 
+ var r1 = results[0]; 
+ var r2 = results[1]; 
+ var r3 = yield request( 
+ "http://some.url.3/?v=" + r1 + "," + r2 
+ ); 
+ console.log( r3 ); 
+}
+```
+
+
+
+
+
+#### 生成器委托
+
+
+
+```
+function *foo() { 
+  console.log( "*foo() starting" ); 
+  yield 3;
+  yield 4;
+  console.log( "*foo() finished" );
+}
+function *bar() {
+  yield 1;
+  yield 2;
+  yield *foo(); // yield委托！
+  yield 5;
+}
+var it = bar(); 
+it.next().value; // 1 
+it.next().value; // 2 
+it.next().value; // *foo()启动
+ // 3 
+it.next().value; // 4 
+it.next().value; // *foo()完成
+ // 5
+```
+
+调用 foo() 创建一个迭代器。然后 yield * 把迭代器实例控制（当前 *bar() 生成器的）委托给 / 转移到了这另一个 *foo() 迭代器。一旦 it 迭代器控制消耗了整个 *foo() 迭代器，it 就会自动转回控制 *bar()。
+
+
+
+
+
+
+
+
+
+**非重点内容仅作了解 。。。。。**
+
+
+
+
+
+## 程序性能
+
+
+
+### Web Worker
+
+如果你有一些处理密集型的任务要执行，但不希望它们都在主线程运行（这可能会减慢浏览器 /UI），可能你就会希望 JavaScript 能够以多线程的方式运行。
+
+你还需要注意一些问题。一个就是，你会想要知道在独立的线程运行是否意味着它可以并行运行（在多 CPU/ 核心的系统上），这样第二个线程的长时间运行就不会阻塞程序主线程。否则，相比于JavaScript 中已有的异步并发，“虚拟多线程”并不会带来多少好处。
+
+
+
+像你的浏览器这样的环境，很容易提供多个 JavaScript 引擎实例，各自运行在自己的线程上，这样你可以在每个线程上运行不同的程序。程序中每一个这样的独立的多线程部分被称为一个（Web）Worker。这种类型的并行化被称为任务并行，因为其重点在于把程序划分为多个块来并发运行。
+
+Worker 之间以及它们和主程序之间，不会共享任何作用域或资源，那会把所有多线程编程的噩梦带到前端领域，而是通过一个基本的事件消息机制相互联系。
+
+```
+// 创建 web worker
+var w1 = new Worker( "http://some.url.1/mycoolworker.js" );
+w1.addEventListener( "message", function(evt){ 
+ // evt.data 
+} );
+w1.postMessage( "something cool to say" );
+
+// "mycoolworker.js" 
+addEventListener( "message", function(evt){ 
+ // evt.data 
+} ); 
+postMessage( "a really cool reply" );
+```
+
+
+
+#### worker 环境
+
+ Worker 内部是无法访问主程序的任何资源的。这意味着你不能访问它的任何全局变量，也不能访问页面的 DOM 或者其他资源。记住，这是一个完全独立的线程。
+
+
+
+你可以执行网络操作（Ajax、WebSockets）以及设定定时器。还有，Worker 可以访问几个重要的全局变量和功能的本地复本，包括 navigator、location、JSON 和 applicationCache。
+
+你还可以通过 importScripts(..) 向 Worker 加载额外的 JavaScript 脚本：
+
+```
+// 在Worker内部
+importScripts( "foo.js", "bar.js" ); 
+```
+
+
+
+**Web Worker 用途**
+
+• 处理密集型数学计算
+
+• 大数据集排序
+
+• 数据处理（压缩、音频分析、图像处理等）
+
+• 高流量网络通信
+
+
+
+#### 数据传递
+
+需要在线程之间通过事件机制传递大量的信息，可能是双向的。
+
+
+
+在早期的 Worker 中，唯一的选择就是把所有数据序列化到一个字符串值中。除了双向序列化导致的速度损失之外，另一个主要的负面因素是数据需要被复制，这意味着两倍的内存使用
+
+
+
+如果要传递一个对象，可以使用 [结构化克隆算法](https://developer.mozilla.org/enUS/docs/Web/Guide/API/DOM/The_structured_clone_algorithm)把这个对象复制到另一边。这样就不用付出 to-string 和 from-string 的性能损失了，但是这种方案还是要使用双倍的内存。
+
+
+
+更好的选择，特别是对于大数据集而言，就是使用[Transferable 对象](http://updates.html5rocks.com/2011/12/Transferable-Objects-Lightning-Fast)。这时发生的是对象所有权的转移，数据本身并没有移动。一旦你把对象传递到一个 Worker 中，在原来的位置上，它就变为空的或者是不可访问的，这样就消除了多线程编程作用域共享带来的混乱。当然，所有权传递是可以双向进行的。
+
+
+
+#### 共享 Worker
+
+如果你的站点或 app 允许加载同一个页面的多个 tab（一个常见的功能），那你可能非常希望通过防止重复专用 Worker 来降低系统的资源使用。
+
+
+
+创建一个整个站点或 app 的所有页面实例都可以共享的中心 Worker（只有 Firefox 和 Chrome 支持这一功能）：
+
+```
+var w1 = new SharedWorker( "http://some.url.1/mycoolworker.js" );
+w1.port.addEventListener( "message", handleMessages ); 
+// .. 
+w1.port.postMessage( "something cool" );
+w1.port.start();
+```
+
+共享 Worker 可以与站点的多个程序实例或多个页面连接，所以这个 Worker 需要通过某种方式来得知消息来自于哪个程序。这个唯一标识符称为端口（port），可以类比网络 socket 的端口。因此，调用程序必须使用 Worker 的 port 对象用于通信
+
+共享 Worker 内部，必须要处理额外的一个事件："connect"。这个事件为这个特定的连接提供了端口对象。
+
+```
+// 在共享Worker内部
+addEventListener( "connect", function(evt){ 
+ // 这个连接分配的端口
+ var port = evt.ports[0]; 
+ port.addEventListener( "message", function(evt){ 
+ // .. 
+ port.postMessage( .. ); 
+ // .. 
+ } ); 
+ // 初始化端口连接
+ port.start(); 
+} );
+```
+
+
+
+### SIMD
+
+单指令多数据（SIMD）是一种数据并行（data parallelism）方式，与 Web Worker 的任务并行（task parallelism）相对，因为这里的重点实际上不再是把程序逻辑分成并行的块，而是并行处理数据的多个位。
+
+
+
+。。。 只做了解
+
+
+
+
+
+
+
+
+
+
+
+# 性能测试与调优
+
+
+
+
+
+## 性能测试
+
+
+
+```
+var start = (new Date()).getTime(); // 或者Date.now() 
+// 进行一些操作
+var end = (new Date()).getTime(); 
+console.log( "Duration:", (end - start) );
+```
+
+如果报告的时间是 0，可能你会认为它的执行时间小于 1ms。但是，这并不十分精确。有些平台的精度并没有达到 1ms，而是以更大的递增间隔更新定时器。比如，Windows（也就是 IE）的早期版本上的精度只有 15ms，这就意味着这个运算的运行时间至少需要这么长才不会被报告为 0 ！
+
+
+
+
+
+### 重复
+
+那就用一个循环把它包起来，这样整个测试的运行时间就会更长一些了。”如果重复一个运算 100 次，然后整个循环报告共消耗了 137ms，那你就可以把它除以 100，得到每次运算的平均用时为 1.37ms，是这样吗？
+
+**并不完全是这样！**
+
+重复执行的时间长度应该根据使用的定时器的精度而定，专门用来最小化不精确性。定时器的精度越低，你需要运行的时间就越长，这样才能确保错误率最小化。
+
+15ms 的定时器对于精确的性能测试来说是非常差劲的。要最小化它的不确定性（也就是出错率）到小于 1%，需要把你的每轮测试迭代运行 750ms。而 1ms 定时器时只需要每轮运行 50ms就可以达到同样的置信度。
+
+> 也就是说，要验证一个函数的运行时间，需要将运行的时间放大到浏览器定时器时间的50倍才可以认定数据可靠
+
+
+
+### [Benchmark.js](https://calendar.perfplanet.com/2010/bulletproof-javascript-benchmarks/)
+
+
+
+
+
+
+
 
 
 
