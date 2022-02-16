@@ -8,7 +8,7 @@
 
 
 
-![](E:\Code\笔记\笔记图片\js原型链.jpg)
+![](../../笔记图片\js原型链.jpg)
 
 #### 基本概念
 
@@ -20,7 +20,7 @@
 
 
 
-![](E:\Code\笔记\笔记图片\__proto__ 、 prototype和constructor.jpg)
+![](../../笔记图片\__proto__ 、 prototype和constructor.jpg)
 
  \__proto__  属性是实例对象指向原型对象的属性
 
@@ -34,7 +34,7 @@ constructor属性，用于记录实例是由哪个构造函数创建；
 
 #### 四个概念和两个原则
 
-四个概念	
+**四个概念**	
 
 1. js分为**函数对**象和**普通对象**，每个对象都有\__proto\__属性，但是只有函数对象才有prototype属性
 2. Object、Function都是js内置的**函数**, 类似的还有我们常用到的Array、RegExp、Date、Boolean、Number、String
@@ -43,7 +43,7 @@ constructor属性，用于记录实例是由哪个构造函数创建；
 
 
 
-两个原则
+**两个原则**
 
 1. Person.prototype.constructor === Person 
 
@@ -63,7 +63,7 @@ instanceof（f1） === Function的返回值是false，因为instanceof会一直�
 
 ### this的指向问题
 
-![](E:\Code\笔记\笔记图片\this指向.jpg)
+![](../../笔记图片\this指向.jpg)
 
 - 对于直接调用`foo`来说，不管`foo`函数被放在了什么地方，`this`一定是`window`
 - 对于`obj.foo()`来说，我们只需要记住，谁调用了函数，谁就是`this`，所以在这个场景下`foo`函数中的`this`就是`obj`对象
@@ -93,7 +93,7 @@ const c = new foo()
 
 **bind**返回的是一个函数， call/apply 是立刻执行的
 
-call 传入的参数是一系列的参数， apply 传入的是一个参数数组
+**call** 传入的参数是一系列的参数， **apply** 传入的是一个参数数组
 
 
 
@@ -164,7 +164,7 @@ function object(o){
   Person.prototype.setAge = function () {}
   function Student(name, age, price) {
   	// 相当于:：this.Person(name, age)
-    Person.call(this, name, age)  
+    Person.call(this, name, age) // 不能继承 setAge 方法
     this.price = price
   }
 ```
@@ -256,23 +256,43 @@ SubType.prototype.sayAge = function(){
 
 #### 浅拷贝方式
 
-1.  = 。 将对象的引用赋值。
-2.  Object.assign()。 把任意多个的源对象自身的可枚举属性拷贝给目标对象，然后返回目标对象。
-3.  ... 展开运算符。
-4.  slice() 和 concat()。 （针对于数组）
+1.  Object.assign()。 把任意多个的源对象自身的可枚举属性拷贝给目标对象，然后返回目标对象。
+2.  ... 展开运算符。
+3.  slice() 和 concat()。 （针对于数组）
     1. 只是第一层的深拷贝，二级及以下没有影响
 
-#### 深拷贝方式
+#### [深拷贝方式](https://juejin.cn/post/6844904197595332622#heading-13)
 
 1. 递归赋值
 
    1. 遇到循环引用，会陷入一个循环的递归过程，从而导致爆栈
-
 2. JSON.parse(JSON.stringify())
 
    1. 忽略undefined、任意的函数、symbol 值、正则表达式，因为JSON.stringify不能识别这些
-
 3. Object.create()
+
+```
+function deepClone(obj, hash = new WeakMap()) {
+  if (obj === null || obj === undefined) return obj; // 如果是null或者undefined我就不进行拷贝操作
+  if (obj instanceof Date) return new Date(obj);
+  if (obj instanceof RegExp) return new RegExp(obj);
+  if (typeof obj !== "object") return obj;
+ 
+  // 是对象的话就要进行深拷贝
+  if (hash.get(obj)) return hash.get(obj);
+  
+  let cloneObj = Array.isArray(obj) ? [] : {};
+  hash.set(obj, cloneObj);
+  
+  for (let key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      // 实现一个递归拷贝
+      cloneObj[key] = deepClone(obj[key], hash);
+    }
+  }
+  return cloneObj;
+}
+```
 
 
 
@@ -299,8 +319,6 @@ Object.prototype.toString.call() 、instanceof 、Array.isArray()
 缺点： 只能判断数组类型。ES5新增，存在兼容性问题，可以用Object.prototype.toString.call()代替。
 
 
-
-### 
 
 
 

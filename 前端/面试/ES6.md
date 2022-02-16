@@ -29,6 +29,13 @@
 
 ### [Symbol类型](https://www.jianshu.com/p/e36a558bec34)
 
+**特点：**
+
+- 独一无二
+- 不可枚举
+
+
+
 #### 用途
 
 1. 属性名
@@ -41,6 +48,8 @@
 
 1. Symbol.for(key) ： key相同的情况下返回同一个symbol值，
 2. Symbol.keyFor ： 找到一个symbol的 key
+
+
 
 ### 异步编程
 
