@@ -278,15 +278,14 @@ function deepClone(obj, hash = new WeakMap()) {
   if (obj instanceof RegExp) return new RegExp(obj);
   if (typeof obj !== "object") return obj;
  
-  // 是对象的话就要进行深拷贝
+  // 已经遍历过的直接从weakMap中取
   if (hash.get(obj)) return hash.get(obj);
   
   let cloneObj = Array.isArray(obj) ? [] : {};
   hash.set(obj, cloneObj);
   
   for (let key in obj) {
-    if (obj.hasOwnProperty(key)) {
-      // 实现一个递归拷贝
+    if (obj.hasOwnProperty(key)) { // 判断key
       cloneObj[key] = deepClone(obj[key], hash);
     }
   }
