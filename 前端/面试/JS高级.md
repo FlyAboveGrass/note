@@ -8,7 +8,7 @@
 
 
 
-![](../../笔记图片\js原型链.jpg)
+![](../../笔记图片/js原型链.jpg)
 
 #### 基本概念
 
@@ -20,7 +20,7 @@
 
 
 
-![](../../笔记图片\__proto__ 、 prototype和constructor.jpg)
+![](../../笔记图片/原型链.jpg)
 
  \__proto__  属性是实例对象指向原型对象的属性
 
@@ -63,7 +63,7 @@ instanceof（f1） === Function的返回值是false，因为instanceof会一直�
 
 ### this的指向问题
 
-![](../../笔记图片\this指向.jpg)
+![](../../笔记图片/this指向.jpg)
 
 - 对于直接调用`foo`来说，不管`foo`函数被放在了什么地方，`this`一定是`window`
 - 对于`obj.foo()`来说，我们只需要记住，谁调用了函数，谁就是`this`，所以在这个场景下`foo`函数中的`this`就是`obj`对象

@@ -219,11 +219,11 @@ const AsyncComponent = () => ({
 
 ### [生命周期](https://zhuanlan.zhihu.com/p/71958016)
 
-![](../../笔记图片\vue生命周期.jpg)
+![[Pasted image 20230129190104.png]]
 
 | 生命周期钩子函数（11个）     | 详细                                                         |
 | :--------------------------- | :----------------------------------------------------------- |
-| beforeCreate                 | 在`实例初始化之后`，数据观测 (data observer) 和 event/watcher 事件配置之前被调用。 |
+| beforeCreate                 | 在`实例初始化之后`调用。会在实例初始化完成、props 解析之后、`data()` 和 `computed` 等选项处理之前立即调用。 |
 | created                      | 在`实例创建完成后`被立即调用。实例已完成：`数据观测 (data observer)`， `属性和方法的运算`，`watch/event 事件回调`。实例还没挂载，$el 属性目前不可见。 |
 | beforeMount                  | 在`挂载开始之前`被调用：相关的 render 函数首次被调用。虚拟Dom已经创建完成，可以对数据进行更改，不会触发updated。 |
 | mounted                      | `el` 被新创建的 `vm.$el` 替换，并`挂载到实例上去之后`调用该钩子。如果 root 实例挂载了一个文档内元素，当 mounted 被调用时 vm.$el 也在文档内。 |
@@ -451,7 +451,7 @@ var proxy = new Proxy({}, {
 
 # Vuex
 
-![](../../笔记图片\vuex.png)
+![](../../笔记图片/vuex.png)
 
 #### 核心
 
