@@ -261,6 +261,7 @@ app.directive('pin', {
 
 
 <p v-pin:[direction]="pinPadding"></p>
+
 ##### **函数简写**
 
 在mounted和updated的时候触发相同的行为，而不关心其他的钩子，可以采用函数简写
@@ -275,7 +276,7 @@ Teleport 提供了一种干净的方法，允许控制在哪一个父节点下�
 </teleport>
 ```
 
-如果teleport包含Vue组件，那个Vue组件是 <teleport> 父组件的逻辑子组件。
+如果teleport包含Vue组件，那个Vue组件是 `<teleport> `父组件的逻辑子组件。
 
 如果在同一个目标上使用多个teleport，那么多个teleport的内容会按顺序挂载到同一个目标元素中。
 

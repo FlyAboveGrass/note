@@ -181,7 +181,10 @@ GPU 渲染会影响字体的抗锯齿效果。这是因为 GPU 和 CPU 具有不
 
 **order, flex-grow**(默认0，不放大),  **flex-shrink**（默认1，不足会缩小）, **flex-basis, flex, align-self**
 
-**flex属性**是`flex-grow`, `flex-shrink` 和 `flex-basis`的简写，默认值为`0 1 auto`。
+**flex属性**是`flex-grow`, `flex-shrink` 和 `flex-basis`的简写
+- 当没有设置值，默认值为`0 1 auto`。
+- flex: 1 是 flex: 1 1 0% 的缩写。所有子节点平分父容器
+- flex: auto 是 flex: 1 1 auto 的缩写。子节点根据节点本身内容大小为基准放大缩小填充父容器
 
 **align-self属性**允许单个项目有与其他项目不一样的对齐方式，可覆盖`align-items`属性。 	
 
