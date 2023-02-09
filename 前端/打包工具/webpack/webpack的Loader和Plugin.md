@@ -6,11 +6,11 @@
 
 
 
-## **Plugin**
+## Plugin
 
 
 
-### **什么是 Plugin**
+### 什么是 Plugin
 
 插件通常是一个带有 `apply` 函数的类。`apply` 函数运行时会得到参数 `compiler` ，以此为起点可以调用 `hook` 对象注册各种钩子回调，webpack 的插件架构基于这种模式构建而成，插件开发者可以使用这种模式在钩子回调中，插入特定代码。
 
@@ -44,7 +44,7 @@ const {
 
 
 
-### **如何使用 plugin**
+### 如何使用 plugin
 
 Tapable 使用时通常需要经历如下步骤：
 
@@ -56,7 +56,7 @@ Tapable 使用时通常需要经历如下步骤：
 
 
 
-#### **Tapable 钩子类型**
+#### Tapable 钩子类型
 
 Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
@@ -75,7 +75,7 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
 
 
-##### **钩子分类依据两条规则：**
+##### 钩子分类依据两条规则：
 
 - 按回调逻辑，分为：
     - 基本类型，名称不带 `Waterfall/Bail/Loop` 关键字，与通常 **「订阅/回调」** 模式相似，按钩子注册顺序，逐次调用回调
@@ -93,7 +93,7 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
 
 
-### **什么时候触发钩子**
+### 什么时候触发钩子
 
 
 
@@ -125,11 +125,11 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
 
 
-#### **[触发时机](https://juejin.cn/post/6949040393165996040#heading-16)**
+#### [触发时机](https://juejin.cn/post/6949040393165996040#heading-16)
 
 
 
-##### `**compiler**` **对象逐次触发如下钩子**
+##### `compiler` 对象逐次触发如下钩子
 
 
 
@@ -137,7 +137,7 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
 
 
-##### `**compilation**` **对象逐次触发如下钩子**
+##### `compilation` 对象逐次触发如下钩子
 
 ![img](https://supermonkey.feishu.cn/space/api/box/stream/download/asynccode/?code=NTNlYWRiMjg5OTFmMjQ3NzQ1YjY3MzFhZmU4YWMyOTJfbFZ0R3lycXU5T3JQNHdicnh4cW43UXB4MG14QjRlSmpfVG9rZW46Ym94Y25oZ1JDVnMxV0RqUjE3WUVMZjZvenFjXzE2NDQ5MDU1MjI6MTY0NDkwOTEyMl9WNA)
 
@@ -147,7 +147,7 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
 
 
-### **如何影响编译状态**
+### 如何影响编译状态
 
 hooks 回调由 webpack 决定何时，以何种方式执行；webpack 会将上下文信息以参数或 `this` (compiler 对象) 形式传递给钩子回调，在回调中可以调用上下文对象的方法或者直接修改上下文对象属性的方式，对原定的流程产生 **side effect**。
 
@@ -171,7 +171,7 @@ hooks 回调由 webpack 决定何时，以何种方式执行；webpack 会将上
 
 
 
-### **[如何编写 Plugin](https://webpack.wuhaolin.cn/5原理/5-4编写Plugin.html)**
+### [如何编写 Plugin](https://webpack.wuhaolin.cn/5原理/5-4编写Plugin.html)
 
 
 
@@ -229,7 +229,7 @@ class Plugin {
 
 
 
-## **[Loader](https://www.webpackjs.com/contribute/writing-a-loader/)**
+## [Loader](https://www.webpackjs.com/contribute/writing-a-loader/)
 
 `webpack` 只认识 `JavaScript` 这们语言，对于其他的资源通过 `loader` 后可以转化做预处理。
 
@@ -237,7 +237,7 @@ class Plugin {
 
 
 
-### **Loader 的特性**
+### Loader 的特性
 
 
 
@@ -275,7 +275,7 @@ class Plugin {
 
 
 
-### **如何编写 Loader**
+### 如何编写 Loader
 
 ```JavaScript
 // ./loader/replaceLoader.js
