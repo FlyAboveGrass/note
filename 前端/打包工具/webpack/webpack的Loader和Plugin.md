@@ -101,23 +101,19 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
 - compiler.hooks.compilation：
     - 时机：启动编译创建出 compilation 对象后触发
-
-- 参数：当前编译的 compilation 对象
+    - 参数：当前编译的 compilation 对象
 
 - compiler.hooks.make：
     - 时机：正式开始编译时触发
-
-- 参数：同样是当前编译的 `compilation` 对象
+    - 参数：同样是当前编译的 `compilation` 对象
 
 - compilation.hooks.optimizeChunks：
     - 时机： `seal` 函数中，`chunk` 集合构建完毕后触发
-
-- 参数：`chunks` 集合与 `chunkGroups` 集合
+    - 参数：`chunks` 集合与 `chunkGroups` 集合
 
 - compiler.hooks.done：
     - 时机：编译完成后触发
-
-- 参数： `stats` 对象，包含编译过程中的各类统计信息
+    - 参数： `stats` 对象，包含编译过程中的各类统计信息
 
 
 
@@ -179,8 +175,7 @@ hooks 回调由 webpack 决定何时，以何种方式执行；webpack 会将上
 
 - 确定 Plugin 的形式
     - 函数形式。 定义一个 JavaScript 命名函数。在插件函数的 prototype 上定义一个 `apply` 方法。
-
-- 类形式。 定义一个 Plugin 的类，定义 constructor（获取参数） 和 apply 方法。
+    - 类形式。 定义一个 Plugin 的类，定义 constructor（获取参数） 和 apply 方法。
 
 - 指定一个绑定到 webpack 自身的[事件钩子](https://www.webpackjs.com/api/compiler-hooks/)。
 

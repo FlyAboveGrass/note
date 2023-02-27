@@ -67,7 +67,7 @@ function instanceof(left,right){
    
    
 
-#### for of 
+#### for...of 
 
 **迭代**。适合遍历数组
 
