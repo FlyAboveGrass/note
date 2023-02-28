@@ -265,7 +265,6 @@ BFC（Block Formatting Contexts，块级格式化上下文）**是Web页面中�
 #### 触发BFC方式
 
 - float 除了none以外的值 	
-
 - overflow 除了visible 以外的值（hidden，auto，scroll ） 
 - display (table-cell，table-caption，inline-block, **flex**, inline-flex) 
 - 绝对定位，即position值为（absolute，fixed） 
