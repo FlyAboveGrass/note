@@ -18,8 +18,6 @@ action的存在使得所有的修改都被集中化处理，且严格按照一�
 
 
 
-
-
 ### 使用纯函数执行修改
 
 **为了描述 action 如何改变 state tree ，你需要编写 [reducers](https://www.redux.org.cn/docs/Glossary.html#reducer)。**
