@@ -1,0 +1,484 @@
+/* @settings
+
+name: yaozhuwa@css
+id: yaozhuwa@css
+settings:
+    -   
+        id: blank-line-tweak
+        title: Live Preview 空白行优化V2.0
+        description: 见 https://forum-zh.obsidian.md/t/topic/12515
+        type: class-toggle
+        default: true
+    -   
+        id: outline-tweak
+        title: 大纲美化
+        description: 见 https://forum-zh.obsidian.md/t/topic/11219
+        type: class-toggle
+        default: true
+    -   
+        id: seamless-embed
+        title: 内嵌文档自然显示
+        description: 语法：![[嵌入的文档|seamless]]，来自 AnuPpuccin 主题
+        type: class-toggle
+        default: true
+    -
+        id: clutter-free-headings
+        title: 编辑状态使用H1 H2 替代「#」(显示标题级别)
+        title.zh: 编辑状态使用H1 H2 替代「#」(显示标题级别)
+        description: 来自 blue-topaz 主题
+        type: class-toggle
+        default: true
+    - 
+        id: code-line-number
+        title: Code box showing line numbers (Editing Mode)
+        title.zh: 代码显示行号 （编辑模式）
+        description: csslass declares code-line-number to be available for the current document, copy from blue-topaz theme
+        description.zh:  csslass 声明 code-line-number 可对单篇note生效，来自 blue-topaz 主题
+        type: class-toggle
+        default: true
+    - 
+        id: context-tweak
+        title: 排版优化
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        id: increase-paragraph-gap
+        title: 段落间距增大
+        description: 来自 yaozhuwa
+        type: class-toggle
+        default: true
+    -
+        id: increase-headings-gap
+        title: 标题与正文间距增大
+        description: 来自 yaozhuwa
+        type: class-toggle
+        default: true
+    -
+        id: center-image
+        title: 图片居中显示
+        description: 来自 blue-topaz 主题
+        type: class-toggle
+        default: false
+    -
+        id: bigger-math-font
+        title: 公式字体增大
+        description: 来自 blue-topaz 主题
+        type: class-toggle
+        default: true
+    - 
+        id: table-tweak
+        title: 表格优化
+        type: heading
+        level: 2
+        collapsed: false
+    -
+        id: full-width-table
+        title: 全宽表格
+        description: 来自 blue-topaz 主题
+        type: class-toggle
+        default: true
+    -
+        id: table-line-number
+        title: 表格行号显示
+        description: 来自 minimal 主题
+        type: class-toggle
+        default: true
+
+*/
+
+/* 美化的大纲 */
+body {
+  
+  /* 引导线粗细 */
+  --outline-guideline-width: 2px;
+  
+  /* 引导线颜色 */
+  --outline-guideline-color: hsla(var(--color-accent-hsl), 0.9);
+  
+  /* 一行高度 */
+  --outline-item-height: calc(var(--nav-item-size) * 1.8);
+  
+  /* 鼠标经过颜色 */
+  --nav-item-background-hover: hsla(var(--color-accent-hsl), 0.15);
+  
+  --accent-active: hsl(
+    var(--accent-h),
+    var(--accent-s),
+    calc(var(--accent-l) + 4%)
+  );
+}
+
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .collapse-icon {
+  padding-inline-end: var(--size-2-3);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .collapse-icon::before {
+  content: "" !important;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item {
+  position: relative;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self {
+  position: relative;
+  margin-bottom: 0;
+  white-space: nowrap;
+  margin-top: -1px; /* fix item gap */
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-inner {
+  padding-left: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: var(--outline-item-height);
+  line-height: var(--outline-item-height);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-inner::before {
+  content: "";
+  width: var(--size-4-1);
+  height: var(--size-4-1);
+  border: 2px solid var(--outline-guideline-color);
+  border-radius: 50%;
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-icon ~ .tree-item-inner {
+  padding-left: 4px;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-icon ~ .tree-item-inner::before {
+  content: none;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item.is-collapsed .tree-item-icon::before {
+  box-shadow: 0 0 0 4px var(--background-modifier-hover);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item::after {
+  content: "";
+  width: var(--outline-guideline-width);
+  position: absolute;
+  background-color: transparent;
+  top: calc(var(--outline-item-height) / 2 * -1);
+  left: -10px;
+  height: calc(100% - var(--outline-item-height) + var(--size-4-8));
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon {
+  cursor: pointer;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon::before {
+  width: var(--size-4-2);
+  height: var(--size-4-2);
+  background-color: var(--outline-guideline-color);
+  border-radius: 50%;
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon svg {
+  display: block;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon svg path {
+  display: none;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover > .tree-item-children > .tree-item::after {
+  background-color: var(--outline-guideline-color);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover > .tree-item-self:hover + .tree-item-children .tree-item::after {
+  background-color: transparent;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover > .tree-item-children > .tree-item:hover::after, .outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover > .tree-item-children > .tree-item:hover ~ .tree-item::after {
+  background-color: transparent;
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item:hover > .tree-item-children > .tree-item:hover::before {
+  content: "";
+  position: absolute;
+  top: calc(var(--outline-item-height) / 2 * -1);
+  left: -10px;
+  bottom: calc(100% - (var(--outline-item-height) + var(--size-4-2)) / 2 - 1px);
+  width: 16px;
+  border-bottom-left-radius: var(--radius-m);
+  border-bottom: var(--outline-guideline-width) solid var(--outline-guideline-color);
+  border-left: var(--outline-guideline-width) solid var(--outline-guideline-color);
+}
+.outline-tweak .workspace-leaf-content[data-type=outline] .view-content .outline :is(.tree-item-children, .tree-item-self .tree-item-self) {
+  padding-left: 0;
+  margin-left: var(--size-4-5);
+  border-left: none;
+}
+
+/* 公式字体 */
+.bigger-math-font .math.math-block mjx-container[jax='CHTML'] {
+  outline: none;
+  font-size: 1.2em;
+}
+
+/* fix banners in new window */
+:root
+{
+    --banner-height: 300px;
+    --banner-internal-embed-height: 200px;
+    --banner-preview-embed-height: 120px;
+}
+
+/* headers */
+/*编辑状态是否显示H1 H2标记*/
+/*适配Live preview模式*/
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header):not(.cm-hashtag):not(.cm-inline-code):not(.cm-highlight).cm-header::before {
+  font-size: 0.6rem;
+  width: auto;
+  margin-right: 1px;
+  border-radius: var(--radius-xs);
+  color: var(--text-muted);
+  overflow: visible;
+  font-family: var(--font-default);
+  font-weight: normal !important;
+}
+
+.clutter-free-headings div.mod-cm6.is-live-preview div:not(.cm-active).cm-line .cm-header ~ span.cm-header::before,
+.clutter-free-headings div.mod-cm6.is-live-preview div:not(.cm-active).cm-line .cm-header.cm-hmd-internal-link::before {
+  display: none;
+}
+
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-1::before {
+  content: 'H1';
+  margin-top: calc(var(--h1-size) - 0.1em);
+}
+
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-2::before {
+  content: 'H2';
+  margin-top: calc(var(--h2-size) - 0.2em);
+}
+
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-3::before {
+  content: 'H3';
+  margin-top: calc(var(--h3-size) - 0.2em);
+}
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-4::before {
+  content: 'H4';
+  margin-top: calc(var(--h4-size) - 0.3em);
+}
+
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-5::before {
+  content: 'H5';
+  margin-top: calc(var(--h5-size) - 0.4em);
+}
+
+.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header-6::before {
+  content: 'H6';
+  margin-top: calc(var(--h6-size) - 0.4em);
+}
+
+/*适配source mode 模式*/
+.clutter-free-headings div.mod-cm6:not(.is-live-preview) div:not(.cm-active).cm-line span:not(.cm-formatting-header).cm-header ~ span.cm-header::before
+{
+  display: none;
+}
+ .clutter-free-headings div.mod-cm6:not(.is-live-preview) div:not(.cm-active).cm-line span.cm-formatting-header {
+  display:none;
+}
+/*适配传统模式*/
+.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line.hmd-inactive-line span.cm-formatting-header::before {
+  position: absolute;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  width: auto;
+  margin-left: -18px;
+  padding: 0px 2px;
+  border-radius: var(--radius-xs);
+  color: var(--text-muted);
+  overflow: visible;
+  font-family: var(--font-default);
+  font-weight: normal !important;
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line:not(.hmd-inactive-line) span.cm-formatting-header::before {
+  position: absolute;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  width: auto;
+  margin-left: -6px;
+  border-radius: var(--radius-xs);
+  color: var(--text-muted);
+  overflow: visible;
+  font-family: var(--font-default);
+  font-weight: normal !important;
+}
+
+.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header {
+  color: transparent !important;
+  background: none;
+}
+
+.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-1::before {
+  content: 'H1';
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-2::before {
+  content: 'H2';
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-3::before {
+  content: 'H3';
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-4::before {
+  content: 'H4';
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-5::before {
+  content: 'H5';
+}
+.clutter-free-headings div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-6::before {
+  content: 'H6';
+}
+
+
+/* 代码行号显示 */
+.code-line-number .HyperMD-codeblock-begin {
+  counter-reset: line-numbers;
+}
+
+.code-line-number .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end) {
+  padding-left: 3em;
+  position: relative;
+}
+  
+.code-line-number .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::after {
+  align-items: flex-start;
+  color: var(--text-faint);
+  content: counter(line-numbers);
+  counter-increment: line-numbers;
+  display: flex;
+  font-size: 0.8em;
+  height: 100%;
+  justify-content: flex-end;
+  left: 0;
+  position: absolute;
+  text-align: right;
+  width: 2em;
+  padding-right: 0.5em;
+  bottom: -2px;
+  border-right: 1px solid var(--scrollbar-thumb-bg);
+}
+
+.code-line-number .HyperMD-codeblock.cm-line.cm-active:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::after {
+  color: var(--color-accent);
+}
+
+.code-line-number .HyperMD-codeblock .cm-foldPlaceholder::before {
+  display: none;
+}
+
+.center-image :is(.markdown-preview-view,.markdown-rendered) img:not([class*="emoji"]) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-image .print :is(.markdown-preview-view,.markdown-rendered) img:not([class*="emoji"]) {
+  display: block;
+}
+
+.center-image .view-content img:not([class*="emoji"]) {
+  cursor: zoom-in;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* 预览模式空白行优化 https://forum-zh.obsidian.md/t/topic/12515 */
+.blank-line-tweak .is-live-preview [class="hr cm-line"] {
+    line-height: 0.6em;
+}
+
+.blank-line-tweak .is-live-preview [class="cm-active cm-line"] {
+    transition: 0.5s line-height;
+}
+
+.blank-line-tweak .is-live-preview :is([class=cm-line]:has(+ :is(.hr))), .blank-line-tweak  .is-live-preview :is(.HyperMD-quote, .cm-callout, .HyperMD-list-line) + [class="cm-line"] {
+    padding-top: 0em !important;
+    padding-bottom: 0em !important;
+    line-height: 0.5;
+    transition: 0.5s line-height,0.5s background-color;
+    border-radius: var(--radius-s);
+}
+
+.blank-line-tweak .is-live-preview :is([class=cm-line]:has(+ :is(.hr))):hover, .blank-line-tweak .is-live-preview :is(.HyperMD-quote, .cm-callout, .HyperMD-list-line) + [class="cm-line"]:hover {
+    background-color: hsla(var(--color-accent-hsl), 0.4);
+}
+
+.full-width-table :is(.markdown-preview-section,.markdown-rendered) table:not(.dataview.table-view-table) {
+        width: 100%;/*表格占页面的宽度*/
+        border-collapse: collapse;
+        overflow: auto;
+        margin: 5px auto;
+}
+
+/* 表格优化，From minimal theme */
+.table-line-number table:not(.calendar) {
+  counter-reset: section
+}
+
+.table-line-number table:not(.calendar)>thead>tr>th:first-child::before {
+  content: " ";
+  padding-right: .5em;
+  display: inline-block;
+  min-width: 2em
+}
+
+.table-line-number table:not(.calendar)>tbody>tr>td:first-child::before {
+  counter-increment: section;
+  content: counter(section) " ";
+  text-align: center;
+  padding-right: .5em;
+  display: inline-block;
+  min-width: 2em;
+/*  color: var(#6c6e70);*/
+  font-variant-numeric: tabular-nums
+}
+
+/*段落间距优化*/
+.increase-paragraph-gap div.cm-line {
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+
+
+.increase-paragraph-gap div.HyperMD-list-line.cm-line{
+    padding-top: 0.1em !important;
+    padding-bottom: 0.1em !important;
+}
+
+.increase-paragraph-gap div.HyperMD-codeblock.cm-line, div.hr{
+    padding-top: 0em !important;
+    padding-bottom: 0em !important;
+}
+
+.increase-paragraph-gap p>br {
+    content: '';
+    margin-top: 0.5em;
+    display: block;
+}
+
+/* 标题间距优化 */ 
+.increase-headings-gap div.HyperMD-header.cm-line{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+
+/* 内嵌文档自然显示，来自 AnuPpuccin 主题 */
+.seamless-embed .internal-embed[alt*=seamless].markdown-embed {
+  --embed-padding: 0;
+  border-width: 0px;
+}
+.seamless-embed .internal-embed[alt*=seamless].markdown-embed > .markdown-embed-title {
+  width: fit-content;
+  position: absolute;
+  left: unset;
+  right: 33px;
+  top: 5px;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.seamless-embed .internal-embed[alt*=seamless].markdown-embed > .markdown-embed-link {
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.seamless-embed .internal-embed[alt*=seamless].markdown-embed:hover > .markdown-embed-title, .internal-embed[alt*=seamless].markdown-embed:hover > .markdown-embed-link {
+  opacity: 1;
+  transition: opacity 0.1s;
+}

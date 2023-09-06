@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "184bcf9e5a479fe1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ecbbde9e54e844b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "215b7c238d8dfb48",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "5eb9e8799a28a483",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "staged": false,
+                "file": "前端/工作文档.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ae783b63ab84594",
+    "type": "split",
+    "children": [
+      {
+        "id": "75b33d535eeb164c",
+        "type": "tabs",
+        "dimension": 74.11111111111111,
+        "children": [
+          {
+            "id": "5d0b0da9409abf19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9ba47aa5566b42d9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "e4ec2fa580534f5d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "for..",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "52625c923ee7cc89",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "cdbd72357bbc8d63",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f77f85c5b8b510ca",
+        "type": "tabs",
+        "dimension": 25.88888888888889,
+        "children": [
+          {
+            "id": "f012e4784270b82a",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 227.5
+  },
+  "right": {
+    "id": "dfe4f3c211085d5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "43daaa683023eefd",
+        "type": "tabs",
+        "dimension": 62.22222222222222,
+        "children": [
+          {
+            "id": "035084878de0e2c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2b5b613029d41aee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "af71931df3f4ebd8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "08a2d34a08751181",
+        "type": "tabs",
+        "dimension": 37.77777777777778,
+        "children": [
+          {
+            "id": "d7ac45b1a598ed71",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-weread-plugin:Weread": true,
+      "canvas:新建白板": true,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": true,
+      "command-palette:打开命令面板": true,
+      "cmdr:文件列表": true
+    }
+  },
+  "active": "5eb9e8799a28a483",
+  "lastOpenFiles": [
+    "前端/工作文档.md",
+    "前端/vpn.md",
+    "前端/前端知识自检清单.md",
+    "笔记图片/obsidian配置.zip",
+    "学习列表.md",
+    "前端/前端架构师.md",
+    "java/java 基础语法.md",
+    "杂记/提问的智慧.md",
+    "笔记图片/Pasted image 20230902235726.png",
+    "java/javaweb.md",
+    "前端/JS/JS基础.md",
+    "数据结构及算法/数据结构.md",
+    "前端/未命名.md",
+    "前端/面试/计算机网络.md",
+    "前端/JS/ES6.md",
+    "java/数据库/mysql.md",
+    "经济学/财报阅读.md",
+    "前端/前端理论/前后端鉴权方案.md",
+    "前端/面试/HTML-CSS.md",
+    "前端/前端理论/前端安全.md",
+    "前端/React/React高级.md",
+    "前端/Vue/vue3高阶指南.md"
+  ]
+}
