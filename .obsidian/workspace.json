@@ -4,30 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2ecbbde9e54e844b",
+        "id": "c5d82c7e33039990",
         "type": "tabs",
         "children": [
           {
-            "id": "215b7c238d8dfb48",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "5eb9e8799a28a483",
+            "id": "c28851949cdf4cfe",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "staged": false,
-                "file": "前端/工作文档.md"
+                "file": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "staged": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -39,7 +30,7 @@
       {
         "id": "75b33d535eeb164c",
         "type": "tabs",
-        "dimension": 74.11111111111111,
+        "dimension": 59.07990314769975,
         "children": [
           {
             "id": "5d0b0da9409abf19",
@@ -90,12 +81,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f77f85c5b8b510ca",
         "type": "tabs",
-        "dimension": 25.88888888888889,
+        "dimension": 40.92009685230024,
         "children": [
           {
             "id": "f012e4784270b82a",
@@ -104,12 +96,21 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "4ed72fc1e60e98db",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 309
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -182,25 +183,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:打开命令面板": false,
       "obsidian-weread-plugin:Weread": true,
       "canvas:新建白板": true,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": true,
-      "command-palette:打开命令面板": true,
-      "cmdr:文件列表": true
+      "cmdr:文件列表": false,
+      "cmdr:source control": false
     }
   },
-  "active": "5eb9e8799a28a483",
+  "active": "c28851949cdf4cfe",
   "lastOpenFiles": [
+    "java/java 基础语法.md",
+    "笔记图片/Pasted image 20230907233328.png",
     "前端/工作文档.md",
     "前端/vpn.md",
     "前端/前端知识自检清单.md",
     "笔记图片/obsidian配置.zip",
     "学习列表.md",
     "前端/前端架构师.md",
-    "java/java 基础语法.md",
     "杂记/提问的智慧.md",
     "笔记图片/Pasted image 20230902235726.png",
     "java/javaweb.md",

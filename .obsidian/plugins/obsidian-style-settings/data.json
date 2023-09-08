@@ -32,5 +32,6 @@
   "anuppuccin-theme-settings@@anp-custom-bg-blur-light": 5,
   "anuppuccin-theme-settings@@anp-custom-bg-brightness-light": 0.85,
   "anuppuccin-theme-settings@@anp-custom-bg-card-fg-opacity-light": 0.9,
-  "anuppuccin-theme-settings@@anp-background-image-toggle": true
+  "anuppuccin-theme-settings@@anp-background-image-toggle": true,
+  "anuppuccin-theme-settings@@anp-codeblock-numbers": false
 }
