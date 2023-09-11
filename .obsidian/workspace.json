@@ -1,58 +1,45 @@
 {
   "main": {
-    "id": "184bcf9e5a479fe1",
+    "id": "d64b41c2ada8a082",
     "type": "split",
     "children": [
       {
-        "id": "2ecbbde9e54e844b",
+        "id": "cf1b11765e7bcae9",
         "type": "tabs",
         "children": [
           {
-            "id": "215b7c238d8dfb48",
+            "id": "deade667eea149f9",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "5eb9e8799a28a483",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "staged": false,
-                "file": "前端/工作文档.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6ae783b63ab84594",
+    "id": "3c11b342b436e5e7",
     "type": "split",
     "children": [
       {
-        "id": "75b33d535eeb164c",
+        "id": "e5b41e61fafd778b",
         "type": "tabs",
-        "dimension": 74.11111111111111,
         "children": [
           {
-            "id": "5d0b0da9409abf19",
+            "id": "dc60a569e75c88b7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
           {
-            "id": "9ba47aa5566b42d9",
+            "id": "a4bd404090172a4e",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -60,12 +47,12 @@
             }
           },
           {
-            "id": "e4ec2fa580534f5d",
+            "id": "2836df4c05c4dc80",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "for..",
+                "query": "for...of",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,60 +60,28 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "52625c923ee7cc89",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "cdbd72357bbc8d63",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "f77f85c5b8b510ca",
-        "type": "tabs",
-        "dimension": 25.88888888888889,
-        "children": [
-          {
-            "id": "f012e4784270b82a",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 267
   },
   "right": {
-    "id": "dfe4f3c211085d5b",
+    "id": "63ea28dd52758e2c",
     "type": "split",
     "children": [
       {
-        "id": "43daaa683023eefd",
+        "id": "034088a4c5fcb14e",
         "type": "tabs",
-        "dimension": 62.22222222222222,
         "children": [
           {
-            "id": "035084878de0e2c8",
+            "id": "b08cb54b68b74601",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -137,7 +92,7 @@
             }
           },
           {
-            "id": "2b5b613029d41aee",
+            "id": "0abaa47500730dbd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -148,26 +103,33 @@
             }
           },
           {
-            "id": "af71931df3f4ebd8",
+            "id": "e6de0d432dcf798d",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
+            }
+          },
+          {
+            "id": "3f5decab1abc284f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
-        "id": "08a2d34a08751181",
+        "id": "7244a0a999c778b1",
         "type": "tabs",
-        "dimension": 37.77777777777778,
         "children": [
           {
-            "id": "d7ac45b1a598ed71",
+            "id": "11c8950802e39f78",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -178,43 +140,65 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 321,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-weread-plugin:Weread": true,
       "canvas:新建白板": true,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": true,
-      "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": true,
+      "graph:查看关系图谱": true,
+      "templates:插入模板": true,
       "command-palette:打开命令面板": true,
-      "cmdr:文件列表": true
+      "daily-notes:打开/创建今天的日记": true,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true,
+      "obsidian-file-cleaner:清理文件": false
     }
   },
-  "active": "5eb9e8799a28a483",
+  "active": "deade667eea149f9",
   "lastOpenFiles": [
-    "前端/工作文档.md",
-    "前端/vpn.md",
-    "前端/前端知识自检清单.md",
-    "笔记图片/obsidian配置.zip",
-    "学习列表.md",
-    "前端/前端架构师.md",
-    "java/java 基础语法.md",
-    "杂记/提问的智慧.md",
-    "笔记图片/Pasted image 20230902235726.png",
-    "java/javaweb.md",
-    "前端/JS/JS基础.md",
-    "数据结构及算法/数据结构.md",
-    "前端/未命名.md",
-    "前端/面试/计算机网络.md",
-    "前端/JS/ES6.md",
-    "java/数据库/mysql.md",
     "经济学/财报阅读.md",
-    "前端/前端理论/前后端鉴权方案.md",
-    "前端/面试/HTML-CSS.md",
-    "前端/前端理论/前端安全.md",
-    "前端/React/React高级.md",
-    "前端/Vue/vue3高阶指南.md"
+    "经济学",
+    "笔记图片/obsidian配置.zip",
+    "笔记图片/Pasted image 20230902235726.png",
+    "笔记图片/Pasted image 20230328230547.png",
+    "笔记图片/Pasted image 20230328223749.png",
+    "数据结构及算法/算法.md",
+    "学习列表.md",
+    "前端/未命名.md",
+    "java/数据库/mysql.md",
+    "java/java 基础语法.md",
+    "前端/react生命周期.png",
+    "数据结构及算法/[五大常用算法——分治法，动态规划，回溯法，分支界限法，贪心算法-阿里云开发者社区.md",
+    "前端/工作文档.md",
+    "笔记图片/wepy脏数据检测.png",
+    "笔记图片/wepy生命周期.png",
+    "笔记图片/wepy事件处理.png",
+    "笔记图片/js原型链.png",
+    "笔记图片/TS学习思维导图.png",
+    "笔记图片/RenderLayers到GraphicsLayers.png",
+    "前端/vscode配置备份.md",
+    "前端/vscode 配置2.md",
+    "前端/JS/JS基础.md",
+    "前端/打包工具/webpack/webpack的Loader和Plugin.md",
+    "前端/JS/你不知道的js.md",
+    "前端/Node.js/Node工具.md",
+    "前端/工作记录.md",
+    "前端/JS/未命名思维导图.md",
+    "前端/如何工作.md",
+    "前端/前端架构师.md",
+    "前端/前端工程化/什么是前端工程化.md",
+    "前端/JS/TS基础.md",
+    "前端/未命名思维导图 2.md",
+    "前端/未命名思维导图.md",
+    "前端/未命名思维导图 1.md",
+    "前端/Drawing 2023-09-04 16.34.34.excalidraw.md",
+    "前端/前端工程化/前端模块化.md",
+    "前端/前端理论/函数式编程.md",
+    "未命名.canvas",
+    "python",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "AI"
   ]
 }
