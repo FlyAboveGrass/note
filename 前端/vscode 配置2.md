@@ -1,3 +1,5 @@
+
+
 ```
 {
 
@@ -21,6 +23,8 @@
 
 "git.autofetch": true,
 
+"git.confirmSync": false,
+
 "emmet.triggerExpansionOnTab": true,
 
 "emmet.showAbbreviationSuggestions": true,
@@ -39,13 +43,11 @@
 
 },
 
-"markJump.maximumLimit": -1,
+"explorer.confirmDelete": false,
+
+"explorer.confirmDragAndDrop": false,
 
 "editor.fontWeight": "500",
-
-"git.confirmSync": false,
-
-"explorer.confirmDelete": false,
 
 "editor.wordWrap": "on",
 
@@ -55,17 +57,67 @@
 
 "editor.tabSize": 2,
 
-//失去焦点后自动保存
-
-//"files.autoSave": "onFocusChange",
-
-// #值设置为true时，每次保存的时候自动格式化；
-
-"editor.formatOnSave": true,
-
 //每120行就显示一条线
 
 "editor.rulers": [],
+
+"editor.codeActionsOnSave": {
+
+"source.fixAll.eslint": true
+
+},
+
+"editor.renderControlCharacters": true,
+
+"editor.minimap.enabled": false,
+
+"editor.renderWhitespace": "none",
+
+"editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+
+"editor.unicodeHighlight.allowedCharacters": {
+
+"：": true,
+
+"（": true
+
+},
+
+"editor.quickSuggestions": {
+
+"strings": true
+
+},
+
+"editor.unicodeHighlight.allowedLocales": {
+
+"zh-hant": true
+
+},
+
+"editor.fontSize": 14,
+
+"editor.fontFamily": "Consolas",
+
+"[html]": {
+
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+
+},
+
+"editor.multiCursorModifier": "alt",
+
+"editor.codeLens": true,
+
+"cSpell.language": "en",
+
+"cSpell.enableFiletypes": [
+
+"vue"
+
+],
+
+"terminal.external.osxExec": "iTerm.app",
 
 // 在使用搜索功能时，将这些文件夹/文件排除在外
 
@@ -103,43 +155,7 @@
 
 },
 
-// #让vue中的js按"prettier"格式进行格式化
-
-"vetur.format.defaultFormatter.html": "js-beautify-html",
-
-"vetur.format.defaultFormatter.js": "prettier",
-
-"vetur.format.defaultFormatterOptions": {
-
-"js-beautify-html": {
-
-// #vue组件中html代码格式化样式
-
-"wrap_attributes": "force-aligned", //也可以设置为“auto”，效果会不一样
-
-"wrap_line_length": 200,
-
-"end_with_newline": false,
-
-"semi": false,
-
-"singleQuote": true
-
-},
-
-"prettier": {
-
-"semi": false,
-
-"singleQuote": true
-
-}
-
-},
-
-"vetur.validation.template": false,
-
-"minapp-vscode.disableAutoConfig": true,
+  
 
 "eslint.validate": [
 
@@ -167,8 +183,6 @@
 
 "javascript.updateImportsOnFileMove.enabled": "never",
 
-"workbench.startupEditor": "newUntitledFile",
-
 "i18n-ally.displayLanguage": "cn",
 
 "terminal.integrated.rendererType": "dom",
@@ -187,37 +201,11 @@
 
 "sync.forceUpload": true,
 
-"editor.codeActionsOnSave": {
-
-"source.fixAll.eslint": true
-
-},
-
-"explorer.confirmDragAndDrop": false,
-
-"editor.renderControlCharacters": true,
-
-"editor.minimap.enabled": false,
-
-"breadcrumbs.enabled": true,
-
-"editor.renderWhitespace": "none",
-
-"vscodePluginDemo.showTip": false,
-
-"cSpell.language": "en",
-
-"cSpell.enableFiletypes": [
-
-"vue"
-
-],
-
-"terminal.external.osxExec": "iTerm.app",
-
-"editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  
 
 "path-intellisense.mappings": {
+
+  
 
 "/": "${workspaceFolder}",
 
@@ -277,14 +265,6 @@
 
 ],
 
-"editor.fontSize": 13,
-
-"editor.fontFamily": "Consolas",
-
-"workbench.preferredHighContrastColorTheme": "Default Dark+",
-
-"workbench.preferredLightColorTheme": "Visual Studio Dark",
-
 "cSpell.userWords": [
 
 "antd",
@@ -328,10 +308,6 @@
 "wxss"
 
 ],
-
-"editor.multiCursorModifier": "alt",
-
-"editor.codeLens": true,
 
 "gitHistory.sideBySide": true,
 
@@ -387,8 +363,6 @@
 
 "leek-fund.fundSort": -1,
 
-"tabnine.experimentalAutoImports": true,
-
 "leek-fund.flash-news": false,
 
 "leek-fund.hideStatusBarStock": true,
@@ -405,8 +379,6 @@
 
 "terminal.integrated.scrollback": 20000,
 
-"workbench.iconTheme": "vscode-icons",
-
 "debug.onTaskErrors": "debugAnyway",
 
 "[javascript]": {
@@ -415,61 +387,15 @@
 
 },
 
-"diffEditor.ignoreTrimWhitespace": false,
-
-"gitlab-mr.accessToken": "a0c09b49e37731543fa44f11db5e606a",
-
-"gitlab-mr.accessTokens": {
-
-"http://gitlab.internal.supermonkey.com.cn/": "a0c09b49e37731543fa44f11db5e606a"
-
-},
-
-"gitlab-mr.autoOpenMr": true,
-
-"gitlab-mr.openToEdit": true,
-
 "[typescriptreact]": {
 
 "editor.defaultFormatter": "esbenp.prettier-vscode"
 
 },
 
-"editor.unicodeHighlight.allowedCharacters": {
-
-"：": true,
-
-"（": true
-
-},
-
-"editor.quickSuggestions": {
-
-"strings": true
-
-},
-
-"[html]": {
-
-"editor.defaultFormatter": "esbenp.prettier-vscode"
-
-},
-
-"editor.unicodeHighlight.allowedLocales": {
-
-"zh-hant": true
-
-},
-
-"leek-fund.fundGroups": [
-
-"我的基金"
-
-],
-
 "prettier.endOfLine": "auto",
 
-"projectManager.sortList": "Recent",
+"projectManager.sortList": "Saved",
 
 "projectManager.tags": [
 
@@ -493,8 +419,51 @@
 
 "vetur.validation.script": false,
 
-"workbench.colorTheme": "Visual Studio Light"
+"workbench.startupEditor": "newUntitledFile",
+
+"workbench.iconTheme": "vscode-icons",
+
+"workbench.colorTheme": "Default Light+",
+
+"chatgpt.lang": "cn",
+
+"editor.inlineSuggest.enabled": true,
+
+"projectManager.git.baseFolders": [
+
+"/Users/yangjiajian/Work/workspace/"
+
+],
+
+"workbench.layoutControl.enabled": false,
+
+"github.copilot.enable": {
+
+"*": true,
+
+"plaintext": true,
+
+"markdown": false,
+
+"scminput": false
+
+},
+
+"gitlens.graph.layout": "editor",
+
+"gitlens.graph.minimap.additionalTypes": [
+
+"localBranches"
+
+],
+
+"git-graph.commitDetailsView.fileView.fileTree.compactFolders": false,
+
+"prettier.printWidth": 120,
+
+"git.mergeEditor": true,
+
+"editor.formatOnSave": true
 
 }
 ```
-
