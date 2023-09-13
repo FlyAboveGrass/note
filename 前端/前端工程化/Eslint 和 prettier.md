@@ -106,7 +106,14 @@ npm init prettier-eslint
 
 
 
+### vscode 配置
 
+
+```
+
+"editor.formatOnSave": true
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+```
 
 
 

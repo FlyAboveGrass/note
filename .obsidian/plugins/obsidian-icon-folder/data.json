@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FarSnowflake",
+      "📦",
+      "FarCalendarDays",
       "🛠",
-      "📔",
-      "🚧",
-      "🫢",
-      "💼"
+      "📔"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -22,12 +22,17 @@
     },
     "iconInTabsEnabled": false
   },
-  "笔记图片": "FarImage",
+  "笔记图片": {
+    "iconName": "FarImage",
+    "inheritanceIcon": "FarFileImage"
+  },
   "计算机": "🖥",
   "经济学": "💸",
   "前端": "💼",
   "软件工程": "🫢",
   "数据结构及算法": "🚧",
   "杂记": "📔",
-  "java": "🛠"
+  "java": "🛠",
+  "diary": "FarCalendarDays",
+  "前端/打包工具": "📦"
 }
