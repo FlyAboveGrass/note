@@ -5,35 +5,19 @@
       "path": "前端/工作记录.md"
     },
     {
-      "basename": "Eslint 和 prettier",
-      "path": "前端/前端工程化/Eslint 和 prettier.md"
-    },
-    {
       "basename": "TS基础",
       "path": "前端/JS/TS基础.md"
     },
     {
-      "basename": "vscode配置备份",
-      "path": "前端/vscode配置备份.md"
+      "basename": "Eslint 和 prettier",
+      "path": "前端/前端工程化/Eslint 和 prettier.md"
     },
     {
-      "basename": "vscode 配置2",
-      "path": "前端/vscode 配置2.md"
-    },
-    {
-      "basename": "vpn",
-      "path": "前端/vpn.md"
-    },
-    {
-      "basename": "前端知识自检清单",
-      "path": "前端/前端知识自检清单.md"
-    },
-    {
-      "basename": "学习列表",
-      "path": "学习列表.md"
+      "basename": "Mac 常用命令",
+      "path": "Mac 常用命令.md"
     }
   ],
   "omittedPaths": [],
-  "maxLength": null,
+  "maxLength": 5,
   "openType": "tab"
 }
