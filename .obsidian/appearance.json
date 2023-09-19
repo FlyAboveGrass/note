@@ -4,7 +4,19 @@
   "baseFontSize": 16,
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
-    "yaozhuwa@CSS"
+    "yaozhuwa@CSS",
+    "smaller-scrollbar",
+    "collapsing-sidebar",
+    "nicer-checkboxes",
+    "media-grid",
+    "image-cards",
+    "enlarge-image-on-hover",
+    "bullet-point-relationship-lines",
+    "autofading-ui",
+    "better-bullet-points-in-edit-mode",
+    "bigger-link-popup-preview"
   ],
-  "translucency": true
+  "translucency": false,
+  "nativeMenus": true,
+  "showViewHeader": true
 }
