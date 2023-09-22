@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "Mac 常用命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/前端工程化/问题记录.md",
+                "file": "数据结构及算法/数据结构.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/前端工程化/第三方库整理.md",
+                "file": "z 前端/前端工程化/第三方库整理.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +76,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂记/Mac 装机记录.md"
+                "file": "数据结构及算法/数据结构.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "for...of",
+                "query": "深度优先",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -140,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "数据结构及算法/数据结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "数据结构及算法/数据结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,20 +228,23 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "a4bd404090172a4e",
+  "active": "93d74992bc2c4a47",
   "lastOpenFiles": [
-    "前端/工作记录.md",
-    "杂记/Mac 装机记录.md",
-    "计算机/正则表达式.md",
-    "前端/前端工程化/问题记录.md",
-    "前端/前端工程化/第三方库整理.md",
-    "前端/JS/TS基础.md",
     "Mac 常用命令.md",
-    "前端/前端工程化/Eslint 和 prettier.md",
-    "前端/面试/JS高级.md",
+    "z 前端/学习计划.md",
+    "杂记/Mac 装机记录.md",
+    "杂记/vscode 技巧.md",
+    "杂记/未命名.md",
+    "z 前端/工作记录.md",
+    "计算机/正则表达式.md",
+    "z 前端/前端工程化/问题记录.md",
+    "z 前端/前端工程化/第三方库整理.md",
+    "z 前端/JS/TS基础.md",
+    "z 前端/前端工程化/Eslint 和 prettier.md",
+    "z 前端/面试/JS高级.md",
     "前端/工作文档.md",
-    "前端/vscode配置备份.md",
-    "前端/vscode 配置2.md",
+    "z 前端/vscode配置备份.md",
+    "z 前端/vscode 配置2.md",
     "经济学/财报阅读.md",
     "经济学",
     "笔记图片/obsidian配置.zip",
@@ -249,7 +253,7 @@
     "笔记图片/Pasted image 20230328223749.png",
     "数据结构及算法/算法.md",
     "学习列表.md",
-    "前端/未命名.md",
+    "z 前端/未命名.md",
     "java/数据库/mysql.md",
     "java/java 基础语法.md",
     "前端/react生命周期.png",
@@ -260,13 +264,10 @@
     "笔记图片/js原型链.png",
     "笔记图片/TS学习思维导图.png",
     "笔记图片/RenderLayers到GraphicsLayers.png",
-    "前端/JS/JS基础.md",
-    "前端/打包工具/webpack/webpack的Loader和Plugin.md",
-    "前端/JS/你不知道的js.md",
-    "前端/Node.js/Node工具.md",
-    "前端/JS/未命名思维导图.md",
-    "前端/如何工作.md",
-    "前端/前端架构师.md",
+    "z 前端/JS/JS基础.md",
+    "z 前端/打包工具/webpack/webpack的Loader和Plugin.md",
+    "z 前端/JS/你不知道的js.md",
+    "z 前端/Node.js/Node工具.md",
     "未命名.canvas",
     "python",
     "未命名 2.canvas",

@@ -116,7 +116,13 @@
 - [Snipaste](https://link.juejin.cn/?target=https%3A%2F%2Fwww.snipaste.com%2F "https://www.snipaste.com/") 截图标注界的神
 - [Typora](https://link.juejin.cn/?target=https%3A%2F%2Ftypora.io%2F "https://typora.io/") 付费用户，弥补了 Obsidian 不能单独打开 markdown 文件编辑的问题，暂时还是写博客的主力工具，后续可能会迁移到使用 Obsidian 写博客
 - [柠檬清理](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FTencent%2Flemon-cleaner "https://github.com/Tencent/lemon-cleaner") 腾讯开源的系统维护工具
-- [钉钉](https://link.juejin.cn/?target=https%3A%2F%2Fpage.dingtalk.com%2Fwow%2Fz%2Fdingtalk%2Fsimple%2Fddhomedownload%23%2F "https://page.dingtalk.com/wow/z/dingtalk/simple/ddhomedownload#/") 公司用的 IM 工具
+- [钉钉]( https://link.juejin.cn/?target=https%3A%2F%2Fpage.dingtalk.com%2Fwow%2Fz%2Fdingtalk%2Fsimple%2Fddhomedownload%23%2F " https://page.dingtalk.com/wow/z/dingtalk/simple/ddhomedownload#/" ) 公司用的 IM 工具
+- clashX
+- obsidian
+- pa.per
+- alfred
+- paste
+- switchhost
 
 以下很少用，用到的时候再安装：
 
