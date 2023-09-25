@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mac 常用命令.md",
+                "file": "杂记/Mac 装机记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构及算法/数据结构.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构及算法/数据结构.md"
+                "file": "杂记/Mac 装机记录.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "深度优先",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,8 +104,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -141,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构及算法/数据结构.md",
+                "file": "杂记/Mac 装机记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构及算法/数据结构.md",
+                "file": "杂记/Mac 装机记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,14 +226,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "93d74992bc2c4a47",
+  "active": "ad9f0903609c91b1",
   "lastOpenFiles": [
-    "Mac 常用命令.md",
     "z 前端/学习计划.md",
     "杂记/Mac 装机记录.md",
+    "Mac 常用命令.md",
+    "z 前端/工作记录.md",
+    "数据结构及算法/数据结构.md",
     "杂记/vscode 技巧.md",
     "杂记/未命名.md",
-    "z 前端/工作记录.md",
     "计算机/正则表达式.md",
     "z 前端/前端工程化/问题记录.md",
     "z 前端/前端工程化/第三方库整理.md",
@@ -267,7 +266,6 @@
     "z 前端/JS/JS基础.md",
     "z 前端/打包工具/webpack/webpack的Loader和Plugin.md",
     "z 前端/JS/你不知道的js.md",
-    "z 前端/Node.js/Node工具.md",
     "未命名.canvas",
     "python",
     "未命名 2.canvas",

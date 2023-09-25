@@ -179,15 +179,7 @@
 
 ### [HomeBrew](https://link.juejin.cn/?target=https%3A%2F%2Fbrew.sh%2F "https://brew.sh/")
 
-在 `finder` 中打开 `home` 目录，通过 `cmd + shift + .` 显示隐藏文件。新增 `.zshrc` 文件，加入代理配置（把代理开关封装成一个 zsh 函数），类似：
-
-bash
-
-复制代码
-
-`function proxy() {   export http_proxy="http://127.0.0.1:8888"   export https_proxy="http://127.0.0.1:8888"   echo "HTTP Proxy on" }`
-
-打开 `iterm2`，开启终端代理，按照官方文档安装 `homebrew`, 这个过程中会安装 `Command Line Tools for XCode`，会比较慢。
+[安装步骤](https://gitee.com/cunkai/HomebrewCN)
 
 ### 安装常用命令行工具
 
@@ -197,17 +189,15 @@ bash
 - [lsd](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Flsd-rs%2Flsd "https://github.com/lsd-rs/lsd") ls 命令替代品
 - [fd](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fsharkdp%2Ffd%23installation "https://github.com/sharkdp/fd#installation") find 命令替代品
 - [rg](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FBurntSushi%2Fripgrep "https://github.com/BurntSushi/ripgrep") 最强大的文本搜索根据，VSCode 内置的搜索也是用的它
-- [fzf](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjunegunn%2Ffzf "https://github.com/junegunn/fzf") 模糊搜索工具
+- [fzf]( https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjunegunn%2Ffzf " https://github.com/junegunn/fzf" ) 模糊搜索工具
+- [volta]( https://volta.sh/) node 版本管理包
 
 通过命令 `brew leaves` 输出所有手动安装的包（排除依赖包）：
 
-bash
-
-复制代码
-
-`axel bat bcal bitwise bottom cloc cmatrix croc difftastic dog double-conversion dua-cli duf dust egoist/tap/dum eva fd fmt fnm fx gh git git-delta git-filter-repo git-quick-stats glog gnu-time gnutls gping graphviz htmlq htop httpie hyperfine ipinfo-cli jq lsd lua mkcert neofetch neovim nghttp2 nginx onefetch oven-sh/bun/bun pcalc progress pyenv python@3.10 ripgrep shared-mime-info tokei tree ugit yq zoxide`
-
-这里列出来只是做个记录，用到的时候再装。
+```
+volta
+zsh
+```
 
 ### 配置 shell
 
@@ -216,12 +206,15 @@ bash
 zsh 框架。
 
 修改以下配置：
-
-bash
-
-复制代码
-
-`# 时间格式 HIST_STAMPS="yyyy-mm-dd" # 设置语言问英文，这样很多命令行工具就不会输出中文了，例如 git clone export LANG=en_US.UTF-8 export LC_ALL=en_US.UTF-8 export LC_CTYPE=en_US.UTF-8`
+`
+```
+# 时间格式
+HIST_STAMPS="yyyy-mm-dd" 
+# 设置语言问英文，这样很多命令行工具就不会输出中文了，例如 git clone
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8 export LC_CTYPE=en_US.UTF-8
+```
+`
 
 安装以下非官方插件：
 
@@ -235,12 +228,16 @@ bash
 zsh prompts，安装完后初次打开 terminal 会运行 `p10k configure`，下载字体需要走代理，因此你可能需要先开启全局代理。
 
 修改以下配置：
-
-bash
-
-复制代码
-
-`# 显示具体的错误码 typeset -g POWERLEVEL9K_STATUS_ERROR=true # 命令执行时间精度改为 ms typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_PRECISION=1 # 修改默认 Nodejs 图标 typeset -g POWERLEVEL9K_NODE_ICON='\uF898'`
+`
+```
+# 显示具体的错误码
+typeset -g POWERLEVEL9K_STATUS_ERROR=true
+# 命令执行时间精度改为 ms
+typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_PRECISION=1
+# 修改默认 Nodejs 图标
+typeset -g POWERLEVEL9K_NODE_ICON='\uF898'
+```
+`
 
 如果你问我为啥不用 [starship](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fstarship%2Fstarship "https://github.com/starship/starship")，我的回答是：
 
@@ -250,19 +247,8 @@ bash
 
 ### nodejs
 
-使用 [fnm](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FSchniz%2Ffnm "https://github.com/Schniz/fnm") 管理 node 版本，安装最新的 lts node V18.16.0。
+使用 volta 管理 node 版本，安装最新的 lts node V18.16.0。
 
-使用 [corepack](https://link.juejin.cn/?target=https%3A%2F%2Fnodejs.org%2Fdocs%2Flatest-v18.x%2Fapi%2Fcorepack.html "https://nodejs.org/docs/latest-v18.x/api/corepack.html") 安装 pnpm。
-
-在旧设备上使用 `pnpm ls -g` 列出所有全局安装的命令行工具：
-
-bash
-
-复制代码
-
-`@antfu/ni @ast-grep/cli @growing-web/wpm @rafaelrinaldi/whereami @vscode/vsce @yutengjing/find-similar-packages carbonyl cnpm cross-port-killer envinfo eslint-nibble esno find-versions-cli generator-code is-my-node-vulnerable npkill npm-check-updates nrm open-cli ovsx pkg prm-cli semver serve stale-dep syncpack taze tldr ts-node tsx typescript unimported vite-perf yo`
-
-有很多，用到的时候再装。
 
 #### [rust](https://link.juejin.cn/?target=https%3A%2F%2Fwww.rust-lang.org%2Ftools%2Finstall "https://www.rust-lang.org/tools/install")
 
@@ -270,23 +256,16 @@ bash
 
 使用 `cargo install --list` 列出 cargo 全局安装的命令行工具。
 
-bash
-
-复制代码
-
-`cargo-update v11.1.1:     cargo-install-update     cargo-install-update-config grex v1.4.1:     grex rusti-cal v1.0.1:     rusti-cal xcp v0.9.3:     xcp`
-
 #### [golang](https://link.juejin.cn/?target=https%3A%2F%2Fgo.dev%2Fdl%2F "https://go.dev/dl/")
 
 直接从官网下载安装器安装最新的 Golang。
 
 使用 `ls $GOPATH/bin` 列出所有全局安装的命令行工具。
-
-bash
-
-复制代码
-
-`clash-speedtest  github-compare   go-global-update`
+`
+```
+clash-speedtest  github-compare   go-global-update
+```
+`
 
 #### python
 
