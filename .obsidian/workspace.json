@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad9f0903609c91b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "杂记/Mac 装机记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "93d74992bc2c4a47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/JS/TS基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/前端工程化/第三方库整理.md",
+                "file": "Mac 常用命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,7 +55,7 @@
       {
         "id": "e5b41e61fafd778b",
         "type": "tabs",
-        "dimension": 76.85185185185185,
+        "dimension": 75.1937984496124,
         "children": [
           {
             "id": "dc60a569e75c88b7",
@@ -76,16 +64,6 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "a4bd404090172a4e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "杂记/Mac 装机记录.md"
               }
             }
           },
@@ -109,7 +87,7 @@
       {
         "id": "d51799eb19dcfa5f",
         "type": "tabs",
-        "dimension": 23.14814814814815,
+        "dimension": 24.8062015503876,
         "children": [
           {
             "id": "5f4f87679958b07d",
@@ -132,14 +110,25 @@
       {
         "id": "034088a4c5fcb14e",
         "type": "tabs",
+        "dimension": 57.25359911406424,
         "children": [
+          {
+            "id": "a4bd404090172a4e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "z 前端/JS/TS基础.md"
+              }
+            }
+          },
           {
             "id": "b08cb54b68b74601",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "z 前端/JS/TS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "z 前端/JS/TS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,24 +161,6 @@
                 "useHierarchy": false
               }
             }
-          },
-          {
-            "id": "3f5decab1abc284f",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "f45f9dcbf3610091",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
           }
         ],
         "currentTab": 3
@@ -197,6 +168,7 @@
       {
         "id": "7244a0a999c778b1",
         "type": "tabs",
+        "dimension": 42.74640088593577,
         "children": [
           {
             "id": "11c8950802e39f78",
@@ -210,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263,
-    "collapsed": true
+    "width": 263
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,18 +197,20 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "ad9f0903609c91b1",
+  "active": "93d74992bc2c4a47",
   "lastOpenFiles": [
-    "z 前端/学习计划.md",
-    "杂记/Mac 装机记录.md",
-    "Mac 常用命令.md",
     "z 前端/工作记录.md",
+    "z 前端/JS/JS基础.md",
+    "Mac 常用命令.md",
+    "z 前端/前端工程化/第三方库整理.md",
+    "z 前端/JS/ES6.md",
+    "杂记/Mac 装机记录.md",
+    "z 前端/学习计划.md",
     "数据结构及算法/数据结构.md",
     "杂记/vscode 技巧.md",
     "杂记/未命名.md",
     "计算机/正则表达式.md",
     "z 前端/前端工程化/问题记录.md",
-    "z 前端/前端工程化/第三方库整理.md",
     "z 前端/JS/TS基础.md",
     "z 前端/前端工程化/Eslint 和 prettier.md",
     "z 前端/面试/JS高级.md",
@@ -263,9 +236,7 @@
     "笔记图片/js原型链.png",
     "笔记图片/TS学习思维导图.png",
     "笔记图片/RenderLayers到GraphicsLayers.png",
-    "z 前端/JS/JS基础.md",
     "z 前端/打包工具/webpack/webpack的Loader和Plugin.md",
-    "z 前端/JS/你不知道的js.md",
     "未命名.canvas",
     "python",
     "未命名 2.canvas",

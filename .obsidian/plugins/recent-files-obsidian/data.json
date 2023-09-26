@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Mac 装机记录",
-      "path": "杂记/Mac 装机记录.md"
-    },
-    {
-      "basename": "学习计划",
-      "path": "z 前端/学习计划.md"
-    },
-    {
-      "basename": "Mac 常用命令",
-      "path": "Mac 常用命令.md"
+      "basename": "TS基础",
+      "path": "z 前端/JS/TS基础.md"
     },
     {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
     },
     {
-      "basename": "数据结构",
-      "path": "数据结构及算法/数据结构.md"
+      "basename": "JS基础",
+      "path": "z 前端/JS/JS基础.md"
+    },
+    {
+      "basename": "Mac 常用命令",
+      "path": "Mac 常用命令.md"
+    },
+    {
+      "basename": "第三方库整理",
+      "path": "z 前端/前端工程化/第三方库整理.md"
     }
   ],
   "omittedPaths": [],
