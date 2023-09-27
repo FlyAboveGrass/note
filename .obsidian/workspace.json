@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/JS/TS基础.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,13 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/正则表达式.md",
+                "file": "z 前端/JS/TS基础.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,6 +81,14 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "d2060a4790c63d29",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -161,9 +170,18 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "915d32c62e45b148",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7244a0a999c778b1",
@@ -197,21 +215,21 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "93d74992bc2c4a47",
+  "active": "f4197e7a29b902bd",
   "lastOpenFiles": [
+    "计算机/正则表达式.md",
     "z 前端/工作记录.md",
+    "杂记/Mac 装机记录.md",
+    "z 前端/JS/TS基础.md",
     "z 前端/JS/JS基础.md",
     "Mac 常用命令.md",
     "z 前端/前端工程化/第三方库整理.md",
     "z 前端/JS/ES6.md",
-    "杂记/Mac 装机记录.md",
     "z 前端/学习计划.md",
     "数据结构及算法/数据结构.md",
     "杂记/vscode 技巧.md",
     "杂记/未命名.md",
-    "计算机/正则表达式.md",
     "z 前端/前端工程化/问题记录.md",
-    "z 前端/JS/TS基础.md",
     "z 前端/前端工程化/Eslint 和 prettier.md",
     "z 前端/面试/JS高级.md",
     "前端/工作文档.md",

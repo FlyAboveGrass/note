@@ -1,6 +1,6 @@
 {
   "styleLists": true,
-  "debug": false,
+  "debug": true,
   "stickCursor": "bullet-and-checkbox",
   "betterEnter": true,
   "betterTab": true,
