@@ -26,7 +26,7 @@ show global variables like 'port';
 
 
 
-超级猩猩开发环境数据库：
+开发环境数据库：
 ```
 http://hz-b5.internal.supermonkey.com.cn
 port：3306
