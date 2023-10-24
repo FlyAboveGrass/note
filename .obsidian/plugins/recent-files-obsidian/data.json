@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Mac 装机记录",
+      "path": "杂记/Mac 装机记录.md"
+    },
+    {
       "basename": "问题记录",
       "path": "z 前端/前端工程化/问题记录.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "前端模块化",
       "path": "z 前端/前端工程化/前端模块化.md"
-    },
-    {
-      "basename": "第三方库整理",
-      "path": "z 前端/前端工程化/第三方库整理.md"
     }
   ],
   "omittedPaths": [],
