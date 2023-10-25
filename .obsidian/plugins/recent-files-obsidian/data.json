@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "工作记录",
+      "path": "z 前端/工作记录.md"
+    },
+    {
       "basename": "Mac 装机记录",
       "path": "杂记/Mac 装机记录.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "前端项目打包构建",
       "path": "z 前端/前端工程化/前端项目打包构建.md"
-    },
-    {
-      "basename": "前端模块化",
-      "path": "z 前端/前端工程化/前端模块化.md"
     }
   ],
   "omittedPaths": [],
