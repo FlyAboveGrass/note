@@ -36,6 +36,8 @@ firewall-cmd --zone=public --add-port=80/tcp --permanent #添加80端口
 ### 服务器管理
 [Login - DediPath](https://portal.dedipath.com/clientarea.php?action=productdetails&id=62859)
 
+Hostname: linux.690b8f.com
+ip: 92.118.229.241
 
 ### x-ui 管理
 http://92.118.229.241:54321/xui/inbounds

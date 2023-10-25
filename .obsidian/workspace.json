@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c5d82c7e33039990",
+        "id": "b09aa3b9b9b371d2",
         "type": "tabs",
         "children": [
           {
-            "id": "c28851949cdf4cfe",
+            "id": "2259901e6619b9e5",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/plugins/recent-files-obsidian/data.json",
-                "staged": false
+                "file": "前端/vpn.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -47,7 +48,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "前端/vpn.md"
+              }
             }
           },
           {
@@ -56,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "for..",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,8 +84,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "f77f85c5b8b510ca",
@@ -96,17 +98,8 @@
               "type": "recent-files",
               "state": {}
             }
-          },
-          {
-            "id": "4ed72fc1e60e98db",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -127,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前端/vpn.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "前端/vpn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,9 +153,17 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "4ed72fc1e60e98db",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "08a2d34a08751181",
@@ -179,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +198,13 @@
       "cmdr:source control": false
     }
   },
-  "active": "c28851949cdf4cfe",
+  "active": "4ed72fc1e60e98db",
   "lastOpenFiles": [
+    "前端/小程序/wepy/基础.md",
+    "前端/小程序/基础.md",
+    "数据结构及算法/算法.md",
+    "前端/算法/算法分析.md",
+    "数据结构及算法/数据结构.md",
     "java/java 基础语法.md",
     "笔记图片/Pasted image 20230907233328.png",
     "前端/工作文档.md",
@@ -208,7 +217,6 @@
     "笔记图片/Pasted image 20230902235726.png",
     "java/javaweb.md",
     "前端/JS/JS基础.md",
-    "数据结构及算法/数据结构.md",
     "前端/未命名.md",
     "前端/面试/计算机网络.md",
     "前端/JS/ES6.md",
