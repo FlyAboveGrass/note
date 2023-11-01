@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "29103a72bfa2136a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +123,7 @@
       {
         "id": "43daaa683023eefd",
         "type": "tabs",
-        "dimension": 62.22222222222222,
+        "dimension": 62.222222222222214,
         "children": [
           {
             "id": "035084878de0e2c8",
@@ -187,6 +198,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-weread-plugin:Weread": true,
       "canvas:新建白板": true,
@@ -198,7 +210,7 @@
       "cmdr:source control": false
     }
   },
-  "active": "4ed72fc1e60e98db",
+  "active": "29103a72bfa2136a",
   "lastOpenFiles": [
     "前端/小程序/wepy/基础.md",
     "前端/小程序/基础.md",
