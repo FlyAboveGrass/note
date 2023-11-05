@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "协议",
+      "path": "z 前端/协议.md"
+    },
+    {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "问题记录",
       "path": "z 前端/前端工程化/问题记录.md"
-    },
-    {
-      "basename": "pnpm",
-      "path": "z 前端/前端工程化/pnpm.md"
     }
   ],
   "omittedPaths": [],
