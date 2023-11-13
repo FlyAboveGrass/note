@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mac 常用命令.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mac 常用命令.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mac 常用命令.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mac 常用命令.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,9 +193,9 @@
   },
   "active": "93d74992bc2c4a47",
   "lastOpenFiles": [
+    "Mac 常用命令.md",
     "z 前端/工作记录.md",
     "z 前端/协议.md",
-    "Mac 常用命令.md",
     "杂记/Mac 装机记录.md",
     "z 前端/前端工程化/问题记录.md",
     "z 前端/前端工程化/pnpm.md",
