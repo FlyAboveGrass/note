@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "TS基础",
+      "path": "z 前端/JS/TS基础.md"
+    },
+    {
+      "basename": "项目webpack构建优化",
+      "path": "z 前端/打包工具/webpack/项目webpack构建优化.md"
+    },
+    {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Mac 装机记录",
       "path": "杂记/Mac 装机记录.md"
-    },
-    {
-      "basename": "问题记录",
-      "path": "z 前端/前端工程化/问题记录.md"
     }
   ],
   "omittedPaths": [],
