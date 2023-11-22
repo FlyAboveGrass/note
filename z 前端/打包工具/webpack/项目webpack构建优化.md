@@ -16,10 +16,18 @@
 
 
 
+- 代码压缩
+	- 调整为生产环境下压缩，开发环境下不再压缩
+- thread-loader
+	- workers 调整为 10 （项目成员的电脑多为 M1 Pro，有10核心）
+	- scss 文件也使用 thread-loader 多进程处理
+- 文件缓存（代替 hard-source）
+	- `cache: {type: 'filesystem', },`
 
 
 
 
+**速度对比**
 
-
-
+	｜ 内容 ｜ 更新前 ｜ 更新后 ｜
+	

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/JS/TS基础.md",
+                "file": "z 前端/React/文章精选.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/JS/TS基础.md"
+                "file": "z 前端/React/文章精选.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/JS/TS基础.md",
+                "file": "z 前端/React/文章精选.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/JS/TS基础.md",
+                "file": "z 前端/React/文章精选.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,8 +192,12 @@
   },
   "active": "93d74992bc2c4a47",
   "lastOpenFiles": [
-    "z 前端/打包工具/webpack/项目webpack构建优化.md",
+    "z 前端/JS/JS设计模式.md",
+    "z 前端/React/文章精选.md",
+    "z 前端/React/React高级.md",
     "z 前端/工作记录.md",
+    "z 前端/打包工具/webpack/项目webpack构建优化.md",
+    "z 前端/JS/TS基础.md",
     "Mac 常用命令.md",
     "z 前端/协议.md",
     "杂记/Mac 装机记录.md",
@@ -211,14 +215,10 @@
     "笔记图片/Pasted image 20220926131949.png",
     "数据结构及算法/[五大常用算法——分治法，动态规划，回溯法，分支界限法，贪心算法-阿里云开发者社区.md",
     "数据结构及算法/经典算法题.md",
-    "z 前端/JS/TS基础.md",
     "计算机/正则表达式.md",
     "z 前端/JS/JS基础.md",
     "z 前端/JS/ES6.md",
     "z 前端/学习计划.md",
-    "杂记/vscode 技巧.md",
-    "杂记/未命名.md",
-    "z 前端/前端工程化/Eslint 和 prettier.md",
     "经济学",
     "笔记图片/obsidian配置.zip",
     "笔记图片/Pasted image 20230902235726.png",
