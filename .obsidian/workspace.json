@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/React/文章精选.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/React/文章精选.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/React/文章精选.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/React/文章精选.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,9 +192,9 @@
   },
   "active": "93d74992bc2c4a47",
   "lastOpenFiles": [
-    "z 前端/JS/JS设计模式.md",
-    "z 前端/React/文章精选.md",
     "z 前端/React/React高级.md",
+    "z 前端/React/文章精选.md",
+    "z 前端/JS/JS设计模式.md",
     "z 前端/工作记录.md",
     "z 前端/打包工具/webpack/项目webpack构建优化.md",
     "z 前端/JS/TS基础.md",
