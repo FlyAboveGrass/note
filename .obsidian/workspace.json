@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "29103a72bfa2136a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -42,7 +31,7 @@
       {
         "id": "75b33d535eeb164c",
         "type": "tabs",
-        "dimension": 59.07990314769975,
+        "dimension": 68.48691695108077,
         "children": [
           {
             "id": "5d0b0da9409abf19",
@@ -100,7 +89,7 @@
       {
         "id": "f77f85c5b8b510ca",
         "type": "tabs",
-        "dimension": 40.92009685230024,
+        "dimension": 31.513083048919228,
         "children": [
           {
             "id": "f012e4784270b82a",
@@ -210,7 +199,7 @@
       "cmdr:source control": false
     }
   },
-  "active": "29103a72bfa2136a",
+  "active": "2259901e6619b9e5",
   "lastOpenFiles": [
     "前端/小程序/wepy/基础.md",
     "前端/小程序/基础.md",
