@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "问题记录",
+      "path": "z 前端/前端工程化/问题记录.md"
+    },
+    {
+      "basename": "项目webpack构建优化",
+      "path": "z 前端/打包工具/webpack/项目webpack构建优化.md"
+    },
+    {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
     },
@@ -11,14 +19,6 @@
     {
       "basename": "文章精选",
       "path": "z 前端/React/文章精选.md"
-    },
-    {
-      "basename": "JS设计模式",
-      "path": "z 前端/JS/JS设计模式.md"
-    },
-    {
-      "basename": "项目webpack构建优化",
-      "path": "z 前端/打包工具/webpack/项目webpack构建优化.md"
     }
   ],
   "omittedPaths": [],
