@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "--legacy-peer-deps",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -86,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339
+    "width": 298
   },
   "right": {
     "id": "63ea28dd52758e2c",
@@ -191,7 +191,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "93d74992bc2c4a47",
+  "active": "2836df4c05c4dc80",
   "lastOpenFiles": [
     "z 前端/打包工具/webpack/项目webpack构建优化.md",
     "z 前端/工作记录.md",
