@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "学习列表",
+      "path": "学习列表.md"
+    },
+    {
+      "basename": "Nest 基础",
+      "path": "前端/Node.js/Nest 基础.md"
+    },
+    {
+      "basename": "婚纱照修改点",
+      "path": "婚纱照修改点.md"
+    },
+    {
       "basename": "vpn",
       "path": "前端/vpn.md"
     },
@@ -35,10 +47,6 @@
     {
       "basename": "前端知识自检清单",
       "path": "前端/前端知识自检清单.md"
-    },
-    {
-      "basename": "学习列表",
-      "path": "学习列表.md"
     }
   ],
   "omittedPaths": [],

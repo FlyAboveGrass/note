@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/vpn.md",
+                "file": "学习列表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce2daac306440eb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/Node.js/Nest 基础.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,16 +53,6 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "9ba47aa5566b42d9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "前端/vpn.md"
               }
             }
           },
@@ -115,12 +118,22 @@
         "dimension": 62.222222222222214,
         "children": [
           {
+            "id": "9ba47aa5566b42d9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "学习列表.md"
+              }
+            }
+          },
+          {
             "id": "035084878de0e2c8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/vpn.md",
+                "file": "学习列表.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/vpn.md",
+                "file": "学习列表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,8 +175,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "08a2d34a08751181",
@@ -182,8 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,8 +210,12 @@
       "cmdr:source control": false
     }
   },
-  "active": "2259901e6619b9e5",
+  "active": "9ba47aa5566b42d9",
   "lastOpenFiles": [
+    "婚纱照修改点.md",
+    "前端/Node.js/Nest 基础.md",
+    "学习列表.md",
+    "前端/vpn.md",
     "前端/小程序/wepy/基础.md",
     "前端/小程序/基础.md",
     "数据结构及算法/算法.md",
@@ -209,10 +224,8 @@
     "java/java 基础语法.md",
     "笔记图片/Pasted image 20230907233328.png",
     "前端/工作文档.md",
-    "前端/vpn.md",
     "前端/前端知识自检清单.md",
     "笔记图片/obsidian配置.zip",
-    "学习列表.md",
     "前端/前端架构师.md",
     "杂记/提问的智慧.md",
     "笔记图片/Pasted image 20230902235726.png",
