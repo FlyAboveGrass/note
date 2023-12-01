@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习列表.md"
+                "file": "前端/Node.js/Nest 基础.md"
               }
             }
           },
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习列表.md",
+                "file": "前端/Node.js/Nest 基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习列表.md",
+                "file": "前端/Node.js/Nest 基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,11 +210,11 @@
       "cmdr:source control": false
     }
   },
-  "active": "9ba47aa5566b42d9",
+  "active": "ce2daac306440eb8",
   "lastOpenFiles": [
+    "学习列表.md",
     "婚纱照修改点.md",
     "前端/Node.js/Nest 基础.md",
-    "学习列表.md",
     "前端/vpn.md",
     "前端/小程序/wepy/基础.md",
     "前端/小程序/基础.md",
