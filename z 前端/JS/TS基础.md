@@ -405,3 +405,16 @@ type isTwo<T> = T extends 2 ? true: false;
 
 
 
+
+### 知识点整理
+
+
+```
+// 联合类型infer推断出来的就是它本身
+// type u = 1 | 2 extends infer S ? S : never  // 1 | 2
+
+
+// 如何遍历一个联合类型。构造一个泛型类型作为中间映射函数（因为分布式条件类型只有在泛型 + 条件判断时才生效
+// type MyMap<T> = T extends T ? [T] : never
+
+```

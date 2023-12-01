@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "笔记图片",
-  "promptDelete": false
+  "promptDelete": false,
+  "rightToLeft": false
 }

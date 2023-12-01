@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Nest 基础",
-      "path": "前端/Node.js/Nest 基础.md"
-    },
-    {
       "basename": "学习列表",
       "path": "学习列表.md"
     },
@@ -13,24 +9,8 @@
       "path": "婚纱照修改点.md"
     },
     {
-      "basename": "vpn",
-      "path": "前端/vpn.md"
-    },
-    {
-      "basename": "基础",
-      "path": "前端/小程序/wepy/基础.md"
-    },
-    {
-      "basename": "基础",
-      "path": "前端/小程序/基础.md"
-    },
-    {
       "basename": "算法",
       "path": "数据结构及算法/算法.md"
-    },
-    {
-      "basename": "算法分析",
-      "path": "前端/算法/算法分析.md"
     },
     {
       "basename": "数据结构",
@@ -39,14 +19,6 @@
     {
       "basename": "java 基础语法",
       "path": "java/java 基础语法.md"
-    },
-    {
-      "basename": "工作文档",
-      "path": "前端/工作文档.md"
-    },
-    {
-      "basename": "前端知识自检清单",
-      "path": "前端/前端知识自检清单.md"
     }
   ],
   "omittedPaths": [],

@@ -43,7 +43,22 @@
 3. 可以直接在generator 函数之中进行 try-catch 处理异常
 ```
 
-‘
+
+## saga 的相关概念
+
+- Effect
+	- Effects 是一些简单 Javascript 对象，包含了要被 middleware 执行的指令。 当 middleware 拿到一个被 Saga yield 的 Effect，它会暂停 Saga，直到 Effect 执行完成，然后 Saga 会再次被恢复。
+- pattern： action 的匹配规则。用以下规则来解释 `pattern`：
+	- 如果以空参数或 `'*'` 调用 `take`，那么将匹配所有发起的 action。（例如，`take()` 将匹配所有 action）
+	- 如果它是一个函数，那么将匹配 `pattern(action)` 为 true 的 action。
+	- 如果它是一个字符串，那么将匹配 `action.type === pattern` 的 action。
+	- 如果它是一个数组，那么数组中的每一项都适用于上述规则 —— 因此它是支持字符串与函数混用的。
+- channel
+	- channel 是用于在任务间发送和接收消息的对象。在被感兴趣的接收者请求之前，来自发送者的消息将被放入（put）队列；在信息可用之前，已注册的接收者将被放入队列。
+- task
+	- 执行 saga 的任务，代表一个 saga 运行的状态和结果。
+- 
+
 
 ## 使用 saga helpers
 
