@@ -12,21 +12,8 @@
             "type": "leaf",
             "state": {
               "type": "markdown",
-              "type": "markdown",
               "state": {
-                "file": "学习列表.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce2daac306440eb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习列表.md",
+                "file": "z 前端/Node.js/Nest.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Node.js/Nest 基础.md"
+                "file": "z 前端/Node.js/Nest.md"
               }
             }
           },
@@ -133,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Node.js/Nest 基础.md",
+                "file": "z 前端/Node.js/Nest.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/Node.js/Nest 基础.md",
+                "file": "z 前端/Node.js/Nest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,6 +161,16 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "5c65a1ddbd217f18",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       },
@@ -194,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,14 +203,18 @@
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": true,
-      "command-palette:打开命令面板": true,
-      "cmdr:文件列表": true
+      "cmdr:文件列表": false,
+      "cmdr:source control": false
     }
   },
-  "active": "9ba47aa5566b42d9",
+  "active": "2259901e6619b9e5",
   "lastOpenFiles": [
-    "杂记/vscode 技巧.md",
     "杂记/Mac 装机记录.md",
+    "z 前端/Node.js/Nest.md",
+    "z 前端/Node.js/Nest 基础.md",
+    "学习列表.md",
+    "前端/Node.js/Nest 基础.md",
+    "杂记/vscode 技巧.md",
     "z 前端/打包工具/webpack/webpack的Loader和Plugin.md",
     "z 前端/打包工具/webpack/项目webpack构建优化.md",
     "z 前端/打包工具/webpack/webpack核心流程和思路.md",
@@ -234,10 +235,6 @@
     "z 前端/面试/只了解.md",
     "z 前端/面试/react.md",
     "z 前端/面试/Vue.md",
-    "z 前端/面试/TypeScript.md",
-    "z 前端/面试/JS高级.md",
-    "z 前端/面试/HTML-CSS.md",
-    "z 前端/面试/ES6.md",
     "z 前端/打包工具/webpack",
     "z 前端/小程序/wepy",
     "z 前端/小程序/uniapp",
