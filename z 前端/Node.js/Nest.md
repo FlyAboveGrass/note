@@ -542,10 +542,27 @@ export class AppModule {}
 
 考虑这样一种情况:我们有一个通用模块，它需要在不同的用例中表现不同。这类似于许多系统中的 `插件` 概念，在这些系统中，通用功能在供使用者使用之前需要进行一些配置。
 
-使用 Nest 的一个很好的例子是 **配置模块** 。 许多应用程序发现，通过使用配置模块外部化配置细节非常有用。 这使得在不同的部署中动态更改应用程序设置变得很容易:
+### 动态模块的示例
 
+使用 Nest 的一个很好的例子是 **配置模块** 。许多应用程序发现，通过使用配置模块外部化配置细节非常有用。这使得在不同的部署中动态更改应用程序设置变得很容易.
 
+动态模块使我们能够向被导入的模块传递参数，这样我们就可以更改它的行为。使用动态模块特性，我们可以使配置模块 **动态** ，以便消费模块可以使用 API 来控制在导入配置模块时如何定制配置模块。
 
+换句话说，动态模块提供了一个 API，用于将一个模块导入到另一个模块，并在导入时定制该模块的属性和行为，而不是使用我们目前看到的静态绑定。
 
+```
+import { Module } from '@nestjs/common';
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
+import { ConfigModule } from './config/config.module';
 
-	
+@Module({
+  imports: [ConfigModule.register({ folder: './config`})],
+  controllers: [AppController],
+  providers: [AppService],
+})
+export class AppModule {}
+
+```
+
+`register()` 方法是由我们定义的，所以我们可以接受任何我们喜欢的输入参数。`register()`方法将返回一个`DynamicModule`。 动态模块只不过是在运行时创建的模块，具有与静态模块完全相同的属性，外加一个名为`module`的额外属性。
