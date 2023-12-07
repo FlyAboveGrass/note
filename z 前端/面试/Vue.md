@@ -13,7 +13,7 @@
 
 ### 如何理解[MVVM](https://juejin.cn/post/6844903825225023502#heading-2)
 
-![](../../笔记图片/MVVM.png)
+![](MVVM.png)
 
 ##### 分层
 
@@ -451,7 +451,7 @@ var proxy = new Proxy({}, {
 
 # Vuex
 
-![](../../笔记图片/vuex.png)
+![](vuex.png)
 
 #### 核心
 

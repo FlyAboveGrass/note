@@ -408,7 +408,7 @@ React Redux 组件 [`Provider`](https://github.com/reactjs/react-redux/blob/mast
 
 
 
-![image-20210401004409834](../../笔记图片/redux数据流.png)
+![image-20210401004409834](redux数据流.png)
 
 ## 异步action
 
@@ -495,9 +495,9 @@ store.dispatch(fetchData)
 
     
 
-![image-20210401114113655](../../笔记图片/redux-middleware处理流程.png)
+![image-20210401114113655](redux-middleware处理流程.png)
 
-![image-20210401114152548](../../笔记图片/redux中间件洋葱模型.png)
+![image-20210401114152548](redux中间件洋葱模型.png)
 
 ```js
 createStore(reducers, initState, enhancer)

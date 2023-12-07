@@ -2,7 +2,7 @@
 
 > 参考链接： https://mp.weixin.qq.com/s/QgfE5Km1xiEkQqADMLmj-Q
 
-![](../../笔记图片/node事件循环.webp)
+![](node事件循环.webp)
 
 
 
@@ -23,7 +23,7 @@ node中的大部分异步任务都是在poll、check、timers 这三个阶段完
 
 ##### 轮询（poll）
 
-![](../../笔记图片/node轮询阶段逻辑.webp)
+![](node轮询阶段逻辑.webp)
 
 
 

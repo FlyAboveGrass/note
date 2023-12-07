@@ -10,6 +10,12 @@
       "icon": "lucide-files",
       "name": "文件列表",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-git:open-git-view",
+      "icon": "github",
+      "name": "source control",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

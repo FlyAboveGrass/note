@@ -106,7 +106,7 @@ Fiber 树的遍历采用的是深度优先遍历的方式
 
 每一个fibers 树都会有一个根 fiber（如果在dom 中导入多个 react 应用，可以有多个）。App 组件渲染在 id 为 root 的 div 中，创建一个 fiber ，然后直接往下深度遍历，形成的结构如下图：
 
-![React Fiber relationship](../../笔记图片/fiber初始化.png)
+![React Fiber relationship](fiber初始化.png)
 
 
 
@@ -138,7 +138,7 @@ React fiber 将更新划分为工作单元，可以为每一个工作单元分�
 
 
 
-![undefined](../../笔记图片/fiber工作单元.png)
+![undefined](fiber工作单元.png)
 
 
 

@@ -22,10 +22,6 @@
     },
     "iconInTabsEnabled": false
   },
-  "笔记图片": {
-    "iconName": "FarImage",
-    "inheritanceIcon": "FarFileImage"
-  },
   "计算机": "🖥",
   "经济学": "💸",
   "软件工程": "🫢",
@@ -34,5 +30,9 @@
   "java": "🛠",
   "diary": "FarCalendarDays",
   "z 前端": "💼",
-  "z 前端/打包工具": "📦"
+  "z 前端/打包工具": "📦",
+  "笔记图片": {
+    "iconName": "FarImage",
+    "inheritanceIcon": "FarFileImage"
+  }
 }

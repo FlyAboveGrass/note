@@ -1,24 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Mac 常用命令",
+      "path": "Mac 常用命令.md"
+    },
+    {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
     },
     {
+      "basename": "前端安全",
+      "path": "z 前端/前端理论/前端安全.md"
+    },
+    {
       "basename": "Nest",
       "path": "z 前端/Node.js/Nest.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "z 前端/面试/计算机网络.md"
-    },
-    {
-      "basename": "客户端渲染和服务端渲染",
-      "path": "z 前端/Node.js/客户端渲染和服务端渲染.md"
-    },
-    {
-      "basename": "问题记录",
-      "path": "z 前端/前端工程化/问题记录.md"
     }
   ],
   "omittedPaths": [],

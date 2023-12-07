@@ -8,12 +8,36 @@
         "type": "tabs",
         "children": [
           {
+            "id": "3d2ca52b2e5318c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mac 常用命令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbac00d44c681b32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂记/vscode 快捷键.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "93d74992bc2c4a47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/前端理论/前端安全.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tcp",
+                "query": "CSRF",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/工作记录.md"
+                "file": "Mac 常用命令.md"
               }
             }
           },
@@ -112,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "Mac 常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "Mac 常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291
+    "width": 319
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,35 +214,36 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "93d74992bc2c4a47",
+  "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Mac 常用命令.md",
+    "z 前端/工作记录.md",
+    "z 前端/前端理论/前端安全.md",
     "z 前端/Node.js/Nest.md",
+    "杂记/vscode 快捷键.md",
+    "学习列表.md",
+    "杂记/vscode 技巧.md",
+    "婚纱照修改点.md",
+    "z 前端/vscode 配置2.md",
+    "z 前端/vscode配置备份.md",
+    "z 前端/vpn.md",
+    "z 前端/前端知识自检清单.md",
+    "z 前端/如何工作.md",
+    "z 前端/前端架构师.md",
+    "z 前端/学习计划.md",
+    "z 前端/未命名.md",
+    "笔记图片/Pasted image 20230907233328.png",
     "z 前端/面试/计算机网络.md",
     "z 前端/Node.js/客户端渲染和服务端渲染.md",
-    "z 前端/工作记录.md",
     "z 前端/前端工程化/问题记录.md",
     "z 前端/打包工具/webpack/项目webpack构建优化.md",
     "z 前端/React/React高级.md",
     "z 前端/React/文章精选.md",
     "z 前端/JS/JS设计模式.md",
     "z 前端/JS/TS基础.md",
-    "Mac 常用命令.md",
     "z 前端/协议.md",
-    "杂记/Mac 装机记录.md",
-    "z 前端/前端工程化/pnpm.md",
-    "z 前端/前端工程化/前端项目打包构建.md",
-    "z 前端/前端工程化/前端模块化.md",
-    "z 前端/前端工程化/第三方库整理.md",
-    "z 前端/vscode 配置2.md",
-    "java/数据库/mysql.md",
-    "z 前端/前端工程化/什么是前端工程化.md",
-    "z 前端/前端工程化/圈复杂度.md",
-    "z 前端/前端工程化/Monorepo 与 lerna.md",
-    "数据结构及算法/数据结构.md",
     "笔记图片/Pasted image 20220926131949.png",
-    "数据结构及算法/[五大常用算法——分治法，动态规划，回溯法，分支界限法，贪心算法-阿里云开发者社区.md",
-    "数据结构及算法/经典算法题.md",
-    "计算机/正则表达式.md",
     "经济学",
     "笔记图片/obsidian配置.zip",
     "笔记图片/Pasted image 20230902235726.png",
@@ -229,7 +254,6 @@
     "笔记图片/wepy生命周期.png",
     "笔记图片/wepy事件处理.png",
     "笔记图片/js原型链.png",
-    "笔记图片/TS学习思维导图.png",
     "未命名.canvas",
     "python",
     "未命名 2.canvas",
