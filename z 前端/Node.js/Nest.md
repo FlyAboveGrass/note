@@ -666,3 +666,551 @@ export class CatsModule {}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+## 模块参考
+
+  
+
+Nest 提供了一个 `ModuleRef` 类来导航到内部提供者列表，并使用注入令牌作为查找键名来获取一个引用。`ModuleRef` 类也提供了一个动态实例化静态和范围的提供者的方法。
+
+  
+  
+
+### 获取实例
+
+  
+
+`ModuleRef` 实例(下文称为**模块引用**) 拥有 `get()` 方法。该方法获取一个提供者，控制器或者通过注入令牌/类名获取一个在当前模块中可注入对象(例如守卫或拦截器等)。
+
+  
+
+```typescript
+
+@Injectable()
+
+export class CatsService implements OnModuleInit {
+
+private service: Service;
+
+constructor(private moduleRef: ModuleRef) {}
+
+  
+
+onModuleInit() {
+
+this.service = this.moduleRef.get(Service);
+
+// this.moduleRef.get(Service, { strict: false });// { strict: false } 获取全局上下文的 Provider
+
+}
+
+}
+
+```
+
+  
+
+>不能通过 `get()` 方法获取一个范围的提供者(暂态的或者请求范围的)。
+
+  
+  
+  
+
+### 处理作用域 Provider
+
+  
+
+要动态处理一个范围提供者(瞬态的或请求范围的)，使用 `resolve()` 方法并将提供者的注入令牌作为参数提供给方法。
+
+  
+
+```typescript
+
+@Injectable()
+
+export class CatsService implements OnModuleInit {
+
+private transientService: TransientService;
+
+constructor(private moduleRef: ModuleRef) {}
+
+  
+
+async onModuleInit() {
+
+this.transientService = await this.moduleRef.resolve(TransientService);
+
+}
+
+}
+
+```
+
+  
+  
+  
+
+**独一无二的实例**
+
+  
+
+要在不同的 `resolve()` 调用之间产生一个单例，并保证他们共享同样生成的 DI 容器子树，向 `resolve()` 方法传递一个上下文引用，使用 `ContextIdFactory` 类来生成上下文引用。该类提供了一个 `create()` 方法，返回一个合适的独一无二的引用。
+
+  
+
+```typescript
+
+@Injectable()
+
+export class CatsService implements OnModuleInit {
+
+constructor(private moduleRef: ModuleRef) {}
+
+  
+
+async onModuleInit() {
+
+const contextId = ContextIdFactory.create();
+
+const transientServices = await Promise.all([
+
+this.moduleRef.resolve(TransientService, contextId),
+
+this.moduleRef.resolve(TransientService, contextId),
+
+]);
+
+console.log(transientServices[0] === transientServices[1]); // true
+
+}
+
+}
+
+```
+
+  
+  
+
+### 注册 REQUEST Provider
+
+  
+
+通过 ContextIdFactory.create() 可以手动的生成上下文标识符，以此去表示 DI 子树中还没有在 Nest 的依赖注入时未示例化并管理的 REQUEST Provider。
+
+  
+
+```typescript
+
+const contextId = ContextIdFactory.create();
+
+this.moduleRef.registerRequestByContextId(/* YOUR_REQUEST_OBJECT */, contextId);
+
+```
+
+  
+  
+
+### 获取当前子树
+
+  
+
+有时候你可能会想创建一个当前请求上下文中的一个 REQUEST 范围的 Provider。
+
+为了共享同一个 DI 容器子树，你必须获取当前上下文标识符而不是重新生成一个。为了获取这个上下文标识符，你需要一个通过 @Inject 装饰器注入的 request 对象
+
+  
+
+```typescript
+
+@Injectable()
+
+export class CatsService {
+
+constructor(
+
+@Inject(REQUEST) private request: Record<string, unknown>,
+
+) {
+
+const contextId = ContextIdFactory.getByRequest(this.request);
+
+const catsRepository = await this.moduleRef.resolve(CatsRepository, contextId);
+
+}
+
+}
+
+```
+
+  
+  
+  
+
+### [动态实例化自定义类](https://docs.nestjs.cn/10/fundamentals?id=%e5%8a%a8%e6%80%81%e5%ae%9e%e4%be%8b%e5%8c%96%e8%87%aa%e5%ae%9a%e4%b9%89%e7%b1%bb)
+
+  
+
+要动态实例化一个之前未注册的类作为提供者，使用模块引用的 `create()` 方法。
+
+  
+
+```typescript
+
+@Injectable()
+
+export class CatsService implements OnModuleInit {
+
+private catsFactory: CatsFactory;
+
+constructor(private moduleRef: ModuleRef) {}
+
+  
+
+async onModuleInit() {
+
+this.catsFactory = await this.moduleRef.create(CatsFactory);
+
+}
+
+}
+
+```
+
+  
+  
+  
+
+## 懒加载模块
+
+  
+
+默认情况下，模块都是实时加载的，这意味着当应用加载完成的时候模块也已经加载好了。
+
+随着这样的默认行为在多数的状况下是可行的，但是当遇到了 Serverless 应用的时候，这就成为了一个性能瓶颈。
+
+  
+  
+
+### 开始
+
+  
+
+为了命令式的加载模块，Nest 提供了 LazyModuleLoader 类，这个类可以正常的注入到一个类中。
+
+  
+
+```typescript
+
+@Injectable()
+
+export class CatsService {
+
+constructor(private lazyModuleLoader: LazyModuleLoader) {}
+
+}
+
+```
+
+  
+  
+
+另外一个方式是，在你的应用启动文件中可以获取到一个对 LazyModuleLoader Provider 的引用。
+
+  
+
+```typescript
+
+// 启动文件。"app" represents a Nest application instance
+
+const lazyModuleLoader = app.get(LazyModuleLoader);
+
+  
+  
+
+// 应用
+
+const { LazyModule } = await import('./lazy.module');
+
+const moduleRef = await this.lazyModuleLoader.load(() => LazyModule);
+
+```
+
+  
+  
+
+### 懒加载 Controller、网关和解析器
+
+  
+
+因为 Nest 中的控制器(或 GraphQL 应用程序中的解析器)表示一组 router/path/topic(或查询参数/mutation)，你不能使用 `LazyModuleLoader` 类来惰性加载它们。
+
+  
+  
+  
+
+## 上下文
+
+  
+  
+
+### ArgumentsHost 类
+
+  
+
+`ArgumentsHost`类提供了检索传递给处理程序的参数的方法。 它允许选择适当的上下文(例如，HTTP、RPC(微服务)或 WebSockets)来检索参数。 框架提供了一个`ArgumentsHost`的实例，通常作为`host`参数引用，在你想要访问它的地方。
+
+  
+
+`ArgumentsHost` 简单地抽象为处理程序参数。例如，在 HTTP 应用中(使用 `@nestjs/platform-express` 时),host 对象封装了 Express 的 `[request, response, next]` 数组
+
+  
+
+> 此外，在GraphQL应用中，host包含`[root, args, context, info]`数组。
+
+  
+  
+
+#### 当前应用上下文
+
+  
+
+当构建通用的守卫，过滤器和拦截器时，意味着要跨应用上下文运行，我们需要在当前运行时确定请求的应用类型。可以使用 `ArgumentsHost` 的 `getType()` 方法。
+
+  
+
+```typescript
+
+if (host.getType() === 'http') {
+
+// do something that is only important in the context of regular HTTP requests (REST)
+
+} else if (host.getType() === 'rpc') {
+
+// do something that is only important in the context of Microservice requests
+
+} else if (host.getType<GqlContextType>() === 'graphql') {
+
+// do something that is only important in the context of GraphQL requests
+
+}
+
+```
+
+  
+
+#### 处理程序参数
+
+  
+
+要获取传递给处理程序的参数数组，使用host对象的`getArgs()`方法。
+
+  
+
+```typescript
+
+const [req, res, next] = host.getArgs();
+
+```
+
+  
+
+可以使用`getArgByIndex()`根据索引获取指定参数:
+
+  
+
+```typescript
+
+const request = host.getArgByIndex(0);
+
+const response = host.getArgByIndex(1);
+
+```
+
+  
+  
+  
+
+还有另一种获取参数的 `switchToHttp` () 方法。
+
+  
+
+```typescript
+
+const ctx = host.switchToHttp();
+
+const request = ctx.getRequest<Request>();
+
+const response = ctx.getResponse<Response>();
+
+```
+
+  
+  
+
+#### [反射和元数据](https://docs.nestjs.cn/10/fundamentals?id=%e5%8f%8d%e5%b0%84%e5%92%8c%e5%85%83%e6%95%b0%e6%8d%ae)
+
+  
+
+Nest 提供了通过 `@SetMetadata()` 装饰器将自定义元数据附加在路径处理程序的能力。我们可以在类中获取这些元数据来执行特定决策。
+
+  
+
+```typescript
+
+@Post()
+
+@SetMetadata('roles', ['admin'])
+
+async create(@Body() createCatDto: CreateCatDto) {
+
+this.catsService.create(createCatDto);
+
+}
+
+```
+
+  
+
+```typescript
+
+  
+
+// roles.decorator.ts
+
+import { SetMetadata } from '@nestjs/common';
+
+  
+
+export const Roles = (...roles: string[]) => SetMetadata('roles', roles); // 更清晰，且强类型
+
+  
+  
+  
+
+// cats.controller.ts
+
+@Post()
+
+@Roles('admin')
+
+async create(@Body() createCatDto: CreateCatDto) {
+
+this.catsService.create(createCatDto);
+
+}
+
+```
+
+  
+  
+  
+  
+
+## 生命周期
+
+  
+  
+
+### 生命周期函数
+
+  
+  
+
+![[Pasted image 20231206234432.png]]
+
+  
+  
+
+|生命周期钩子方法|生命周期时间触发钩子方法调用|
+
+|---|---|
+
+|`OnModuleInit()`|初始化主模块依赖处理后调用一次|
+
+|`OnApplicationBootstrap()`|在应用程序完全启动并监听连接后调用一次|
+
+|`OnModuleDestroy()`|收到终止信号(例如SIGTERM)后调用|
+
+|`beforeApplicationShutdown()`|在`onModuleDestroy()`完成(Promise被resolved或者rejected)；一旦完成，将关闭所有连接(调用app.close() 方法).|
+
+|`OnApplicationShutdown()`|连接关闭处理时调用(app.close())|
+
+  
+
+> 上述列出的生命周期钩子没有被请求范围类触发。请求范围类并没有和生命周期以及不可预测的寿命绑定。他们为每个请求单独创建，并在响应发送后通过垃圾清理系统自动清理。
+
+  
+  
+
+使用示例：
+
+```typescript
+
+@Injectable()
+
+class UsersService implements OnApplicationShutdown {
+
+onApplicationShutdown(signal) {
+
+console.log(signal); // e.g. "SIGINT"
+
+}
+
+}
+
+```
+
+  
+  
+
+### [Application Shutdown](https://docs.nestjs.cn/10/fundamentals?id=application-shutdown)
+
+  
+  
+
+`onModuleDestroy()`, `beforeApplicationShutdown()` 和 `onApplicationShutdown()` 钩子程序响应系统终止信号(当应用程序通过显示调用 `app.close()` 或者收到 `SIGTERM` 系统信号时)，以优雅地关闭 `Nest` 应用程序。这一功能通常用于 `Kubernetes` 、`Heroku` 或类似的服务。
+
+  
+
+系统关闭钩子消耗系统资源，因此默认是禁用的。要使用此钩子，必须通过 `enableShutdownHooks()` 激活侦听器。
+
+如果要在一个单独 Node 线程中运行多个 Nest 应用(例如，使用多个 Jest 运行测试)，Node 会因为监听者太多分身乏术。要在单个 Node 进程中运行多个实例时尤其要注意这一点。
+
+  
+
+```typescript
+
+import { NestFactory } from '@nestjs/core';
+
+import { AppModule } from './app.module';
+
+  
+
+async function bootstrap() {
+
+const app = await NestFactory.create(AppModule);
+
+// Starts listening to shutdown hooks
+
+app.enableShutdownHooks();
+
+await app.listen(3000);
+
+}
+
+bootstrap();
+
+```
