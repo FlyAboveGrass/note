@@ -1,27 +1,35 @@
 {
   "recentFiles": [
     {
-      "basename": "Mac 装机记录",
-      "path": "杂记/Mac 装机记录.md"
-    },
-    {
-      "basename": "工作记录",
-      "path": "z 前端/工作记录.md"
-    },
-    {
       "basename": "Nest",
       "path": "z 前端/Node.js/Nest.md"
     },
     {
-      "basename": "前端安全",
-      "path": "z 前端/前端理论/前端安全.md"
+      "basename": "Mac 装机记录",
+      "path": "杂记/Mac 装机记录.md"
     },
     {
-      "basename": "Mac 常用命令",
-      "path": "Mac 常用命令.md"
+      "basename": "学习列表",
+      "path": "学习列表.md"
+    },
+    {
+      "basename": "婚纱照修改点",
+      "path": "婚纱照修改点.md"
+    },
+    {
+      "basename": "算法",
+      "path": "数据结构及算法/算法.md"
+    },
+    {
+      "basename": "数据结构",
+      "path": "数据结构及算法/数据结构.md"
+    },
+    {
+      "basename": "java 基础语法",
+      "path": "java/java 基础语法.md"
     }
   ],
   "omittedPaths": [],
-  "maxLength": 5,
+  "maxLength": null,
   "openType": "tab"
 }
