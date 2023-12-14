@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CSRF",
+                "query": "for...of",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂记/Mac 装机记录.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,10 +188,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424
+    "width": 240
   },
   "left-ribbon": {
     "hiddenItems": {
+      "cmdr:source control": false,
       "obsidian-weread-plugin:Weread": false,
       "cmdr:文件列表": false,
       "canvas:新建白板": true,
@@ -203,11 +204,13 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "e571225431a1adc5",
+  "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
+    "z 前端/JS/ES6.md",
+    "z 前端/JS/JS基础.md",
     "z 前端/工作记录.md",
-    "z 前端/Node.js/Nest.md",
     "杂记/Mac 装机记录.md",
+    "z 前端/Node.js/Nest.md",
     "z 前端/前端理论/前端安全.md",
     "Mac 常用命令.md",
     "杂记/vscode 快捷键.md",
@@ -231,8 +234,6 @@
     "z 前端/打包工具/webpack/项目webpack构建优化.md",
     "z 前端/React/React高级.md",
     "z 前端/React/文章精选.md",
-    "z 前端/JS/JS设计模式.md",
-    "z 前端/JS/TS基础.md",
     "笔记图片/Pasted image 20220926131949.png",
     "经济学",
     "笔记图片/obsidian配置.zip",

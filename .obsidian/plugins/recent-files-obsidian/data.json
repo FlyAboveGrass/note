@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Mac 装机记录",
-      "path": "杂记/Mac 装机记录.md"
-    },
-    {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
     },
     {
+      "basename": "ES6",
+      "path": "z 前端/JS/ES6.md"
+    },
+    {
+      "basename": "JS基础",
+      "path": "z 前端/JS/JS基础.md"
+    },
+    {
+      "basename": "Mac 装机记录",
+      "path": "杂记/Mac 装机记录.md"
+    },
+    {
       "basename": "Nest",
       "path": "z 前端/Node.js/Nest.md"
-    },
-    {
-      "basename": "前端安全",
-      "path": "z 前端/前端理论/前端安全.md"
-    },
-    {
-      "basename": "Mac 常用命令",
-      "path": "Mac 常用命令.md"
     }
   ],
   "omittedPaths": [],
