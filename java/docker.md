@@ -242,7 +242,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 ### dokcer images
 
 查看所有本地的主机上的镜像
-
+```
 1.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker images`
 2.  `REPOSITORY    TAG       IMAGE ID       CREATED         SIZE`
 3.  `hello-world   latest    feb5d9fea6a5   10 months ago   13.3kB`
@@ -255,7 +255,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 10.  `# 命令参数可选项`
 11.   `-a, --all         # 显示所有镜像 (docker images -a)`
 12.   `-q, --quiet       # 仅显示镜像id (docker images -q)`
-
+```
 ### docker search
 
 搜索镜像
@@ -278,6 +278,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 ### docker pull
 
 下载镜像
+```
 
 1.  `# 下载镜像：docker pull 镜像名[:tag]`
 2.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker pull mysql`
@@ -304,30 +305,35 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 23.  `docker pull docker.io/library/mysql:latest`
 24.  `# 指定版本下载`
 
-26.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker pull mysql:5.7`
-27.  `5.7: Pulling from library/mysql`
-28.  `72a69066d2fe: Already exists        # 联合文件下载，已经存在的资源可以共用`
-29.  `93619dbc5b36: Already exists`
-30.  `99da31dd6142: Already exists`
-31.  `626033c43d70: Already exists`
-32.  `37d5d7efb64e: Already exists`
-33.  `ac563158d721: Already exists`
-34.  `d2ba16033dad: Already exists`
-35.  `0ceb82207cd7: Pull complete`
-36.  `37f2405cae96: Pull complete`
-37.  `e2482e017e53: Pull complete`
-38.  `70deed891d42: Pull complete`
-39.  `Digest: sha256:f2ad209efe9c67104167fc609cca6973c8422939491c9345270175a300419f94`
-40.  `Status: Downloaded newer image for mysql:5.7`
-41.  `docker.io/library/mysql:5.7`
+1.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker pull mysql:5.7`
+2.  `5.7: Pulling from library/mysql`
+3.  `72a69066d2fe: Already exists        # 联合文件下载，已经存在的资源可以共用`
+4.  `93619dbc5b36: Already exists`
+5.  `99da31dd6142: Already exists`
+6.  `626033c43d70: Already exists`
+7.  `37d5d7efb64e: Already exists`
+8.  `ac563158d721: Already exists`
+9.  `d2ba16033dad: Already exists`
+10.  `0ceb82207cd7: Pull complete`
+11.  `37f2405cae96: Pull complete`
+12.  `e2482e017e53: Pull complete`
+13.  `70deed891d42: Pull complete`
+14.  `Digest: sha256:f2ad209efe9c67104167fc609cca6973c8422939491c9345270175a300419f94`
+15.  `Status: Downloaded newer image for mysql:5.7`
+16.  `docker.io/library/mysql:5.7`
+
+```
+
+
 
 ### docker rmi
 
 删除镜像
-
+```
 1.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker rmi -f 镜像id                    # 删除指定的镜像`
 2.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker rmi -f 镜像id 镜像id 镜像id    # 删除多个镜像（空格分隔）`
 3.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker rmi -f $(docker images -aq)    # 删除全部的镜像`
+```
 
 ## 3. 容器命令
 
@@ -337,6 +343,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 
 ### 新建容器并启动
 
+```
 1.  `docker run [可选参数] image`
 2.  `# 参数说明`
 3.  `--name="name"        容器名字：用来区分容器`
@@ -358,9 +365,9 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 19.  `exit`
 20.  `[root@iZbp13qr3mm4ucsjumrlgqZ /]# ls`
 21.  `bin  boot  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var  www`
-
+```
 ### 列出所有运行的容器
-
+```
 1.  `docker ps    # 列出当前正在运行的容器`
 2.  `# 命令参数可选项`
 3.  `-a        # 列出当前正在运行的容器+历史运行过的容器`
@@ -376,9 +383,9 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 13.  `[root@iZbp13qr3mm4ucsjumrlgqZ /]# docker ps -a -n=1`
 14.  `CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS                     PORTS     NAMES`
 15.  `526c31d2c298   centos    "/bin/bash"   5 minutes ago   Exited (0) 3 minutes ago             optimistic_allen`
-
+```
 ### 退出容器
-
+```
 1.  `exit        # 容器直接停止，并退出`
 2.  `ctrl+P+Q    # 容器不停止，退出`
 
@@ -387,33 +394,34 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 6.  `CONTAINER ID   IMAGE     COMMAND       CREATED          STATUS          PORTS     NAMES`
 7.  `c5d61aa9d7df   centos    "/bin/bash"   56 seconds ago   Up 55 seconds             kind_clarke`
 8.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]#`
-
+```
 ### 删除容器
-
+```
 1.  `docker rm 容器id                    # 删除容器（不能删除正在运行的容器）如果要强制删除：docker rm -f 容器id`
 2.  `docker rm -f $(docker ps -aq)        # 删除全部容器`
 3.  `docker ps -a -q|xargs docker rm        # 删除所有容器`
-
+```
 ### 启动和停止容器的操作
-
+```
 1.  `docker start 容器id        # 启动容器`
 2.  `docker restart 容器id    # 重启容器`
 3.  `docker stop 容器id        # 停止当前正在运行的容器`
 4.  `docker kill 容器id        # 强制停止当前容器`
-
+```
 ## 4. 常用其他命令
 
 ### 后台启动容器
-
+```
 1.  `# 命令docker run -d 镜像名`
 2.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker run -d centos`
 3.  `# 问题：docker ps发现centos停止了`
 
 5.  `# 常见的坑：docker容器使用后台运行，就必须要有要一个前台进程，docker发现没有应用，就会自动停止。`
 6.  `# 比如：nginx，容器启动后，发现自己没有提供服务，就会立刻停止，就是没有程序了`
-
+```
 ### 查看日志
 
+```
 1.  `docker logs -tf --tail 容器id`
 2.  `# 自己编写一段shell脚本`
 3.  `docker run -d centos /bin/sh -c "while true;do echo kuangshen;sleep 1;done"`
@@ -424,17 +432,18 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 9.  `# 显示日志`
 10.  `-tf                        # 显示日志`
 11.  `--tail number    # 要显示的日志条数`
-
+```
 ### 查看容器中进程的信息
-
+```
 1.  `# 命令 docker top 容器id` 
 2.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker top 88d23bcbe1f2`
 3.  `UID                 PID                 PPID                C                   STIME               TTY                 TIME                CMD`
 4.  `root                21212               21193               0                   16:23               ?                   00:00:00`            
 5.  `root                21600               21212               0                   16:29               ?                   00:00:00`
+```
 
 ### 查看镜像的元数据
-
+```
 1.  `# 命令docker inspect 容器id`
 2.  `[`
 3.      `{`
@@ -643,9 +652,10 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 206.          `}`
 207.      `}`
 208.  `]`
+```
 
 ### 进入当前正在运行的容器
-
+```
 1.  `# 我们通常容器都是使用后台方式运行的，需要进入容器，修改一些配置`
 2.  `# 命令`
 3.  `docker exec -it 容器id /bin/bash`
@@ -670,9 +680,11 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 
 23.  `# docker exec        # 进入容器后开启一个新的终端，可以再里面操作（常用）`
 24.  `# docker attach        # 进入容器正在执行的终端，不会启动新的进程。`
+```
+
 
 ### 从容器内拷贝文件到主机上
-
+```
 1.  `docker cp 容器id:容器内路径 目的主机的路径`
 
 3.  `[root@iZbp13qr3mm4ucsjumrlgqZ home]# ll`
@@ -706,6 +718,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 31.  `test.java`
 
 33.  `# 拷贝是一个手动过程，未来我们使用 -v 卷的技术，可以实现，自动同步（容器内的/home路径和主机上的/home路径打通）`
+```
 
 ## 5. 小结
 
@@ -717,8 +730,8 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 
 1.  搜索镜像：docker search nginx (建议去dockerHub上去搜索)
 2.  下载镜像：docker pull nginx
-3.  启动nginx：
-    
+3.  启动 nginx：
+```
     1.   `# -d 后台运行`
     2.   `# --name="nginx01"    给容器命名`
     3.   `# -p 宿主机端口:容器内部端口`
@@ -727,17 +740,17 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
     6.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") ~]# docker ps`
     7.   `CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                   NAMES`
     8.   `6e02190a50bc   nginx     "/docker-entrypoint.…"   18 seconds ago   Up 17 seconds   0.0.0.0:3344->80/tcp, :::3344->80/tcp   nginx-1`
-    
-    10.   `# 进入容器`
-    11.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") ~]# docker exec -it a1e130aa184d /bin/bash`
-    12.   `root[@a1e130aa184d](https://github.com/a1e130aa184d "@a1e130aa184d"):/# whereis nginx`
-    13.   `nginx: /usr/sbin/nginx /usr/lib/nginx /etc/nginx /usr/share/nginx`
-    14.   `root[@a1e130aa184d](https://github.com/a1e130aa184d "@a1e130aa184d"):/# cd /etc/nginx/`
-    15.   `root[@a1e130aa184d](https://github.com/a1e130aa184d "@a1e130aa184d"):/etc/nginx# ls`
-    16.   `conf.d  fastcgi_params  mime.types  modules  nginx.conf  scgi_params  uwsgi_params`
-    
-4.  本机测试
-    
+    9.   `# 进入容器`
+    10.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") ~]# docker exec -it a1e130aa184d /bin/bash`
+    11.   `root[@a1e130aa184d](https://github.com/a1e130aa184d "@a1e130aa184d"):/# whereis nginx`
+    12.   `nginx: /usr/sbin/nginx /usr/lib/nginx /etc/nginx /usr/share/nginx`
+    13.   `root[@a1e130aa184d](https://github.com/a1e130aa184d "@a1e130aa184d"):/# cd /etc/nginx/`
+    14.   `root[@a1e130aa184d](https://github.com/a1e130aa184d "@a1e130aa184d"):/etc/nginx# ls`
+    15.   `conf.d  fastcgi_params  mime.types  modules  nginx.conf  scgi_params  uwsgi_params`
+```
+
+1.  本机测试
+    ```
     1.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") ~]# curl localhost:3344`
     2.   `<!DOCTYPE html>`
     3.   `<html>`
@@ -753,16 +766,15 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
     13.   `<h1>Welcome to nginx!</h1>`
     14.   `<p>If you see this page, the nginx web server is successfully installed and`
     15.   `working. Further configuration is required.</p>`
-    
-    17.   `<p>For online documentation and support please refer to`
-    18.   `<a href="http://nginx.org/">nginx.org</a>.<br/>`
-    19.   `Commercial support is available at`
-    20.   `<a href="http://nginx.com/">nginx.com</a>.</p>`
-    
-    22.   `<p><em>Thank you for using nginx.</em></p>`
-    23.   `</body>`
-    24.   `</html>`
-    
+    16.   `<p>For online documentation and support please refer to`
+    17.   `<a href="http://nginx.org/">nginx.org</a>.<br/>`
+    18.   `Commercial support is available at`
+    19.   `<a href="http://nginx.com/">nginx.com</a>.</p>`
+    20.   `<p><em>Thank you for using nginx.</em></p>`
+    21.   `</body>`
+    22.   `</html>`
+    ```
+2. 
 
 > 端口暴露的概念
 
@@ -770,7 +782,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 `思考问题：我们每次改动nginx配置文件，都需要进入容器内部？十分的麻烦，我要是可以在容器外部提供一个映射路径，达到在容器外修改文件名，容器内部就可以自动修改？-v 数据卷`
 
 ### docker安装tomcat
-
+```
 1.  `# 官方的使用`
 2.  `docker run -it --rm tomcat`
 
@@ -796,11 +808,11 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 23.  `# 没有webapps文件夹，发现有一个webapps.dist文件夹，资源在webapps.dist文件夹下；`
 24.  `# 把webapps.dist文件夹下的文件复制到webapps文件夹下，就可以访问成功。`
 25.  `root@35eb825661e0:/usr/local/tomcat# cp -r webapps.dist/* webapps`
-
+```
 思考问题：我们以后要部署项目，如果每次都要进入容器是不是十分麻烦？我要是可以在容器外部提供一个映射路径，webapps，我们在外部放置项目，就自动同步到内部就好了！
 
 ### 部署ES+kibana
-
+```
 1.  `# es暴露的端口很多！`
 2.  `# es十分的耗内存！`
 3.  `# es的数据一般需要放置到安全目录！挂载`
@@ -833,6 +845,8 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 30.  `# 赶紧关闭，增加内存的限制，修改配置文件-e环境配置修改`
 31.  `docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e ES_JAVA_OPTS="-Xms64m -Xmx512m" elasticsearch:7.6.2`
 32.  `# 可以访问成功；查看cpu状态`
+```
+
 
 作业：使用kibana连接es？思考网络如何才能连接过去！  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/db499d541e114a53a896c928fb5e8167.png)
@@ -840,11 +854,11 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 ## 7. 可视化
 
 -   portainer（先用这个）
-
+```
 1.  `docker run -d -p 8088:9000 --restart=always -v /var/run/docker.sock:/var/run/docker.sock --privileged=true portainer/portainer`
 
 -   Rancher（CI/CD时再用这个）
-
+```
 ### 什么是portainer ?
 
 Docker图形化界面管理工具！提供一个后台面板供我们操作！

@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f5e03095dd27ccea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z 前端/Node.js/Nest 备忘.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -209,9 +221,11 @@
   },
   "active": "2259901e6619b9e5",
   "lastOpenFiles": [
+    "z 前端/Node.js/Nest 备忘.md",
+    "java/docker.md",
+    "z 前端/Node.js/Nest.md",
     "杂记/Mac 装机记录.md",
     "杂记/vscode 快捷键.md",
-    "z 前端/Node.js/Nest.md",
     "笔记图片/Pasted image 20231206234432.png",
     "z 前端/Node.js/Nest 基础.md",
     "学习列表.md",
@@ -234,8 +248,6 @@
     "z 前端/面试/移动端.md",
     "z 前端/面试/前端理论.md",
     "z 前端/面试/浏览器.md",
-    "z 前端/面试/只了解.md",
-    "z 前端/面试/react.md",
     "z 前端/打包工具/webpack",
     "z 前端/小程序/wepy",
     "z 前端/小程序/uniapp",
