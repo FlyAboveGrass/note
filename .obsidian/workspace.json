@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -206,9 +205,10 @@
   },
   "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
+    "z 前端/工作记录.md",
+    "杂记/vscode 技巧.md",
     "z 前端/JS/ES6.md",
     "z 前端/JS/JS基础.md",
-    "z 前端/工作记录.md",
     "杂记/Mac 装机记录.md",
     "z 前端/Node.js/Nest.md",
     "z 前端/前端理论/前端安全.md",
@@ -218,7 +218,6 @@
     "婚纱照修改点.md",
     "conflict-files-obsidian-git.md",
     "学习列表.md",
-    "杂记/vscode 技巧.md",
     "z 前端/vscode 配置2.md",
     "z 前端/vscode配置备份.md",
     "z 前端/vpn.md",
