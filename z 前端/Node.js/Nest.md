@@ -1,4 +1,13 @@
 
+
+前置内容：
+
+启动 mysql：
+`docker run -p 3306:3306 --name root -e MYSQL_ROOT_PASSWORD=12345678 -d mysql`
+
+
+
+
 # 基本概念
 
 ## Controller
@@ -1214,3 +1223,773 @@ await app.listen(3000);
 bootstrap();
 
 ```
+
+
+# 技术
+
+## 数据库
+
+### TypeORM 集成
+
+为了与 `SQL` 和 `NoSQL` 数据库集成，`Nest` 提供了 `@nestjs/typeorm` 包。`Nest` 使用 [TypeORM](https://github.com/typeorm/typeorm) 是因为它是 `TypeScript` 中最成熟的对象关系映射器( `ORM` )。因为它是用 `TypeScript` 编写的，所以可以很好地与 `Nest` 框架集成。
+
+```typescript
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { User } from './users/user.entity';
+
+@Module({
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'mysql',
+      host: 'localhost',
+      port: 3306,
+      username: 'root',
+      password: 'root',
+      database: 'test',
+      entities: [User
+      
+      
+      
+      ],
+      synchronize: true,
+    }),
+  ],
+})
+export class AppModule {}
+```
+
+> 警告：设置 `synchronize: true` 不能被用于生产环境，否则您可能会丢失生产环境数据
+
+
+
+一旦完成，`TypeORM` 的 `DataSource` 和 `EntityManager` 对象就可以在整个项目中注入(不需要导入任何模块)，例如:
+
+```typescript
+import { DataSource } from 'typeorm';
+
+@Dependencies(DataSource)
+@Module({
+  imports: [TypeOrmModule.forRoot(), UsersModule],
+})
+export class AppModule {
+  constructor(dataSource) {
+    this.dataSource = dataSource;
+  }
+}
+```
+
+
+
+### [存储库模式](https://docs.nestjs.cn/10/techniques?id=%e5%ad%98%e5%82%a8%e5%ba%93%e6%a8%a1%e5%bc%8f)
+
+`TypeORM` 支持存储库设计模式，因此每个实体都有自己的存储库。可以从数据库连接获得这些存储库。
+
+
+要开始使用 `user` 实体，我们需要在模块的 `forRoot()` 方法的选项中（除非你使用一个静态的全局路径）将它插入 `entities` 数组中来让 `TypeORM` 知道它的存在。
+
+
+
+### [关系](https://docs.nestjs.cn/10/techniques?id=%e5%85%b3%e7%b3%bb)
+
+关系是指两个或多个表之间的联系。关系基于每个表中的常规字段，通常包含主键和外键。
+
+关系有三种：
+
+|名称|说明|
+|---|---|
+|一对一|主表中的每一行在外部表中有且仅有一个对应行。使用`@OneToOne()`装饰器来定义这种类型的关系|
+|一对多/多对一|主表中的每一行在外部表中有一个或多的对应行。使用`@OneToMany()`和`@ManyToOne()`装饰器来定义这种类型的关系|
+|多对多|主表中的每一行在外部表中有多个对应行，外部表中的每个记录在主表中也有多个行。使用`@ManyToMany()`装饰器来定义这种类型的关系|
+
+
+
+### [自动载入实体](https://docs.nestjs.cn/10/techniques?id=%e8%87%aa%e5%8a%a8%e8%bd%bd%e5%85%a5%e5%ae%9e%e4%bd%93)
+
+手动将实体一一添加到连接选项的`entities`数组中的工作会很无聊。此外，在根模块中涉及实体破坏了应用的域边界，并可能将应用的细节泄露给应用的其他部分。针对这一情况，可以使用静态全局路径（例如, dist/*_/_.entity{.ts,.js})。
+
+注意，`webpack`不支持全局路径，因此如果你要在单一仓库(Monorepo)中构建应用，可能不能使用全局路径。针对这一问题，有另外一个可选的方案。在配置对象的属性中(传递给`forRoot()`方法的)设置`autoLoadEntities`属性为`true`来自动载入实体，示意如下：
+
+> app.module.ts
+
+```typescript
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+
+@Module({
+  imports: [
+    TypeOrmModule.forRoot({
+      ...
+      autoLoadEntities: true,
+    }),
+  ],
+})
+export class AppModule {}
+```
+
+通过配置这一选项，每个通过`forFeature()`注册的实体都会自动添加到配置对象的`entities`数组中。
+
+> 注意，那些没有通过 `forFeature()` 方法注册，而仅仅是在实体中被引用（通过关系）的实体不能通过 `autoLoadEntities` 配置被包含。
+
+
+
+### [事务](https://docs.nestjs.cn/10/techniques?id=%e4%ba%8b%e5%8a%a1)
+
+数据库事务代表在数据库管理系统（DBMS）中针对数据库的一组操作，这组操作是有关的、可靠的并且和其他事务相互独立的。一个事务通常可以代表数据库中的任何变更（[了解更多](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8B%E5%8A%A1))。
+
+在 [TypeORM 事务](https://typeorm.io/#/transactions)中有很多不同策略来处理事务，我们推荐使用 `QueryRunner` 类，因为它对事务是完全可控的。
+
+### [订阅者](https://docs.nestjs.cn/10/techniques?id=%e8%ae%a2%e9%98%85%e8%80%85)
+
+使用 TypeORM[订阅者](https://typeorm.io/#/listeners-and-subscribers/what-is-a-subscriber)，你可以监听特定的实体事件。
+
+```typescript
+import {
+  DataSource,
+  EntitySubscriberInterface,
+  EventSubscriber,
+  InsertEvent,
+} from 'typeorm';
+import { User } from './user.entity';
+
+@EventSubscriber()
+export class UserSubscriber implements EntitySubscriberInterface<User> {
+  constructor(dataSource: DataSource) {
+    dataSource.subscribers.push(this);
+  }
+
+  listenTo() {
+    return User;
+  }
+
+  beforeInsert(event: InsertEvent<User>) {
+    console.log(`BEFORE USER INSERTED: `, event.entity);
+  }
+}
+```
+
+
+	### [多个数据库](https://docs.nestjs.cn/10/techniques?id=%e5%a4%9a%e4%b8%aa%e6%95%b0%e6%8d%ae%e5%ba%93)
+
+某些项目可能需要多个数据库连接。这也可以通过本模块实现。要使用多个连接，首先要做的是创建这些连接。在这种情况下，连接命名成为必填项。
+
+> 如果未为连接设置任何 `name` ，则该连接的名称将设置为 `default`。请注意，不应该有多个没有名称或同名的连接，否则它们会被覆盖。
+
+
+```typescript
+const defaultOptions = {
+  type: 'postgres',
+  port: 5432,
+  username: 'user',
+  password: 'password',
+  database: 'db',
+  synchronize: true,
+};
+
+@Module({
+  imports: [
+    TypeOrmModule.forRoot({
+      ...defaultOptions,
+      host: 'user_db_host',
+      entities: [User],
+    }),
+    TypeOrmModule.forRoot({
+      ...defaultOptions,
+      name: 'albumsConnection',
+      host: 'album_db_host',
+      entities: [Album],
+    }),
+  ],
+})
+export class AppModule {}
+```
+### [自定义存储库](https://docs.nestjs.cn/10/techniques?id=%e5%ae%9a%e5%88%b6%e5%ad%98%e5%82%a8%e5%ba%93)
+
+`TypeORM` 提供称为自定义存储库的功能。要了解有关它的更多信息，请访问此[页面](https://typeorm.io/#/custom-repository)。基本上，自定义存储库允许您扩展基本存储库类，并使用几种特殊方法对其进行丰富。
+
+你可以创建一个自定义的存储库，来包含一系列的关于数据库操作的方法。
+
+
+要创建自定义存储库，请使用 `@EntityRepository()` 装饰器和扩展 `Repository` 类。
+
+```typescript
+@EntityRepository(Author)
+export class AuthorRepository extends Repository<Author> {}
+```
+
+`@EntityRepository()` 和 `Repository` 来自 `typeorm` 包。
+
+创建类后，下一步是将实例化责任移交给 `Nest`。为此，我们必须将 `AuthorRepository` 类传递给 `TypeOrm.forFeature()` 函数。
+
+```typescript
+@Module({
+  imports: [TypeOrmModule.forFeature([AuthorRepository])],
+  controller: [AuthorController],
+  providers: [AuthorService],
+})
+export class AuthorModule {}
+```
+
+之后，只需使用以下构造注入存储库：
+
+```typescript
+@Injectable()
+export class AuthorService {
+  constructor(private readonly authorRepository: AuthorRepository) {}
+}
+```
+
+### [异步配置](https://docs.nestjs.cn/10/techniques?id=%e5%bc%82%e6%ad%a5%e9%85%8d%e7%bd%ae)
+
+通常，您可能希望异步传递模块选项，而不是事先传递它们。
+
+方法一，使用 useFactory：
+
+```typescript
+TypeOrmModule.forRootAsync({
+  useFactory: () => ({
+    type: 'mysql',
+    host: 'localhost',
+    port: 3306,
+    username: 'root',
+    password: 'root',
+    database: 'test',
+    entities: [__dirname + '/**/*.entity{.ts,.js}'],
+    synchronize: true,
+  }),
+});
+```
+
+方法二，使用 useClass：
+
+```typescript
+TypeOrmModule.forRootAsync({
+  useClass: TypeOrmConfigService,
+});
+```
+
+
+
+### ------------
+
+### Sequelize 集成
+
+暂时不学习，需要的时候再学习补充。先专注于 typeorm
+
+## [配置](https://docs.nestjs.cn/10/techniques?id=%e9%85%8d%e7%bd%ae)
+
+应用程序通常在不同的**环境**中运行。根据环境的不同，应该使用不同的配置设置。例如，通常本地环境依赖于特定的数据库凭据，仅对本地 DB 实例有效。生产环境将使用一组单独的 DB 凭据。由于配置变量会更改，所以最佳实践是将[配置变量](https://12factor.net/config)存储在环境中。
+
+在 `Nest` 中使用这种技术的一个好方法是创建一个 `ConfigModule` ，它暴露一个 `ConfigService` ，根据 `$NODE_ENV` 环境变量加载适当的 `.env` 文件。虽然您可以选择自己编写这样的模块，但为方便起见，Nest 提供了开箱即用的 `@ nestjs/config` 软件包。我们将在本章中介绍该软件包。
+
+#### [自定义 env 文件路径](https://docs.nestjs.cn/10/techniques?id=%e8%87%aa%e5%ae%9a%e4%b9%89-env-%e6%96%87%e4%bb%b6%e8%b7%af%e5%be%84)
+
+默认情况下，程序在应用程序的根目录中查找`.env`文件。 要为`.env`文件指定另一个路径，请配置`forRoot()`的配置对象 envFilePath 属性(可选)，如下所示：
+
+```typescript
+ConfigModule.forRoot({
+  envFilePath: '.development.env',
+});
+```
+
+您还可以像这样为.env 文件指定多个路径：
+
+```typescript
+ConfigModule.forRoot({
+  envFilePath: ['.env.development.local', '.env.development'],
+});
+```
+
+如果在多个文件中发现同一个变量，则第一个变量优先。
+
+#### [全局使用](https://docs.nestjs.cn/10/techniques?id=%e5%85%a8%e5%b1%80%e4%bd%bf%e7%94%a8)
+
+当您想在其他模块中使用 `ConfigModule` 时，需要将其导入（这是任何 Nest 模块的标准配置）。或者，通过将 `options` 对象的 `isGlobal` 属性设置为 `true`，将其声明为[全局模块](https://docs.nestjs.cn/8/modules?id=%E5%85%A8%E5%B1%80%E6%A8%A1%E5%9D%97)，
+
+```typescript
+ConfigModule.forRoot({
+  isGlobal: true,
+});
+```
+
+
+#### [自定义配置文件](https://docs.nestjs.cn/10/techniques?id=%e8%87%aa%e5%ae%9a%e4%b9%89%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6)
+
+对于更复杂的项目，您可以利用自定义配置文件返回嵌套的配置对象。这使您可以按功能对相关配置设置进行分组（例如，与数据库相关的设置），并将相关设置存储在单个文件中，以帮助独立管理它们
+
+```typescript
+// config/configuration.ts
+export default () => ({
+  port: parseInt(process.env.PORT, 10) || 3000,
+  database: {
+    host: process.env.DATABASE_HOST,
+    port: parseInt(process.env.DATABASE_PORT, 10) || 5432
+  }
+});
+```
+
+```typescript
+// app.modules.ts
+
+import configuration from './config/configuration';
+@Module({
+  imports: [
+    ConfigModule.forRoot({
+      load: [configuration],
+    }),
+  ],
+})
+export class AppModule {}
+```
+
+```typescript
+// feature.module.ts
+@Module({
+  imports: [ConfigModule],
+  ...
+})
+```
+
+```typescript
+// feature.service.ts
+	const dbUser = this.configService.get<string>('DATABASE_USER');
+```
+
+
+
+
+## [验证](https://docs.nestjs.cn/10/techniques?id=%e9%aa%8c%e8%af%81)
+
+验证网络应用中传递的任何数据是一种最佳实践。为了自动验证传入请求， Nest 提供了几个开箱即用的管道。
+
+- `ValidationPipe`
+- `ParseIntPipe`
+- `ParseBoolPipe`
+- `ParseArrayPipe`
+- `ParseUUIDPipe`
+
+
+### [自动验证](https://docs.nestjs.cn/10/techniques?id=%e8%87%aa%e5%8a%a8%e9%aa%8c%e8%af%81)
+
+绑定 `ValidationPipe` 到整个应用程序，因此，将自动保护所有接口免受不正确的数据的影响。
+
+```typescript
+// app.module.ts
+async function bootstrap() {
+  const app = await NestFactory.create(ApplicationModule);
+  app.useGlobalPipes(new ValidationPipe());
+  await app.listen(3000);
+}
+bootstrap();
+```
+
+```typescript
+
+// service
+@Post()
+create(@Body() createUserDto: CreateUserDto) {
+  return 'This action adds a new user';
+}
+```
+
+```typescript
+// dto
+import { IsEmail, IsNotEmpty } from 'class-validator';
+
+export class CreateUserDto {
+  @IsEmail()
+  email: string;
+
+  @IsNotEmpty()
+  password: string;
+}
+```
+
+
+> 当你导入你的 DTO 时，你不能使用仅类型的导入，因为类型会在运行时被擦除，记得用 `import { CreateUserDto }` 而不是 `import type { CreateUserDto }` 。
+
+
+
+### [禁用详细错误](https://docs.nestjs.cn/10/techniques?id=%e7%a6%81%e7%94%a8%e8%af%a6%e7%bb%86%e9%94%99%e8%af%af)
+
+错误消息有助于解释请求中的错误。然而，一些生产环境倾向于禁用详细的错误。通过向 `ValidationPipe` 传递一个选项对象来做到这一点:
+
+```typescript
+app.useGlobalPipes(
+  new ValidationPipe({
+    disableErrorMessages: true,
+  })
+);
+```
+
+现在，不会将错误消息返回给最终用户。
+
+
+### [剥离属性](https://docs.nestjs.cn/10/techniques?id=%e5%89%a5%e7%a6%bb%e5%b1%9e%e6%80%a7)
+
+我们的 `ValidationPipe` 还可以过滤掉方法处理程序不应该接收的属性。在这种情况下，我们可以对可接受的属性进行**白名单**，白名单中不包含的任何属性都会自动从结果对象中删除。例如，如果我们的处理程序需要 `email` 和 `password`，但是一个请求还包含一个 `age` 属性，那么这个属性可以从结果 `DTO` 中自动删除。要启用这种行为，请将 `whitelist` 设置为 `true` 。
+
+```typescript
+app.useGlobalPipes(
+  new ValidationPipe({
+    whitelist: true,
+  })
+);
+```
+
+当设置为 `true` 时，这将自动删除非白名单属性
+
+
+### [负载对象转换(Transform)](https://docs.nestjs.cn/10/techniques?id=%e8%b4%9f%e8%bd%bd%e5%af%b9%e8%b1%a1%e8%bd%ac%e6%8d%a2transform)
+
+来自网络的有效负载是普通的 JavaScript 对象。`ValidationPipe` 可以根据对象的 `DTO` 类自动将有效负载转换为对象类型。若要启用自动转换，请将 `transform` 设置为 `true`。这可以在方法级别使用：
+
+> cats.control.ts
+
+```typescript
+@Post()
+@UsePipes(new ValidationPipe({ transform: true }))
+async create(@Body() createCatDto: CreateCatDto) {
+  this.catsService.create(createCatDto);
+}
+```
+
+要在全局启用这一行为，将选项设置到一个全局管道中：
+
+```typescript
+app.useGlobalPipes(
+  new ValidationPipe({
+    transform: true,
+  })
+);
+```
+
+要使能自动转换选项，`ValidationPipe` 将执行简单类型转换。
+
+
+### [转换和验证数组](https://docs.nestjs.cn/10/techniques?id=%e8%bd%ac%e6%8d%a2%e5%92%8c%e9%aa%8c%e8%af%81%e6%95%b0%e7%bb%84)
+
+TypeScript 不存储泛型或接口的元数据，因此当你在 DTO 中使用它们的时候， `ValidationPipe` 可能不能正确验证输入数据。例如，在下列代码中， `createUserDto` 不能正确验证。
+
+```typescript
+@Post()
+createBulk(@Body() createUserDtos: CreateUserDto[]) {
+  return 'This action adds new users';
+}
+```
+
+要验证数组，创建一个包裹了该数组的专用类，或者使用 `ParseArrayPipe` 。
+
+```typescript
+@Post()
+createBulk(
+  @Body(new ParseArrayPipe({ items: CreateUserDto }))
+  createUserDtos: CreateUserDto[],
+) {
+  return 'This action adds new users';
+}
+```
+
+此外， `ParseArrayPipe` 可能需要手动解析查询参数。让我们考虑一个返回作为查询参数传递的标识的 `users` 的 `findByIds()` 方法：
+
+```typescript
+@Get()
+findByIds(
+  @Query('id', new ParseArrayPipe({ items: Number, separator: ',' }))
+  ids: number[],
+) {
+  return 'This action returns users by ids';
+}
+```
+
+
+## 缓存
+
+暂时不需要
+
+
+## [序列化（Serialization）](https://docs.nestjs.cn/10/techniques?id=%e5%ba%8f%e5%88%97%e5%8c%96%ef%bc%88serialization%ef%bc%89)
+
+序列化(`Serialization`)是一个在网络响应中返回对象前的过程。这是一个适合转换和净化要返回给客户的数据的地方。例如，应始终从最终响应中排除敏感数据（如用户密码）。
+
+
+
+### [排除属性](https://docs.nestjs.cn/10/techniques?id=%e6%8e%92%e9%99%a4%e5%b1%9e%e6%80%a7)
+
+我们假设要从一个用户实体中自动排除`password`属性。我们给实体做如下注释：
+
+```typescript
+import { Exclude } from 'class-transformer';
+
+export class UserEntity {
+  id: number;
+  firstName: string;
+  lastName: string;
+
+  @Exclude()
+  password: string;
+
+  constructor(partial: Partial<UserEntity>) {
+    Object.assign(this, partial);
+  }
+}
+```
+
+然后，直接在控制器的方法中调用就能获得此类的实例。
+
+```typescript
+@UseInterceptors(ClassSerializerInterceptor)
+@Get()
+findOne(): UserEntity {
+  return new UserEntity({
+    id: 1,
+    firstName: 'Kamil',
+    lastName: 'Mysliwiec',
+    password: 'password',
+  });
+}
+```
+
+我们必须返回一个类的实体。如果你返回一个普通的 JavaScript 对象，例如，`{user: new UserEntity()}`,该对象将不会被正常序列化。
+
+
+### [公开属性](https://docs.nestjs.cn/10/techniques?id=%e5%85%ac%e5%bc%80%e5%b1%9e%e6%80%a7)
+
+您可以使用 `@Expose()` 装饰器来为属性提供别名，或者执行一个函数来计算属性值(类似于 `getter` 函数)，如下所示。
+
+```typescript
+@Expose()
+get fullName(): string {
+  return `${this.firstName} ${this.lastName}`;
+}
+```
+
+### [变换](https://docs.nestjs.cn/10/techniques?id=%e5%8f%98%e6%8d%a2)
+
+您可以使用 `@Transform()` 装饰器执行其他数据转换。
+
+`@Transform()` 是 class-transformer 库中的一个装饰器，它允许你在将普通 JavaScript 对象转换为特定类的实例时，对特定属性进行自定义的转换。
+
+例如，假设你有一个 `UserDto` 类，其中的 `birthDate` 属性应该是 `Date` 类型，但客户端发送的数据中 `birthDate` 是一个字符串。你可以使用 `@Transform()` 装饰器将这个字符串转换为 `Date` 对象：
+
+```
+class UserDto {
+  @Transform(({ value }) => new Date(value))、
+  birthDate: Date;
+}
+```
+
+
+
+在这个例子中，`@Transform()` 装饰器接收一个函数，这个函数接收一个包含 `value` 属性的对象作为参数，`value` 是原始的属性值。这个函数应该返回转换后的值。
+
+
+
+## [定时任务](https://docs.nestjs.cn/10/techniques?id=%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1)
+
+定时任务允许你按照指定的日期/时间、一定时间间隔或者一定时间后单次执行来调度(`scheduling`)任意代码（方法/函数）。
+
+
+### [声明计时工作(cron job)](https://docs.nestjs.cn/10/techniques?id=%e5%a3%b0%e6%98%8e%e8%ae%a1%e6%97%b6%e5%b7%a5%e4%bd%9ccron-job)
+
+一个计时工作调度任何函数（方法调用）以自动运行， 计时工作可以：
+
+- 单次，在指定日期/时间
+- 重复循环：重复工作可以在指定周期中指定执行（例如，每小时，每周，或者每 5 分钟）
+
+在包含要运行代码的方法定义前使用 `@Cron()` 装饰器声明一个计时工作，如下：
+
+```typescript
+import { Module } from '@nestjs/common';
+import { ScheduleModule } from '@nestjs/schedule';
+
+@Module({
+  imports: [ScheduleModule.forRoot()],
+})
+export class AppModule {}
+```
+
+```typescript
+import { Injectable, Logger } from '@nestjs/common';
+import { Cron } from '@nestjs/schedule';
+
+@Injectable()
+export class TasksService {
+  private readonly logger = new Logger(TasksService.name);
+
+  @Cron('45 * * * * *')
+  handleCron() {
+    this.logger.debug('Called when the current second is 45');
+  }
+}
+```
+
+在这个例子中，`handleCron()`方法将在当前时间为`45秒`时定期执行。换句话说，该方法每分钟执行一次，在第 45 秒执行。
+
+`@Cron()`装饰器支持标准的[cron patterns](http://crontab.org/):
+
+- 星号通配符 (也就是 *)
+- 范围（也就是 1-3,5)
+- 步长（也就是 */2)
+
+在上述例子中，我们给装饰器传递了`45 * * * * *`，下列键展示了每个位置的计时模式字符串的意义：
+
+```bash
+* * * * * *
+| | | | | |
+| | | | | day of week
+| | | | month
+| | | day of month
+| | hour
+| minute
+second (optional)
+```
+
+一些示例的计时模式包括：
+
+|名称|含义|
+|---|---|
+|* * * * * *|每秒|
+|45 * * * * *|每分钟第 45 秒
+|_ 10 _ * * *|每小时，从第 10 分钟开始|
+|0 _/30 9-17 _ * *|上午 9 点到下午 5 点之间每 30 分钟|
+|0 30 11 * * 1-5|周一至周五上午 11:30|
+
+
+### [声明间隔](https://docs.nestjs.cn/10/techniques?id=%e5%a3%b0%e6%98%8e%e9%97%b4%e9%9a%94)
+
+要声明一个以一定间隔运行的方法，使用`@Interval()`装饰器前缀。以毫秒单位的`number`传递间隔值，如下：
+
+```typescript
+@Interval(10000)
+handleInterval() {
+  this.logger.debug('Called every 10 seconds');
+}
+```
+
+本机制在底层使用`JavaScript`的`setInterval()`函数。你也可以使用定期调度工作来应用一个定时任务。
+
+如果你希望在声明类之外通过[动态 API](https://docs.nestjs.com/techniques/task-scheduling#dynamic-schedule-module-api)控制你声明的时间间隔。使用下列结构将名称与间隔关联起来。
+
+```typescript
+@Interval('notifications', 2500)
+handleInterval() {}
+```
+
+
+### [声明延时任务](https://docs.nestjs.cn/10/techniques?id=%e5%a3%b0%e6%98%8e%e5%bb%b6%e6%97%b6%e4%bb%bb%e5%8a%a1)
+
+要声明一个在指定时间后运行（一次）的方法，使用`@Timeout()`装饰器前缀。将从应用启动的相关时间偏移量（毫秒）传递给装饰器，如下：
+
+```typescript
+@Timeout(5000)
+handleTimeout() {
+  this.logger.debug('Called once after 5 seconds');
+}
+```
+
+本机制在底层使用 JavaScript 的 `setTimeout()` 方法
+
+
+### 动态任务 
+
+### 动态超时
+
+
+### 动态间隔
+
+
+
+## [队列](https://docs.nestjs.cn/10/techniques?id=%e9%98%9f%e5%88%97)
+
+队列是一种有用的设计模式，可以帮助你处理一般应用规模和性能的挑战。
+
+
+（等待补充
+
+## [Cookies](https://docs.nestjs.cn/10/techniques?id=cookies)
+
+一个 `HTTP cookie` 是指存储在用户浏览器中的一小段数据。
+
+使用：
+```TypeScript
+import * as cookieParser from 'cookie-parser';
+// somewhere in your initialization file
+app.use(cookieParser());
+```
+
+获取：
+```TypeScript
+@Get()
+findAll(@Req() request: Request) {
+  console.log(request.cookies); // or "request.cookies['cookieKey']"
+  // or console.log(request.signedCookies);
+}
+```
+
+响应设置：
+```TypeScript
+@Get()
+findAll(@Res({ passthrough: true }) response: Response) {
+  response.cookie('key', 'value')
+}
+```
+
+
+
+## [事件](https://docs.nestjs.cn/10/techniques?id=%e4%ba%8b%e4%bb%b6)
+
+[Event Emitter 事件发射器](https://www.npmjs.com/package/@nestjs/event-emitter) 包(`@nestjs/event-emitter`)提供了一个简单的观察者实现，允许你订阅和监听在你应用中发生的不同事件。
+
+
+## [压缩](https://docs.nestjs.cn/10/techniques?id=%e5%8e%8b%e7%bc%a9)
+
+压缩可以大大减小响应主体的大小，从而提高 `Web` 应用程序的速度。
+
+在大业务量的生产环境网站中，强烈推荐将压缩功能从应用服务器中卸载——典型做法是使用反向代理（例如 Nginx)。在这种情况下，你不应该使用压缩中间件。
+
+
+## [文件上传](https://docs.nestjs.cn/10/techniques?id=%e6%96%87%e4%bb%b6%e4%b8%8a%e4%bc%a0)
+
+为了处理文件上传，Nest 提供了一个内置的基于 [multer](https://github.com/expressjs/multer) 中间件包的 Express 模块。Multer 处理以 `multipart/form-data` 格式发送的数据，该格式主要用于通过 HTTP `POST` 请求上传文件。
+
+```typescript
+@Post('upload')
+@UseInterceptors(FileInterceptor('file'))
+uploadFile(@UploadedFile() file: Express.Multer.File) {
+  console.log(file);
+}
+```
+
+
+
+# 安全
+
+## [CORS](https://docs.nestjs.cn/10/security?id=cors)
+
+跨源资源共享（`CORS`）是一种允许从另一个域请求资源的机制。在底层，`Nest` 使用了 Express 的[cors](https://github.com/expressjs/cors) 包，它提供了一系列选项，您可以根据自己的要求进行自定义。
+
+### [开始](https://docs.nestjs.cn/10/security?id=%e5%bc%80%e5%a7%8b)
+
+为了启用 `CORS`，必须调用 `enableCors()` 方法。
+
+```typescript
+const app = await NestFactory.create(AppModule);
+app.enableCors();
+await app.listen(3000);
+```
+
+`enableCors()`方法需要一个可选的配置对象参数。这个对象的可用属性在官方 [CORS](https://github.com/expressjs/cors#configuration-options) 文档中有所描述。另一种方法是传递一个[回调函数](https://github.com/expressjs/cors#configuring-cors-asynchronously)，来让你根据请求异步地定义配置对象。
+
+或者通过 `create()` 方法的选项对象启用 CORS。将 `cors`属性设置为`true`，以使用默认设置启用 CORS。又或者，传递一个 [CORS 配置对象](https://github.com/expressjs/cors#configuration-options) 或 [回调函数](https://github.com/expressjs/cors#configuring-cors-asynchronously) 作为 `cors` 属性的值来自定义其行为。
+
+```typescript
+const app = await NestFactory.create(AppModule, { cors: true });
+await app.listen(3000);
+```
+
+
+
+# 微服务
+
+
