@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "学习列表.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/工作记录.md"
+                "file": "学习列表.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "学习列表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "学习列表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,10 +205,11 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "11c8950802e39f78",
+  "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
-    "z 前端/Node.js/Nest 备忘.md",
     "z 前端/工作记录.md",
+    "婚纱照修改点.md",
+    "z 前端/Node.js/Nest 备忘.md",
     "杂记/vscode 技巧.md",
     "z 前端/JS/ES6.md",
     "z 前端/JS/JS基础.md",
@@ -218,7 +219,6 @@
     "Mac 常用命令.md",
     "杂记/vscode 快捷键.md",
     "笔记图片/Pasted image 20231206234432.png",
-    "婚纱照修改点.md",
     "conflict-files-obsidian-git.md",
     "学习列表.md",
     "z 前端/vscode 配置2.md",

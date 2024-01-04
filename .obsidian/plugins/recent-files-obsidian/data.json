@@ -1,43 +1,27 @@
 {
   "recentFiles": [
     {
-      "basename": "Nest",
-      "path": "z 前端/Node.js/Nest.md"
-    },
-    {
-      "basename": "Nest 备忘",
-      "path": "z 前端/Node.js/Nest 备忘.md"
-    },
-    {
-      "basename": "docker",
-      "path": "java/docker.md"
-    },
-    {
-      "basename": "Mac 装机记录",
-      "path": "杂记/Mac 装机记录.md"
-    },
-    {
       "basename": "学习列表",
       "path": "学习列表.md"
     },
     {
-      "basename": "婚纱照修改点",
-      "path": "婚纱照修改点.md"
+      "basename": "工作记录",
+      "path": "z 前端/工作记录.md"
     },
     {
-      "basename": "算法",
-      "path": "数据结构及算法/算法.md"
+      "basename": "vscode 技巧",
+      "path": "杂记/vscode 技巧.md"
     },
     {
-      "basename": "数据结构",
-      "path": "数据结构及算法/数据结构.md"
+      "basename": "ES6",
+      "path": "z 前端/JS/ES6.md"
     },
     {
-      "basename": "java 基础语法",
-      "path": "java/java 基础语法.md"
+      "basename": "JS基础",
+      "path": "z 前端/JS/JS基础.md"
     }
   ],
   "omittedPaths": [],
-  "maxLength": null,
+  "maxLength": 5,
   "openType": "tab"
 }
