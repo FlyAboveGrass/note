@@ -92,7 +92,7 @@ export class HttpService<T> {
 
 
 
-## 中间件
+## 中间件 Middleware
 Nest 中间件实际上等价于 [express](http://expressjs.com/en/guide/using-middleware.html) 中间件。下面是 Express 官方文档中所述的中间件功能：
 
 中间件函数可以执行以下任务:
@@ -176,7 +176,7 @@ app.use(logger);
 暂掠过
 
 
-## 管道
+## 管道 Pipe
 
 管道是具有 `@Injectable()` 装饰器的类。**验证管道**要么返回一个转换后的值，要么抛出一个错误。
 
@@ -251,7 +251,7 @@ bootstrap();
 ### 提供默认值
 
 
-## 守卫
+## 守卫 Guard
 
 守卫有一个单独的责任。它们根据运行时出现的某些条件（例如权限，角色，访问控制列表等）来确定给定的请求是否由路由处理程序处理。这通常称为授权。在传统的 `Express` 应用程序中，通常由中间件处理授权(以及认证)。
 
@@ -312,7 +312,7 @@ export class AppModule {}
 ```
 
 
-## 拦截器
+## 拦截器 Interceptor
 
 拦截器是使用 `@Injectable()` 装饰器注解的类。拦截器应该实现 `NestInterceptor` 接口。
 

@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "368ad3c0bfd48e81",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
+          },
+          {
             "id": "f5e03095dd27ccea",
             "type": "leaf",
             "state": {
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +191,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -219,7 +232,7 @@
       "cmdr:source control": false
     }
   },
-  "active": "2259901e6619b9e5",
+  "active": "368ad3c0bfd48e81",
   "lastOpenFiles": [
     "z 前端/Node.js/Nest 备忘.md",
     "java/docker.md",
