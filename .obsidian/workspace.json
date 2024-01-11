@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习列表.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 260
   },
   "right": {
     "id": "63ea28dd52758e2c",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习列表.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习列表.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习列表.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290
+    "width": 283
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,6 +207,7 @@
   },
   "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
+    "学习列表.md",
     "z 前端/工作记录.md",
     "婚纱照修改点.md",
     "z 前端/Node.js/Nest 备忘.md",
@@ -220,7 +221,6 @@
     "杂记/vscode 快捷键.md",
     "笔记图片/Pasted image 20231206234432.png",
     "conflict-files-obsidian-git.md",
-    "学习列表.md",
     "z 前端/vscode 配置2.md",
     "z 前端/vscode配置备份.md",
     "z 前端/vpn.md",
