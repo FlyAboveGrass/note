@@ -81,7 +81,7 @@ node_modules
 
 ## 软链接和硬连接结合
 
-
+![[Pasted image 20240223180945.png]]
 
 ### [软链接和硬链接](https://zhuanlan.zhihu.com/p/442133074)
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/前端工程化/pnpm.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "for...of",
+                "query": "pnpm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/工作记录.md"
+                "file": "z 前端/前端工程化/pnpm.md"
               }
             }
           },
@@ -124,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/前端工程化/pnpm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/前端工程化/pnpm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,8 +208,20 @@
   },
   "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
-    "Mac 常用命令.md",
+    "笔记图片/Pasted image 20240223180945.png",
+    "笔记图片/Pasted image 20240223180833.png",
     "z 前端/工作记录.md",
+    "z 前端/前端理论/图片防盗链.md",
+    "z 前端/前端理论/前后端鉴权方案.md",
+    "计算机/一些下.md",
+    "笔记图片/Pasted image 20240223113654.png",
+    "z 前端/JS/JS进阶.md",
+    "z 前端/JS/JS基础.md",
+    "z 前端/前端知识自检清单.md",
+    "z 前端/JS/你不知道的js.md",
+    "z 前端/JS/文件上传.md",
+    "z 前端/JS/代码片段.md",
+    "Mac 常用命令.md",
     "计算机/正则表达式.md",
     "杂记/Mac 装机记录.md",
     "学习列表.md",
@@ -216,7 +229,6 @@
     "z 前端/Node.js/Nest 备忘.md",
     "杂记/vscode 技巧.md",
     "z 前端/JS/ES6.md",
-    "z 前端/JS/JS基础.md",
     "z 前端/Node.js/Nest.md",
     "z 前端/前端理论/前端安全.md",
     "杂记/vscode 快捷键.md",
@@ -225,16 +237,7 @@
     "z 前端/vscode 配置2.md",
     "z 前端/vscode配置备份.md",
     "z 前端/vpn.md",
-    "z 前端/前端知识自检清单.md",
-    "z 前端/如何工作.md",
-    "z 前端/前端架构师.md",
-    "z 前端/学习计划.md",
-    "z 前端/未命名.md",
     "笔记图片/Pasted image 20230907233328.png",
-    "z 前端/面试/计算机网络.md",
-    "z 前端/Node.js/客户端渲染和服务端渲染.md",
-    "z 前端/前端工程化/问题记录.md",
-    "z 前端/打包工具/webpack/项目webpack构建优化.md",
     "笔记图片/Pasted image 20220926131949.png",
     "经济学",
     "笔记图片/obsidian配置.zip",
@@ -243,8 +246,6 @@
     "笔记图片/Pasted image 20230328223749.png",
     "前端/react生命周期.png",
     "笔记图片/wepy脏数据检测.png",
-    "笔记图片/wepy生命周期.png",
-    "笔记图片/wepy事件处理.png",
     "未命名.canvas",
     "python",
     "未命名 2.canvas",
