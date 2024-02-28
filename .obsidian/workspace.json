@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/前端工程化/pnpm.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/正则表达式.md",
+                "file": "z 前端/前端工程化/pnpm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,11 +207,13 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "3d2ca52b2e5318c0",
+  "active": "2836df4c05c4dc80",
   "lastOpenFiles": [
+    "计算机/正则表达式.md",
+    "z 前端/工作记录.md",
+    "z 前端/前端工程化/pnpm.md",
     "笔记图片/Pasted image 20240223180945.png",
     "笔记图片/Pasted image 20240223180833.png",
-    "z 前端/工作记录.md",
     "z 前端/前端理论/图片防盗链.md",
     "z 前端/前端理论/前后端鉴权方案.md",
     "计算机/一些下.md",
@@ -222,7 +225,6 @@
     "z 前端/JS/文件上传.md",
     "z 前端/JS/代码片段.md",
     "Mac 常用命令.md",
-    "计算机/正则表达式.md",
     "杂记/Mac 装机记录.md",
     "学习列表.md",
     "婚纱照修改点.md",
@@ -245,7 +247,6 @@
     "笔记图片/Pasted image 20230328230547.png",
     "笔记图片/Pasted image 20230328223749.png",
     "前端/react生命周期.png",
-    "笔记图片/wepy脏数据检测.png",
     "未命名.canvas",
     "python",
     "未命名 2.canvas",
