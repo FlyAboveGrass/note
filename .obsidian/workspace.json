@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "5ea6de2c182dc3dc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
+          },
+          {
             "id": "e571225431a1adc5",
             "type": "leaf",
             "state": {
@@ -62,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "react",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/React/useMemo 和 useCallback.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -125,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/React/useMemo 和 useCallback.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/React/useMemo 和 useCallback.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,8 +216,9 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "e571225431a1adc5",
+  "active": "5ea6de2c182dc3dc",
   "lastOpenFiles": [
+    "z 前端/性能优化/精选文章.md",
     "z 前端/工作记录.md",
     "z 前端/React/useMemo 和 useCallback.md",
     "z 前端/React/文章精选.md",
@@ -237,7 +248,6 @@
     "z 前端/前端理论/前端安全.md",
     "杂记/vscode 快捷键.md",
     "笔记图片/Pasted image 20231206234432.png",
-    "conflict-files-obsidian-git.md",
     "笔记图片/Pasted image 20230907233328.png",
     "笔记图片/Pasted image 20220926131949.png",
     "经济学",
