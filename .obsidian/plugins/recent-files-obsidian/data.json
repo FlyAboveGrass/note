@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "jotai",
+      "path": "z 前端/前端理论/jotai.md"
+    },
+    {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "文章精选",
       "path": "z 前端/React/文章精选.md"
-    },
-    {
-      "basename": "React高级",
-      "path": "z 前端/React/React高级.md"
     }
   ],
   "omittedPaths": [],

@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/前端理论/jotai.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "5ea6de2c182dc3dc",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
               }
             }
           },
@@ -40,9 +30,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "69f2affe3d4e3371",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "z 前端/工作记录.md"
-              }
+              "state": {}
             }
           },
           {
@@ -135,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +147,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,10 +210,13 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "5ea6de2c182dc3dc",
+  "active": "69f2affe3d4e3371",
   "lastOpenFiles": [
-    "z 前端/性能优化/精选文章.md",
+    "z 前端/前端理论/jotai.md",
     "z 前端/工作记录.md",
+    "z 前端/未命名",
+    "z 前端/状态管理",
+    "z 前端/性能优化/精选文章.md",
     "z 前端/React/useMemo 和 useCallback.md",
     "z 前端/React/文章精选.md",
     "z 前端/React/React高级.md",
@@ -246,7 +243,6 @@
     "z 前端/JS/ES6.md",
     "z 前端/Node.js/Nest.md",
     "z 前端/前端理论/前端安全.md",
-    "杂记/vscode 快捷键.md",
     "笔记图片/Pasted image 20231206234432.png",
     "笔记图片/Pasted image 20230907233328.png",
     "笔记图片/Pasted image 20220926131949.png",
