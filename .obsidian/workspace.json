@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/前端理论/jotai.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,8 +39,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "z 前端/工作记录.md"
+              }
             }
           },
           {
@@ -131,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,8 +213,9 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "69f2affe3d4e3371",
+  "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
+    "z 前端/前端知识自检清单.md",
     "z 前端/前端理论/jotai.md",
     "z 前端/工作记录.md",
     "z 前端/未命名",
@@ -230,7 +234,6 @@
     "笔记图片/Pasted image 20240223113654.png",
     "z 前端/JS/JS进阶.md",
     "z 前端/JS/JS基础.md",
-    "z 前端/前端知识自检清单.md",
     "z 前端/JS/你不知道的js.md",
     "z 前端/JS/文件上传.md",
     "z 前端/JS/代码片段.md",

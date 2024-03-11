@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "jotai",
-      "path": "z 前端/前端理论/jotai.md"
-    },
-    {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
+    },
+    {
+      "basename": "前端知识自检清单",
+      "path": "z 前端/前端知识自检清单.md"
+    },
+    {
+      "basename": "jotai",
+      "path": "z 前端/前端理论/jotai.md"
     },
     {
       "basename": "精选文章",
@@ -15,10 +19,6 @@
     {
       "basename": "useMemo 和 useCallback",
       "path": "z 前端/React/useMemo 和 useCallback.md"
-    },
-    {
-      "basename": "文章精选",
-      "path": "z 前端/React/文章精选.md"
     }
   ],
   "omittedPaths": [],
