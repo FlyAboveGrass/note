@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/React/React高级.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/前端理论/jotai.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,13 +217,13 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "69f2affe3d4e3371",
+  "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
+    "z 前端/前端理论/jotai.md",
+    "z 前端/工作记录.md",
     "z 前端/React/React高级.md",
     "z 前端/面试/react.md",
     "z 前端/React/React基础.md",
-    "z 前端/前端理论/jotai.md",
-    "z 前端/工作记录.md",
     "z 前端/前端知识自检清单.md",
     "z 前端/未命名",
     "z 前端/状态管理",

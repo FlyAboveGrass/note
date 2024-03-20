@@ -49,6 +49,8 @@ Providers are useful for three reasons:
 
 ## Storage
 
+持久化
+
 关键词：
 - atomWithStorage
 - createJSONStorage。自定义序列化和反序列化函数
@@ -56,3 +58,42 @@ Providers are useful for three reasons:
 
 
 ## Async
+异步 atom 同步化
+
+
+关键词：
+- loadable / unwrap 异步 atom 同步化
+- atomWithObservable
+
+
+
+## Resettable
+
+可重置的 atom
+
+- atomWithReset / useResetAtom
+
+
+## Family
+
+`atomFamily` 的主要作用是创建和管理一组相关的原子（atoms），这些原子是 Jotai 中用于存储和更新状态的最小单元。通过 id 来标识并缓存这些最小单元 atom。
+
+关键词：
+- atomFamily
+- memory leaks
+
+## Reducer
+
+像 redux 的 reducer 一样，通过 action 更新 atom
+
+## select
+
+关键词：
+- selectAtom
+	- 性能优化，仅当 equalityFn 判断值发生变化才会重新计算派生值
+
+
+## Split
+
+- SplitAtom
+	- 创造一个对应于 atom 包含列表时，列表中每一项的 atom 列表。提供 remove，insert， move 操作从而方便地修改数组
