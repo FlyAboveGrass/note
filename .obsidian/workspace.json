@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/React/useMemo 和 useCallback.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "JSX",
+                "query": "hooks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/工作记录.md"
+                "file": "z 前端/React/useMemo 和 useCallback.md"
               }
             }
           },
@@ -136,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/React/useMemo 和 useCallback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/React/useMemo 和 useCallback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,15 +220,18 @@
   },
   "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
-    "z 前端/前端理论/jotai.md",
-    "z 前端/工作记录.md",
     "z 前端/React/React高级.md",
+    "z 前端/性能优化/精选文章.md",
+    "学习列表.md",
+    "z 前端/工作记录.md",
+    "私教 v3.2迭代需求.md",
+    "z 前端/前端工程化/问题记录.md",
+    "z 前端/前端理论/jotai.md",
     "z 前端/面试/react.md",
     "z 前端/React/React基础.md",
     "z 前端/前端知识自检清单.md",
     "z 前端/未命名",
     "z 前端/状态管理",
-    "z 前端/性能优化/精选文章.md",
     "z 前端/React/useMemo 和 useCallback.md",
     "z 前端/React/文章精选.md",
     "计算机/正则表达式.md",
@@ -245,11 +249,8 @@
     "z 前端/JS/代码片段.md",
     "Mac 常用命令.md",
     "杂记/Mac 装机记录.md",
-    "学习列表.md",
     "婚纱照修改点.md",
     "z 前端/Node.js/Nest 备忘.md",
-    "杂记/vscode 技巧.md",
-    "z 前端/JS/ES6.md",
     "笔记图片/Pasted image 20231206234432.png",
     "笔记图片/Pasted image 20230907233328.png",
     "笔记图片/Pasted image 20220926131949.png",

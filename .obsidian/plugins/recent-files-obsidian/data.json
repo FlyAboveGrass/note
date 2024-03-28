@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "工作记录",
-      "path": "z 前端/工作记录.md"
-    },
-    {
-      "basename": "jotai",
-      "path": "z 前端/前端理论/jotai.md"
+      "basename": "useMemo 和 useCallback",
+      "path": "z 前端/React/useMemo 和 useCallback.md"
     },
     {
       "basename": "React高级",
       "path": "z 前端/React/React高级.md"
     },
     {
-      "basename": "react",
-      "path": "z 前端/面试/react.md"
+      "basename": "精选文章",
+      "path": "z 前端/性能优化/精选文章.md"
     },
     {
-      "basename": "React基础",
-      "path": "z 前端/React/React基础.md"
+      "basename": "学习列表",
+      "path": "学习列表.md"
+    },
+    {
+      "basename": "工作记录",
+      "path": "z 前端/工作记录.md"
     }
   ],
   "omittedPaths": [],
