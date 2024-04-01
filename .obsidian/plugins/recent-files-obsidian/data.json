@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "工作记录",
+      "path": "z 前端/工作记录.md"
+    },
+    {
       "basename": "useMemo 和 useCallback",
       "path": "z 前端/React/useMemo 和 useCallback.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "学习列表",
       "path": "学习列表.md"
-    },
-    {
-      "basename": "工作记录",
-      "path": "z 前端/工作记录.md"
     }
   ],
   "omittedPaths": [],
