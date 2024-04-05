@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/正则表达式.md"
+                "file": "z 前端/Node.js/Nest.md"
               }
             }
           },
@@ -133,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/正则表达式.md",
+                "file": "z 前端/Node.js/Nest.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/正则表达式.md",
+                "file": "z 前端/Node.js/Nest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,8 +221,9 @@
       "cmdr:source control": false
     }
   },
-  "active": "f5e03095dd27ccea",
+  "active": "2259901e6619b9e5",
   "lastOpenFiles": [
+    "计算机/正则表达式.md",
     "z 前端/Node.js/Nest 备忘.md",
     "z 前端/Node.js/Nest.md",
     "java/docker.md",
@@ -250,7 +250,6 @@
     "z 前端/面试/计算机网络.md",
     "z 前端/面试/移动端.md",
     "z 前端/面试/前端理论.md",
-    "z 前端/面试/浏览器.md",
     "z 前端/打包工具/webpack",
     "z 前端/小程序/wepy",
     "z 前端/小程序/uniapp",
