@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/Node.js/Nest.md",
+                "file": "杂记/Mac 装机记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "AIGC ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f77f85c5b8b510ca",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/Node.js/Nest.md"
+                "file": "杂记/Mac 装机记录.md"
               }
             }
           },
@@ -132,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/Node.js/Nest.md",
+                "file": "杂记/Mac 装机记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/Node.js/Nest.md",
+                "file": "杂记/Mac 装机记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,11 +222,11 @@
       "cmdr:source control": false
     }
   },
-  "active": "2259901e6619b9e5",
+  "active": "e4ec2fa580534f5d",
   "lastOpenFiles": [
+    "z 前端/Node.js/Nest.md",
     "计算机/正则表达式.md",
     "z 前端/Node.js/Nest 备忘.md",
-    "z 前端/Node.js/Nest.md",
     "java/docker.md",
     "杂记/Mac 装机记录.md",
     "杂记/vscode 快捷键.md",
