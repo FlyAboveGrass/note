@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "计算机/正则表达式.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂记/Mac 装机记录.md"
+                "file": "计算机/正则表达式.md"
               }
             }
           },
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "计算机/正则表达式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "计算机/正则表达式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283
+    "width": 288
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,52 +220,52 @@
   },
   "active": "69f2affe3d4e3371",
   "lastOpenFiles": [
-    "test.md",
-    "develop-worktree/软件工程/敏捷开发.md",
-    "develop-worktree/软件工程/git 使用.md",
-    "develop-worktree/软件工程",
-    "develop-worktree/计算机/正则表达式.md",
-    "develop-worktree/计算机",
-    "develop-worktree/经济学/财报阅读.md",
-    "develop-worktree/经济学",
-    "develop-worktree/笔记图片/词法作用域.png",
-    "develop-worktree/笔记图片/缓存使用顺序.png",
-    "develop-worktree/笔记图片/用例图.jpg",
-    "develop-worktree/笔记图片/理解中间件.jpg",
-    "develop-worktree/笔记图片/正向代理.png",
-    "develop-worktree/笔记图片/树的表示法.png",
-    "develop-worktree/笔记图片/微前端特性.png",
-    "develop-worktree/笔记图片/微前端实现方式对比.png",
-    "develop-worktree/笔记图片/微前端入口js和html对比.jpg",
-    "develop-worktree/笔记图片/微任务.png",
-    "develop-worktree/笔记图片/obsidian配置.zip",
-    "develop-worktree/笔记图片",
-    "develop-worktree/杂记/婚礼筹备.md",
-    "develop-worktree/杂记/提问的智慧.md",
-    "develop-worktree/杂记/vscode 技巧.md",
-    "develop-worktree/杂记/vscode 快捷键.md",
-    "develop-worktree/杂记/Mac 装机记录.md",
-    "develop-worktree/杂记",
-    "develop-worktree/数据结构及算法/经典算法题.md",
-    "develop-worktree/数据结构及算法/算法.md",
-    "develop-worktree/数据结构及算法/数据结构.md",
-    "develop-worktree/数据结构及算法/[五大常用算法——分治法，动态规划，回溯法，分支界限法，贪心算法-阿里云开发者社区.md",
-    "develop-worktree/数据结构及算法",
-    "develop-worktree/学习列表.md",
-    "develop-worktree/z 前端/打包工具/webpack/项目webpack构建优化.md",
-    "develop-worktree/z 前端/打包工具/webpack/webpack的Loader和Plugin.md",
-    "develop-worktree/z 前端/打包工具/webpack/webpack核心流程和思路.md",
-    "develop-worktree/z 前端/打包工具/webpack/webpack优化.md",
-    "develop-worktree/z 前端/打包工具/webpack/webpack 热更新原理.md",
-    "develop-worktree/z 前端/小程序/wepy/基础.md",
-    "develop-worktree/z 前端/小程序/wepy/与原生自定义组件对比.md",
-    "develop-worktree/z 前端/小程序/wepy/与原生vue.md",
-    "develop-worktree/z 前端/小程序/wepy/wepy2.x.md",
-    "develop-worktree/z 前端/小程序/wepy/wepy1.x.md",
-    "develop-worktree/z 前端/小程序/uniapp/uni-app基础.md",
-    "develop-worktree/z 前端/打包工具/webpack",
-    "develop-worktree/z 前端/小程序/wepy",
-    "develop-worktree/z 前端/小程序/uniapp",
+    "z 前端/工作记录.md",
+    "计算机/正则表达式.md",
+    "杂记/Mac 装机记录.md",
+    "uat-worktree-vscodePlugin/软件工程/敏捷开发.md",
+    "uat-worktree-vscodePlugin/软件工程/git 使用.md",
+    "uat-worktree-vscodePlugin/软件工程",
+    "uat-worktree-vscodePlugin/计算机/正则表达式.md",
+    "uat-worktree-vscodePlugin/计算机",
+    "uat-worktree-vscodePlugin/经济学/财报阅读.md",
+    "uat-worktree-vscodePlugin/经济学",
+    "uat-worktree-vscodePlugin/笔记图片/词法作用域.png",
+    "uat-worktree-vscodePlugin/笔记图片/缓存使用顺序.png",
+    "uat-worktree-vscodePlugin/笔记图片/用例图.jpg",
+    "uat-worktree-vscodePlugin/笔记图片/理解中间件.jpg",
+    "uat-worktree-vscodePlugin/笔记图片/正向代理.png",
+    "uat-worktree-vscodePlugin/笔记图片/树的表示法.png",
+    "uat-worktree-vscodePlugin/笔记图片/微前端特性.png",
+    "uat-worktree-vscodePlugin/笔记图片/微前端实现方式对比.png",
+    "uat-worktree-vscodePlugin/笔记图片/微前端入口js和html对比.jpg",
+    "uat-worktree-vscodePlugin/笔记图片/微任务.png",
+    "uat-worktree-vscodePlugin/笔记图片/obsidian配置.zip",
+    "uat-worktree-vscodePlugin/笔记图片",
+    "uat-worktree-vscodePlugin/杂记/提问的智慧.md",
+    "uat-worktree-vscodePlugin/杂记/婚礼筹备.md",
+    "uat-worktree-vscodePlugin/杂记/vscode 技巧.md",
+    "uat-worktree-vscodePlugin/杂记/vscode 快捷键.md",
+    "uat-worktree-vscodePlugin/杂记/Mac 装机记录.md",
+    "uat-worktree-vscodePlugin/杂记",
+    "uat-worktree-vscodePlugin/数据结构及算法/经典算法题.md",
+    "uat-worktree-vscodePlugin/数据结构及算法/算法.md",
+    "uat-worktree-vscodePlugin/数据结构及算法/数据结构.md",
+    "uat-worktree-vscodePlugin/数据结构及算法/[五大常用算法——分治法，动态规划，回溯法，分支界限法，贪心算法-阿里云开发者社区.md",
+    "uat-worktree-vscodePlugin/数据结构及算法",
+    "uat-worktree-vscodePlugin/学习列表.md",
+    "uat-worktree-vscodePlugin/z 前端/面试/计算机网络.md",
+    "uat-worktree-vscodePlugin/z 前端/面试/移动端.md",
+    "uat-worktree-vscodePlugin/z 前端/面试/浏览器.md",
+    "uat-worktree-vscodePlugin/z 前端/面试/只了解.md",
+    "uat-worktree-vscodePlugin/z 前端/面试/前端理论.md",
+    "uat-worktree-vscodePlugin/z 前端/面试/react.md",
+    "uat-worktree-vscodePlugin/z 前端/面试/Vue.md",
+    "uat-worktree-vscodePlugin/z 前端/面试/TypeScript.md",
+    "uat-worktree-vscodePlugin/z 前端/面试/JS高级.md",
+    "uat-worktree-vscodePlugin/z 前端/面试",
+    "uat-worktree-vscodePlugin/z 前端/算法",
+    "uat-worktree-vscodePlugin/z 前端/打包工具/webpack",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
