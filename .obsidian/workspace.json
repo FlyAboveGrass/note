@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/正则表达式.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -137,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/正则表达式.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/正则表达式.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,10 +217,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "69f2affe3d4e3371",
+  "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
-    "z 前端/工作记录.md",
     "计算机/正则表达式.md",
+    "z 前端/工作记录.md",
     "杂记/Mac 装机记录.md",
     "uat-worktree-vscodePlugin/软件工程/敏捷开发.md",
     "uat-worktree-vscodePlugin/软件工程/git 使用.md",
