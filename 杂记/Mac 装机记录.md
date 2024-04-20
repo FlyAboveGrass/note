@@ -42,7 +42,7 @@
 - Apple Store 下载安装[微信](https://link.juejin.cn/?target=https%3A%2F%2Fweixin.qq.com%2F "https://weixin.qq.com/")，先装它的目的是为了手机上传文件过去
 - Safari 下载安装[搜狗输入法](https://link.juejin.cn/?target=https%3A%2F%2Fpinyin.sogou.com%2Fmac%2F "https://pinyin.sogou.com/mac/")，不理解为什么有人喜欢折腾别的输入法。使用微信账号同步数据，我已经全面放弃 QQ 账号，即便是已经用了好几年的 QQ 音乐和腾讯视频。
 
-## [Chrome](https://link.juejin.cn/?target=https%3A%2F%2Fwww.google.com%2Fchrome%2F "https://www.google.com/chrome/")
+## [Chrome](https://link.juejin.cn/?target=https%3A%2F%2Fwww.google.com%2Fchrome%2F "https://www.google.com/chrome/)
 
 `Safari` 对我来说主要功能就是当做 `Chrome` 下载器。开启代理后，从 [www.google.com/chrome/](https://link.juejin.cn/?target=https%3A%2F%2Fwww.google.com%2Fchrome%2F "https://www.google.com/chrome/") 下载安装 `Chrome`，而不是去 [www.google.cn/intl/zh-CN/…](https://link.juejin.cn/?target=https%3A%2F%2Fwww.google.cn%2Fintl%2Fzh-CN%2Fchrome%2F "https://www.google.cn/intl/zh-CN/chrome/")。很多国内专属版应用总是被代理商加入各种奇奇怪怪的东西，最好还是从原始的官网下载。
 
@@ -72,7 +72,9 @@
 - [Wappalyzer](https://link.juejin.cn/?target=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fwappalyzer-technology-pro%2Fgppongmhjkpfnbhagpmjfkannfbllamg "https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg") 查看网页用到的技术
 - [JSON Viewer Pro](https://link.juejin.cn/?target=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fjson-viewer-pro%2Feifflpmocdbdmepbjaopkkhbfmdgijcc "https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc") 可能不是最好用的 JSON Viewer，但绝对是最好看的
 - [SwitchyOmega](https://link.juejin.cn/?target=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fproxy-switchyomega%2Fpadekgcemlokbadohgkifijomclgjgif "https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif") 用的最多的是反倒是切换系统代理和直连，其它可能用到的场景例如配置网页走 charles 代理，调试网页接口
-- [Chrono](https://link.juejin.cn/?target=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fchrono-download-manager%2Fmciiogijehkdemklbdcbfkefimifhecn "https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn") 上上一次更新好像还是几年前。今年忽然诈尸了
+- [Chrono]( https://link.juejin.cn/?target=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fchrono-download-manager%2Fmciiogijehkdemklbdcbfkefimifhecn " https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn" ) 上上一次更新好像还是几年前。今年忽然诈尸了
+- 侧边翻译。
+- continue to visit。跳过网页跳转的确认步骤直接跳转。
 
 以上是部分我日常在用的插件，其实还有一些开着但不常用，以及装了但是平时禁用的插件就不介绍了，总共有 90 多个插件。好在 Chrome 支持同步安装的插件和插件数据，只要登入了 Google 账号就能把旧电脑上的插件同步过来了。
 

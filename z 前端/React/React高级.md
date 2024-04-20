@@ -711,6 +711,41 @@ return (
 ## 深入 JSX
 
 
+### JSX.Element   vs  ReactNode
+
+**JSX.Element**
+```
+const element: JSX.Element = <div>Hello, world!</div>;
+```
+
+定义：在 TypeScript 中，`JSX.Element` 是一个类型，它表示一个 <u>JSX 表达式被编译后的 JavaScript 对象</u>。这个对象代表了 React 组件或 HTML 元素的结构。
+
+### ReactNode
+
+
+```
+function MyComponent ({ children }: { children: ReactNode }) {
+  return <div>{children}</div>;
+}
+```
+
+
+`ReactNode` 是一个通用的类型，它可以表示任何可以被渲染到 DOM 中的 React 元素，这包括组件、字符串、数字、数组等，是多种 react 元素的联合
+
+```ts
+type ReactText = string | number;
+type ReactChild = ReactElement | ReactText;
+
+interface ReactNodeArray extends Array<ReactNode> {}
+type ReactFragment = {} | ReactNodeArray;
+
+type ReactNode = ReactChild | ReactFragment | ReactPortal | boolean | null | undefined;
+```
+
+
+
+
+### 什么是 JSX
 
 JSX 仅仅只是 `React.createElement(component, props, ...children)` 函数的语法糖
 

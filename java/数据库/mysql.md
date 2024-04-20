@@ -23,14 +23,3 @@ show global variables like 'port';
 
 
 ```
-
-
-
-开发环境数据库：
-```
-http://hz-b5.internal.supermonkey.com.cn
-port：3306
-username：monkey
-password：sm-9898w
-
-```

@@ -30,3 +30,88 @@ homebrew 安装的 git 版本不是最新
 
 
 
+### jsconfig / tsconfig. json
+
+**一定要配置 exclude ，否则在进行 ts 校验或者跳转的时候卡顿甚至报错！**
+
+示例：
+
+```
+{
+
+/* https://www.typescriptlang.org/tsconfig */
+
+"compilerOptions": {
+
+/* Type Checking */
+
+"strict": true,
+
+"noImplicitAny": false,
+
+"useUnknownInCatchVariables": false,
+
+  
+
+/* Modules */
+
+"module": "ESNext",
+
+"moduleResolution": "bundler",
+
+"baseUrl": ".",
+
+"resolveJsonModule": true,
+
+"paths": {
+
+"@/*": ["*"],
+
+"components/*": ["components/*"],
+
+},
+
+  
+
+/* Emit */
+
+"importHelpers": true,
+
+"noEmit": true,
+
+"sourceMap": true,
+
+  
+
+/* JavaScript Support */
+
+"allowJs": true,
+
+  
+
+/* Interop Constraints */
+
+"allowSyntheticDefaultImports": true,
+
+"esModuleInterop": true,
+
+"isolatedModules": true,
+
+  
+
+/* Language and Environment */
+
+"target": "ESNext",
+
+"lib": ["dom", "dom.iterable", "esnext"],
+
+"jsx": "react-jsx"
+
+},
+
+"include": ["**/*", "node_modules/sm-mf-common/src/types/declaration.d.ts", "node_modules/qiankun/es/index.d.ts"],
+
+"exclude": ["node_modules", "dist", ".yalc", "build", "public", "scripts"]
+
+}
+```

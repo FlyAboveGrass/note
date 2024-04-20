@@ -9,12 +9,12 @@
       "path": "计算机/正则表达式.md"
     },
     {
-      "basename": "Nest 备忘",
-      "path": "z 前端/Node.js/Nest 备忘.md"
+      "basename": "useMemo 和 useCallback",
+      "path": "z 前端/React/useMemo 和 useCallback.md"
     },
     {
-      "basename": "docker",
-      "path": "java/docker.md"
+      "basename": "React高级",
+      "path": "z 前端/React/React高级.md"
     },
     {
       "basename": "学习列表",
@@ -38,6 +38,6 @@
     }
   ],
   "omittedPaths": [],
-  "maxLength": null,
+  "maxLength": 5,
   "openType": "tab"
 }

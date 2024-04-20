@@ -146,16 +146,52 @@ a.color // undefined
 如果想要对包装对象进行拆箱，可以使用 valueOf 或者 toString 方法。
 
 
+# 代码质量
+
+## Polyfill 和转译器
+
+JavaScript 语言在稳步发展。也会定期出现一些对语言的新提议，它们会被分析讨论，如果认为有价值，就会被加入到 [https://tc39.github.io/ecma262/](https://tc39.github.io/ecma262/) 的列表中，然后被加到 [规范](http://www.ecma-international.org/publications/standards/Ecma-262.htm) 中。
+
+因此，一个 JavaScript 引擎只能实现标准中的一部分是很常见的情况。如何让我们现代的代码在还不支持最新特性的旧引擎上工作？
+
+### [转译器（Transpilers）](https://zh.javascript.info/polyfills#zhuan-yi-qi-transpilers)
+
+[转译器](https://en.wikipedia.org/wiki/Source-to-source_compiler) 是一种可以将源码转译成另一种源码的特殊的软件。
+
+例如，在 ES2020 之前没有“空值合并运算符” `??`。所以，如果访问者使用过时了的浏览器访问我们的网页，那么该浏览器可能就不明白 `height = height ?? 100` 这段代码的含义。
+
+转译器会分析我们的代码，并进行重写
+```
+// 转移前
+height = height ?? 100
+
+// 转译后
+height = (height !== null && height !== undefined) ? height : 100
+```
+
+[Babel](https://babeljs.io/) 是最著名的转译器之一。
 
 
+## [垫片（Polyfills）](https://zh.javascript.info/polyfills#dian-pian-polyfills)
+
+新的语言特性可能不仅包括语法结构和运算符，还可能包括内建函数。
 
 
+例如， 在一些（非常过时的）JavaScript 引擎中没有 `Math.trunc` 函数，所以这样的代码会执行失败。
+由于我们谈论的是新函数，而不是语法更改，因此无需在此处转译任何内容。我们只需要声明缺失的函数。
+更新/添加新函数的脚本被称为“polyfill”。它“填补”了空白并添加了缺失的实现。
 
 
-
-
-
-
+```
+if (!Math.trunc) { // 如果没有这个函数
+  // 实现它
+  Math.trunc = function(number) {
+    // Math.ceil 和 Math.floor 甚至存在于上古年代的 JavaScript 引擎中
+    // 在本教程的后续章节中会讲到它们
+    return number < 0 ? Math.ceil(number) : Math.floor(number);
+  };
+}
+```
 
 
 
