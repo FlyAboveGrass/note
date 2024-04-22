@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/React/useMemo 和 useCallback.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -125,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/React/useMemo 和 useCallback.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/React/useMemo 和 useCallback.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,8 +205,9 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "e571225431a1adc5",
+  "active": "3d2ca52b2e5318c0",
   "lastOpenFiles": [
+    "z 前端/React/useMemo 和 useCallback.md",
     "杂记/Mac 装机记录.md",
     "计算机/正则表达式.md",
     "z 前端/工作记录.md",
@@ -250,7 +250,6 @@
     "uat-worktree-vscodePlugin/z 前端/面试/react.md",
     "uat-worktree-vscodePlugin/z 前端/面试/Vue.md",
     "uat-worktree-vscodePlugin/z 前端/面试/TypeScript.md",
-    "uat-worktree-vscodePlugin/z 前端/面试/JS高级.md",
     "uat-worktree-vscodePlugin/z 前端/面试",
     "uat-worktree-vscodePlugin/z 前端/算法",
     "uat-worktree-vscodePlugin/z 前端/打包工具/webpack",
