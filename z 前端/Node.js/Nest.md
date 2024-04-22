@@ -6,6 +6,27 @@
 `docker run -p 3306:3306 --name root -e MYSQL_ROOT_PASSWORD=12345678 -d mysql`
 
 
+**服务器底层 （Express 和 fastify）**
+
+在 NestJS 框架中，Express 和 Fastify 都是作为底层 HTTP 服务器选项可供选择的。它们之间的主要区别在于性能、特性和社区支持方面。以下是两者的一些比较点：
+
+1. **性能**:
+    
+    - **Fastify**: 通常被认为比Express更快。Fastify使用低级别的HTTP解析器pino，并且它的架构旨在提高性能和速度。Fastify的基准测试结果显示，它在处理请求时比Express快得多。
+    - **Express**: 虽然Express在性能上可能不如Fastify，但它仍然是一个流行且成熟的框架，对于大多数应用程序来说，其性能已经足够。
+2. **特性**:
+    
+    - **Fastify**: 提供了一些Express不具备的内置特性，如自动JSON请求体解析、强大的路由功能、内置的WebSocket支持等。
+    - **Express**: 拥有一个成熟的生态系统和大量的中间件，可以轻松地找到并集成各种功能。Express的API简单直观，易于上手。
+3. **社区和生态系统**:
+    
+    - **Express**: 由于Express已经存在很长时间，它拥有一个庞大的社区和丰富的中间件库。这意味着对于大多数需求，你都可以找到现成的解决方案。
+    - **Fastify**: 虽然Fastify的社区正在迅速增长，但它的中间件和插件库可能没有Express那么丰富。
+4. **NestJS的支持**:
+    
+    - NestJS提供了框架适配器，允许开发者在Express和Fastify之间轻松切换。这意味着你可以根据自己的需求选择最适合的底层HTTP服务器，而不必担心NestJS框架的兼容性问题。
+
+
 
 
 # 基本概念
@@ -92,7 +113,7 @@ export class HttpService<T> {
 
 
 
-## 中间件
+## 中间件 Middleware
 Nest 中间件实际上等价于 [express](http://expressjs.com/en/guide/using-middleware.html) 中间件。下面是 Express 官方文档中所述的中间件功能：
 
 中间件函数可以执行以下任务:
@@ -176,7 +197,7 @@ app.use(logger);
 暂掠过
 
 
-## 管道
+## 管道 Pipe
 
 管道是具有 `@Injectable()` 装饰器的类。**验证管道**要么返回一个转换后的值，要么抛出一个错误。
 
@@ -251,7 +272,7 @@ bootstrap();
 ### 提供默认值
 
 
-## 守卫
+## 守卫 Guard
 
 守卫有一个单独的责任。它们根据运行时出现的某些条件（例如权限，角色，访问控制列表等）来确定给定的请求是否由路由处理程序处理。这通常称为授权。在传统的 `Express` 应用程序中，通常由中间件处理授权(以及认证)。
 
@@ -312,7 +333,7 @@ export class AppModule {}
 ```
 
 
-## 拦截器
+## 拦截器 Interceptor
 
 拦截器是使用 `@Injectable()` 装饰器注解的类。拦截器应该实现 `NestInterceptor` 接口。
 
@@ -1967,8 +1988,7 @@ uploadFile(@UploadedFile() file: Express.Multer.File) {
 
 ## [CORS](https://docs.nestjs.cn/10/security?id=cors)
 
-跨源资源共享（`CORS`）是一种允许从另一个域请求资源的机制。在底层，`Nest` 使用了 Express 的[cors](https://github.com/expressjs/cors) 包，它提供了一系列选项，您可以根据自己的要求进行自定义。
-
+跨源资源共享 CORS（Cross-Origin Resource Sharing，跨源资源共享）是一种安全机制，它允许 Web 应用服务器指示任何来源的 Web 页面都可以请求该服务器上的资源。这是一种允许 Web 应用从与提供 Web 应用的域不同的域中请求资源的机制。
 ### [开始](https://docs.nestjs.cn/10/security?id=%e5%bc%80%e5%a7%8b)
 
 为了启用 `CORS`，必须调用 `enableCors()` 方法。
@@ -1986,6 +2006,31 @@ await app.listen(3000);
 ```typescript
 const app = await NestFactory.create(AppModule, { cors: true });
 await app.listen(3000);
+```
+
+
+### CSRF
+
+跨站点请求伪造（称为 `CSRF` 或 `XSRF`）是一种恶意利用网站，其中未经授权的命令从 `Web` 应用程序信任的用户传输。要减轻此类攻击，您可以使用 [csurf](https://github.com/expressjs/csurf) 软件包。
+
+### [限速](https://docs.nestjs.cn/10/security?id=%e9%99%90%e9%80%9f)
+
+为了保护您的应用程序免受暴力攻击，您必须实现某种速率限制。幸运的是，`NPM`上已经有很多各种中间件可用。其中之一是[express-rate-limit](https://github.com/nfriedly/express-rate-limit)。
+
+```bash
+$ npm i --save express-rate-limit
+```
+
+安装完成后，将其应用为全局中间件。
+```typescript
+import rateLimit from 'express-rate-limit';
+// somewhere in your initialization file
+app.use(
+  rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 100, // limit each IP to 100 requests per windowMs
+  })
+);
 ```
 
 

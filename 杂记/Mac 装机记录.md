@@ -109,6 +109,7 @@
 - paste 复制粘贴历史
 - switchhost 修改本机 host
 - Hidden Bar  隐藏状态栏图标
+- loop 支持快捷键分屏
 
 以下很少用，用到的时候再安装：
 
