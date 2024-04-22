@@ -30,20 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "69f2affe3d4e3371",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机/正则表达式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/工作记录.md"
+                "file": "z 前端/React/useMemo 和 useCallback.md"
               }
             }
           },
@@ -136,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/React/useMemo 和 useCallback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/React/useMemo 和 useCallback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,11 +206,11 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true
     }
   },
-  "active": "3d2ca52b2e5318c0",
+  "active": "e571225431a1adc5",
   "lastOpenFiles": [
+    "杂记/Mac 装机记录.md",
     "计算机/正则表达式.md",
     "z 前端/工作记录.md",
-    "杂记/Mac 装机记录.md",
     "uat-worktree-vscodePlugin/软件工程/敏捷开发.md",
     "uat-worktree-vscodePlugin/软件工程/git 使用.md",
     "uat-worktree-vscodePlugin/软件工程",
