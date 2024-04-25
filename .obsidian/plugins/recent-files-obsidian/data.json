@@ -9,28 +9,24 @@
       "path": "AI/如何向AI提问.md"
     },
     {
-      "basename": "Mac 装机记录",
-      "path": "杂记/Mac 装机记录.md"
-    },
-    {
       "basename": "正则表达式",
       "path": "计算机/正则表达式.md"
     },
     {
-      "basename": "useMemo 和 useCallback",
-      "path": "z 前端/React/useMemo 和 useCallback.md"
+      "basename": "Mac 装机记录",
+      "path": "杂记/Mac 装机记录.md"
     },
     {
-      "basename": "React高级",
-      "path": "z 前端/React/React高级.md"
+      "basename": "Nest 备忘",
+      "path": "z 前端/Node.js/Nest 备忘.md"
+    },
+    {
+      "basename": "docker",
+      "path": "java/docker.md"
     },
     {
       "basename": "学习列表",
       "path": "学习列表.md"
-    },
-    {
-      "basename": "婚纱照修改点",
-      "path": "婚纱照修改点.md"
     },
     {
       "basename": "算法",
@@ -46,6 +42,6 @@
     }
   ],
   "omittedPaths": [],
-  "maxLength": 5,
+  "maxLength": null,
   "openType": "tab"
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/正则表达式.md",
+                "file": "AI/吴恩达prompt/编写 prompt 的技巧.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/正则表达式.md"
+                "file": "AI/吴恩达prompt/编写 prompt 的技巧.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/正则表达式.md",
+                "file": "AI/吴恩达prompt/编写 prompt 的技巧.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/正则表达式.md",
+                "file": "AI/吴恩达prompt/编写 prompt 的技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262,
-    "collapsed": true
+    "width": 262
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,8 +211,9 @@
   },
   "active": "f5e03095dd27ccea",
   "lastOpenFiles": [
-    "AI/吴恩达prompt/编写 prompt 的技巧.md",
     "AI/如何向AI提问.md",
+    "AI/吴恩达prompt/编写 prompt 的技巧.md",
+    "计算机/正则表达式.md",
     "AI/吴恩达prompt",
     "AI",
     "笔记图片/Pasted image 20240223180945.png",
@@ -225,7 +225,6 @@
     "z 前端/JS/代码片段.md",
     "杂记/Mac 装机记录.md",
     "z 前端/Node.js/Nest.md",
-    "计算机/正则表达式.md",
     "z 前端/Node.js/Nest 备忘.md",
     "java/docker.md",
     "杂记/vscode 快捷键.md",
