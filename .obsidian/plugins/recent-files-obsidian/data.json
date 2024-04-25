@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "工作记录",
+      "path": "z 前端/工作记录.md"
+    },
+    {
+      "basename": "JS基础",
+      "path": "z 前端/JS/JS基础.md"
+    },
+    {
       "basename": "筚路维艰：中国社会主义路径的五次选择",
       "path": "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md"
     },
@@ -11,14 +19,6 @@
     {
       "basename": "爱你就像爱生命",
       "path": "阅读/微信读书/爱你就像爱生命.md"
-    },
-    {
-      "basename": "爆款文案",
-      "path": "阅读/微信读书/爆款文案.md"
-    },
-    {
-      "basename": "工作记录",
-      "path": "z 前端/工作记录.md"
     }
   ],
   "omittedPaths": [],

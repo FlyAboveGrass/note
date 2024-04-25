@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "工作记录",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,6 +214,8 @@
   },
   "active": "e571225431a1adc5",
   "lastOpenFiles": [
+    "z 前端/JS/JS基础.md",
+    "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md",
     "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "阅读/微信读书/爱你就像爱生命.md",
     "阅读/微信读书/爆款文案.md",
@@ -237,8 +240,6 @@
     "阅读/微信读书/特别会说话的人都这样说话.md",
     "阅读/微信读书/双城记（世界文学名著名译典藏）.md",
     "阅读/微信读书/瓦尔登湖.md",
-    "阅读/微信读书/蛤蟆先生去看心理医生.md",
-    "阅读/微信读书/云边有个小卖部（彭昱畅主演，同名电影原著小说）.md",
     "阅读/微信读书",
     "未命名",
     "阅读",
