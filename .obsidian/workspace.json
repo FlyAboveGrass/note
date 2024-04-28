@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "工作记录",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -175,8 +174,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "7244a0a999c778b1",
@@ -214,6 +212,7 @@
   },
   "active": "e571225431a1adc5",
   "lastOpenFiles": [
+    "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
     "z 前端/JS/JS基础.md",
     "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md",
     "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
@@ -239,7 +238,6 @@
     "阅读/微信读书/罪与罚.md",
     "阅读/微信读书/特别会说话的人都这样说话.md",
     "阅读/微信读书/双城记（世界文学名著名译典藏）.md",
-    "阅读/微信读书/瓦尔登湖.md",
     "阅读/微信读书",
     "未命名",
     "阅读",
