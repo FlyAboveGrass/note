@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/JS/JS基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "for...of",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/工作记录.md"
+                "file": "z 前端/JS/JS基础.md"
               }
             }
           },
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/JS/JS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/工作记录.md",
+                "file": "z 前端/JS/JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,6 +213,7 @@
   },
   "active": "e571225431a1adc5",
   "lastOpenFiles": [
+    "z 前端/工作记录.md",
     "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
     "z 前端/JS/JS基础.md",
@@ -219,7 +221,6 @@
     "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "阅读/微信读书/爱你就像爱生命.md",
     "阅读/微信读书/爆款文案.md",
-    "z 前端/工作记录.md",
     "阅读/微信读书/天才在左 疯子在右.md",
     "阅读/微信读书/许三观卖血记（第3版）.md",
     "阅读/微信读书/日本蜡烛图技术：古老东方投资术的现代指南.md",
@@ -254,7 +255,6 @@
     "uat-worktree-vscodePlugin/笔记图片/树的表示法.png",
     "uat-worktree-vscodePlugin/笔记图片/微前端特性.png",
     "uat-worktree-vscodePlugin/笔记图片/微前端实现方式对比.png",
-    "uat-worktree-vscodePlugin/笔记图片/微前端入口js和html对比.jpg",
     "uat-worktree-vscodePlugin/笔记图片/obsidian配置.zip",
     "uat-worktree-vscodePlugin/笔记图片",
     "uat-worktree-vscodePlugin/杂记",
