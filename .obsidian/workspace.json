@@ -198,20 +198,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "cmdr:source control": false,
       "obsidian-weread-plugin:Weread": false,
-      "cmdr:文件列表": false,
       "canvas:新建白板": true,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": true,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "cmdr:文件列表": false,
+      "cmdr:source control": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e571225431a1adc5",
+  "active": "2836df4c05c4dc80",
   "lastOpenFiles": [
     "z 前端/工作记录.md",
     "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
