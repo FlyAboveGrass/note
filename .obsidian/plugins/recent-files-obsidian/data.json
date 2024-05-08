@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "JS基础",
-      "path": "z 前端/JS/JS基础.md"
-    },
-    {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
+    },
+    {
+      "basename": "JS基础",
+      "path": "z 前端/JS/JS基础.md"
     },
     {
       "basename": "筚路维艰：中国社会主义路径的五次选择",
@@ -15,10 +15,6 @@
     {
       "basename": "被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
       "path": "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md"
-    },
-    {
-      "basename": "爱你就像爱生命",
-      "path": "阅读/微信读书/爱你就像爱生命.md"
     }
   ],
   "omittedPaths": [],
