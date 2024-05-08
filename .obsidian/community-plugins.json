@@ -16,5 +16,8 @@
   "cmdr",
   "recent-files-obsidian",
   "table-editor-obsidian",
-  "obsidian-mind-map"
+  "obsidian-mind-map",
+  "obsidian-tasks-plugin",
+  "obsidian-kanban",
+  "obsidian-linter"
 ]

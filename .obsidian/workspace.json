@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cf1b11765e7bcae9",
+        "id": "5e636ffe55dad2f6",
         "type": "tabs",
         "children": [
           {
-            "id": "e571225431a1adc5",
+            "id": "0963785f2464828c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z 前端/JS/JS基础.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "for...of",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,8 +62,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -102,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "z 前端/JS/JS基础.md"
-              }
+              "state": {}
             }
           },
           {
@@ -113,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/JS/JS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/JS/JS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +166,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "7244a0a999c778b1",
@@ -194,11 +186,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386
+    "width": 386,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-weread-plugin:Weread": false,
       "canvas:新建白板": true,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": true,
@@ -208,15 +200,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "cmdr:文件列表": false,
       "cmdr:source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "2836df4c05c4dc80",
+  "active": "0963785f2464828c",
   "lastOpenFiles": [
+    "z 前端/JS/JS基础.md",
     "z 前端/工作记录.md",
     "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
-    "z 前端/JS/JS基础.md",
     "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md",
     "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "阅读/微信读书/爱你就像爱生命.md",
