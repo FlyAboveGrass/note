@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "精选文章",
+      "path": "z 前端/精选文章.md"
+    },
+    {
       "basename": "Vue3 中虚拟DOM 的更新",
       "path": "z 前端/Vue/Vue3 中虚拟DOM 的更新.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "JS基础",
       "path": "z 前端/JS/JS基础.md"
-    },
-    {
-      "basename": "筚路维艰：中国社会主义路径的五次选择",
-      "path": "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md"
     }
   ],
   "omittedPaths": [],
