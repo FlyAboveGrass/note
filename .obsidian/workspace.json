@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/精选文章.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/精选文章.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/精选文章.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/精选文章.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,8 +211,9 @@
       "workspaces:管理工作区布局": true
     }
   },
-  "active": "dc60a569e75c88b7",
+  "active": "2a92b5763ff21544",
   "lastOpenFiles": [
+    "z 前端/精选文章.md",
     "z 前端/Vue/Vue3 中虚拟DOM 的更新.md",
     "z 前端/工作记录.md",
     "计算机/正则表达式.md",
@@ -240,7 +241,6 @@
     "阅读/微信读书/乌合之众：大众心理研究.md",
     "阅读/微信读书/围城-22946457.md",
     "阅读/微信读书/国富论.md",
-    "阅读/微信读书/罪与罚.md",
     "阅读/微信读书",
     "未命名",
     "阅读",
