@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "工作记录",
-      "path": "z 前端/工作记录.md"
-    },
-    {
       "basename": "精选文章",
       "path": "z 前端/精选文章.md"
+    },
+    {
+      "basename": "工作记录",
+      "path": "z 前端/工作记录.md"
     },
     {
       "basename": "Vue3 中虚拟DOM 的更新",
