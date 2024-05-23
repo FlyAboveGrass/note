@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "精选文章",
-      "path": "z 前端/精选文章.md"
+      "basename": "useMemo 和 useCallback",
+      "path": "z 前端/React/useMemo 和 useCallback.md"
+    },
+    {
+      "basename": "React高级",
+      "path": "z 前端/React/React高级.md"
+    },
+    {
+      "basename": "react",
+      "path": "z 前端/面试/react.md"
     },
     {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
     },
     {
-      "basename": "Vue3 中虚拟DOM 的更新",
-      "path": "z 前端/Vue/Vue3 中虚拟DOM 的更新.md"
-    },
-    {
-      "basename": "正则表达式",
-      "path": "计算机/正则表达式.md"
-    },
-    {
-      "basename": "JS基础",
-      "path": "z 前端/JS/JS基础.md"
+      "basename": "精选文章",
+      "path": "z 前端/精选文章.md"
     }
   ],
   "omittedPaths": [],
