@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂记/vscode 技巧.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂记/vscode 技巧.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂记/vscode 技巧.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂记/vscode 技巧.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,6 +213,7 @@
   },
   "active": "2a92b5763ff21544",
   "lastOpenFiles": [
+    "杂记/vscode 技巧.md",
     "杂记/vscode 快捷键.md",
     "z 前端/工作记录.md",
     "z 前端/精选文章.md",
@@ -241,7 +242,6 @@
     "阅读/微信读书/山月记.md",
     "阅读/微信读书/股票大作手操盘术.md",
     "阅读/微信读书/非暴力沟通.md",
-    "阅读/微信读书/K均交易法：股票期货只看K线均线做到稳定盈利.md",
     "阅读/微信读书",
     "未命名",
     "阅读",
