@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "尾递归（尾调用）",
+      "path": "z 前端/前端理论/尾递归（尾调用）.md"
+    },
+    {
+      "basename": "图片防盗链",
+      "path": "z 前端/前端理论/图片防盗链.md"
+    },
+    {
       "basename": "函数式编程",
       "path": "z 前端/前端理论/函数式编程.md"
     },
@@ -11,14 +19,6 @@
     {
       "basename": "问题记录",
       "path": "z 前端/前端工程化/问题记录.md"
-    },
-    {
-      "basename": "Monorepo 与 lerna",
-      "path": "z 前端/前端工程化/Monorepo 与 lerna.md"
-    },
-    {
-      "basename": "Eslint 和 prettier",
-      "path": "z 前端/前端工程化/Eslint 和 prettier.md"
     }
   ],
   "omittedPaths": [],
