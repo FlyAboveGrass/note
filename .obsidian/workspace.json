@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/前端工程化/问题记录.md",
+                "file": "z 前端/前端理论/函数式编程.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vscode",
+                "query": "函数",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/前端工程化/问题记录.md"
+                "file": "z 前端/前端理论/函数式编程.md"
               }
             }
           },
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/前端工程化/问题记录.md",
+                "file": "z 前端/前端理论/函数式编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/前端工程化/问题记录.md",
+                "file": "z 前端/前端理论/函数式编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 386
+    "width": 215
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,10 +213,11 @@
   },
   "active": "2a92b5763ff21544",
   "lastOpenFiles": [
+    "z 前端/工作记录.md",
+    "z 前端/前端工程化/问题记录.md",
     "z 前端/前端工程化/Monorepo 与 lerna.md",
     "z 前端/前端工程化/Eslint 和 prettier.md",
     "z 前端/前端工程化/第三方库整理.md",
-    "z 前端/工作记录.md",
     "杂记/vscode 技巧.md",
     "杂记/vscode 快捷键.md",
     "z 前端/精选文章.md",
@@ -240,7 +242,6 @@
     "阅读/微信读书/日本蜡烛图技术：古老东方投资术的现代指南.md",
     "阅读/微信读书/乔家的儿女.md",
     "阅读/微信读书/史蒂夫·乔布斯传.md",
-    "阅读/微信读书/明朝那些事儿（增补版)（套装全九册).md",
     "阅读/微信读书",
     "未命名",
     "阅读",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "函数式编程",
+      "path": "z 前端/前端理论/函数式编程.md"
+    },
+    {
+      "basename": "工作记录",
+      "path": "z 前端/工作记录.md"
+    },
+    {
       "basename": "问题记录",
       "path": "z 前端/前端工程化/问题记录.md"
     },
@@ -11,14 +19,6 @@
     {
       "basename": "Eslint 和 prettier",
       "path": "z 前端/前端工程化/Eslint 和 prettier.md"
-    },
-    {
-      "basename": "第三方库整理",
-      "path": "z 前端/前端工程化/第三方库整理.md"
-    },
-    {
-      "basename": "工作记录",
-      "path": "z 前端/工作记录.md"
     }
   ],
   "omittedPaths": [],
