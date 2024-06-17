@@ -1,24 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "尾递归（尾调用）",
-      "path": "z 前端/前端理论/尾递归（尾调用）.md"
+      "basename": "nginx",
+      "path": "z 前端/前端工程化/nginx.md"
     },
     {
-      "basename": "图片防盗链",
-      "path": "z 前端/前端理论/图片防盗链.md"
+      "basename": "浏览器渲染机制",
+      "path": "z 前端/浏览器/浏览器渲染机制.md"
     },
     {
-      "basename": "函数式编程",
-      "path": "z 前端/前端理论/函数式编程.md"
+      "basename": "浏览器",
+      "path": "z 前端/面试/浏览器.md"
     },
     {
-      "basename": "工作记录",
-      "path": "z 前端/工作记录.md"
+      "basename": "Nest",
+      "path": "z 前端/Node.js/Nest.md"
     },
     {
-      "basename": "问题记录",
-      "path": "z 前端/前端工程化/问题记录.md"
+      "basename": "Nest 备忘",
+      "path": "z 前端/Node.js/Nest 备忘.md"
     }
   ],
   "omittedPaths": [],

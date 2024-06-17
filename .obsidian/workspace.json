@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/前端理论/尾递归（尾调用）.md",
+                "file": "z 前端/前端工程化/nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "函数",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/前端理论/尾递归（尾调用）.md"
+                "file": "z 前端/前端工程化/nginx.md"
               }
             }
           },
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/前端理论/尾递归（尾调用）.md",
+                "file": "z 前端/前端工程化/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/前端理论/尾递归（尾调用）.md",
+                "file": "z 前端/前端工程化/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,10 +211,14 @@
       "workspaces:管理工作区布局": true
     }
   },
-  "active": "a4bd404090172a4e",
+  "active": "2a92b5763ff21544",
   "lastOpenFiles": [
-    "z 前端/前端理论/图片防盗链.md",
+    "z 前端/浏览器/浏览器渲染机制.md",
+    "z 前端/面试/浏览器.md",
+    "z 前端/Node.js/Nest.md",
+    "z 前端/Node.js/Nest 备忘.md",
     "z 前端/前端理论/尾递归（尾调用）.md",
+    "z 前端/前端理论/图片防盗链.md",
     "z 前端/前端理论/函数式编程.md",
     "z 前端/工作记录.md",
     "z 前端/前端工程化/问题记录.md",
@@ -237,10 +242,6 @@
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
     "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md",
     "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
-    "阅读/微信读书/爱你就像爱生命.md",
-    "阅读/微信读书/爆款文案.md",
-    "阅读/微信读书/天才在左 疯子在右.md",
-    "阅读/微信读书/许三观卖血记（第3版）.md",
     "阅读/微信读书",
     "未命名",
     "阅读",
