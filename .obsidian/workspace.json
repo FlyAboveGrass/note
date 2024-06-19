@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "d805a50737264e9b",
+        "id": "dc1967ae99a2fa18",
         "type": "tabs",
         "children": [
           {
-            "id": "2a92b5763ff21544",
+            "id": "bb6a7e06895ae81c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/前端工程化/nginx.md",
+                "file": "z 前端/Node.js/Nest 简记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24cd75e30f9f178b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z 前端/Node.js/Nest.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nginx",
+                "query": "tag:#Nest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -103,7 +114,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/前端工程化/nginx.md"
+                "file": "z 前端/Node.js/Nest 简记.md"
+              }
+            }
+          },
+          {
+            "id": "15d40d0d2fab0289",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e6de0d432dcf798d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
               }
             }
           },
@@ -113,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/前端工程化/nginx.md",
+                "file": "z 前端/Node.js/Nest 简记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,49 +160,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/前端工程化/nginx.md",
+                "file": "z 前端/Node.js/Nest 简记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e6de0d432dcf798d",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              }
-            }
-          },
-          {
-            "id": "915d32c62e45b148",
+            "id": "254bc9282ab45fa2",
             "type": "leaf",
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
               }
-            }
-          },
-          {
-            "id": "9f411dd681dcb419",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "15d40d0d2fab0289",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
             }
           }
         ]
@@ -194,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,18 +207,23 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "markdown-importer:打开 Markdown 格式转换器": true,
+      "workspaces:管理工作区布局": true,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
-      "markdown-importer:打开 Markdown 格式转换器": true,
-      "workspaces:管理工作区布局": true
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2a92b5763ff21544",
+  "active": "5f4f87679958b07d",
   "lastOpenFiles": [
+    "z 前端/Node.js/Nest.md",
+    "z 前端/Node.js/Nest 简记.md",
+    "z 前端/小程序/基础.md",
+    "z 前端/面试/计算机网络.md",
+    "z 前端/精选文章.md",
+    "z 前端/前端工程化/nginx.md",
     "z 前端/浏览器/浏览器渲染机制.md",
     "z 前端/面试/浏览器.md",
-    "z 前端/Node.js/Nest.md",
     "z 前端/Node.js/Nest 备忘.md",
     "z 前端/前端理论/尾递归（尾调用）.md",
     "z 前端/前端理论/图片防盗链.md",
@@ -227,7 +235,6 @@
     "z 前端/前端工程化/第三方库整理.md",
     "杂记/vscode 技巧.md",
     "杂记/vscode 快捷键.md",
-    "z 前端/精选文章.md",
     "笔记图片/Pasted image 20240524103542.png",
     "杂记/Mac 装机记录.md",
     "Mac 常用命令.md",
@@ -236,12 +243,8 @@
     "z 前端/面试/react.md",
     "z 前端/Vue/Vue3 中虚拟DOM 的更新.md",
     "计算机/正则表达式.md",
-    "z 前端/未命名.md",
-    "z 前端/JS/JS基础.md",
     "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
-    "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md",
-    "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "阅读/微信读书",
     "未命名",
     "阅读",
