@@ -86,6 +86,54 @@ export class Todo {
 
 ### services
 
+### DTO
+DTO 是 Data Transfer Object 的缩写，数据传输对象。这是一个设计模式，用于将数据从一个系统或应用的一部分传输到另一部分。
+通常用于描述接口的入参。
+
+DTO (Data Transfer Object) 定义常用的装饰器主要来自 `class-validator` 和 `class-transformer` 这两个库，用于数据验证和转换。以下是一些常用的装饰器：
+
+1. **@IsString()**：验证字段是否为字符串。
+2. **@IsInt()**：验证字段是否为整数。
+3. **@IsOptional()**：标记字段为可选。
+4. **@IsNotEmpty()**：验证字段是否非空。
+5. **@IsArray()**：验证字段是否为数组。
+6. **@IsEmail()**：验证字段是否为有效的电子邮件地址。
+7. **@Min()** 和 **@Max()**：验证数字字段的最小值和最大值。
+8. **@Length()**：验证字符串字段的长度。
+9. **@Transform()**：用于在序列化和反序列化时转换字段的值。
+
+下面是一个示例：
+```
+import { IsString, IsNotEmpty, IsOptional, IsInt, Min, Max, Length } from 'class-validator';
+import { Transform } from 'class-transformer';
+
+export class CreateTodoDto {
+  @IsString()
+  @IsNotEmpty()
+  title: string;
+
+  @IsString()
+  @IsOptional()
+  description?: string;
+
+  @IsInt()
+  @Min(0)
+  @Max(5)
+  @Transform(({ value }) => Number(value))
+  priority: number;
+
+  @IsString()
+  @Length(0, 20)
+  @IsOptional()
+  tag?: string;
+}
+```
+
+###  `Repository`
+`Repository`  是一个可以用来操作数据库的类。
+
+`Repository`  是 TypeORM 的核心概念之一，它实现了 Unit of Work 和 Repository 设计模式。每个实体都有自己的 repository，可以通过它来操作实体相关的数据。
+
 
 
 ## exports
