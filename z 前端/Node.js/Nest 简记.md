@@ -135,7 +135,48 @@ export class CreateTodoDto {
 `Repository`  是 TypeORM 的核心概念之一，它实现了 Unit of Work 和 Repository 设计模式。每个实体都有自己的 repository，可以通过它来操作实体相关的数据。
 
 
+### 事务
+事务（Transaction）是一个执行单元，表示一系列的数据库操作。这些操作要么全部成功，要么全部失败，不会出现部分操作成功的情况。事务是数据库并发控制的基本单位。
+
+```
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { TodoEntity } from '~/modules/todo/todo.entity';
+import { OtherEntity } from '~/modules/other/other.entity';
+import { TodoDto, TodoUpdateDto } from './todo.dto';
+
+@Injectable()
+export class TodoService {
+  constructor(
+    @InjectRepository(TodoEntity)
+    private todoRepository: Repository<TodoEntity>,
+    @InjectRepository(OtherEntity)
+    private otherRepository: Repository<OtherEntity>,
+  ) {}
+
+  async updateMultipleTables(id: number, dto: TodoUpdateDto, otherDto: any) {
+    const queryRunner = this.todoRepository.manager.connection.createQueryRunner();
+
+    await queryRunner.connect();
+    await queryRunner.startTransaction();
+
+    try {
+      await queryRunner.manager.getRepository(TodoEntity).update(id, dto);
+      await queryRunner.manager.getRepository(OtherEntity).update(id, otherDto);
+
+      await queryRunner.commitTransaction();
+    } catch (err) {
+      // if we have an error we rollback the transaction
+      await queryRunner.rollbackTransaction();
+    } finally {
+      // you need to release a queryRunner which was manually instantiated
+      await queryRunner.release();
+    }
+  }
+}
+```
 
 ## exports
 
-导出模块和服务
+由本模块提供并应在其他模块中可用的提供者的子集
