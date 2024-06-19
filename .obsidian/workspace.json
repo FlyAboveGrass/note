@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289
+    "width": 296
   },
   "right": {
     "id": "63ea28dd52758e2c",
@@ -214,7 +214,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5f4f87679958b07d",
+  "active": "bb6a7e06895ae81c",
   "lastOpenFiles": [
     "z 前端/Node.js/Nest.md",
     "z 前端/Node.js/Nest 简记.md",
