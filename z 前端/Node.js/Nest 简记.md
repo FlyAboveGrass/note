@@ -200,18 +200,28 @@ export class TodoService {
 	5. RedisModule
 	6. MailerModule
 5. `DatabaseModule`： 数据库模块
+6. `ToolsModule`： 工具模块（自定义）
+	1. StorageModule
+	2. EmailModule
+	3. UploadModule 
+7. HealthModule： 健康检查（自定义）
+	1. 检查数据库连接，rss 攻击，内存占用
+8. 
 
 
 **Filters:**
 
-- `APP_FILTER`: 全局过滤器，可以捕获应用程序中的所有异常，并按照你定义的方式处理它们。
-- `AllExceptionsFilter`: 特殊的过滤器，可以捕获应用程序中的所有异常，包括 HTTP 异常和 JavaScript 错误。
+- 自定义 AllExceptionsFilter 。处理未被捕获的异常
 
 **Guards:**
 
-- `APP_GUARD`: 全局守卫，可以在每个路由处理器执行之前运行一些代码，例如进行身份验证或授权。
+- `JwtAuthGuard` 用于检查请求是否包含有效的 JWT 令牌
+- `RbacGuard` 用于检查用户是否具有执行某个操作的权限
+- `ThrottlerGuard` 用于实现请求限制。
 
 **Interceptors:**
 
-- `ClassSerializerInterceptor`: 拦截器，可以自动应用类转换器库的序列化功能，以便在发送响应时排除或包含特定的属性。
-- `IdempotenceInterceptor`: 拦截器，可以确保重复的请求不会导致不同的结果。
+1. `ClassSerializerInterceptor`: 这是一个拦截器，用于在数据发送到客户端之前进行序列化。它可以用于移除对象中的敏感信息，或者转换对象的格式。
+2. `TransformInterceptor`: 这是一个拦截器，用于在数据发送到客户端之前进行转换。你可以在这个拦截器中定义自己的数据转换逻辑。
+3. `TimeoutInterceptor`: 这是一个拦截器，用于设置请求的超时时间。在这个例子中，超时时间被设置为 15 秒。
+4. `IdempotenceInterceptor`: 这是一个拦截器，用于确保请求的幂等性。幂等性是指一个操作，无论执行多少次，结果都是一样的。可以确保第二个请求不会改变服务器的状态。这对于防止重复提交表单或处理网络不稳定导致的重复请求非常有用。

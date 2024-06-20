@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/Node.js/Nest 简记.md"
+                "file": "z 前端/Node.js/Nest.md"
               }
             }
           },
@@ -143,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/Node.js/Nest 简记.md",
+                "file": "z 前端/Node.js/Nest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/Node.js/Nest 简记.md",
+                "file": "z 前端/Node.js/Nest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,10 +215,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb6a7e06895ae81c",
+  "active": "24cd75e30f9f178b",
   "lastOpenFiles": [
-    "z 前端/Node.js/Nest.md",
     "z 前端/Node.js/Nest 简记.md",
+    "z 前端/Node.js/Nest.md",
     "z 前端/小程序/基础.md",
     "z 前端/面试/计算机网络.md",
     "z 前端/精选文章.md",
