@@ -180,3 +180,38 @@ export class TodoService {
 ## exports
 
 由本模块提供并应在其他模块中可用的提供者的子集
+
+
+
+
+
+# 常用的模块和中间件
+
+**Modules:**
+
+1. `ConfigModule`: 用于管理配置的模块。
+2. `ThrottlerModule`: 这是一个用于处理请求限制的模块。在 Web 开发中，请求限制是一种常见的安全措施，用于防止恶意用户或脚本连续、快速地发送大量请求，从而导致服务器资源耗尽。`ThrottlerModule` 提供了一种简单的方式来在 Nest.js 应用中实现请求限制。
+3. `ClsModule`: 这是一个用于处理上下文本地存储（Context-local Storage）的模块。在 Node.js 中，由于其异步的特性，传统的线程本地存储（Thread-local Storage）模式并不适用。因此，Node.js 社区提出了上下文本地存储的概念，用于在一个特定的异步上下文中存储和访问数据。
+4. `SharedModule`： 全局共享模块
+	1. LoggerModule
+	2. HttpModule
+	3. ScheduleModule： 这是一个用于处理任务调度的模块。在许多应用程序中，都需要定期执行某些任务，如清理缓存、发送通知等。`ScheduleModule`提供了一种简单的方式来在 Nest.js 应用中实现任务调度。你可以使用它来创建定时任务
+	4. EventEmitterModule： 处理事件驱动编程的模块。在事件驱动的编程模型中，应用程序的执行流程是由事件（如用户操作、系统消息等）驱动的。
+	5. RedisModule
+	6. MailerModule
+5. `DatabaseModule`： 数据库模块
+
+
+**Filters:**
+
+- `APP_FILTER`: 全局过滤器，可以捕获应用程序中的所有异常，并按照你定义的方式处理它们。
+- `AllExceptionsFilter`: 特殊的过滤器，可以捕获应用程序中的所有异常，包括 HTTP 异常和 JavaScript 错误。
+
+**Guards:**
+
+- `APP_GUARD`: 全局守卫，可以在每个路由处理器执行之前运行一些代码，例如进行身份验证或授权。
+
+**Interceptors:**
+
+- `ClassSerializerInterceptor`: 拦截器，可以自动应用类转换器库的序列化功能，以便在发送响应时排除或包含特定的属性。
+- `IdempotenceInterceptor`: 拦截器，可以确保重复的请求不会导致不同的结果。
