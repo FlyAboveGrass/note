@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "健康学习到150岁 - 人体系统调优不完全指南",
+      "path": "杂记/健康学习到150岁 - 人体系统调优不完全指南.md"
+    },
+    {
       "basename": "Nest",
       "path": "z 前端/Node.js/Nest.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "计算机网络",
       "path": "z 前端/面试/计算机网络.md"
-    },
-    {
-      "basename": "精选文章",
-      "path": "z 前端/精选文章.md"
     }
   ],
   "omittedPaths": [],
