@@ -420,4 +420,22 @@ type isTwo<T> = T extends 2 ? true: false;
 // 如何遍历一个联合类型。构造一个泛型类型作为中间映射函数（因为分布式条件类型只有在泛型 + 条件判断时才生效
 // type MyMap<T> = T extends T ? [T] : never
 
+
+//，
+
+```
+
+ 三元表达式前一个结果拿不到对象中的 key
+```
+// 错误的
+type Merge<F, S> = {
+[K in keyof F | keyof S]: K extends keyof S ? S[K] : F[K];
+};
+
+// 正确的
+type Merge<F, S> = {
+[K in keyof F | keyof S]: K extends keyof S
+    ? S[K]
+    : K extends keyof F ? F[K] : never;
+};
 ```
