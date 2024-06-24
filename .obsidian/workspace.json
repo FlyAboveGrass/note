@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
+                "file": "z 前端/JS/TS基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Nest",
+                "query": "types",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂记/健康学习到150岁 - 人体系统调优不完全指南.md"
+                "file": "z 前端/JS/TS基础.md"
               }
             }
           },
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
+                "file": "z 前端/JS/TS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
+                "file": "z 前端/JS/TS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,9 +217,10 @@
   },
   "active": "24cd75e30f9f178b",
   "lastOpenFiles": [
-    "z 前端/Node.js/Nest.md",
-    "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
+    "z 前端/面试/TypeScript.md",
     "z 前端/Node.js/Nest 简记.md",
+    "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
+    "z 前端/Node.js/Nest.md",
     "z 前端/小程序/基础.md",
     "z 前端/面试/计算机网络.md",
     "z 前端/精选文章.md",
@@ -243,7 +244,6 @@
     "z 前端/React/useMemo 和 useCallback.md",
     "z 前端/React/React高级.md",
     "z 前端/面试/react.md",
-    "z 前端/Vue/Vue3 中虚拟DOM 的更新.md",
     "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
     "阅读/微信读书",
