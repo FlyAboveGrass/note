@@ -420,10 +420,9 @@ type isTwo<T> = T extends 2 ? true: false;
 // 如何遍历一个联合类型。构造一个泛型类型作为中间映射函数（因为分布式条件类型只有在泛型 + 条件判断时才生效
 // type MyMap<T> = T extends T ? [T] : never
 
-
-//，
-
 ```
+
+
 
  三元表达式前一个结果拿不到对象中的 key
 ```
