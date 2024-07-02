@@ -424,7 +424,7 @@ type isTwo<T> = T extends 2 ? true: false;
 
 
 
- 三元表达式前一个结果拿不到对象中的 key
+ 三元表达式后一个结果拿不到对象中的 key
 ```
 // 错误的
 type Merge<F, S> = {
