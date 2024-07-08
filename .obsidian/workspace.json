@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "81990a4027bcfa11",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,7 +225,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "24cd75e30f9f178b",
+  "active": "81990a4027bcfa11",
   "lastOpenFiles": [
     "z 前端/面试/TypeScript.md",
     "z 前端/Node.js/Nest 简记.md",
