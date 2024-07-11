@@ -35,9 +35,11 @@
             "id": "81990a4027bcfa11",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.5"
+                "file": "z 前端/工作记录.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/JS/TS基础.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -154,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/JS/TS基础.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/JS/TS基础.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

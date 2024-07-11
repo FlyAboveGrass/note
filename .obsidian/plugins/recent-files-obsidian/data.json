@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "工作记录",
+      "path": "z 前端/工作记录.md"
+    },
+    {
       "basename": "TS基础",
       "path": "z 前端/JS/TS基础.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "健康学习到150岁 - 人体系统调优不完全指南",
       "path": "杂记/健康学习到150岁 - 人体系统调优不完全指南.md"
-    },
-    {
-      "basename": "Nest",
-      "path": "z 前端/Node.js/Nest.md"
     }
   ],
   "omittedPaths": [],
