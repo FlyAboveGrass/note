@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "精选文章",
+      "path": "z 前端/精选文章.md"
+    },
+    {
       "basename": "工作记录",
       "path": "z 前端/工作记录.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Nest 简记",
       "path": "z 前端/Node.js/Nest 简记.md"
-    },
-    {
-      "basename": "健康学习到150岁 - 人体系统调优不完全指南",
-      "path": "杂记/健康学习到150岁 - 人体系统调优不完全指南.md"
     }
   ],
   "omittedPaths": [],
