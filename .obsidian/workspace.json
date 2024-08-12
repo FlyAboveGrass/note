@@ -42,19 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "082de9171fe4ffb4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,7 +227,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "082de9171fe4ffb4",
+  "active": "81990a4027bcfa11",
   "lastOpenFiles": [
     "z 前端/工作记录.md",
     "z 前端/面试/TypeScript.md",
