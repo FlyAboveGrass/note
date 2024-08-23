@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/JS/TS基础.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/Node.js/Nest 简记.md"
+                "file": "z 前端/工作记录.md"
               }
             }
           },
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/Node.js/Nest 简记.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/Node.js/Nest 简记.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,13 +215,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dc60a569e75c88b7",
+  "active": "24cd75e30f9f178b",
   "lastOpenFiles": [
+    "z 前端/Node.js/Nest 简记.md",
     "z 前端/JS/JS设计模式.md",
     "z 前端/精选文章.md",
     "z 前端/工作记录.md",
     "z 前端/面试/TypeScript.md",
-    "z 前端/Node.js/Nest 简记.md",
     "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
     "z 前端/Node.js/Nest.md",
     "z 前端/小程序/基础.md",
