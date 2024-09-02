@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Mac 装机记录",
+      "path": "杂记/Mac 装机记录.md"
+    },
+    {
       "basename": "精选文章",
       "path": "z 前端/精选文章.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "TS基础",
       "path": "z 前端/JS/TS基础.md"
-    },
-    {
-      "basename": "JS设计模式",
-      "path": "z 前端/JS/JS设计模式.md"
     }
   ],
   "omittedPaths": [],
