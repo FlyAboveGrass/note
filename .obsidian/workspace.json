@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "z 前端/JS/TS基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "装机",
+                "query": "ts",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂记/Mac 装机记录.md"
+                "file": "z 前端/JS/TS基础.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "z 前端/JS/TS基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "杂记/Mac 装机记录.md",
+                "file": "z 前端/JS/TS基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,6 +218,7 @@
   },
   "active": "24cd75e30f9f178b",
   "lastOpenFiles": [
+    "杂记/Mac 装机记录.md",
     "z 前端/精选文章.md",
     "z 前端/工作记录.md",
     "z 前端/Node.js/Nest 简记.md",
@@ -241,7 +242,6 @@
     "杂记/vscode 技巧.md",
     "杂记/vscode 快捷键.md",
     "笔记图片/Pasted image 20240524103542.png",
-    "杂记/Mac 装机记录.md",
     "Mac 常用命令.md",
     "z 前端/React/useMemo 和 useCallback.md",
     "z 前端/React/React高级.md",
