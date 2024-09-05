@@ -100,6 +100,7 @@ function handleValue(val: All) {
 TypeScript 里的条件判断是 `extends ? :`，叫做条件类型（Conditional Type）
 
 ### 推导类型
+
 `infer`  可以用于提取类型的一部分
 
 ```
@@ -460,7 +461,5 @@ why？
 那么如何实现真正的isNever 呢？简单，给 never 增加一个包裹内容，让他不独立为类型。最终答案：
 
 type IsNever<T> = [T] extends [never] ? true : false;
-
-
 
 ```

@@ -57,6 +57,16 @@
             }
           },
           {
+            "id": "a4bd404090172a4e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "z 前端/JS/TS基础.md"
+              }
+            }
+          },
+          {
             "id": "2836df4c05c4dc80",
             "type": "leaf",
             "state": {
@@ -110,16 +120,6 @@
         "type": "tabs",
         "dimension": 57.25359911406424,
         "children": [
-          {
-            "id": "a4bd404090172a4e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "z 前端/JS/TS基础.md"
-              }
-            }
-          },
           {
             "id": "15d40d0d2fab0289",
             "type": "leaf",
@@ -199,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319
+    "width": 319,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
