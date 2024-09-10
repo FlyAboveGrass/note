@@ -62,7 +62,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/JS/TS基础.md"
+                "file": "z 前端/Node.js/Nest 简记.md"
               }
             }
           },
@@ -89,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -145,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/JS/TS基础.md",
+                "file": "z 前端/Node.js/Nest 简记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/JS/TS基础.md",
+                "file": "z 前端/Node.js/Nest 简记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +216,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "24cd75e30f9f178b",
+  "active": "dc60a569e75c88b7",
   "lastOpenFiles": [
     "杂记/Mac 装机记录.md",
     "z 前端/精选文章.md",
