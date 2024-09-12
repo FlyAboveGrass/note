@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/Node.js/Nest 简记.md",
+                "file": "z 前端/JS/代码片段.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/Node.js/Nest 简记.md"
+                "file": "z 前端/JS/代码片段.md"
               }
             }
           },
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ts",
+                "query": "代码",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +89,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/Node.js/Nest 简记.md",
+                "file": "z 前端/JS/代码片段.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/Node.js/Nest 简记.md",
+                "file": "z 前端/JS/代码片段.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +224,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "a4bd404090172a4e",
+  "active": "bb6a7e06895ae81c",
   "lastOpenFiles": [
     "z 前端/精选文章.md",
     "z 前端/Node.js/Nest 简记.md",

@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Nest 简记",
-      "path": "z 前端/Node.js/Nest 简记.md"
+      "basename": "代码片段",
+      "path": "z 前端/JS/代码片段.md"
     },
     {
       "basename": "精选文章",
       "path": "z 前端/精选文章.md"
+    },
+    {
+      "basename": "Nest 简记",
+      "path": "z 前端/Node.js/Nest 简记.md"
     },
     {
       "basename": "学习列表",
@@ -15,10 +19,6 @@
     {
       "basename": "学习计划",
       "path": "z 前端/学习计划.md"
-    },
-    {
-      "basename": "TS基础",
-      "path": "z 前端/JS/TS基础.md"
     }
   ],
   "omittedPaths": [],
