@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/JS/TS基础.md",
+                "file": "z 前端/精选文章.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -44,7 +43,7 @@
       {
         "id": "e5b41e61fafd778b",
         "type": "tabs",
-        "dimension": 75.1937984496124,
+        "dimension": 76.27520759193357,
         "children": [
           {
             "id": "dc60a569e75c88b7",
@@ -89,12 +88,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d51799eb19dcfa5f",
         "type": "tabs",
-        "dimension": 24.8062015503876,
+        "dimension": 23.72479240806643,
         "children": [
           {
             "id": "5f4f87679958b07d",
@@ -108,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296
+    "width": 200
   },
   "right": {
     "id": "63ea28dd52758e2c",
@@ -178,8 +178,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "d9d755fa7620d688",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7244a0a999c778b1",
@@ -198,30 +207,32 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319,
+    "width": 260.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templates:插入模板": false,
       "canvas:新建白板": true,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": true,
-      "templates:插入模板": true,
-      "command-palette:打开命令面板": false,
+      "command-palette:打开命令面板": true,
       "daily-notes:打开/创建今天的日记": true,
       "markdown-importer:打开 Markdown 格式转换器": true,
       "workspaces:管理工作区布局": true,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-weread-plugin:同步微信读书笔记": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "dc60a569e75c88b7",
+  "active": "a4bd404090172a4e",
   "lastOpenFiles": [
-    "杂记/Mac 装机记录.md",
     "z 前端/精选文章.md",
-    "z 前端/工作记录.md",
     "z 前端/Node.js/Nest 简记.md",
+    "z 前端/学习列表.md",
+    "z 前端/学习计划.md",
+    "z 前端/JS/TS基础.md",
+    "杂记/Mac 装机记录.md",
+    "z 前端/工作记录.md",
     "z 前端/JS/JS设计模式.md",
     "z 前端/面试/TypeScript.md",
     "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
@@ -242,9 +253,6 @@
     "杂记/vscode 技巧.md",
     "杂记/vscode 快捷键.md",
     "笔记图片/Pasted image 20240524103542.png",
-    "Mac 常用命令.md",
-    "z 前端/React/useMemo 和 useCallback.md",
-    "z 前端/React/React高级.md",
     "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
     "阅读/微信读书",
