@@ -111,6 +111,9 @@
 - Hidden Bar  隐藏状态栏图标
 - loop 支持快捷键分屏
 
+> 如何卸载飞连：
+> sudo sh /usr/local/corplink/uninstall.sh
+
 以下很少用，用到的时候再安装：
 
 - [Adobe After Effects](https://link.juejin.cn/?target=https%3A%2F%2Fwww.macw.com%2Fmac%2F3727.html "https://www.macw.com/mac/3727.html")

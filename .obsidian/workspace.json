@@ -11,11 +11,10 @@
             "id": "f5e03095dd27ccea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "AI/吴恩达prompt/编写 prompt 的技巧.md",
-                "mode": "source",
-                "source": false
+                "file": "杂记/Mac 装机记录.md",
+                "staged": false
               }
             }
           }
@@ -109,9 +108,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AI/吴恩达prompt/编写 prompt 的技巧.md"
-              }
+              "state": {}
             }
           },
           {
@@ -120,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/吴恩达prompt/编写 prompt 的技巧.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/吴恩达prompt/编写 prompt 的技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +169,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "08a2d34a08751181",
@@ -211,8 +207,9 @@
   },
   "active": "f5e03095dd27ccea",
   "lastOpenFiles": [
-    "AI/如何向AI提问.md",
+    "杂记/Mac 装机记录.md",
     "AI/吴恩达prompt/编写 prompt 的技巧.md",
+    "AI/如何向AI提问.md",
     "计算机/正则表达式.md",
     "AI/吴恩达prompt",
     "AI",
@@ -223,7 +220,6 @@
     "z 前端/前端理论/jotai.md",
     "z 前端/React/useMemo 和 useCallback.md",
     "z 前端/JS/代码片段.md",
-    "杂记/Mac 装机记录.md",
     "z 前端/Node.js/Nest.md",
     "z 前端/Node.js/Nest 备忘.md",
     "java/docker.md",
