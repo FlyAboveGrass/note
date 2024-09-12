@@ -226,6 +226,9 @@
   },
   "active": "bb6a7e06895ae81c",
   "lastOpenFiles": [
+    "AI/如何向AI提问.md",
+    "AI/吴恩达prompt/编写 prompt 的技巧.md",
+    "AI/吴恩达prompt",
     "z 前端/精选文章.md",
     "z 前端/Node.js/Nest 简记.md",
     "z 前端/学习列表.md",
@@ -250,8 +253,6 @@
     "z 前端/前端工程化/Monorepo 与 lerna.md",
     "z 前端/前端工程化/Eslint 和 prettier.md",
     "z 前端/前端工程化/第三方库整理.md",
-    "杂记/vscode 技巧.md",
-    "杂记/vscode 快捷键.md",
     "笔记图片/Pasted image 20240524103542.png",
     "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
@@ -271,7 +272,6 @@
     "uat-worktree-vscodePlugin/笔记图片/微前端特性.png",
     "uat-worktree-vscodePlugin/笔记图片/obsidian配置.zip",
     "uat-worktree-vscodePlugin/笔记图片",
-    "uat-worktree-vscodePlugin/杂记",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
