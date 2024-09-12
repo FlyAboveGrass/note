@@ -1,4 +1,7 @@
+#Typescript
+
 [JELLY | Typescript 常用特性小结 (jd.com)](https://jelly.jd.com/article/6292d76e1ca7c3018d0bebfe)
+
 
 # 基础类型
 
@@ -97,6 +100,7 @@ function handleValue(val: All) {
 TypeScript 里的条件判断是 `extends ? :`，叫做条件类型（Conditional Type）
 
 ### 推导类型
+
 `infer`  可以用于提取类型的一部分
 
 ```
@@ -416,5 +420,46 @@ type isTwo<T> = T extends 2 ? true: false;
 
 // 如何遍历一个联合类型。构造一个泛型类型作为中间映射函数（因为分布式条件类型只有在泛型 + 条件判断时才生效
 // type MyMap<T> = T extends T ? [T] : never
+
+```
+
+
+
+ 三元表达式后一个结果拿不到对象中的 key
+```
+// 错误的
+type Merge<F, S> = {
+[K in keyof F | keyof S]: K extends keyof S ? S[K] : F[K];
+};
+
+// 正确的
+type Merge<F, S> = {
+[K in keyof F | keyof S]: K extends keyof S
+    ? S[K]
+    : K extends keyof F ? F[K] : never;
+};
+```
+
+
+**如何判断一个类型是 never**
+> 参考 [296 - Permutation (with explanations) · Issue #614 · type-challenges/type-challenges · GitHub](https://github.com/type-challenges/type-challenges/issues/614)
+
+```
+直觉上第一感觉就是：
+type isNever<T> = T extends never ? true : false
+
+然而会发现 isNever<never> 得到的是 never。
+
+why？
+
+1. extends 不是判断相等，而是尝试 distributes 分发它。
+2. never 作为联合类型时，内容为空。 举例 never ｜ string 在分发的时候，只会得到一个 string。
+
+所以在上面的 extends 中，尝试分发 never，是无法分发的，也就走不到条件语句里面。也就是直接得到 never。
+
+
+那么如何实现真正的isNever 呢？简单，给 never 增加一个包裹内容，让他不独立为类型。最终答案：
+
+type IsNever<T> = [T] extends [never] ? true : false;
 
 ```

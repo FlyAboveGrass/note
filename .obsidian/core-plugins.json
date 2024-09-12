@@ -15,8 +15,10 @@
   "command-palette",
   "editor-status",
   "bookmarks",
+  "markdown-importer",
   "outline",
   "word-count",
+  "workspaces",
   "file-recovery",
   "sync"
 ]

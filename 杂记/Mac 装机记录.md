@@ -161,6 +161,667 @@
 
 `VSCode` 自带设置同步功能，我选择使用 `Github` 账号登入。
 
+配置备份
+```
+{
+
+"files.associations": {
+
+"*.vue": "vue",
+
+"*.wpy": "vue",
+
+"*.wxml": "html",
+
+"*.wxss": "css",
+
+"*.cjson": "jsonc",
+
+"*.wxs": "javascript"
+
+},
+
+"git.enableSmartCommit": true,
+
+"git.autofetch": true,
+
+"emmet.showAbbreviationSuggestions": true,
+
+"emmet.showExpandedAbbreviation": "always",
+
+"emmet.includeLanguages": {
+
+"vue-html": "html",
+
+"vue": "html",
+
+"wpy": "html",
+
+"wxml": "html"
+
+},
+
+"markJump.maximumLimit": -1,
+
+"editor.fontWeight": "500",
+
+"git.confirmSync": false,
+
+"explorer.confirmDelete": false,
+
+"editor.wordWrap": "on",
+
+"editor.detectIndentation": false,
+
+// 重新设定tabsize
+
+"editor.tabSize": 2,
+
+//每120行就显示一条线
+
+"editor.rulers": [120],
+
+// 在使用搜索功能时，将这些文件夹/文件排除在外
+
+"search.exclude": {
+
+"**/node_modules": true,
+
+"**/bower_components": true,
+
+"**/target": true,
+
+"**/logs": true
+
+},
+
+// 这些文件将不会显示在工作空间中
+
+"files.exclude": {
+
+"**/.DS_Store": true,
+
+"**/.git": true,
+
+"**/.hg": true,
+
+"**/.svn": true,
+
+"**/*.js": {
+
+"when": "$(basename).ts"
+
+},
+
+"**/CVS": true
+
+},
+
+// #让vue中的js按"prettier"格式进行格式化
+
+"vetur.format.defaultFormatter.html": "js-beautify-html",
+
+"vetur.format.defaultFormatter.js": "prettier",
+
+"vetur.format.defaultFormatterOptions": {
+
+"js-beautify-html": {
+
+// #vue组件中html代码格式化样式
+
+"wrap_attributes": "force-aligned", //也可以设置为“auto”，效果会不一样
+
+"wrap_line_length": 200,
+
+"end_with_newline": false,
+
+"semi": false,
+
+"singleQuote": true
+
+},
+
+"prettier": {
+
+"semi": false,
+
+"singleQuote": true
+
+}
+
+},
+
+"vetur.validation.template": false,
+
+"minapp-vscode.disableAutoConfig": true,
+
+"eslint.validate": [
+
+"javascript",
+
+"javascriptreact",
+
+{
+
+"language": "html",
+
+"autoFix": true
+
+},
+
+{
+
+"language": "vue",
+
+"autoFix": true
+
+}
+
+],
+
+"javascript.updateImportsOnFileMove.enabled": "never",
+
+"workbench.startupEditor": "newUntitledFile",
+
+"i18n-ally.displayLanguage": "cn",
+
+"terminal.integrated.rendererType": "dom",
+
+"commentTranslate.targetLanguage": "zh-CN",
+
+"code-runner.defaultLanguage": "javascript",
+
+"code-runner.executorMap": {
+
+"javascript": "node"
+
+},
+
+"sync.gist": "a8048af23a5ee669d5db4d04974cb3d3",
+
+"sync.forceUpload": true,
+
+"editor.codeActionsOnSave": {
+
+"source.fixAll.eslint": "explicit"
+
+},
+
+"explorer.confirmDragAndDrop": false,
+
+"editor.renderControlCharacters": true,
+
+"editor.minimap.enabled": false,
+
+"breadcrumbs.enabled": true,
+
+"editor.renderWhitespace": "none",
+
+"vscodePluginDemo.showTip": false,
+
+"cSpell.language": "en",
+
+"cSpell.enableFiletypes": ["vue"],
+
+"terminal.external.osxExec": "iTerm.app",
+
+"editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+
+"path-intellisense.mappings": {
+
+"/": "${workspaceRoot}",
+
+"@": "${workspaceRoot}/src",
+
+"utils": "${workspaceRoot}/src/utils",
+
+"redux-persist": "${workspaceRoot}/src/packages/redux-persist",
+
+"redux-persist-transform-expire": "${workspaceRoot}/src/packages/redux-persist/redux-persist-transform-expire",
+
+"sm-api-service": "${workspaceRoot}/src/packages/sm-api-service",
+
+"sm-frame-mp": "${workspaceRoot}/src/packages/sm-frame-mp",
+
+"sm-redux-core": "${workspaceRoot}/src/packages/sm-redux-core",
+
+"sm-redux-persist": "${workspaceRoot}/src/packages/sm-redux-persist",
+
+"sm-sa": "${workspaceRoot}/src/packages/sm-sa",
+
+"sm-socket": "${workspaceRoot}/src/packages/sm-socket",
+
+"imports": "${workspaceRoot}/src/imports",
+
+"images": "${workspaceRoot}/src/images",
+
+"mixins": "${workspaceRoot}/src/mixins",
+
+"configs": "${workspaceRoot}/src/configs",
+
+"action-types": "${workspaceRoot}/src/store/types",
+
+"store": "${workspaceRoot}/src/store",
+
+"models": "${workspaceRoot}/src/models",
+
+"api": "${workspaceRoot}/src/services/api",
+
+"socket": "${workspaceRoot}/src/services/web-socket",
+
+"constant": "${workspaceRoot}/src/constant"
+
+},
+
+"path-intellisense.showHiddenFiles": true,
+
+"path-intellisense.extensionOnImport": true,
+
+"typescript.updateImportsOnFileMove.enabled": "always",
+
+"terminal.integrated.fontFamily": "monospace",
+
+"settingsSync.ignoredSettings": ["terminal.integrated.fontFamily"],
+
+"editor.fontFamily": "Consolas",
+
+"workbench.preferredHighContrastColorTheme": "Default Dark+",
+
+"workbench.preferredLightColorTheme": "Visual Studio Dark",
+
+"cSpell.userWords": [
+
+"ahooks",
+
+"antd",
+
+"bindtouchend",
+
+"dissoc",
+
+"echarts",
+
+"elif",
+
+"iconfont",
+
+"keyframes",
+
+"longpress",
+
+"maxlength",
+
+"miniprogram",
+
+"mixins",
+
+"ramda",
+
+"rgba",
+
+"SAAS",
+
+"supermonkey",
+
+"swiper",
+
+"tarojs",
+
+"typeof",
+
+"unnest",
+
+"wepy",
+
+"wxss"
+
+],
+
+"editor.multiCursorModifier": "alt",
+
+"editor.codeLens": true,
+
+"gitHistory.sideBySide": true,
+
+"turboConsoleLog.quote": "'",
+
+"turboConsoleLog.insertEnclosingClass": false,
+
+"turboConsoleLog.includeFileNameAndLineNum": false,
+
+"turboConsoleLog.logMessagePrefix": "🚀-",
+
+"turboConsoleLog.delimiterInsideMessage": " ->",
+
+"terminal.integrated.scrollback": 20000,
+
+"workbench.iconTheme": "vscode-icons",
+
+"debug.onTaskErrors": "debugAnyway",
+
+"[javascript]": {
+
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+
+},
+
+"[typescriptreact]": {
+
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+
+},
+
+"editor.unicodeHighlight.allowedCharacters": {
+
+"：": true,
+
+"（": true
+
+},
+
+"editor.quickSuggestions": {
+
+"strings": true
+
+},
+
+"[html]": {
+
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+
+},
+
+"editor.unicodeHighlight.allowedLocales": {
+
+"zh-hant": true
+
+},
+
+"prettier.endOfLine": "auto",
+
+"projectManager.sortList": "Recent",
+
+"projectManager.tags": ["Work", "Dependencies", "OldRepo", "selfRepo"],
+
+"[vue]": {
+
+"editor.defaultFormatter": "hu2ren.vetur-wepy"
+
+},
+
+"vetur.validation.style": false,
+
+"vetur.validation.script": false,
+
+"projectManager.git.baseFolders": ["/Users/yangjiajian/Work/workspace/"],
+
+"[typescript]": {
+
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+
+},
+
+"workbench.tree.renderIndentGuides": "always",
+
+"debug.console.fontSize": 13,
+
+"gulp.autoDetect": "on",
+
+"files.autoGuessEncoding": true,
+
+"gitlens.graph.layout": "editor",
+
+"typeChallenges.workspaceFolder": "/Users/yangjiajian/.typeChallenges",
+
+"[json]": {
+
+"editor.defaultFormatter": "vscode.json-language-features"
+
+},
+
+"prettier.printWidth": 120,
+
+"diffEditor.ignoreTrimWhitespace": false,
+
+"workbench.colorTheme": "Atom One Dark",
+
+"explorer.autoRevealExclude": {
+
+"": true,
+
+"**/node_modules": false
+
+},
+
+"github.copilot.advanced": {
+
+"debug.overrideChatEngine": "gpt-4"
+
+},
+
+"terminal.integrated.defaultProfile.osx": "zsh (2)",
+
+"editor.fontSize": 14,
+
+"editor.lineHeight": 17,
+
+"terminal.integrated.stickyScroll.enabled": true,
+
+"terminal.integrated.tabs.location": "left",
+
+"gitlens.views.remotes.branches.layout": "list",
+
+"workbench.tree.enableStickyScroll": true,
+
+"workbench.list.smoothScrolling": true,
+
+"comment_alias-skip": "解决wpy无法正常跳转到导入路径的问题",
+
+"alias-skip.mappings": {
+
+"constant": "/src/constant",
+
+"http-api": "/src/setup/http",
+
+"redux-plugin": "/src/plugins/redux"
+
+},
+
+"terminal.integrated.env.osx": {
+
+"PATH": "/Users/yangjiajian/.volta/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:$PATH",
+
+"FIG_NEW_SESSION": "1"
+
+},
+
+"extensions.autoUpdate": "onlySelectedExtensions",
+
+"extensions.autoCheckUpdates": false,
+
+"multiDiffEditor.experimental.enabled": true,
+
+"gitlens.views.worktrees.files.layout": "list",
+
+"quokka.compactMessageOutput": true,
+
+"quokka.automaticStartRegex": "\\.(tsx,ts,js)$\\",
+
+"vscode_custom_css.imports": [
+
+"file:///Users/yangjiajian/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+
+],
+
+"emmet.triggerExpansionOnTab": true,
+
+"gitMergeBranchTo.feishuId": "6943778355237912604",
+
+"gitMergeBranchTo.deployConfig": {
+
+"projectList": ["monkey-cms-web-new", "monkey-saas-enterprise-web", "monkey-saas-web"],
+
+"urlConfig": [
+
+{
+
+"env": "fat",
+
+"defaultBranch": "develop",
+
+"clientWebhookList": [],
+
+"serverWebhookMap": {
+
+"monkey-cms-web-new": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/CBOjeSVVg1OiJwYKcz8I",
+
+"webUrl": "https://flow.aliyun.com/pipelines/2956295/current"
+
+},
+
+"monkey-saas-enterprise-web": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/JELRY26yPK6JWy4y71PP",
+
+"webUrl": "https://flow.aliyun.com/pipelines/2952820/current"
+
+},
+
+"monkey-saas-web": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/5XzBF3s7ncdVxZANu9oR",
+
+"webUrl": "https://flow.aliyun.com/pipelines/1782215/current"
+
+}
+
+}
+
+},
+
+{
+
+"env": "dev",
+
+"defaultBranch": "develop",
+
+"clientWebhookList": [],
+
+"serverWebhookMap": {
+
+"monkey-cms-web-new": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/IQJpnlAfnzicJul0WIKK",
+
+"webUrl": "https://flow.aliyun.com/pipelines/2948323/current"
+
+},
+
+"monkey-saas-enterprise-web": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/utlDL7tWtg7rta26nzSB",
+
+"webUrl": "https://flow.aliyun.com/pipelines/1880194/current"
+
+},
+
+"monkey-saas-web": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/aMBKlOzUDQvYf1yMe9e7",
+
+"webUrl": "https://flow.aliyun.com/pipelines/1782218/current"
+
+}
+
+}
+
+},
+
+{
+
+"env": "uat",
+
+"defaultBranch": "develop",
+
+"clientWebhookList": [],
+
+"serverWebhookMap": {
+
+"monkey-saas-web": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/CR91Qj1MAe85lYoZKXl1",
+
+"webUrl": "https://flow.aliyun.com/pipelines/1782216/current"
+
+},
+
+"monkey-saas-enterprise-web": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/4K6Px3gMLrQipIQCi4lR",
+
+"webUrl": "https://flow.aliyun.com/pipelines/2965729/current"
+
+},
+
+"monkey-cms-web-new": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/XXjV0AEkhCXjDplkhjxY",
+
+"webUrl": "https://flow.aliyun.com/pipelines/2956305/current"
+
+}
+
+}
+
+},
+
+{
+
+"env": "fat1",
+
+"defaultBranch": "develop",
+
+"clientWebhookList": [],
+
+"serverWebhookMap": {
+
+"monkey-saas-web": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/lpoSNFHuMP0fPwXj3X5c",
+
+"webUrl": "https://flow.aliyun.com/pipelines/2979935/current"
+
+},
+
+"monkey-cms-web-new": {
+
+"hookUrl": "http://flow-openapi.aliyun.com/pipeline/webhook/JC1YmMa8pm8tFlSsMHDX",
+
+"webUrl": "https://flow.aliyun.com/pipelines/2979934/current"
+
+}
+
+}
+
+}
+
+]
+
+},
+
+"gitMergeBranchTo.branches": ["develop", "uat"],
+
+"application.shellEnvironmentResolutionTimeout": 18,
+
+"Lingma.LocalStoragePath": "/Users/yangjiajian/.lingma"
+
+}
+```
+
+
+
 ### [Iterm2](https://link.juejin.cn/?target=https%3A%2F%2Fiterm2.com%2F "https://iterm2.com/")
 
 其实我日常用的最多的 terminal 是 `VSCode` 的集成 terminal，其次就是 `iterm2`。`Warp` 暂时还没有啥吸引我转过去的杀手级优势，反倒很多功能都是没有的，例如 Key Mapping。
