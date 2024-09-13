@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "英语/未命名.md"
+    },
+    {
       "basename": "Mac 装机记录",
       "path": "杂记/Mac 装机记录.md"
     },
@@ -17,16 +21,12 @@
       "path": "计算机/正则表达式.md"
     },
     {
-      "basename": "精选文章",
-      "path": "z 前端/精选文章.md"
+      "basename": "Nest 备忘",
+      "path": "z 前端/Node.js/Nest 备忘.md"
     },
     {
-      "basename": "Nest 简记",
-      "path": "z 前端/Node.js/Nest 简记.md"
-    },
-    {
-      "basename": "学习列表",
-      "path": "学习列表.md"
+      "basename": "docker",
+      "path": "java/docker.md"
     },
     {
       "basename": "算法",
