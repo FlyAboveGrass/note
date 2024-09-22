@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f377ead0f41a2fbd",
+        "id": "4b1bd6cd0fa4fc3c",
         "type": "tabs",
         "children": [
           {
-            "id": "d64803f2126df9a2",
+            "id": "2f4614a8566fdf2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/未命名.md",
+                "file": "英语/词汇班.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309
+    "width": 200
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/未命名.md"
+                "file": "英语/词汇班.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/未命名.md",
+                "file": "英语/词汇班.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/未命名.md",
+                "file": "英语/词汇班.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +174,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "08a2d34a08751181",
@@ -210,55 +209,52 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "d64803f2126df9a2",
+  "active": "2f4614a8566fdf2e",
   "lastOpenFiles": [
-    "AI/如何向AI提问.md",
-    "AI/吴恩达prompt/编写 prompt 的技巧.md",
-    "AI/吴恩达prompt",
-    "z 前端/精选文章.md",
-    "z 前端/Node.js/Nest 简记.md",
-    "z 前端/学习列表.md",
-    "z 前端/学习计划.md",
-    "z 前端/JS/TS基础.md",
-    "杂记/Mac 装机记录.md",
-    "z 前端/工作记录.md",
-    "z 前端/JS/JS设计模式.md",
-    "z 前端/面试/TypeScript.md",
-    "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
-    "z 前端/Node.js/Nest.md",
-    "z 前端/小程序/基础.md",
-    "z 前端/面试/计算机网络.md",
-    "z 前端/前端工程化/nginx.md",
-    "z 前端/浏览器/浏览器渲染机制.md",
-    "z 前端/面试/浏览器.md",
-    "z 前端/Node.js/Nest 备忘.md",
-    "z 前端/前端理论/尾递归（尾调用）.md",
-    "z 前端/前端理论/图片防盗链.md",
-    "z 前端/前端理论/函数式编程.md",
-    "z 前端/前端工程化/问题记录.md",
-    "z 前端/前端工程化/Monorepo 与 lerna.md",
-    "z 前端/前端工程化/Eslint 和 prettier.md",
-    "z 前端/前端工程化/第三方库整理.md",
-    "笔记图片/Pasted image 20240524103542.png",
-    "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
-    "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
+    "英语/单词知识.md",
+    "英语/词汇班.md",
+    "conflict-files-obsidian-git.md",
+    "英语",
+    "阅读/微信读书/非理性繁荣（第三版）.md",
+    "阅读/微信读书/非暴力沟通.md",
+    "阅读/微信读书/长安的荔枝.md",
+    "阅读/微信读书/运营之光：我的互联网运营方法论与自白.md",
+    "阅读/微信读书/贫穷的本质：我们为什么摆脱不了贫穷（修订版）.md",
+    "阅读/微信读书/谈美.md",
+    "阅读/微信读书/谁动了我的奶酪.md",
+    "阅读/微信读书/许三观卖血记（第3版）.md",
+    "阅读/微信读书/苏菲的世界.md",
+    "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
+    "阅读/微信读书/蛤蟆先生去看心理医生.md",
+    "阅读/微信读书/自私的基因（40周年增订版）.md",
+    "阅读/微信读书/股票大作手操盘术.md",
+    "阅读/微信读书/翦商：殷周之变与华夏新生.md",
+    "阅读/微信读书/美国通史.md",
+    "阅读/微信读书/美国儿科学会育儿百科（第七版）.md",
+    "阅读/微信读书/置身事内：中国政府与经济发展.md",
+    "阅读/微信读书/罪与罚.md",
+    "阅读/微信读书/缠中说禅：教你轻松炒股票 （第2版）.md",
+    "阅读/微信读书/结构性改革.md",
+    "阅读/微信读书/细胞简史.md",
+    "阅读/微信读书/纳瓦尔宝典.md",
+    "阅读/微信读书/筚路维艰：中国社会主义路径的五次选择.md",
     "阅读/微信读书",
     "阅读",
-    "阅读",
-    "uat-worktree-vscodePlugin/软件工程",
-    "uat-worktree-vscodePlugin/计算机",
-    "uat-worktree-vscodePlugin/经济学",
-    "uat-worktree-vscodePlugin/笔记图片/词法作用域.png",
-    "uat-worktree-vscodePlugin/笔记图片/缓存使用顺序.png",
-    "uat-worktree-vscodePlugin/笔记图片/用例图.jpg",
-    "uat-worktree-vscodePlugin/笔记图片/理解中间件.jpg",
-    "uat-worktree-vscodePlugin/笔记图片/正向代理.png",
-    "uat-worktree-vscodePlugin/笔记图片/树的表示法.png",
-    "uat-worktree-vscodePlugin/笔记图片/微前端特性.png",
-    "uat-worktree-vscodePlugin/笔记图片/obsidian配置.zip",
-    "uat-worktree-vscodePlugin/笔记图片",
-    "未命名.canvas",
-    "未命名 2.canvas",
-    "未命名 1.canvas"
+    "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
+    "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
+    "笔记图片/Pasted image 20240524103542.png",
+    "AI/吴恩达prompt",
+    "AI",
+    "笔记图片/Pasted image 20240223180945.png",
+    "笔记图片/Pasted image 20240223180833.png",
+    "笔记图片/Pasted image 20240223113654.png",
+    "笔记图片/Pasted image 20231206234432.png",
+    "z 前端/打包工具/webpack",
+    "z 前端/小程序/wepy",
+    "z 前端/小程序/uniapp",
+    "z 前端/面试",
+    "z 前端/算法",
+    "笔记图片/Pasted image 20230907233328.png",
+    "笔记图片/Pasted image 20230902235726.png"
   ]
 }
