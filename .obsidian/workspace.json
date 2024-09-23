@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/JS/代码片段.md",
+                "file": "z 前端/vscode 配置2.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/JS/代码片段.md"
+                "file": "z 前端/vscode 配置2.md"
               }
             }
           },
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "代码",
+                "query": "vscode",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -108,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 231.5
   },
   "right": {
     "id": "63ea28dd52758e2c",
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/JS/代码片段.md",
+                "file": "z 前端/vscode 配置2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/JS/代码片段.md",
+                "file": "z 前端/vscode 配置2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,10 +226,12 @@
   },
   "active": "bb6a7e06895ae81c",
   "lastOpenFiles": [
+    "z 前端/精选文章.md",
+    "z 前端/vscode 配置2.md",
+    "z 前端/JS/代码片段.md",
     "AI/如何向AI提问.md",
     "AI/吴恩达prompt/编写 prompt 的技巧.md",
     "AI/吴恩达prompt",
-    "z 前端/精选文章.md",
     "z 前端/Node.js/Nest 简记.md",
     "z 前端/学习列表.md",
     "z 前端/学习计划.md",
@@ -251,8 +253,6 @@
     "z 前端/前端理论/函数式编程.md",
     "z 前端/前端工程化/问题记录.md",
     "z 前端/前端工程化/Monorepo 与 lerna.md",
-    "z 前端/前端工程化/Eslint 和 prettier.md",
-    "z 前端/前端工程化/第三方库整理.md",
     "笔记图片/Pasted image 20240524103542.png",
     "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
