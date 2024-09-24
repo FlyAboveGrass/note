@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "vscode 配置2",
-      "path": "z 前端/vscode 配置2.md"
-    },
-    {
       "basename": "精选文章",
       "path": "z 前端/精选文章.md"
+    },
+    {
+      "basename": "vscode 配置2",
+      "path": "z 前端/vscode 配置2.md"
     },
     {
       "basename": "代码片段",
@@ -15,10 +15,6 @@
     {
       "basename": "Nest 简记",
       "path": "z 前端/Node.js/Nest 简记.md"
-    },
-    {
-      "basename": "学习列表",
-      "path": "z 前端/学习列表.md"
     }
   ],
   "omittedPaths": [],
