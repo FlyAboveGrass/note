@@ -9,22 +9,6 @@
       "path": "英语/单词知识.md"
     },
     {
-      "basename": "Mac 装机记录",
-      "path": "杂记/Mac 装机记录.md"
-    },
-    {
-      "basename": "编写 prompt 的技巧",
-      "path": "AI/吴恩达prompt/编写 prompt 的技巧.md"
-    },
-    {
-      "basename": "如何向AI提问",
-      "path": "AI/如何向AI提问.md"
-    },
-    {
-      "basename": "正则表达式",
-      "path": "计算机/正则表达式.md"
-    },
-    {
       "basename": "精选文章",
       "path": "z 前端/精选文章.md"
     },
@@ -35,10 +19,6 @@
     {
       "basename": "代码片段",
       "path": "z 前端/JS/代码片段.md"
-    },
-    {
-      "basename": "Nest 简记",
-      "path": "z 前端/Node.js/Nest 简记.md"
     }
   ],
   "omittedPaths": [],
