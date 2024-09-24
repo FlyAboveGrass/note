@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -224,7 +223,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "bb6a7e06895ae81c",
+  "active": "dc60a569e75c88b7",
   "lastOpenFiles": [
     "z 前端/精选文章.md",
     "z 前端/vscode 配置2.md",
