@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -222,7 +223,7 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "5d0b0da9409abf19",
+  "active": "88058d18f7743a23",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "英语/词汇班.md",
