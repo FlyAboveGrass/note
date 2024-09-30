@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/词汇班.md",
+                "file": "z 前端/前端工程化/pnpm.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/词汇班.md"
+                "file": "z 前端/前端工程化/pnpm.md"
               }
             }
           },
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vscode",
+                "query": "软链接",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d51799eb19dcfa5f",
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/词汇班.md",
+                "file": "z 前端/前端工程化/pnpm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/词汇班.md",
+                "file": "z 前端/前端工程化/pnpm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,8 +212,10 @@
   },
   "active": "24cd75e30f9f178b",
   "lastOpenFiles": [
-    "英语/单词知识.md",
+    "z 前端/工作记录.md",
+    "z 前端/如何工作.md",
     "英语/词汇班.md",
+    "英语/单词知识.md",
     "z 前端/vscode 配置2.md",
     "阅读/微信读书/大而不倒（经典版）.md",
     "z 前端/精选文章.md",
@@ -228,7 +230,6 @@
     "z 前端/学习计划.md",
     "z 前端/JS/TS基础.md",
     "杂记/Mac 装机记录.md",
-    "z 前端/工作记录.md",
     "z 前端/JS/JS设计模式.md",
     "z 前端/面试/TypeScript.md",
     "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
@@ -239,7 +240,6 @@
     "z 前端/浏览器/浏览器渲染机制.md",
     "z 前端/面试/浏览器.md",
     "z 前端/Node.js/Nest 备忘.md",
-    "z 前端/前端理论/尾递归（尾调用）.md",
     "笔记图片/Pasted image 20240524103542.png",
     "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
