@@ -2,7 +2,7 @@
   "accentColor": "",
   "theme": "moonstone",
   "baseFontSize": 18,
-  "cssTheme": "",
+  "cssTheme": "Border",
   "enabledCssSnippets": [
     "yaozhuwa@CSS",
     "smaller-scrollbar",

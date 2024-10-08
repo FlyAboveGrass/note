@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "词汇班",
+      "path": "英语/词汇班.md"
+    },
+    {
       "basename": "pnpm",
       "path": "z 前端/前端工程化/pnpm.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "如何工作",
       "path": "z 前端/如何工作.md"
-    },
-    {
-      "basename": "词汇班",
-      "path": "英语/词汇班.md"
     },
     {
       "basename": "单词知识",
