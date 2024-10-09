@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/单词知识.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88058d18f7743a23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z 前端/浏览器/宏任务和微任务.md",
+                "file": "z 前端/工作记录.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -44,7 +31,6 @@
       {
         "id": "75b33d535eeb164c",
         "type": "tabs",
-        "dimension": 76.66277712952159,
         "children": [
           {
             "id": "5d0b0da9409abf19",
@@ -57,12 +43,22 @@
             }
           },
           {
+            "id": "9ba47aa5566b42d9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "z 前端/工作记录.md"
+              }
+            }
+          },
+          {
             "id": "e4ec2fa580534f5d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "里氏替换",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -71,30 +67,6 @@
               }
             }
           },
-          {
-            "id": "52625c923ee7cc89",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "cdbd72357bbc8d63",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "f77f85c5b8b510ca",
-        "type": "tabs",
-        "dimension": 23.337222870478413,
-        "children": [
           {
             "id": "f012e4784270b82a",
             "type": "leaf",
@@ -107,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 217.5
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -119,22 +91,12 @@
         "dimension": 62.222222222222214,
         "children": [
           {
-            "id": "9ba47aa5566b42d9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "z 前端/浏览器/宏任务和微任务.md"
-              }
-            }
-          },
-          {
             "id": "035084878de0e2c8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z 前端/浏览器/宏任务和微任务.md",
+                "file": "z 前端/工作记录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z 前端/浏览器/宏任务和微任务.md",
+                "file": "z 前端/工作记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,11 +186,13 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "e4ec2fa580534f5d",
+  "active": "5d0b0da9409abf19",
   "lastOpenFiles": [
+    "z 前端/工作记录.md",
+    "英语/单词知识.md",
+    "z 前端/浏览器/宏任务和微任务.md",
     "英语/词汇班.md",
     "conflict-files-obsidian-git.md",
-    "英语/单词知识.md",
     "阅读/微信读书/大而不倒（经典版）.md",
     "英语",
     "阅读/微信读书/非理性繁荣（第三版）.md",
@@ -250,8 +215,6 @@
     "阅读/微信读书/罪与罚.md",
     "阅读/微信读书/缠中说禅：教你轻松炒股票 （第2版）.md",
     "阅读/微信读书/结构性改革.md",
-    "阅读/微信读书/细胞简史.md",
-    "阅读/微信读书/纳瓦尔宝典.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",

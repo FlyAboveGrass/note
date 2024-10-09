@@ -411,6 +411,14 @@ body:is(:not(.css-settings-manager),.toggle-sidebar-fixed-left) .mod-left-split 
 body:is(:not(.css-settings-manager),.toggle-sidebar-fixed-right) .mod-right-split .workspace-leaf-content{
 	max-width:var(--sidebar-size-right);
 }
+body:is(.toggle-sidebar-fixed-left-auto) .mod-left-split .workspace-leaf-content{
+	min-width:var(--sidebar-size-left);
+	max-width:fit-content;
+}
+body:is(.toggle-sidebar-fixed-right-auto) .mod-right-split .workspace-leaf-content{
+	min-width:var(--sidebar-size-right);
+	max-width:fit-content;
+}
 
 
 body:is(:not(.css-settings-manager),.toggle-sidebar-right-top) .workspace-split.mod-horizontal.mod-right-split .workspace-tabs.mod-top.mod-top-right-space .workspace-tab-container,
@@ -815,7 +823,7 @@ body.is-translucent .modal{
 	100% { transform:scale(100%); opacity:1; }
 }
 
-body:is(:not(.css-settings-manager), .toggle-note-animation) .workspace-split.mod-vertical.mod-root .workspace-tabs:not(.mod-stacked)  .view-content{
+body:is(:not(.css-settings-manager), .toggle-note-animation) .workspace-split.mod-vertical.mod-root .workspace-tabs:not(.mod-stacked) .workspace-leaf-content:not([data-type="pdf"]) .view-content{
 	animation:0.2s slide-up forwards;
 }
 @keyframes slide-up{
@@ -960,6 +968,11 @@ body:not(.native-scrollbars) .modal-close-button{
 --------------------------- --------------------------- 
 --------------------------- --------------------------- 
 */
+/* Append some spaces so that when on-focused, the border does not get cut */
+.nav-files-container{
+	padding-top:2px;
+}
+
 
 :is(.nav-folder, .nav-file) :is(.nav-folder-title, .nav-file-title),
 .vertical-tab-nav-item,
@@ -1309,6 +1322,18 @@ ul > li.task-list-item.is-checked *,
 
 
 
+
+
+
+
+
+/* canvas text blurry fix */
+.is-focused .canvas-node-content.markdown-embed > .markdown-embed-content > .markdown-preview-view {
+	transform: unset;
+}
+.canvas-node-content.markdown-embed{
+	border-radius:0;
+}
 
 
 
@@ -2750,6 +2775,16 @@ settings:
 		type: class-toggle
 		default: true
 	- 
+		id: toggle-sidebar-fixed-left-auto
+		title: Auto Expand Width (Left)
+		type: class-toggle
+		default: false
+	- 
+		id: toggle-sidebar-fixed-right-auto
+		title: Auto Expand Width (Right)
+		type: class-toggle
+		default: false
+	- 
 		id: sidebar-size-left
 		title: Width size if fixed (Left)
 		type: variable-number-slider
@@ -2991,13 +3026,6 @@ settings:
 	-
 		id: h5-color
 		title: H5 Color
-		type: variable-themed-color
-		format: hsl
-		default-light: '#'
-		default-dark: '#'
-	-
-		id: h6-color
-		title: H6 Color
 		type: variable-themed-color
 		format: hsl
 		default-light: '#'

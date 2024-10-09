@@ -26,5 +26,7 @@
   "anuppuccin-theme-settings@@anp-custom-bg-brightness-light": 0.85,
   "anuppuccin-theme-settings@@anp-custom-bg-card-fg-opacity-light": 0.9,
   "anuppuccin-theme-settings@@anp-background-image-toggle": true,
-  "anuppuccin-theme-settings@@anp-codeblock-numbers": false
+  "anuppuccin-theme-settings@@anp-codeblock-numbers": false,
+  "Appearance-light@@card-layout-open-light": true,
+  "Appearance-light@@card-highlight-light": false
 }

@@ -2,7 +2,7 @@
   "accentColor": "",
   "theme": "moonstone",
   "baseFontSize": 18,
-  "cssTheme": "Border",
+  "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "yaozhuwa@CSS",
     "smaller-scrollbar",
@@ -18,5 +18,6 @@
   ],
   "translucency": false,
   "nativeMenus": true,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "textFontFamily": "Ayuthaya"
 }
