@@ -91,6 +91,14 @@
         "dimension": 62.222222222222214,
         "children": [
           {
+            "id": "4ed72fc1e60e98db",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "035084878de0e2c8",
             "type": "leaf",
             "state": {
@@ -131,14 +139,6 @@
             }
           },
           {
-            "id": "4ed72fc1e60e98db",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "5c65a1ddbd217f18",
             "type": "leaf",
             "state": {
@@ -169,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,8 +185,10 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "5d0b0da9409abf19",
+  "active": "2f4614a8566fdf2e",
   "lastOpenFiles": [
+    "z 前端/学习计划.md",
+    "z 前端/如何工作.md",
     "z 前端/工作记录.md",
     "英语/单词知识.md",
     "z 前端/浏览器/宏任务和微任务.md",
@@ -213,8 +214,6 @@
     "阅读/微信读书/美国儿科学会育儿百科（第七版）.md",
     "阅读/微信读书/置身事内：中国政府与经济发展.md",
     "阅读/微信读书/罪与罚.md",
-    "阅读/微信读书/缠中说禅：教你轻松炒股票 （第2版）.md",
-    "阅读/微信读书/结构性改革.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
