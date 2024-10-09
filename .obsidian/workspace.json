@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 266.5
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -187,9 +187,9 @@
   },
   "active": "2f4614a8566fdf2e",
   "lastOpenFiles": [
-    "z 前端/学习计划.md",
     "z 前端/如何工作.md",
     "z 前端/工作记录.md",
+    "z 前端/学习计划.md",
     "英语/单词知识.md",
     "z 前端/浏览器/宏任务和微任务.md",
     "英语/词汇班.md",

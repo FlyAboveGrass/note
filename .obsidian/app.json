@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "笔记图片",
   "promptDelete": false,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "showRibbon": false
 }
