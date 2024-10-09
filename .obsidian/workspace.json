@@ -75,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,7 +184,8 @@
       "canvas:新建白板": true,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": true
+      "daily-notes:打开/创建今天的日记": true,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "2f4614a8566fdf2e",

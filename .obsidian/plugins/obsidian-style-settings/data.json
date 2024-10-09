@@ -28,5 +28,8 @@
   "anuppuccin-theme-settings@@anp-background-image-toggle": true,
   "anuppuccin-theme-settings@@anp-codeblock-numbers": false,
   "Appearance-light@@card-layout-open-light": true,
-  "Appearance-light@@card-highlight-light": false
+  "Appearance-light@@card-highlight-light": false,
+  "minimal-style@@active-line-on": false,
+  "minimal-style@@sidebar-tabs-style": "sidebar-tabs-index",
+  "minimal-style@@ax1@@light": "#5860D9"
 }
