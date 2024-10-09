@@ -17,5 +17,7 @@
   "obsidian-linter",
   "obsidian-tagfolder",
   "obsidian-style-settings",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-hider",
+  "floating-toc"
 ]
