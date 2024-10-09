@@ -16,8 +16,9 @@
   "obsidian-mind-map",
   "obsidian-linter",
   "obsidian-tagfolder",
-  "obsidian-style-settings",
   "obsidian-minimal-settings",
+  "obsidian-style-settings",
+  "floating-toc",
   "obsidian-hider",
-  "floating-toc"
+  "oz-clear-unused-images"
 ]

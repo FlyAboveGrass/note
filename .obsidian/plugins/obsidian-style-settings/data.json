@@ -29,12 +29,16 @@
   "anuppuccin-theme-settings@@anp-codeblock-numbers": false,
   "Appearance-light@@card-layout-open-light": true,
   "Appearance-light@@card-highlight-light": false,
-  "minimal-style@@active-line-on": false,
-  "minimal-style@@sidebar-tabs-style": "sidebar-tabs-index",
-  "minimal-style@@ax1@@light": "#5860D9",
   "floating-toc-styles@@floating-toc-font-size": 0.9,
   "floating-toc-styles@@floating-toc-remove-heading-indicator": true,
+  "floating-toc-styles@@toggle-floating-toc-header-color": false,
   "floating-toc-styles@@floating-toc-header-background-color@@light": "#00000000",
   "floating-toc-styles@@floating-toc-background-color@@light": "#00000000",
-  "floating-toc-styles@@floating-toc-response-time": 0.5
+  "minimal-style@@hide-help": false,
+  "minimal-style@@hide-settings": false,
+  "minimal-style@@window-title-off": false,
+  "minimal-advanced@@hide-settings-desc": false,
+  "minimal-style@@sidebar-tabs-names": "tab-names-off",
+  "minimal-style@@vault-profile-display": "vault-profile-default",
+  "minimal-style@@ribbon-style": "ribbon-bottom-left-hover-vertical"
 }
