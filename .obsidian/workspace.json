@@ -201,8 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5,
-    "collapsed": true
+    "width": 405.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,7 +217,7 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "4ed72fc1e60e98db",
+  "active": "88058d18f7743a23",
   "lastOpenFiles": [
     "英语/词汇班.md",
     "conflict-files-obsidian-git.md",
