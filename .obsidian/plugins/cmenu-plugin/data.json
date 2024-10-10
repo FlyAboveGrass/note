@@ -12,24 +12,14 @@
       "icon": "italic-glyph"
     },
     {
-      "id": "cmenu-plugin:editor:toggle-strikethrough",
-      "name": "cMenu: Toggle strikethrough",
-      "icon": "strikethrough-glyph"
-    },
-    {
       "id": "cmenu-plugin:underline",
       "name": "cMenu: Toggle underline",
       "icon": "underline-glyph"
     },
     {
-      "id": "cmenu-plugin:superscript",
-      "name": "cMenu: Toggle superscript",
-      "icon": "superscript-glyph"
-    },
-    {
-      "id": "cmenu-plugin:subscript",
-      "name": "cMenu: Toggle subscript",
-      "icon": "subscript-glyph"
+      "id": "cmenu-plugin:editor:toggle-strikethrough",
+      "name": "cMenu: Toggle strikethrough",
+      "icon": "strikethrough-glyph"
     },
     {
       "id": "cmenu-plugin:editor:toggle-code",
@@ -55,11 +45,26 @@
       "id": "editor:toggle-numbered-list",
       "name": "有序列表",
       "icon": "lucide-list-ordered"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-checklist-status",
+      "name": "cMenu: Toggle checklist status",
+      "icon": "checkbox-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:toggle-highlight",
+      "name": "cMenu: Toggle highlight",
+      "icon": "highlight-glyph"
+    },
+    {
+      "id": "cmenu-plugin:editor:insert-link",
+      "name": "cMenu: Insert markdown link",
+      "icon": "link-glyph"
     }
   ],
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
   "cMenuBottomValue": 4.25,
-  "cMenuNumRows": 11
+  "cMenuNumRows": 12
 }
