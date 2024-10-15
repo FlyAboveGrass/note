@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4b1bd6cd0fa4fc3c",
+        "id": "1c4ab0b118897a95",
         "type": "tabs",
         "children": [
           {
-            "id": "2f4614a8566fdf2e",
+            "id": "6af1a85b2572a7ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/单词知识.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88058d18f7743a23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/词汇班.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -44,7 +27,6 @@
       {
         "id": "75b33d535eeb164c",
         "type": "tabs",
-        "dimension": 76.66277712952159,
         "children": [
           {
             "id": "5d0b0da9409abf19",
@@ -54,6 +36,14 @@
               "state": {
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "9ba47aa5566b42d9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
             }
           },
           {
@@ -72,36 +62,10 @@
             }
           },
           {
-            "id": "9ba47aa5566b42d9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "英语/词汇班.md"
-              }
-            }
-          },
-          {
-            "id": "cdbd72357bbc8d63",
+            "id": "807078fd0f468ab1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "f77f85c5b8b510ca",
-        "type": "tabs",
-        "dimension": 23.337222870478413,
-        "children": [
-          {
-            "id": "f012e4784270b82a",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
               "state": {}
             }
           }
@@ -109,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -122,12 +85,19 @@
         "dimension": 62.222222222222214,
         "children": [
           {
+            "id": "4ed72fc1e60e98db",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "035084878de0e2c8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/词汇班.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/词汇班.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,14 +131,6 @@
             }
           },
           {
-            "id": "4ed72fc1e60e98db",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "5c65a1ddbd217f18",
             "type": "leaf",
             "state": {
@@ -181,8 +142,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "08a2d34a08751181",
@@ -201,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
+    "width": 234.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -215,14 +175,21 @@
       "canvas:新建白板": true,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": true
+      "daily-notes:打开/创建今天的日记": true,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88058d18f7743a23",
+  "active": "6af1a85b2572a7ea",
   "lastOpenFiles": [
+    "z 前端/精选文章.md",
+    "z 前端/工作记录.md",
+    "阅读/微信读书/小王子（中英文对照版）.md",
+    "z 前端/如何工作.md",
+    "z 前端/学习计划.md",
+    "英语/单词知识.md",
+    "z 前端/浏览器/宏任务和微任务.md",
     "英语/词汇班.md",
     "conflict-files-obsidian-git.md",
-    "英语/单词知识.md",
     "阅读/微信读书/大而不倒（经典版）.md",
     "英语",
     "阅读/微信读书/非理性繁荣（第三版）.md",
@@ -241,12 +208,6 @@
     "阅读/微信读书/翦商：殷周之变与华夏新生.md",
     "阅读/微信读书/美国通史.md",
     "阅读/微信读书/美国儿科学会育儿百科（第七版）.md",
-    "阅读/微信读书/置身事内：中国政府与经济发展.md",
-    "阅读/微信读书/罪与罚.md",
-    "阅读/微信读书/缠中说禅：教你轻松炒股票 （第2版）.md",
-    "阅读/微信读书/结构性改革.md",
-    "阅读/微信读书/细胞简史.md",
-    "阅读/微信读书/纳瓦尔宝典.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
