@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/精选文章.md",
+                "file": "英语/文章收集.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "精选文章"
+              "title": "文章收集"
             }
           }
         ]
@@ -207,10 +207,12 @@
   },
   "active": "6af1a85b2572a7ea",
   "lastOpenFiles": [
+    "z 前端/精选文章.md",
+    "英语/文章收集.md",
+    "英语/未命名",
     "z 前端/工作记录.md",
     "conflict-files-obsidian-git.md",
     "英语/100句7000词.md",
-    "z 前端/精选文章.md",
     "阅读/微信读书/小王子（中英文对照版）.md",
     "z 前端/如何工作.md",
     "z 前端/学习计划.md",
@@ -233,7 +235,6 @@
     "阅读/微信读书/自私的基因（40周年增订版）.md",
     "阅读/微信读书/股票大作手操盘术.md",
     "阅读/微信读书/翦商：殷周之变与华夏新生.md",
-    "阅读/微信读书/美国通史.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
@@ -249,7 +250,6 @@
     "z 前端/小程序/wepy",
     "z 前端/小程序/uniapp",
     "z 前端/面试",
-    "z 前端/算法",
     "笔记图片/Pasted image 20230907233328.png",
     "笔记图片/Pasted image 20230902235726.png"
   ]
