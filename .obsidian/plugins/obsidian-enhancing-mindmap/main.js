@@ -37767,5 +37767,3 @@ class MindMapPlugin extends obsidian.Plugin {
 }
 
 module.exports = MindMapPlugin;
-
-/* nosourcemap */

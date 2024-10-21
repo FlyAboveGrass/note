@@ -11,13 +11,14 @@
   "obsidian-git",
   "obsidian-icon-folder",
   "calendar",
+  "recent-files-obsidian",
   "table-editor-obsidian",
-  "obsidian-mind-map",
   "obsidian-linter",
   "obsidian-tagfolder",
-  "obsidian-style-settings",
   "obsidian-minimal-settings",
-  "obsidian-hider",
+  "obsidian-style-settings",
   "floating-toc",
+  "obsidian-hider",
+  "oz-clear-unused-images",
   "obsidian-enhancing-mindmap"
 ]
