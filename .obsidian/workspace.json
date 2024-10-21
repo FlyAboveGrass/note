@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cursor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,8 +205,9 @@
   },
   "active": "6af1a85b2572a7ea",
   "lastOpenFiles": [
-    "英语/文章收集.md",
+    "z 前端/vscode 配置2.md",
     "杂记/付费产品&软件.md",
+    "英语/文章收集.md",
     "杂记/知识&产品付费.md",
     "z 前端/精选文章.md",
     "英语/未命名",
@@ -231,7 +233,6 @@
     "阅读/微信读书/苏菲的世界.md",
     "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "阅读/微信读书/蛤蟆先生去看心理医生.md",
-    "阅读/微信读书/自私的基因（40周年增订版）.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
