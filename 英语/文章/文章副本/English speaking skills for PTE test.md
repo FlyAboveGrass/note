@@ -1,6 +1,6 @@
-# English speaking skills for PTE test
 
-李瑞东 发布于 2024-01-16
+> 原文链接： [English speaking skills for PTE test](https://lrd.im/blog/2024-01-16)
+
 
 ![English speaking skills for PTE test](https://lrdim.oss-accelerate.aliyuncs.com/blogimg/2024-01-16/1-1.png)
 

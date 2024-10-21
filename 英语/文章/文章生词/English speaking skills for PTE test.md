@@ -1,0 +1,21 @@
+
+- criteria
+-  vowel
+- consonant
+- word press
+- assimilation
+- rhythm
+- phrase
+- comprehension
+- significantly
+- disrupt
+- interrupt
+- detect
+- accurately
+- crucial
+- accent
+- imitate
+- elaborate
+- vivid
+- concisely
+- 

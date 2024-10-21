@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/单词知识.md",
+                "file": "英语/文章/文章收集.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "88058d18f7743a23",
+            "id": "ed9d05b1e94f356e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章副本/English speaking skills for PTE test.md",
+                "file": "英语/文章/文章生词/English speaking skills for PTE test.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/文章副本/English speaking skills for PTE test.md"
+                "file": "英语/文章/文章生词/English speaking skills for PTE test.md"
               }
             }
           },
@@ -108,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 320.5,
+    "collapsed": true
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/文章副本/English speaking skills for PTE test.md",
+                "file": "英语/文章/文章生词/English speaking skills for PTE test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/文章副本/English speaking skills for PTE test.md",
+                "file": "英语/文章/文章生词/English speaking skills for PTE test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,17 +216,21 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "4ed72fc1e60e98db",
+  "active": "ed9d05b1e94f356e",
   "lastOpenFiles": [
-    "英语/文章收集.md",
-    "英语/文章副本/English speaking skills for PTE test.md",
+    "英语/文章/文章收集.md",
+    "英语/文章/文章副本/English speaking skills for PTE test.md",
+    "英语/文章/文章生词/English speaking skills for PTE test.md",
+    "英语/单词知识.md",
+    "英语/文章/文章生词",
+    "英语/文章/未命名.md",
+    "英语/文章",
     "英语/100句7000词.md",
-    "英语/文章副本",
+    "英语/文章/文章副本",
     "杂记/付费产品&软件.md",
     "杂记/vscode 技巧.md",
     "英语/词汇班.md",
     "conflict-files-obsidian-git.md",
-    "英语/单词知识.md",
     "阅读/微信读书/大而不倒（经典版）.md",
     "英语",
     "阅读/微信读书/非理性繁荣（第三版）.md",
@@ -243,8 +248,6 @@
     "阅读/微信读书/股票大作手操盘术.md",
     "阅读/微信读书/翦商：殷周之变与华夏新生.md",
     "阅读/微信读书/美国通史.md",
-    "阅读/微信读书/美国儿科学会育儿百科（第七版）.md",
-    "阅读/微信读书/置身事内：中国政府与经济发展.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
@@ -258,8 +261,6 @@
     "笔记图片/Pasted image 20231206234432.png",
     "z 前端/打包工具/webpack",
     "z 前端/小程序/wepy",
-    "z 前端/小程序/uniapp",
-    "z 前端/面试",
     "笔记图片/Pasted image 20230907233328.png",
     "笔记图片/Pasted image 20230902235726.png"
   ]
