@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1efe2471f8613063",
+        "id": "4b1bd6cd0fa4fc3c",
         "type": "tabs",
         "children": [
           {
-            "id": "eaf447122133371c",
+            "id": "2f4614a8566fdf2e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "英语/100句7000词.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -29,6 +31,7 @@
       {
         "id": "75b33d535eeb164c",
         "type": "tabs",
+        "dimension": 76.66277712952159,
         "children": [
           {
             "id": "5d0b0da9409abf19",
@@ -37,19 +40,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
-          {
-            "id": "9ba47aa5566b42d9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "大纲"
+              }
             }
           },
           {
@@ -58,32 +49,54 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cursor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "搜索"
+              }
             }
           },
           {
-            "id": "807078fd0f468ab1",
+            "id": "9ba47aa5566b42d9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "英语/100句7000词.md"
+              }
+            }
+          },
+          {
+            "id": "cdbd72357bbc8d63",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f77f85c5b8b510ca",
+        "type": "tabs",
+        "dimension": 23.337222870478413,
+        "children": [
+          {
+            "id": "f012e4784270b82a",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 433.5,
+    "collapsed": true
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -95,31 +108,20 @@
         "dimension": 62.222222222222214,
         "children": [
           {
-            "id": "4ed72fc1e60e98db",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "035084878de0e2c8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": true,
+                "file": "英语/100句7000词.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "反向链接"
+                "unlinkedCollapsed": false
+              }
             }
           },
           {
@@ -128,11 +130,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "英语/100句7000词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "出链"
+              }
             }
           },
           {
@@ -143,9 +144,15 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
+              }
+            }
+          },
+          {
+            "id": "4ed72fc1e60e98db",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           },
           {
@@ -157,12 +164,11 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "08a2d34a08751181",
@@ -174,17 +180,14 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 416.5,
-    "collapsed": true
+    "width": 423.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,36 +200,24 @@
       "canvas:新建白板": true,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": true,
-      "obsidian-git:Open Git source control": false,
-      "homepage:Open homepage": false
+      "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "eaf447122133371c",
+  "active": "2f4614a8566fdf2e",
   "lastOpenFiles": [
-    "杂记/付费产品&软件.md",
-    "conflict-files-obsidian-git.md",
+    "英语/文章/文章收集.md",
     "英语/文章/文章生词/English speaking skills for PTE test.md",
     "英语/文章/文章副本/English speaking skills for PTE test.md",
-    "英语/文章/文章生词",
-    "英语/文章/文章收集.md",
-    "英语/文章/文章副本",
-    "英语/文章",
-    "英语/文章副本/English speaking skills for PTE test.md",
-    "英语/文章副本",
-    "z 前端/vscode 配置2.md",
-    "英语/文章收集.md",
-    "杂记/知识&产品付费.md",
-    "z 前端/精选文章.md",
-    "英语/未命名",
-    "z 前端/工作记录.md",
-    "英语/100句7000词.md",
-    "阅读/微信读书/小王子（中英文对照版）.md",
-    "z 前端/如何工作.md",
-    "z 前端/学习计划.md",
     "英语/单词知识.md",
-    "z 前端/浏览器/宏任务和微任务.md",
+    "英语/文章/文章生词",
+    "英语/文章/未命名.md",
+    "英语/文章",
+    "英语/100句7000词.md",
+    "英语/文章/文章副本",
+    "杂记/付费产品&软件.md",
+    "杂记/vscode 技巧.md",
     "英语/词汇班.md",
+    "conflict-files-obsidian-git.md",
     "阅读/微信读书/大而不倒（经典版）.md",
     "英语",
     "阅读/微信读书/非理性繁荣（第三版）.md",
@@ -236,6 +227,14 @@
     "阅读/微信读书/贫穷的本质：我们为什么摆脱不了贫穷（修订版）.md",
     "阅读/微信读书/谈美.md",
     "阅读/微信读书/谁动了我的奶酪.md",
+    "阅读/微信读书/许三观卖血记（第3版）.md",
+    "阅读/微信读书/苏菲的世界.md",
+    "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
+    "阅读/微信读书/蛤蟆先生去看心理医生.md",
+    "阅读/微信读书/自私的基因（40周年增订版）.md",
+    "阅读/微信读书/股票大作手操盘术.md",
+    "阅读/微信读书/翦商：殷周之变与华夏新生.md",
+    "阅读/微信读书/美国通史.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
@@ -247,6 +246,8 @@
     "笔记图片/Pasted image 20240223180833.png",
     "笔记图片/Pasted image 20240223113654.png",
     "笔记图片/Pasted image 20231206234432.png",
+    "z 前端/打包工具/webpack",
+    "z 前端/小程序/wepy",
     "笔记图片/Pasted image 20230907233328.png",
     "笔记图片/Pasted image 20230902235726.png"
   ]
