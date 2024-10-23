@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+                "file": "英语/文章/文章收集.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say"
+              "title": "文章收集"
             }
           }
         ]
@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
-    "collapsed": true
+    "width": 357.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,8 +207,8 @@
   },
   "active": "6a2447dff1985651",
   "lastOpenFiles": [
-    "英语/文章/文章副本/English speaking skills for PTE test.md",
     "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/文章/文章副本/English speaking skills for PTE test.md",
     "杂记/付费产品&软件.md",
     "尤指澳大利亚、非洲等地的.md",
     "z 前端/面试/只了解.md",
