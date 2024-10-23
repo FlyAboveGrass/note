@@ -35,4 +35,10 @@
 - exploitive [ɪkˈsplɔɪtɪv] 剥削的；利用的
     - exploit - 剥削；利用； -ive 形容词后缀
     - exploitation [ˌeksplɔɪˈteɪʃn] 剥削；利用；abusive [əˈbjuːsɪv] 虐待的；剥削的
-- 
+- indictment
+- approach
+- reveal
+- sophisticated
+- recruiter
+- attorney
+- traffic
