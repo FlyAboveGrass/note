@@ -24,7 +24,7 @@
     - feder - 联盟； -al 形容词后缀
     - federation [ˌfedəˈreɪʃn] 联邦；同盟；confederation [kənˌfedəˈreɪʃn] 邦联
 - prosecutor [ˈprɒsɪkjuːtə(r)] 检察官；公诉人
-    - prosecut - 检举；起诉； -or 人后缀
+    - pro - 向前；secut - 跟随； -or 人后缀
     - prosecute [ˈprɒsɪkjuːt] 起诉；检举；attorney [əˈtɜːni] 律师；lawyer [ˈlɔːjə(r)] 律师
 - fraud [frɔːd] 欺骗；骗子
     - fraud - 欺骗； -ud 名词后缀
@@ -36,7 +36,7 @@
     - en - 使；gage - 承诺； -e 动词后缀
     - engagement [ɪnˈɡeɪdʒmənt] 订婚；约定；occupy [ˈɒkjupaɪ] 从事；占据
 - exploitive [ɪkˈsplɔɪtɪv] 剥削的；利用的
-    - exploit - 剥削；利用； -ive 形容词后缀
+    - ex - 出；ploit/plic - 折叠、缠绕；引申为利用； -ive 形容词后缀
     - exploitation [ˌeksplɔɪˈteɪʃn] 剥削；利用；abusive [əˈbjuːsɪv] 虐待的；剥削的
 - indictment [ɪnˈdaɪtmənt] 起诉书；控告
     - in - 进入；dict - 说； -ment 名词后缀
@@ -44,6 +44,7 @@
 - approach [əˈprəʊtʃ] 方法；接近
     - ap - 向；proach - 接近
     - access [ˈækses] 接近；进入；method [ˈmeθəd] 方法；way [weɪ] 方法
+    - approach for 寻求 xx
 - reveal [rɪˈviːl] 显示；揭露
     - re - 再；veal - 面纱；揭开
     - disclose [dɪsˈkləʊz] 揭露；uncover [ʌnˈkʌvə(r)] 揭开；expose [ɪkˈspəʊz] 暴露
