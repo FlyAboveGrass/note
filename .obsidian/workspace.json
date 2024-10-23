@@ -6,6 +6,7 @@
       {
         "id": "97e4be3960ff2ff6",
         "type": "tabs",
+        "dimension": 57.674418604651166,
         "children": [
           {
             "id": "66c443d91ab5d931",
@@ -13,12 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章收集.md",
+                "file": "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "f4dbddf678fcc668",
+        "type": "tabs",
+        "dimension": 42.32558139534884,
+        "children": [
           {
             "id": "08cbbff74a3d0c57",
             "type": "leaf",
@@ -31,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +96,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f77f85c5b8b510ca",
@@ -108,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -220,9 +227,9 @@
   },
   "active": "08cbbff74a3d0c57",
   "lastOpenFiles": [
-    "英语/文章/文章收集.md",
-    "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
     "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/文章/文章收集.md",
     "英语/100句7000词.md",
     "英语/文章/文章生词/English speaking skills for PTE test.md",
     "英语/文章/文章副本/English speaking skills for PTE test.md",

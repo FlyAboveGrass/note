@@ -2,8 +2,9 @@
 - charged [tʃɑːdʒd] 充满…… 的；紧张的
     - charg - 装载、填充； -ed 形容词后缀
     - chargeable [ˈtʃɑːdʒəbl] 应支付的；可被控告的；charged atmosphere 紧张的氛围
-    - charge 负责
+    - charge 负责, 控告
         - in charge of 负责 xx
+        - charge with 因 xx 被控告
 - prostitution [ˌprɒstɪˈtjuːʃn] 卖淫；娼妓业
     - pro - 向前；stitut - 放置； -ion 名词后缀
     - prostitute [ˈprɒstɪtjuːt] 妓女；娼妓；whore [hɔː(r)] 娼妓；brothel [ˈbrɒθl] 妓院
