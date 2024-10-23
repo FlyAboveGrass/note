@@ -7,7 +7,7 @@ The former CEO of Abercrombie & Fitch (A&F) and his partner have been arrested a
 
 ====Authorities==== arrested former fashion ====executive==== Mike Jeffries, his partner Matthew Smith and the couple’s ====alleged==== middleman - James Jacobson - on Tuesday morning.
 
-====Federal==== ====prosecutors==== said the men used force, ==fraud== and ====coercion==== to ==engage== in "violent and ====exploitive=="== sexual acts.
+====Federal==== ====prosecutors==== said the men used force, ==fraud== and ====coercion==== to ==engage== in "violent and ====exploitive==" sexual acts.
 
 Mr Jeffries and his partner have previously denied any wrongdoing via their lawyers, and Mr Jeffries' lawyer told the BBC on Tuesday that they would "respond in detail to the allegations after the ====Indictment==== is unsealed".
 

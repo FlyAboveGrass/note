@@ -1,10 +1,38 @@
 
-- charged
-- prostitution
-- trafficking
-- authority
-- executive
-- allege
-- federal
-- prosecutor
+- charged [tʃɑːdʒd] 充满…… 的；紧张的
+    - charg - 装载、填充； -ed 形容词后缀
+    - chargeable [ˈtʃɑːdʒəbl] 应支付的；可被控告的；charged atmosphere 紧张的氛围
+- prostitution [ˌprɒstɪˈtjuːʃn] 卖淫；娼妓业
+    - pro - 向前；stitut - 放置； -ion 名词后缀
+    - prostitute [ˈprɒstɪtjuːt] 妓女；娼妓；whore [hɔː(r)] 娼妓；brothel [ˈbrɒθl] 妓院
+- trafficking [ˈtræfɪkɪŋ] 非法交易；贩卖
+    - traffic - 交通、运输； -ing 名词后缀
+    - drug trafficking 贩毒；trafficker [ˈtræfɪkə(r)] 贩子；smuggler [ˈsmʌɡlə(r)] 走私者
+- authority [ɔːˈθɒrəti] 权威；权力；当局
+    - author - 作者、创始人； -ity 名词后缀
+    - authoritative [ɔːˈθɒrətətɪv] 权威的；authoritarian [ɔːˌθɒrɪˈteəriən] 独裁主义的
+- executive [ɪɡˈzekjətɪv] 行政的；执行的；经理
+    - ex - 出；ecut - 执行； -ive 形容词后缀
+    - execute [ˈeksɪkjuːt] 执行；executive power 行政权力；manager [ˈmænɪdʒə(r)] 经理
+- allege [əˈledʒ] 宣称；断言
+    - al - 向；leg - 说； -e 动词后缀
+    - allegation [ˌæləˈɡeɪʃn] 宣称；断言；claim [kleɪm] 声称；assert [əˈsɜːt] 断言
+- federal [ˈfedərəl] 联邦的；同盟的
+    - feder - 联盟； -al 形容词后缀
+    - federation [ˌfedəˈreɪʃn] 联邦；同盟；confederation [kənˌfedəˈreɪʃn] 邦联
+- prosecutor [ˈprɒsɪkjuːtə(r)] 检察官；公诉人
+    - prosecut - 检举；起诉； -or 人后缀
+    - prosecute [ˈprɒsɪkjuːt] 起诉；检举；attorney [əˈtɜːni] 律师；lawyer [ˈlɔːjə(r)] 律师
+- fraud [frɔːd] 欺骗；骗子
+    - fraud - 欺骗； -ud 名词后缀
+    - fraudulent [ˈfrɔːdjələnt] 欺骗性的；cheat [tʃiːt] 欺骗；swindle [ˈswɪndl] 诈骗
+- coercion [kəʊˈɜːʃn] 强制；强迫
+    - coerc - 强制； -ion 名词后缀
+    - coerce [kəʊˈɜːs] 强制；强迫；compel [kəmˈpel] 强迫；force [fɔːs] 力量；强迫
+- engage [ɪnˈɡeɪdʒ] 从事；吸引；订婚
+    - en - 使；gage - 承诺； -e 动词后缀
+    - engagement [ɪnˈɡeɪdʒmənt] 订婚；约定；occupy [ˈɒkjupaɪ] 从事；占据
+- exploitive [ɪkˈsplɔɪtɪv] 剥削的；利用的
+    - exploit - 剥削；利用； -ive 形容词后缀
+    - exploitation [ˌeksplɔɪˈteɪʃn] 剥削；利用；abusive [əˈbjuːsɪv] 虐待的；剥削的
 - 
