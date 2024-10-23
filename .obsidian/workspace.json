@@ -204,6 +204,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
@@ -214,8 +215,7 @@
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": true,
-      "obsidian-tts:Text to Speech": false,
-      "voice:Voice": false
+      "obsidian-tts:Text to Speech": false
     }
   },
   "active": "08cbbff74a3d0c57",
