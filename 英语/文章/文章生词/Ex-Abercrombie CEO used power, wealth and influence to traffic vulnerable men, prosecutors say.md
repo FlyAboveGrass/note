@@ -43,7 +43,7 @@
     - accuse [əˈkjuːz] 控告；charge [tʃɑːdʒ] 控告；prosecution [ˌprɒsɪˈkjuːʃn] 起诉
 - approach [əˈprəʊtʃ] 方法；接近
     - ap - 向；proach - 接近
-    - access [ˈækses] 接近；进入；method [ˈmeθəd] 方法；way [weɪ] 方法
+    - access [ˈækses] 接¬近；进入；method [ˈmeθəd] 方法；way [weɪ] 方法
     - approach for 寻求 xx
 - reveal [rɪˈviːl] 显示；揭露
     - re - 再；veal - 面纱；揭开
