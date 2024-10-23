@@ -13,14 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+                "file": "英语/文章/文章收集.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2f4614a8566fdf2e",
+            "id": "08cbbff74a3d0c57",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -108,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 260.5,
+    "collapsed": true
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -218,12 +219,12 @@
       "voice:Voice": false
     }
   },
-  "active": "2f4614a8566fdf2e",
+  "active": "08cbbff74a3d0c57",
   "lastOpenFiles": [
-    "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
-    "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
-    "英语/100句7000词.md",
     "英语/文章/文章收集.md",
+    "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/100句7000词.md",
     "英语/文章/文章生词/English speaking skills for PTE test.md",
     "英语/文章/文章副本/English speaking skills for PTE test.md",
     "英语/单词知识.md",
