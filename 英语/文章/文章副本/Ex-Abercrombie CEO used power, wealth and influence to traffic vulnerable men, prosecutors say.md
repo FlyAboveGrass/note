@@ -17,11 +17,11 @@ _Warning: This story contains descriptions of sexual acts_
 
 The FBI opened an investigation last year after the BBC ====revealed==== claims that Mike Jeffries and his partner sexually ====exploited==== and abused men at events they hosted in their New York residences and hotels around the world.
 
-The [BBC investigation](https://www.bbc.co.uk/news/articles/cj9l9dlgpmno) found that there was a ====sophisticated==== operation involving a middleman and a network of ======recruiter==s==== tasked with finding men for these events.
+The [BBC investigation](https://www.bbc.co.uk/news/articles/cj9l9dlgpmno) found that there was a ====sophisticated==== operation involving a middleman and a network of ======recruiter==s tasked with finding men for these events.
 
 On Tuesday, US ====attorney==== for the Eastern District of New York, Breon Peace, ====alleged==== that Mr Jeffries used his wealth, power and status as CEO of A&F "to traffic men for his own sexual pleasure" and for the pleasure of his partner, Mr Smith.
 
-====Outlining==== ====prosecutors=='== accusations, Mr Peace ====alleged==== the couple employed Mr Jacobson as their ====recruiter==== who would ====conduct==== =="==tryouts=="== with men from across the ==globe== by engaging them in sex acts in exchange for money.
+====Outlining==== ====prosecutors==' accusations, Mr Peace ====alleged==== the couple employed Mr Jacobson as their ====recruiter==== who would ====conduct==== =="==tryouts=="== with men from across the ==globe== by engaging them in sex acts in exchange for money.
 
 Once Mr Jeffries approved of the men, they would be flown to his New York home where they were "pressured to consume alcohol, Viagra, and muscle relaxants", Mr Peace claimed.
 
@@ -35,15 +35,15 @@ Mike Jeffries leaves court after sex ====trafficking==== hearing in Florida
 
 After a court appearance on Tuesday, Mr Jeffries was released on a $10m (£7.7m) ==bond,== while Mr Jacobson was released on a $500,000 ==bond.== They are next due in court on Friday.
 
-Mr Smith was ordered ====detained==.==
+Mr Smith was ordered ====detained==
 
 Mr Peace, the ====federal==== prosecutor, confirmed at a press conference on Tuesday that ====authorities==== were initially ====tipped off==== by media reports.
 
-Following the BBC’s reporting, a ==civil== ====lawsuit==== was also filed in New York accusing Mr Jeffries and Mr Smith of ==sex======-======trafficking====,== rape and sexual ====assault==.==
+Following the BBC’s reporting, a ==civil== ====lawsuit==== was also filed in New York accusing Mr Jeffries and Mr Smith of ==sex======-======trafficking====, rape and sexual ====assault==
 
-The ====lawsuit==== also accused Abercrombie & Fitch of having funded a ==sex-======trafficking==== operation led by its former CEO over the two decades he was in charge.
+The ====lawsuit==== also accused Abercrombie & Fitch of having funded a ==sex-======trafficking operation led by its former CEO over the two decades he was in charge.
 
-Earlier on Tuesday, Brad Edwards of Edwards Henderson, a ==civil== lawyer representing some of the ====alleged==== victims, said: "These arrests are a huge first step towards obtaining justice for the many victims who were ====exploited==== and abused through this ==sex-======trafficking==== scheme that operated for many years under the ====legitimate==== cover Abercrombie provided.
+Earlier on Tuesday, Brad Edwards of Edwards Henderson, a ==civil== lawyer representing some of the ====alleged==== victims, said: "These arrests are a huge first step towards obtaining justice for the many victims who were ====exploited==== and abused through this ==sex-======trafficking scheme that operated for many years under the ====legitimate==== cover Abercrombie provided.
 
 "The ====unprecedented==== reporting of the BBC, coupled with the ====lawsuit==== our firm filed detailing the operation, are to credit for these ====monumental==== arrests. This was the result of impressive investigative ====journalism==.==”
 
@@ -51,15 +51,15 @@ In its initial investigation, the BBC spoke to 12 men who described attending or
 
 The eight men who attended the events said they were ====recruited==== by a middleman who the BBC identified as James Jacobson.
 
-Then, [more men came forward last month](https://www.bbc.co.uk/news/articles/cj9l9dlgpmno). Some ====alleged==== Mr Jeffries' assistants had injected them in the penis with what they were told was ====liquid Viagra==.==
+Then, [more men came forward last month](https://www.bbc.co.uk/news/articles/cj9l9dlgpmno). Some ====alleged==== Mr Jeffries' assistants had injected them in the penis with what they were told was ====liquid Viagra==
 
-Mr Jacobson, 71, previously told the BBC in a statement through his lawyer that he took offence at the suggestion of "any ====coercive==,== ====deceptive==== or forceful behaviour on my part" and had "no knowledge of any such ====conduct==== by others".
+Mr Jacobson, 71, previously told the BBC in a statement through his lawyer that he took offence at the suggestion of "any ====coercive==, ====deceptive==== or forceful behaviour on my part" and had "no knowledge of any such ====conduct==== by others".
 
 The BBC also interviewed ==dozens== of other sources, including former ====household==== staff.
 
 Some of the men the BBC spoke to said they were ==misled== about the nature of the events or not told sex was involved. Others said they understood the events would be sexual, but not exactly what was expected of them. All were paid.
 
-Several told the BBC the middleman or other ======recruiter==s==== raised the possibility of modelling opportunities with A&F.
+Several told the BBC the middleman or other ======recruiter==s raised the possibility of modelling opportunities with A&F.
 
 David Bradberry, then 23 and an ====aspiring==== model, said that it was "made clear" to him that without performing ==oral== sex on Mr Jacobson, he would not be meeting A&F CEO Mr Jeffries.
 
@@ -71,11 +71,11 @@ He said the =="==secluded=="== location and presence of Mr Jeffries' personal 
 
 After the BBC’s initial investigation was published last year, A&F announced it was opening an independent investigation into the allegations raised. When we recently asked when this report will be completed - and if the findings would be made public - the company declined to answer.
 
-Like Mr Jeffries and Mr Smith, the brand has been trying to get the ==civil== ====lawsuit==== against it dismissed, arguing it had no knowledge of "the supposed ==sex-======trafficking==== ====venture=="== led by its former CEO - which it has been accused of having funded.
+Like Mr Jeffries and Mr Smith, the brand has been trying to get the ==civil== ====lawsuit==== against it dismissed, arguing it had no knowledge of "the supposed ==sex-======trafficking ====venture==" led by its former CEO - which it has been accused of having funded.
 
-Earlier this year, a US court ruled that A&F must cover the cost of Mike Jeffries' legal defence as he continues to fight the ==civil== allegations of ==sex-======trafficking==== and rape. The judge ruled the allegations were tied to his corporate role after he ==sued== the brand for refusing to pay his legal fees.
+Earlier this year, a US court ruled that A&F must cover the cost of Mike Jeffries' legal defence as he continues to fight the ==civil== allegations of ==sex-======trafficking and rape. The judge ruled the allegations were tied to his corporate role after he ==sued== the brand for refusing to pay his legal fees.
 
-The brand said it did not comment on legal matters. However, in its defence submitted to court, A&F said its current leadership team was "previously unaware of" the allegations until the BBC contacted it, adding the company "abhors sexual abuse and ====condemns==== the ====alleged==== ====conduct=="== by Mr Jeffries and others.
+The brand said it did not comment on legal matters. However, in its defence submitted to court, A&F said its current leadership team was "previously unaware of" the allegations until the BBC contacted it, adding the company "abhors sexual abuse and ====condemns==== the ====alleged==== ====conduct==" by Mr Jeffries and others.
 
 In 2014, Mr Jeffries stepped down as CEO following declining sales and left with a retirement package valued at around $25m (£20.5m), according to company filings at the time.
 

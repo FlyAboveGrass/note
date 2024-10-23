@@ -35,10 +35,161 @@
 - exploitive [ɪkˈsplɔɪtɪv] 剥削的；利用的
     - exploit - 剥削；利用； -ive 形容词后缀
     - exploitation [ˌeksplɔɪˈteɪʃn] 剥削；利用；abusive [əˈbjuːsɪv] 虐待的；剥削的
-- indictment
-- approach
-- reveal
-- sophisticated
-- recruiter
-- attorney
-- traffic
+- indictment [ɪnˈdaɪtmənt] 起诉书；控告
+    - in - 进入；dict - 说； -ment 名词后缀
+    - accuse [əˈkjuːz] 控告；charge [tʃɑːdʒ] 控告；prosecution [ˌprɒsɪˈkjuːʃn] 起诉
+- approach [əˈprəʊtʃ] 方法；接近
+    - ap - 向；proach - 接近
+    - access [ˈækses] 接近；进入；method [ˈmeθəd] 方法；way [weɪ] 方法
+- reveal [rɪˈviːl] 显示；揭露
+    - re - 再；veal - 面纱；揭开
+    - disclose [dɪsˈkləʊz] 揭露；uncover [ʌnˈkʌvə(r)] 揭开；expose [ɪkˈspəʊz] 暴露
+- sophisticated [səˈfɪstɪkeɪtɪd] 复杂的；精致的
+    - soph - 智慧；ist - 人； -icated 形容词后缀
+    - elaborate [ɪˈlæbərət] 精心制作的；complex [ˈkɒmpleks] 复杂的；intricate [ˈɪntrɪkət] 复杂精细的
+- recruiter [rɪˈkruːtə(r)] 招聘人员
+    - recruit - 招聘； -er 人后缀
+    - headhunter [ˈhedhʌntə(r)] 猎头；employer [ɪmˈplɔɪə(r)] 雇主；hiring manager 招聘经理
+- attorney [əˈtɜːni] 律师
+    - attorn - 转让； -ey 人后缀
+    - lawyer [ˈlɔːjə(r)] 律师；counsel [ˈkaʊnsl] 法律顾问；advocate [ˈædvəkeɪt] 提倡者；律师
+- traffic [ˈtræfɪk] 交通；运输；非法交易
+    - traff - 交易； -ic 名词后缀
+    - transportation [ˌtrænspɔːˈteɪʃn] 运输；trading [ˈtreɪdɪŋ] 交易；commerce [ˈkɒmɜːs] 贸易
+- outlining [ˈaʊtlaɪnɪŋ] 概述；描画…… 的轮廓
+    - out - 外面；line - 线条； -ing 名词后缀
+    - summarize [ˈsʌməraɪz] 概括；sketch [sketʃ] 素描；概述
+- conduct [kənˈdʌkt] 行为；进行；引导
+    - con - 共同；duct - 引导
+    - behavior [bɪˈheɪvjə(r)] 行为；perform [pəˈfɔːm] 执行；carry out 进行
+- tryout [ˈtraɪaʊt] 试验；试用
+    - try - 尝试；out - 出来
+    - trial [ˈtraɪəl] 试验；test [test] 测试；experiment [ɪkˈsperɪmənt] 实验
+- globe [ɡləʊb] 地球；球体
+    - glob - 球； -e 名词后缀
+    - sphere [sfɪə(r)] 球体；earth [ɜːθ] 地球；planet [ˈplænɪt] 行星
+- viagra [vaɪˈæɡrə] 万艾可（一种壮阳药）
+    - sildenafil [ˌsɪldənəˈfɪl] 西地那非（万艾可主要成分）；erectile dysfunction drug 勃起功能障碍药物；aphrodisiac [ˌæfrəˈdɪziæk] 春药
+- muscle [ˈmʌsl] 肌肉；力量
+    - muscl - 肌肉； -e 名词后缀
+    - strength [streŋθ] 力量；power [ˈpaʊə(r)] 力量；brawn [brɔːn] 肌肉
+- relaxant [rɪˈlæksənt] 弛缓药；放松的
+    - relax - 放松； -ant 名词或形容词后缀
+    - sedative [ˈsedətɪv] 镇静剂；soothing [ˈsuːðɪŋ] 抚慰的；calming [ˈkɑːmɪŋ] 平静的。
+- erection [ɪˈrekʃn] 勃起；建造
+    - erect - 竖立； -ion 名词后缀
+    - build [bɪld] 建造；construction [kənˈstrʌkʃn] 建设；erectile dysfunction 勃起功能障碍
+- induct [ɪnˈdʌkt] 引导；使就职
+    - in - 进入；duct - 引导
+    - introduce [ˌɪntrəˈdjuːs] 介绍；引导；initiate [ɪˈnɪʃieɪt] 开始；使加入
+- infrastructure [ˈɪnfrəstrʌktʃə(r)] 基础设施
+    - infra - 在…… 之下；struct - 建造； -ure 名词后缀
+    - public facilities 公共设施；basic facilities 基础设备；transportation network 交通网络
+- encompass [ɪnˈkʌmpəs] 包围；包含
+    - en - 使；compass - 范围； -s 动词后缀
+    - surround [səˈraʊnd] 包围；include [ɪnˈkluːd] 包含；contain [kənˈteɪn] 包含
+- dozen [ˈdʌzn] 十二个；许多
+    - doz - 十二； -en 名词后缀
+    - score [skɔː(r)] 二十；several [ˈsevrəl] 几个；a number of 许多
+- bond [bɒnd] 债券；结合；纽带
+    - bond - 结合； -d 名词后缀
+    - connection [kəˈnekʃn] 连接；tie [taɪ] 纽带；link [lɪŋk] 连接
+- due [djuː] 到期的；应得的
+    - due - 应得的；到期的
+    - overdue [ˌəʊvəˈdjuː] 过期的；deserved [dɪˈzɜːvd] 应得的；owing [ˈəʊɪŋ] 应付的
+- detain [dɪˈteɪn] 拘留；耽搁
+    - de - 向下；tain - 拿住
+    - arrest [əˈrest] 逮捕；delay [dɪˈleɪ] 耽搁；hold up 耽搁
+- conference [ˈkɒnfərəns] 会议；讨论
+    - con - 共同；fer - 带来； -ence 名词后缀
+    - meeting [ˈmiːtɪŋ] 会议；discussion [dɪˈskʌʃn] 讨论；seminar [ˈsemɪnɑː(r)] 研讨会
+- tip off 告密；通风报信
+    - tip - 尖端；off - 离开
+    - inform on 告发；give away 泄露；blow the whistle 揭发
+- civil [ˈsɪvl] 公民的；民用的；文明的
+    - civ - 公民； -il 形容词后缀
+    - civilian [səˈvɪliən] 平民；civilized [ˈsɪvəlaɪzd] 文明的；municipal [mjuːˈnɪsɪpl] 市政的
+- lawsuit [ˈlɔːsuːt] 诉讼；官司
+    - law - 法律；suit - 诉讼
+    - litigation [ˌlɪtɪˈɡeɪʃn] 诉讼；legal action 法律行动；court case 法庭案件
+- rape [reɪp] 强奸；掠夺
+    - rap - 抢夺； -e 名词后缀
+    - sexual assault 性侵犯；molest [məˈlest] 骚扰；plunder [ˈplʌndə(r)] 掠夺。
+- assault [əˈsɔːlt] 攻击；袭击
+    - as - 向；sault - 跳跃；冲击
+    - attack [əˈtæk] 攻击；strike [straɪk] 打击；raid [reɪd] 袭击
+- exploited [ɪkˈsplɔɪtɪd] 被剥削的；被利用的
+    - exploit - 剥削；利用； -ed 形容词后缀
+    - oppressed [əˈprest] 被压迫的；abused [əˈbjuːzd] 被虐待的；taken advantage of 被利用
+- legitimate [lɪˈdʒɪtɪmət] 合法的；合理的
+    - legit - 合法； -imate 形容词后缀
+    - legal [ˈliːɡl] 法律的；lawful [ˈlɔːfl] 合法的；valid [ˈvælɪd] 有效的
+- unprecedented [ʌnˈpresɪdentɪd] 前所未有的
+    - un - 不；pre - 前；ced - 走； -ent -ed 形容词后缀
+    - unheard-of [ʌnˈhɜːd əv] 前所未闻的；exceptional [ɪkˈsepʃənl] 异常的；extraordinary [ɪkˈstrɔːdnri] 非凡的
+- credit for 因…… 而受到赞誉
+    - credit - 信用；赞誉；for - 为了
+    - deserve credit for 因…… 值得赞扬；be praised for 因…… 而被表扬；be commended for 因…… 而受到称赞
+- monumental [ˌmɒnjuˈmentl] 不朽的；巨大的
+    - monument - 纪念碑； -al 形容词后缀
+    - massive [ˈmæsɪv] 巨大的；enormous [ɪˈnɔːməs] 巨大的；tremendous [trəˈmendəs] 极大的
+- journalism [ˈdʒɜːnəlɪzəm] 新闻业；新闻学
+    - journal - 日报； -ism 名词后缀
+    - news reporting 新闻报道；media [ˈmiːdiə] 媒体；press [pres] 新闻界。
+- offence [əˈfens] 犯罪；冒犯
+    - of - 朝向；fens - 打击；冒犯
+    - crime [kraɪm] 犯罪；sin [sɪn] 罪过；violation [ˌvaɪəˈleɪʃn] 违反
+- coercive [kəʊˈɜːsɪv] 强制的；胁迫的
+    - coerce - 强制； -ive 形容词后缀
+    - compulsory [kəmˈpʌlsəri] 强制的；obligatory [əˈblɪɡətəri] 必须的；mandatory [ˈmændətəri] 强制的
+- household [ˈhaʊshəʊld] 家庭；一家人
+    - house - 房子；hold - 持有；容纳
+    - family [ˈfæməli] 家庭；home [həʊm] 家；domestic [dəˈmestɪk] 家庭的
+- misled [ˌmɪsˈled] 误导
+    - mis - 错误；lead - 引导； -ed 形容词后缀
+    - deceived [dɪˈsiːvd] 被欺骗的；misguided [ˌmɪsˈɡaɪdɪd] 被误导的；misinformed [ˌmɪsɪnˈfɔːmd] 被误导的
+- aspiring [əˈspaɪərɪŋ] 有抱负的
+    - aspire - 渴望；追求； -ing 形容词后缀
+    - ambitious [æmˈbɪʃəs] 有雄心的；enterprising [ˈentəpraɪzɪŋ] 有进取心的；aspirant [əˈspaɪərənt] 有抱负者
+- oral [ˈɔːrəl] 口头的；口的
+    - or - 口； -al 形容词后缀
+    - verbal [ˈvɜːbl] 口头的；spoken [ˈspəʊkən] 口头的；vocal [ˈvəʊkl] 发声的
+- fame [feɪm] 名声；名望
+    - fam - 名声； -e 名词后缀
+    - reputation [ˌrepjuˈteɪʃn] 名声；renown [rɪˈnaʊn] 名望；celebrity [səˈlebrəti] 名人
+- compliance [kəmˈplaɪəns] 顺从；服从
+    - com - 共同；pli - 弯曲； -ance 名词后缀
+    - obedience [əˈbiːdiəns] 服从；submission [səbˈmɪʃn] 屈服；conformity [kənˈfɔːməti] 符合
+- mansion [ˈmænʃn] 大厦；宅邸
+    - mans - 居住； -ion 名词后缀
+    - palace [ˈpæləs] 宫殿；mansion house 官邸；villa [ˈvɪlə] 别墅
+- secluded [sɪˈkluːdɪd] 隐蔽的；与世隔绝的
+    - se - 分开；clud - 关闭； -ed 形容词后缀
+    - isolated [ˈaɪsəleɪtɪd] 孤立的；sequestered [sɪˈkwestəd] 幽静的；remote [rɪˈməʊt] 遥远的
+- presence [ˈprezns] 出席；存在
+    - pres - 在前面； -ence 名词后缀
+    - attendance [əˈtendəns] 出席；existence [ɪɡˈzɪstəns] 存在；appearance [əˈpɪərəns] 出现
+- supervising [ˈsuːpəvaɪzɪŋ] 监督；管理
+    - supervise - 监督； -ing 形容词后缀
+    - oversee [ˌəʊvəˈsiː] 监督；manage [ˈmænɪdʒ] 管理；superintend [ˌsuːpərɪnˈtend] 监督
+- sue [suː] 起诉；控告
+    - su - 跟随；起诉
+    - prosecute [ˈprɒsɪkjuːt] 起诉；litigate [ˈlɪtɪɡeɪt] 打官司；accuse [əˈkjuːz] 控告
+- abhor [əbˈhɔː(r)] 憎恶；痛恨
+    - ab - 离开；hor - 颤抖；恐惧；憎恶
+    - detest [dɪˈtest] 憎恶；
+- condemn [kənˈdem] 谴责；判刑
+    - con - 共同；demn - 伤害；指责
+    - censure [ˈsenʃə(r)] 指责；rebuke [rɪˈbjuːk] 斥责；denounce [dɪˈnaʊns] 谴责
+- filing [ˈfaɪlɪŋ] 存档；归档
+    - file - 文件； -ing 动名词后缀
+    - archiving [ˈɑːkaɪvɪŋ] 存档；record keeping 记录保存；documentation [ˌdɒkjumenˈteɪʃn] 文件编制
+- controversial [ˌkɒntrəˈvɜːʃl] 有争议的
+    - contro - 相反；vers - 转； -ial 形容词后缀
+    - disputable [dɪˈspjuːtəbl] 有争议的；debatable [dɪˈbeɪtəbl] 有争议的；contentious [kənˈtenʃəs] 引起争论的
+- discrimination [dɪˌskrɪmɪˈneɪʃn] 歧视；区别
+    - dis - 分开；crimin - 区分； -ation 名词后缀
+    - prejudice [ˈpredʒudɪs] 偏见；bias [ˈbaɪəs] 偏见；inequality [ˌɪnɪˈkwɒləti] 不平等
+- lavish [ˈlævɪʃ] 浪费的；慷慨的
+    - lav - 冲洗； -ish 形容词后缀
+    - extravagant [ɪkˈstrævəɡənt] 奢侈的；generous [ˈdʒenərəs] 慷慨的；prodigal [ˈprɒdɪɡl] 挥霍的。
