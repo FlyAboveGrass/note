@@ -20,8 +20,22 @@
               "icon": "lucide-file",
               "title": "Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say"
             }
+          },
+          {
+            "id": "a4796251a30ac14f",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+                "staged": true
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 414.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,16 +219,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "6a2447dff1985651",
+  "active": "a4796251a30ac14f",
   "lastOpenFiles": [
-    "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "conflict-files-obsidian-git.md",
     "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
     "英语/文章/文章收集.md",
     "英语/文章/文章副本/English speaking skills for PTE test.md",
     "杂记/付费产品&软件.md",
     "尤指澳大利亚、非洲等地的.md",
     "z 前端/面试/只了解.md",
-    "conflict-files-obsidian-git.md",
     "英语/文章/文章生词/English speaking skills for PTE test.md",
     "英语/文章/文章生词",
     "英语/文章/文章副本",

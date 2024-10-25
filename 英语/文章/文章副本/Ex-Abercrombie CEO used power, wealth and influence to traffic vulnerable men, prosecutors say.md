@@ -20,7 +20,7 @@ The FBI opened an investigation last year after the BBC ====revealed==== claim
 The [BBC investigation](https://www.bbc.co.uk/news/articles/cj9l9dlgpmno) found that there was a ====sophisticated==== operation involving a middleman and a network of ======recruiter==s tasked with finding men for these events.
 
 On Tuesday, US ====attorney==== for the Eastern District of New York, Breon Peace, ====alleged==== that Mr Jeffries used his wealth, power and status as CEO of A&F "to traffic men for his own sexual pleasure" and for the pleasure of his partner, Mr Smith.
-
+ 
 ====Outlining==== ====prosecutors==' accusations, Mr Peace ====alleged==== the couple employed Mr Jacobson as their ====recruiter==== who would ====conduct==== =="==tryouts=="== with men from across the ==globe== by engaging them in sex acts in exchange for money.
 
 Once Mr Jeffries approved of the men, they would be flown to his New York home where they were "pressured to consume alcohol, Viagra, and muscle relaxants", Mr Peace claimed.
