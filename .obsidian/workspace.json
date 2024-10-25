@@ -20,22 +20,8 @@
               "icon": "lucide-file",
               "title": "Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say"
             }
-          },
-          {
-            "id": "a4796251a30ac14f",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
-                "staged": true
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say)"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,7 +205,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "a4796251a30ac14f",
+  "active": "6a2447dff1985651",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
