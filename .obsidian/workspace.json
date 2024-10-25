@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+                "file": "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say"
+              "title": "No end for Boeing labor strike as workers reject latest contract proposal"
             }
           }
         ]
@@ -87,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 255.5
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5
+    "width": 414.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,8 +208,9 @@
   },
   "active": "6a2447dff1985651",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
+    "conflict-files-obsidian-git.md",
     "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
     "英语/文章/文章收集.md",
     "英语/文章/文章副本/English speaking skills for PTE test.md",
@@ -238,7 +240,6 @@
     "英语",
     "阅读/微信读书/非理性繁荣（第三版）.md",
     "阅读/微信读书/非暴力沟通.md",
-    "阅读/微信读书/长安的荔枝.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
