@@ -1,8 +1,8 @@
 {
-  "commitMessage": "vault backup: {{date}}",
+  "commitMessage": "笔记更新: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 20,
-  "autoPushInterval": 20,
+  "autoSaveInterval": 5,
+  "autoPushInterval": 5,
   "autoPullInterval": 20,
   "autoPullOnBoot": true,
   "disablePush": false,
@@ -54,5 +54,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "vault backup: {{date}}"
+  "autoCommitMessage": "笔记更新: {{date}}"
 }
