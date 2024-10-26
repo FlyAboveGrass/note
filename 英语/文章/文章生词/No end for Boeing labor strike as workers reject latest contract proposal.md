@@ -21,6 +21,7 @@
     - discussion [dɪˈskʌʃn] 讨论；consultation [ˌkɒnslˈteɪʃn] 咨询
 - workspace [ˈwɜːkspeɪs] 工作区
     - office [ˈɒfɪs] 办公室；studio [ˈstjuːdiəʊ] 工作室
+        - A studio is typically used for creative activities such as art, photography, or music production. An office is mainly for administrative, business, or professional work.
 - democracy [dɪˈmɒkrəsi] 民主；民主国家
     - republic [rɪˈpʌblɪk] 共和国；autocracy [ɔːˈtɒkrəsi] 独裁统治
 - consequence [ˈkɒnsɪkwəns] 结果；后果
@@ -28,6 +29,7 @@
 - standoff [ˈstændɔːf] 僵持；对峙
     - deadlock [ˈdedlɒk] 僵局；impasse [ˈæmpɑːs] 僵局
 - deprive [dɪˈpraɪv] 剥夺；使丧失
+    - de - 去掉；priv - 个人的、私有的；-e 构成单词
     - rob [rɒb] 抢劫；deplete [dɪˈpliːt] 耗尽
 - machinist [məˈʃiːnɪst] 机械师；机工
     - mechanic [məˈkænɪk] 机械工；technician [tekˈnɪʃn] 技术员
@@ -36,14 +38,17 @@
 - demand [dɪˈmɑːnd] 要求；需求
     - require [rɪˈkwaɪə(r)] 要求；request [rɪˈkwest] 请求
 - revised [rɪˈvaɪzd] 修订的；修正的
+    - re - 再次；vis - 看
     - amended [əˈmendɪd] 修正的；corrected [kəˈrektɪd] 纠正的
 - compound [ˈkɒmpaʊnd] 化合物；复合词
+    - com - 一起；pound - 放置；-e
     - mixture [ˈmɪkstʃə(r)] 混合物；blend [blend] 混合
 - pension [ˈpenʃn] 养老金；退休金
     - annuity [əˈnjuːəti] 年金；retirement pay [rɪˈtaɪəmənt peɪ] 退休金
 - wage [weɪdʒ] 工资；进行，发动（战争等）
     - pay [peɪ] 工资；salary [ˈsæləri] 薪水
 - coordinator [kəʊˈɔːdɪneɪtə(r)] 协调者
+    - co - 共同；ordin - 顺序；-ator 表示人
     - organizer [ˈɔːɡənaɪzə(r)] 组织者；mediator [ˈmiːdieɪtə(r)] 调解人
 - prime [praɪm] 首要的；最好的；最初
     - chief [tʃiːf] 首要的；main [meɪn] 主要的
@@ -56,6 +61,7 @@
 - chief [tʃiːf] 首领；主要的
     - leader [ˈliːdə(r)] 领导者；principal [ˈprɪnsəpl] 主要的
 - revise [rɪˈvaɪz] 修订；复习
+    - re - 再次；vis - 看；-ed
     - amend [əˈmend] 修正；modify [ˈmɒdɪfaɪ] 修改
 - giant [ˈdʒaɪənt] 巨人；巨大的
     - huge [hjuːdʒ] 巨大的；enormous [ɪˈnɔːməs] 庞大的
