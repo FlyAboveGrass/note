@@ -1,0 +1,105 @@
+
+- picket [ˈpɪkɪt] 纠察队；设置纠察线
+    - strikebreaker [ˈstraɪkˌbreɪkə(r)] 破坏罢工者；protestor [prəˈtestə(r)] 抗议者
+- strike [straɪk] 罢工；打击
+    - walkout [ˈwɔːkaʊt] 罢工；boycott [ˈbɔɪkɒt] 抵制；lockout [ˈlɒkaʊt] 停工
+- aerospace [ˈeərəʊspeɪs] 航空航天
+    - astronaut [ˈæstrənɔːt] 宇航员；spaceship [ˈspeɪsʃɪp] 宇宙飞船
+- bestselling [ˌbestˈselɪŋ] 畅销的
+    - popular [ˈpɒpjələ(r)] 流行的；hot-selling [ˌhɒtˈselɪŋ] 热卖的
+- jetliner [ˈdʒetlaɪnə(r)] 喷气客机
+    - airliner [ˈeəlaɪnə(r)] 客机；aircraft [ˈeəkrɑːft] 飞机
+- cast [kɑːst] 投掷；铸件
+    - throw [θrəʊ] 扔；fling [flɪŋ] 猛扔；toss [tɒs] 抛
+- ballot [ˈbælət] 投票；选票
+    - vote [vəʊt] 投票；election [ɪˈlekʃn] 选举
+- sacrifice [ˈsækrɪfaɪs] 牺牲；祭品
+    - give up [ɡɪv ʌp] 放弃；yield [jiːld] 让步
+- resuming [rɪˈzjuːmɪŋ] 重新开始；恢复
+    - restart [ˌriːˈstɑːt] 重新开始；recover [rɪˈkʌvə(r)] 恢复
+- negotiation [nɪˌɡəʊʃiˈeɪʃn] 谈判；协商
+    - discussion [dɪˈskʌʃn] 讨论；consultation [ˌkɒnslˈteɪʃn] 咨询
+- workspace [ˈwɜːkspeɪs] 工作区
+    - office [ˈɒfɪs] 办公室；studio [ˈstjuːdiəʊ] 工作室
+- democracy [dɪˈmɒkrəsi] 民主；民主国家
+    - republic [rɪˈpʌblɪk] 共和国；autocracy [ɔːˈtɒkrəsi] 独裁统治
+- consequence [ˈkɒnsɪkwəns] 结果；后果
+    - result [rɪˈzʌlt] 结果；outcome [ˈaʊtkʌm] 结果
+- standoff [ˈstændɔːf] 僵持；对峙
+    - deadlock [ˈdedlɒk] 僵局；impasse [ˈæmpɑːs] 僵局
+- deprive [dɪˈpraɪv] 剥夺；使丧失
+    - rob [rɒb] 抢劫；deplete [dɪˈpliːt] 耗尽
+- machinist [məˈʃiːnɪst] 机械师；机工
+    - mechanic [məˈkænɪk] 机械工；technician [tekˈnɪʃn] 技术员
+- assemble [əˈsembl] 集合；装配
+    - gather [ˈɡæðə(r)] 聚集；put together [pʊt təˈɡeðə(r)] 组装
+- demand [dɪˈmɑːnd] 要求；需求
+    - require [rɪˈkwaɪə(r)] 要求；request [rɪˈkwest] 请求
+- revised [rɪˈvaɪzd] 修订的；修正的
+    - amended [əˈmendɪd] 修正的；corrected [kəˈrektɪd] 纠正的
+- compound [ˈkɒmpaʊnd] 化合物；复合词
+    - mixture [ˈmɪkstʃə(r)] 混合物；blend [blend] 混合
+- pension [ˈpenʃn] 养老金；退休金
+    - annuity [əˈnjuːəti] 年金；retirement pay [rɪˈtaɪəmənt peɪ] 退休金
+- wage [weɪdʒ] 工资；进行，发动（战争等）
+    - pay [peɪ] 工资；salary [ˈsæləri] 薪水
+- coordinator [kəʊˈɔːdɪneɪtə(r)] 协调者
+    - organizer [ˈɔːɡənaɪzə(r)] 组织者；mediator [ˈmiːdieɪtə(r)] 调解人
+- prime [praɪm] 首要的；最好的；最初
+    - chief [tʃiːf] 首要的；main [meɪn] 主要的
+- heel [hiːl] 脚后跟；倾侧
+    - ankle [ˈæŋkl] 脚踝；foot [fʊt] 脚
+- veteran [ˈvetərən] 老兵；老手
+    - experienced [ɪkˈspɪəriənst] 有经验的；expert [ˈekspɜːt] 专家
+- literally [ˈlɪtərəli] 照字面地；确实地
+    - actually [ˈæktʃuəli] 实际上；really [ˈriːəli] 真正地
+- chief [tʃiːf] 首领；主要的
+    - leader [ˈliːdə(r)] 领导者；principal [ˈprɪnsəpl] 主要的
+- revise [rɪˈvaɪz] 修订；复习
+    - amend [əˈmend] 修正；modify [ˈmɒdɪfaɪ] 修改
+- giant [ˈdʒaɪənt] 巨人；巨大的
+    - huge [hjuːdʒ] 巨大的；enormous [ɪˈnɔːməs] 庞大的
+- reputation [ˌrepjuˈteɪʃn] 名声；声誉
+    - fame [feɪm] 名声；repute [rɪˈpjuːt] 名誉
+- fester [ˈfestə(r)] 溃烂；化脓
+    - ulcerate [ˈʌlsəreɪt] 形成溃疡；suppurate [ˈsʌpjureɪt] 化脓
+- avionic [ˌeɪviˈɒnɪk] 航空电子的
+    - aerospace [ˈeərəʊspeɪs] 航空航天；aeronautical [ˌeərəˈnɔːtɪkl] 航空学的
+- military [ˈmɪlətri] 军事的；军队的
+    - armed [ɑːmd] 武装的；militant [ˈmɪlɪtənt] 好战的
+- erode [ɪˈrəʊd] 侵蚀；腐蚀
+    - corrode [kəˈrəʊd] 腐蚀；wear away [weə(r) əˈweɪ] 磨损
+- saddle [ˈsædl] 马鞍；使承担
+    - stirrup [ˈstɪrəp] 马镫；bridle [ˈbraɪdl] 缰绳
+- lapses [ˈlæpsɪz] 小错；失误
+    - mistakes [mɪˈsteɪks] 错误；errors [ˈerəz] 错误
+- backlog [ˈbæklɒɡ] 积压；储备
+    - pile-up [ˈpaɪl ʌp] 堆积；accumulation [əˌkjuːmjəˈleɪʃn] 积累
+- trillion [ˈtrɪljən] 万亿
+    - billion [ˈbɪljən] 十亿；million [ˈmɪljən] 百万
+- legacy [ˈlegəsi] 遗产；遗留问题
+    - inheritance [ɪnˈherɪtəns] 遗产；bequest [bɪˈkwest] 遗产
+- iconic [aɪˈkɒnɪk] 偶像的；标志性的
+    - symbolical [sɪmˈbɒlɪkl] 象征性的；emblematic [ˌembləˈmætɪk] 象征的
+- layoff [ˈleɪɔːf] 临时解雇；下岗
+    - dismissal [dɪsˈmɪsl] 解雇；unemployment [ˌʌnɪmˈplɔɪmənt] 失业
+- bankruptcy [ˈbæŋkrʌptsi] 破产
+    - insolvency [ɪnˈsɒlvənsi] 无力偿还；failure [ˈfeɪljə(r)] 失败
+- manufacturer [ˌmænjuˈfæktʃərə(r)] 制造商；生产者
+    - producer [prəˈdjuːsə(r)] 生产者；maker [ˈmeɪkə(r)] 制造者
+- per share [pə(r) ʃeə(r)] 每股
+    - earnings per share [ˈɜːnɪŋz pə(r) ʃeə(r)] 每股收益；price per share [praɪs pə(r) ʃeə(r)] 每股价格
+- revenue [ˈrevənjuː] 收入；收益
+    - income [ˈɪnkʌm] 收入；earnings [ˈɜːnɪŋz] 收益；proceeds [ˈprəʊsiːdz] 收入
+- estimate [ˈestɪmət] 估计；估价
+    - assess [əˈses] 评估；evaluate [ɪˈvæljueɪt] 评价；gauge [ɡeɪdʒ] 测量
+- balance sheet [ˈbæləns ʃiːt] 资产负债表
+    - financial statement [faɪˈnænʃl ˈsteɪtmənt] 财务报表；accounting report [əˈkaʊntɪŋ rɪˈpɔːt] 会计报告
+- soured [ˈsaʊəd] 变酸；恶化
+    - spoiled [spɔɪld] 变质的；turned sour [tɜːnd ˈsaʊə(r)] 变酸
+- regulator [ˈreɡjuleɪtə(r)] 监管机构；调整者
+    - supervisor [ˈsuːpəvaɪzə(r)] 监督者；controller [kənˈtrəʊlə(r)] 控制器；monitor [ˈmɒnɪtə(r)] 监视器
+- term [tɜːm] 学期；条款；术语
+    - condition [kənˈdɪʃn] 条件；clause [klɔːz] 条款；provision [prəˈvɪʒn] 规定
+- ratification [ˌrætɪfɪˈkeɪʃn] 批准；认可
+    - approval [əˈpruːvl] 批准；confirmation [ˌkɒnfəˈmeɪʃn] 确认；endorsement [ɪnˈdɔːsmənt] 背书。

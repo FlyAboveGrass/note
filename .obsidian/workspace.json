@@ -6,7 +6,7 @@
       {
         "id": "97e4be3960ff2ff6",
         "type": "tabs",
-        "dimension": 57.674418604651166,
+        "dimension": 54.42338072669827,
         "children": [
           {
             "id": "66c443d91ab5d931",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+                "file": "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
       {
         "id": "f4dbddf678fcc668",
         "type": "tabs",
-        "dimension": 42.32558139534884,
+        "dimension": 45.57661927330174,
         "children": [
           {
             "id": "08cbbff74a3d0c57",
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+                "file": "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md"
+                "file": "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md"
               }
             }
           },
@@ -115,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 200
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+                "file": "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+                "file": "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,10 +227,11 @@
   },
   "active": "66c443d91ab5d931",
   "lastOpenFiles": [
-    "英语/文章/文章副本/What form could reparations for slavery take?.md",
+    "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
     "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
-    "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
     "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/文章/文章副本/What form could reparations for slavery take?.md",
     "英语/文章/文章收集.md",
     "英语/100句7000词.md",
     "英语/文章/文章生词/English speaking skills for PTE test.md",
@@ -255,7 +257,6 @@
     "阅读/微信读书/许三观卖血记（第3版）.md",
     "阅读/微信读书/苏菲的世界.md",
     "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
-    "阅读/微信读书/蛤蟆先生去看心理医生.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",

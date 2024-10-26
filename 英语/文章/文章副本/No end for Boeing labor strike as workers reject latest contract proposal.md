@@ -8,7 +8,6 @@ A spokesperson for Boeing said officials didn’t have a comment on the vote.
 
 The labor ====standoff==== comes during an already challenging year for Boeing, which became the focus of multiple federal investigations after a door panel blew off a 737 Max plane during an Alaska Airlines flight in January.
 
-Advertisement
 
 The ==strike== has ====deprived==== the company of much-needed cash that it gets from delivering new planes to airlines. On Wednesday, the company reported a third-quarter loss of more than $6 billion.
 
