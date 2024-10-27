@@ -1,0 +1,152 @@
+
+- tolerance
+- rural
+- verge
+- reverberate
+- victorious
+- deportation
+- asylum
+- vice
+- democratic
+- nominee
+- contentious
+- prosecute
+- shelter 
+- revive
+- crackdown
+- criminal
+- dealer
+- trafficker
+- secretary
+- limbo
+- bono
+- director
+- deviate
+- dissuade
+- custody
+- minors
+- sue
+- counsel
+- estimate
+- instrumental
+- recordkeeping
+- fallout
+- repercussions
+- diabetes
+- echoing
+- isolation
+- trauma
+
+
+
+- tolerance [ˈtɒlərəns] 宽容；容忍；公差
+    - tol - 忍受；-erance 名词后缀
+    - forbearance [fɔːˈbeərəns] 忍耐；patience [ˈpeɪʃns] 耐心。
+- rural [ˈrʊərəl] 农村的；乡村的
+    - rur - 乡村；-al 形容词后缀
+    - rustic [ˈrʌstɪk] 乡村的；countryside [ˈkʌntrisaɪd] 乡村。
+- verge [vɜːdʒ] 边缘；濒临
+    - -e
+    - brink [brɪŋk] 边缘；edge [edʒ] 边缘。
+- reverberate [rɪˈvɜːbəreɪt] 回响；回荡
+    - re - 回；verber - 打击；-ate 动词后缀
+    - echo [ˈekəʊ] 回声；resound [rɪˈzaʊnd] 回响。
+- victorious [vɪkˈtɔːriəs] 胜利的；得胜的
+    - victor - 胜利者；-ious 形容词后缀
+    - triumphant [traɪˈʌmfənt] 胜利的；successful [səkˈsesfl] 成功的。
+- deportation [ˌdiːpɔːˈteɪʃn] 驱逐出境；放逐
+    - de - 离开；port - 运送；-ation 名词后缀
+    - exile [ˈeksaɪl] 流放；banishment [ˈbænɪʃmənt] 放逐。
+- asylum [əˈsaɪləm] 庇护；政治避难
+    - a - 不；syl - 抓住；-um 名词后缀
+    - refuge [ˈrefjuːdʒ] 避难；shelter [ˈʃeltə(r)] 庇护。
+- vice [vaɪs] 恶习；缺点；邪恶
+    - -e
+    - fault [fɔːlt] 缺点；defect [ˈdiːfekt] 缺陷。
+- democratic [ˌdeməˈkrætɪk] 民主的；民主政治的
+    - demo - 人民；crat - 统治；-ic 形容词后缀
+    - republican [rɪˈpʌblɪkən] 共和的；liberal [ˈlɪbərəl] 自由的。
+- nominee [ˌnɒmɪˈniː] 被提名者；被任命者
+    - nomin - 提名；-ee 被…… 的人
+    - candidate [ˈkændɪdət] 候选人；applicant [ˈæplɪkənt] 申请人。
+-  contentious [kənˈtenʃəs] 有争议的；引起争论的
+    - con - 一起；tent - 伸展；-ious 形容词后缀
+    - controversial [ˌkɒntrəˈvɜːʃl] 有争议的；disputed [dɪˈspjuːtɪd] 有争议的。
+- prosecute [ˈprɒsɪkjuːt] 起诉；检举；继续从事
+    - pro - 向前；secut - 跟随；-e
+    - sue [suː] 起诉；litigate [ˈlɪtɪɡeɪt] 提出诉讼。
+- shelter [ˈʃeltə(r)] 庇护；避难所；遮盖物
+    - -er 名词后缀
+    - refuge [ˈrefjuːdʒ] 避难；asylum [əˈsaɪləm] 庇护。
+- revive [rɪˈvaɪv] 复兴；复活；苏醒
+    - re - 再次；viv - 生命；-e
+    - rejuvenate [rɪˈdʒuːvəneɪt] 使年轻；revitalize [ˌriːˈvaɪtəlaɪz] 使恢复活力。
+- crackdown [ˈkrækdaʊn] 镇压；制裁；打击
+    - crack - 打击；down - 向下
+    - suppression [səˈpreʃn] 镇压；curb [kɜːb] 控制。
+- criminal [ˈkrɪmɪnl] 罪犯；犯罪的
+    - crimin - 犯罪；-al 形容词后缀
+    - offender [əˈfendə(r)] 罪犯；culprit [ˈkʌlprɪt] 罪犯。
+- dealer [ˈdiːlə(r)] 经销商；商人
+    - -er 表示人
+    - merchant [ˈmɜːtʃənt] 商人；trader [ˈtreɪdə(r)] 商人。
+- trafficker [ˈtræfɪkə(r)] 贩子；从事非法买卖的人
+    - traffic - 交通；贸易；-er 表示人
+    - smuggler [ˈsmʌɡlə(r)] 走私者；peddler [ˈpedlə(r)] 小贩。
+- secretary [ˈsekrətri] 秘书；书记；大臣
+    - secret - 秘密；-ary 表示人
+    - clerk [klɑːk] 职员；assistant [əˈsɪstənt] 助手。
+- limbo [ˈlɪmbəʊ] 不稳定状态；中间过渡状态
+    - -o
+    - uncertainty [ʌnˈsɜːtnti] 不确定；indeterminacy [ˌɪndɪˈtɜːmɪnəsi] 不确定。
+- bono [ˈbəʊnəʊ] 博诺（人名）
+    - -o
+    
+- director [dəˈrektə(r)] 导演；主管；董事
+    - direct - 指导；-or 表示人
+    - supervisor [ˈsuːpəvaɪzə(r)] 监督者；manager [ˈmænɪdʒə(r)] 经理。
+- deviate [ˈdiːvieɪt] 偏离；越轨
+    - de - 离开；vi - 路；-ate 动词后缀
+    - diverge [daɪˈvɜːdʒ] 分歧；stray [streɪ] 偏离。
+- dissuade [dɪˈsweɪd] 劝阻；劝止
+    - dis - 否定；suade - 劝说；-e
+    - deter [dɪˈtɜː(r)] 阻止；discourage [dɪsˈkʌrɪdʒ] 使气馁。
+- custody [ˈkʌstədi] 保管；监护
+    - cust - 照顾；-ody 名词后缀
+    - guardianship [ˈɡɑːdiənʃɪp] 监护；care [keə(r)] 照顾。
+- minors [ˈmaɪnəz] 未成年人
+    - minor - 较小的；-s 复数形式
+    - juveniles [ˈdʒuːvənaɪlz] 青少年；teenagers [ˈtiːneɪdʒəz] 青少年。
+- sue [suː] 起诉；控告
+    - -e
+    - prosecute [ˈprɒsɪkjuːt] 起诉；litigate [ˈlɪtɪɡeɪt] 提出诉讼。
+- counsel [ˈkaʊnsl] 建议；劝告；法律顾问
+    - -el 名词后缀
+    - advice [ədˈvaɪs] 建议；recommendation [ˌrekəmenˈdeɪʃn] 推荐。
+- estimate [ˈestɪmət] 估计；估价
+    - estim - 价值；-ate 动词后缀
+    - evaluate [ɪˈvæljueɪt] 评价；assess [əˈses] 评估。
+- instrumental [ˌɪnstrəˈmentl] 乐器的；有帮助的
+    - instrument - 乐器；工具；-al 形容词后缀
+    - useful [ˈjuːsfl] 有用的；helpful [ˈhelpfl] 有帮助的。
+- recordkeeping [ˈrekɔːdkiːpɪŋ] 记录保存
+    - record - 记录；keep - 保存；-ing 名词后缀
+    - documentation [ˌdɒkjumenˈteɪʃn] 文件编制；archiving [ˈɑːkaɪvɪŋ] 存档。
+- fallout [ˈfɔːlaʊt] 后果；余波
+    - fall - 落下；out - 向外
+    - consequence [ˈkɒnsɪkwəns] 结果；aftermath [ˈɑːftəmæθ] 后果。
+- repercussions [ˌriːpəˈkʌʃənz] 反响；影响
+    - repercuss - 反响；-ion 名词后缀；-s 复数形式
+    - impact [ˈɪmpækt] 影响；effect [ɪˈfekt] 效果。
+- diabetes [ˌdaɪəˈbiːtiːz] 糖尿病
+    - diabet - 糖尿病；-es 复数形式
+    - hyperglycemia [ˌhaɪpəɡlaɪˈsiːmiə] 高血糖；hypoglycemia [ˌhaɪpəʊɡlaɪˈsiːmiə] 低血糖。
+- echoing [ˈekəʊɪŋ] 回声；共鸣
+    - echo - 回声；-ing 名词后缀
+    - reverberation [rɪˌvɜːbəˈreɪʃn] 回响；resonance [ˈrezənəns] 共鸣。
+- isolation [ˌaɪsəˈleɪʃn] 隔离；孤立
+    - isol - 孤立；-ation 名词后缀
+    - seclusion [sɪˈkluːʒn] 隔绝；solitude [ˈsɒlɪtjuːd] 孤独。
+- trauma [ˈtrɔːmə] 创伤；外伤
+    - -a
+    - wound [wuːnd] 伤口；injury [ˈɪndʒəri] 伤害。

@@ -6,7 +6,7 @@
       {
         "id": "97e4be3960ff2ff6",
         "type": "tabs",
-        "dimension": 47.983870967741936,
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "66c443d91ab5d931",
@@ -14,32 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
+                "file": "英语/文章/文章副本/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "f4dbddf678fcc668",
-        "type": "tabs",
-        "dimension": 52.016129032258064,
-        "children": [
+          },
           {
             "id": "08cbbff74a3d0c57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
+                "file": "英语/文章/文章生词/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md"
+                "file": "英语/文章/文章生词/Migrant families separated under Trump still feel the fallout and they fear his return to office.md"
               }
             }
           },
@@ -116,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
+                "file": "英语/文章/文章生词/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
+                "file": "英语/文章/文章生词/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,8 +204,10 @@
   },
   "active": "08cbbff74a3d0c57",
   "lastOpenFiles": [
-    "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
+    "英语/文章/文章副本/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
+    "英语/文章/文章生词/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
     "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
+    "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
     "conflict-files-obsidian-git.md",
     "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
     "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
@@ -238,8 +234,6 @@
     "阅读/微信读书/谈美.md",
     "阅读/微信读书/谁动了我的奶酪.md",
     "阅读/微信读书/许三观卖血记（第3版）.md",
-    "阅读/微信读书/苏菲的世界.md",
-    "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
