@@ -4,21 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "6553814c8850cb60",
+        "id": "97e4be3960ff2ff6",
         "type": "tabs",
+        "dimension": 47.983870967741936,
         "children": [
           {
-            "id": "6a2447dff1985651",
+            "id": "66c443d91ab5d931",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/English speaking skills for PTE test.md",
+                "file": "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "English speaking skills for PTE test"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f4dbddf678fcc668",
+        "type": "tabs",
+        "dimension": 52.016129032258064,
+        "children": [
+          {
+            "id": "08cbbff74a3d0c57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -41,19 +59,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
-          {
-            "id": "9ba47aa5566b42d9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "大纲"
+              }
             }
           },
           {
@@ -62,32 +68,38 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cursor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "搜索"
+              }
             }
           },
           {
-            "id": "807078fd0f468ab1",
+            "id": "9ba47aa5566b42d9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md"
+              }
+            }
+          },
+          {
+            "id": "cdbd72357bbc8d63",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 233.5
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -99,31 +111,20 @@
         "dimension": 62.222222222222214,
         "children": [
           {
-            "id": "4ed72fc1e60e98db",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "035084878de0e2c8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": true,
+                "file": "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "反向链接"
+                "unlinkedCollapsed": false
+              }
             }
           },
           {
@@ -132,11 +133,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "出链"
+              }
             }
           },
           {
@@ -147,9 +147,15 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
+              }
+            }
+          },
+          {
+            "id": "4ed72fc1e60e98db",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           },
           {
@@ -161,12 +167,11 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "08a2d34a08751181",
@@ -178,20 +183,18 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 414.5,
-    "collapsed": true
+    "width": 256.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
@@ -202,44 +205,41 @@
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": true,
-      "obsidian-git:Open Git source control": false,
-      "homepage:Open homepage": false
+      "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "6a2447dff1985651",
+  "active": "08cbbff74a3d0c57",
   "lastOpenFiles": [
-    "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
-    "英语/文章/文章收集.md",
     "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
-    "英语/文章/文章副本/What form could reparations for slavery take?.md",
-    "英语/100句7000词.md",
-    "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
     "conflict-files-obsidian-git.md",
+    "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
     "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
-    "英语/文章/文章副本/English speaking skills for PTE test.md",
-    "杂记/付费产品&软件.md",
-    "尤指澳大利亚、非洲等地的.md",
-    "z 前端/面试/只了解.md",
+    "英语/文章/文章副本/What form could reparations for slavery take?.md",
+    "英语/文章/文章收集.md",
+    "英语/100句7000词.md",
     "英语/文章/文章生词/English speaking skills for PTE test.md",
-    "英语/文章/文章生词",
-    "英语/文章/文章副本",
-    "英语/文章",
-    "英语/文章副本/English speaking skills for PTE test.md",
-    "英语/文章副本",
-    "z 前端/vscode 配置2.md",
-    "英语/文章收集.md",
-    "杂记/知识&产品付费.md",
-    "z 前端/精选文章.md",
-    "英语/未命名",
-    "z 前端/工作记录.md",
-    "阅读/微信读书/小王子（中英文对照版）.md",
-    "z 前端/如何工作.md",
-    "z 前端/学习计划.md",
+    "英语/文章/文章副本/English speaking skills for PTE test.md",
     "英语/单词知识.md",
-    "z 前端/浏览器/宏任务和微任务.md",
+    "英语/文章/文章生词",
+    "英语/文章/未命名.md",
+    "英语/文章",
+    "英语/文章/文章副本",
+    "杂记/付费产品&软件.md",
+    "杂记/vscode 技巧.md",
     "英语/词汇班.md",
     "阅读/微信读书/大而不倒（经典版）.md",
     "英语",
+    "阅读/微信读书/非理性繁荣（第三版）.md",
+    "阅读/微信读书/非暴力沟通.md",
+    "阅读/微信读书/长安的荔枝.md",
+    "阅读/微信读书/运营之光：我的互联网运营方法论与自白.md",
+    "阅读/微信读书/贫穷的本质：我们为什么摆脱不了贫穷（修订版）.md",
+    "阅读/微信读书/谈美.md",
+    "阅读/微信读书/谁动了我的奶酪.md",
+    "阅读/微信读书/许三观卖血记（第3版）.md",
+    "阅读/微信读书/苏菲的世界.md",
+    "阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "阅读/微信读书",
     "阅读",
     "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
@@ -251,6 +251,8 @@
     "笔记图片/Pasted image 20240223180833.png",
     "笔记图片/Pasted image 20240223113654.png",
     "笔记图片/Pasted image 20231206234432.png",
+    "z 前端/打包工具/webpack",
+    "z 前端/小程序/wepy",
     "笔记图片/Pasted image 20230907233328.png",
     "笔记图片/Pasted image 20230902235726.png"
   ]
