@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FarSnowflake",
-      "📦",
-      "FarCalendarDays",
-      "🛠",
-      "📔"
+      "LiBrain",
+      "LiRemixMentalHealthFill",
+      "LiLanguages",
+      "LiBookMinus",
+      "FarSnowflake"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -50,5 +50,8 @@
   "diary": "FarCalendarDays",
   "z 前端": "💼",
   "z 前端/打包工具": "📦",
-  "笔记图片": "FarImage"
+  "笔记图片": "FarImage",
+  "阅读": "LiBookMinus",
+  "英语": "LiLanguages",
+  "AI": "LiBrain"
 }
