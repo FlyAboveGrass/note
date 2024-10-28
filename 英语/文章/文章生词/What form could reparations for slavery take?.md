@@ -1,0 +1,222 @@
+
+
+- reignited
+- reparatory
+- agenda
+- paying out
+- commit
+- amend
+- deem
+- monarchy
+- prominent
+- parliament
+- passage
+- abolish
+- tune
+- incur
+- symbolic
+- proportional
+- gravity
+- sums
+- astronomic
+- consequently
+- unfeasible
+- debate
+- burden
+- donor
+- stonement
+- sins
+- institution
+- reluctant
+- absurd
+- colonialism
+- tackle
+- literacy
+- commission
+- explicitly
+- scholarship
+- clinics
+- nutrition
+- incidence
+- chronic
+- proportion
+- coincidence
+- capital
+- mental
+- descendants
+- formally
+- mould
+- summit
+- compensation
+- likewise
+
+
+- reignited [ˌriːɪɡˈnaɪtɪd] 重新点燃
+    - re - 再次；ignite - 点燃；-ed 过去分词形式
+    - rekindle [ˌriːˈkɪndl] 重新点燃；kindle [ˈkɪndl] 点燃。
+- reparatory [ˈrepərətɔːri] 预备的；准备的
+    - repar - 准备；-atory 形容词后缀
+    - preparatory [prɪˈpærətri] 预备的；preliminary [prɪˈlɪmɪnəri] 初步的。
+- agenda [əˈdʒendə] 议程；日常工作事项
+    - -a
+    - schedule [ˈʃedjuːl] 时间表；program [ˈprəʊɡræm] 计划。
+- paying out [ˈpeɪɪŋ aʊt] 支付；付出
+    - pay - 支付；out - 向外
+    - disburse [dɪsˈbɜːs] 支付；expend [ɪkˈspend] 花费。
+- commit [kəˈmɪt] 犯罪；承诺；委托
+    - com - 共同；mit - 送；-e
+    - pledge [pledʒ] 保证；promise [ˈprɒmɪs] 承诺。
+- amend [əˈmend] 修改；改善
+    - a - 加强；mend - 修理；-e
+    - modify [ˈmɒdɪfaɪ] 修改；revise [rɪˈvaɪz] 修订。
+- deem [diːm] 认为；视作
+    - -e
+    - consider [kənˈsɪdə(r)] 考虑；regard [rɪˈɡɑːd] 认为。
+- monarchy [ˈmɒnəki] 君主政体；君主国
+    - mon - 单一；archy - 统治；-y 名词后缀
+    - kingdom [ˈkɪŋdəm] 王国；empire [ˈempaɪə(r)] 帝国。
+- prominent [ˈprɒmɪnənt] 突出的；显著的
+    - pro - 向前；min - 突出；-ent 形容词后缀
+    - conspicuous [kənˈspɪkjuəs] 显眼的；noticeable [ˈnəʊtɪsəbl] 显著的。
+- parliament [ˈpɑːləmənt] 议会；国会
+    - parl - 说话；-ia - 状态；-ment 名词后缀
+    - congress [ˈkɒŋɡres] 国会；assembly [əˈsembli] 议会。
+- passage [ˈpæsɪdʒ] 通道；段落；通过
+    - -e
+    - corridor [ˈkɒrɪdɔː(r)] 走廊；paragraph [ˈpærəɡrɑːf] 段落。
+- abolish [əˈbɒlɪʃ] 废除；取消
+    - ab - 离开；ol - 生长；-ish 动词后缀
+    - eliminate [ɪˈlɪmɪneɪt] 消除；eradicate [ɪˈrædɪkeɪt] 根除。
+-  tune [tjuːn] 曲调；调整
+    - -e
+    - melody [ˈmelədi] 旋律；harmony [ˈhɑːməni] 和声。
+    - to the tune of [tuː ðə tjuːn əv] 达…… 之多；共计
+- incur [ɪnˈkɜː(r)] 招致；遭受
+    - in - 进入；cur - 跑；-e
+    - invite [ɪnˈvaɪt] 招致；suffer [ˈsʌfə(r)] 遭受。
+- debt [det] 债务；欠款
+    - -t
+    - loan [ləʊn] 贷款；owing [ˈəʊɪŋ] 欠着的；indebtedness [ɪnˈdetɪdnəs] 负债。
+- symbolic [sɪmˈbɒlɪk] 象征的；符号的
+    - symbol - 象征；-ic 形容词后缀
+    - emblematic [ˌembləˈmætɪk] 象征的；representative [ˌreprɪˈzentətɪv] 有代表性的。
+- proportional [prəˈpɔːʃənl] 成比例的；相称的
+    - pro - 向前；port - 部分；-ion 名词后缀；-al 形容词后缀
+    - relative [ˈrelətɪv] 相对的；corresponding [ˌkɒrəˈspɒndɪŋ] 相应的。
+    - percentage [pəˈsentɪdʒ] 百分比；ratio [ˈreɪʃiəʊ] 比率；fraction [ˈfrækʃn] 分数。
+- gravity [ˈɡrævəti] 重力；严重性
+    - -y 名词后缀
+    - weight [weɪt] 重量；severity [səˈverəti] 严重。
+- sums [sʌmz] 金额；总数
+    - sum - 总数；-s 复数形式
+    - total [ˈtəʊtl] 总数；amount [əˈmaʊnt] 数量。
+- astronomic [ˌæstrəˈnɒmɪk] 天文学的；巨大的
+    - astronom - 天文学；-ic 形容词后缀
+    - astronomical [ˌæstrəˈnɒmɪkl] 天文学的；enormous [ɪˈnɔːməs] 巨大的。
+- consequently [ˈkɒnsɪkwəntli] 因此；结果
+    - con - 共同；sequ - 跟随；-ent 形容词后缀；-ly 副词后缀
+    - consequent [ˈkɒnsɪkwənt] 随之发生的；作为结果的
+    - therefore [ˈðeəfɔː(r)] 因此；thus [ðʌs] 如此。
+- unfeasible [ʌnˈfiːzəbl] 不可行的；不能实行的
+    - un - 否定; feas - 做；-ible 能够…… 的；
+    - impossible [ɪmˈpɒsəbl] 不可能的；impracticable [ɪmˈpræktɪkəbl] 不切实际的。
+- debate [dɪˈbeɪt] 辩论；争论
+    - -e
+    - argument [ˈɑːɡjumənt] 争论；discussion [dɪˈskʌʃn] 讨论。
+- burden [ˈbɜːdn] 负担；责任
+    - -en 名词后缀
+    - load [ləʊd] 负担；responsibility [rɪˌspɒnsəˈbɪləti] 责任。
+- donor [ˈdəʊnə(r)] 捐赠者；献血者
+    - -or 表示人
+    - contributor [kənˈtrɪbjətə(r)] 贡献者；giver [ˈɡɪvə(r)] 给予者。
+- atonement [əˈtəʊnmənt] 赎罪；弥补
+    - atone - 赎罪；-ment 名词后缀
+    - recompense [ˈrekəmpens] 赔偿；amends [əˈmendz] 赔罪；reparation [ˌrepəˈreɪʃn] 赔偿。
+- sins [sɪnz] 罪过；罪孽
+    - -s 复数形式
+    - guilt [ɡɪlt] 内疚；wrongdoing [ˈrɒŋduːɪŋ] 不法行为。
+- institution [ˌɪnstɪˈtjuːʃn] 机构；制度
+    - in - 进入；stitut - 建立；-ion 名词后缀
+    - organization [ˌɔːɡənaɪˈzeɪʃn] 组织；establishment [ɪˈstæblɪʃmənt] 建立。
+- reluctant [rɪˈlʌktənt] 不情愿的；勉强的
+    - re - 向后；luct - 挣扎；-ant 形容词后缀
+    - unwilling [ʌnˈwɪlɪŋ] 不愿意的；hesitant [ˈhezɪtənt] 犹豫的。
+- absurd [əbˈsɜːd] 荒谬的；可笑的
+    - -d 形容词后缀
+    - ridiculous [rɪˈdɪkjələs] 可笑的；ludicrous [ˈluːdɪkrəs] 滑稽的。
+- colonialism [kəˈləʊniəlɪzəm] 殖民主义
+    - colonial - 殖民的；-ism 主义
+    - imperialism [ɪmˈpɪəriəlɪzəm] 帝国主义；expansionism [ɪkˈspænʃənɪzəm] 扩张主义。
+- tackle [ˈtækl] 处理；解决
+    - -e
+    - handle [ˈhændl] 处理；deal with 处理。
+- literacy [ˈlɪtərəsi] 读写能力；识字
+    - liter - 文字；-acy 名词后缀
+    - reading ability 阅读能力；writing skill 写作技能。
+- commission [kəˈmɪʃn] 委员会；佣金
+    - com - 共同；miss - 送；-ion 名词后缀
+    - committee [kəˈmɪti] 委员会；fee [fiː] 费用。
+- explicitly [ɪkˈsplɪsɪtli] 明确地；清楚地
+    - ex - 向外；plicit - 折叠；-ly 副词后缀
+    - clearly [ˈklɪəli] 清楚地；distinctly [dɪˈstɪŋktli] 明显地。
+- scholarship [ˈskɒləʃɪp] 奖学金；学问
+    - scholar - 学者；-ship 名词后缀
+    - fellowship [ˈfeləʊʃɪp] 奖学金；learning [ˈlɜːnɪŋ] 学问。
+- clinics [ˈklɪnɪks] 诊所；临床
+    - -s 复数形式
+    - hospital [ˈhɒspɪtl] 医院；dispensary [dɪˈspensəri] 药房。
+- nutrition [njuˈtrɪʃn] 营养；营养学
+    - nutri - 营养；-tion 名词后缀
+    - nourishment [ˈnʌrɪʃmənt] 营养；diet [ˈdaɪət] 饮食。
+- incidence [ˈɪnsɪdəns] 发生率；影响范围
+    - in - 进入；cid - 落下；-ence 名词后缀
+    - frequency [ˈfriːkwənsi] 频率；occurrence [əˈkʌrəns] 发生。
+- chronic [ˈkrɒnɪk] 慢性的；长期的
+    - -c 形容词后缀
+    - long-term [ˈlɒŋ tɜːm] 长期的；persistent [pəˈsɪstənt] 持续的。
+- proportion [prəˈpɔːʃn] 比例；部分
+    - proportion - 比例；-n 名词后缀
+    - ratio [ˈreɪʃiəʊ] 比率；fraction [ˈfrækʃn] 部分。
+- coincidence [kəʊˈɪnsɪdəns] 巧合；一致
+    - co - 共同；in - 进入；cid - 落下；-ence 名词后缀
+    - accident [ˈæksɪdənt] 意外；correspondence [ˌkɒrəˈspɒndəns] 一致。
+- capital [ˈkæpɪtl] 首都；资本
+- nutrition [njuˈtrɪʃn] 营养；营养学
+    - nutri - 营养；-tion 名词后缀
+    - nourishment [ˈnʌrɪʃmənt] 营养物；diet [ˈdaɪət] 饮食；supplement [ˈsʌplɪmənt] 补充物。
+- incidence [ˈɪnsɪdəns] 发生率；影响范围
+    - in - 进入；cid - 落下；-ence 名词后缀
+    - frequency [ˈfriːkwənsi] 频率；occurrence [əˈkʌrəns] 发生。
+- chronic [ˈkrɒnɪk] 慢性的；长期的
+    - -c 形容词后缀
+    - long-term [ˈlɒŋ tɜːm] 长期的；persistent [pəˈsɪstənt] 持续的；enduring [ɪnˈdjʊərɪŋ] 持久的。
+- proportion [prəˈpɔːʃn] 比例；部分
+    - proportion - 比例；-n 名词后缀
+    - ratio [ˈreɪʃiəʊ] 比率；fraction [ˈfrækʃn] 部分；percentage [pəˈsentɪdʒ] 百分比。
+- coincidence [kəʊˈɪnsɪdəns] 巧合；一致
+    - co - 共同；in - 进入；cid - 落下；-ence 名词后缀
+    - accident [ˈæksɪdənt] 意外；correspondence [ˌkɒrəˈspɒndəns] 一致；coincidence [kəʊˈɪnsɪdəns] 巧合。
+- capital [ˈkæpɪtl] 首都；资本
+    - -al 名词后缀
+    - metropolis [məˈtrɒpəlɪs] 大都市；fund [fʌnd] 资金；wealth [welθ] 财富。
+- mental [ˈmentl] 精神的；心理的
+    - -al 形容词后缀
+    - psychological [ˌsaɪkəˈlɒdʒɪkl] 心理的；cognitive [ˈkɒɡnətɪv] 认知的；intellectual [ˌɪntəˈlektʃuəl] 智力的。
+- descendants [dɪˈsendənts] 后代；后裔
+    - descend - 下降；-ant 名词后缀；-s 复数形式
+    - offspring [ˈɒfsprɪŋ] 后代；heir [eə(r)] 继承人；successor [səkˈsesə(r)] 继承者。
+- formally [ˈfɔːməli] 正式地；形式上
+    - formal - 正式的；-ly 副词后缀
+    - officially [əˈfɪʃəli] 官方地；ceremoniously [ˌserəˈməʊniəsli] 隆重地。
+- mould [məʊld] 模具；形状
+    - -d 名词后缀
+    - mold [məʊld] 模具；pattern [ˈpætn] 模式；template [ˈtempleɪt] 模板。
+- summit [ˈsʌmɪt] 顶点；峰会
+    - -it 名词后缀
+    - peak [piːk] 山峰；top [tɒp] 顶部；climax [ˈklaɪmæks] 高潮。
+- compensation [ˌkɒmpenˈseɪʃn] 补偿；赔偿
+    - com - 共同；pens - 支付；-ation 名词后缀
+    - reimbursement [ˌriːɪmˈbɜːsmənt] 偿还；indemnity [ɪnˈdemnəti] 赔偿；reparation [ˌrepəˈreɪʃn] 赔偿。
+- likewise [ˈlaɪkwaɪz] 同样地；也
+    - like - 像；-wise 副词后缀
+    - similarly [ˈsɪmələli] 同样地；also [ˈɔːlsəʊ] 也；too [tuː] 也。

@@ -15,11 +15,11 @@ Reparations are measures to make ==amends== for past actions ==deemed== wron
 
 From 1500, the British government and the ====monarchy==== were ====prominent==== participants in the centuries-long slave trade, ====alongside==== other European nations.
 
-Britain also had a key role in ending the trade, through Parliament's passage of a law to ====abolish==== slavery in 1833.
+Britain also had a key role in ending the trade, through Parliament's ==passage== of a law to ====abolish==== slavery in 1833.
 
 As part of that law, British plantation owners were paid for the loss of their slaves, to the ==tune== of some £20m.
 
-The UK only finished paying off the debt it ====incurred==== to cover the payments in 2015.
+The UK only finished paying off the ==debt== it ====incurred==== to cover the payments in 2015.
 
 Reparations for the benefit of those who suffered as result of slavery can take many forms, from financial to ====symbolic==.==
 
@@ -58,6 +58,8 @@ It does not cost anything, just a public act of ====atonement==== for past ==
 Some ====institutions==== – such as the Church of England – have apologised for links to slavery.
 
 The difficulty, though, is that apologies can sometimes act as a declaration of legal responsibility for which there could be a financial cost.
+
+然而，困难在于道歉有时可能被视为对法律责任的声明，而这可能会带来经济成本。
 
 Which is why states are often ====reluctant==== to take that step.
 
