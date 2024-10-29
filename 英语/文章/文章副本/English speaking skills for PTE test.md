@@ -4,7 +4,7 @@
 
 ![English speaking skills for PTE test](https://lrdim.oss-accelerate.aliyuncs.com/blogimg/2024-01-16/1-1.png)
 
-I shared my excitement about the PTE test result in the [previous post](https://lrd.im/blog/2023-12-29). In this post, I will detail the English-speaking skills I learned during the three-month learning journey, which specifically meet the PTE test criteria.
+I shared my excitement about the PTE test result in the [previous post](https://lrd.im/blog/2023-12-29). In this post, I will detail the English-speaking skills I learned during the three-month learning journey, which specifically meet the PTE test ==criteria==.
 
 ## [PTE's criteria](https://lrd.im/blog/2024-01-16#ptes-criteria)
 

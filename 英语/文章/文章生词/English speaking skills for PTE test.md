@@ -31,7 +31,7 @@
 - consonant [ˈkɒnsənənt] 辅音；一致的
     - con - 共同；son - 声音；-ant 形容词后缀
     - vowel [ˈvaʊəl] 元音；harmony [ˈhɑːməni] 和谐。
-- word press 无明显的词根或者前缀后缀
+- word press 重音
 - assimilation [əˌsɪməˈleɪʃn] 同化；吸收
     - as - 向；simil - 相同；-ation 名词后缀
     - absorption [əbˈzɔːpʃn] 吸收；incorporation [ɪnˌkɔːpəˈreɪʃn] 合并。
@@ -43,7 +43,13 @@
     - expression [ɪkˈspreʃn] 表达；clause [klɔːz] 条款。
 - comprehension [ˌkɒmprɪˈhenʃn] 理解；包含
     - com - 共同；prehens - 抓住；-ion 名词后缀
-    - understanding [ˌʌndəˈstændɪŋ] 理解；perception [pəˈsepʃn] 理解。
+	    - understanding [ˌʌndəˈstændɪŋ] 理解；
+	    - perception [pəˈsepʃn] 知觉；感知；看法
+		    - per - 完全；cept - 拿；-ion 名词后缀
+		    - sensation [senˈseɪʃn] 感觉；impression [ɪmˈpreʃn] 印象。
+	    	- interception [ˌɪntəˈsepʃn] 拦截；截断
+	    	    - inter - 在…… 之间；cept - 拿；-ion 名词后缀
+	    	    - blockage [ˈblɒkɪdʒ] 堵塞；obstruction [əbˈstrʌkʃn] 阻碍。
 - significantly [sɪɡˈnɪfɪkəntli] 显著地；重要地
     - signi - 标记；fic - 做；-ant 形容词后缀；-ly 副词后缀
     - remarkably [rɪˈmɑːkəbli] 显著地；considerably [kənˈsɪdərəbli] 相当大地。
@@ -55,7 +61,10 @@
     - disrupt [dɪsˈrʌpt] 扰乱；disturb [dɪˈstɜːb] 打扰。
 - detect [dɪˈtekt] 察觉；发现
     - de - 去掉；tect - 掩盖
-    - discover [dɪˈskʌvə(r)] 发现；perceive [pəˈsiːv] 察觉。
+    - discover [dɪˈskʌvə(r)] 发现；
+	 - perceive [pəˈsiːv] 察觉。
+		 - per - 完全；ceive - 拿
+		 - receive [rɪˈsiːv] 接收；conceive [kənˈsiːv] 构思、怀孕；deceive [dɪˈsiːv] 欺骗
 - accurately [ˈækjərətli] 准确地；精确地
     - accur - 准确；-ate 形容词后缀；-ly 副词后缀
     - precisely [prɪˈsaɪsli] 精确地；exactly [ɪɡˈzæktli] 确切地。
