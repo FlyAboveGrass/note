@@ -100,7 +100,6 @@
 - [Obsidian](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fobsidianmd%2Fobsidian-releases "https://github.com/obsidianmd/obsidian-releases") 多数时候是用来记 TODO 的
 - [QQ 音乐](https://link.juejin.cn/?target=https%3A%2F%2Fy.qq.com%2F "https://y.qq.com/") 版权最多的国内音乐平台，其实更多时候我是开着 Youtube 音乐合集，除非喜欢的歌手发了新歌，可能就用它单曲循环
 - [Snipaste](https://link.juejin.cn/?target=https%3A%2F%2Fwww.snipaste.com%2F "https://www.snipaste.com/") 截图标注界的神
-- [Typora](https://link.juejin.cn/?target=https%3A%2F%2Ftypora.io%2F "https://typora.io/") 付费用户，弥补了 Obsidian 不能单独打开 markdown 文件编辑的问题，暂时还是写博客的主力工具，后续可能会迁移到使用 Obsidian 写博客
 - [柠檬清理](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2FTencent%2Flemon-cleaner "https://github.com/Tencent/lemon-cleaner") 腾讯开源的系统维护工具
 - clashX 连接 VPN
 - obsidian 笔记软件
@@ -110,6 +109,8 @@
 - switchhost 修改本机 host
 - Hidden Bar  隐藏状态栏图标
 - loop 支持快捷键分屏
+- Follow 订阅 RSS
+- LongShot 截图
 
 > 如何卸载飞连：
 > sudo sh /usr/local/corplink/uninstall.sh
@@ -154,10 +155,6 @@
 
 我用的是稳定版的 `VSCode`，安装的时候注意选择苹果芯片版本的安装包。
 
-之前有一段时间一直用的是 `insiders` 版本，现在我只用稳定版：
-
-- `insiders` 版本有时候会出现严重 bug，而且还不是一两天就能修好，有些问题都没法 reproduce，会影响我开发进度
-- 很多插件没有对 `insiders` 版做适配和测试
 
 `VSCode` 自带设置同步功能，我选择使用 `Github` 账号登入。
 
