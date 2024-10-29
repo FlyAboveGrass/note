@@ -1,6 +1,6 @@
 
 - criteria
--  vowel
+- vowel
 - consonant
 - word press
 - assimilation
