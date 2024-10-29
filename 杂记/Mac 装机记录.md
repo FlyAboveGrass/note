@@ -108,7 +108,6 @@
 - paste 复制粘贴历史
 - switchhost 修改本机 host
 - Hidden Bar  隐藏状态栏图标
-- loop 支持快捷键分屏
 - Follow 订阅 RSS
 - LongShot 截图
 
