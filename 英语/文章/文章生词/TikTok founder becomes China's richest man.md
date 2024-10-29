@@ -1,0 +1,82 @@
+
+- surging 
+- founder
+- stepped down
+- intense
+- indication
+- dynamism
+- tech
+- conglomerate
+- rival
+- sputter
+- decline
+- shrunk
+- unprecedented
+- manufacture
+- stumbled
+- intensified
+- glut
+- tariffs
+- whilst
+- respectively
+
+
+
+- surging [ˈsɜːdʒɪŋ] 汹涌的；急剧上升的
+    - surg - 涌起；-ing 形容词后缀
+    - surge [sɜːdʒ] 汹涌；波涛；upsurge [ˈʌpsɜːdʒ] 高涨；急剧上升。
+- founder [ˈfaʊndə(r)] 创立者；奠基人；失败
+    - found - 建立；-er 人或物
+    - foundress [ˈfaʊndrəs] 女创立者；foundling [ˈfaʊndlɪŋ] 弃儿。
+- stepped down 下台；辞职
+    - step - 走；down - 向下
+    - resign [rɪˈzaɪn] 辞职；abdicate [ˈæbdɪkeɪt] 退位。
+- intense [ɪnˈtens] 强烈的；紧张的
+    - in - 加强；tens - 伸展；-e
+    - intensive [ɪnˈtensɪv] 加强的；intensify [ɪnˈtensɪfaɪ] 增强。
+- indication [ˌɪndɪˈkeɪʃn] 指示；迹象
+    - in - 向内；dic - 说；-ation 名词后缀
+    - indicator [ˈɪndɪkeɪtə(r)] 指示器；sign [saɪn] 迹象。
+- dynamism [ˈdaɪnəmɪzəm] 活力；动态
+    - dynam - 力量；-ism 名词后缀
+    - dynamic [daɪˈnæmɪk] 动态的；energetic [ˌenəˈdʒetɪk] 充满活力的。
+- tech [tek] 技术；科技
+    - technology [tekˈnɒlədʒi] 技术；scientific [ˌsaɪənˈtɪfɪk] 科学的；technological [ˌteknəˈlɒdʒɪkl] 技术的。
+- conglomerate [kənˈɡlɒmərət] 企业集团；联合大企业
+    - con - 共同；glomer - 球；-ate 名词后缀
+    - corporation [ˌkɔːpəˈreɪʃn] 公司；enterprise [ˈentəpraɪz] 企业。
+- rival [ˈraɪvl] 竞争对手；敌手
+    - riv - 河流；竞争；-al 人或物
+    - competitor [kəmˈpetɪtə(r)] 竞争者；opponent [əˈpəʊnənt] 对手。
+- sputter [ˈspʌtə(r)] 发劈啪声；气急败坏地说
+    - sput - 喷出；-er 动词后缀
+    - spurt [spɜːt] 喷出；jet [dʒet] 喷射。
+- decline [dɪˈklaɪn] 下降；衰退
+    - de - 向下；clin - 倾斜；-e
+    - descend [dɪˈsend] 下降；diminish [dɪˈmɪnɪʃ] 减少。
+- shrunk [ʃrʌŋk] 收缩；缩水
+    - shr - 收缩；-unk 过去分词形式
+    - shrink [ʃrɪŋk] 收缩；contract [ˈkɒntrækt] 收缩。
+- unprecedented [ʌnˈpresɪdentɪd] 前所未有的
+    - un - 否定；precedent - 先例；-ed 形容词后缀
+    - unheard-of [ʌnˈhɜːd ɒv] 前所未闻的；exceptional [ɪkˈsepʃənl] 例外的。
+- manufacture [ˌmænjuˈfæktʃə(r)] 制造；生产
+    - manu - 手；fact - 做；-ure 名词后缀
+    - producer [prəˈdjuːsə(r)] 生产者；maker [ˈmeɪkə(r)] 制造者。
+- stumbled [ˈstʌmbld] 绊倒；蹒跚
+    - stumbl - 绊倒；-ed 过去分词形式
+    - stagger [ˈstæɡə(r)] 蹒跚；trip [trɪp] 绊倒。
+- intensified [ɪnˈtensɪfaɪd] 增强；强化
+    - in - 加强；tens - 伸展；-ify 动词后缀；-ed 过去分词形式
+    - strengthen [ˈstreŋθn] 加强；enhance [ɪnˈhɑːns] 提高。
+- glut [ɡlʌt] 供过于求；过量
+    - gl - 多；-ut 名词后缀
+    - surplus [ˈsɜːpləs] 过剩；excess [ˈekses] 过量。
+- tariffs [ˈtærɪfs] 关税
+    - tar - 税；-iff 名词后缀；-s 复数形式
+    - duty [ˈdjuːti] 关税；tax [tæks] 税。
+- whilst [waɪlst] 同时；然而
+    - while [waɪl] 同时；although [ɔːlˈðəʊ] 虽然。
+- respectively [rɪˈspektɪvli] 分别地；各自地
+    - respective [rɪˈspektɪv] 各自的；-ly 副词后缀
+    - individually [ˌɪndɪˈvɪdʒuəli] 分别地；separately [ˈseprətli] 单独地。
