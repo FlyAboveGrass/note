@@ -1,0 +1,99 @@
+
+
+- microscopic
+- unlikely
+- demographic
+- turf
+- campaign
+- battleground
+- democratic
+- vice
+- inroad
+- erosion
+- electorate
+- stats
+- saga
+- charisma
+- collateral
+- make the round
+- make the case to
+- gouging
+- appeal
+- pollster
+- reflection
+- flush
+- awash
+- democrat
+- undeterred
+
+
+
+- microscopic [ˌmaɪkrəˈskɒpɪk] 微小的；显微镜的
+    - micro - 小；scop - 看；-ic 形容词后缀
+    - tiny [ˈtaɪni] 微小的；miniature [ˈmɪnətʃə(r)] 微型的。
+- unlikely [ʌnˈlaɪkli] 不太可能的
+    - un - 否定；likely - 可能的；-ly 副词后缀
+    - improbable [ɪmˈprɒbəbl] 不大可能的；doubtful [ˈdaʊtfl] 怀疑的。
+- demographic [ˌdeməˈɡræfɪk] 人口统计学的；人口的
+    - demo - 人民；graph - 写；-ic 形容词后缀
+    - population [ˌpɒpjuˈleɪʃn] 人口；census [ˈsensəs] 人口普查。
+- turf [tɜːf] 草皮；地盘
+    - tur - 草；-f 名词后缀
+    - lawn [lɔːn] 草地；terrain [təˈreɪn] 地形。
+- campaign [kæmˈpeɪn] 运动；战役
+    - camp - 田野；-aign 名词后缀
+    - movement [ˈmuːvmənt] 运动；drive [draɪv] 运动。
+- battleground [ˈbætlɡraʊnd] 战场；斗争的场所
+    - battle - 战斗；ground - 地面；
+    - battlefield [ˈbætlfiːld] 战场；arena [əˈriːnə] 竞技场。
+- democratic [ˌdeməˈkrætɪk] 民主的；民主党的
+    - demo - 人民；crat - 统治；-ic 形容词后缀
+    - republican [rɪˈpʌblɪkən] 共和党的；liberal [ˈlɪbərəl] 自由的。
+- vice [vaɪs] 恶习；缺点；副的
+    - vic - 代替；-e 名词后缀
+    - defect [ˈdiːfekt] 缺点；fault [fɔːlt] 过错。
+- inroad [ˈɪnroʊd] 侵袭；得手；进展
+    - in - 进入；road - 路；
+    - encroachment [ɪnˈkrəʊtʃmənt] 侵犯；intrusion [ɪnˈtruːʒn] 侵入。
+- erosion [ɪˈrəʊʒn] 侵蚀；腐蚀
+    - e - 出；ros - 咬；-ion 名词后缀
+    - corrosion [kəˈrəʊʒn] 腐蚀；deterioration [dɪˌtɪəriəˈreɪʃn] 恶化。
+- electorate [ɪˈlektərət] 全体选民
+    - elect - 选举；-or 名词后缀；-ate 名词后缀
+    - voters [ˈvəʊtəz] 选民；constituency [kənˈstɪtjuənsi] 选区。
+- stats [stæts] 统计；统计资料
+    - statistics [stəˈtɪstɪks] 统计；data [ˈdeɪtə] 数据。
+- saga [ˈsɑːɡə] 传奇；冒险故事
+    - sag - 说；-a 名词后缀
+    - legend [ˈledʒənd] 传奇；tale [teɪl] 故事。- charisma [kəˈrɪzmə] 魅力；感召力
+    - charis - 魅力；-ma 名词后缀
+    - charm [tʃɑːm] 魅力；attraction [əˈtrækʃn] 吸引力。
+- collateral [kəˈlætərəl] 抵押品；旁系的
+    - col - 共同；later - 边；-al 形容词后缀
+    - mortgage [ˈmɔːɡɪdʒ] 抵押；pledge [pledʒ] 抵押。
+- make the round 巡回；四处走动
+- make the case to 提出理由；论证
+- gouging [ˈɡaʊdʒɪŋ] 凿；乱要价
+    - gouge - 凿；-ing 动名词后缀
+    - overcharge [ˌəʊvəˈtʃɑːdʒ] 要价过高；price gouging 价格欺诈。
+- appeal [əˈpiːl] 呼吁；吸引力
+    - ap - 向；peal - 驱动；-al 名词后缀
+    - attraction [əˈtrækʃn] 吸引力；allure [əˈlʊə(r)] 诱惑力。
+- pollster [ˈpəʊlstə(r)] 民意测验专家
+    - poll - 民意测验；-ster 人
+    - surveyor [səˈveɪə(r)] 测量员；researcher [rɪˈsɜːtʃə(r)] 研究员。
+- reflection [rɪˈflekʃn] 反射；反映
+    - re - 回；flect - 弯曲；-ion 名词后缀
+    - mirroring [ˈmɪrərɪŋ] 反映；echo [ˈekəʊ] 回响。
+- flush [flʌʃ] 脸红；冲洗；齐平的
+    - 无明显的词根或者前缀后缀
+    - blush [blʌʃ] 脸红；rinse [rɪns] 冲洗。
+- awash [əˈwɒʃ] 被淹没的；充满的
+    - a - 处于某种状态；wash - 冲洗
+    - flooded [ˈflʌdɪd] 被淹没的；saturated [ˈsætʃəreɪtɪd] 饱和的。
+- democrat [ˈdeməkræt] 民主党人；民主主义者
+    - demo - 人民；crat - 统治；-ist 人
+    - republican [rɪˈpʌblɪkən] 共和党人；liberal [ˈlɪbərəl] 自由的。
+- undeterred [ˌʌndɪˈtɜːd] 未被阻止的；不泄气的
+    - un - 否定；deter - 阻止；-ed 形容词后缀
+    - unimpeded [ˌʌnɪmˈpiːdɪd] 未受阻的；unfazed [ʌnˈfeɪzd] 不惊慌的。
