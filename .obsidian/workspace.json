@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5,
-    "collapsed": true
+    "width": 200.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,8 +207,10 @@
   },
   "active": "6a2447dff1985651",
   "lastOpenFiles": [
-    "计算机/正则表达式.md",
+    "conflict-files-obsidian-git.md",
     "杂记/投资日记.md",
+    "英语/文章/文章生词/What form could reparations for slavery take?.md",
+    "计算机/正则表达式.md",
     "英语/文章/文章副本/English speaking skills for PTE test.md",
     "英语/文章/文章生词/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
     "英语/文章/文章副本/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
@@ -219,7 +220,6 @@
     "英语/文章/文章副本/What form could reparations for slavery take?.md",
     "英语/100句7000词.md",
     "英语/文章/文章副本/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
-    "conflict-files-obsidian-git.md",
     "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
     "杂记/付费产品&软件.md",
     "尤指澳大利亚、非洲等地的.md",
@@ -238,7 +238,6 @@
     "z 前端/工作记录.md",
     "阅读/微信读书/小王子（中英文对照版）.md",
     "z 前端/如何工作.md",
-    "z 前端/学习计划.md",
     "英语",
     "阅读/微信读书",
     "阅读",
