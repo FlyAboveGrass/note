@@ -184,6 +184,10 @@
     - bul - 大、膨胀； -k 名词后缀
     - bulky [ˈbʌlki] 庞大的；笨重的；大块头的
     - mass [mæs] 大量；块；团；群众
+- toll [təʊl] 通行费；伤亡人数
+    - tol - 支付、承担； -l 名词后缀
+    - tollbooth [ˈtəʊlbʊθ] 收费亭
+    - fee [fiː] 费用；酬金；小费
 - revenue [ˈrevənjuː] 收入；收益
     - re - 回；ven - 来；-ue 名词后缀
     - income [ˈɪnkʌm] 收入；earnings [ˈɜːnɪŋz] 收益。

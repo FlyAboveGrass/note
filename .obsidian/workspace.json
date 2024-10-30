@@ -209,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,10 +227,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a2447dff1985651",
+  "active": "5fdf54eb957db42c",
   "lastOpenFiles": [
-    "英语/文章/文章生词/Tariffs hurt his business. He's voting for Trump anyway.md",
     "英语/文章/文章副本/Tariffs hurt his business. He's voting for Trump anyway.md",
+    "英语/文章/文章生词/Tariffs hurt his business. He's voting for Trump anyway.md",
     "英语/文章/文章收集.md",
     "英语/文章/文章生词/English speaking skills for PTE test.md",
     "英语/文章/文章副本/My £250 Child Trust Fund is now worth only £12.md",
