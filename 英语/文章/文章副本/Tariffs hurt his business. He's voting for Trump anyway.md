@@ -14,7 +14,7 @@ But as he prepares to cast his ==ballot,== he expects to swallow his ==qualms
 
 "I will vote for Trump even though he's going to hurt our company if he does what he says he's going to do," he said.
 
-Chadwick's ====readiness==== to ====look past==== Trump's views on tariffs is a sign of the contradictory impulses shaping American politics.
+Chadwick's ====readiness==== to ====look past==== Trump's views on tariffs is a sign of the ==contradictory== ==impulses== shaping American politics.
 
 The Republican's platform has ====shifted==== America - once a global champion of free trade - towards an embrace of policies that are designed to protect US companies and jobs from foreign competition, despite the potential economic drawbacks.
 

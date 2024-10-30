@@ -1,0 +1,34 @@
+
+- entrepreneur
+- pledge
+- tariff
+- drastically
+- wool
+- snap
+- canvas jacket
+- ballot
+- qualm
+- abortion
+- readiness
+- look past
+- contradictory
+- impulse
+- shift
+- keep in place
+- centre
+- center
+- spur
+- reinvigorate
+- raise
+- trail
+- overall
+- retaliation
+- fellow
+- panacea
+- resonating
+- candidate
+- pitfalls
+- globalisation
+- inflation
+- nominee
+- 
