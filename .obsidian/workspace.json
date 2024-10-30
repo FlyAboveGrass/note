@@ -11,10 +11,14 @@
             "id": "376519a8eff1431c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "z 前端/精选文章.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "精选文章"
             }
           }
         ]
@@ -47,9 +51,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "z 前端/精选文章.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "精选文章 的大纲"
             }
           },
           {
@@ -110,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "z 前端/精选文章.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "精选文章 的反向链接列表"
             }
           },
           {
@@ -128,11 +135,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "z 前端/精选文章.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "精选文章 的出链列表"
             }
           },
           {
@@ -214,6 +222,7 @@
   },
   "active": "376519a8eff1431c",
   "lastOpenFiles": [
+    "z 前端/工作记录.md",
     "英语/文章/文章生词/What form could reparations for slavery take?.md",
     "英语/文章/文章生词/TikTok founder becomes China's richest man.md",
     "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
@@ -242,7 +251,6 @@
     "英语/文章/文章生词",
     "英语/文章/文章副本",
     "英语/文章",
-    "英语/文章副本/English speaking skills for PTE test.md",
     "英语/文章副本",
     "英语/未命名",
     "英语",
