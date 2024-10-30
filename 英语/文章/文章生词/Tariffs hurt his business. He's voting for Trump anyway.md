@@ -31,4 +31,5 @@
 - globalisation
 - inflation
 - nominee
+- semiconductor
 - 
