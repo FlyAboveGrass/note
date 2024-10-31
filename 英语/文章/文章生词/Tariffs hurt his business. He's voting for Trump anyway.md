@@ -32,4 +32,166 @@
 - inflation
 - nominee
 - semiconductor
-- 
+- takeover of US steel
+- chills 
+- turn to tool
+- enthusiasm
+- pursuing
+- affirmative
+- impose
+- trade-off
+- co-chief
+- retailer
+- bulk
+- pass on
+- toll
+- revenue
+- attrition
+- warehouse
+- incentive
+- reshoring
+
+
+
+
+- entrepreneur [ˌɒntrəprəˈnɜː(r)] 企业家
+    - entre - 在…… 之间；preneur - 拿取的人
+    - businessman [ˈbɪznəsmæn] 商人；enterprise [ˈentəpraɪz] 企业。
+- pledge [pledʒ] 保证；誓言；抵押
+    - promise [ˈprɒmɪs] 承诺；vow [vaʊ] 誓言。
+- tariff [ˈtærɪf] 关税；收费表
+    - duty [ˈdjuːti] 关税；tax [tæks] 税。
+- drastically [ˈdræstɪkli] 急剧地；彻底地
+    - drastic - 激烈的；-ly 副词后缀
+    - severely [səˈvɪəli] 严重地；sharply [ˈʃɑːpli] 急剧地。
+- wool [wʊl] 羊毛；毛线
+    - cashmere [ˈkæʃmɪə(r)] 羊绒；cotton [ˈkɒtn] 棉花。
+- snap [snæp] 啪地折断；突然断裂；快照
+    - crack [kræk] 破裂；break [breɪk] 打破。
+- canvas jacket [ˈkænvəs ˈdʒækɪt] 帆布夹克
+    - canvas - 帆布；jacket - 夹克
+    - denim jacket [ˈdenɪm ˈdʒækɪt] 牛仔夹克；leather jacket [ˈleðə(r) ˈdʒækɪt] 皮夹克。
+- ballot [ˈbælət] 投票；选票
+    - vote [vəʊt] 投票；election [ɪˈlekʃn] 选举。
+- qualm [kwɑːm] 不安；疑虑
+    - unease [ʌnˈiːz] 不安；anxiety [æŋˈzaɪəti] 焦虑。
+- abortion [əˈbɔːʃn] 流产；堕胎
+    - abort - 中止；-ion 名词后缀
+    - miscarriage [ˈmɪskærɪdʒ] 流产；termination [ˌtɜːmɪˈneɪʃn] 终止。
+- readiness [ˈredinəs] 准备就绪；愿意
+    - ready - 准备好的；-ness 名词后缀
+    - preparedness [prɪˈpeərɪdnəs] 准备就绪；willingness [ˈwɪlɪŋnəs] 愿意。
+- look past [lʊk pɑːst] 忽视；不理会
+    - look - 看；past - 过去
+    - overlook [ˌəʊvəˈlʊk] 忽视；ignore [ɪɡˈnɔː(r)] 不理会。
+- contradictory [ˌkɒntrəˈdɪktəri] 相互矛盾的；对立的
+    - contra - 相反；dict - 说；-ory 形容词后缀
+    - conflicting [kənˈflɪktɪŋ] 冲突的；opposing [əˈpəʊzɪŋ] 相反的。
+- impulse [ˈɪmpʌls] 冲动；脉冲
+    - urge [ɜːdʒ] 强烈欲望；impetus [ˈɪmpɪtəs] 动力。
+- shift [ʃɪft] 转移；改变
+    - change [tʃeɪndʒ] 改变；alter [ˈɔːltə(r)] 改变。
+- keep in place 保持在原位
+    - keep - 保持；in place - 在适当位置
+    - maintain position [meɪnˈteɪn pəˈzɪʃn] 保持位置；stay put [steɪ pʊt] 留在原处。
+- centre /center [ˈsentə(r)] 中心；中央
+    - middle [ˈmɪdl] 中间；core [kɔː(r)] 核心。
+- spur [spɜː(r)] 刺激；激励
+    - stimulate [ˈstɪmjuleɪt] 刺激；encourage [ɪnˈkʌrɪdʒ] 鼓励。
+- reinvigorate [ˌriːɪnˈvɪɡəreɪt] 使恢复活力；使再振作
+    - re - 再次；in - 使；vigor - 活力；-ate 动词后缀
+    - rejuvenate [rɪˈdʒuːvəneɪt] 使年轻；revitalize [ˌriːˈvaɪtəlaɪz] 使恢复生机。
+- raise [reɪz] 提高；升起；筹集
+    - lift [lɪft] 举起；elevate [ˈelɪveɪt] 提升。
+- trail [treɪl] 踪迹；小径；拖
+    - path [pɑːθ] 小路；track [træk] 轨迹。
+- overall [ˈəʊvərɔːl] 全面的；总体的
+    - over - 全部；all - 所有
+    - comprehensive [ˌkɒmprɪˈhensɪv] 全面的；total [ˈtəʊtl] 总的。
+- retaliation [rɪˌtæliˈeɪʃn] 报复；反击
+    - re - 回；tali - 惩罚；-ation 名词后缀
+    - revenge [rɪˈvendʒ] 复仇；retort [rɪˈtɔːt] 反驳。
+- fellow [ˈfeləʊ] 家伙；同事；伙伴
+    - companion [kəmˈpæniən] 同伴；colleague [ˈkɒliːɡ] 同事。
+- panacea [ˌpænəˈsiːə] 万灵药；万能之计
+    - pan - 全部；acea - 治疗
+    - cure-all [ˈkjʊəˌɔːl] 万灵药；remedy [ˈremədi] 治疗法。
+- resonating [ˈrezəneɪtɪŋ] 产生共鸣；回响
+    - re - 再；son - 声音；-ate 动词后缀；-ing 形容词后缀
+    - echoing [ˈekəʊɪŋ] 回响；vibrating [ˈvaɪbreɪtɪŋ] 振动。
+- candidate [ˈkændɪdət] 候选人；应试者
+    - cand - 白色；-id - 某种性质；-ate 人
+    - applicant [ˈæplɪkənt] 申请人；contestant [kənˈtestənt] 竞争者。
+- pitfalls [ˈpɪtfɔːlz] 陷阱；隐患
+    - pit - 坑；fall - 落下；-s 复数后缀
+    - traps [træps] 陷阱；hazards [ˈhæzədz] 危险。
+- globalisation [ˌɡləʊbəlaɪˈzeɪʃn] 全球化
+    - global - 全球的；-isation 名词后缀
+    - internationalisation [ˌɪntəˌnæʃənəlaɪˈzeɪʃn] 国际化；universalisation [ˌjuːnɪˌvɜːsəlaɪˈzeɪʃn] 普遍化。
+- inflation [ɪnˈfleɪʃn] 通货膨胀；膨胀
+    - in - 使；flat - 膨胀；-ion 名词后缀
+    - price hike [praɪs haɪk] 价格上涨；cost increase [kɒst ˈɪnkriːs] 成本增加。
+- nominee [ˌnɒmɪˈniː] 被提名者；被任命者
+    - nomin - 提名；-ee 被…… 的人
+    - candidate [ˈkændɪdət] 候选人；appointee [əˌpɔɪnˈtiː] 被任命者。
+- semiconductor [ˌsemikənˈdʌktə(r)] 半导体
+    - semi - 半；conductor - 导体
+    - microchip [ˈmaɪkrəʊtʃɪp] 微芯片；integrated circuit [ˈɪntɪɡreɪtɪd ˈsɜːkɪt] 集成电路。
+- takeover of US steel 美国钢铁收购案
+    - takeover - 收购；US steel - 美国钢铁
+    - merger of companies [ˈmɜːdʒə(r) əv ˈkʌmpəniz] 公司合并；acquisition [ˌækwɪˈzɪʃn] 收购。
+- chills [tʃɪlz] 寒冷；寒战
+    - coldness [ˈkəʊldnəs] 寒冷；shivers [ˈʃɪvəz] 颤抖。
+- turn to tool 变成工具
+    - turn - 转变；to - 向；tool - 工具
+    - become a tool [bɪˈkʌm ə tuːl] 变成工具；transform into tool [trænsˈfɔːm ˈɪntə tuːl] 转变为工具。
+- enthusiasm [ɪnˈθjuːziæzəm] 热情；热心
+    - en - 使；thus - 神；-iasm 名词后缀
+    - passion [ˈpæʃn] 激情；zeal [ziːl] 热情。
+- pursuing [pəˈsjuːɪŋ] 追求；追赶
+    - pur - 向前；sue - 跟随；-ing 动词后缀
+    - chasing [ˈtʃeɪsɪŋ] 追赶；seeking [ˈsiːkɪŋ] 寻找。
+- affirmative [əˈfɜːmətɪv] 肯定的；同意的
+    - affirm - 肯定；-ative 形容词后缀
+    - positive [ˈpɒzətɪv] 积极的；agreeable [əˈɡriːəbl] 令人愉快的。
+- impose [ɪmˈpəʊz] 强加；征税
+    - im - 使；pos - 放置；-e 动词后缀
+    - enforce [ɪnˈfɔːs] 实施；levy [ˈlevi] 征收。
+- trade-off [ˈtreɪd ɒf] 权衡；交易
+    - trade - 贸易；off - 离开
+    - compromise [ˈkɒmprəmaɪz] 妥协；balance [ˈbæləns] 平衡。
+- co-chief [ˌkəʊˈtʃiːf] 联合首席
+    - co - 共同；chief - 首领
+    - joint leader [dʒɔɪnt ˈliːdə(r)] 联合领导者；shared chief [ʃeəd tʃiːf] 共享首席。
+- retailer [ˈriːteɪlə(r)] 零售商
+    - re - 再；tail - 切；-er 人
+    - merchant [ˈmɜːtʃənt] 商人；shopkeeper [ˈʃɒpkiːpə(r)] 店主。
+- bulk [bʌlk] 体积；容量；大块
+    - bul - 大、膨胀； -k 名词后缀
+    - bulky [ˈbʌlki] 庞大的；笨重的；大块头的
+    - mass [mæs] 大量；块；团；群众
+- toll [təʊl] 通行费；伤亡人数
+    - tol - 支付、承担； -l 名词后缀
+    - tollbooth [ˈtəʊlbʊθ] 收费亭
+    - fee [fiː] 费用；酬金；小费
+- revenue [ˈrevənjuː] 收入；收益
+    - re - 回；ven - 来；-ue 名词后缀
+    - income [ˈɪnkʌm] 收入；earnings [ˈɜːnɪŋz] 收益。
+- attrition [əˈtrɪʃn] 摩擦；磨损；消耗
+    - at - 向；trit - 摩擦；-ion 名词后缀
+    - abrasion [əˈbreɪʒn] 磨损；erosion [ɪˈrəʊʒn] 侵蚀。
+- warehouse [ˈweəhaʊs] 仓库；货栈
+    - ware - 商品；house - 房屋
+    - depot [ˈdepəʊ] 仓库；storage facility [ˈstɔːrɪdʒ fəˈsɪləti] 存储设施。
+- incentive [ɪnˈsentɪv] 激励；刺激
+    - in - 使；cent - 唱；-ive 名词后缀
+    - motivation [ˌməʊtɪˈveɪʃn] 动力；stimulus [ˈstɪmjʊləs] 刺激。
+- reshoring [ˈriːˈʃɔːrɪŋ] 回流；制造业回流
+    - re - 回；shore - 海岸；-ing 名词后缀
+    - onshoring [ˈɒnˈʃɔːrɪŋ] 内包；nearshoring [ˈnɪəˈʃɔːrɪŋ] 近岸外包。
+
+
+
+
+
+
