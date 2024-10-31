@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
+                "file": "英语/文章/文章收集.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike"
+              "title": "文章收集"
             }
           }
         ]
@@ -52,10 +52,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md"
+                "file": "英语/文章/文章收集.md"
               },
               "icon": "lucide-list",
-              "title": "A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike 的大纲"
+              "title": "文章收集 的大纲"
             }
           },
           {
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
+                "file": "英语/文章/文章收集.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike 的反向链接列表"
+              "title": "文章收集 的反向链接列表"
             }
           },
           {
@@ -135,12 +135,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
+                "file": "英语/文章/文章收集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike 的出链列表"
+              "title": "文章收集 的出链列表"
             }
           },
           {
@@ -219,10 +219,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ed72fc1e60e98db",
+  "active": "4c40031bc7d9b90b",
   "lastOpenFiles": [
-    "英语/文章/文章收集.md",
     "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
+    "英语/文章/文章收集.md",
     "英语/文章/文章生词/Tariffs hurt his business. He's voting for Trump anyway.md",
     "英语/文章/文章副本/Tariffs hurt his business. He's voting for Trump anyway.md",
     "英语/文章/文章副本/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
