@@ -4,43 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e313108c3e7be170",
+        "id": "b0aa34f5efb0871b",
         "type": "tabs",
-        "dimension": 45.509433962264154,
         "children": [
           {
-            "id": "6a2447dff1985651",
+            "id": "4c40031bc7d9b90b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/音标.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "音标"
-            }
-          }
-        ]
-      },
-      {
-        "id": "21f1e66736e19f74",
-        "type": "tabs",
-        "dimension": 54.490566037735846,
-        "children": [
-          {
-            "id": "5fdf54eb957db42c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/文章/文章生词/Tariffs hurt his business. He's voting for Trump anyway.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tariffs hurt his business. He's voting for Trump anyway"
+              "title": "新标签页"
             }
           }
         ]
@@ -84,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cursor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -109,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 251.5
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -155,7 +129,7 @@
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
               "title": "出链"
@@ -187,6 +161,16 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "80e449257904d5ed",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ]
       },
@@ -209,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 526.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,53 +212,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a2447dff1985651",
+  "active": "4c40031bc7d9b90b",
   "lastOpenFiles": [
-    "笔记图片/Pasted image 20241030233612.png",
-    "英语/文章/文章副本/Tariffs hurt his business. He's voting for Trump anyway.md",
+    "杂记/付费产品&软件.md",
+    "z 前端/精选文章.md",
+    "conflict-files-obsidian-git.md",
     "英语/音标.md",
+    "笔记图片/Pasted image 20241030233612.png",
     "英语/文章/文章生词/Tariffs hurt his business. He's voting for Trump anyway.md",
-    "英语/文章/文章收集.md",
+    "z 前端/工作记录.md",
+    "英语/文章/文章生词/What form could reparations for slavery take?.md",
+    "英语/文章/文章生词/TikTok founder becomes China's richest man.md",
+    "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md",
+    "英语/文章/文章生词/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
+    "英语/文章/文章生词/In a tight election where every vote counts, Harris is trying to squeeze a few out of Trump’s base.md",
+    "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
     "英语/文章/文章生词/English speaking skills for PTE test.md",
+    "英语/文章/文章收集.md",
+    "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
     "英语/文章/文章副本/My £250 Child Trust Fund is now worth only £12.md",
-    "note/阅读/微信读书/非理性繁荣（第三版）.md",
-    "note/阅读/微信读书/非暴力沟通.md",
-    "note/阅读/微信读书/长安的荔枝.md",
-    "note/阅读/微信读书/运营之光：我的互联网运营方法论与自白.md",
-    "note/阅读/微信读书/贫穷的本质：我们为什么摆脱不了贫穷（修订版）.md",
-    "note/阅读/微信读书/谈美.md",
-    "note/阅读/微信读书/谁动了我的奶酪.md",
-    "note/阅读/微信读书/许三观卖血记（第3版）.md",
-    "note/阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
-    "note/阅读/微信读书/蛤蟆先生去看心理医生.md",
-    "note/阅读/微信读书/苏菲的世界.md",
-    "note/阅读/微信读书/自私的基因（40周年增订版）.md",
-    "note/阅读/微信读书/股票大作手操盘术.md",
-    "note/阅读/微信读书/翦商：殷周之变与华夏新生.md",
-    "note/阅读/微信读书/美国通史.md",
-    "note/阅读/微信读书/美国儿科学会育儿百科（第七版）.md",
-    "note/阅读/微信读书/置身事内：中国政府与经济发展.md",
-    "note/阅读/微信读书/罪与罚.md",
-    "note/阅读/微信读书/缠中说禅：教你轻松炒股票 （第2版）.md",
-    "note/阅读/微信读书",
-    "note/阅读",
-    "note/软件工程",
-    "note/计算机",
-    "note/英语/文章/文章生词",
-    "note/英语/文章/文章副本",
-    "note/英语/文章",
-    "note/英语",
-    "note/经济学",
-    "note/笔记图片/词法作用域.png",
-    "note/笔记图片/缓存使用顺序.png",
-    "note/笔记图片/用例图.jpg",
-    "note/笔记图片/理解中间件.jpg",
-    "note/笔记图片/正向代理.png",
-    "note/笔记图片/树的表示法.png",
-    "note/笔记图片/微前端特性.png",
-    "note/笔记图片/微前端实现方式对比.png",
-    "note/笔记图片/微前端入口js和html对比.jpg",
-    "note/笔记图片/微任务.png",
-    "note/笔记图片/obsidian配置.zip"
+    "英语/文章/文章副本/In a tight election where every vote counts, Harris is trying to squeeze a few out of Trump’s base.md",
+    "英语/文章/文章副本/Tariffs hurt his business. He's voting for Trump anyway.md",
+    "英语/文章/文章副本/TikTok founder becomes China's richest man.md",
+    "英语/文章/文章副本/English speaking skills for PTE test.md",
+    "杂记/Mac 装机记录.md",
+    "杂记/投资日记.md",
+    "计算机/正则表达式.md",
+    "英语/文章/文章副本/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
+    "英语/文章/文章副本/What form could reparations for slavery take?.md",
+    "英语/100句7000词.md",
+    "英语/文章/文章生词",
+    "英语/文章/文章副本",
+    "英语/文章",
+    "英语/文章副本",
+    "英语/未命名",
+    "英语",
+    "阅读/微信读书",
+    "阅读",
+    "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
+    "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
+    "笔记图片/Pasted image 20240524103542.png",
+    "AI/吴恩达prompt",
+    "AI",
+    "笔记图片/Pasted image 20240223180945.png",
+    "笔记图片/Pasted image 20240223180833.png",
+    "笔记图片/Pasted image 20240223113654.png",
+    "笔记图片/Pasted image 20231206234432.png",
+    "笔记图片/Pasted image 20230907233328.png",
+    "笔记图片/Pasted image 20230902235726.png"
   ]
 }
