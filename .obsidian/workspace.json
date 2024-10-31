@@ -201,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 526.5
+    "width": 526.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,7 +220,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ed72fc1e60e98db",
+  "active": "4c40031bc7d9b90b",
   "lastOpenFiles": [
     "英语/文章/文章生词/Tariffs hurt his business. He's voting for Trump anyway.md",
     "英语/文章/文章收集.md",
