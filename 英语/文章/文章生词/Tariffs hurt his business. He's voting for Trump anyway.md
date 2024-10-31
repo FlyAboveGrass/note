@@ -111,6 +111,7 @@
 - retaliation [rɪˌtæliˈeɪʃn] 报复；反击
     - re - 回；tali - 惩罚；-ation 名词后缀
     - revenge [rɪˈvendʒ] 复仇；retort [rɪˈtɔːt] 反驳。
+        - resort 度假胜地
 - fellow [ˈfeləʊ] 家伙；同事；伙伴
     - companion [kəmˈpæniən] 同伴；colleague [ˈkɒliːɡ] 同事。
 - panacea [ˌpænəˈsiːə] 万灵药；万能之计
@@ -119,6 +120,7 @@
 - resonating [ˈrezəneɪtɪŋ] 产生共鸣；回响
     - re - 再；son - 声音；-ate 动词后缀；-ing 形容词后缀
     - echoing [ˈekəʊɪŋ] 回响；vibrating [ˈvaɪbreɪtɪŋ] 振动。
+        - echo
 - candidate [ˈkændɪdət] 候选人；应试者
     - cand - 白色；-id - 某种性质；-ate 人
     - applicant [ˈæplɪkənt] 申请人；contestant [kənˈtestənt] 竞争者。
@@ -151,6 +153,8 @@
 - pursuing [pəˈsjuːɪŋ] 追求；追赶
     - pur - 向前；sue - 跟随；-ing 动词后缀
     - chasing [ˈtʃeɪsɪŋ] 追赶；seeking [ˈsiːkɪŋ] 寻找。
+    - purchase [ˈpɜːtʃəs] 购买；采购
+        - pur - 向前、彻底； chase - 追逐、追求；引申为购买，-se 动词后缀
 - affirmative [əˈfɜːmətɪv] 肯定的；同意的
     - affirm - 肯定；-ative 形容词后缀
     - positive [ˈpɒzətɪv] 积极的；agreeable [əˈɡriːəbl] 令人愉快的。
@@ -170,6 +174,7 @@
     - bul - 大、膨胀； -k 名词后缀
     - bulky [ˈbʌlki] 庞大的；笨重的；大块头的
     - mass [mæs] 大量；块；团；群众
+    - mess [mes] 混乱；脏乱
 - toll [təʊl] 通行费；伤亡人数
     - tol - 支付、承担； -l 名词后缀
     - tollbooth [ˈtəʊlbʊθ] 收费亭
