@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 444.5
+    "width": 357.5
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -201,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 372.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,8 +222,9 @@
   },
   "active": "4c40031bc7d9b90b",
   "lastOpenFiles": [
-    "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
+    "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
     "英语/文章/文章收集.md",
+    "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
     "英语/文章/文章生词/Tariffs hurt his business. He's voting for Trump anyway.md",
     "英语/文章/文章副本/Tariffs hurt his business. He's voting for Trump anyway.md",
     "英语/文章/文章副本/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
@@ -247,7 +249,6 @@
     "杂记/Mac 装机记录.md",
     "杂记/投资日记.md",
     "计算机/正则表达式.md",
-    "英语/文章/文章副本/Migrant families separated under Trump still feel the fallout and they fear his return to office.md",
     "英语/文章/文章生词",
     "英语/文章/文章副本",
     "英语/文章",
