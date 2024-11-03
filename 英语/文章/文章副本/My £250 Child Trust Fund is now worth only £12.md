@@ -5,7 +5,7 @@
 
 When Max Prince turned 18 he got the Child Trust Fund his parents opened when he was born - only to discover surprise fees had left him with just £12.39.
 
-He was one of about six million babies, born between September 2002 and January 2011, who nearly all received at least £250 from the government to kick start their savings.
+He was one of about six million babies, born between September 2002 and January 2011, who nearly all received at least £250 from the government to ==kick== start their savings.
 
 The idea was the long-term tax-free savings ==pot== would go up in value by their 18th birthdays.
 
