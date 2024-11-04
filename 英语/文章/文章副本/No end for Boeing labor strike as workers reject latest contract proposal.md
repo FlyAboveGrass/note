@@ -1,3 +1,6 @@
+
+> 后续： [[Boeing raises pay offer in bid to end seven-week strike]]
+
 SEATTLE (AP) — Boeing factory workers voted against the company’s latest contract offer and remain on the ==picket== lines [six weeks into a ==strike==](https://apnews.com/article/boeing-strike-vote-machinists-12d008c0127bab57f8cc9941f48e3ac6) that has stopped production of the ====aerospace==== giant’s ====bestselling==== ==jetliner==s.
 
 Local union leaders in Seattle said 64% of members of the International Association of Machinists and ====Aerospace==== Workers who ==cast== ====ballots==== Wednesday voted against accepting the [contract offer](https://apnews.com/article/boeing-strike-contract-offer-pay-increase-e86e43bcbbf3e140e89d33c901766554).
@@ -66,3 +69,7 @@ The last Boeing ==strike,== in 2008, lasted eight weeks and cost the company a
 ## ___
 
 Koenig reported from Dallas. Lindsey Wasson in Everett, Washington, contributed to this report.
+
+
+
+
