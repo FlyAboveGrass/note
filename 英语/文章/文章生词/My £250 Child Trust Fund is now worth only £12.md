@@ -3,4 +3,108 @@
 - pot
 - mature
 - charge
-- 
+- pound
+- mature
+- subsequently
+- underlying
+- put in place
+- due
+- authorisation
+- behalf
+- toddler
+- intend
+- grand
+- cruel
+- unclaimed
+- expert
+- fairly
+- discretion
+- reimburse
+- compensation
+- dim
+- ongoing
+
+
+- kick [kɪk] 踢
+    - punch [pʌntʃ] 用拳猛击
+- pot [pɒt] 罐；壶
+    - jar [dʒɑː(r)] 罐子
+- mature [məˈtʃʊə(r)] 成熟的；成年人的
+    - mat - 成熟； -ure 名词或形容词后缀
+    - ripe [raɪp] 成熟的
+    - adult [ˈædʌlt] 成年人
+- charge [tʃɑːdʒ] 费用；控告；充电
+    - char - 装载、负担； -ge 名词后缀
+    - cost [kɒst] 费用
+    - accuse [əˈkjuːz] 控告
+- pound [paʊnd] 磅；英镑
+    - kilogram [ˈkɪləɡræm] 千克
+- subsequently [ˈsʌbsɪkwəntli] 随后；接着
+    - sub - 在…… 下面； sequ - 跟随； -ent 形容词后缀； -ly 副词后缀
+    - afterwards [ˈɑːftəwədz] 后来
+    - then [ðen] 然后
+- underlying [ˌʌndəˈlaɪɪŋ] 潜在的；根本的
+    - under - 在…… 下面； lie - 躺； -ing 形容词后缀； -ing 形容词后缀
+    - fundamental [ˌfʌndəˈmentl] 基本的
+    - essential [ɪˈsenʃl] 必要的
+- put in place 安装好；到位
+    - put - 放置； in - 在…… 里面； place - 地方
+    - install [ɪnˈstɔːl] 安装
+    - set up 建立
+- due [djuː] 到期的；应得的
+    - overdue [ˌəʊvəˈdjuː] 过期的
+    - owed [əʊd] 欠的
+- authorization [ˌɔːθəraɪˈzeɪʃn] 授权；批准
+    - author - 作者； -ize 动词后缀； -ation 名词后缀
+    - permission [pəˈmɪʃn] 允许
+    - approval [əˈpruːvl] 批准
+- behalf [bɪˈhɑːf] 代表；利益
+    - be - 使； half - 一半；此处引申为 “为…… 的一半” 即代表利益
+    - on behalf of 代表
+    - in the interest of 为了…… 的利益
+        - interest 利益；interest rate 利率
+- toddler [ˈtɒdlə(r)] 学步的儿童
+    - toddle - 蹒跚学步； -er 表示人
+    - infant [ˈɪnfənt] 婴儿
+    - baby [ˈbeɪbi] 婴儿
+- intend [ɪnˈtend] 打算；想要
+    - in - 使； tend - 趋向
+    - plan [plæn] 计划
+    - mean [miːn] 打算
+- grand [ɡrænd] 宏伟的；重大的
+    - magnificent [mæɡˈnɪfɪsnt] 壮丽的
+    - splendid [ˈsplendɪd] 辉煌的
+- cruel [ˈkruːəl] 残忍的；残酷的
+    - ruthless [ˈruːθləs] 无情的
+    - harsh [hɑːʃ] 严厉的
+- unclaimed [ˌʌnˈkleɪmd] 无人认领的
+    - un - 否定； claim - 声称；认领； -ed 形容词后缀
+    - abandoned [əˈbændənd] 被遗弃的
+    - forsaken [fəˈseɪkən] 被抛弃的
+- expert [ˈekspɜːt] 专家；内行
+    - ex - 出； pert - 尝试；有经验的人即专家
+    - specialist [ˈspeʃəlɪst] 专家
+    - professional [prəˈfeʃənl] 专业人员
+- fairly [ˈfeəli] 相当地；公平地
+    - fair - 公平的； -ly 副词后缀
+    - quite [kwaɪt] 相当
+    - rather [ˈrɑːðə(r)] 相当
+- discretion [dɪˈskreʃn] 谨慎；自行决定权
+    - dis - 分开； cret - 区分； -ion 名词后缀
+    - prudence [ˈpruːdəns] 谨慎
+    - caution [ˈkɔːʃn] 小心
+- reimburse [ˌriːɪmˈbɜːs] 偿还；赔偿
+    - re - 回； im - 进入； burs - 钱包； -e 动词后缀
+    - compensate [ˈkɒmpenseɪt] 补偿
+    - repay [rɪˈpeɪ] 偿还
+- compensation [ˌkɒmpenˈseɪʃn] 补偿；赔偿
+    - com - 一起； pens - 支付； -ation 名词后缀
+    - indemnity [ɪnˈdemnəti] 赔偿
+    - reparation [ˌrepəˈreɪʃn] 赔偿
+- dim [dɪm] 暗淡的；模糊的
+    - faint [feɪnt] 微弱的
+    - obscure [əbˈskjʊə(r)] 模糊的
+- ongoing [ˈɒnɡəʊɪŋ] 持续的；进行中的
+    - on - 在…… 上； go - 去； -ing 形容词后缀； -ing 形容词后缀
+    - continuous [kənˈtɪnjuəs] 连续的
+    - in progress 在进行中

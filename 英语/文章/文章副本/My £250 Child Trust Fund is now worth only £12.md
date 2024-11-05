@@ -43,15 +43,15 @@ The company told the BBC it had tried to contact Max's parents when it put in pl
 
 Max's parents, who live in Cambridge, said they had moved house and did not receive the letters despite setting up a forwarding system. They said they knew the details of Max's fund and knew when it was due to ==mature== but had not expected to be contacted before then.
 
-Columbia Threadneedle said its Child Trusts Funds "require customers to actively make their own investment decisions and without ====authorisation==== and communication from customers, we are unable to take action on their behalf".
+Columbia Threadneedle said its Child Trusts Funds "require customers to actively make their own investment decisions and without ====authorisation==== and communication from customers, we are unable to take action on their ==behalf==".
 
-Max Prince as a toddler shortly after his government-backed Child Trust Fund was opened for him by his parents
+Max Prince as a ==toddler== shortly after his government-backed Child Trust Fund was opened for him by his parents
 
 Max's parents told the BBC they were unhappy with this explanation and would contact the firm to complain.
 
 Max said: "The money was originally intended by Gordon Brown to be something that would help future adults just get off the ground a bit, get ahead in life.
 
-"In the grand scheme of things it can't be a lot of money for the company, right? It's only around £300, so it is unfair in my opinion.
+"In the ==grand== scheme of things it can't be a lot of money for the company, right? It's only around £300, so it is unfair in my opinion.
 
 "You could say ==cruel.== It's unexplainable I think would be the best way of putting it."
 
