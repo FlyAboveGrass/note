@@ -14,7 +14,7 @@ Next year, a U.N. ocean ====conference==== will take place in Nice, France, an
 
 “In 2024, climate change and other human impacts triggered the fourth mass ==coral== reef ====bleaching==== event, the most ====extensive==== and ====devastating==== on record,” said Peter Thomson, the U.N. Secretary-General’s Special Envoy for the Ocean. “With the window to protect these ecosystems closing rapidly, world leaders must act now.”
 
-“We must secure a sustainable future for ==coral== ==reefs== and the countless lives that rely on them —before it’s too late,” Thomson said.
+“We must secure a ==sustainable== future for ==coral== ==reefs== and the countless lives that rely on them —before it’s too late,” Thomson said.
 
 A change in [water temperature can cause ==coral== to drive out ==algae==](https://oceanservice.noaa.gov/facts/coral_bleach.html) that provides ====nutrition==,== lose its color and become stressed. ==Coral== may bleach for other reasons, such as extremely low ==tides,== pollution or too much sunlight.
 

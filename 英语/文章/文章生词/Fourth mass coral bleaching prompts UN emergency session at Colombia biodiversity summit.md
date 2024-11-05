@@ -1,0 +1,115 @@
+
+- coral
+- reef
+- bleaching
+- due
+- amid
+- hemisphere
+- prompt
+- session
+- escalating
+- convened
+- vital
+- marine
+- coastal
+- livelihood
+- pledge
+- established
+- leverage
+- conservation
+- precious
+- acidification
+- conference
+- mobilizing
+- extensive
+- devastating 
+- sustainable
+- algae
+- nutrition
+- tides
+- solely
+- philanthropies
+
+
+
+
+
+- coral [ˈkɒrəl] 珊瑚
+    - anemone [əˈneməni] 海葵
+- reef [riːf] 暗礁
+    - shoal [ʃəʊl] 浅滩
+- bleaching [ˈbliːtʃɪŋ] 漂白；褪色
+    - bleach - 漂白； -ing 名词后缀
+    - fading [ˈfeɪdɪŋ] 褪色
+    - whitening [ˈwaɪtnɪŋ] 变白
+- due [djuː] 到期的；应得的
+    - overdue [ˌəʊvəˈdjuː] 过期的
+    - owed [əʊd] 欠的
+- amid [əˈmɪd] 在…… 之中
+    - a - 在； mid - 中间
+    - amongst [əˈmʌŋst] 在…… 之中
+    - among [əˈmʌŋ] 在…… 之中
+- hemisphere [ˈhemɪsfɪə(r)] 半球
+    - hemi - 半； sphere - 球
+    - semi-circle [ˈsemiˌsɜːkl] 半圆
+- prompt [prɒmpt] 促使；推动；敏捷的
+    - pro - 向前； empt - 拿；拿在前面即促使，引申为敏捷的
+    - urge [ɜːdʒ] 催促
+    - spur [spɜː(r)] 激励
+- session [ˈseʃn] 会议；一段时间
+    - sess - 坐； -ion 名词后缀
+    - meeting [ˈmiːtɪŋ] 会议
+    - conference [ˈkɒnfərəns] 会议
+- leverage [ˈliːvərɪdʒ] 杠杆作用；影响力
+    - lev - 举起； -er - 表示物； -age 名词后缀
+    - influence [ˈɪnfluəns] 影响
+    - power [ˈpaʊə(r)] 力量
+- conservation [ˌkɒnsəˈveɪʃn] 保护；保存
+    - con - 一起； serv - 保持； -ation 名词后缀
+    - preservation [ˌprezəˈveɪʃn] 保护
+    - protection [ˌprətekʃn] 保护
+- precious [ˈpreʃəs] 珍贵的；宝贵的
+    - valuable [ˈvæljuəbl] 有价值的
+    - rare [reə(r)] 稀有的
+- acidification [əˌsɪdɪfɪˈkeɪʃn] 酸化
+    - acid - 酸； -ify - 使……； -ation 名词后缀
+    - acidity [əˈsɪdəti] 酸度
+    - sourness [ˈsaʊənəs] 酸味
+- conference [ˈkɒnfərəns] 会议；讨论会
+    - con - 一起； fer - 带来； -ence 名词后缀
+    - meeting [ˈmiːtɪŋ] 会议
+    - seminar [ˈsemɪnɑː(r)] 研讨会
+- mobilizing [ˈməʊbəlaɪzɪŋ] 动员；调动
+    - mobil - 移动； -ize - 使……； -ing 形容词后缀
+    - activate [ˈæktɪveɪt] 使活动
+    - arouse [əˈraʊz] 唤起
+- extensive [ɪkˈstensɪv] 广泛的；大量的
+    - ex - 出； tens - 伸展； -ive 形容词后缀
+    - broad [brɔːd] 宽广的
+    - wide [waɪd] 宽的
+- devastating [ˈdevəsteɪtɪŋ] 毁灭性的；极具破坏力的
+    - devast - 破坏； -ate - 使……； -ing 形容词后缀
+    - destructive [dɪˈstrʌktɪv] 破坏性的
+    - ruinous [ˈruːɪnəs] 毁灭性的
+- sustainable [səˈsteɪnəbl] 可持续的
+    - sus - 在…… 下面； tain - 保持； -able 形容词后缀
+    - renewable [rɪˈnjuːəbl] 可更新的
+    - eco-friendly 环保的
+- algae [ˈældʒiː] 藻类；海藻
+    - seaweed [ˈsiːwiːd] 海草；海藻
+    - kelp [kelp] 巨藻
+- nutrition [njuˈtrɪʃn] 营养；营养学
+    - nutri - 营养； -tion 名词后缀
+    - nourishment [ˈnʌrɪʃmənt] 营养
+    - sustenance [ˈsʌstənəns] 食物；营养
+- tides [taɪdz] 潮汐；潮流
+    - tidewater [ˈtaɪdwɔːtə(r)] 潮水
+    - tidal [ˈtaɪdl] 潮汐的
+- solely [ˈsəʊlli] 仅仅；单独地
+    - sole - 单独的； -ly 副词后缀
+    - only [ˈəʊnli] 仅仅
+    - exclusively [ɪkˈskluːsɪvli] 唯一地
+- philanthropies [fɪˈlænθrəpiz] 慈善事业
+    - phil - 爱； anthrop - 人类； -y 名词后缀
+    - charity [ˈtʃærəti] 慈善
+    - donation [dəʊˈneɪʃn] 捐赠
