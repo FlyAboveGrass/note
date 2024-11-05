@@ -2,6 +2,7 @@
 - coral
 - reef
 - bleaching
+- marine
 - due
 - amid
 - hemisphere
@@ -42,6 +43,11 @@
     - bleach - 漂白； -ing 名词后缀
     - fading [ˈfeɪdɪŋ] 褪色
     - whitening [ˈwaɪtnɪŋ] 变白
+- marine [məˈriːn] 海洋的；海产的；海军的
+    - mar - 海； -ine 形容词后缀
+    - maritime [ˈmærɪtaɪm] 海的；海事的
+    - nautical [ˈnɔːtɪkl] 航海的；船舶的
+    - oceanic [ˌəʊʃiˈænɪk] 海洋的；大海的。
 - due [djuː] 到期的；应得的
     - overdue [ˌəʊvəˈdjuː] 过期的
     - owed [əʊd] 欠的
@@ -60,6 +66,47 @@
     - sess - 坐； -ion 名词后缀
     - meeting [ˈmiːtɪŋ] 会议
     - conference [ˈkɒnfərəns] 会议
+- escalating [ˈeskəleɪtɪŋ] 逐步上升的；不断升级的
+    - escala - 梯子； -ting 形容词后缀，表示正在进行的动作
+    - increasing [ɪnˈkriːsɪŋ] 增长的；不断增加的
+    - rising [ˈraɪzɪŋ] 上升的；上涨的
+    - surging [ˈsɜːdʒɪŋ] 汹涌的；急剧上升的
+- convened [kənˈviːnd] 召集；召开
+    - con - 共同； -ven - 来； -ed 过去分词后缀
+    - assembled [əˈsembld] 集合；装配
+    - gathered [ˈɡæðəd] 聚集；收集
+    - summoned [ˈsʌmənd] 召唤；召集
+- vital [ˈvaɪtl] 至关重要的；生死攸关的
+    - vit - 生命； -al 形容词后缀
+    - crucial [ˈkruːʃl] 至关重要的；决定性的
+        - cruel 残酷的
+    - essential [ɪˈsenʃl] 必要的；本质的
+    - fundamental [ˌfʌndəˈmentl] 基本的；重要的
+- marine [məˈriːn] 海洋的；海产的；海军的
+    - mar - 海； -ine 形容词后缀
+    - maritime [ˈmærɪtaɪm] 海的；海事的
+    - nautical [ˈnɔːtɪkl] 航海的；船舶的
+    - oceanic [ˌəʊʃiˈænɪk] 海洋的；大海的
+- coastal [ˈkəʊstl] 沿海的；海岸的
+    - coast - 海岸； -al 形容词后缀
+    - seaside [ˈsiːsaɪd] 海边的；海滨的
+    - shoreline [ˈʃɔːlaɪn] 海岸线；海滨
+    - littoral [ˈlɪtərəl] 沿海的；海滨的
+- livelihood [ˈlaɪvlihʊd] 生计；生活
+    - live - 生活； -lihood 名词后缀，表示状态或性质
+    - subsistence [səbˈsɪstəns] 生存；生活
+    - occupation [ˌɒkjuˈpeɪʃn] 职业；占有
+    - profession [prəˈfeʃn] 职业；专业
+- pledge [pledʒ] 保证；誓言；抵押
+    - 无明显的词根或前后缀
+    - promise [ˈprɒmɪs] 承诺；诺言
+    - oath [əʊθ] 誓言；誓约
+    - guarantee [ˌɡærənˈtiː] 保证；担保
+- established [ɪˈstæblɪʃt] 已建立的；已确立的
+    - e - 出； -stabl - 稳定； -ish 动词后缀； -ed 过去分词后缀
+    - settled [ˈsetld] 稳定的；固定的
+    - confirmed [kənˈfɜːmd] 确定的；证实的
+    - established 的动词形式 establish [ɪˈstæblɪʃ] 建立；确立。
 - leverage [ˈliːvərɪdʒ] 杠杆作用；影响力
     - lev - 举起； -er - 表示物； -age 名词后缀
     - influence [ˈɪnfluəns] 影响
@@ -71,6 +118,7 @@
 - precious [ˈpreʃəs] 珍贵的；宝贵的
     - valuable [ˈvæljuəbl] 有价值的
     - rare [reə(r)] 稀有的
+    - previous 之前的
 - acidification [əˌsɪdɪfɪˈkeɪʃn] 酸化
     - acid - 酸； -ify - 使……； -ation 名词后缀
     - acidity [əˈsɪdəti] 酸度

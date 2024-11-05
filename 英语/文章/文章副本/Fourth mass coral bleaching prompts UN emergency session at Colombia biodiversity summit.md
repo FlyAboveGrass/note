@@ -1,3 +1,7 @@
+
+> https://apnews.com/article/coral-un-bleaching-extinction-emergency-cop16-cali-colombia-ed4439fe10ac76a79443dbeab2c343c1
+
+
 CALI, Colombia (AP) — The United Nations, scientists and governments made an urgent call Wednesday for increased funding to protect ==coral== ==reefs== under threat of extinction.
 
 Research this year shows that 77% of the world’s ==reefs== are affected by ====bleaching==,== mainly due to [warming ocean waters amid human-caused climate change](https://apnews.com/article/coral-texas-flower-garden-banks-bleaching-climate-change-4f779ea8889becd67e0810b395e02eb4). It’s the largest and fourth mass global ====bleaching==== on record and is impacting both ====hemispheres==,== United Nations Capital Development Fund said.
