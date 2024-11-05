@@ -5,6 +5,8 @@
 - charge
 - pound
 - mature
+- coalition
+- outrageous
 - subsequently
 - underlying
 - put in place
@@ -33,6 +35,14 @@
     - mat - 成熟； -ure 名词或形容词后缀
     - ripe [raɪp] 成熟的
     - adult [ˈædʌlt] 成年人
+- coalition [ˌkəʊəˈlɪʃn] 联合；联盟
+    - co - 一起； alit - 结盟； -ion 名词后缀
+    - alliance [əˈlaɪəns] 联盟
+    - union [ˈjuːniən] 联盟
+- outrageous [aʊtˈreɪdʒəs] 过分的；离谱的
+    - out - 超出； rage - 愤怒； -ous 形容词后缀
+    - excessive [ɪkˈsesɪv] 过分的
+    - extreme [ɪkˈstriːm] 极端的
 - charge [tʃɑːdʒ] 费用；控告；充电
     - char - 装载、负担； -ge 名词后缀
     - cost [kɒst] 费用
