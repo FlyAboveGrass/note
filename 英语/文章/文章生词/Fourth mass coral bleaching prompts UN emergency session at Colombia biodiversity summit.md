@@ -113,6 +113,7 @@
     - power [ˈpaʊə(r)] 力量
 - conservation [ˌkɒnsəˈveɪʃn] 保护；保存
     - con - 一起； serv - 保持； -ation 名词后缀
+    - conversation 对话
     - preservation [ˌprezəˈveɪʃn] 保护
     - protection [ˌprətekʃn] 保护
 - precious [ˈpreʃəs] 珍贵的；宝贵的
