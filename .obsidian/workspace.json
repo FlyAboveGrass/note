@@ -6,7 +6,7 @@
       {
         "id": "e313108c3e7be170",
         "type": "tabs",
-        "dimension": 61.20754716981131,
+        "dimension": 56.75471698113208,
         "children": [
           {
             "id": "6a2447dff1985651",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
+                "file": "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit"
+              "title": "A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "21f1e66736e19f74",
         "type": "tabs",
-        "dimension": 38.79245283018868,
+        "dimension": 43.24528301886792,
         "children": [
           {
             "id": "5fdf54eb957db42c",
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章生词/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
+                "file": "英语/文章/文章生词/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit"
+              "title": "A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike"
             }
           }
         ]
@@ -237,11 +237,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a2447dff1985651",
+  "active": "5fdf54eb957db42c",
   "lastOpenFiles": [
-    "英语/文章/文章生词/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
-    "英语/文章/文章副本/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
+    "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
+    "英语/文章/文章生词/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
     "英语/文章/文章收集.md",
+    "英语/文章/文章生词/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
+    "英语/文章/文章生词/未命名",
+    "英语/文章/文章副本/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
     "英语/文章/文章副本/My £250 Child Trust Fund is now worth only £12.md",
     "英语/文章/文章生词/My £250 Child Trust Fund is now worth only £12.md",
     "英语/文章/文章生词/Tariffs hurt his business. He's voting for Trump anyway.md",
@@ -253,7 +256,6 @@
     "英语/文章/文章副本/Boeing raises pay offer in bid to end seven-week strike.md",
     "英语/音标.md",
     "英语/文章/未命名.md",
-    "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
     "笔记图片/Pasted image 20241030233612.png",
     "英语/文章/文章副本/Tariffs hurt his business. He's voting for Trump anyway.md",
     "英语/文章/文章生词/English speaking skills for PTE test.md",
@@ -265,7 +267,6 @@
     "note/阅读/微信读书/谈美.md",
     "note/阅读/微信读书/谁动了我的奶酪.md",
     "note/阅读/微信读书/许三观卖血记（第3版）.md",
-    "note/阅读/微信读书/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
     "note/阅读/微信读书",
     "note/阅读",
     "note/软件工程",
@@ -283,7 +284,6 @@
     "note/笔记图片/树的表示法.png",
     "note/笔记图片/微前端特性.png",
     "note/笔记图片/微前端实现方式对比.png",
-    "note/笔记图片/微前端入口js和html对比.jpg",
-    "note/笔记图片/obsidian配置.zip"
+    "note/笔记图片/微前端入口js和html对比.jpg"
   ]
 }
