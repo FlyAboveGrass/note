@@ -98,7 +98,6 @@
     - occupation [ˌɒkjuˈpeɪʃn] 职业；占有
     - profession [prəˈfeʃn] 职业；专业
 - pledge [pledʒ] 保证；誓言；抵押
-    - 无明显的词根或前后缀
     - promise [ˈprɒmɪs] 承诺；诺言
     - oath [əʊθ] 誓言；誓约
     - guarantee [ˌɡærənˈtiː] 保证；担保

@@ -6,3 +6,134 @@
 - cradling
 - console
 - unknowingly
+- stain
+- vehicle
+- bounce
+- refugee
+- journalist
+- blast
+- fatally
+- squinting
+- courtyard
+- collapse
+- morgue
+- funeral
+- parking lot
+- military
+- abduct
+- retaliatory
+- combatant
+
+
+- horrify [ˈhɒrɪfaɪ] 使震惊；使毛骨悚然
+    - horr - 恐怖； -ify 动词后缀
+    - terrify [ˈterɪfaɪ] 使害怕；使惊恐
+    - frighten [ˈfraɪtn] 使惊吓；吓唬
+    - scare [skeə(r)] 使害怕；惊吓
+- corpse [kɔːps] 尸体
+    - body [ˈbɒdi] 身体；尸体（非正式）
+    - remains [rɪˈmeɪnz] 遗体；残余物
+    - carcass [ˈkɑːkəs] 尸体；残骸
+- stretcher [ˈstretʃə(r)] 担架
+    - stretch - 伸展；拉长； -er 名词后缀，表示人或物
+    - gurney [ˈɡɜːni] 轮床；担架车
+    - ambulance stretcher 救护车担架
+    - collapsible stretcher 可折叠担架
+- sob [sɒb] 啜泣；呜咽
+    - weep [wiːp] 哭泣；流泪
+    - cry [kraɪ] 哭；喊叫
+    - whimper [ˈwɪmpə(r)] 抽泣；呜咽
+- cradling [ˈkreɪdlɪŋ] 怀抱；抚育
+    - cradle - 摇篮；抚育； -ing 名词后缀，表示行为或状态
+    - nurture [ˈnɜːtʃə(r)] 养育；培育
+    - foster [ˈfɒstə(r)] 培养；促进
+    - raise [reɪz] 养育；提高
+- console [kənˈsəʊl] 安慰；慰藉
+    - con - 加强； -sole - 安慰； -e 后缀
+    - comfort [ˈkʌmfət] 安慰；舒适
+    - soothe [suːð] 安慰；使平静
+    - relieve [rɪˈliːv] 缓解；减轻
+- unknowingly [ʌnˈnəʊɪŋli] 不知不觉地；无意地
+    - un - 否定； -knowing - 知道的； -ly 副词后缀
+    - inadvertently [ˌɪnədˈvɜːtəntli] 无意地；不经意地
+    - unintentionally [ˌʌnɪnˈtenʃənəli] 无意地；非故意地
+    - accidentally [ˌæksɪˈdentəli] 意外地；偶然地
+- stain [steɪn] 玷污；染色
+    - dye [daɪ] 染色；染料
+    - color [ˈkʌlə(r)] 给… 着色；颜色
+    - taint [teɪnt] 污染；玷污
+- vehicle [ˈviːəkl] 车辆；交通工具
+    - veh - 运载； -icle 名词后缀，表示小的东西
+    - car [kɑː(r)] 汽车
+    - truck [trʌk] 卡车
+    - bus [bʌs] 公共汽车
+- bounce [baʊns] 弹起；反弹
+    - rebound [rɪˈbaʊnd] 反弹；回弹
+    - spring [sprɪŋ] 跳跃；弹簧
+    - jump [dʒʌmp] 跳跃；暴涨
+- refugee [ˌrefjuˈdʒiː] 难民；避难者
+    - re - 向后； -fug - 逃离； -ee 名词后缀，表示人
+    - asylum seeker 寻求庇护者
+    - displaced person 流离失所者
+    - evacuee [ɪˌvækjuˈiː] 被疏散者
+- journalist [ˈdʒɜːnəlɪst] 记者；新闻工作者
+    - journal - 日报；杂志； -ist 名词后缀，表示从事某种职业的人
+    - reporter [rɪˈpɔːtə(r)] 记者
+    - correspondent [ˌkɒrəˈspɒndənt] 记者；通讯员
+    - newsman [ˈnjuːzmæn] 新闻记者
+- blast [blɑːst] 爆炸；冲击波
+    - explosion [ɪkˈspləʊʒn] 爆炸；爆发
+- fatally [ˈfeɪtəli] 致命地；毁灭性地
+    - fat (e) - 命运； -al 形容词后缀； -ly 副词后缀
+    - lethally [ˈliːθəli] 致命地
+    - mortally [ˈmɔːtəli] 致命地
+    - disastrously [dɪˈzɑːstrəsli] 灾难性地
+- squinting [ˈskwɪntɪŋ] 斜视；眯着眼看
+    - squint - 斜视；眯眼看； -ing 现在分词后缀
+    - leer [lɪə(r)] 斜视；抛媚眼
+    - glance askance [ɡlɑːns əˈskæns] 斜视
+    - peek sideways [piːk ˈsaɪdweɪz] 斜视
+- courtyard [ˈkɔːtjɑːd] 庭院；院子
+    - court - 庭院；法庭； -yard 院子
+    - patio [ˈpætiəʊ] 露台；院子
+    - garden [ˈɡɑːdn] 花园；庭院
+    - yard [jɑːd] 院子；场地
+- collapse [kəˈlæps] 倒塌；崩溃
+    - col - 一起； -laps - 滑倒； -e 后缀
+    - crumble [ˈkrʌmbl] 破碎；崩溃
+    - tumble [ˈtʌmbl] 倒塌；跌倒
+    - breakdown [ˈbreɪkdaʊn] 故障；崩溃
+- morgue [mɔːɡ] 太平间；停尸房
+    - mortuary [ˈmɔːtʃəri] 太平间；停尸房
+    - funeral home 殡仪馆
+    - cemetery [ˈsemətri] 墓地；公墓
+- funeral [ˈfjuːnərəl] 葬礼；丧礼
+    - funer - 死亡；葬礼； -al 形容词或名词后缀
+    - burial [ˈberiəl] 埋葬；葬礼
+    - interment [ɪnˈtɜːmənt] 埋葬；葬礼
+    - wake [weɪk] 守灵；守夜
+- parking lot [ˈpɑːkɪŋ lɒt] 停车场
+    - park - 停车； -ing 名词后缀； lot - 一块地
+    - car park 停车场
+    - parking area 停车区
+    - parking garage 停车库
+- military [ˈmɪlətri] 军事的；军队的
+    - milit - 军事；战士； -ary 形容词后缀
+    - armed [ɑːmd] 武装的；有武器的
+    - martial [ˈmɑːʃl] 军事的；战争的
+    - combat [ˈkɒmbæt] 战斗；格斗
+- abduct [æbˈdʌkt] 诱拐；绑架
+    - ab - 离开； -duct - 引导
+    - kidnap [ˈkɪdnæp] 绑架；诱拐
+    - seize [siːz] 抓住；夺取
+    - snatch [snætʃ] 抢夺；抓走
+- retaliatory [rɪˈtæliətəri] 报复性的
+    - retaliate - 报复；反击； -ory 形容词后缀
+    - vengeful [ˈvendʒfl] 复仇的；报复性的
+    - reprisal [rɪˈpraɪzl] 报复；报复行动
+    - retaliative [rɪˈtæliətɪv] 报复性的
+- combatant [ˈkɒmbətənt] 参战者；战斗人员
+    - combat - 战斗；格斗； -ant 名词后缀，表示人
+    - fighter [ˈfaɪtə(r)] 战士；斗士
+    - warrior [ˈwɒriə(r)] 战士；勇士
+    - soldier [ˈsəʊldʒə(r)] 士兵；军人。
