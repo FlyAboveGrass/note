@@ -124,6 +124,7 @@
     - combat [ˈkɒmbæt] 战斗；格斗
 - abduct [æbˈdʌkt] 诱拐；绑架
     - ab - 离开； -duct - 引导
+    - conduct 行为
     - kidnap [ˈkɪdnæp] 绑架；诱拐
     - seize [siːz] 抓住；夺取
     - snatch [snætʃ] 抢夺；抓走
@@ -133,7 +134,8 @@
     - reprisal [rɪˈpraɪzl] 报复；报复行动
     - retaliative [rɪˈtæliətɪv] 报复性的
 - combatant [ˈkɒmbətənt] 参战者；战斗人员
-    - combat - 战斗；格斗； -ant 名词后缀，表示人
+    - com - 一起； -bat - 打；格斗； -ant 名词后缀，表示人
+    - combat - 战斗
     - fighter [ˈfaɪtə(r)] 战士；斗士
     - warrior [ˈwɒriə(r)] 战士；勇士
     - soldier [ˈsəʊldʒə(r)] 士兵；军人。

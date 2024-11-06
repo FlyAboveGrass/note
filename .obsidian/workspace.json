@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
+                "file": "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike"
+              "title": "UK borrowing costs at highest for a year after Budget"
             }
           }
         ]
@@ -35,6 +35,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "英语/文章/文章收集.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文章收集"
+            }
+          },
+          {
+            "id": "33b1b9a067dbe22f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "英语/文章/文章生词/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
                 "mode": "source",
                 "source": false
@@ -43,7 +57,8 @@
               "title": "A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,6 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "UK borrowing costs at highest for a year after Budget 的反向链接列表"
             }
           },
           {
@@ -198,7 +214,8 @@
               "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "08a2d34a08751181",
@@ -237,11 +254,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5fdf54eb957db42c",
+  "active": "6a2447dff1985651",
   "lastOpenFiles": [
+    "英语/文章/文章收集.md",
     "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
     "英语/文章/文章生词/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
-    "英语/文章/文章收集.md",
     "英语/文章/文章生词/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
     "英语/文章/文章生词/未命名",
     "英语/文章/文章副本/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
