@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "浏览器"
             }
+          },
+          {
+            "id": "996a036f1869b274",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 216.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,7 +234,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a8fc7a87bd3b51b9",
+  "active": "996a036f1869b274",
   "lastOpenFiles": [
     "z 前端/精选文章.md",
     "英语/文章/文章收集.md",
