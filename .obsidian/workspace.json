@@ -4,24 +4,74 @@
     "type": "split",
     "children": [
       {
-        "id": "af073d0e63ced571",
+        "id": "e313108c3e7be170",
         "type": "tabs",
+        "dimension": 56.75471698113208,
         "children": [
           {
-            "id": "a8fc7a87bd3b51b9",
+            "id": "6a2447dff1985651",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/面试/浏览器.md",
+                "file": "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "浏览器"
+              "title": "UK borrowing costs at highest for a year after Budget"
+            }
+          },
+          {
+            "id": "07ee36561e32b321",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "21f1e66736e19f74",
+        "type": "tabs",
+        "dimension": 43.24528301886792,
+        "children": [
+          {
+            "id": "5fdf54eb957db42c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/文章/文章收集.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文章收集"
+            }
+          },
+          {
+            "id": "33b1b9a067dbe22f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语/文章/文章生词/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,10 +102,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/面试/浏览器.md"
+                "file": "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md"
               },
               "icon": "lucide-list",
-              "title": "浏览器 的大纲"
+              "title": "UK borrowing costs at highest for a year after Budget 的大纲"
             }
           },
           {
@@ -64,7 +114,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "defer",
+                "query": "dramatic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,12 +135,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 275.5
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -117,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/文章/文章收集.md",
+                "file": "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +176,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "文章收集 的反向链接列表"
+              "title": "UK borrowing costs at highest for a year after Budget 的反向链接列表"
             }
           },
           {
@@ -136,12 +185,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语/文章/文章收集.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "文章收集 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -172,7 +220,7 @@
             }
           },
           {
-            "id": "80e449257904d5ed",
+            "id": "69a0650087fd3f14",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
@@ -202,7 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,53 +268,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a8fc7a87bd3b51b9",
+  "active": "07ee36561e32b321",
   "lastOpenFiles": [
-    "z 前端/精选文章.md",
     "英语/文章/文章收集.md",
-    "杂记/备忘录.md",
-    "英语/文章/文章生词/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
-    "英语/文章/文章生词/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
-    "英语/文章/文章副本/Taiwanese driver recounts his narrow escape during Typhoon Kong-rey.md",
-    "英语.zip",
-    "杂记/投资日记.md",
-    "计算机/正则表达式.md",
-    "经济学/财报阅读.md",
-    "杂记/其它领域.md",
-    "英语/文章/文章副本/Boeing raises pay offer in bid to end seven-week strike.md",
-    "英语/文章/文章副本/No end for Boeing labor strike as workers reject latest contract proposal.md",
-    "英语/文章/文章副本/What form could reparations for slavery take?.md",
-    "英语/文章/文章生词/My £250 Child Trust Fund is now worth only £12.md",
-    "AI/吴恩达prompt/编写 prompt 的技巧.md",
-    "阅读/微信读书/一小时漫画缠论实战法.md",
-    "阅读/微信读书/贫穷的本质：我们为什么摆脱不了贫穷（修订版）.md",
-    "4.md",
-    "AI/如何向AI提问.md",
-    "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
     "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
-    "英语/文章/文章生词/Tariffs hurt his business. He's voting for Trump anyway.md",
-    "英语/文章/文章副本/Tariffs hurt his business. He's voting for Trump anyway.md",
+    "英语/文章/文章生词/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
+    "英语/文章/文章生词/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
+    "英语/文章/文章生词/未命名",
     "英语/文章/文章副本/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
-    "杂记/付费产品&软件.md",
+    "英语/文章/文章副本/My £250 Child Trust Fund is now worth only £12.md",
+    "英语/文章/文章生词/My £250 Child Trust Fund is now worth only £12.md",
+    "英语/文章/文章生词/Tariffs hurt his business. He's voting for Trump anyway.md",
+    "英语/文章/文章副本/Taiwanese driver recounts his narrow escape during Typhoon Kong-rey.md",
+    "杂记/备忘录.md",
+    "杂记/其它领域.md",
     "conflict-files-obsidian-git.md",
+    "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
+    "英语/文章/文章副本/Boeing raises pay offer in bid to end seven-week strike.md",
+    "英语/音标.md",
+    "英语/文章/未命名.md",
     "笔记图片/Pasted image 20241030233612.png",
-    "英语/文章/文章生词",
-    "英语/文章/文章副本",
-    "英语/文章",
-    "英语/文章副本",
-    "英语/未命名",
-    "英语",
-    "阅读/微信读书",
-    "阅读",
-    "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
-    "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
-    "笔记图片/Pasted image 20240524103542.png",
-    "AI/吴恩达prompt",
-    "笔记图片/Pasted image 20240223180945.png",
-    "笔记图片/Pasted image 20240223180833.png",
-    "笔记图片/Pasted image 20240223113654.png",
-    "笔记图片/Pasted image 20231206234432.png",
-    "笔记图片/Pasted image 20230907233328.png",
-    "笔记图片/Pasted image 20230902235726.png"
+    "英语/文章/文章副本/Tariffs hurt his business. He's voting for Trump anyway.md",
+    "英语/文章/文章生词/English speaking skills for PTE test.md",
+    "note/阅读/微信读书/非理性繁荣（第三版）.md",
+    "note/阅读/微信读书/非暴力沟通.md",
+    "note/阅读/微信读书/长安的荔枝.md",
+    "note/阅读/微信读书/运营之光：我的互联网运营方法论与自白.md",
+    "note/阅读/微信读书/贫穷的本质：我们为什么摆脱不了贫穷（修订版）.md",
+    "note/阅读/微信读书/谈美.md",
+    "note/阅读/微信读书/谁动了我的奶酪.md",
+    "note/阅读/微信读书/许三观卖血记（第3版）.md",
+    "note/阅读/微信读书",
+    "note/阅读",
+    "note/软件工程",
+    "note/计算机",
+    "note/英语/文章/文章生词",
+    "note/英语/文章/文章副本",
+    "note/英语/文章",
+    "note/英语",
+    "note/经济学",
+    "note/笔记图片/词法作用域.png",
+    "note/笔记图片/缓存使用顺序.png",
+    "note/笔记图片/用例图.jpg",
+    "note/笔记图片/理解中间件.jpg",
+    "note/笔记图片/正向代理.png",
+    "note/笔记图片/树的表示法.png",
+    "note/笔记图片/微前端特性.png",
+    "note/笔记图片/微前端实现方式对比.png",
+    "note/笔记图片/微前端入口js和html对比.jpg"
   ]
 }
