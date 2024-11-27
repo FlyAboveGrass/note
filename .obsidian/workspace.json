@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "33837e424a8ccfb3",
+        "id": "086408798f61da3b",
         "type": "tabs",
         "children": [
           {
-            "id": "e981bdfc49219351",
+            "id": "ba6601481ad5199c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "杂记/vscode 技巧.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "vscode 技巧"
+              "title": "新标签页"
             }
           }
         ]
@@ -51,11 +47,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "杂记/vscode 技巧.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "vscode 技巧 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -205,7 +199,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-tts:Text to Speech": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
@@ -219,11 +212,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e981bdfc49219351",
+  "active": "ba6601481ad5199c",
   "lastOpenFiles": [
+    "杂记/vscode 技巧.md",
+    "杂记/付费产品&软件.md",
     "杂记/vscode 快捷键.md",
     "未命名思维导图.md",
-    "杂记/付费产品&软件.md",
     "英语/文章/文章收集.md",
     "英语/文章/文章副本/Can RFK Jr make America's diet healthy again?.md",
     "z 前端/精选文章.md",
@@ -247,7 +241,6 @@
     "4.md",
     "AI/如何向AI提问.md",
     "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
-    "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
     "笔记图片/Pasted image 20241030233612.png",
     "英语/文章/文章生词",
     "英语/文章/文章副本",
