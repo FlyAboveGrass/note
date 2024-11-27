@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/100句7000词.md",
+                "file": "英语/文章/文章收集.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "100句7000词"
+              "title": "文章收集"
             }
           }
         ]
@@ -52,10 +52,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/100句7000词.md"
+                "file": "英语/文章/文章收集.md"
               },
               "icon": "lucide-list",
-              "title": "100句7000词 的大纲"
+              "title": "文章收集 的大纲"
             }
           },
           {
@@ -221,6 +221,8 @@
   },
   "active": "ba6601481ad5199c",
   "lastOpenFiles": [
+    "英语/文章/文章副本/Traveling during the holidays can be stressful. These tips can make it a little easier.md",
+    "英语/100句7000词.md",
     "英语/文章/文章收集.md",
     "英语/文章/文章副本/Going downtown or to the ’burbs? Nope. The exurbs are where people are moving.md",
     "杂记/vscode 技巧.md",
@@ -246,8 +248,6 @@
     "AI/吴恩达prompt/编写 prompt 的技巧.md",
     "阅读/微信读书/一小时漫画缠论实战法.md",
     "阅读/微信读书/贫穷的本质：我们为什么摆脱不了贫穷（修订版）.md",
-    "4.md",
-    "AI/如何向AI提问.md",
     "笔记图片/Pasted image 20241030233612.png",
     "英语/文章/文章生词",
     "英语/文章/文章副本",
