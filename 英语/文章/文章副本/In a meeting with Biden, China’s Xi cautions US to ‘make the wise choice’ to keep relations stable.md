@@ -11,7 +11,11 @@ Without mentioning Trump’s name, Xi appeared to signal his concern that the in
 
 “China is ready to work with a new U.S. administration to maintain communication, expand cooperation and manage differences so as to ==strive== for a ==steady== transition of the China-U.S. relationship for the benefit of the two peoples,” Xi said through an ====interpreter==.==
 
-Xi, who is ==firmly== ====entrenched==== ==atop== China’s political ====hierarchy==,== spoke ====forcefully==== in his brief remarks before reporters. Biden, who is ====winding==== down more than 50 years of public ser==vice,== talked in broader ====brushstrokes==== about where the relationship between the two countries has gone.
+Xi, who is ==firmly== ====entrenched==== ==atop== China’s political ====hierarchy==,spoke ====forcefully==== in his brief remarks before reporters.
+习近平，牢牢占据中国政治高层....
+Biden, who is ====winding==== down more than 50 years of public ser==vice,== talked in broader ====brushstrokes==== about where the relationship between the two countries has gone.
+拜登在结束五十多年的公职生涯之际，以更宽泛的笔触谈到了两国关系的走向。
+
 
 He reflected not just on the past four years but on the decades the two have known each other.
 
@@ -24,6 +28,7 @@ _Follow all of our coverage as_ [_Donald Trump_](https://apnews.com/hub/donald-
 “We haven’t always agreed, but our conversations have always been ==candid== and always been ==frank.== We’ve never kidded one another,” Biden said. “These conversations prevent miscalculations, and they ensure the competition between our two countries will not ==veer== into conflict.”
 
 Biden urged Xi to ====dissuade==== North Korea from [further deepening its support](https://apnews.com/article/north-korea-russia-ukraine-059d73e4c3492c19b555476b2fb45ca9) for Russia’s war on Ukraine. The leaders, with top ==aides== surrounding them, gathered around a long rectangle of tables in an expansive conference room at a Lima hotel.
+聚集在利马一家酒店宽敞会议室里的一张长矩形桌子周围。
 
 They had much to discuss, including [China’s indirect support for Russia](https://apnews.com/article/china-russia-sanctions-united-states-ukraine-drones-49e4e56bb37ee46faf028f649df140b0), human rights issues, technology and Taiwan, the ====self-ruled==== ====democracy==== that Beijing claims as its own. On ====artificial==== intelligence, the two agreed on the need to maintain human control over the decision to use nuclear weapons and more broadly improve safety and international cooperation of the rapidly expanding technology.
 
@@ -40,6 +45,7 @@ Biden administration officials have said they would advise the Trump team that m
 On Saturday, White House national security adviser Jake Sullivan said Biden had ====reinforced==== to Xi “that these next two months are a time of transition” and that the president would like to pass off the U.S.-China relationship “in stable terms” to the new administration.
 
 Biden has viewed his relationship with Xi as among the most ====consequential==== on the international stage and put much effort into ====cultivating==== it. The two first got to know each other on travels across the U.S. and China when both were ==vice== presidents, interactions that both have said left a lasting impression. They last met a year ago on the APEC ====sidelines==== in Northern California.
+拜登认为他与习近平的关系是国际舞台上最重要的关系之一，并投入了大量精力来培养这种关系。两人在担任副总统期间在美国和中国的访问中首次相识，双方都表示这些互动给他们留下了深刻的印象。
 
 “For over a decade, you and I have spent many hours together, both here and in China and in between,” Biden said. “We’ve spent a long time dealing with these issues.”
 
