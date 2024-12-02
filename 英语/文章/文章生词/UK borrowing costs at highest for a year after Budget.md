@@ -1,0 +1,103 @@
+
+
+- wake
+- interest rate
+- so-called
+- lender
+- spark
+- bond
+- bond yield
+- mortgage
+- regard
+- commitment
+- fiscal
+- trajectory
+- so far
+- panicked
+- indication
+- overestimated
+- absorb
+- sovereign
+- issuance
+- spike
+- gilt
+- sterling
+- steering
+- volatile
+- suspicious
+- swollen
+
+
+
+
+
+
+
+- wake [weɪk] 醒；唤醒
+    - awake [əˈweɪk] 醒着的
+- interest rate [ˈɪntrəst reɪt] 利率
+    - loan rate [ləʊn reɪt] 贷款利率
+- so-called [ˌsəʊˈkɔːld] 所谓的；号称的
+    - alleged [əˈledʒd] 所谓的；声称的
+- lender [ˈlendə(r)] 出借人；贷方
+    - lend - 借出； -er 表示人
+    - borrower [ˈbɒrəʊə(r)] 借款人
+- spark [spɑːk] 火花；引发
+    - flash [flæʃ] 闪光；闪现
+- bond [bɒnd] 债券；结合
+    - debenture [dɪˈbentʃə(r)] 公司债券
+- bond yield [bɒnd jiːld] 债券收益率
+    - interest yield [ˈɪntrəst jiːld] 利息收益率
+- mortgage [ˈmɔːɡɪdʒ] 抵押贷款
+    - mort - 死亡； -gage，抵押品
+    - loan [ləʊn] 贷款
+- regard [rɪˈɡɑːd] 尊重；关注
+    - re - 再；gard - 看
+    - respect [rɪˈspekt] 尊重
+- commitment [kəˈmɪtmənt] 承诺；保证
+    - com - 共同；mit - 送；-ment，名词后缀
+    - promise [ˈprɒmɪs] 承诺
+- fiscal [ˈfɪskl] 财政的；国库的
+    - fisc - 国库； -al，形容词后缀
+    - financial [faɪˈnænʃl] 金融的；财政的
+- trajectory [trəˈdʒektəri] 轨迹；弹道
+    - tra - 横过；ject - 投，掷；-ory，名词后缀
+    - path [pɑːθ] 路径
+- so far [ˌsəʊ ˈfɑː(r)] 到目前为止
+    - hitherto [ˌhɪðəˈtuː] 迄今；至今
+- panicked [ˈpænɪkt] 惊慌的
+    - panic - 惊慌；-ed，形容词后缀
+    - frightened [ˈfraɪtnd] 害怕的
+- indication [ˌɪndɪˈkeɪʃn] 指示；迹象
+    - in - 入；dic - 说；-ation，名词后缀
+    - sign [saɪn] 迹象；符号
+- overestimated [ˌəʊvərˈestɪmeɪtɪd] 高估的
+    - over - 过度；estimate - 估计；-ed，形容词后缀
+    - exaggerated [ɪɡˈzædʒəreɪtɪd] 夸张的
+- absorb [əbˈzɔːb] 吸收；吸引
+    - ab - 加强意义；sorb - 吸
+    - assimilate [əˈsɪməleɪt] 吸收；同化
+- sovereign [ˈsɒvrɪn] 君主；主权国家的
+    - sov - 统治； -ereign，形容词后缀
+    - monarch [ˈmɒnək] 君主
+- issuance [ˈɪʃuːəns] 发行；发布
+    - issue - 发行；-ance，名词后缀
+    - release [rɪˈliːs] 发布；发行
+- spike [spaɪk] 尖峰；猛增
+    - surge [sɜːdʒ] 急剧上升；猛增
+- gilt [ɡɪlt] 镀金；金边证券
+    - gold-plated [ˈɡəʊld ˈpleɪtɪd] 镀金的
+- sterling [ˈstɜːlɪŋ] 英镑的；优秀的
+    - pound [paʊnd] 英镑
+- steering [ˈstɪərɪŋ] 操纵；掌舵
+    - steer - 驾驶；操纵；-ing，名词后缀
+    - maneuvering [məˈnuːvərɪŋ] 操纵；控制
+- volatile [ˈvɒlətaɪl] 不稳定的；易挥发的
+    - volat - 飞； -ile，形容词后缀
+    - unstable [ʌnˈsteɪbl] 不稳定的
+- suspicious [səˈspɪʃəs] 怀疑的；可疑的
+    - sus - 在…… 下面；pic - 看；-ious，形容词后缀
+    - doubtful [ˈdaʊtfl] 怀疑的
+- swollen [ˈswəʊlən] 肿胀的；膨胀的
+    - swell - 膨胀； -en，形容词后缀
+    - inflated [ɪnˈfleɪtɪd] 膨胀的
