@@ -1,0 +1,134 @@
+
+- ride-hailing
+- recount
+- narrow
+- smash
+- vehicle
+- landslide
+- uproot
+- squarely
+- compartment
+- reclined
+- rear
+- sanitation
+- cordon
+- landfall
+- veer
+- authority
+- shelter
+- ferry
+- airlift
+- stay
+- tent
+- fatality
+- utility
+- pole
+- hole
+- fall over
+- blown
+- debris
+- aftermath
+- devastate
+- intense
+- flood
+
+
+
+
+
+- ride-hailing [ˈraɪd ˈheɪlɪŋ] 叫车服务
+    - ride - 乘坐；hail - 招呼；-ing 名词后缀
+    - carpooling [ˈkɑːpuːlɪŋ] 拼车；taxi-hailing [ˈtæksi ˈheɪlɪŋ] 叫出租车；ride-sharing [ˈraɪd ˈʃeərɪŋ] 共享出行
+- recount [rɪˈkaʊnt] 叙述；重新计算
+    - re - 再次；count - 计算
+    - recounting [rɪˈkaʊntɪŋ] 叙述；recountal [rɪˈkaʊntl] 叙述；recountable [rɪˈkaʊntəbl] 可重新计算的
+- narrow [ˈnærəʊ] 狭窄的；狭隘的
+    - nar - 狭窄；-ow 形容词后缀
+    - narrowness [ˈnærəʊnəs] 狭窄；narrowly [ˈnærəʊli] 狭窄地；narrow-minded [ˌnærəʊˈmaɪndɪd] 心胸狭窄的
+- smash [smæʃ] 打碎；猛击
+    - sm - 猛击；-ash 动词后缀
+    - smashed [smæʃt] 打碎的；smashing [ˈsmæʃɪŋ] 极好的；smash-up [ˈsmæʃ ʌp] 撞毁
+- vehicle [ˈviːəkl] 车辆；交通工具
+    - vehi - 运输；-cle 名词后缀
+    - automobile [ˈɔːtəməbiːl] 汽车；car [kɑː(r)] 小汽车；truck [trʌk] 卡车
+- landslide [ˈlændslaɪd] 山崩；滑坡
+    - land - 土地；slide - 滑动
+    - landslip [ˈlændslɪp] 山崩；landslide victory [ˈlændslaɪd ˈvɪktəri] 压倒性胜利；landslide-prone [ˈlændslaɪd ˈprəʊn] 易发生山体滑坡的
+- uproot [ˌʌpˈruːt] 连根拔起；根除
+    - up - 向上；root - 根
+    - uprooted [ˌʌpˈruːtɪd] 被连根拔起的；uprooting [ˌʌpˈruːtɪŋ] 连根拔起；uprooter [ˌʌpˈruːtə(r)] 连根拔起者
+- squarely [ˈskweəli] 正当地；干脆地；成直角地
+    - square - 正方形；-ly 副词后缀
+    - square-shaped [ˈskweə ʃeɪpt] 正方形的；squarely-built [ˈskweəli bɪlt] 建造得方正的；squarely-placed [ˈskweəli pleɪst] 放置得方正的
+- compartment [kəmˈpɑːtmənt] 隔间；车厢
+    - com - 共同；part - 部分；-ment 名词后缀
+    - compartmentalize [ˌkɒmpɑːtˈmentəlaɪz] 划分；compartmentalization [ˌkɒmpɑːtˌmentəlaɪˈzeɪʃn] 划分；compartmented [kəmˈpɑːtməntɪd] 有隔间的
+- reclined [rɪˈklaɪnd] 斜倚的；向后靠的
+    - re - 向后；clin - 倾斜；-ed 形容词后缀
+    - recliner [rɪˈklaɪnə(r)] 躺椅；recline on [rɪˈklaɪn ɒn] 靠在…… 上；reclining chair [rɪˈklaɪnɪŋ tʃeə(r)] 躺椅
+- rear [rɪə(r)] 后面；后方；尾部
+    - re - 向后；-ar 名词后缀
+    - rearward [ˈrɪəwəd] 向后；rear-end [ˈrɪə end] 追尾；rear-view [ˈrɪə vjuː] 后视的
+- sanitation [ˌsænɪˈteɪʃn] 卫生；卫生设施
+    - san - 健康；-ation 名词后缀
+    - sanitize [ˈsænɪtaɪz] 消毒；sanitary [ˈsænətri] 卫生的；sanitation worker [ˌsænɪˈteɪʃn ˈwɜːkə(r)] 环卫工人
+- cordon [ˈkɔːdn] 警戒线；封锁线
+    - cord - 绳子；-on 名词后缀
+    - cordon off [ˈkɔːdn ɒf] 封锁；cordon bleu [ˌkɔːdɒn ˈbləʊ] 高级烹饪；cordon sanitaire [ˌkɔːdɒn saniˈtɛː(r)] 防疫封锁线
+- landfall [ˈlændfɔːl] 着陆；初见陆地
+    - land - 陆地；fall - 落下
+    - make landfall [meɪk ˈlændfɔːl] 登陆；landfall detection [ˈlændfɔːl dɪˈtekʃn] 登陆检测；landfall warning [ˈlændfɔːl ˈwɔːnɪŋ] 登陆警报
+- veer [vɪə(r)] 转向；改变方向
+    - ve - 转向；-er 动词后缀
+    - veer off [vɪə(r) ɒf] 转向离开；veer away [vɪə(r) əˈweɪ] 转向远离；veering course [ˈvɪərɪŋ kɔːs] 转向航线
+- authority [ɔːˈθɒrəti] 权威；权力
+    - author - 作者；-ity 名词后缀
+    - authoritative [ɔːˈθɒrətətɪv] 权威的；authorities [ɔːˈθɒrətiz] 当局；authoritarian [ɔːˌθɒrɪˈteəriən] 独裁的
+- shelter [ˈʃeltə(r)] 庇护；避难所
+    - shelt - 庇护；-er 名词后缀
+    - sheltered [ˈʃeltəd] 受庇护的；shelter belt [ˈʃeltə(r) belt] 防护林带；sheltering place [ˈʃeltərɪŋ pleɪs] 避难处
+- ferry [ˈferi] 渡船；摆渡
+    - fer - 搬运；-ry 名词后缀
+    - ferryboat [ˈferibəʊt] 渡船；ferry crossing [ˈferi ˈkrɒsɪŋ] 渡口；ferry service [ˈferi ˈsɜːvɪs] 渡轮服务
+- airlift [ˈeəlɪft] 空运；空运物资
+    - air - 空气；lift - 举起
+    - airlifted [ˈeəlɪftɪd] 空运的；airlift operation [ˈeəlɪft ˌɒpəˈreɪʃn] 空运行动；airlift capacity [ˈeəlɪft kəˈpæsəti] 空运能力
+- stay [steɪ] 停留；保持
+    - st - 站立；-ay 动词后缀
+    - stay up [steɪ ʌp] 熬夜；stay in [steɪ ɪn] 呆在家里；stay on [steɪ ɒn] 继续停留
+- tent [tent] 帐篷
+    - tent - 帐篷
+    - tent peg [tent peɡ] 帐篷桩；tent pole [tent pəʊl] 帐篷杆；tent flap [tent flæp] 帐篷门帘
+- fatality [fəˈtæləti] 死亡；致命性
+    - fat - 命运；-ality 名词后缀
+    - fatal [ˈfeɪtl] 致命的；fatally [ˈfeɪtəli] 致命地；fatal accident [ˈfeɪtl ˈæksɪdənt] 致命事故
+- utility [juːˈtɪləti] 效用；实用
+    - util - 使用；-ity 名词后缀
+    - utilities [juːˈtɪlɪtiz] 公用事业；utility bill [juːˈtɪləti bɪl] 公用事业账单；utility company [juːˈtɪləti ˈkʌmpəni] 公用事业公司
+- pole [pəʊl] 杆；极点
+    - pol - 尖、杆；-e 无特殊含义
+    - pole vault [pəʊl vɔːlt] 撑杆跳；poles apart [pəʊlz əˈpɑːt] 大相径庭；telephone pole [ˈtelɪfəʊn pəʊl] 电话线杆
+- hole [həʊl] 洞；孔
+    - hol - 洞；-e 无特殊含义
+    - holey [ˈhəʊli] 有洞的；punch a hole [pʌntʃ ə həʊl] 打孔；black hole [blæk həʊl] 黑洞
+- fall over [ˈfɔːl ˈəʊvə(r)] 摔倒；跌倒
+    - fall - 落下；over - 越过
+    - fall down [ˈfɔːl daʊn] 跌倒；fall off [ˈfɔːl ɒf] 从…… 上摔下；trip and fall [trɪp ənd fɔːl] 绊倒
+- blown [bləʊn] 吹制的；喘气的
+    - blow - 吹；-n 过去分词后缀
+    - blow up [ˈbləʊ ʌp] 爆炸；blow out [ˈbləʊ aʊt] 吹熄；blow off [ˈbləʊ ɒf] 吹掉
+- debris [ˈdebriː] 碎片；残骸
+    - de - 分离；bris - 破碎
+    - debris flow [ˈdebriː fləʊ] 泥石流；debris field [ˈdebriː fiːld] 碎片场；debris removal [ˈdebriː rɪˈmuːvl] 碎片清理
+- aftermath [ˈɑːftəmæθ] 后果；余波
+    - after - 在…… 之后；math - 割草
+    - in the aftermath [ɪn ði ˈɑːftəmæθ] 在…… 之后；aftermath of disaster [ˈɑːftəmæθ əv dɪˈzɑːstə(r)] 灾难的后果；aftermath situation [ˈɑːftəmæθ ˌsɪtʃuˈeɪʃn] 后果情况
+- devastate [ˈdevəsteɪt] 毁灭；破坏
+    - de - 完全；vast - 广阔；-ate 动词后缀
+    - devastated [ˈdevəsteɪtɪd] 被破坏的；devastating [ˈdevəsteɪtɪŋ] 毁灭性的；devastation [ˌdevəˈsteɪʃn] 破坏
+- intense [ɪnˈtens] 强烈的；紧张的
+    - in - 进入；tens - 拉紧；-e 无特殊含义
+    - intensity [ɪnˈtensəti] 强度；intensely [ɪnˈtensli] 强烈地；intensify [ɪnˈtensɪfaɪ] 增强
+- flood [flʌd] 洪水；泛滥
+    - fl - 流动；-ood 名词后缀
+    - floodplain [ˈflʌdpleɪn] 泛滥平原；flooding [ˈflʌdɪŋ] 泛滥；flood control [flʌd kənˈtrəʊl] 防洪
