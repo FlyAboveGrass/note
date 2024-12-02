@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "02338fbb3e243046",
+            "id": "a1ba71705d2abc49",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,41 +22,38 @@
             }
           },
           {
-            "id": "aa2aab7f6b345caf",
+            "id": "d23bd5efb57a2d8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/Why Canada’s Christmas presents may not be delivered on time this year.md",
+                "file": "英语/文章/文章副本/Boeing raises pay offer in bid to end seven-week strike.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why Canada’s Christmas presents may not be delivered on time this year"
+              "title": "Boeing raises pay offer in bid to end seven-week strike"
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "83bde86cbb8ad446",
+        "type": "tabs",
+        "children": [
           {
-            "id": "849ff64b0a51a3d8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
-          },
-          {
-            "id": "a6982f739ac01c79",
+            "id": "59721c535bfd5339",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/LinkedIn ： We're too boring for kids for social media ban.md",
+                "file": "英语/文章/文章生词/Boeing raises pay offer in bid to end seven-week strike.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LinkedIn ： We're too boring for kids for social media ban"
+              "title": "Boeing raises pay offer in bid to end seven-week strike"
             }
           }
         ]
@@ -90,10 +87,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/文章/文章收集.md"
+                "file": "英语/文章/文章生词/Boeing raises pay offer in bid to end seven-week strike.md"
               },
               "icon": "lucide-list",
-              "title": "文章收集 的大纲"
+              "title": "Boeing raises pay offer in bid to end seven-week strike 的大纲"
             }
           },
           {
@@ -127,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -256,12 +254,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "02338fbb3e243046",
+  "active": "59721c535bfd5339",
   "lastOpenFiles": [
+    "英语/文章/文章副本/Boeing raises pay offer in bid to end seven-week strike.md",
+    "英语/文章/文章收集.md",
+    "英语/文章/文章生词/Boeing raises pay offer in bid to end seven-week strike.md",
+    "英语/文章/文章生词/UK borrowing costs at highest for a year after Budget.md",
+    "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
     "英语/文章/文章副本/Why Canada’s Christmas presents may not be delivered on time this year.md",
     "杂记/投资日记.md",
     "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
-    "英语/文章/文章收集.md",
     "英语/文章/文章副本/‘Italian’ purees likely to contain Chinese forced-labour tomatoes, BBC finds.md",
     "英语/100句7000词.md",
     "z 前端/精选文章.md",
@@ -283,10 +285,6 @@
     "杂记/vscode 快捷键.md",
     "英语/文章/文章副本/Can RFK Jr make America's diet healthy again?.md",
     "z 前端/面试/浏览器.md",
-    "杂记/备忘录.md",
-    "英语/文章/文章生词/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
-    "英语/文章/文章生词/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
-    "英语/文章/文章副本/Taiwanese driver recounts his narrow escape during Typhoon Kong-rey.md",
     "英语.zip",
     "笔记图片/Pasted image 20241030233612.png",
     "英语/文章/文章生词",

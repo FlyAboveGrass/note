@@ -86,7 +86,6 @@
     - re - 回；flect - 弯曲；-ion 名词后缀
     - mirroring [ˈmɪrərɪŋ] 反映；echo [ˈekəʊ] 回响。
 - flush [flʌʃ] 脸红；冲洗；齐平的
-    - 无明显的词根或者前缀后缀
     - blush [blʌʃ] 脸红；rinse [rɪns] 冲洗。
 - awash [əˈwɒʃ] 被淹没的；充满的
     - a - 处于某种状态；wash - 冲洗

@@ -1,5 +1,5 @@
 
-> 后续： [[Boeing raises pay offer in bid to end seven-week strike]]
+> 后续： [[英语/文章/文章副本/Boeing raises pay offer in bid to end seven-week strike]]
 
 SEATTLE (AP) — Boeing factory workers voted against the company’s latest contract offer and remain on the ==picket== lines [six weeks into a ==strike==](https://apnews.com/article/boeing-strike-vote-machinists-12d008c0127bab57f8cc9941f48e3ac6) that has stopped production of the ====aerospace==== giant’s ====bestselling==== ==jetliner==s.
 
