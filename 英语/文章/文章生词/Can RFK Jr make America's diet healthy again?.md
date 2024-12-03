@@ -1,0 +1,225 @@
+- dye
+- cereal
+- nugget
+- ingredient
+- rally
+- bid
+- shake up
+- run up against
+- attorney
+- controversial
+- vaccine
+- reforme
+- expert
+- nomination
+- backlash
+- endorsement
+- cornerstone
+- tackle
+- eliminate
+- ultra-processed
+- alter
+- starch
+- cereal
+- diabete
+- mandate
+- pledge
+- sledgehammer
+- corrupt
+- additive
+- fluoride
+- bacterial
+- contamination
+- cafeterias
+- carcinogens
+- push back
+- methodologies
+- worthwhile
+- pasteurized
+- bacteria
+- problematic
+- jurisdiction
+- epidemic
+- substitute
+- saturated
+- butter
+- sodium
+- rhetoric
+- feasible
+- drastic
+- infrastructure
+- pestisides
+- lobby
+- odd
+- roll back
+- hostile
+- agenda
+- military
+- enormous
+- enact
+- ramification
+- disentangle
+
+
+
+
+
+
+- dye [daɪ] 染料；给…… 染色
+    - dyed [daɪd] 染色的
+- cereal [ˈsɪəriəl] 谷类食物；谷物
+    - grain [ɡreɪn] 谷物；颗粒
+- nugget [ˈnʌɡɪt] 小块东西；金块
+    - lump [lʌmp] 块；肿块
+- ingredient [ɪnˈɡriːdiənt] 成分；要素
+    - in- 进入；gred - 步，级； -ient 名词后缀
+    - component [kəmˈpəʊnənt] 成分；组件
+- rally [ˈræli] 集会；（价值等）回升
+    - gathering [ˈɡæðərɪŋ] 集会；聚集
+- bid [bɪd] 出价；投标
+    - offer [ˈɒfə(r)] 提供；出价
+- shake up [ʃeɪk ʌp] 使震惊；使改组
+    - shake 摇动；up 向上
+    - shock [ʃɒk] 震惊；震动
+- run up against [rʌn ʌp əˈɡenst] 遭遇；碰到
+    - run 跑；up 向上；against 反对
+    - encounter [ɪnˈkaʊntə(r)] 遭遇；邂逅
+- attorney [əˈtɜːni] 律师；代理人
+    - lawyer [ˈlɔːjə(r)] 律师
+- controversial [ˌkɒntrəˈvɜːʃl] 有争议的
+    - contro- 相反；vers - 转； -ial 形容词后缀
+    - debatable [ˈdebətəbl] 有争议的
+- vaccine [ˈvæksiːn] 疫苗
+    - inoculation [ɪˌnɒkjʊˈleɪʃn] 接种；预防注射
+- reforme（疑似拼写错误，假设为 reform）[rɪˈfɔːm] 改革；改良
+    - re- 再次；form - 形状，形式
+    - renovate [ˈrenəveɪt] 革新；修复
+- expert [ˈekspɜːt] 专家；行家
+    - ex- 出；per- 尝试； -t 形容词兼名词后缀
+    - specialist [ˈspeʃəlɪst] 专家
+- nomination [ˌnɒmɪˈneɪʃn] 提名；任命
+    - nomin - 名字； -ation 名词后缀
+    - appointment [əˈpɔɪntmənt] 任命；约定
+- backlash [ˈbæklæʃ] 强烈反对；后冲
+    - back 向后；lash - 鞭打
+    - opposition [ˌɒpəˈzɪʃn] 反对；敌对
+- endorsement [ɪnˈdɔːsmənt] 支持；背书
+    - en- 使；dors - 背； -ment 名词后缀
+    - support [səˈpɔːt] 支持
+- cornerstone [ˈkɔːnəstəʊn] 基石；基础
+    - corner 角；stone 石头
+    - foundation [faʊnˈdeɪʃn] 基础；地基
+- tackle [ˈtækl] 处理；对付；阻截
+    - handle [ˈhændl] 处理；操作
+- eliminate [ɪˈlɪmɪneɪt] 消除；排除
+    - e- 出；limin - 门槛，界限； -ate 动词后缀
+    - remove [rɪˈmuːv] 移除；去掉
+- ultra-processed [ˌʌltrəˈprəʊsest] 超加工的
+    - ultra- 超过；process - 加工； -ed 形容词后缀
+    - highly-processed [ˈhaɪli ˈprəʊsest] 高度加工的
+- alter [ˈɔːltə(r)] 改变；更改
+    - change [tʃeɪndʒ] 改变；变化
+- starch [stɑːtʃ] 淀粉
+    - amylum [ˈæmɪləm] 淀粉
+- cereal [ˈsɪəriəl] 谷类食物；谷物
+    - grain [ɡreɪn] 谷物；颗粒
+- diabete（疑似拼写错误，假设为 diabetes）[ˌdaɪəˈbiːtiːz] 糖尿病
+    - diabetic [ˌdaɪəˈbetɪk] 糖尿病患者
+- mandate [ˈmændeɪt] 授权；命令
+    - order [ˈɔːdə(r)] 命令；指令
+- pledge [pledʒ] 保证；誓言
+    - promise [ˈprɒmɪs] 承诺；答应
+- sledgehammer [ˈsledʒhæmə(r)] 大锤；猛烈的打击
+    - sledge 雪橇；hammer 锤子
+    - mallet [ˈmælɪt] 木槌；球棍
+- corrupt [kəˈrʌpt] 腐败的；贪污的
+    - cor- 完全；rupt - 断裂
+    - dishonest [dɪsˈɒnɪst] 不诚实的
+- additive [ˈædətɪv] 添加剂；添加的
+    - add - 增加； -itive 形容词后缀
+    - supplement [ˈsʌplɪmənt] 补充物；增补
+- fluoride [ˈflɔːraɪd] 氟化物
+    - fluorine [ˈflɔːriːn] 氟
+- bacterial [bækˈtɪəriəl] 细菌的
+    - bacteri - 细菌； -al 形容词后缀
+    - germy [ˈdʒɜːmi] 带有细菌的
+- contamination [kənˌtæmɪˈneɪʃn] 污染；弄脏
+    - con- 共同；tamin - 接触； -ation 名词后缀
+    - pollution [pəˈluːʃn] 污染
+- cafeterias [ˌkæfəˈtɪərɪəz] 自助餐厅
+    - cafeteria 自助餐厅； -s 复数后缀
+    - canteen [kænˈtiːn] 食堂
+- carcinogens [kɑːˈsɪnədʒənz] 致癌物质
+    - carcin - 癌； -ogen 产生； -s 复数后缀
+    - cancer-causing [ˈkænsə(r) ˈkɔːzɪŋ] 致癌的
+- push back [pʊʃ bæk] 推回；抵制
+    - push 推；back 向后
+    - resist [rɪˈzɪst] 抵抗
+- methodologies [ˌmeθəˈdɒlədʒiz] 方法学；方法论
+    - method - 方法； -ology 学科； -ies 复数后缀
+    - approach [əˈprəʊtʃ] 方法；途径
+- worthwhile [ˌwɜːθˈwaɪl] 值得的；有价值的
+    - worth - 价值；while - 一段时间
+    - valuable [ˈvæljuəbl] 有价值的
+- pasteurized [ˈpæstəraɪzd] 巴氏消毒的
+    - pasteur - 巴斯德； -ize 使…… 化； -d 形容词后缀
+    - sterilized [ˈsterəlaɪzd] 消毒的
+- bacteria [bækˈtɪəriə] 细菌
+    - germ [dʒɜːm] 细菌；微生物
+- problematic [ˌprɒbləˈmætɪk] 有问题的；疑难的
+    - problem - 问题； -atic 形容词后缀
+    - troublesome [ˈtrʌblsəm] 令人烦恼的
+- jurisdiction [ˌdʒʊərɪsˈdɪkʃn] 司法权；管辖权
+    - juris - 法律；dict - 说； -ion 名词后缀
+    - authority [ɔːˈθɒrəti] 权威；权力
+- epidemic [ˌepɪˈdemɪk] 流行病；流行的
+    - epi- 在…… 上；dem - 人民； -ic 形容词后缀
+    - pandemic [pænˈdemɪk] 大流行病
+- substitute [ˈsʌbstɪtjuːt] 代替者；代替物
+    - sub- 在下面；stitu - 放置； -te 动词兼名词后缀
+    - replacement [rɪˈpleɪsmənt] 替换；替代品
+- saturated [ˈsætʃəreɪtɪd] 饱和的；渗透的
+    - satur - 使饱和； -ate 动词后缀； -ed 形容词后缀
+    - filled [fɪld] 充满的
+- butter [ˈbʌtə(r)] 黄油；奶油
+    - margarine [ˌmɑːdʒəˈriːn] 人造黄油
+- sodium [ˈsəʊdiəm] 钠
+    - salt [sɔːlt] 盐
+- rhetoric [ˈretərɪk] 修辞；花言巧语
+    - oratory [ˈɒrətəri] 演讲术
+- feasible [ˈfiːzəbl] 可行的；可能的
+    - feas - 做； -ible 形容词后缀
+    - practicable [ˈpræktɪkəbl] 可行的
+- drastic [ˈdræstɪk] 激烈的；猛烈的
+    - severe [sɪˈvɪə(r)] 严重的；严厉的
+- infrastructure [ˈɪnfrəstrʌktʃə(r)] 基础设施；下部构造
+    - infra- 在…… 之下；structure 结构
+    - base [beɪs] 基础
+- pestisides（疑似拼写错误，假设为 pesticides）[ˈpestɪsaɪdz] 农药
+    - pest - 害虫； -icide 杀…… 剂
+    - insecticide [ɪnˈsektɪsaɪd] 杀虫剂
+- lobby [ˈlɒbi] 大厅；游说
+    - foyer [ˈfɔɪeɪ] 门厅；休息室
+- odd [ɒd] 奇数的；古怪的
+    - strange [streɪndʒ] 奇怪的
+- roll back [rəʊl bæk] 击退；把…… 压低
+    - roll 滚动；back 向后
+    - repel [rɪˈpel] 击退；抵制
+- hostile [ˈhɒstaɪl] 敌对的；不友好的
+    - unfriendly [ʌnˈfrendli] 不友好的
+- agenda [əˈdʒendə] 议程；日程表
+    - schedule [ˈʃedjuːl] 时间表；计划表
+- military [ˈmɪlətri] 军事的；军人的
+    - armed [ɑːmd] 武装的
+- enormous [ɪˈnɔːməs] 巨大的；庞大的
+    - e- 出；norm - 规则； -ous 形容词后缀
+    - huge [hjuːdʒ] 巨大的
+- enact [ɪˈnækt] 制定法律；颁布
+    - en- 使；act - 行动
+    - pass [pɑːs] 通过；批准
+- ramification [ˌræmɪfɪˈkeɪʃn] 结果；分支
+    - ram - 分支； -ification 名词后缀
+    - branch [brɑːntʃ] 分支
+- disentangle [ˌdɪsɪnˈtæŋɡl] 解开；清理
+    - dis- 不；entangle 使纠缠
+    - untangle [ˌʌnˈtæŋɡl] 解开；松开

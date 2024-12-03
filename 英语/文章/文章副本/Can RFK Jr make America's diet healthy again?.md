@@ -3,7 +3,7 @@
 
 Robert F Kennedy Jr has set his sights on changing how Americans eat and drink.
 
-From the ==dyes== in Fruit Loops ====cereal==== to seed oils in chicken nuggets, Kennedy - who is President-elect Trump's choice to lead the Department of Health and Human Services (DHHS) - has long spoken out against ====ingredients==== that he says hurt Americans' health.
+From the ==dyes== in Fruit Loops ====cereal==== to seed oils in chicken ==nuggets==, Kennedy - who is President-elect Trump's choice to lead the Department of Health and Human Services (DHHS) - has long spoken out against ====ingredients==== that he says hurt Americans' health.
 
 "We are betraying our children by letting [food] industries poison them,” Kennedy said at a ==rally== in November, after he had ended his independent presidential ==bid== and backed Donald Trump.
 
@@ -18,13 +18,13 @@ The former environmental ====attorney==== - who still must face confirmation b
 
 Yet some of his ideas around reforming the FDA have found support from health ====experts==, lawmakers and concerned consumers alike - including some Democrats.
 
-Kennedy “will help make America healthy again by shaking up HHS and FDA”, Colorado’s Democratic Governor Jared Polis wrote on social media this week, welcoming his nomination. After receiving public ====backlash==== for praising him, Polis qualified his ====endorsement==, writing on social media that "science must remain THE ====cornerstone==== of our nation’s health policy".
+Kennedy “will help make America healthy again by shaking up HHS and FDA”, Colorado’s Democratic Governor Jared Polis wrote on social media this week, welcoming his ==nomination==. After receiving public ====backlash==== for praising him, Polis qualified his ====endorsement==, writing on social media that "science must remain THE ====cornerstone==== of our nation’s health policy".
 
 ## Making America Healthy Again
 
 Leading up to the election, Kennedy - a former Democrat - offered several ideas for ====tackling==== chronic diseases under his slogan “Make America Healthy Again”.
 
-He has frequently advocated for eliminating ====ultra-processed==== foods - products altered to include added fats, starches and sugars, like frozen pizzas, crisps and sugary breakfast cereals, that are linked to health problems like cancer, cardiovascular disease and ====diabetes==.
+He has frequently advocated for ==eliminating== ====ultra-processed==== foods - products altered to include added fats, ==starches== and sugars, like frozen pizzas, crisps and sugary breakfast ==cereals==, that are linked to health problems like cancer, cardiovascular disease and ====diabetes==.
 
 He has taken aim primarily at school lunches, telling Fox News: “We have a generation of kids who are swimming around in a toxic soup right now."
 
@@ -40,11 +40,9 @@ He has also pushed for getting rid of food ==dyes,== including Red No. 3, and 
 
 The former Democrat has also singled out more ====controversial==== health issues, including ====fluoride==== in drinking water, which he says should be banned altogether, and raw milk, which he believes has health benefits despite the increased risk of ======bacterial==== ====contamination==.
 
-He’s also come after seed oils, writing on social media that Americans are being “unknowingly poisoned” by products like canola and sunflower oil that are used in fast foods.
+He’s also come after seed oils, writing on social media that Americans are being “unknowingly poisoned” by products like ==canola== and sunflower oil that are used in fast foods.
 
-Getty Images
-
-Kennedy wants to ban ====ultra-processed==== foods from school cafeterias
+Kennedy wants to ban ====ultra-processed==== foods from school ==cafeterias==
 
 ## What the evidence says
 
@@ -56,7 +54,7 @@ Kennedy’s aim to get rid of certain food ====additives==== and ==dyes== al
 
 The former FDA official said several food ==dyes,== including Red No. 3 - which is banned in California - should also be blocked by the US government because of concerns about ====carcinogens==.
 
-The FDA has pushed back on Kennedy’s claim that the US allows thousands of ====additives==== that are banned in the European Union. A spokesperson said it was necessary "to dig deeper and understand the context behind the numbers" when comparing regulations in the US and EU, which use different methodologies.
+The FDA has pushed back on Kennedy’s claim that the US allows thousands of ====additives==== that are banned in the European Union. A spokesperson said it was necessary "to dig deeper and understand the context behind the numbers" when comparing regulations in the US and EU, which use different ==methodologies==.
 
 But public health ====experts==== and former officials said ====a number of==== Kennedy’s goals were not ====worthwhile==== - and in some cases, harmful.
 
@@ -64,9 +62,9 @@ For instance, drinking raw milk that has not been ====pasteurized==== - a proc
 
 “There's no evidence of any nutritional benefit of any magnitude that we know that comes from non-pasteurizing of milk,” said Dr Lurie.
 
-Kennedy’s proposal to remove ====fluoride==== from drinking water also could be problematic, because ====fluoride==,== in the low levels found in water, has been proven to improve dental health, said University of Michigan nutritional sciences professor Jennifer Garner.
+Kennedy’s proposal to remove ====fluoride==== from drinking water also could be problematic, because ====fluoride==, in the low levels found in water, has been proven to improve dental health, said University of Michigan nutritional sciences professor Jennifer Garner.
 
-Removing it from the water supply would also be out of his ====jurisdiction==,== because ====fluoride==== levels are controlled by states.
+Removing it from the water supply would also be out of his ====jurisdiction==, because ====fluoride==== levels are controlled by states.
 
 And his claim that seed oils are helping drive the obesity ====epidemic==== is not based in science, either, Dr Lurie said.
 
@@ -82,7 +80,7 @@ For one, the FDA does not have authority over the catch-all of “==ultra-proces
 
 Instead, they said, the process is more complicated. Both the US Department of Agriculture and the FDA regulate the food industry. The FDA does not make the rules - it carries out policies passed by Congress and works to limit unhealthy foods by enforcing limits and labelling on certain nutrients, like ==sodium== and ====saturated==== fat.
 
-Kennedy’s comments “make for great political rhetoric”, Ms Garner said. “In my view, I don’t see how that could be ====feasible==== without ====drastic==== changes in other policy and infrastructure.”
+Kennedy’s comments “make for great political ==rhetoric==”, Ms Garner said. “In my view, I don’t see how that could be ====feasible==== without ====drastic==== changes in other policy and infrastructure.”
 
 He will also face industry ====backlash==== for proposals to ban ====pesticides==== and genetically modified organisms commonly used by American farmers, former FDA officials said.
 
@@ -96,7 +94,7 @@ Republican Senator Chuck Grassley, of Iowa, said this week that he planned to me
 
 Kennedy’s position also puts him at odds with President-elect Trump, a longtime lover of fast food who worked to roll back stricter health requirements for school lunches during his first term.
 
-“You get some ideas that make a certain amount of sense, but they are exactly the kind to which this administration is ====hostile==,==” Dr Lurie said.
+“You get some ideas that make a certain amount of sense, but they are exactly the kind to which this administration is ====hostile====,” Dr Lurie said.
 
 In a statement to the BBC, the Food Industry Association, which represents food retailers, producers and manufacturers, like General Mills, said it looked forward to working with Trump’s team to “ensure food and drug policy continues to be grounded in science, to reduce regulatory complexity”.
 
@@ -105,8 +103,6 @@ The industry complaints about Kennedy’s ==agenda== do not come as a surprise
 The goal of the health movement, Mr Hutt said, is “prioritising the wellness of America over corporate profits”.
 
 “Even if the idea of banning ====ultra-processed==== food is not possible politically, it's a conversation that we need to have,” he said.
-
-Getty Images
 
 ## Pathway to change
 
@@ -118,9 +114,9 @@ Ms Nestle said Kennedy could take on ====ultra-processed==== foods by altering
 
 The guidelines are updated every five years by the US Department of Agriculture and DHHS, which has previously said there is not enough evidence against ====ultra-processed==== foods.
 
-Still, officials and nutrition ====experts==== raised concerns about the means by which Kennedy has proposed to enact his ==agenda,== including firing the FDA’s nutritionists.
+Still, officials and nutrition ====experts==== raised concerns about the means by which Kennedy has proposed to ==enact== his ==agenda,== including firing the FDA’s nutritionists.
 
-The move would have large ramifications for food safety, said Ms Lijinsky. “If you lose your top ====experts==, you’re going to have problems,” she said.
+The move would have large ==ramifications== for food safety, said Ms Lijinsky. “If you lose your top ====experts==, you’re going to have problems,” she said.
 
 Ultimately, Ms Garner said it is difficult to ====disentangle==== some of Kennedy’s more reasonable food-improvement goals with the false health claims he has spread.
 
