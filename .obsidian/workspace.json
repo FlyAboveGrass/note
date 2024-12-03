@@ -216,7 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 360.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,10 +230,11 @@
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": true,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "edge-tts:Read note aloud": false
     }
   },
-  "active": "d23bd5efb57a2d8f",
+  "active": "4ed72fc1e60e98db",
   "lastOpenFiles": [
     "英语/文章/文章收集.md",
     "英语/文章/文章生词/UK borrowing costs at highest for a year after Budget.md",

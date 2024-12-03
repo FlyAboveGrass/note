@@ -1,0 +1,34 @@
+.edge-tts-info-div {
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.edge-tts-star-section {
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.edge-tts-star-message {
+	font-size: x-large;
+}
+
+.edge-tts-status-bar-control {
+	background: none;
+	border: none;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 8px;
+}
+
+.edge-tts-status-bar-control:hover {
+	color: var(--interactive-accent);
+}
