@@ -4,61 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "3e4b1791394a878b",
+        "id": "7120b6bac194245d",
         "type": "tabs",
-        "dimension": 54.44947209653092,
         "children": [
           {
-            "id": "fafe41e92d4627db",
+            "id": "a1ba71705d2abc49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章收集.md",
+                "file": "z 前端/精选文章.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文章收集"
+              "title": "精选文章"
             }
           },
           {
-            "id": "c5c57977c502b040",
+            "id": "d23bd5efb57a2d8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语/文章/文章副本/Can RFK Jr make America's diet healthy again?.md",
+                "file": "杂记/文章收集 ✨✨✨✨✨.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Can RFK Jr make America's diet healthy again?"
+              "title": "文章收集 ✨✨✨✨✨"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "4022278b1f2c9e2f",
-        "type": "tabs",
-        "dimension": 45.55052790346908,
-        "children": [
-          {
-            "id": "6a2447dff1985651",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语/文章/文章生词/Can RFK Jr make America's diet healthy again?.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Can RFK Jr make America's diet healthy again?"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -89,10 +67,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/文章/文章生词/Can RFK Jr make America's diet healthy again?.md"
+                "file": "杂记/文章收集 ✨✨✨✨✨.md"
               },
               "icon": "lucide-list",
-              "title": "Can RFK Jr make America's diet healthy again? 的大纲"
+              "title": "文章收集 ✨✨✨✨✨ 的大纲"
             }
           },
           {
@@ -101,8 +79,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dramatic",
-                "matchingCase": false,
+                "query": "media ban",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -126,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 318.5
   },
   "right": {
     "id": "dfe4f3c211085d5b",
@@ -153,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
+                "file": "英语/文章/文章收集.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "UK borrowing costs at highest for a year after Budget 的反向链接列表"
+              "title": "文章收集 的反向链接列表"
             }
           },
           {
@@ -172,11 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "英语/文章/文章收集.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "文章收集 的出链列表"
             }
           },
           {
@@ -207,7 +186,7 @@
             }
           },
           {
-            "id": "69a0650087fd3f14",
+            "id": "80e449257904d5ed",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
@@ -237,11 +216,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 360.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-tts:Text to Speech": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
@@ -252,56 +230,57 @@
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": true,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "edge-tts:Read note aloud": false
     }
   },
-  "active": "6a2447dff1985651",
+  "active": "d23bd5efb57a2d8f",
   "lastOpenFiles": [
-    "英语/文章/文章副本/Can RFK Jr make America's diet healthy again?.md",
     "英语/文章/文章生词/Can RFK Jr make America's diet healthy again?.md",
     "英语/文章/文章收集.md",
-    "英语/文章/文章生词/Taiwanese driver recounts his narrow escape during Typhoon Kong-rey.md",
+    "英语/文章/文章生词/UK borrowing costs at highest for a year after Budget.md",
+    "英语/文章/文章生词/Ex-Abercrombie CEO used power, wealth and influence to traffic vulnerable men, prosecutors say.md",
+    "英语/文章/文章副本/Boeing raises pay offer in bid to end seven-week strike.md",
+    "z 前端/精选文章.md",
+    "笔记图片/Pasted image 20241129150439.png",
+    "z 前端/Mac 常用命令.md",
+    "z 前端/前端知识自检清单.md",
+    "杂记/vscode 技巧.md",
+    "杂记/vscode 快捷键.md",
+    "杂记/文章收集 ✨✨✨✨✨.md",
+    "杂记/投资日记.md",
+    "杂记/备忘录.md",
     "英语/文章/文章副本/Vietnamese tycoon in race to raise $9bn to avoid execution.md",
     "英语/文章/文章副本/Trump picks investment banker Warren Stephens as UK ambassador.md",
-    "笔记图片/Pasted image 20241129150439.png",
-    "杂记/文章收集 ✨✨✨✨✨.md",
-    "英语/文章/文章副本/Taiwanese driver recounts his narrow escape during Typhoon Kong-rey.md",
-    "英语/文章/文章生词/What form could reparations for slavery take?.md",
-    "z 前端/精选文章.md",
-    "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
-    "英语/文章/文章生词/UK borrowing costs at highest for a year after Budget.md",
-    "英语/文章/文章生词/Boeing raises pay offer in bid to end seven-week strike.md",
-    "英语/文章/文章副本/‘Italian’ purees likely to contain Chinese forced-labour tomatoes, BBC finds.md",
+    "英语/文章/文章生词/Taiwanese driver recounts his narrow escape during Typhoon Kong-rey.md",
     "英语/文章/文章副本/Why so many games are failing right now - and why others are breakout hits.md",
+    "英语/文章/文章生词/Boeing raises pay offer in bid to end seven-week strike.md",
+    "英语/文章/文章副本/UK borrowing costs at highest for a year after Budget.md",
     "英语/文章/文章副本/Why Canada’s Christmas presents may not be delivered on time this year.md",
-    "英语/文章/文章副本/Traveling during the holidays can be stressful. These tips can make it a little easier.md",
-    "英语/文章/文章副本/LinkedIn ： We're too boring for kids for social media ban.md",
-    "英语/文章/文章副本/In a meeting with Biden, China’s Xi cautions US to ‘make the wise choice’ to keep relations stable.md",
-    "英语/文章/文章副本/Going downtown or to the ’burbs? Nope. The exurbs are where people are moving.md",
+    "杂记/健康学习到150岁 - 人体系统调优不完全指南.md",
+    "英语/文章/文章副本/‘Italian’ purees likely to contain Chinese forced-labour tomatoes, BBC finds.md",
+    "英语/100句7000词.md",
     "英语/文章/文章副本/Chinese companies apologise for 'shrunken' sanitary pads.md",
+    "英语/文章/文章副本/LinkedIn ： We're too boring for kids for social media ban.md",
     "笔记图片/Pasted image 20241129150109.png",
-    "z 前端/Pasted image 20241129150439.png",
-    "英语/文章/文章生词/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
-    "conflict-files-obsidian-git.md",
-    "英语/文章/文章副本/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
-    "英语/文章/文章生词/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
-    "英语/文章/文章生词/未命名",
-    "英语/文章/文章副本/Fourth mass coral bleaching prompts UN emergency session at Colombia biodiversity summit.md",
+    "z 前端/面试/计算机网络.md",
+    "笔记图片/思维导图",
+    "英语.zip",
     "笔记图片/Pasted image 20241030233612.png",
-    "note/阅读/微信读书",
-    "note/阅读",
-    "note/软件工程",
-    "note/计算机",
-    "note/英语/文章/文章生词",
-    "note/英语/文章/文章副本",
-    "note/英语/文章",
-    "note/英语",
-    "note/经济学",
-    "note/笔记图片/词法作用域.png",
-    "note/笔记图片/缓存使用顺序.png",
-    "note/笔记图片/用例图.jpg",
-    "note/笔记图片/理解中间件.jpg",
-    "note/笔记图片/正向代理.png",
-    "note/笔记图片/树的表示法.png"
+    "英语/文章/文章生词",
+    "英语/文章/文章副本",
+    "英语/文章",
+    "英语/文章副本",
+    "英语/未命名",
+    "英语",
+    "阅读/微信读书",
+    "阅读",
+    "笔记图片/img_v3_02ac_c5d60a3c-8cf6-4fc1-baa2-788aa2f503fg.jpg",
+    "笔记图片/img_v3_02ac_80383606-07d6-4d2a-9d4b-731b89840e9g.jpg",
+    "笔记图片/Pasted image 20240524103542.png",
+    "笔记图片/Pasted image 20240223180945.png",
+    "笔记图片/Pasted image 20240223180833.png",
+    "笔记图片/Pasted image 20240223113654.png",
+    "笔记图片/Pasted image 20231206234432.png"
   ]
 }
