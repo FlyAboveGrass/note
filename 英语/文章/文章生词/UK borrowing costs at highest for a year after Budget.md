@@ -28,11 +28,7 @@
 - swollen
 
 
-
-
-
-
-
+解释：
 - wake [weɪk] 醒；唤醒
     - awake [əˈweɪk] 醒着的
 - interest rate [ˈɪntrəst reɪt] 利率

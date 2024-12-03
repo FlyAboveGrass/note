@@ -1,5 +1,5 @@
 
-### 自定义任务
+# 自定义任务
 
 > **Tip:** To get access to the global scope `tasks.json` file, open the Command Palette (⇧⌘P) and run the **Tasks: Open User Tasks** command.
 
@@ -30,7 +30,7 @@ homebrew 安装的 git 版本不是最新
 
 
 
-### jsconfig / tsconfig. json
+# jsconfig / tsconfig. json
 
 **一定要配置 exclude ，否则在进行 ts 校验或者跳转的时候卡顿甚至报错！**
 

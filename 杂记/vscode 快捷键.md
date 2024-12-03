@@ -1,11 +1,8 @@
-
-
 | helo | heal |
 | ---- | ---- |
 |      |      |
 
-
-## 光标移动
+# 光标移动
 
 1. 移动到单词的最前面：option + ←
 2. 移动到单词最末尾：option + →
@@ -16,22 +13,22 @@
 7. 花括号之间跳转：cmd + shift +
 8. 移动到文档第一行或最后一行：cmd + ↑ / cmd + ↓
 
-## 文本选择
+# 文本选择
 
 基于单词，行，文档的光标操作加上个shift键，就可以移动光标的同时选择文本；例如，选择当前光标所在位置到当前行最前面的代码：cmd + ← + shift
 
-### 添加注释
+## 添加注释
 
 1. 注释一行代码：cmd + /
 2. 注释一整段代码：option + shift + A
 
-### 格式化代码
+## 格式化代码
 
 1. 格式化代码：option + shift + F
 2. 格式化选中行代码：cmd + K cmd + F
 3. 代码缩进：cmd + shift + P
 
-## 文件、符号、代码之间的快速跳转
+# 文件、符号、代码之间的快速跳转
 
 1. control+ tab(同时按住)，继续按着control键，松开tab键： 打开当前打开文件的列表，选择要打开文件，松开control就能打开对应文件
 2. cmd + P打开最近打开文件列表，同时列表顶部出现搜索框，搜索文件名，回车（enter），可以再当前窗口打开对应文件；使用cmd + enter会在新的编辑器窗口打开这个文件
@@ -43,21 +40,21 @@
 8. cmd + F12：跳转到函数的实现位置；注：js中没有接口的概念，定义和实现是相同的，所以js中的F12和Cmd + F12效果是一样的
 9. shift + F12：打开函数引用的预览（把光标放在函数或者类上，按shift+F12可以打开一个引用列表和内嵌编辑器）
 
-### 全局
+## 全局
 
 1. Command + Shift + P / F1 显示命令面板
 2. Command + P 快速打开
 3. Command + Shift + N 打开新窗口
 4. Command + W 关闭窗口
 
-### 基本
+## 基本
 
 1. Option + Up 向上移动行
 2. Option + Down 向下移动行
 3. Option + Shift + Up 向上复制行
 4. Option + Shift + Down 向下复制行
 
-  
+
 
 - Command + Shift + K 删除行
 - Command + Enter 下一行插入
@@ -85,7 +82,7 @@
 - Option + Shift + A 添加、移除块注释
 - Option + Z 自动换行、取消自动换行
 
-### 多光标与选择
+## 多光标与选择
 
 - Option + 点击 插入多个光标
 - Command + Option + Up 向上插入光标
@@ -105,7 +102,7 @@
 - Command + Shift + Option + PgUp 列选择 向上翻页
 - Command + Shift + Option + PgDown 列选择 向下翻页
 
-### 查找替换
+## 查找替换
 
 - Command + F 查找
 - Command + Option + F 替换
@@ -115,7 +112,7 @@
 - Command + D 向下选中相同内容
 - Command + K Command + D 移除前一个向下选中相同内容
 
-### 导航
+## 导航
 
 - Command + T 显示所有符号
 - Ctrl + G 跳转至某行
@@ -129,7 +126,7 @@
 - Ctrl + Shift + - 前进
 - Ctrl + Shift + M Tab 切换焦点
 
-### 编辑器管理
+## 编辑器管理
 
 - Command + W 关闭编辑器
 - Command + K F 关闭文件夹
@@ -144,7 +141,7 @@
 - Command + K Left 激活左侧编辑组
 - Command + K Right 激活右侧编辑组
 
-### 文件管理
+## 文件管理
 
 - Command + N 新建文件
 - Command + O 打开文件
@@ -161,7 +158,7 @@
 - Command + K R 在资源管理器中查看当前文件
 - Command + K O 新窗口打开当前文件
 
-### 显示
+## 显示
 
 - Command + Ctrl + F 全屏、退出全屏
 - Command + Option + 1 切换编辑器分屏方式（横、竖）
@@ -180,7 +177,7 @@
 - Command + Shift + V Markdown预览窗口
 - Command + K V 分屏显示 Markdown预览窗口
 
-### 调试
+## 调试
 
 - F9 设置 或 取消断点
 - F5 开始 或 继续
@@ -189,7 +186,7 @@
 - F10 跳过
 - Command + K Command + I 显示悬停信息
 
-### 集成终端
+## 集成终端
 
 - Ctrl + `显示终端 Ctrl + Shift +` 新建终端
 - Command + Up 向上滚动
