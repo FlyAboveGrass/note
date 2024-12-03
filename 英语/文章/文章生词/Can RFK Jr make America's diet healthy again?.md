@@ -91,7 +91,7 @@
     - debatable [ˈdebətəbl] 有争议的
 - vaccine [ˈvæksiːn] 疫苗
     - inoculation [ɪˌnɒkjʊˈleɪʃn] 接种；预防注射
-- reforme（疑似拼写错误，假设为 reform）[rɪˈfɔːm] 改革；改良
+- reform [rɪˈfɔːm] 改革；改良
     - re- 再次；form - 形状，形式
     - renovate [ˈrenəveɪt] 革新；修复
 - expert [ˈekspɜːt] 专家；行家
@@ -121,9 +121,7 @@
     - change [tʃeɪndʒ] 改变；变化
 - starch [stɑːtʃ] 淀粉
     - amylum [ˈæmɪləm] 淀粉
-- cereal [ˈsɪəriəl] 谷类食物；谷物
-    - grain [ɡreɪn] 谷物；颗粒
-- diabete（疑似拼写错误，假设为 diabetes）[ˌdaɪəˈbiːtiːz] 糖尿病
+- diabetes[ˌdaɪəˈbiːtiːz] 糖尿病
     - diabetic [ˌdaɪəˈbetɪk] 糖尿病患者
 - mandate [ˈmændeɪt] 授权；命令
     - order [ˈɔːdə(r)] 命令；指令
