@@ -215,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,8 +235,9 @@
   },
   "active": "a1ba71705d2abc49",
   "lastOpenFiles": [
-    "英语/文章/文章副本/Trump picks investment banker Warren Stephens as UK ambassador.md",
+    "英语/文章/文章副本/Vietnamese tycoon in race to raise $9bn to avoid execution.md",
     "英语/文章/文章收集.md",
+    "英语/文章/文章副本/Trump picks investment banker Warren Stephens as UK ambassador.md",
     "英语/文章/文章生词/Taiwanese driver recounts his narrow escape during Typhoon Kong-rey.md",
     "英语/文章/文章副本/Why so many games are failing right now - and why others are breakout hits.md",
     "英语/文章/文章生词/Boeing raises pay offer in bid to end seven-week strike.md",
@@ -262,7 +264,6 @@
     "英语/文章/文章副本/In a meeting with Biden, China’s Xi cautions US to ‘make the wise choice’ to keep relations stable.md",
     "英语/文章/文章副本/Traveling during the holidays can be stressful. These tips can make it a little easier.md",
     "英语/文章/文章副本/Going downtown or to the ’burbs? Nope. The exurbs are where people are moving.md",
-    "杂记/vscode 技巧.md",
     "英语.zip",
     "笔记图片/Pasted image 20241030233612.png",
     "英语/文章/文章生词",
