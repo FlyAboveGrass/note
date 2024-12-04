@@ -1,0 +1,128 @@
+
+- frazzle
+- lessening
+- gate
+- chill out
+- groundbreaking
+- ambient
+- genre
+- cable
+- pricey
+- scenarios
+- knitting
+- pouch
+- balm
+- moisturizers
+- chief
+- boost
+- boot
+- humidity
+- perk
+- thumb
+- departure
+- domestic
+- lounge
+- overwhelmed
+- outsource
+- tidying
+- pantry
+- inevitably
+- countertops
+- neat
+- tidy
+
+
+- frazzle [ˈfræzl] 磨损；疲惫
+    - frazz - 磨损； -le，动词后缀，表反复动作
+    - exhaust [ɪɡˈzɔːst] 使疲惫；weary [ˈwɪəri] 疲倦的。
+- lessening [ˈlesnɪŋ] 减少；减轻
+    - lessen - 减少； -ing 名词后缀
+    - decrease [dɪˈkriːs] 减少；diminish [dɪˈmɪnɪʃ] 减少。
+- gate [ɡeɪt] 大门；登机口
+    - 无明显的词根或者前缀后缀
+    - door [dɔː(r)] 门；entrance [ˈentrəns] 入口。
+- chill out （动词短语）放松；冷静
+    - chill - 寒冷；使变冷；out - 向外，离开
+    - relax [rɪˈlæks] 放松；calm down [kɑːm daʊn] 冷静下来。
+- groundbreaking [ˈɡraʊndbreɪkɪŋ] 开创性的；创新的
+    - ground - 地面；break - 打破； -ing 和 -ing，形容词后缀
+    - innovative [ˈɪnəveɪtɪv] 创新的；creative, 创新的；pioneering [ˌpaɪəˈnɪərɪŋ] 开创性的。
+- ambient [ˈæmbiənt] 周围的；环境的
+    - ambi - 周围； -ent 形容词后缀
+    - surrounding [səˈraʊndɪŋ] 周围的；circumambient [ˌsɜːkəmˈæmbiənt] 围绕的。
+- genre [ˈʒɒ̃rə] 类型；流派
+    - 无明显的词根或者前缀后缀
+    - category [ˈkætəɡəri] 种类；type [taɪp] 类型。
+- cable [ˈkeɪbl] 电缆；钢索
+    - 无明显的词根或者前缀后缀
+    - wire [ˈwaɪə(r)] 电线；cord [kɔːd] 绳索。
+- pricey [ˈpraɪsi] 昂贵的
+    - price - 价格； -y 形容词后缀
+    - expensive [ɪkˈspensɪv] 昂贵的；costly [ˈkɒstli] 昂贵的。
+- scenarios [sɪˈnɑːriəʊz] 情景；场景
+    - scenari - 情景； -os 名词复数后缀
+    - situation [ˌsɪtʃuˈeɪʃn] 情况；scene [siːn] 场景。
+- knitting [ˈnɪtɪŋ] 编织；针织品
+    - knit - 编织； -ing 名词后缀
+    - weave [wiːv] 编织；crochet [ˈkrəʊʃeɪ] 钩针编织。
+        - wave 波浪，挥动
+- pouch [paʊtʃ] 小袋；育儿袋
+    - 无明显的词根或者前缀后缀
+    - bag [bæɡ] 袋；sack [sæk] 袋子。
+- balm [bɑːm] 香油；止痛药膏
+    - 无明显的词根或者前缀后缀
+    - ointment [ˈɔɪntmənt] 药膏；salve [sælv] 药膏。
+- moisturizers [ˈmɔɪstʃəraɪzəz] 润肤霜
+    - moisturiz (e) - 使湿润； -er 表示人或物； -s 复数后缀
+    - lotion [ˈləʊʃn] 乳液；cream [kriːm] 乳霜。
+- chief [tʃiːf] 首领；主要的
+    - 无明显的词根或者前缀后缀
+    - leader [ˈliːdə(r)] 领导；head [hed] 首领。
+- boost [buːst] 提高；促进
+    - 无明显的词根或者前缀后缀
+    - enhance [ɪnˈhɑːns] 提高；promote [prəˈməʊt] 促进。
+- boot [buːt] 靴子
+    - 无明显的词根或者前缀后缀
+    - shoe [ʃuː] 鞋子；sneaker [ˈsniːkə(r)] 运动鞋。
+- humidity [hjuːˈmɪdəti] 湿度；潮湿
+    - humid - 潮湿的； -ity 名词后缀
+    - dampness [ˈdæmpnəs] 潮湿；moisture [ˈmɔɪstʃə(r)] 水分。
+- perk [pɜːk] 好处；津贴
+    - 无明显的词根或者前缀后缀
+    - benefit [ˈbenɪfɪt] 好处；advantage [ədˈvɑːntɪdʒ] 优势。
+- thumb [θʌm] 拇指
+    - 无明显的词根或者前缀后缀
+    - finger [ˈfɪŋɡə(r)] 手指；index finger [ˈɪndeks ˈfɪŋɡə(r)] 食指。
+- departure [dɪˈpɑːtʃə(r)] 离开；出发
+    - depart - 离开； -ure 名词后缀
+    - leave [liːv] 离开；exit [ˈeksɪt] 出口。
+- domestic [dəˈmestɪk] 国内的；家庭的
+    - dom - 家； -estic 形容词后缀
+    - household [ˈhaʊshəʊld] 家庭的；native [ˈneɪtɪv] 本国的。
+- lounge [laʊndʒ] 休息室；闲逛
+    - 无明显的词根或者前缀后缀
+    - waiting room [ˈweɪtɪŋ ruːm] 等候室；recreation room [ˌrekriˈeɪʃn ruːm] 娱乐室。
+- overwhelmed [ˌəʊvəˈwelmd] 被压倒的；不知所措的
+    - over - 超过；whelm - 淹没； -ed 形容词后缀
+    - overpowered [ˌəʊvəˈpaʊəd] 被制服的；overburdened [ˌəʊvəˈbɜːdnd] 负担过重的。
+- outsource [ˈaʊtsɔːs] 外包
+    - out - 向外；source - 来源
+    - subcontract [ˌsʌbkənˈtrækt] 转包；farm out [fɑːm aʊt] 外包。
+- tidying [ˈtaɪdiɪŋ] 整理；收拾
+    - tidy - 整洁的； -ing 名词后缀
+    - organize [ˈɔːɡənaɪz] 整理；arrange [əˈreɪndʒ] 安排。
+- pantry [ˈpæntri] 食品储藏室
+    - 无明显的词根或者前缀后缀
+    - storeroom [ˈstɔːruːm] 储藏室；closet [ˈklɒzɪt] 壁橱。
+- inevitably [ɪnˈevɪtəbli] 不可避免地
+    - in - 不；evitable - 可避免的； -ly 副词后缀
+    - unavoidably [ˌʌnəˈvɔɪdəbli] 不可避免地；necessarily [ˈnesəsərəli] 必然地。
+- countertops [ˈkaʊntətɒps] 工作台面
+    - counter - 柜台；top - 顶部； -s 复数后缀
+    - worktop [ˈwɜːktɒp] 工作台面；tabletop [ˈteɪbltɒp] 桌面。
+- neat [niːt] 整洁的；整齐的
+    - 无明显的词根或者前缀后缀
+    - orderly [ˈɔːdəli] 整齐的；tidy [ˈtaɪdi] 整洁的。
+- tidy [ˈtaɪdi] 整洁的；整理
+    - 无明显的词根或者前缀后缀
+    - neat [niːt] 整洁的；organize [ˈɔːɡənaɪz] 整理。

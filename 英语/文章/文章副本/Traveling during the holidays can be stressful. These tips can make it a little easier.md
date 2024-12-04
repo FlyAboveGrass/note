@@ -30,7 +30,7 @@ Bringing along some snacks or a sandwich from home can feel comforting and be a 
 
 To counter the dry air on flights, bring along an empty water bottle (fill it after you [go through security](https://apnews.com/hub/airport-security) ) and a small ==pouch== with lip ==balm== and travel-size ====moisturizers==.==
 
-Hallie Gould, editor in chief of Byrdie, a digital site for beauty care, recommends “loading up on skin hydration before your flight. That means drinking extra fluids and applying moisturizing skin products to boost hydration, so you’re covering your bases inside and out.”
+Hallie Gould, editor in ==chief== of Byrdie, a digital site for beauty care, recommends “loading up on skin hydration before your flight. That means drinking extra fluids and applying moisturizing skin products to boost hydration, so you’re covering your bases inside and out.”
 
 And don’t forget your hair.
 
@@ -46,7 +46,7 @@ And don’t forget your hair.
 
 Security lines can be much longer — and slower — than expected, and so can the walk through a large airport. So giving yourself plenty of extra time can reduce stress. The general rule of ==thumb== is to arrive at the airport two hours before ====departure==== for ====domestic==== flights and three hours before international flights.
 
-If you’re too early, you can always explore the airport shops and lounges or settle in with a good book somewhere.
+If you’re too early, you can always explore the airport shops and ==lounges== or settle in with a good book somewhere.
 
 “I always confirm whether or not there is a ==lounge== I have access to in my departing ==gate== ahead of time,” Feldman says. But even without ==lounge== access, she says, “I like to know what the restaurants and waiting areas (near) the ==gate== are like.”
 
