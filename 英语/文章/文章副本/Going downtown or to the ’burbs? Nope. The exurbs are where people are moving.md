@@ -25,7 +25,7 @@ FILE - A “For Sale” sign sits among an ==acreage== of orange trees in Bartow
 
 The rapid growth of ====far-flung==== ==exurbs== is an after-effect of the COVID-19 ====pandemic==,== according to the Census Bureau, as rising housing costs drove people further from cities and remote working allowed many to do their jobs from home at least part of the week.
 
-Polk County’s Hispanic population has grown from one-fifth to more than one-quarter of the overall population over the past five years, driven by Puerto Rican migration from the island after 2017’s Hurricane Maria and then from New York during the ====pandemic==.==
+Polk County’s Hispanic population has grown from one-fifth to more than one-quarter of the ==overall== population over the past five years, driven by Puerto Rican migration from the island after 2017’s Hurricane Maria and then from New York during the ====pandemic==.==
 
 FILE - A tongue-in-cheek sign referencing what someday might be the heart of the sprawling metro areas of Orlando and Tampa is seen, installed by a private landowner, along Interstate 4 in Polk City, Fla., Oct. 24, 2002. (AP Photo/Peter Cos====grove,==== File)
 
@@ -45,7 +45,7 @@ Over the past decade, citrus-growing there declined from [81,800 ==acres== (3
 
 Anna, Texas, more than 45 miles (72 kilometers) north of ====downtown==== Dallas, is seeing the same kind of migration.
 
-It was the fourth-fastest growing city in the U.S. last year and its population has increased by a third during the 2020s to 27,500 residents. Like Polk ==County,== Anna has gotten a little older, richer and more racially ====diverse==.== Close to 3 in 5 ====households==== have moved into their homes since 2020, according to the Census Bureau.
+It was the fourth-fastest growing city in the U.S. last year and its population has increased by a third during the 2020s to 27,500 residents. Like Polk ==County,== Anna has gotten a little older, richer and more racially ====diverse==. Close to 3 in 5 ====households==== have moved into their homes since 2020, according to the Census Bureau.
 
 Schuyler Crouch, 29, and his wife wanted to buy a house in a ====closer-in==== exurb like Frisco, where he grew up, so they could settle down and start a family. But prices there have ====skyrocketed==== [because of population growth](https://apnews.com/article/dallas-cowboys-sports-india-texas-c66b2f9869917585b5e47e404ac312c1).
 

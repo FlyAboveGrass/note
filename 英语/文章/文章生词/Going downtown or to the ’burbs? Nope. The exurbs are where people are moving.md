@@ -149,6 +149,6 @@
 - breakneck [ˈbreɪknek] 极快的；危险的
     - break - 打破；neck - 脖子；
     - rapid [ˈræpɪd] 迅速的；fast [fɑːst] 快的；hasty [ˈheɪsti] 匆忙的
-- frings（可能拼写错误，应为 fringes /ˈfrɪndʒɪz/）边缘；外围
+- fringes [ˈfrɪndʒɪz] 边缘；穗；刘海
     - fringe - 边缘； -es 名词复数后缀
-    - border [ˈbɔːdə(r)] 边界；edge [edʒ] 边缘；periphery [pəˈrɪfəri] 边缘。
+    - border [ˈbɔːdə(r)] 边界；edge [edʒ] 边缘；margin [ˈmɑːdʒɪn] 边缘。
