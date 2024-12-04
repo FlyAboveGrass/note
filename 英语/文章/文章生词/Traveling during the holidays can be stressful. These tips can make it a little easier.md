@@ -92,7 +92,22 @@
     - benefit [ˈbenɪfɪt] 好处；advantage [ədˈvɑːntɪdʒ] 优势。
 - thumb [θʌm] 拇指
     - 无明显的词根或者前缀后缀
-    - finger [ˈfɪŋɡə(r)] 手指；index finger [ˈɪndeks ˈfɪŋɡə(r)] 食指。
+    - finger [ˈfɪŋɡə(r)] 手指；
+        - thumb [θʌm] 拇指
+		    - 无明显的词根或者前缀后缀
+		    - pollex [ˈpɒleks] 拇指。
+		- index finger [ˈɪndeks ˈfɪŋɡə(r)] 食指
+		    - index - 指标；finger - 手指
+		    - forefinger [ˈfɔːfɪŋɡə(r)] 食指。
+		- middle finger [ˈmɪdl ˈfɪŋɡə(r)] 中指
+		    - middle - 中间的；finger - 手指
+		    - long finger [lɒŋ ˈfɪŋɡə(r)] 中指（非标准说法）。
+		- ring finger [rɪŋ ˈfɪŋɡə(r)] 无名指
+		    - ring - 戒指；finger - 手指
+		    - third finger [θɜːd ˈfɪŋɡə(r)] 无名指（非标准说法）。
+		- little finger [ˈlɪtl ˈfɪŋɡə(r)] 小指
+		    - little - 小的；finger - 手指
+		    - pinky [ˈpɪŋki] 小指。
 - departure [dɪˈpɑːtʃə(r)] 离开；出发
     - depart - 离开； -ure 名词后缀
     - leave [liːv] 离开；exit [ˈeksɪt] 出口。
