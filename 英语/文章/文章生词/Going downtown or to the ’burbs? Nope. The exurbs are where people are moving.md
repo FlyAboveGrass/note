@@ -1,0 +1,154 @@
+
+- citrus
+- county
+- ares
+- construct
+- grove
+- Bulldozed
+- metropolitan
+- dubbed
+- sprawl
+- far-flung
+- exurb
+- outlying
+- outskirt
+- commute
+- tranquil
+- acreage
+- exodus
+- overall
+- tongue
+- diverse
+- influx
+- leaning
+- pace
+- boiled
+- tight-knit
+- league
+- hurricane
+- citrus
+- precipitous
+- conversion
+- downtown
+- household
+- closer-in
+- skyrocketed
+- outpost
+- breakneck
+- frings
+
+
+
+
+
+- citrus [ˈsɪtrəs] 柑橘属植物
+    - citr - 柠檬、柑橘； -us 名词后缀
+    - lemon [ˈlemən] 柠檬；orange [ˈɒrɪndʒ] 橙子；grapefruit [ˈɡreɪpfruːt] 葡萄柚
+- county [ˈkaʊnti] 县；郡
+    - count - 计数、计算； -y 名词后缀，表示地方
+    - region [ˈriːdʒən] 地区；district [ˈdɪstrɪkt] 区域；zone [zəʊn] 地带
+- acre [ˈeɪkə(r)] 英亩
+    - 无明显的词根或者前缀后缀
+    - hectare [ˈhekteə(r)] 公顷；square meter [skweə(r) ˈmiːtə(r)] 平方米；square kilometer [skweə(r) ˈkɪləmiːtə(r)] 平方千米。
+- construct [kənˈstrʌkt] 建造；构筑
+    - con - 共同、一起；struct - 建造、构造； -ion 名词后缀
+    - building [ˈbɪldɪŋ] 建筑物；structure [ˈstrʌktʃə(r)] 结构；edifice [ˈedɪfɪs] 大厦
+- grove [ɡrəʊv] 小树林；果园
+    - 无明显的词根或者前缀后缀
+    - forest [ˈfɒrɪst] 森林；wood [wʊd] 木材；copse [kɒps] 矮林
+- bulldoze [ˈbʊldəʊzd] 用推土机推平
+    - bull - 公牛；doze - 推、撞
+    - bulldozer [ˈbʊldəʊzə(r)] 推土机；plow [plaʊ] 犁；level [ˈlevl] 使平坦
+- metropolitan [ˌmetrəˈpɒlɪtən] 大都市的；大城市的
+    - metro - 大城市；polit - 城市； -an 形容词后缀
+    - urban [ˈɜːbən] 城市的；municipal [mjuːˈnɪsɪpl] 市政的；city [ˈsɪti] 城市
+- dubbed [dʌbd] 被称为；配音
+    - dub - 给… 起绰号；给… 配音； -ed 过去分词后缀
+    - nickname [ˈnɪkneɪm] 绰号；alias [ˈeɪliəs] 别名；pseudonym [ˈsuːdənɪm] 笔名
+- sprawl [sprɔːl] 蔓延；伸开四肢坐（或躺）
+    - 无明显的词根或者前缀后缀
+    - spread [spred] 传播；extend [ɪkˈstend] 延伸；stretch [stretʃ] 伸展
+- far-flung [ˌfɑːˈflʌŋ] 分布广泛的；遥远的
+    - far - 远的；flung - fling 的过去分词，扔、抛；
+    - distant [ˈdɪstənt] 遥远的；remote [rɪˈməʊt] 偏远的；outlying [ˈaʊtˌlaɪɪŋ] 偏远的
+- exurb [ˈeksɜːb] 远郊；城市远郊住宅区
+    - ex - 出、向外；urb - 城市；
+    - suburb [ˈsʌbɜːb] 郊区；outskirts [ˈaʊtskɜːts] 郊区；rural [ˈrʊərəl] 乡村的
+- outlying [ˈaʊtˌlaɪɪŋ] 偏远的；边远的
+    - out - 向外；ly - 副词后缀；ing - 形容词后缀
+    - remote [rɪˈməʊt] 偏远的；distant [ˈdɪstənt] 遥远的；far-flung [ˌfɑːˈflʌŋ] 分布广泛的
+- outskirt [ˈaʊtskɜːt] 郊区；边缘
+    - out - 向外；skirt - 边缘；
+    - suburb [ˈsʌbɜːb] 郊区；periphery [pəˈrɪfəri] 边缘；fringe [frɪndʒ] 边缘
+- commute [kəˈmjuːt] 通勤；上下班往返
+    - com - 共同、一起；mut - 改变、交换； -e 动词后缀
+    - travel [ˈtrævl] 旅行；journey [ˈdʒɜːni] 旅行；trip [trɪp] 旅行
+- tranquil [ˈtræŋkwɪl] 安静的；宁静的
+    - tran - 穿过、越过；quil - 安静； -al 形容词后缀
+    - peaceful [ˈpiːsfl] 和平的；calm [kɑːm] 平静的；serene [səˈriːn] 宁静的
+- acreage [ˈeɪkərɪdʒ] 英亩数；面积
+    - acre - 英亩； -age 名词后缀
+    - area [ˈeəriə] 面积；region [ˈriːdʒən] 地区；zone [zəʊn] 地带
+- exodus [ˈeksədəs] 大批离去；移民
+    - ex - 出、向外；od - 路、行程； -us 名词后缀
+    - emigration [ˌemɪˈɡreɪʃn] 移民；migration [maɪˈɡreɪʃn] 迁移；departure [dɪˈpɑːtʃə(r)] 离开
+- overall [ˈəʊvərɔːl] 全面的；总体的
+    - over - 在… 之上；all - 全部； -al 形容词后缀
+    - comprehensive [ˌkɒmprɪˈhensɪv] 全面的；total [ˈtəʊtl] 总的；entire [ɪnˈtaɪə(r)] 全部的
+- tongue [tʌŋ] 舌头；语言
+    - 无明显的词根或者前缀后缀
+    - language [ˈlæŋɡwɪdʒ] 语言；dialect [ˈdaɪəlekt] 方言；vernacular [vəˈnækjələ(r)] 本国语
+- diverse [daɪˈvɜːs] 不同的；多种多样的
+    - di - 分开、散开；vers - 转； -e 形容词后缀
+    - various [ˈveəriəs] 各种各样的；different [ˈdɪfrənt] 不同的；multifarious [ˌmʌltɪˈfeəriəs] 各种各样的
+- influx [ˈɪnflʌks] 流入；涌入
+    - in - 进入；flux - 流动； -us 名词后缀
+    - inflow [ˈɪnfləʊ] 流入；inrush [ˈɪnrʌʃ] 涌入；inpouring [ˈɪnpɔːrɪŋ] 流入
+- leaning [ˈliːnɪŋ] 倾向；爱好
+    - lean - 倾斜； -ing 名词后缀
+    - tendency [ˈtendənsi] 倾向；inclination [ˌɪnklɪˈneɪʃn] 倾向；propensity [prəˈpensəti] 倾向
+- pace [peɪs] 步伐；速度
+    - 无明显的词根或者前缀后缀
+    - speed [spiːd] 速度；rate [reɪt] 速度；tempo [ˈtempəʊ] 节奏
+- boiled [bɔɪld] 煮沸的
+    - boil - 煮沸； -ed 过去分词后缀
+    - steaming [ˈstiːmɪŋ] 热气腾腾的；hot [hɒt] 热的；warm [wɔːm] 温暖的
+- tight-knit [ˈtaɪtˈnɪt] 紧密结合的
+    - tight - 紧的；knit - 编织； -ed 过去分词后缀
+    - cohesive [kəʊˈhiːsɪv] 有结合力的；united [juˈnaɪtɪd] 团结的；integrated [ˈɪntɪɡreɪtɪd] 综合的
+- league [liːɡ] 联盟；社团
+    - 无明显的词根或者前缀后缀
+    - alliance [əˈlaɪəns] 联盟；federation [ˌfedəˈreɪʃn] 联邦；union [ˈjuːniən] 联盟
+- hurricane [ˈhʌrɪkən] 飓风
+    - hurri - 风；cane - 力量；
+    - typhoon [taɪˈfuːn] 台风；storm [stɔːm] 暴风雨；gale [ɡeɪl] 大风
+- citrus [ˈsɪtrəs] 柑橘属植物
+    - citr - 柠檬、柑橘； -us 名词后缀
+    - lemon [ˈlemən] 柠檬；orange [ˈɒrɪndʒ] 橙子；grapefruit [ˈɡreɪpfruːt] 葡萄柚
+- precipitous [prɪˈsɪpɪtəs] 陡峭的；险峻的
+    - preci - 悬崖、峭壁；pit - 坑； -ous 形容词后缀
+    - steep [stiːp] 陡峭的；abrupt [əˈbrʌpt] 突然的；sheer [ʃɪə(r)] 纯粹的
+- conversion [kənˈvɜːʃn] 转变；转换
+    - con - 共同、一起；vers - 转； -ion 名词后缀
+    - transformation [ˌtrænsfəˈmeɪʃn] 转变；change [tʃeɪndʒ] 变化；alteration [ˌɔːltəˈreɪʃn] 改变
+- downtown [ˈdaʊntaʊn] 市中心；商业区
+    - down - 向下；town - 城镇；
+    - city center [ˈsɪti ˈsentə(r)] 市中心；commercial district [kəˈmɜːʃl ˈdɪstrɪkt] 商业区；business district [ˈbɪznəs ˈdɪstrɪkt] 商业区
+- household [ˈhaʊshəʊld] 家庭；一家人
+    - house - 房子；hold - 持有；
+    - family [ˈfæməli] 家庭；home [həʊm] 家；domestic [dəˈmestɪk] 家庭的
+- closer-in [ˈkləʊzə(r) ˈɪn] 靠近中心的
+    - close - 近的；in - 里面；
+    - nearby [ˈnɪəbaɪ] 附近的；adjacent [əˈdʒeɪsnt] 邻近的；proximate [ˈprɒksɪmət] 接近的
+- skyrocketed [ˈskaɪrɒkɪtɪd] 猛涨；飞速上升
+    - sky - 天空；rocket - 火箭； -ed 过去分词后缀
+    - soar [sɔː(r)] 高飞；surge [sɜːdʒ] 汹涌；increase rapidly [ɪnˈkriːs ˈræpɪdli] 迅速增加
+- outpost [ˈaʊtpəʊst] 前哨；偏远的居民点
+    - out - 向外；post - 岗位；
+    - frontier settlement [ˈfrʌntɪə(r) ˈsetlmənt] 边疆居民点；border town [ˈbɔːdə(r) ˈtaʊn] 边境城镇；remote settlement [rɪˈməʊt ˈsetlmənt] 偏远居民点
+- breakneck [ˈbreɪknek] 极快的；危险的
+    - break - 打破；neck - 脖子；
+    - rapid [ˈræpɪd] 迅速的；fast [fɑːst] 快的；hasty [ˈheɪsti] 匆忙的
+- frings（可能拼写错误，应为 fringes /ˈfrɪndʒɪz/）边缘；外围
+    - fringe - 边缘； -es 名词复数后缀
+    - border [ˈbɔːdə(r)] 边界；edge [edʒ] 边缘；periphery [pəˈrɪfəri] 边缘。

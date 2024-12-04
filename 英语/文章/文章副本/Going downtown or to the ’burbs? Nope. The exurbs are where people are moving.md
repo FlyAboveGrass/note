@@ -9,7 +9,7 @@ But last year, [more people moved to the ==county==](https://apnews.com/articl
 
 The newly-constructed The Brightly Apartments rises from what was formally a ==citrus== ====grove==== nearby Haines City, Florida Saturday, Oct. 5, 2024. (AP Photo/Mike Schneider)
 
-Bulldozed ==citrus== groves in recent years made way for housing and big box stores that could one day merge the two ====metropolitan==== areas into what has half-jokingly been ==dubbed,== “Orlampa.”
+==Bulldozed== ==citrus== groves in recent years made way for housing and big box stores that could one day merge the two ====metropolitan==== areas into what has half-jokingly been ==dubbed,== “Orlampa.”
 
 The migration — and property ==sprawl== — reflects a significant kind of growth seen all over the country this decade: the rise of the ====far-flung==== ==exurbs.==
 
@@ -17,9 +17,9 @@ The migration — and property ==sprawl== — reflects a significant kind of g
 
 For some residents, like Marisol Ortega, ====commuting==== to work can take up to an hour and a half one-way. But Ortega, who lives in Haines City about 40 miles (64 kilometers) from her job in Orlando, says it’s worth it.
 
-“I love my job. I love what I do, but then I love coming back home, and it’s more ====tranquil==,==” Ortega said.
+“I love my job. I love what I do, but then I love coming back home, and it’s more ====tranquil====”, Ortega said.
 
-FILE - A “For Sale” sign sits among an acreage of orange trees in Bartow, Fla., Oct. 12, 2007. (AP Photo/Phelan M. Ebenhack, File)
+FILE - A “For Sale” sign sits among an ==acreage== of orange trees in Bartow, Fla., Oct. 12, 2007. (AP Photo/Phelan M. Ebenhack, File)
 
 ## A ====pandemic==== ==exodus== and more
 
