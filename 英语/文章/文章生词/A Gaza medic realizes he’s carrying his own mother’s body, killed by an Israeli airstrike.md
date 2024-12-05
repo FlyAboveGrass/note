@@ -23,8 +23,6 @@
 - abduct
 - retaliatory
 - combatant
-
-
 - horrify [ˈhɒrɪfaɪ] 使震惊；使毛骨悚然
     - horr - 恐怖； -ify 动词后缀
     - terrify [ˈterɪfaɪ] 使害怕；使惊恐
