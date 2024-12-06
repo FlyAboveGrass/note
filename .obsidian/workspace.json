@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "精选文章"
             }
+          },
+          {
+            "id": "0eebbf37c63a5472",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,7 +232,7 @@
       "edge-tts:Read note aloud": false
     }
   },
-  "active": "fce4d23f65cf9ecd",
+  "active": "0eebbf37c63a5472",
   "lastOpenFiles": [
     "z 前端/工作记录.md",
     "英语/文章/文章收集.md",
