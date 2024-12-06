@@ -6,7 +6,7 @@
       {
         "id": "3e4b1791394a878b",
         "type": "tabs",
-        "dimension": 66.02017067494181,
+        "dimension": 53.68502715283165,
         "children": [
           {
             "id": "c5c57977c502b040",
@@ -41,7 +41,7 @@
       {
         "id": "4022278b1f2c9e2f",
         "type": "tabs",
-        "dimension": 33.97982932505818,
+        "dimension": 46.31497284716835,
         "children": [
           {
             "id": "68b637d9c4e2b9b0",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语/文章/文章副本/In a meeting with Biden, China’s Xi cautions US to ‘make the wise choice’ to keep relations stable.md"
+                "file": "英语/文章/文章生词/In a meeting with Biden, China’s Xi cautions US to ‘make the wise choice’ to keep relations stable.md"
               },
               "icon": "lucide-list",
               "title": "In a meeting with Biden, China’s Xi cautions US to ‘make the wise choice’ to keep relations stable 的大纲"
@@ -283,10 +283,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5c57977c502b040",
+  "active": "34cf8e425eb77419",
   "lastOpenFiles": [
-    "英语/文章/文章生词/In a meeting with Biden, China’s Xi cautions US to ‘make the wise choice’ to keep relations stable.md",
     "英语/文章/文章副本/In a meeting with Biden, China’s Xi cautions US to ‘make the wise choice’ to keep relations stable.md",
+    "英语/文章/文章生词/In a meeting with Biden, China’s Xi cautions US to ‘make the wise choice’ to keep relations stable.md",
     "英语/文章/文章收集.md",
     "英语/文章/文章副本/Traveling during the holidays can be stressful. These tips can make it a little easier.md",
     "英语/文章/文章副本/Why are people pouring milk down the drain over a cow feed additive?.md",

@@ -263,7 +263,3 @@
 - wool [wʊl] 羊毛；毛线
     - -
     - fleece [fliːs] 羊毛；yarn [jɑːn] 毛线。
-
-![](https://p3-passport.byteacctimg.com/img/user-avatar/assets/e7b19241fb224cea967dfaea35448102_1080_1080.png~300x300.image)
-
-草上飞
