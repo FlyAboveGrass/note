@@ -1,0 +1,269 @@
+
+- sideline
+- wise
+- protectionist
+- rhetoric
+- trail
+- valley
+- strive
+- steady
+- interpreter
+- entrenched
+- atop
+- hierarchy
+- forcefully
+- winding
+- brushstroke
+- staffing
+- recess
+- assemble
+- candid
+- frank
+- veer
+- dissuade
+- aides
+- self-ruled
+- democracy
+- artificial
+- levy
+- diversify
+- congtatulatory
+- vice
+- era
+- unmistakable
+- flourishing
+- sci-tech
+- revolution
+- decoupling
+- mutual
+- fence
+- pursue
+- reinforced
+- consequential
+- cultivating
+- vice
+- reveal
+- missile
+- weaponry
+- tension
+- flare
+- spy
+- ballon
+- traversed
+- escalating
+- repel
+- frustration
+- rein
+- artillery
+- munition
+- step-up
+- cadence
+- ballistic
+- missile
+- retreat
+- wore
+- scarves
+- wool
+
+
+
+
+
+- sideline [ˈsaɪdlaɪn] 副业；边线
+    - side - 旁边；line - 线； -ine 与…… 有关的
+    - sidelinesman [ˈsaɪdlaɪnzmən] 边线裁判员
+- wise [waɪz] 明智的；聪明的
+    - -
+    - wisdom [ˈwɪzdəm] 智慧；明智
+- protectionist [prəˈtekʃənɪst] 贸易保护主义者
+    - protect - 保护； -ion 名词后缀； -ist 表示…… 的人
+    - protection [prəˈtekʃn] 保护；protective [prəˈtektɪv] 保护的
+- rhetoric [ˈretərɪk] 花言巧语；修辞
+    - -
+    - rhetorical [rɪˈtɔːrɪkl] 修辞的；言辞的
+- trail [treɪl] 小径；痕迹
+    - -
+    - trailblazer [ˈtreɪlbleɪzə(r)] 开拓者；trailer [ˈtreɪlə(r)] 拖车
+- valley [ˈvæli] 山谷；流域
+    - -
+    - dale [deɪl] 山谷；glen [ɡlen] 峡谷
+- strive [straɪv] 努力；奋斗
+    - -
+    - endeavor [ɪnˈdevə(r)] 努力；attempt [əˈtempt] 尝试
+- steady [ˈstedi] 稳定的；稳固的
+    - -
+    - stable [ˈsteɪbl] 稳定的；firm [fɜːm] 坚定的
+- interpreter [ɪnˈtɜːprɪtə(r)] 口译员
+    - interpret - 解释； -er 表示…… 的人
+    - interpretation [ɪnˌtɜːprɪˈteɪʃn] 解释；口译
+- entrenched [ɪnˈtrentʃt] 根深蒂固的
+    - en - 使……；trench - 壕沟； -ed 形容词后缀
+    - ingrained [ˈɪnɡreɪnd] 根深蒂固的
+- atop [əˈtɒp] 在…… 顶上
+    - a - 在……；top - 顶部
+    - on top of 在…… 之上
+- hierarchy [ˈhaɪərɑːki] 等级制度；层级
+    - hier - 神圣的； -archy 统治
+    - hierarchical [ˌhaɪəˈrɑːkɪkl] 等级制度的
+- forcefully [ˈfɔːsfəli] 强有力地
+    - force - 力量； -ful 充满…… 的； -ly 副词后缀
+    - powerfully [ˈpaʊəfəli] 强有力地；energetically [ˌenəˈdʒetɪkli] 精力充沛地
+- winding [ˈwaɪndɪŋ] 弯曲的；蜿蜒的
+    - wind - 缠绕； -ing 形容词后缀
+    - twisted [ˈtwɪstɪd] 扭曲的；curved [kɜːvd] 弯曲的
+- brushstroke [ˈbrʌʃstrəʊk] 笔触；一笔
+    - brush - 刷子；stroke - 一击；一笔
+    - stroke of pen 一笔；line [laɪn] 线条
+- staffing [ˈstɑːfɪŋ] 人员配备
+    - staff - 员工； -ing 名词后缀
+    - manpower [ˈmænpaʊə(r)] 人力；personnel [ˌpɜːsəˈnel] 人员
+- recess [rɪˈses] 休息；休会
+    - re - 向后；cess - 走； -e 动词后缀
+    - break [breɪk] 休息；pause [pɔːz] 暂停
+- assemble [əˈsembl] 集合；装配
+    - as - 加强；sembl - 相似； -e 动词后缀
+    - gather [ˈɡæðə(r)] 聚集；put together 组装
+- candid [ˈkændɪd] 坦率的；直言不讳的
+    - -
+    - straightforward [ˌstreɪtˈfɔːwəd] 坦率的；frank [fræŋk] 坦率的
+- frank [fræŋk] 坦率的
+    - -
+    - open [ˈəʊpən] 坦率的；honest [ˈɒnɪst] 诚实的
+- veer [vɪə(r)] 转向；改变方向
+    - -
+    - turn [tɜːn] 转向；swerve [swɜːv] 突然转向
+- dissuade [dɪˈsweɪd] 劝阻；劝止
+    - dis - 否定；suade - 劝说； -e 动词后缀
+    - persuade sb. not to do sth. 劝阻某人不做某事；discourage [dɪsˈkʌrɪdʒ] 使气馁；劝阻
+- aides [eɪdz] 助手；副官
+    - -
+    - assistant [əˈsɪstənt] 助手；helper [ˈhelpə(r)] 帮手
+- self-ruled [ˌself ˈruːld] 自治的
+    - self - 自己；rule - 统治； -ed 形容词后缀
+    - autonomous [ɔːˈtɒnəməs] 自治的；independent [ˌɪndɪˈpendənt] 独立的
+- democracy [dɪˈmɒkrəsi] 民主；民主国家
+    - demo - 人民；cracy - 统治； -y 名词后缀
+    - democratic [ˌdeməˈkrætɪk] 民主的；republic [rɪˈpʌblɪk] 共和国
+- artificial [ˌɑːtɪˈfɪʃl] 人造的；假的
+    - arti - 技巧；fic - 做； -ial 形容词后缀
+    - synthetic [sɪnˈθetɪk] 合成的；man-made [ˌmæn ˈmeɪd] 人造的
+- levy [ˈlevi] 征收；征税
+    - -
+    - tax [tæks] 征税；impose [ɪmˈpəʊz] 征收。
+- diversify [daɪˈvɜːsɪfaɪ] 使多样化
+    - di - 分开；vers - 转； -ify 使……； -y 名词后缀
+    - vary [ˈveəri] 变化；differentiate [ˌdɪfəˈrenʃieɪt] 区分；使多样化
+- congratulatory [kənˌɡrætʃuˈleɪtəri] 祝贺的
+    - con - 共同；grat - 高兴； -ul - 形容词后缀； -atory 形容词后缀
+    - congratulation [kənˌɡrætʃuˈleɪʃn] 祝贺；complimentary [ˌkɒmplɪˈmentri] 赞美的；祝贺的
+- vice [vaɪs] 恶习；缺点；副的
+    - -
+    - defect [ˈdiːfekt] 缺点；imperfection [ˌɪmpəˈfekʃn] 不完美；缺点
+- era [ˈɪərə] 时代；年代
+    - -
+    - epoch [ˈiːpɒk] 时代；period [ˈpɪəriəd] 时期
+- unmistakable [ˌʌnmɪˈsteɪkəbl] 不会弄错的；明显的
+    - un - 否定；mistak (e) - 错误； -able 能…… 的
+    - obvious [ˈɒbviəs] 明显的；distinct [dɪˈstɪŋkt] 明显的
+- flourishing [ˈflʌrɪʃɪŋ] 繁荣的；兴旺的
+    - flourish - 繁荣； -ing 形容词后缀
+    - prosperous [ˈprɒspərəs] 繁荣的；thriving [ˈθraɪvɪŋ] 兴旺的
+- sci-tech [ˈsaɪ tek] 科技
+    - science [ˈsaɪəns] 科学；technology [tekˈnɒlədʒi] 技术
+- revolution [ˌrevəˈluːʃn] 革命；重大变革
+    - re - 再次；volut - 转； -ion 名词后缀
+    - upheaval [ʌpˈhiːvl] 剧变；revolt [rɪˈvəʊlt] 反抗；革命
+- decoupling [diːˈkʌplɪŋ] 脱钩
+    - de - 分离；coupl (e) - 连接； -ing 名词后缀
+    - uncouple [ʌnˈkʌpl] 解开；separate [ˈseprət] 分开
+- mutual [ˈmjuːtʃuəl] 相互的；共同的
+    - mut - 改变； -ual 形容词后缀
+    - reciprocal [rɪˈsɪprəkl] 相互的；interchangeable [ˌɪntəˈtʃeɪndʒəbl] 可互换的
+- fence [fens] 栅栏；围墙
+    - -
+    - railing [ˈreɪlɪŋ] 栏杆；barrier [ˈbæriə(r)] 障碍物
+- pursue [pəˈsjuː] 追求；追赶
+    - pur - 向前；sue - 跟随； -e 动词后缀
+    - chase [tʃeɪs] 追赶；seek [siːk] 寻找。
+- reinforced [ˌriːɪnˈfɔːst] 加强的；加固的
+    - re - 再次；inforce - 加强； -ed 形容词后缀
+    - strengthened [ˈstreŋθnd] 加强的；fortified [ˈfɔːtɪfaɪd] 加固的
+- consequential [ˌkɒnsɪˈkwenʃl] 重要的；随之发生的
+    - con - 共同；sequ - 跟随； -ent - 形容词后缀； -ial 形容词后缀
+    - significant [sɪɡˈnɪfɪkənt] 重要的；important [ɪmˈpɔːtnt] 重要的
+- cultivating [ˈkʌltɪveɪtɪŋ] 培养；耕作
+    - cultivate - 培养；耕作； -ing 形容词后缀
+    - nurture [ˈnɜːtʃə(r)] 养育；培育；foster [ˈfɒstə(r)] 培养
+- vice [vaɪs] 恶习；缺点；副的
+    - -
+    - defect [ˈdiːfekt] 缺点；fault [fɔːlt] 过错；缺点
+- reveal [rɪˈviːl] 显示；透露
+    - re - 向后；veal - 面纱； -e 动词后缀
+    - disclose [dɪsˈkləʊz] 揭露；show [ʃəʊ] 显示
+- missile [ˈmɪsaɪl] 导弹；投射物
+    - -
+    - rocket [ˈrɒkɪt] 火箭；projectile [prəˈdʒektaɪl] 抛射体
+- weaponry [ˈwepənri] 武器；兵器
+    - weapon - 武器； -ry 名词后缀
+    - armament [ˈɑːməmənt] 武器装备；arms [ɑːmz] 武器
+- tension [ˈtenʃn] 紧张；张力
+    - -
+    - stress [stres] 压力；紧张；strain [streɪn] 张力
+- flare [fleə(r)] 闪耀；闪光；突然爆发
+    - -
+    - flash [flæʃ] 闪光；blaze [bleɪz] 闪耀
+- spy [spaɪ] 间谍；密探
+    - -
+    - agent [ˈeɪdʒənt] 特工；informant [ɪnˈfɔːmənt] 告密者
+- ballon [bəˈluːn] 气球
+    - -
+    - balloon [bəˈluːn] 气球；airship [ˈeəʃɪp] 飞艇
+- traversed [trəˈvɜːst] 横越；穿过
+    - tra - 横过；vers - 转； -e 动词后缀； -ed 形容词后缀
+    - cross [krɒs] 穿过；pass through 穿过
+- escalating [ˈeskəleɪtɪŋ] 逐步上升；逐步增强
+    - escalate - 逐步上升； -ing 形容词后缀
+    - intensifying [ɪnˈtensɪfaɪɪŋ] 增强的；heightening [ˈhaɪtnɪŋ] 提高的
+- repel [rɪˈpel] 击退；使厌恶
+    - re - 向后；pel - 推； -e 动词后缀
+    - drive back 击退；repulse [rɪˈpʌls] 击退。
+- frustration [frʌˈstreɪʃn] 挫折；沮丧
+    - frustrat (e) - 使沮丧； -ion 名词后缀
+    - disappointment [ˌdɪsəˈpɔɪntmənt] 失望；discouragement [dɪsˈkʌrɪdʒmənt] 气馁
+- rein [reɪn] 缰绳；控制
+    - -
+    - bridle [ˈbraɪdl] 缰绳；control [kənˈtrəʊl] 控制
+- artillery [ɑːˈtɪləri] 火炮；炮兵部队
+    - artiller - 火炮； -y 名词后缀
+    - cannon [ˈkænən] 大炮；gun [ɡʌn] 枪
+- munition [mjuːˈnɪʃn] 军需品；弹药
+    - -
+    - ammunition [ˌæmjuˈnɪʃn] 弹药；supply [səˈplaɪ] 补给品
+- step-up [ˈstepʌp] 提升；增加
+    - step - 步； -up 向上
+    - increase [ɪnˈkriːs] 增加；boost [buːst] 提升
+- cadence [ˈkeɪdns] 节奏；韵律
+    - -
+    - rhythm [ˈrɪðəm] 节奏；beat [biːt] 节拍
+- ballistic [bəˈlɪstɪk] 弹道的；发射的
+    - ballist - 弹道； -ic 形容词后缀
+    - trajectory [trəˈdʒektəri] 弹道；path [pɑːθ] 路径
+- missile [ˈmɪsaɪl] 导弹；投射物
+    - -
+    - rocket [ˈrɒkɪt] 火箭；projectile [prəˈdʒektaɪl] 抛射体
+- retreat [rɪˈtriːt] 撤退；退却
+    - re - 向后；treat - 拉； -e 动词后缀
+    - withdraw [wɪðˈdrɔː] 撤退；pull back 撤回
+- wore [wɔː(r)] 穿；戴（wear 的过去式）
+    - -
+    - put on 穿上；dress [dres] 穿衣
+- scarves [skɑːvz] 围巾（scarf 的复数）
+    - -
+    - muffler [ˈmʌflə(r)] 围巾；neckerchief [ˈnekətʃiːf] 围巾
+- wool [wʊl] 羊毛；毛线
+    - -
+    - fleece [fliːs] 羊毛；yarn [jɑːn] 毛线。
+
+![](https://p3-passport.byteacctimg.com/img/user-avatar/assets/e7b19241fb224cea967dfaea35448102_1080_1080.png~300x300.image)
+
+草上飞

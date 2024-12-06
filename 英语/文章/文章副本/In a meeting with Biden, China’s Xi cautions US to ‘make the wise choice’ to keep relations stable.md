@@ -7,9 +7,9 @@ During their talks on the ====sidelines==== of the annual [Asia-Pacific Econo
 
 “Make the ==wise== choice,” he cautioned. “Keep exploring the right way for two major countries to get along well with each other.”
 
-Without mentioning Trump’s name, Xi appeared to signal his concern that the incoming president’s ====protectionist==== ====rhetoric==== on the campaign trail could send the U.S.-China relationship into another ==valley.==
+Without mentioning Trump’s name, Xi appeared to signal his concern that the incoming president’s ====protectionist==== ====rhetoric==== on the campaign ==trail== could send the U.S.-China relationship into another ==valley.==
 
-“China is ready to work with a new U.S. administration to maintain communication, expand cooperation and manage differences so as to ==strive== for a ==steady== transition of the China-U.S. relationship for the benefit of the two peoples,” Xi said through an ====interpreter==.==
+“China is ready to work with a new U.S. administration to maintain communication, expand cooperation and manage differences so as to ==strive== for a ==steady== transition of the China-U.S. relationship for the benefit of the two peoples,” Xi said through an ====interpreter==.
 
 Xi, who is ==firmly== ====entrenched==== ==atop== China’s political ====hierarchy==,spoke ====forcefully==== in his brief remarks before reporters.
 习近平，牢牢占据中国政治高层....
@@ -38,7 +38,7 @@ Already, many American companies, including Nike and eyewear retailer Warby Park
 
 In a ====congratulatory==== message to Trump after his victory over ==Vice== President Kamala Harris, Xi called for the U.S. and China to manage their differences and get along in a new ==era.== In front of cameras Saturday, Xi spoke to Biden — but it was ====unmistakable==== that his message was directed at Trump.
 
-“In a major ====flourishing==== ====sci-tech==== ====revolution==,== neither ====decoupling==== nor supply chain disruption is a solution,” Xi said. “Only ==mutual,== beneficial cooperation can lead to common development. ‘Small yard, high fence’ is not what a major country should ==pursue.==”
+“In a major ====flourishing==== ====sci-tech==== ====revolution==,== neither ====decoupling==== nor supply chain disruption is a solution,” Xi said. “Only ==mutual,== beneficial cooperation can lead to common development. ‘Small yard, high ==fence==’ is not what a major country should ==pursue.==”
 
 Biden administration officials have said they would advise the Trump team that managing the intense competition with Beijing will likely be the most significant foreign policy challenge they will face.
 
@@ -54,18 +54,21 @@ But the last four years have presented a ==steady== stream of difficult moment
 The FBI this week [offered new details of a federal investigation](https://apnews.com/article/china-fbi-hacking-flax-typhoon-trump-ed1c4c2cf6fc3b07834c799add215f44) into [Chinese government](https://apnews.com/hub/china) efforts to hack into U.S. telecommunications networks. The initial findings have ====revealed==== a “broad and significant” [cyberespionage campaign](https://apnews.com/hub/espionage) aimed at stealing information from Americans who work in government and politics.
 
 Sullivan said Biden raised the matter with Xi during their talks and that the U.S. will have more to say about the investigation in the weeks ahead.
+沙利文表示，拜登在与习近平的会谈中提出了此事，并且美国在未来几周将对调查有更多要说的话。
 
 U.S. intelligence officials also have assessed China [has surged sales to Russia](https://apnews.com/article/united-states-china-russia-ukraine-war-265df843be030b7183c95b6f3afca8ec) of machine tools, microelectronics and other technology that Moscow is using to produce ====missiles==,== tanks, aircraft and other ====weaponry==== for use in [its war against Ukraine](https://apnews.com/hub/ukraine).
 
-And tensions ==flared== last year after Biden ordered the shooting down of a Chinese ==spy== ====balloon==== that traversed the United States.
+And ==tensions== ==flared== last year after Biden ordered the shooting down of a Chinese ==spy== ====balloon==== that ==traversed== the United States.
 
-Biden wants Xi to [step up Chinese engagement](https://apnews.com/article/china-north-korea-russia-ukraine-united-states-0d28afb21d3afbdbb3cb9c29a945c3f5) to prevent an already dangerous moment with North Korea from further ====escalating==.==
+Biden wants Xi to [step up Chinese engagement](https://apnews.com/article/china-north-korea-russia-ukraine-united-states-0d28afb21d3afbdbb3cb9c29a945c3f5) to prevent an already dangerous moment with North Korea from further ====escalating==.
+拜登希望习近平加大中国的参与力度，以防止与朝鲜本已危险的局势进一步升级。
 
 Biden, along with South Korean President Yoon Seok Yul and Japanese Prime Minister Shigeru Ishiba, on Friday [condemned North Korean leader Kim Jong Un’s decision](https://apnews.com/article/biden-south-korea-japan-north-korea-russia-24e1a85916b650c130c5b167cd3c8b79) to send thousands of troops to help Moscow ==repel== Ukrainian forces who have seized territory in Russia’s Kursk border region.
 
 White House officials have expressed ====frustration==== with Beijing, which accounts for the vast majority of North Korea’s trade, for not doing more to ==rein== in Pyongyang.
 
 The North Koreans also have provided Russia with ====artillery==== and other ====munitions==,== according to U.S. and South Korean intelligence officials. And the U.S., Japan and South Korea have expressed alarm over Pyongyang’s ==stepped-up== [==cadence of ballistic missile tests==](https://apnews.com/article/north-korea-missile-launch-united-states-4173ce128b8336b2cb315a3bf62c6980).
+日本和韩国对平壤加快弹道导弹试验的节奏表示震惊。
 
 Kim ordered testing exercises in the lead-up to this month’s U.S. election and is claiming progress on efforts to build [capability to strike the U.S. mainland](https://apnews.com/article/north-korea-missile-launch-377c07eac46ad41bda0d4445df6f51d5).
 
