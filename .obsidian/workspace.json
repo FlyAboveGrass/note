@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z 前端/精选文章.md",
+                "file": "英语/文章/文章收集.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "精选文章"
-            }
-          },
-          {
-            "id": "0eebbf37c63a5472",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "文章收集"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,10 +52,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z 前端/精选文章.md"
+                "file": "英语/文章/文章收集.md"
               },
               "icon": "lucide-list",
-              "title": "精选文章 的大纲"
+              "title": "文章收集 的大纲"
             }
           },
           {
@@ -232,15 +219,16 @@
       "edge-tts:Read note aloud": false
     }
   },
-  "active": "0eebbf37c63a5472",
+  "active": "fce4d23f65cf9ecd",
   "lastOpenFiles": [
+    "z 前端/精选文章.md",
+    "英语/文章/文章副本/Why are people pouring milk down the drain over a cow feed additive?.md",
     "z 前端/工作记录.md",
     "英语/文章/文章收集.md",
     "英语/文章/文章副本/Why Swedish women are quitting work.md",
     "英语/文章/文章副本/Who was Brian Thompson, healthcare CEO gunned down in New York?.md",
     "英语/文章/文章生词/A Gaza medic realizes he’s carrying his own mother’s body, killed by an Israeli airstrike.md",
     "英语/文章/文章副本/India's 'blockbuster' drugs to take on deadly superbugs.md",
-    "z 前端/精选文章.md",
     "z 前端/vscode 配置.md",
     "英语/文章/文章生词/Traveling during the holidays can be stressful. These tips can make it a little easier.md",
     "英语/文章/文章生词/Going downtown or to the ’burbs? Nope. The exurbs are where people are moving.md",
@@ -260,7 +248,6 @@
     "英语/文章/文章副本/Vietnamese tycoon in race to raise $9bn to avoid execution.md",
     "英语/文章/文章副本/Trump picks investment banker Warren Stephens as UK ambassador.md",
     "英语/文章/文章生词/Taiwanese driver recounts his narrow escape during Typhoon Kong-rey.md",
-    "英语/文章/文章副本/Why so many games are failing right now - and why others are breakout hits.md",
     "笔记图片/Pasted image 20241129150109.png",
     "笔记图片/思维导图",
     "英语.zip",
