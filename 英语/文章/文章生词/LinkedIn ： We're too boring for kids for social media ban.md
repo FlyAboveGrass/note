@@ -1,0 +1,117 @@
+
+- dull
+- warrant
+- minor
+- submission
+- senate
+- legislation
+- inflicting
+- respondent
+- amend
+- demand
+- commend
+- engaging
+- burden
+- hinge
+- assurance
+- unintended
+- parliamentary
+- timeframe
+- composition
+- adequate
+- scrutiny
+- commissioner
+- inadequate
+- consultation
+- secretary
+- consent
+- circumvent
+
+
+
+- dull [dʌl] 枯燥的；迟钝的；不锋利的
+    - -
+    - blunted [ˈblʌntɪd] 钝的；不锋利的
+- warrant [ˈwɒrənt] 授权；保证；许可证
+    - warr - 保证、担保； -ant 名词后缀
+    - guarantee [ˌɡærənˈtiː] 保证；担保
+- minor [ˈmaɪnə(r)] 较小的；次要的；未成年的
+    - -
+    - lesser [ˈlesə(r)] 较少的；次要的
+- submission [səbˈmɪʃn] 提交；服从
+    - sub - 在…… 下面；miss - 送，投； -ion 名词后缀
+    - surrender [səˈrendə(r)] 投降；屈服
+- senate [ˈsenət] 参议院；上议院
+    - -
+    - congress [ˈkɒŋɡres] 国会；代表大会
+- legislation [ˌledʒɪsˈleɪʃn] 立法；法律
+    - legis - 法律； -lation 名词后缀
+    - regulation [ˌreɡjuˈleɪʃn] 管理；规则
+- inflicting [ɪnˈflɪktɪŋ] 使遭受；给予（打击等）
+    - in - 进入；flict - 打击； -ing 动词后缀
+    - afflict [əˈflɪkt] 使痛苦；折磨
+- respondent [rɪˈspɒndənt] 回答者；被告
+    - re - 回；spond - 承诺； -ent 名词后缀
+    - reply [rɪˈplaɪ] 回答；答复
+- amend [əˈmend] 修改；改善
+    - -
+    - modify [ˈmɒdɪfaɪ] 修改；更改
+- demand [dɪˈmɑːnd] 要求；需求
+    - de - 加强；mand - 命令
+    - require [rɪˈkwaɪə(r)] 要求；需要
+- commend [kəˈmend] 称赞；推荐
+    - com - 共同；mend - 委托
+    - praise [preɪz] 赞扬；称赞
+- engaging [ɪnˈɡeɪdʒɪŋ] 迷人的；吸引人的
+    - en - 使；gage - 保证； -ing 形容词后缀
+    - charming [ˈtʃɑːmɪŋ] 迷人的；可爱的
+- burden [ˈbɜːdn] 负担；责任
+    - -
+    - load [ləʊd] 负担；负荷
+- hinge [hɪndʒ] 铰链；关键
+    - -
+    - joint [dʒɔɪnt] 关节；连接点
+- assurance [əˈʃʊərəns] 保证；担保
+    - as - 加强；sur - 确定； -ance 名词后缀
+    - guarantee [ˌɡærənˈtiː] 保证；担保
+- unintended [ˌʌnɪnˈtendɪd] 非故意的；无意识的
+    - un - 否定；intend - 打算； -ed 形容词后缀
+    - accidental [ˌæksɪˈdentl] 意外的；偶然的
+- parliamentary [ˌpɑːləˈmentri] 议会的；国会的
+    - parli - 议会； -ment - 名词后缀； -ary 形容词后缀
+    - congressional [kənˈɡreʃənl] 国会的；立法机构的
+- timeframe [ˈtaɪmfreɪm] 时间范围；期限
+    - time - 时间；frame - 框架； -e 名词后缀
+    - deadline [ˈdedlaɪn] 最后期限
+- composition [ˌkɒmpəˈzɪʃn] 作文；作曲；构成
+    - com - 共同；pos - 放； -ition 名词后缀
+    - constitution [ˌkɒnstɪˈtjuːʃn] 宪法；章程
+- adequate [ˈædɪkwət] 足够的；适当的
+    - ad - 加强；equ - 相等； -ate 形容词后缀
+    - sufficient [səˈfɪʃnt] 足够的；充足的
+- scrutiny [ˈskruːtəni] 详细审查；监视
+    - -
+    - inspection [ɪnˈspekʃn] 检查；视察
+- commissioner [kəˈmɪʃənə(r)] 专员；委员
+    - com - 共同；miss - 委托； -ion - 名词后缀； -er 人
+    - delegate [ˈdelɪɡət] 代表；委派…… 为代表
+- implication [ˌɪmplɪˈkeɪʃn] 含义；暗示；牵连
+    - im - 向内；plic - 折叠； -ation 名词后缀
+    - inference [ˈɪnfərəns] 推理；推断；结论
+    - suggestion [səˈdʒestʃən] 建议；示意；暗示
+    - hint [hɪnt] 暗示；线索
+- inadequate [ɪnˈædɪkwət] 不足的；不适当的
+    - in - 否定；ad - 加强；equ - 相等； -ate 形容词后缀
+    - deficient [dɪˈfɪʃnt] 不足的；有缺陷的
+- consultation [ˌkɒnslˈteɪʃn] 咨询；商量
+    - con - 共同；sult - 跳； -ation 名词后缀
+    - discussion [dɪˈskʌʃn] 讨论；议论
+- secretary [ˈsekrətri] 秘书；书记
+    - -
+    - clerk [klɑːk] 职员；办事员
+- consent [kənˈsent] 同意；赞成
+    - con - 共同；sent - 感觉
+    - agreement [əˈɡriːmənt] 同意；一致
+- circumvent [ˌsɜːkəmˈvent] 包围；智取
+    - circum - 周围；vent - 来
+    - bypass [ˈbaɪpɑːs] 绕过；避开
