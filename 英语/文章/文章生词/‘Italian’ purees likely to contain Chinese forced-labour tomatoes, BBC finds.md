@@ -1,0 +1,116 @@
+
+- puree
+- commission
+- torture
+- dispute
+- programme
+- detention
+- endure
+- imprison
+- irregularity
+- ceiling
+- buttock
+- rib
+- piecing
+- recipient
+- subsidiary
+- absorb
+- establish
+- contradicted
+- military
+- suspicion
+- fraud
+- raid
+- undercover
+- barrel
+- shell
+- dumping
+- utterly
+- tackle
+
+
+
+- puree [pjʊˈreɪ] 果泥；菜泥
+    - pur - 纯净； -ee 表示动作的对象
+    - mashed [mæʃt] 捣碎的；mash [mæʃ] 捣碎；pure [pjʊə(r)] 纯净的
+- commission [kəˈmɪʃn] 委员会；佣金；委托
+    - com - 共同； miss - 送，派； -ion 名词后缀
+    - commit [kəˈmɪt] 犯罪；委托；committee [kəˈmɪti] 委员会；mission [ˈmɪʃn] 使命；任务
+- torture [ˈtɔːtʃə(r)] 折磨；拷问
+    - tort - 扭曲； -ure 名词后缀
+    - torment [ˈtɔːment] 折磨；痛苦；tortuous [ˈtɔːtʃuəs] 弯曲的；曲折的
+- dispute [dɪˈspjuːt] 争论；辩论
+    - dis - 分开； put - 思考； -e 无实义
+    - debate [dɪˈbeɪt] 辩论；争论；controversy [ˈkɒntrəvɜːsi] 争论；争议
+- programme [ˈprəʊɡræm] 计划；节目
+    - pro - 向前； gram - 写； -me 名词后缀
+    - schedule [ˈʃedjuːl] 时间表；计划；plan [plæn] 计划；plot [plɒt] 情节；计划
+- detention [dɪˈtenʃn] 拘留；扣押
+    - de - 向下； ten - 握住； -tion 名词后缀
+    - arrest [əˈrest] 逮捕；拘留；capture [ˈkæptʃə(r)] 捕获；捉拿
+- endure [ɪnˈdjʊə(r)] 忍耐；忍受
+    - en - 使； dur - 持久； -e 无实义
+    - bear [beə(r)] 忍受；tolerate [ˈtɒləreɪt] 忍受；容忍
+- imprison [ɪmˈprɪzən] 监禁；关押
+    - im - 进入； prison - 监狱； -e 无实义
+    - jail [dʒeɪl] 监狱；拘留所；incarcerate [ɪnˈkɑːsəreɪt] 监禁；禁闭
+- irregularity [ɪˌreɡjəˈlærəti] 不规则；无规律
+    - ir - 不； regular - 规则的； -ity 名词后缀
+    - anomaly [əˈnɒməli] 异常；反常；abnormality [ˌæbnɔːˈmæləti] 异常；反常
+- ceiling [ˈsiːlɪŋ] 天花板；上限
+    - ceil - 覆盖； -ing 名词后缀
+    - roof [ruːf] 屋顶；top [tɒp] 顶部；summit [ˈsʌmɪt] 顶点；顶峰
+- buttock [ˈbʌtək] 臀部；半边屁股
+    - but - 突出部分； -tock 表示身体部位
+    - hip [hɪp] 臀部；waist [weɪst] 腰部；thigh [θaɪ] 大腿
+- rib [rɪb] 肋骨；排骨
+    - -
+    - breastbone [ˈbrestbəʊn] 胸骨；spine [spaɪn] 脊柱；vertebra [ˈvɜːtɪbrə] 脊椎
+- piecing [ˈpiːsɪŋ] 拼凑；拼接
+    - piece - 片；块； -ing 名词后缀
+    - patchwork [ˈpætʃwɜːk] 拼凑物；mosaic [məʊˈzeɪɪk] 马赛克；拼贴画
+- recipient [rɪˈsɪpiənt] 接受者；容器
+    - re - 向后； cip - 拿； -ient 形容词后缀，转名词
+    - receiver [rɪˈsiːvə(r)] 接收器；接受者；addressee [ˌædreˈsiː] 收件人
+- subsidiary [səbˈsɪdiəri] 辅助的；附属的
+    - sub - 在下面； sid - 坐； -iary 形容词后缀
+    - ancillary [ænˈsɪləri] 辅助的；附属的；auxiliary [ɔːɡˈzɪliəri] 辅助的；附加的
+- absorb [əbˈzɔːb] 吸收；吸引
+    - ab - 加强； sorb - 吸； -e 无实义
+    - assimilate [əˈsɪməleɪt] 吸收；同化；ingest [ɪnˈdʒest] 摄入；吸收
+- establish [ɪˈstæblɪʃ] 建立；设立
+    - e - 加强； stab - 站立； -lish 使动后缀
+    - set up 建立；found [faʊnd] 创立；construct [kənˈstrʌkt] 建造
+- contradicted [ˌkɒntrəˈdɪktɪd] 反驳；与…… 矛盾
+    - contra - 相反； dict - 说； -ed 形容词后缀
+    - refute [rɪˈfjuːt] 反驳；deny [dɪˈnaɪ] 否认；dispute [dɪˈspjuːt] 争论
+- military [ˈmɪlətri] 军事的；军队的
+    - milit - 兵； -ary 形容词后缀
+    - armed [ɑːmd] 武装的；militant [ˈmɪlɪtənt] 好战的；好斗的
+- suspicion [səˈspɪʃn] 怀疑；疑心
+    - sus - 在下面； pic - 看； -ion 名词后缀
+    - doubt [daʊt] 怀疑；sceptical [ˈskeptɪkl] 怀疑的；suspicious [səˈspɪʃəs] 可疑的
+- fraud [frɔːd] 欺诈；骗子
+    - -
+    - cheat [tʃiːt] 欺骗；deceit [dɪˈsiːt] 欺骗；fraudulent [ˈfrɔːdjələnt] 欺诈的
+- raid [reɪd] 袭击；突袭
+    - -
+    - attack [əˈtæk] 攻击；assault [əˈsɔːlt] 袭击；charge [tʃɑːdʒ] 冲锋
+- undercover [ˌʌndəˈkʌvə(r)] 秘密的；暗中进行的
+    - under - 在下面； cover - 覆盖
+    - clandestine [klænˈdestɪn] 秘密的；covert [ˈkʌvə(r) t] 隐蔽的；hidden [ˈhɪdn] 隐藏的
+- barrel [ˈbærəl] 桶；枪管
+    - -
+    - cask [kɑːsk] 桶；drum [drʌm] 鼓；桶状物；tub [tʌb] 桶
+- shell [ʃel] 壳；炮弹
+    - -
+    - casing [ˈkeɪsɪŋ] 外壳；husk [hʌsk] 外壳；pod [pɒd] 豆荚；壳
+- dumping [ˈdʌmpɪŋ] 倾倒；倾销
+    - dump - 倾倒； -ing 名词后缀
+    - unload [ˌʌnˈləʊd] 卸载；discharge [dɪsˈtʃɑːdʒ] 排出；倾泻
+- utterly [ˈʌtəli] 完全地；彻底地
+    - -
+    - completely [kəmˈpliːtli] 完全地；entirely [ɪnˈtaɪəli] 完全地；totally [ˈtəʊtəli] 完全地
+- tackle [ˈtækl] 处理；对付；用具
+    - -
+    - handle [ˈhændl] 处理；deal with 处理；cope with 处理
