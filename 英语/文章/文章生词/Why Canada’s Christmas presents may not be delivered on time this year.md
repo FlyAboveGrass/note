@@ -34,80 +34,150 @@
 
 
 - knell [nel] 丧钟声；凶兆
-    - knell - （无明显的词根和前缀后缀可拆解）
+    - kn - 表示 “打击” 的词根； -ell 名词后缀
     - toll [təʊl] 钟声；通行费
-- hard-hit [ˌhɑːdˈhɪt] 受到沉重打击的
-    - hard - 困难的、强烈的；hit - 打击
-    - badly-hit [ˌbædliˈhɪt] 受到严重打击的
+    - chime [tʃaɪm] 钟声；和谐
+    - peal [piːl] 响亮的钟声
+- hard-hit [ˈhɑːdˈhɪt] 受到沉重打击的
+    - hard - 坚硬的；困难的； hit - 打击
+    - badly-hit [ˈbædliˈhɪt] 遭受重创的
+    - severely-hit [səˈvɪəliˈhɪt] 严重受打击的
+    - heavily-hit [ˈhevɪliˈhɪt] 受到严重打击的
 - postal [ˈpəʊstl] 邮政的；邮局的
-    - post - 邮政；-al，形容词后缀
-    - mail [meɪl] 邮件；邮寄
-- inventory [ˈɪnvəntri] 清单；存货
-    - in - 进入；vent - 来；-ory，名词后缀
-    - stock [stɒk] 存货；储备
+    - post - 邮政； -al 形容词后缀
+    - mail [meɪl] 邮件；邮政
+    - courier [ˈkʊriə(r)] 快递员；信使
+    - postman [ˈpəʊstmən] 邮递员
+- inventory [ˈɪnvəntri] 存货清单；详细目录
+    - in - 进入； vent - 来； -ory 名词后缀
+    - stock [stɒk] 存货；股票
+    - catalogue [ˈkætəlɒɡ] 目录
+    - list [lɪst] 列表；清单
 - warehouse [ˈweəhaʊs] 仓库；货栈
-    - ware - 商品；house - 房屋
+    - ware - 商品； house - 房屋
     - depot [ˈdepəʊ] 仓库；车站
+    - storehouse [ˈstɔːhaʊs] 仓库；宝库
+    - storeroom [ˈstɔːruːm] 储藏室
 - negotiation [nɪˌɡəʊʃiˈeɪʃn] 谈判；协商
-    - nego - 否认；-tiation，名词后缀
-    - bargain [ˈbɑːɡən] 交易；讨价还价
+    - neg - 否定； oti - 轻松； -ation 名词后缀
+    - conference [ˈkɒnfərəns] 会议；协商
+    - discussion [dɪˈskʌʃn] 讨论；商议
+    - dialogue [ˈdaɪəlɒɡ] 对话；交谈
 - amid [əˈmɪd] 在…… 之中
-    - a - 在……；mid - 中间
+    - a - 在； mid - 中间
     - amongst [əˈmʌŋst] 在…… 之中
+    - among [əˈmʌŋ] 在…… 之中
+    - in the midst of 在…… 中间
 - courier [ˈkʊriə(r)] 快递员；信使
-    - cour - 跑；-ier，人后缀
+    - cour - 跑； -ier 人后缀
     - messenger [ˈmesɪndʒə(r)] 信使；信差
+    - deliveryman [dɪˈlɪvəriˌmæn] 送货员
+    - postman [ˈpəʊstmən] 邮递员
 - rural [ˈrʊərəl] 农村的；乡村的
-    - rur - 农村；-al，形容词后缀
+    - rur - 农村； -al 形容词后缀
     - countryside [ˈkʌntrisaɪd] 农村；乡下
+    - pastoral [ˈpɑːstərəl] 乡村的；田园风光的
+    - bucolic [bjuːˈkɒlɪk] 乡村的；田园的
 - whammy [ˈwæmi] 晦气；倒霉事
-    - wham - 重击；-y，名词后缀
-    - jinx [dʒɪŋks] 厄运；不祥的人或物
+    - 无明显的词根或者前缀后缀
+    - jinx [dʒɪŋks] 厄运；不祥之物
+    - hex [heks] 妖法；不吉祥的东西
+    - curse [kɜːs] 诅咒；咒骂
 - sentiment [ˈsentɪmənt] 感情；情绪；观点
-    - senti - 感觉；-ment，名词后缀
+    - sent - 感觉； -iment 名词后缀
     - emotion [ɪˈməʊʃn] 情感；情绪
-- intervene [ˌɪntəˈviːn] 干涉；干预
-    - inter - 在…… 之间；ven - 来；-e，动词后缀
+    - feeling [ˈfiːlɪŋ] 感觉；感情
+    - passion [ˈpæʃn] 激情；热情
+- intervene [ˌɪntəˈviːn] 干涉；干预；调停
+    - inter - 在…… 之间； ven - 来； -e 动词后缀
     - interfere [ˌɪntəˈfɪə(r)] 干涉；干预
+    - mediate [ˈmiːdieɪt] 调解；调停
+    - arbitrate [ˈɑːbɪtreɪt] 仲裁；公断
 - devastating [ˈdevəsteɪtɪŋ] 毁灭性的；极具破坏力的
-    - devast - 破坏；-ating，形容词后缀
+    - devastate - 破坏； -ing 形容词后缀
     - destructive [dɪˈstrʌktɪv] 破坏的；毁灭性的
+    - ruinous [ˈruːɪnəs] 破坏性的；毁灭性的
+    - disastrous [dɪˈzɑːstrəs] 灾难性的
 - assessment [əˈsesmənt] 评估；评定
-    - assess - 评估；-ment，名词后缀
+    - assess - 评估； -ment 名词后缀
     - evaluation [ɪˌvæljuˈeɪʃn] 评价；评估
+    - appraisal [əˈpreɪzl] 评估；评价
+    - estimation [ˌestɪˈmeɪʃn] 估计；评价
 - mediation [ˌmiːdiˈeɪʃn] 调解；调停
-    - medi - 中间；-ation，名词后缀
+    - medi - 中间； -ation 名词后缀
     - arbitration [ˌɑːbɪˈtreɪʃn] 仲裁；公断
+    - conciliation [kənˌsɪliˈeɪʃn] 调解；安抚
+    - negotiation [nɪˌɡəʊʃiˈeɪʃn] 谈判；协商
 - standstill [ˈstændstɪl] 静止；停顿
-    - stand - 站立；still - 静止
+    - stand - 站立； still - 静止的
     - halt [hɔːlt] 停止；立定
+    - pause [pɔːz] 暂停；停顿
+    - stop [stɒp] 停止；中断
 - collective [kəˈlektɪv] 集体的；共同的
-    - collect - 收集；-ive，形容词后缀
+    - collect - 收集； -ive 形容词后缀
     - communal [kəˈmjuːnl] 公共的；集体的
-- lay-off [ˈleɪ ɔːf] 解雇；下岗
-    - lay - 放置；off - 离开
-    - dismissal [dɪsˈmɪsl] 解雇；免职
+    - group [ɡruːp] 团体；群
+    - aggregate [ˈæɡrɪɡət] 总数；合计
+- lay-off [ˈleɪ ɒf] 解雇；下岗
+    - lay - 放置； off - 离开
+    - dismissal [dɪsˈmɪsl] 解雇；开除
+    - firing [ˈfaɪərɪŋ] 解雇；射击
+    - discharge [dɪsˈtʃɑːdʒ] 解雇；释放
+- unionised [ˈjuːniənaɪzd] 加入工会的
+    - union - 联盟；工会； -ise - 使……； -d 形容词后缀
+    - unionized [ˈjuːniənaɪzd] 加入工会的
+    - organized labor [ˈɔːɡənaɪzd ˈleɪbə(r)] 有组织的劳工
+    - labor union [ˈleɪbə(r) ˈjuːniən] 工会
+- transformative [trænsˈfɔːmətɪv] 变革性的；有改造作用的
+    - transform - 改变； -ative 形容词后缀
+    - revolutionary [ˌrevəˈluːʃənəri] 革命的；大变革的
+    - transformational [ˌtrænsfəˈmeɪʃənl] 转变的；变形的
+    - metamorphic [ˌmetəˈmɔːfɪk] 变形的；变质的
+- gig work [ɡɪɡ wɜːk] 零工工作
+    - gig - 临时工作； work - 工作
+    - part-time work [ˌpɑːtˈtaɪm wɜːk] 兼职工作
+    - freelance work [ˈfriːlæns wɜːk] 自由职业工作
+    - temporary work [ˈtemprəri wɜːk] 临时工作
+- fiscal [ˈfɪskl] 财政的；国库的
+    - fisc - 国库； -al 形容词后缀
+    - financial [faɪˈnænʃl] 金融的；财政的
+    - monetary [ˈmʌnɪtri] 货币的；财政的
+    - budgetary [ˈbʌdʒɪtəri] 预算的
 - parcel [ˈpɑːsl] 包裹；小包
-    - parc - 部分；-el，名词后缀
-    - package [ˈpækɪdʒ] 包裹；套装
+    - par - 部分； -cel 小的东西后缀
+    - package [ˈpækɪdʒ] 包裹；包装
+    - pack [pæk] 包装；背包
+    - bundle [ˈbʌndl] 捆；束
 - stiff [stɪf] 僵硬的；严厉的
-    - sti - （无明显的词根可拆解）；-ff，无明显含义
-    - rigid [ˈrɪdʒɪd] 僵硬的；严格的
+    - 无明显的词根或者前缀后缀
+    - rigid [ˈrɪdʒɪd] 严格的；僵硬的
+    - inflexible [ɪnˈfleksəbl] 顽固的；不可弯曲的
+    - unbending [ʌnˈbendɪŋ] 坚定的；不易弯曲的
 - courier [ˈkʊriə(r)] 快递员；信使
-    - cour - 跑；-ier，人后缀
+    - cour - 跑； -ier 人后缀
     - messenger [ˈmesɪndʒə(r)] 信使；信差
-- destined [ˈdestɪnd] 注定的；前往的
-    - destin - 命运；-ed，形容词后缀
+    - deliveryman [dɪˈlɪvəriˌmæn] 送货员
+    - postman [ˈpəʊstmən] 邮递员
+- destined [ˈdestɪnd] 注定的；预定的
+    - destine - 注定； -ed 形容词后缀
     - fated [ˈfeɪtɪd] 命中注定的
+    - predestined [ˌpriːˈdestɪnd] 注定的
+    - doomed [duːmd] 注定的
 - destiny [ˈdestəni] 命运；天命
-    - destin - 命运；-y，名词后缀
+    - destin - 注定； -y 名词后缀
     - fate [feɪt] 命运
+    - fortune [ˈfɔːtʃuːn] 运气；财富
+    - lot [lɒt] 命运；份额
 - dim [dɪm] 暗淡的；模糊的
-    - di - 二、双；m，无明显含义
+    - 无明显的词根或者前缀后缀
+    - dull [dʌl] 迟钝的；暗淡的
     - gloomy [ˈɡluːmi] 黑暗的；沮丧的
-- sufficient [səˈfɪʃnt] 足够的；充分的
-    - suf - 下、在…… 下面；fic - 做；-ient，形容词后缀
+    - obscure [əbˈskjʊə(r)] 模糊的；晦涩的
+- sufficient [səˈfɪʃnt] 足够的；充足的
+    - suf - 在…… 下面； fic - 做； -ient 形容词后缀
     - adequate [ˈædɪkwət] 足够的；适当的
+    - enough [ɪˈnʌf] 足够的
+    - ample [ˈæmpl] 丰富的；足够的
 
 
 
