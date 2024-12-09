@@ -29,4 +29,4 @@ In a statement, Stephens said he was honoured by the ====nomination==.==
 
 "I have expressed to President Trump that I would be extremely proud to serve our country and his administration, working to implement the President’s ==agenda== and further strengthen the long-standing alliance between the United States and the United Kingdom,” he said.
 
-	He and his wife also maintain a ====philanthropic==== organisation, the Harriet and Warren Stephens Family Foundation, which has donated to the Arkansas Museum of Fine Arts, the University of Mississippi, and the Episcopal Collegiate School in Little Rock.
+He and his wife also maintain a ====philanthropic==== organisation, the Harriet and Warren Stephens Family Foundation, which has donated to the Arkansas Museum of Fine Arts, the University of Mississippi, and the Episcopal Collegiate School in Little Rock.

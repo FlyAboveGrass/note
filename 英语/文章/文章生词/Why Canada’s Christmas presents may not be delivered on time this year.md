@@ -108,6 +108,11 @@
     - arbitration [ˌɑːbɪˈtreɪʃn] 仲裁；公断
     - conciliation [kənˌsɪliˈeɪʃn] 调解；安抚
     - negotiation [nɪˌɡəʊʃiˈeɪʃn] 谈判；协商
+- picket [ˈpɪkɪt] 纠察队；尖木桩；警戒哨
+    - -
+    - picketing [ˈpɪkɪtɪŋ] 设纠察线；进行罢工纠察
+    - boycott [ˈbɔɪkɒt] 抵制
+    - demonstration [ˌdemənˈstreɪʃn] 示威。
 - standstill [ˈstændstɪl] 静止；停顿
     - stand - 站立； still - 静止的
     - halt [hɔːlt] 停止；立定

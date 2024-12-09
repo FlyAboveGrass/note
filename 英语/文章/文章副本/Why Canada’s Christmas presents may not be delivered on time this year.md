@@ -27,12 +27,12 @@ Mr James said he’s doing better than most, because he negotiated contracts wit
 In an open letter, Canadian company Shopify, which helps businesses set up online stores, urged the government to ====intervene==== to “prevent a ====devastating==== blow to Canadian small businesses at their most critical time of year”.
 
 The letter came after the federally appointed mediator suspended talks on Wednesday.
+这封信是在联邦任命的调解人于周三暂停谈判之后发出的。
 
 “His ====assessment==== is that parties remain too far apart on critical issues for ====mediation==== to be successful at this time,” said Labour Minister Steven MacKinnon on X.
 
 The union says it is bargaining for inflationary pay rises, better benefits, and for the company to agree to not hire outside-contractors. Meanwhile, Canada Post says it needs to have more flexible work hours – and hire more temporary workers - in order to move to seven-day delivery and be more competitive.
 
-Getty Images
 
 Striking workers are picketing outside processing centres like those in Toronto
 
@@ -48,7 +48,8 @@ In a statement to the BBC, the company said it understands the impact this strik
 
 "With mounting financial losses in the billions, Canada Post requires greater flexibility to its outdated, mail-based delivery model. This is about the future of the ==postal== service and growing revenues by better serving Canadians."
 
-The union, meanwhile, said it believes the company can be profitable without ====gig work==,== and pointed to its proposal to adopt the UK model of having the post office offer low-fee mail banking.
+The union, meanwhile, said it believes the company can be profitable without ====gig work==, and pointed to its proposal to adopt the UK model of having the post office offer low-fee mail banking.
+指出其提议采用英国模式，即让邮局提供低费用的邮政银行服务。
 
 At issue, says Carleton University public policy professor Ian Lee, who has spent several decades researching the country’s ==postal== service, is the very survival of Canada Post itself.
 
@@ -67,8 +68,6 @@ On Friday, the USPS announced it was pausing accepting mail ====destined==== f
 But as the strike has dragged on, Canada Post’s financials have deteriorated even further. The company says it has delivered 10 million fewer parcels since the strike began. It began temporarily laying off striking workers this week, a move the union has called illegal.
 
 Canada Post has said the ====lay-offs==== are in accordance with the Canada Labour Code.
-
-Getty Images
 
 Some businesses say the strike has led them to reconsider who they hire to do their deliveries.
 
