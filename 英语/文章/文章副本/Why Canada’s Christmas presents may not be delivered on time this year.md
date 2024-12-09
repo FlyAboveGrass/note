@@ -20,7 +20,7 @@ The strike could not come at a worse time, Mr Winder said. For companies that se
 
 He also predicts that this year, Canadians were already planning on spending less, because of the rise in the cost-of-living.
 
-“It's a double ==whammy,== you know, because they've got the Canada Post strike and they've got sort of negative consumer ====sentiment==,==” he said.
+“It's a double ==whammy,== you know, because they've got the Canada Post strike and they've got sort of negative consumer ====sentiment==,” he said.
 
 Mr James said he’s doing better than most, because he negotiated contracts with other delivery services prior to the strike – but shipping overseas with a different carrier was too expensive, which has him losing out on some orders this holiday season.
 
@@ -38,7 +38,7 @@ Striking workers are picketing outside processing centres like those in Toronto
 
 The union told the BBC the current ====standstill==== "didn’t need to be this way".
 
-"[We] only took the difficult decision to call a strike after Canada Post announced the end to the existing ====collective==== agreements, an end to health benefits and to ====lay-offs==,==" the union said in a statement.
+"[We] only took the difficult decision to call a strike after Canada Post announced the end to the existing ====collective==== agreements, an end to health benefits and to ====lay-offs==," the union said in a statement.
 
 The statement said that ==postal== workers are "deeply aware" of the hurt the strike is causing communities, pointing to its decision to delay contract ====negotiations==== so workers could deliver throughout the pandemic.
 
