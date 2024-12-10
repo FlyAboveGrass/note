@@ -20,9 +20,9 @@ The truth is somewhere in between.
 
 Money alone can’t make you happy—but it can provide options in your life that do offer happiness: financial freedom, not needing to work for extra years into your retirement, being able to travel or get an education. Money makes a difference.  
 
-At the same time, the idea that becoming really rich will somehow fix all your problems is perhaps one of the greatest ====self-delusions==.== Financial health matters, but your physical health matters more, as do your relationships with your kids, friends and family members.
+At the same time, the idea that becoming really rich will somehow fix all your problems is perhaps one of the greatest ====self-delusions==. Financial health matters, but your physical health matters more, as do your relationships with your kids, friends and family members.
 
-So it’s with some ====trepidation==== that I write about money, one of the most emotionally-charged and ====contentious==== topics in this entire project. But it’s these very emotions money evokes that make it worth exploring in more depth.
+So it’s with some ====trepidation==== that I write about money, one of the most emotionally-charged and ====contentious==== topics in this entire project. But it’s these very emotions money ==evokes== that make it worth exploring in more depth.
 
 # My Money Story
 

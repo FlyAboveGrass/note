@@ -115,6 +115,12 @@
     - controversial [ˌkɒntrəˈvɜːʃl] 有争议的
     - disputable [dɪˈspjuːtəbl] 有争议的
     - debatable [dɪˈbeɪtəbl] 有争议的
+- evokes [ɪˈvəʊks] 引起，唤起
+    - e-（ex - 的变体）出；vok/voc - 喊叫； -es 动词后缀
+    - recall [rɪˈkɔːl] 回忆起；回想起
+    - remind [rɪˈmaɪnd] 提醒；使想起
+    - summon [ˈsʌmən] 召唤；鼓起。
+    - invoke [ɪnˈvəʊk] 调用；祈求；唤起
 - well-off [ˌwel ˈɒf] 富裕的；富有的
     - well - 好； off - 离开
     - wealthy [ˈwelθi] 富有的
