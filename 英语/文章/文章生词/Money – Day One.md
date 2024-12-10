@@ -1,0 +1,287 @@
+
+- spreadsheet
+- equation
+- greed
+- rational
+- come with
+- enormous
+- omnipresent
+- obsession
+- self-delusions
+- trepidation
+- contentious
+- well-off
+- tuition
+- inheritance
+- means
+- chequing
+- prudence
+- belatedly
+- solopreneur
+- prudent
+- gamble
+- frugally
+- stigma
+- hustle
+- rearview
+- prescient
+- pat
+- shudder
+- heeded
+- leveraged
+- pervades
+- underscore
+- outsized
+- dealt
+- skew
+- vagary
+- adequately
+- diverge
+- tweak
+- incorporate
+- strived
+- residual
+- stem
+- foster
+- comprehensive
+
+
+
+
+
+
+- universal [ˌjuːnɪˈvɜːsl] 普遍的；通用的
+    - uni - 一； vers - 转； -al 形容词后缀
+    - ubiquitous [juːˈbɪkwɪtəs] 无所不在的
+    - omnipresent [ˌɒmnɪˈpreznt] 无所不在的
+    - widespread [ˈwaɪdspred] 广泛的。
+- spreadsheet [ˈspredʃiːt] 电子表格
+    - spread - 展开； -sheet 表
+    - table [ˈteɪbl] 表格
+    - chart [tʃɑːt] 图表
+    - diagram [ˈdaɪəɡræm] 图表
+- equation [ɪˈkweɪʒn] 方程式；等式
+    - equ - 相等； -ation 名词后缀
+    - formula [ˈfɔːmjələ] 公式
+    - expression [ɪkˈspreʃn] 表达式
+    - calculation [ˌkælkjuˈleɪʃn] 计算
+- greed [ɡriːd] 贪婪；贪心
+    - -
+    - avarice [ˈævərɪs] 贪婪
+    - covetousness [ˈkʌvɪtəsnəs] 贪婪
+    - rapacity [rəˈpæsəti] 贪婪
+- rational [ˈræʃnəl] 理性的；合理的
+    - ration - 定量； -al 形容词后缀
+    - reasonable [ˈriːznəbl] 合理的
+    - logical [ˈlɒdʒɪkl] 符合逻辑的
+    - sensible [ˈsensəbl] 明智的
+- come with - 伴随；与…… 一起
+    - -
+    - accompany [əˈkʌmpəni] [əˈkʌmpəni] 陪伴；伴随
+    - go with [ɡəʊ wɪð] 与…… 一起
+    - be accompanied by [bi əˈkʌmpənid baɪ] 由…… 陪同
+- enormous [ɪˈnɔːməs] 巨大的；庞大的
+    - e - 出； norm - 规则； -ous 形容词后缀
+    - huge [hjuːdʒ] 巨大的
+    - massive [ˈmæsɪv] 巨大的
+    - gigantic [dʒaɪˈgæntɪk] 巨大的
+- omnipresent [ˌɒmnɪˈpreznt] 无所不在的
+    - omni - 全； present - 存在的
+    - ubiquitous [juːˈbɪkwɪtəs] 无所不在的
+    - pervasive [pəˈveɪsɪv] 遍布的
+    - everywhere [ˈevriweə(r)] 到处
+- obsession [əbˈseʃn] 痴迷；着魔
+    - ob - 向； sess - 坐； -ion 名词后缀
+    - fixation [fɪkˈseɪʃn] 痴迷
+    - preoccupation [priˌɒkjuˈpeɪʃn] 全神贯注；入迷
+    - infatuation [ɪnˌfætʃuˈeɪʃn] 迷恋
+- obesity [əʊˈbiːsəti] 肥胖；过胖
+    - -
+    - overweight [ˌəʊvəˈweɪt] 超重的
+    - plump [plʌmp] 丰满的；胖乎乎的
+    - corpulent [ˈkɔːpjələnt] 肥胖的。
+- self-delusions [self dɪˈluːʒənz] 自我欺骗
+    - self - 自己； delusion - 欺骗
+    - self-deception [ˌself dɪˈsepʃn] 自我欺骗
+    - illusion [ɪˈluːʒn] 幻觉；错觉
+    - hallucination [həˌluːsɪˈneɪʃn] 幻觉
+- trepidation [ˌtrepɪˈdeɪʃn] 惊恐；不安
+    - trepid - 颤抖； -ation 名词后缀
+    - apprehension [ˌæprɪˈhenʃn] 忧虑；恐惧
+    - uneasiness [ʌnˈiːzinəs] 不安
+    - nervousness [ˈnɜːvəsnəs] 紧张不安
+- contentious [kənˈtenʃəs] 有争议的；引起争论的
+    - content - 内容； -ious 形容词后缀
+    - controversial [ˌkɒntrəˈvɜːʃl] 有争议的
+    - disputable [dɪˈspjuːtəbl] 有争议的
+    - debatable [dɪˈbeɪtəbl] 有争议的
+- well-off [ˌwel ˈɒf] 富裕的；富有的
+    - well - 好； off - 离开
+    - wealthy [ˈwelθi] 富有的
+    - affluent [ˈæfluənt] 富裕的
+    - prosperous [ˈprɒspərəs] 繁荣的
+- tuition [tjuˈɪʃn] 学费；讲授
+    - -
+    - fee [fiː] 费用
+    - charge [tʃɑːdʒ] 费用；收费
+    - cost [kɒst] 费用；成本。
+- inheritance [ɪnˈherɪtəns] 遗产；继承物
+    - in - 进入； herit - 继承； -ance 名词后缀
+    - heritage [ˈherɪtɪdʒ] 遗产
+    - legacy [ˈleɡəsi] 遗产
+    - bequest [bɪˈkwest] 遗产
+- means [miːnz] 方法；手段
+    - -
+    - method [ˈmeθəd] 方法
+    - way [weɪ] 方法；道路
+    - approach [əˈprəʊtʃ] 方法
+- chequing [ˈtʃekɪŋ] 支票兑现；支票存款
+    - check - 支票； -ing 名词后缀
+    - cheque [tʃek] 支票
+    - banking [ˈbæŋkɪŋ] 银行业务
+    - deposit [dɪˈpɒzɪt] 存款
+- prudence [ˈpruːdns] 谨慎；审慎
+    - prud - 小心； -ence 名词后缀
+    - cautiousness [ˈkɔːʃəsnəs] 谨慎
+    - wariness [ˈweərinəs] 谨慎
+    - circumspection [ˌsɜːkəmˈspekʃn] 谨慎
+- belatedly [bɪˈleɪtɪdli] 延迟地；迟到地
+    - be - 使； late - 晚； -edly 副词后缀
+    - tardily [ˈtɑːdɪli] 缓慢地；迟到地
+    - late [leɪt] 晚的；迟的
+    - behindhand [bɪˈhaɪndhænd] 迟的；落后的
+- solopreneur [ˌsəʊləʊprəˈnɜː(r)] 个体企业家
+    - solo - 单独的； entrepreneur - 企业家
+    - entrepreneur [ˌɒntrəprəˈnɜː(r)] 企业家
+    - self-employed [ˌself ɪmˈplɔɪd] 个体经营的
+    - freelancer [ˈfriːlænsə(r)] 自由职业者
+- prudent [ˈpruːdənt] 谨慎的；精明的
+    - prud - 小心； -ent 形容词后缀
+    - cautious [ˈkɔːʃəs] 谨慎的
+    - wary [ˈweəri] 谨慎的
+    - circumspect [ˈsɜːkəmspekt] 谨慎的
+- gamble [ˈɡæmbl] 赌博；冒险
+    - -
+    - bet [bet] 打赌；赌博
+    - wager [ˈweɪdʒə(r)] 打赌；赌博
+    - speculation [ˌspekjuˈleɪʃn] 投机；猜测
+- frugally [ˈfruːɡəli] 节约地；俭朴地
+    - frug - 节俭； -ally 副词后缀
+    - thriftily [ˈθrɪftɪli] 节俭地
+    - economically [ˌiːkəˈnɒmɪkli] 经济地；节约地
+    - sparingly [ˈspeərɪŋli] 节俭地
+- stigma [ˈstɪɡmə] 耻辱；污名
+    - -
+    - disgrace [dɪsˈɡreɪs] 耻辱
+    - shame [ʃeɪm] 羞耻；羞愧
+    - dishonor [dɪsˈɒnə(r)] 耻辱；不光彩。
+- hustle [ˈhʌsl] 忙碌；推搡
+    - -
+    - bustle [ˈbʌsl] 忙碌；喧闹
+    - scramble [ˈskræmbl] 争夺；匆忙
+    - scurry [ˈskʌri] 急匆匆地走
+- rearview [ˈrɪəvjuː] 后视的；后视景象
+    - rear - 后面的； view - 景象
+    - backward-looking [ˈbækwəd ˈlʊkɪŋ] 向后看的
+    - retrospective [ˌretrəˈspektɪv] 回顾的
+    - backward [ˈbækwəd] 向后的
+- prescient [ˈpreʃənt] 有先见之明的
+    - pre - 预先； scient - 知道
+    - prophetic [prəˈfetɪk] 预言的
+    - foresighted [ˈfɔːsaɪtɪd] 有先见之明的
+    - farseeing [ˈfɑːˈsiːɪŋ] 有远见的
+- pat [pæt] 轻拍；小块
+    - -
+    - tap [tæp] 轻敲
+    - slap [slæp] 拍打
+    - stroke [strəʊk] 轻抚
+- shudder [ˈʃʌdə(r)] 战栗；发抖
+    - -
+    - tremble [ˈtrembl] 颤抖
+    - quiver [ˈkwɪvə(r)] 颤抖
+    - shiver [ˈʃɪvə(r)] 颤抖
+- heeded [ˈhiːdɪd] 注意；听从
+    - heed - 注意； -ed 过去分词后缀
+    - pay attention to [peɪ əˈtenʃn tu] 注意
+    - take notice of [teɪk ˈnəʊtɪs ɒv] 注意到
+    - be attentive to [bi əˈtentɪv tu] 留意
+- leveraged [ˈliːvərɪdʒd] 利用；举债经营
+    - lever - 杠杆； -age 名词后缀； -d 过去分词后缀
+    - utilize [ˈjuːtəlaɪz] 利用
+    - employ [ɪmˈplɔɪ] 使用；雇佣
+    - make use of [meɪk juːz ɒv] 利用
+- pervades [pəˈveɪdz] 弥漫；遍及
+    - per - 贯穿； vad - 走； -es 第三人称单数后缀
+    - permeate [ˈpɜːmieɪt] 渗透；弥漫
+    - spread [spred] 传播；展开
+    - diffuse [dɪˈfjuːz] 扩散；传播
+- underscore [ˌʌndəˈskɔː(r)] 在…… 下面划线；强调
+    - under - 在…… 下面； score - 划线
+    - emphasize [ˈemfəsaɪz] 强调
+    - highlight [ˈhaɪlaɪt] 突出；强调
+    - stress [stres] 强调
+- outsized [ˈaʊtsaɪzd] 特大的；庞大的
+    - out - 超出； size - 大小； -d 形容词后缀
+    - enormous [ɪˈnɔːməs] 巨大的
+    - huge [hjuːdʒ] 巨大的
+    - massive [ˈmæsɪv] 巨大的。
+- dealt [delt] 处理；分配（deal 的过去式和过去分词）
+    - -
+    - handle [ˈhændl] 处理
+    - manage [ˈmænɪdʒ] 管理；处理
+    - dispose [dɪˈspəʊz] 处理
+- skew [skjuː] 歪斜；曲解
+    - -
+    - slant [slænt] 倾斜
+    - tilt [tɪlt] 倾斜；使偏向
+    - distort [dɪˈstɔːt] 扭曲；曲解
+- vagary [ˈveɪɡəri] 奇想；奇特行为
+    - -
+    - caprice [kəˈpriːs] 反复无常；任性
+    - whim [wɪm] 突发奇想；一时的兴致
+    - fancy [ˈfænsi] 幻想；想象
+- adequately [ˈædɪkwətli] 充分地；足够地
+    - ad - 加强； equate - 使相等； -ly 副词后缀
+    - sufficiently [səˈfɪʃntli] 足够地
+    - amply [ˈæmpli] 充足地
+    - plentifully [ˈplentɪfəli] 丰富地
+- diverge [daɪˈvɜːdʒ] 分歧；偏离
+    - di - 分开； verge - 倾向； -e 动词后缀
+    - deviate [ˈdiːvieɪt] 偏离
+    - differ [ˈdɪfə(r)] 不同；意见相左
+    - vary [ˈveəri] 变化；不同
+- tweak [twiːk] 扭；拧；微调
+    - -
+    - adjust [əˈdʒʌst] 调整
+    - fine-tune [ˈfaɪnˈtjuːn] 微调
+    - modify [ˈmɒdɪfaɪ] 修改
+- incorporate [ɪnˈkɔːpəreɪt] 包含；合并
+    - in - 进入； corpor - 身体； -ate 动词后缀
+    - include [ɪnˈkluːd] 包含
+    - combine [kəmˈbaɪn] 结合；合并
+    - integrate [ˈɪntɪɡreɪt] 使结合；使成为整体
+- strived [straɪvd] 努力；奋斗（strive 的过去式和过去分词）
+    - -
+    - endeavor [ɪnˈdevə(r)] 努力；尽力
+    - struggle [ˈstrʌɡl] 奋斗；努力
+    - exert [ɪɡˈzɜːt] 运用；努力
+- residual [rɪˈzɪdjuəl] 剩余的；残留的
+    - re - 回； sid - 坐； -ual 形容词后缀
+    - remaining [rɪˈmeɪnɪŋ] 剩余的
+    - leftover [ˈleftəʊvə(r)] 剩余物；残留物
+    - surplus [ˈsɜːpləs] 过剩的；剩余的
+- stem [stem] 茎；干；阻止
+    - -
+    - stalk [stɔːk] 茎；梗
+    - trunk [trʌŋk] 树干；躯干
+    - halt [hɔːlt] 停止；阻止
+- foster [ˈfɒstə(r)] 培养；促进；收养
+    - -
+    - nurture [ˈnɜːtʃə(r)] 养育；培养
+    - promote [prəˈməʊt] 促进；提升
+    - cultivate [ˈkʌltɪveɪt] 培养；耕作
+- comprehensive [ˌkɒmprɪˈhensɪv] 全面的；综合的
+    - com - 共同； prehend - 抓住； -ive 形容词后缀
+    - all-round [ˈɔːlˈraʊnd] 全面的；多方面的
+    - extensive [ɪkˈstensɪv] 广泛的；全面的
+    - thorough [ˈθʌrə] 彻底的；全面的。

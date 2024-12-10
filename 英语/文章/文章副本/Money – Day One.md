@@ -1,11 +1,12 @@
 
 > [Money - Day One - Scott H Young](https://www.scotthyoung.com/blog/2024/12/03/money-day-one/)
 
-Money is the third foundation in my year-long project (and [course](https://join.ingeniumcourses.com/foundations/)) to improve the universal elements of a good life.
+Money is the third foundation in my year-long project (and [course](https://join.ingeniumcourses.com/foundations/)) to improve the ==universal== elements of a good life.
 
 Today is the first day of my challenge for this foundation.[1](read://https_www.scotthyoung.com/?url=https%3A%2F%2Fwww.scotthyoung.com%2Fblog%2F2024%2F12%2F03%2Fmoney-day-one%2F#easy-footnote-bottom-1-16831) In case you missed them, here are my updates and notes from the previous two foundations:
 
 Money is an interesting foundation. It’s highly technical, driven by ====spreadsheets==== and ==equations==—but it’s also emotionally charged, driven by ==greed== and fear.
+它具有高度的技术性，由电子表格和方程式驱动 —— 但它也充满情感，由贪婪和恐惧驱动。
 
 Nobody naturally thinks about money the purely ====rational==== way economists say we should—instead, we ====come with==== the ====enormous==== baggage of our beliefs about how we should think and value money.
 
