@@ -1,2 +1,11 @@
 - tycoon
-- 
+- verdict
+- mastermind
+- sentenced
+- collar
+- commuted
+- imprisonment
+- prosecutor
+- misappropriate
+- embezzled
+- sentenced
