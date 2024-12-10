@@ -1,8 +1,4 @@
-
-
-> [Games industry in 2024: The obstacles facing indie developers](https://www.bbc.com/news/articles/czeg2p3wjy1o) 
-
-
+> [Games industry in 2024: The obstacles facing indie developers](https://www.bbc.com/news/articles/czeg2p3wjy1o)
 
 Adam Riches has spent the past three-and-a-half years making a game with his brother
 
