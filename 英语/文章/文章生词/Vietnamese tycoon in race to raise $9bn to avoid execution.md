@@ -8,4 +8,184 @@
 - prosecutor
 - misappropriate
 - embezzled
-- sentenced
+- chairwoman
+- estate
+- defiant
+- contrite
+- precedent
+- leniency
+- stakes
+- negotiate
+- compensation
+- favourable
+- penalty
+- state secret
+- spared
+
+
+
+- tycoon [taɪˈkuːn] 企业界大亨，巨头
+    - tyco - 大； -oon 名词后缀
+    - magnate [ˈmæɡneɪt] 巨头；富豪
+    - mogul [ˈməʊɡl] 显要人物；有权势的人
+    - baron [ˈbærən] 大亨；巨头
+- appeal [əˈpiːl] 呼吁；上诉；吸引力
+    - ap - 向；peal - 驱动； -al 名词后缀
+    - petition [pəˈtɪʃn] 请愿；祈求
+    - plead [pliːd] 恳求；辩护
+    - entreat [ɪnˈtriːt] 恳求；乞求。
+- verdict [ˈvɜːdɪkt] 裁决；判断
+    - ver - 真实； -dict 说
+    - judgment [ˈdʒʌdʒmənt] 判断；裁决
+    - decision [dɪˈsɪʒn] 决定；判决
+    - ruling [ˈruːlɪŋ] 裁决；裁定
+- mastermind [ˈmɑːstəmaɪnd] 策划者；主谋
+    - master - 主要的；mind - 头脑
+    - architect [ˈɑːkɪtekt] 设计师；缔造者
+    - planner [ˈplænə(r)] 规划者；策划人
+    - strategist [ˈstrætədʒɪst] 战略家；策划者
+- sentenced [ˈsentənst] 宣判；判决
+    - sent - 送； -ence 名词后缀； -ed 过去分词后缀
+    - condemned [kənˈdemd] 被判刑的；被定罪的
+    - punished [ˈpʌnɪʃt] 受处罚的；被惩罚的
+    - penalized [ˈpiːnəlaɪzd] 处罚；惩罚
+- collar [ˈkɒlə(r)] 衣领；项圈
+    - col - 脖子； -ar 名词后缀
+    - neckline [ˈneklaɪn] 领口；领圈
+    - lapel [ləˈpel] 翻领；西服的翻领
+    - cuff [kʌf] 袖口；翻边
+    - white collar crime 白领犯罪
+- commuted [kəˈmjuːtɪd] 减刑；通勤
+    - com - 共同；mut - 改变； -ed 过去分词后缀
+    - reduced [rɪˈdjuːst] 减少的；降低的
+    - lessened [ˈlesnd] 减少；减轻
+    - diminished [dɪˈmɪnɪʃt] 减少；降低
+- imprisonment [ɪmˈprɪznmənt] 监禁；关押
+    - im - 进入；prison - 监狱； -ment 名词后缀
+    - confinement [kənˈfaɪnmənt] 限制；监禁
+    - detention [dɪˈtenʃn] 拘留；扣押
+    - incarceration [ɪnˌkɑːsəˈreɪʃn] 监禁；禁闭
+- prosecutor [ˈprɒsɪkjuːtə(r)] 检察官；公诉人
+    - pro - 向前；secut - 跟随； -or 人
+    - attorney [əˈtɜːni] 律师；代理人
+    - solicitor [səˈlɪsɪtə(r)] 律师；法务官
+    - advocate [ˈædvəkeɪt] 拥护者；提倡者
+- misappropriate [ˌmɪsəˈprəʊprieɪt] 挪用；盗用
+    - mis - 错误；appropriate - 适当的； -ate 动词后缀
+    - embezzle [ɪmˈbezl] 盗用；挪用
+    - peculate [ˈpekjuleɪt] 挪用公款；盗用
+    - defalcate [dɪˈfælkeɪt] 挪用公款；盗用
+- embezzled [ɪmˈbezld] 盗用；挪用
+    - embezzle - 盗用；挪用； -ed 过去分词后缀
+    - misappropriated [ˌmɪsəˈprəʊprieɪtɪd] 挪用；盗用
+    - pilfered [ˈpɪlfəd] 偷窃；盗取
+    - purloined [ˈpɜːlɔɪnd] 偷窃；盗取
+- chairwoman [ˈtʃeəwʊmən] 女主席；女董事长
+    - chair - 椅子；主席；woman - 女人
+    - female leader [ˈfiːmeɪl ˈliːdə(r)] 女性领导者
+    - woman executive [ˈwʊmən ɪɡˈzekjətɪv] 女性主管
+    - female director [ˈfiːmeɪl dəˈrektə(r)] 女性董事
+- estate [ɪˈsteɪt] 财产；房地产
+    - e - 向外；stat - 站； -e 名词后缀
+    - property [ˈprɒpəti] 财产；所有物
+    - possession [pəˈzeʃn] 所有；拥有
+    - asset [ˈæset] 资产；财产。
+- defiant [dɪˈfaɪənt] 挑衅的；目中无人的
+    - de - 否定；fiant - 服从； -ant 形容词后缀
+    - rebellious [rɪˈbeljəs] 反抗的；叛逆的
+    - insubordinate [ˌɪnsəˈbɔːdɪnət] 不服从的；违抗的
+    - disobedient [ˌdɪsəˈbiːdiənt] 不服从的；违抗的
+- contrite [ˈkɒntraɪt] 悔悟的；悔恨的
+    - con - 共同；trit - 摩擦； -e 形容词后缀
+    - remorseful [rɪˈmɔːsfl] 悔恨的；自责的
+    - penitent [ˈpenɪtənt] 悔罪的；忏悔的
+    - repentant [rɪˈpentənt] 后悔的；悔悟的
+- drain [dreɪn] 排水；流干；消耗
+    - dr- 与流动相关；-ain 名词后缀
+    - leak [liːk] 泄漏；渗漏
+    - runoff [ˈrʌnˌɔːf] 径流；流出物
+    - discharge [dɪsˈtʃɑːdʒ] 排出；放电。
+- stall [stɔːl] 货摊；畜栏；停滞
+    - st- 站立；-all 名词后缀
+    - booth [buːð] 货摊；公用电话亭
+    - kiosk [ˈkiːɒsk] 售货亭；报摊
+    - stand [stænd] 货摊；站立。
+- vendor [ˈvendə(r)] 小贩；卖主
+    - vend- 卖；-or 表示人
+    - peddler [ˈpedlə(r)] 小贩；传播者
+    - hawker [ˈhɔːkə(r)] 小贩；叫卖者
+    - seller [ˈselə(r)] 卖者；销售者。
+- cosmetics [kɒzˈmetɪks] 化妆品
+    - cosmet- 美容；-ics 名词后缀
+    - makeup [ˈmeɪkʌp] 化妆品；组成
+    - skincare [ˈskɪnkeə(r)] 护肤品
+    - beauty products [ˈbjuːti ˈprɒdʌkts] 美容产品。
+- portfolio [pɔːtˈfəʊliəʊ] 投资组合；公文包
+    - port- 携带；-folio 表纸张集合
+    - investment portfolio [ɪnˈvestmənt pɔːtˈfəʊliəʊ] 投资组合
+    - asset portfolio [ˈæset pɔːtˈfəʊliəʊ] 资产组合
+    - stock portfolio [stɒk pɔːtˈfəʊliəʊ] 股票投资组合。
+- convict [kənˈvɪkt] 证明… 有罪；宣判… 有罪
+    - con- 加强；vict- 征服；-ed 形容词后缀
+    - guilty [ˈɡɪlti] 有罪的
+    - culpable [ˈkʌlpəbl] 应受责备的；有罪的
+    - blameworthy [ˈbleɪmwɜːði] 应受责备的。
+- recapitalise [ˌriːˈkæpɪtəlaɪzɪŋ] 调整资本结构；再资本化
+    - re- 再；capit- 头、资本；-al- 形容词后缀；-ise- 动词后缀；-ing 名词后缀
+    - refinance [ˌriːˈfaɪnæns] 再融资
+    - restructure [ˌriːˈstrʌktʃə(r)] 调整结构
+    - reorganize [ˌriːˈɔːɡənaɪz] 重组。
+- precedent [ˈpresɪdənt] 先例；前例
+    - pre - 在前；ced - 走； -ent 名词后缀
+    - example [ɪɡˈzɑːmpl] 例子；榜样
+    - instance [ˈɪnstəns] 例子；事例
+    - case [keɪs] 情况；案例
+- leniency [ˈliːniənsi] 宽大；仁慈
+    - leni - 柔软； -ency 名词后缀
+    - mercy [ˈmɜːsi] 仁慈；宽容
+    - clemency [ˈklemənsi] 仁慈；宽厚
+    - indulgence [ɪnˈdʌldʒəns] 放纵；宽容
+- stakes [steɪks] 赌注；风险
+    - stake - 赌注；木桩； -s 复数后缀
+    - wager [ˈweɪdʒə(r)] 赌注；赌博
+    - bet [bet] 打赌；赌注
+    - gamble [ˈɡæmbl] 赌博；冒险
+- negotiate [nɪˈɡəʊʃieɪt] 谈判；协商
+    - neg - 否定；oti - 闲暇； -ate 动词后缀
+    - bargain [ˈbɑːɡən] 讨价还价；谈判
+    - mediate [ˈmiːdieɪt] 调解；调停
+    - confer [kənˈfɜː(r)] 协商；商谈
+- compensation [ˌkɒmpenˈseɪʃn] 补偿；赔偿
+    - com - 共同；pens - 支付； -ation 名词后缀
+    - indemnity [ɪnˈdemnəti] 赔偿；补偿
+    - reimbursement [ˌriːɪmˈbɜːsmənt] 偿还；赔偿
+    - recompense [ˈrekəmpens] 赔偿；补偿
+- favourable [ˈfeɪvərəbl] 有利的；赞成的
+    - favour - 喜爱；赞成； -able 形容词后缀
+    - advantageous [ˌædvənˈteɪdʒəs] 有利的；有益的
+    - beneficial [ˌbenɪˈfɪʃl] 有益的；有利的
+    - propitious [prəˈpɪʃəs] 吉利的；顺利的
+- penalty [ˈpenəlti] 处罚；惩罚
+    - pen - 惩罚； -alty 名词后缀
+    - punishment [ˈpʌnɪʃmənt] 惩罚；处罚
+    - chastisement [tʃæˈstaɪzmənt] 惩罚；责罚
+    - discipline [ˈdɪsəplɪn] 纪律；惩罚
+- state secret [steɪt ˈsiːkrət] 国家机密
+    - state - 国家；secret - 秘密
+    - national secret [ˈnæʃnəl ˈsiːkrət] 国家机密
+    - official secret [əˈfɪʃl ˈsiːkrət] 官方机密
+    - classified information [ˈklæsɪfaɪd ˌɪnfəˈmeɪʃn] 机密信息
+- spared [speəd] 饶恕；赦免
+    - spare - 饶恕；节省； -ed 过去分词后缀
+    - excused [ɪkˈskjuːzd] 原谅；宽恕
+    - pardoned [ˈpɑːdnd] 赦免；原谅
+    - absolved [əbˈzɒlvd] 赦免；宣告无罪
+
+
+
+
+
+
+
+
+
