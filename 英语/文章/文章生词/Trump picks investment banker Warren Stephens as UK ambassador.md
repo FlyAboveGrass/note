@@ -1,0 +1,114 @@
+
+- nominated
+- ambassador
+- diplomat
+- cherished
+- ally
+- nomination
+- military
+- vow
+- ethos
+- coveted
+- bestow
+- prominent
+- fundraiser
+- emissary
+- ascent
+- triumphed
+- agenda
+- philanthropic
+
+
+
+
+
+- nominated [ˈnɒmɪneɪtɪd] 被提名的；被任命的
+    - nomin - 名称； -ate 动词后缀； -ed 形容词后缀
+    - appointed [əˈpɔɪntɪd] 被任命的
+    - designated [ˈdezɪɡneɪtɪd] 被指定的
+    - elected [ɪˈlektɪd] 被选举的
+- ambassador [æmˈbæsədə(r)] 大使；代表
+    - ambi - 周围； -ass- 走； -ador 人后缀
+    - envoy [ˈenvɔɪ] 使者；代表
+    - delegate [ˈdelɪɡət] 代表；代表团成员
+    - representative [ˌreprɪˈzentətɪv] 代表；典型
+- diplomat [ˈdɪpləmæt] 外交官；善于交际的人
+    - diplo - 双； -mat 人后缀
+    - consular [ˈkɒnsjələ(r)] 领事的；与领事有关的
+    - negotiator [nɪˈɡəʊʃieɪtə(r)] 谈判者；磋商者
+    - mediator [ˈmiːdieɪtə(r)] 调停者；调解人
+- cherished [ˈtʃerɪʃt] 珍爱的；珍视的
+    - cher - 爱； -ish 动词后缀； -ed 形容词后缀
+    - treasured [ˈtreʒəd] 珍贵的；珍视的
+    - adored [əˈdɔːd] 敬慕；爱慕
+    - loved [lʌvd] 被爱的；钟爱的
+- ally [ˈælaɪ] 同盟国；盟友；伙伴
+    - al - 朝向； -ly 后缀表示人或物
+    - confederate [kənˈfedərət] 同盟者；同盟国
+    - partner [ˈpɑːtnə(r)] 伙伴；合伙人
+    - associate [əˈsəʊʃieɪt] 伙伴；同事
+- nomination [ˌnɒmɪˈneɪʃn] 提名；任命
+    - nomin - 名称； -ation 名词后缀
+    - appointment [əˈpɔɪntmənt] 任命；约定
+    - selection [sɪˈlekʃn] 选择；挑选
+    - designation [ˌdezɪɡˈneɪʃn] 指定；任命
+- military [ˈmɪlətri] 军事的；军队的
+    - milit - 兵； -ary 形容词后缀
+    - armed [ɑːmd] 武装的；有武器的
+    - martial [ˈmɑːʃl] 军事的；战争的
+    - combatant [ˈkɒmbətənt] 参战者；战斗员
+- vow [vaʊ] 发誓；誓言
+    - -
+    - oath [əʊθ] 誓言；誓约
+    - pledge [pledʒ] 保证；誓言
+    - promise [ˈprɒmɪs] 承诺；允诺
+- ethos [ˈiːθɒs] 气质；精神特质
+    - -
+    - spirit [ˈspɪrɪt] 精神；心灵
+    - temperament [ˈtemprəmənt] 气质；性情
+    - character [ˈkærəktə(r)] 性格；品质
+- coveted [ˈkʌvətɪd] 令人垂涎的；梦寐以求的
+    - cove - 渴望； -it 后缀； -ed 形容词后缀
+    - desired [dɪˈzaɪəd] 渴望的；想得到的
+    - sought-after [ˈsɔːt ˈɑːftə(r)] 受欢迎的；吃香的
+    - enviable [ˈenviəbl] 令人羡慕的
+- bestow [bɪˈstəʊ] 给予；授予
+    - be - 加强； -stow 放置
+    - confer [kənˈfɜː(r)] 授予；给予
+    - endow [ɪnˈdaʊ] 赋予；捐赠
+    - present [ˈpreznt] 提出；赠送
+- prominent [ˈprɒmɪnənt] 突出的；显著的
+    - pro - 向前； -min - 突出； -ent 形容词后缀
+    - conspicuous [kənˈspɪkjuəs] 显眼的；显著的
+    - outstanding [aʊtˈstændɪŋ] 杰出的；显著的
+    - remarkable [rɪˈmɑːkəbl] 非凡的；显著的
+- fundraiser [ˈfaʊndˌreɪzə(r)] 资金筹集人；募捐者
+    - fund - 资金； -raise 筹集； -er 人后缀
+    - donor [ˈdəʊnə(r)] 捐赠者
+    - contributor [kənˈtrɪbjʊtə(r)] 贡献者；捐助者
+    - sponsor [ˈspɒnsə(r)] 赞助者；主办者
+- emissary [ˈemɪsəri] 使者；密使
+    - e - 出； -miss - 送； -ary 人后缀
+    - envoy [ˈenvɔɪ] 使者；代表
+    - delegate [ˈdelɪɡət] 代表；代表团成员
+    - messenger [ˈmesɪndʒə(r)] 信使；使者
+- ascent [əˈsent] 上升；登高
+    - a - 向； -scent 上升
+    - climb [klaɪm] 攀登；上升
+    - rise [raɪz] 上升；增强
+    - ascension [əˈsenʃn] 上升；升高
+- triumphed [ˈtraɪʌmfɪd] 获胜；成功
+    - trium - 胜利； -ph 表示 “产生”； -ed 形容词后缀
+    - succeed [səkˈsiːd] 成功；继承
+    - prevail [prɪˈveɪl] 流行；战胜
+    - win [wɪn] 获胜；赢得
+- agenda [əˈdʒendə] 议程；日程表
+    - ag - 做； -enda 名词后缀
+    - schedule [ˈʃedjuːl] 时间表；计划表
+    - timetable [ˈtaɪmteɪbl] 时间表；时刻表
+    - program [ˈprəʊɡræm] 计划；程序
+- philanthropic [ˌfɪlənˈθrɒpɪk] 博爱的；慈善的
+    - phil - 爱； -anthrop - 人类； -ic 形容词后缀
+    - charitable [ˈtʃærətəbl] 慈善事业的；慷慨的
+    - benevolent [bəˈnevələnt] 仁慈的；慈善的
+    - generous [ˈdʒenərəs] 慷慨的；大方的
