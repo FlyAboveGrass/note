@@ -8,6 +8,8 @@
 `docker run -p 3306:3306 --name root -e MYSQL_ROOT_PASSWORD=12345678 -d mysql`
 
 
+>  学习思维导图： [NestJS Roadmap](https://whimsical.com/nestjs-roadmap-ULJDxUceE9WbfYQ3ckPmwm)
+
 **服务器底层 （Express 和 fastify）**
 
 在 NestJS 框架中，Express 和 Fastify 都是作为底层 HTTP 服务器选项可供选择的。它们之间的主要区别在于性能、特性和社区支持方面。以下是两者的一些比较点：
