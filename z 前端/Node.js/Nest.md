@@ -7,7 +7,6 @@
 启动 mysql：
 `docker run -p 3306:3306 --name root -e MYSQL_ROOT_PASSWORD=12345678 -d mysql`
 
-
 >  学习思维导图： [NestJS Roadmap](https://whimsical.com/nestjs-roadmap-ULJDxUceE9WbfYQ3ckPmwm)
 
 **服务器底层 （Express 和 fastify）**
@@ -15,19 +14,19 @@
 在 NestJS 框架中，Express 和 Fastify 都是作为底层 HTTP 服务器选项可供选择的。它们之间的主要区别在于性能、特性和社区支持方面。以下是两者的一些比较点：
 
 1. **性能**:
-    
+
     - **Fastify**: 通常被认为比Express更快。Fastify使用低级别的HTTP解析器pino，并且它的架构旨在提高性能和速度。Fastify的基准测试结果显示，它在处理请求时比Express快得多。
     - **Express**: 虽然Express在性能上可能不如Fastify，但它仍然是一个流行且成熟的框架，对于大多数应用程序来说，其性能已经足够。
 2. **特性**:
-    
+
     - **Fastify**: 提供了一些Express不具备的内置特性，如自动JSON请求体解析、强大的路由功能、内置的WebSocket支持等。
     - **Express**: 拥有一个成熟的生态系统和大量的中间件，可以轻松地找到并集成各种功能。Express的API简单直观，易于上手。
 3. **社区和生态系统**:
-    
+
     - **Express**: 由于Express已经存在很长时间，它拥有一个庞大的社区和丰富的中间件库。这意味着对于大多数需求，你都可以找到现成的解决方案。
     - **Fastify**: 虽然Fastify的社区正在迅速增长，但它的中间件和插件库可能没有Express那么丰富。
 4. **NestJS的支持**:
-    
+
     - NestJS提供了框架适配器，允许开发者在Express和Fastify之间轻松切换。这意味着你可以根据自己的需求选择最适合的底层HTTP服务器，而不必担心NestJS框架的兼容性问题。
 
 
@@ -74,7 +73,6 @@ export class HttpService<T> {
 
 > 如果您的类没有扩展其他提供者，你应该总是使用基于**构造函数**的注入。
 
-
 ```typescript
 import { Injectable, Inject } from '@nestjs/common';
 
@@ -98,8 +96,6 @@ export class HttpService<T> {
 | controllers |            必须创建的一组控制器            |
 |   imports   |     导入模块的列表，这些模块导出了此模块中所需提供者     |
 |   exports   |     由本模块提供并应在其他模块中可用的提供者的子集。     |
-
-
 
 #### 功能模块
 
@@ -212,9 +208,7 @@ app.use(logger);
 
 在这两种情况下, 管道 `参数(arguments)` 会由 [控制器(controllers)的路由处理程序](https://docs.nestjs.cn/8/controllers?id=%e8%b7%af%e7%94%b1%e5%8f%82%e6%95%b0) 进行处理。Nest 会在调用这个方法之前插入一个管道，管道会先拦截方法的调用参数,进行转换或是验证处理，然后用转换好或是验证好的参数调用原方法。
 
-
 > 创建 filter 管道的方式： `nest g filter error/cat`
-
 
 ### 内置管道
 
@@ -253,7 +247,6 @@ async findOne(
 npm install --save joi
 
 > 生成一个管道类： nest g pipe className
-
 
 ### 全局管道
 
@@ -350,7 +343,6 @@ export class AppModule {}
 - 扩展基本函数行为
 - 根据所选条件完全重写函数 (例如, 缓存目的)
 
-
 > 应用举例。处理响应的 data 和 msg 等、跟踪请求的流转速度、对部分接口做缓存处理。
 
 ### 截取切面
@@ -373,7 +365,6 @@ export class AppModule {}
 
 > 关于装饰器的解释：[Exploring EcmaScript Decorators. Iterators, generators and array… | by Addy Osmani | Google Developers | Medium](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)
 
-
 `ES2016` 装饰器是一个表达式，它返回一个可以将目标、名称和属性描述符作为参数的函数。通过在装饰器前面添加一个 `@` 字符并将其放置在你要装饰的内容的最顶部来应用它。可以为类、方法或属性定义装饰器。
 
 ### [参数装饰器](https://docs.nestjs.cn/10/customdecorators?id=%e5%8f%82%e6%95%b0%e8%a3%85%e9%a5%b0%e5%99%a8)
@@ -392,7 +383,6 @@ export class AppModule {}
 |`@Headers(param?: string)`|`req.headers / req.headers[param]`|
 |`@Ip()`|`req.ip`|
 |`@HostParam()`|`req.hosts`|
-
 
 ### 传递数据
 
@@ -599,7 +589,6 @@ export class AppModule {}
 
 > 使用单例范围始终是推荐的方法。请求之间共享提供者可以降低内存消耗，从而提高应用程序的性能(不需要每次实例化类)。
 
-
 ```typescript
 // Service 中
 import { Injectable, Scope } from '@nestjs/common';
@@ -626,12 +615,7 @@ export class CatsService {}
 export class CatsController {}
 ```
 
-
 > 网关永远不应该依赖于请求范围的提供者，因为它们充当单例。一个网关封装了一个真正的套接字，不能多次被实例化
-
-
-
-
 
 ### 作用域层级
 
@@ -677,7 +661,6 @@ export class CommonService {
 
 > 实例化的顺序是不确定的。不能保证哪个构造函数会被先调用。所以你应保证你的代码中不存在依赖于某一个类先被实例化的场景。
 
-
 ### 模块前向引用：Module forward reference
 
 
@@ -711,25 +694,25 @@ export class CatsModule {}
 
 
 
-  
-  
+
+
 
 ## 模块参考
 
-  
+
 
 Nest 提供了一个 `ModuleRef` 类来导航到内部提供者列表，并使用注入令牌作为查找键名来获取一个引用。`ModuleRef` 类也提供了一个动态实例化静态和范围的提供者的方法。
 
-  
-  
+
+
 
 ### 获取实例
 
-  
+
 
 `ModuleRef` 实例(下文称为**模块引用**) 拥有 `get()` 方法。该方法获取一个提供者，控制器或者通过注入令牌/类名获取一个在当前模块中可注入对象(例如守卫或拦截器等)。
 
-  
+
 
 ```typescript
 
@@ -755,21 +738,15 @@ this.service = this.moduleRef.get(Service);
 
 ```
 
-  
-
 >不能通过 `get()` 方法获取一个范围的提供者(暂态的或者请求范围的)。
-
-  
-  
-  
 
 ### 处理作用域 Provider
 
-  
+
 
 要动态处理一个范围提供者(瞬态的或请求范围的)，使用 `resolve()` 方法并将提供者的注入令牌作为参数提供给方法。
 
-  
+
 
 ```typescript
 
@@ -793,17 +770,17 @@ this.transientService = await this.moduleRef.resolve(TransientService);
 
 ```
 
-  
-  
-  
+
+
+
 
 **独一无二的实例**
 
-  
+
 
 要在不同的 `resolve()` 调用之间产生一个单例，并保证他们共享同样生成的 DI 容器子树，向 `resolve()` 方法传递一个上下文引用，使用 `ContextIdFactory` 类来生成上下文引用。该类提供了一个 `create()` 方法，返回一个合适的独一无二的引用。
 
-  
+
 
 ```typescript
 
@@ -835,16 +812,16 @@ console.log(transientServices[0] === transientServices[1]); // true
 
 ```
 
-  
-  
+
+
 
 ### 注册 REQUEST Provider
 
-  
+
 
 通过 ContextIdFactory.create() 可以手动的生成上下文标识符，以此去表示 DI 子树中还没有在 Nest 的依赖注入时未示例化并管理的 REQUEST Provider。
 
-  
+
 
 ```typescript
 
@@ -854,18 +831,18 @@ this.moduleRef.registerRequestByContextId(/* YOUR_REQUEST_OBJECT */, contextId);
 
 ```
 
-  
-  
+
+
 
 ### 获取当前子树
 
-  
+
 
 有时候你可能会想创建一个当前请求上下文中的一个 REQUEST 范围的 Provider。
 
 为了共享同一个 DI 容器子树，你必须获取当前上下文标识符而不是重新生成一个。为了获取这个上下文标识符，你需要一个通过 @Inject 装饰器注入的 request 对象
 
-  
+
 
 ```typescript
 
@@ -889,17 +866,17 @@ const catsRepository = await this.moduleRef.resolve(CatsRepository, contextId);
 
 ```
 
-  
-  
-  
+
+
+
 
 ### [动态实例化自定义类](https://docs.nestjs.cn/10/fundamentals?id=%e5%8a%a8%e6%80%81%e5%ae%9e%e4%be%8b%e5%8c%96%e8%87%aa%e5%ae%9a%e4%b9%89%e7%b1%bb)
 
-  
+
 
 要动态实例化一个之前未注册的类作为提供者，使用模块引用的 `create()` 方法。
 
-  
+
 
 ```typescript
 
@@ -923,28 +900,28 @@ this.catsFactory = await this.moduleRef.create(CatsFactory);
 
 ```
 
-  
-  
-  
+
+
+
 
 ## 懒加载模块
 
-  
+
 
 默认情况下，模块都是实时加载的，这意味着当应用加载完成的时候模块也已经加载好了。
 
 随着这样的默认行为在多数的状况下是可行的，但是当遇到了 Serverless 应用的时候，这就成为了一个性能瓶颈。
 
-  
-  
+
+
 
 ### 开始
 
-  
+
 
 为了命令式的加载模块，Nest 提供了 LazyModuleLoader 类，这个类可以正常的注入到一个类中。
 
-  
+
 
 ```typescript
 
@@ -958,12 +935,12 @@ constructor(private lazyModuleLoader: LazyModuleLoader) {}
 
 ```
 
-  
-  
+
+
 
 另外一个方式是，在你的应用启动文件中可以获取到一个对 LazyModuleLoader Provider 的引用。
 
-  
+
 
 ```typescript
 
@@ -982,48 +959,43 @@ const moduleRef = await this.lazyModuleLoader.load(() => LazyModule);
 
 ```
 
-  
-  
+
+
 
 ### 懒加载 Controller、网关和解析器
 
-  
+
 
 因为 Nest 中的控制器(或 GraphQL 应用程序中的解析器)表示一组 router/path/topic(或查询参数/mutation)，你不能使用 `LazyModuleLoader` 类来惰性加载它们。
 
-  
-  
-  
+
+
+
 
 ## 上下文
 
-  
-  
+
+
 
 ### ArgumentsHost 类
 
-  
+
 
 `ArgumentsHost`类提供了检索传递给处理程序的参数的方法。 它允许选择适当的上下文(例如，HTTP、RPC(微服务)或 WebSockets)来检索参数。 框架提供了一个`ArgumentsHost`的实例，通常作为`host`参数引用，在你想要访问它的地方。
 
-  
+
 
 `ArgumentsHost` 简单地抽象为处理程序参数。例如，在 HTTP 应用中(使用 `@nestjs/platform-express` 时),host 对象封装了 Express 的 `[request, response, next]` 数组
 
-  
-
 > 此外，在GraphQL应用中，host包含`[root, args, context, info]`数组。
-
-  
-  
 
 #### 当前应用上下文
 
-  
+
 
 当构建通用的守卫，过滤器和拦截器时，意味着要跨应用上下文运行，我们需要在当前运行时确定请求的应用类型。可以使用 `ArgumentsHost` 的 `getType()` 方法。
 
-  
+
 
 ```typescript
 
@@ -1043,15 +1015,15 @@ if (host.getType() === 'http') {
 
 ```
 
-  
+
 
 #### 处理程序参数
 
-  
+
 
 要获取传递给处理程序的参数数组，使用host对象的`getArgs()`方法。
 
-  
+
 
 ```typescript
 
@@ -1059,11 +1031,11 @@ const [req, res, next] = host.getArgs();
 
 ```
 
-  
+
 
 可以使用`getArgByIndex()`根据索引获取指定参数:
 
-  
+
 
 ```typescript
 
@@ -1073,13 +1045,13 @@ const response = host.getArgByIndex(1);
 
 ```
 
-  
-  
-  
+
+
+
 
 还有另一种获取参数的 `switchToHttp` () 方法。
 
-  
+
 
 ```typescript
 
@@ -1091,16 +1063,16 @@ const response = ctx.getResponse<Response>();
 
 ```
 
-  
-  
+
+
 
 #### [反射和元数据](https://docs.nestjs.cn/10/fundamentals?id=%e5%8f%8d%e5%b0%84%e5%92%8c%e5%85%83%e6%95%b0%e6%8d%ae)
 
-  
+
 
 Nest 提供了通过 `@SetMetadata()` 装饰器将自定义元数据附加在路径处理程序的能力。我们可以在类中获取这些元数据来执行特定决策。
 
-  
+
 
 ```typescript
 
@@ -1116,7 +1088,7 @@ this.catsService.create(createCatDto);
 
 ```
 
-  
+
 
 ```typescript
 
@@ -1148,25 +1120,25 @@ this.catsService.create(createCatDto);
 
 ```
 
-  
-  
-  
-  
+
+
+
+
 
 ## 生命周期
 
-  
-  
+
+
 
 ### 生命周期函数
 
-  
-  
+
+
 
 ![[Pasted image 20231206234432.png]]
 
-  
-  
+
+
 
 |生命周期钩子方法|生命周期时间触发钩子方法调用|
 
@@ -1182,12 +1154,7 @@ this.catsService.create(createCatDto);
 
 |`OnApplicationShutdown()`|连接关闭处理时调用(app.close())|
 
-  
-
 > 上述列出的生命周期钩子没有被请求范围类触发。请求范围类并没有和生命周期以及不可预测的寿命绑定。他们为每个请求单独创建，并在响应发送后通过垃圾清理系统自动清理。
-
-  
-  
 
 使用示例：
 
@@ -1207,23 +1174,23 @@ console.log(signal); // e.g. "SIGINT"
 
 ```
 
-  
-  
+
+
 
 ### [Application Shutdown](https://docs.nestjs.cn/10/fundamentals?id=application-shutdown)
 
-  
-  
+
+
 
 `onModuleDestroy()`, `beforeApplicationShutdown()` 和 `onApplicationShutdown()` 钩子程序响应系统终止信号(当应用程序通过显示调用 `app.close()` 或者收到 `SIGTERM` 系统信号时)，以优雅地关闭 `Nest` 应用程序。这一功能通常用于 `Kubernetes` 、`Heroku` 或类似的服务。
 
-  
+
 
 系统关闭钩子消耗系统资源，因此默认是禁用的。要使用此钩子，必须通过 `enableShutdownHooks()` 激活侦听器。
 
 如果要在一个单独 Node 线程中运行多个 Nest 应用(例如，使用多个 Jest 运行测试)，Node 会因为监听者太多分身乏术。要在单个 Node 进程中运行多个实例时尤其要注意这一点。
 
-  
+
 
 ```typescript
 
@@ -1286,8 +1253,6 @@ export class AppModule {}
 
 > 警告：设置 `synchronize: true` 不能被用于生产环境，否则您可能会丢失生产环境数据
 
-
-
 一旦完成，`TypeORM` 的 `DataSource` 和 `EntityManager` 对象就可以在整个项目中注入(不需要导入任何模块)，例如:
 
 ```typescript
@@ -1327,8 +1292,6 @@ export class AppModule {
 |一对多/多对一|主表中的每一行在外部表中有一个或多的对应行。使用`@OneToMany()`和`@ManyToOne()`装饰器来定义这种类型的关系|
 |多对多|主表中的每一行在外部表中有多个对应行，外部表中的每个记录在主表中也有多个行。使用`@ManyToMany()`装饰器来定义这种类型的关系|
 
-
-
 ### [自动载入实体](https://docs.nestjs.cn/10/techniques?id=%e8%87%aa%e5%8a%a8%e8%bd%bd%e5%85%a5%e5%ae%9e%e4%bd%93)
 
 手动将实体一一添加到连接选项的`entities`数组中的工作会很无聊。此外，在根模块中涉及实体破坏了应用的域边界，并可能将应用的细节泄露给应用的其他部分。针对这一情况，可以使用静态全局路径（例如, dist/*_/_.entity{.ts,.js})。
@@ -1355,8 +1318,6 @@ export class AppModule {}
 通过配置这一选项，每个通过`forFeature()`注册的实体都会自动添加到配置对象的`entities`数组中。
 
 > 注意，那些没有通过 `forFeature()` 方法注册，而仅仅是在实体中被引用（通过关系）的实体不能通过 `autoLoadEntities` 配置被包含。
-
-
 
 ### [事务](https://docs.nestjs.cn/10/techniques?id=%e4%ba%8b%e5%8a%a1)
 
@@ -1399,7 +1360,6 @@ export class UserSubscriber implements EntitySubscriberInterface<User> {
 某些项目可能需要多个数据库连接。这也可以通过本模块实现。要使用多个连接，首先要做的是创建这些连接。在这种情况下，连接命名成为必填项。
 
 > 如果未为连接设置任何 `name` ，则该连接的名称将设置为 `default`。请注意，不应该有多个没有名称或同名的连接，否则它们会被覆盖。
-
 
 ```typescript
 const defaultOptions = {
@@ -1507,7 +1467,7 @@ TypeOrmModule.forRootAsync({
 
 在 `Nest` 中使用这种技术的一个好方法是创建一个 `ConfigModule` ，它暴露一个 `ConfigService` ，根据 `$NODE_ENV` 环境变量加载适当的 `.env` 文件。虽然您可以选择自己编写这样的模块，但为方便起见，Nest 提供了开箱即用的 `@ nestjs/config` 软件包。我们将在本章中介绍该软件包。
 
-#### [自定义 env 文件路径](https://docs.nestjs.cn/10/techniques?id=%e8%87%aa%e5%ae%9a%e4%b9%89-env-%e6%96%87%e4%bb%b6%e8%b7%af%e5%be%84)
+### [自定义 env 文件路径](https://docs.nestjs.cn/10/techniques?id=%e8%87%aa%e5%ae%9a%e4%b9%89-env-%e6%96%87%e4%bb%b6%e8%b7%af%e5%be%84)
 
 默认情况下，程序在应用程序的根目录中查找`.env`文件。 要为`.env`文件指定另一个路径，请配置`forRoot()`的配置对象 envFilePath 属性(可选)，如下所示：
 
@@ -1527,7 +1487,7 @@ ConfigModule.forRoot({
 
 如果在多个文件中发现同一个变量，则第一个变量优先。
 
-#### [全局使用](https://docs.nestjs.cn/10/techniques?id=%e5%85%a8%e5%b1%80%e4%bd%bf%e7%94%a8)
+### [全局使用](https://docs.nestjs.cn/10/techniques?id=%e5%85%a8%e5%b1%80%e4%bd%bf%e7%94%a8)
 
 当您想在其他模块中使用 `ConfigModule` 时，需要将其导入（这是任何 Nest 模块的标准配置）。或者，通过将 `options` 对象的 `isGlobal` 属性设置为 `true`，将其声明为[全局模块](https://docs.nestjs.cn/8/modules?id=%E5%85%A8%E5%B1%80%E6%A8%A1%E5%9D%97)，
 
@@ -1538,7 +1498,7 @@ ConfigModule.forRoot({
 ```
 
 
-#### [自定义配置文件](https://docs.nestjs.cn/10/techniques?id=%e8%87%aa%e5%ae%9a%e4%b9%89%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6)
+### [自定义配置文件](https://docs.nestjs.cn/10/techniques?id=%e8%87%aa%e5%ae%9a%e4%b9%89%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6)
 
 对于更复杂的项目，您可以利用自定义配置文件返回嵌套的配置对象。这使您可以按功能对相关配置设置进行分组（例如，与数据库相关的设置），并将相关设置存储在单个文件中，以帮助独立管理它们
 
@@ -1630,10 +1590,7 @@ export class CreateUserDto {
 }
 ```
 
-
 > 当你导入你的 DTO 时，你不能使用仅类型的导入，因为类型会在运行时被擦除，记得用 `import { CreateUserDto }` 而不是 `import type { CreateUserDto }` 。
-
-
 
 ### [禁用详细错误](https://docs.nestjs.cn/10/techniques?id=%e7%a6%81%e7%94%a8%e8%af%a6%e7%bb%86%e9%94%99%e8%af%af)
 
@@ -1880,7 +1837,6 @@ second (optional)
 |0 _/30 9-17 _ * *|上午 9 点到下午 5 点之间每 30 分钟|
 |0 30 11 * * 1-5|周一至周五上午 11:30|
 
-
 ### [声明间隔](https://docs.nestjs.cn/10/techniques?id=%e5%a3%b0%e6%98%8e%e9%97%b4%e9%9a%94)
 
 要声明一个以一定间隔运行的方法，使用`@Interval()`装饰器前缀。以毫秒单位的`number`传递间隔值，如下：
@@ -1916,7 +1872,7 @@ handleTimeout() {
 本机制在底层使用 JavaScript 的 `setTimeout()` 方法
 
 
-### 动态任务 
+### 动态任务
 
 ### 动态超时
 
@@ -2040,6 +1996,3 @@ app.use(
 
 
 # 微服务
-
-
-
