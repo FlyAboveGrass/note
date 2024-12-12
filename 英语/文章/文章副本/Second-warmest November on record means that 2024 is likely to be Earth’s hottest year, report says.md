@@ -24,7 +24,7 @@ Oceans ==absorb== about 90% of the heat ====trapped==== by greenhouse gases,
 
 Last year’s record heat was caused partly by an El Nino — a temporary natural warming of parts of the central ====Pacific==== that alters weather worldwide.
 
-But that ended earlier this year and a cooling effect that often follows, called La Nina, failed to materialize, leaving the scientific community “a little ====perplexed==== by what’s going on here ... why temperatures are staying high,” said Jonathan Overpeck, a climate scientist at the University of Michigan.
+But that ended earlier this year and a cooling effect that often follows, called La Nina, failed to materialize, leaving the scientific community “a little ====perplexed==== by what’s going on here … why temperatures are staying high,” said Jonathan Overpeck, a climate scientist at the University of Michigan.
 
 FILE - People walk on an autumn-colored ginkgo tree-lined avenue in Tokyo, Nov. 27, 2024. (AP Photo/Shuji Kajiyama, File)
 
@@ -32,6 +32,6 @@ One explanation is that an El Nino releases more heat to the atmosphere because 
 
 But this year, he said, “is such a big jump following yet another jump, and that’s a scary thing.”
 
-## ___
+# ___
 
 The Associated Press’ climate and environmental coverage receives financial support from multiple private foundations. AP is ==solely== responsible for all content. Find AP’s [standards](https://www.ap.org/about/standards-for-working-with-outside-groups/) for working with ==philanthropies==, a list of supporters and funded coverage areas at [AP.org](https://www.ap.org/discover/Supporting-AP).
