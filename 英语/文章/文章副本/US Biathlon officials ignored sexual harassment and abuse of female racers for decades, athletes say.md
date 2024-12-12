@@ -1,6 +1,5 @@
 > [Athletes say Biathlon officials ignored sexual harassment, abuse for decades | AP News](https://apnews.com/article/biathlon-sexual-harassment-female-athletes-investigation-b5c09737637b10f2f6bc5093ee950529)
 
-
 Sexual abuse and ====harassment==== by coaches and others who held positions of power over women on the U.S. ====Biathlon==== team have been ====dismissed==,== ignored or excused over decades by officials more concerned with winning ==medals== than holding offenders accountable, according to a half-dozen former Olympians and other ======biathlete==s==.==
 
 And while the men involved ====climbed==== the ranks of the sport, these women — who described a culture of abuse dating back to the 1990s — told The Associated Press they were [forced to end their racing careers early.](https://apnews.com/article/biathlon-sexual-harassment-abuse-safesport-767d17bdd3838962f6dafa6257f15542)
@@ -43,7 +42,7 @@ SafeSport interviews also confirmed the sexualized atmosphere. U.S. ====Biathlo
 
 Joanne Reid, left, of the United States, shoots during the women’s 4x6 km relay competition at the IBU World ====Biathlon==== Championships, in Ostersund, Sweden, March 16, 2019. (Jessica Gow/TT via AP, File)
 
-## Turning a blind eye in ====pursuit==== of elusive Olympic ==medals,== athletes say
+# Turning a blind eye in ====pursuit==== of elusive Olympic ==medals,== athletes say
 
 [====Biathlon====](https://x.com/AP_Sports/status/1493472895057674242) is the only winter sport for which the U.S. has never won an Olympic medal. Desperate to excel in the European-==dominated== sport, U.S. officials hired European coaches and staff, and turned a blind eye when women raised claims of sexual ====harassment==== or abuse on the team, all those interviewed said.
 
@@ -79,7 +78,7 @@ She called Cobb in ====distress==.==
 
 “It was time for me to move on.”
 
-## Two coaches prey on teenage Maine ====biathlete==,== she says
+# Two coaches prey on teenage Maine ====biathlete==,== she says
 
 Boutot grew up homeschooled and mostly isolated from others her age in Fort Kent, Maine, a town of 4,000 on the Canadian border. The Maine Winter Sports Center ran a world-class Nordic ==ski== facility there used by U.S. ====Biathlon==.==
 
@@ -133,7 +132,7 @@ Boutot tried to keep racing but faced ====retaliation==== by the Maine Winter 
 
 The center settled for $75,000, and Boutot quit racing.
 
-## What comes next?
+# What comes next?
 
 SafeSport has ordered a new investigation into whether Reid was retaliated against for exposing the [abuse she endured](https://apnews.com/article/biathlon-sexual-harassment-abuse-safesport-767d17bdd3838962f6dafa6257f15542) to the watchdog group. SafeSport spokeswoman Hilary Nemchik said she could not comment on the ongoing case.
 
@@ -157,7 +156,7 @@ Wilder said she didn’t know she had the option and ==filed== a SafeSport com
 
 Two-time Olympian Joan Wilder ==skis== at the Meissner Nordic Community ==Ski== Area within the Deschutes National Forest on Nov. 22, 2024, in Deschutes County near Bend, Ore. (AP Photo/Jenny Kane)
 
-## ___
+# ___
 
 EDITOR’S NOTE — Martha Bellisle is an ====amateur==== ====biathlete==== who has won several U.S. national and world championship gold ==medals== in the master’s division for competitors 60 and older. She has ====competed==== at local races across the country ====sanctioned==== by the U.S. ====Biathlon==== Association.
 
