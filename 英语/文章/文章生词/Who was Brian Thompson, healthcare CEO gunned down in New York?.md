@@ -1,0 +1,110 @@
+
+
+- assailant
+- manhunt
+- postol
+- at large
+- mourned
+- shattered
+- behalf
+- suburb
+- bachelor
+- violated
+- antitrust
+- acquisition
+- takeover
+- hospice
+- eliminate
+- insurers
+- innovation
+- monopolies
+
+
+# 单词翻译
+
+- assailant [əˈseɪlənt] 攻击者
+    - as - 加强；sail - 攻击； -ant 人后缀
+    - attacker [əˈtækə(r)] 攻击者
+    - aggressor [əˈɡresə(r)] 侵略者
+    - assaulter [əˈsɔːltə(r)] 攻击者
+- manhunt [ˈmænhʌnt] 追捕；搜捕
+    - man - 人；hunt - 追捕
+    - pursuit [pəˈsjuːt] 追赶；追捕
+    - chase [tʃeɪs] 追逐；追赶
+    - hunt down 追捕
+- postol [ˈpəʊstəl] （疑似拼写错误，未找到该词）
+- at large [æt lɑːdʒ] 未被捕的；逍遥法外的；一般的；普遍的
+    - at - 在；large - 大的、广泛的
+    - on the loose 未被捕的
+    - uncaught [ˌʌnˈkɔːt] 未被捕获的
+    - free [friː] 自由的
+- mourned [mɔːnd] 哀悼；忧伤
+    - mourn - 哀悼； -ed 过去分词后缀
+    - grieve [ɡriːv] 悲伤；悲痛
+    - lament [ləˈment] 哀悼；悲叹
+    - sorrow [ˈsɒrəʊ] 悲伤；悲痛
+- shattered [ˈʃætəd] 破碎的；粉碎的
+    - shatter - 打碎；破碎； -ed 过去分词后缀
+    - broken [ˈbrəʊkən] 破碎的；损坏的
+    - fragmented [ˈfræɡməntɪd] 成碎片的
+    - cracked [krækt] 破裂的
+- behalf [bɪˈhɑːf] 代表；利益
+    - be - 加强；half - 一半；在古英语中有 “为了某人的利益” 之意
+    - on behalf of 代表；为了
+    - in behalf of 为… 之利益
+    - for the sake of 为了… 的利益
+- suburb [ˈsʌbɜːb] 郊区；边缘
+    - sub - 下；在… 下面；urb - 城市； -b 名词后缀
+    - outskirts [ˈaʊtskɜːts] 郊区；郊外
+    - suburban [səˈbɜːbən] 郊区的；城郊的
+    - periphery [pəˈrɪfəri] 边缘；周围。
+- bachelor [ˈbætʃələ(r)] 单身汉；学士
+    - -bachelor 词源不明
+    - unmarried man [ˌʌnˈmærid mæn] 单身男子
+    - single man [ˈsɪŋɡl mæn] 单身男人
+    - bachelorette [ˌbætʃələˈret] 单身女子
+- violated [ˈvaɪəleɪtɪd] 违反；侵犯
+    - viola - 违反； -te 动词过去分词后缀
+    - break [breɪk] 打破；违反
+    - infringe [ɪnˈfrɪndʒ] 违反；侵犯
+    - disobey [ˌdɪsəˈbeɪ] 不服从；违反
+- antitrust [ˌæntiˈtrʌst] 反垄断的；反托拉斯的
+    - anti - 反对；trust - 托拉斯； -s 形容词后缀
+    - anti-monopoly [ˌænti məˈnɒpəli] 反垄断的
+    - anti-cartel [ˌænti kɑːˈtel] 反卡特尔的
+    - anti-trust law [ˌænti ˈtrʌst lɔː] 反垄断法
+- acquisition [ˌækwɪˈzɪʃn] 获得；收购
+    - ac - 加强；quis - 获得； -ition 名词后缀
+    - purchase [ˈpɜːtʃəs] 购买；采购
+    - procurement [prəˈkjʊəmənt] 采购；获得
+    - takeover bid [ˈteɪkəʊʊvə bɪd] 收购出价
+- takeover [ˈteɪkəʊvə(r)] 收购；接管
+    - take - 拿；over - 在… 之上；
+    - merger [ˈmɜːdʒə(r)] 合并；兼并
+    - acquisition [ˌækwɪˈzɪʃn] 获得；收购
+    - takeover offer [ˈteɪkəʊvə(r) ˈɒfə(r)] 收购要约
+- hospice [ˈhɒspɪs] 临终关怀医院；收容所
+    - hospi - 医院； -ce 名词后缀
+    - palliative care unit [ˈpæliətɪv keə ˈjuːnɪt] 姑息治疗病房
+    - end-of-life care center [end ɒv laɪf keə ˈsentə(r)] 临终关怀中心
+    - shelter [ˈʃeltə(r)] 收容所；庇护所
+- eliminate [ɪˈlɪmɪneɪt] 消除；排除
+    - e - 出；limin - 界限； -ate 动词后缀
+    - remove [rɪˈmuːv] 移除；去掉
+    - get rid of 摆脱；除去
+    - eradicate [ɪˈrædɪkeɪt] 根除；消灭
+- insurers [ɪnˈʃʊərəz] 保险公司；承保人
+    - in - 入；sur - 确定； -er 人后缀； -s 复数后缀
+    - insurance company [ɪnˈʃʊərəns ˈkʌmpəni] 保险公司
+    - underwriter [ˈʌndəraɪtə(r)] 保险商；承保人
+    - insurer's representative [ɪnˈʃʊərəz ˌreprɪˈzentətɪv] 保险代理人
+- innovation [ˌɪnəˈveɪʃn] 创新；革新
+    - in - 入；nov - 新； -ation 名词后缀
+    - creativity [ˌkriːeɪˈtɪvəti] 创造力；创造性
+    - originality [əˌrɪdʒəˈnæləti] 独创性；创意
+    - invention [ɪnˈvenʃn] 发明；创造
+- monopolies [məˈnɒpəliz] 垄断；专卖
+    - mono - 单一；poly - 卖； -s 名词复数后缀
+    - monopoly power [məˈnɒpəli ˈpaʊə(r)] 垄断力量
+    - monopoly market [məˈnɒpəli ˈmɑːkɪt] 垄断市场
+    - monopoly position [məˈnɒpəli pəˈzɪʃn] 垄断地位。

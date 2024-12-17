@@ -27,7 +27,7 @@ Vilma says she noticed that her mother, sister and grandmother were all stressed
 
 “It’s about leaning away from this ‘girl boss’ ideal that we've seen for a lot of years, where there are very, very high demands for success in every aspect of life,” explains Johanna Göransson, a researcher for Ungdomsbarometern.
 
-There is no official data on the number of young “soft girls” quitting work altogether and living off their partners like Ms Larsson, and Ms Göransson says it is likely to be a small ====proportion==.==
+There is no official data on the number of young “soft girls” quitting work altogether and living off their partners like Ms Larsson, and Ms Göransson says it is likely to be a small ====proportion==.
 
 But it’s nevertheless become a major talking point in Sweden, from opinion pieces in broadsheet newspapers, to panel discussions at Almedalen – a huge annual cross-party political event – and on Swedish public service television.
 

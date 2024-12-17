@@ -6,7 +6,7 @@ Brian Thompson, the US health care insurance CEO who was gunned down in an appar
 
 "I just know that he said there were some people that had been threatening him."
 
-Mr Thompson, who worked at UnitedHealth for several decades before rising to chief executive, was shot in the back by an unknown ====assailant==== who is now the target of a police ====manhunt==.==
+Mr Thompson, who worked at UnitedHealth for several decades before rising to chief executive, was shot in the back by an unknown ====assailant==== who is now the target of a police ====manhunt==.
 
 The suspect used a silencer attached to a ==pistol== as he arrived at a hotel in Midtown Manhattan to speak at an insurance conference.
 
@@ -40,7 +40,7 @@ UnitedHealth is the largest private insurer in the US.
 
 Prior to starting at UnitedHealth, Mr Thompson was a manager at PwC for a number of years, according to his LinkedIn account.
 
-He graduated from the University of Iowa in 1997 with a ====bachelor=='==s in business administration, it adds.
+He graduated from the University of Iowa in 1997 with a ====bachelor=='s in business administration, it adds.
 
 # Allegations of fraud
 
@@ -74,6 +74,6 @@ UnitedHealth offered to buy Amedisys, a provider of home healthcare and ====hos
 
 But on 12 November, the justice department [sued to stop the merger](https://www.justice.gov/opa/pr/justice-department-sues-block-unitedhealth-groups-acquisition-home-health-and-hospice), alleging it would ====eliminate==== competition and “harm patients who receive home health and ====hospice==== services, ====insurers==== who contract for home health services, and nurses who provide home health and ====hospice==== services”.
 
-UnitedHealth [responded](https://www.unitedhealthgroup.com/newsroom/2024/2024-11-optum-responds-to-department-of-justice-lawsuit.html) that the merger would be "pro-competitive and further ====innovation==,== leading to improved patient outcomes and greater access to quality care". It described the justice department suit as an "overreaching interpretation of the ====antitrust==== laws".
+UnitedHealth [responded](https://www.unitedhealthgroup.com/newsroom/2024/2024-11-optum-responds-to-department-of-justice-lawsuit.html) that the merger would be "pro-competitive and further ====innovation==, leading to improved patient outcomes and greater access to quality care". It described the justice department suit as an "overreaching interpretation of the ====antitrust==== laws".
 
 Under President Joe Biden's administration, the justice department has stepped up its enforcement of US ====antitrust==== laws, which aim to prevent industrial ====monopolies==== and encourage competition between companies.
