@@ -29,4 +29,264 @@
 - pharma
 - surveillance
 - intestines
-- 
+- consumption
+- contaminated
+- isolated
+- prescription
+- whack-a-mole
+- transmitted
+- cefiderocol
+- mutant
+- prescribe
+- blockbuster
+- longevity
+- holistic
+- sanitation
+- hygiene
+- vaccine
+- uptake
+- deterring
+- multi-faceted
+- accountability
+
+
+
+
+
+
+# 翻译
+
+- antibiotic [ˌæntibaɪˈɒtɪk] 抗生素；抗菌的
+    - anti - 反对；抵抗； -biotic - 生命的；与生命有关的
+    - antibacterial [ˌæntibækˈtɪəriəl] 抗菌的
+    - antimicrobial [ˌæntimaɪˈkrəʊbiəl] 抗菌的
+    - fungicide [ˈfʌndʒɪsaɪd] 杀真菌剂
+- hail [heɪl] 冰雹；致敬；招呼，赞扬
+    - 无明显的词根或者前缀后缀
+    - sleet [sliːt] 雨夹雪
+    - snowflake [ˈsnəʊfleɪk] 雪花
+    - raindrop [ˈreɪndrɒp] 雨滴
+- saviours [ˈseɪvjəz] 救星；救助者
+    - saviour - 救助者； -s 复数后缀
+    - rescuer [ˈreskjuːə(r)] 救援者
+    - deliverer [dɪˈlɪvərə(r)] 救助者
+    - redeemer [rɪˈdiːmə(r)] 救赎者
+- crafty [ˈkrɑːfti] 狡猾的；灵巧的
+    - craft - 技巧；手艺； -y 形容词后缀
+    - sly [slaɪ] 狡猾的
+    - cunning [ˈkʌnɪŋ] 狡猾的；巧妙的
+    - wily [ˈwaɪli] 狡猾的
+- adversary [ˈædvəsəri] 对手；敌手
+    - ad - 向；对着； -vers - 转； -ary 名词后缀
+    - opponent [əˈpəʊnənt] 对手；反对者
+    - rival [ˈraɪvl] 对手；竞争者
+    - antagonist [ænˈtæɡənɪst] 敌手；对抗者
+- mutate [mjuːˈteɪt] 变异；突变
+    - mut - 变化； -ate 动词后缀
+    - transform [trænsˈfɔːm] 改变；变换
+    - alter [ˈɔːltə(r)] 改变；更改
+    - convert [kənˈvɜːt] 转变；转换
+- outwit [ˌaʊtˈwɪt] 以智取胜；瞒骗
+    - out - 超过；在…… 之外； wit - 智慧
+    - outsmart [ˌaʊtˈsmɑːt] 比…… 精明；智胜
+    - outmaneuver [ˌaʊtməˈnuːvə(r)] 以策略制胜
+    - outfox [ˌaʊtˈfɒks] 智胜
+- antimicrobial [ˌæntimaɪˈkrəʊbiəl] 抗菌的
+    - anti - 反对；抵抗； micro - 微小； -bial - 生命的；与生命有关的
+    - antibacterial [ˌæntibækˈtɪəriəl] 抗菌的
+    - antibiotic [ˌæntibaɪˈɒtɪk] 抗生素；抗菌的
+    - fungicide [ˈfʌndʒɪsaɪd] 杀真菌剂
+- combat [ˈkɒmbæt] 战斗；搏斗
+    - com - 一起； bat - 打；击
+    - fight [faɪt] 战斗；打架
+    - battle [ˈbætl] 战斗；战役
+    - struggle [ˈstrʌɡl] 斗争；奋斗
+- pathogens [ˈpæθədʒənz] 病原体；致病菌
+    - patho - 疾病； -gen - 产生； -s 复数后缀
+    - germ [dʒɜːm] 细菌；病菌
+    - virus [ˈvaɪrəs] 病毒
+    - bacteria [bækˈtɪəriə] 细菌
+- last-resort [læst rɪˈzɔːt] 最后手段；最后一招
+    - last - 最后的； resort - 手段；方法
+    - ultimate measure [ˈʌltɪmət ˈmeʒə(r)] 最终措施
+    - final option [ˈfaɪnl ˈɒpʃn] 最后选择
+    - desperation move [ˌdespəˈreɪʃn muːv] 绝望之举
+- pharma [ˈfɑːmə] 制药公司；制药业
+    - pharm - 药； -a 名词后缀
+    - pharmacy [ˈfɑːməsi] 药房；药剂学
+    - pharmaceutical [ˌfɑːməˈsuːtɪkl] 制药的；药物的
+    - pharmacist [ˈfɑːməsɪst] 药剂师
+- urinary [ˈjʊərɪnəri] 尿的；泌尿的
+    - urin - 尿； -ary 形容词后缀
+    - urine [ˈjʊərɪn] 尿
+    - urology [jʊəˈrɒlədʒi] 泌尿学
+    - bladder [ˈblædə(r)] 膀胱
+- tract [trækt] 大片土地；地带；（人体的）道，束
+    - 无明显的词根或者前缀后缀
+    - region [ˈriːdʒən] 地区；范围
+    - area [ˈeəriə] 区域；地区
+    - zone [zəʊn] 地带；地区
+- pneumonia [njuːˈməʊniə] 肺炎
+    - pneumon - 肺； -ia 名词后缀
+    - pulmonary [ˈpʌlmənəri] 肺的
+    - lung [lʌŋ] 肺
+    - bronchitis [brɒŋˈkaɪtɪs] 支气管炎
+- mechanisms [ˈmekənɪzəmz] 机制；原理
+    - mechan - 机械；装置； -ism 名词后缀； -s 复数后缀
+    - mechanism [ˈmekənɪzəm] 机制；原理
+    - machinery [məˈʃiːnəri] 机械；机器
+    - device [dɪˈvaɪs] 装置；设备
+- enzymes [ˈenzaɪmz] 酶
+    - en - 使； -zyme - 酶
+    - enzyme [ˈenzaɪm] 酶
+    - catalase [ˈkætəleɪz] 过氧化氢酶
+    - amylase [ˈæmɪleɪz] 淀粉酶
+- lactamase [ˈlæktəmeɪz] 内酰胺酶
+    - lactam - 内酰胺； -ase 酶后缀
+    - beta-lactamase [ˈbiːtə ˈlæktəmeɪz] β- 内酰胺酶
+    - penicillinase [ˌpenɪˈsɪlɪneɪz] 青霉素酶
+    - cephalosporinase [ˌsefələʊˈspɔːrɪneɪz] 头孢菌素酶
+- neutralising [ˈnjuːtrəlaɪzɪŋ] 中和；使中立
+    - neutral - 中立的； -ise 动词后缀； -ing 名词后缀
+    - neutralize [ˈnjuːtrəlaɪz] 中和；使中立
+    - balance [ˈbæləns] 平衡
+    - equilibrate [ˌiːkwɪˈlɪbreɪt] 使平衡
+- immobilises [ɪˈməʊbəlaɪzɪz] 使固定；使不动
+    - immobil - 固定；不动； -ise 动词后缀； -s 第三人称单数后缀
+    - immobilize [ɪˈməʊbəlaɪz] 使固定；使不动
+    - fix [fɪks] 固定；安装
+    - fasten [ˈfɑːsn] 系牢；固定
+- intravenous [ˌɪntrəˈviːnəs] 静脉内的
+    - intra - 在…… 内； ven - 静脉； -ous 形容词后缀
+    - vein [veɪn] 静脉
+    - venipuncture [ˈvenɪpʌŋktʃə(r)] 静脉穿刺
+    - venous [ˈviːnəs] 静脉的
+- infusion [ɪnˈfjuːʒn] 注入；灌输
+    - in - 进入； fus - 流； -ion 名词后缀
+    - inject [ɪnˈdʒekt] 注射；注入
+    - instill [ɪnˈstɪl] 逐渐灌输；滴注
+    - pour [pɔː(r)] 倒；灌
+- compassionate [kəmˈpæʃənət] 有同情心的；表示怜悯的
+    - com - 共同； passion - 感情； -ate 形容词后缀
+    - sympathy [ˈsɪmpəθi] 同情；同情心
+- oral [ˈɔːrəl] 口头的；口服的
+    - or - 口； -al 形容词后缀
+    - verbal [ˈvɜːbl] 口头的；言语的
+    - spoken [ˈspəʊkən] 口头的；口语的
+    - uttered [ˈʌtəd] 说出的；口头的
+- readiness [ˈredinəs] 准备就绪；愿意
+    - ready - 准备好的； -ness 名词后缀
+    - preparedness [prɪˈpeərɪdnəs] 准备；预备状态
+    - willingness [ˈwɪlɪŋnəs] 愿意；乐意
+    - eagerness [ˈiːɡənəs] 渴望；热心
+- innovation [ˌɪnəˈveɪʃn] 创新；革新
+    - in - 进入； nov - 新； -ation 名词后缀
+    - creativity [ˌkriːeɪˈtɪvəti] 创造力；创造性
+    - originality [əˌrɪdʒəˈnæləti] 独创性；创意
+    - inventiveness [ɪnˈventɪvnəs] 创造性；发明才能
+- pharma [ˈfɑːmə] 制药公司；制药业
+    - pharm - 药； -a 名词后缀
+    - pharmacy [ˈfɑːməsi] 药房；药剂学
+    - pharmaceutical [ˌfɑːməˈsuːtɪkl] 制药的；药物的
+    - pharmacist [ˈfɑːməsɪst] 药剂师
+- surveillance [sɜːˈveɪləns] 监视；监督
+    - sur - 在…… 上面； veil - 看； -ance 名词后缀
+    - monitoring [ˈmɒnɪtərɪŋ] 监视；监测
+    - observation [ˌɒbzəˈveɪʃn] 观察；监视
+    - watchfulness [ˈwɒtʃflnəs] 警惕；注意
+- intestines [ɪnˈtestɪnz] 肠
+    - intestin - 肠； -es 复数后缀
+    - bowel [ˈbaʊəl] 肠；内部
+    - gut [ɡʌt] 肠；勇气
+    - intestine [ɪnˈtestɪn] 肠
+- consumption [kənˈsʌmpʃn] 消费；消耗
+    - con - 共同； sumpt - 拿；取； -ion 名词后缀
+    - expenditure [ɪkˈspendɪtʃə(r)] 支出；花费
+    - spending [ˈspendɪŋ] 花费；开销
+    - usage [ˈjuːsɪdʒ] 使用；用法
+- contaminated [kənˈtæmɪneɪtɪd] 受污染的
+    - con - 共同； tamin - 接触； -ate 动词后缀； -ed 形容词后缀
+    - polluted [pəˈluːtɪd] 受污染的
+    - tainted [ˈteɪntɪd] 污染的；腐坏的
+    - soiled [sɔɪld] 弄脏的；受污染的
+- isolated [ˈaɪsəleɪtɪd] 孤立的；隔离的
+    - is - 岛； ol - 连接元音； -ate 动词后缀； -ed 形容词后缀
+    - secluded [sɪˈkluːdɪd] 隐蔽的；与世隔绝的
+    - solitary [ˈsɒlətri] 孤独的；独居的
+    - lone [ləʊn] 孤独的；单独的
+- prescription [prɪˈskrɪpʃn] 处方；药方
+    - pre - 在…… 之前； script - 写； -ion 名词后缀
+    - recipe [ˈresəpi] 食谱；处方
+    - formula [ˈfɔːmjələ] 公式；配方
+    - remedy [ˈremədi] 补救办法；治疗法
+- whack-a-mole [ˌwæk ə ˈməʊl] 打地鼠（游戏名）
+    - 无明显的词根或者前缀后缀
+    - arcade game [ɑːˈkeɪd ɡeɪm] 街机游戏
+    - video game [ˈvɪdiəʊ ɡeɪm] 电子游戏
+    - amusement [əˈmjuːzmənt] 娱乐；消遣。
+- transmitted [trænzˈmɪtɪd] 传播的；传送的
+    - transmit - 传送； -ed 形容词后缀
+    - transferred [trænsˈfɜːd] 转移的；转让的
+    - conveyed [kənˈveɪd] 传达的；运输的
+    - spread [spred] 传播；伸展
+- cefiderocol [ˌsefɪˈdɪərəʊkəʊl] 头孢地尔
+- mutant [ˈmjuːtənt] 突变体；变异的
+    - mut - 变化； -ant 名词后缀
+    - mutated [ˈmjuːteɪtɪd] 变异的；突变的
+    - variation [ˌveəriˈeɪʃn] 变化；变异
+    - alteration [ˌɔːltəˈreɪʃn] 改变；变更
+- prescribe [prɪˈskraɪb] 开处方；规定
+    - pre - 在…… 之前； scrib - 写； -e 动词后缀
+    - recommend [ˌrekəˈmend] 推荐；建议
+    - order [ˈɔːdə(r)] 命令；订购
+    - direct [dɪˈrekt] 指示；命令
+- blockbuster [ˈblɒkbʌstə(r)] 大片；轰动一时的事物
+    - block - 大块； -buster 破坏者；有巨大影响力的人或事物
+    - megahit [ˈmeɡəhɪt] 巨大成功；热门作品
+    - sensation [senˈseɪʃn] 感觉；轰动
+    - hit [hɪt] 成功而轰动一时的事物
+- longevity [lɒnˈdʒevəti] 长寿；长命
+    - long - 长的； ev - 年龄；生命； -ity 名词后缀
+    - long life [lɒŋ laɪf] 长寿
+    - lifespan [ˈlaɪfspæn] 寿命；使用期限
+    - durability [ˌdjʊərəˈbɪləti] 耐久性；持久性
+- holistic [həʊˈlɪstɪk] 整体的；全面的
+    - hol - 全部； -istic 形容词后缀
+    - comprehensive [ˌkɒmprɪˈhensɪv] 全面的；综合的
+    - integrated [ˈɪntɪɡreɪtɪd] 综合的；完整的
+    - all-round [ˈɔːlˈraʊnd] 全面的；多方面的
+- sanitation [ˌsænɪˈteɪʃn] 卫生设备；环境卫生
+    - sanit - 卫生； -ation 名词后缀
+    - hygiene [ˈhaɪdʒiːn] 卫生；卫生学
+    - cleanliness [ˈklenlinəs] 清洁；干净
+    - purity [ˈpjʊərəti] 纯净；纯洁
+- hygiene [ˈhaɪdʒiːn] 卫生；卫生学
+    - hyg - 卫生； -iene 名词后缀
+    - sanitary [ˈsænətri] 卫生的；清洁的
+    - clean [kliːn] 干净的；清洁的
+    - neat [niːt] 整洁的；整齐的
+- vaccine [ˈvæksiːn] 疫苗
+    - vacc - 牛； -ine 名词后缀
+    - inoculation [ɪˌnɒkjʊˈleɪʃn] 接种；预防注射
+    - immunization [ˌɪmjunaɪˈzeɪʃn] 免疫
+    - vaccination [ˌvæksɪˈneɪʃn] 接种疫苗
+- uptake [ˈʌpteɪk] 摄取；吸收
+    - up - 向上； take - 拿；取
+    - absorption [əbˈzɔːpʃn] 吸收；全神贯注
+    - assimilation [əˌsɪməˈleɪʃn] 吸收；同化
+    - ingestion [ɪnˈdʒestʃən] 摄取；吸收
+- deterring [dɪˈtɜːrɪŋ] 阻止；威慑
+    - deter - 阻止；威慑； -ing 动词现在分词形式
+    - discouraging [dɪsˈkʌrɪdʒɪŋ] 令人泄气的；阻止的
+    - hindering [ˈhɪndərɪŋ] 阻碍的；妨碍的
+    - impeding [ɪmˈpiːdɪŋ] 阻碍的；妨碍的
+- multi-faceted [ˌmʌltiˈfæsɪtɪd] 多方面的；多面性的
+    - multi - 多； facet - 方面； -ed 形容词后缀
+    - manifold [ˈmænɪfəʊld] 多种的；多方面的
+    - diversified [daɪˈvɜːsɪfaɪd] 多样化的；多方面的
+    - variegated [ˈveəriəɡeɪtɪd] 杂色的；多样化的
+- accountability [əˌkaʊntəˈbɪləti] 责任；有义务
+    - account - 账目；说明； -ability 名词后缀
+    - responsibility [rɪˌspɒnsəˈbɪləti] 责任；职责
+    - liability [ˌlaɪəˈbɪləti] 责任；债务
+    - obligation [ˌɒblɪˈɡeɪʃn] 义务；责任。

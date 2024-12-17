@@ -1,7 +1,7 @@
 
 > [India's 'blockbuster' drugs to combat antibiotic-resistant superbugs](https://www.bbc.com/news/articles/c80vrjkkrero)
 
-====Antibiotics==== are ==hailed== as medical ====saviours==.==
+====Antibiotics==== are ==hailed== as medical ====saviours==.
 
 But they are increasingly facing a ==crafty== ==adversary==: bacteria that ==mutate== and adapt and ==outwit== the very drugs designed to defeat them and cure the infections they cause.
 
@@ -35,21 +35,19 @@ A 30-member Bengaluru-based biopharma firm Bugworks Research has partnered with 
 
 But that needs to change. A 2023 drug ====resistance==== ====surveillance==== report by Indian Council of Medical Research (ICMR), which analysed nearly 100,000 bacterial cultures from 21 specialised care hospitals around India, highlighted worrying trends in antibiotic ====resistance==.
 
-E.coli (Escherichia coli), commonly found in the ====intestines==== of humans and animals after consumption of ====contaminated==== food, was the most frequently ====isolated==== ====pathogen==.==
+E.coli (Escherichia coli), commonly found in the ====intestines==== of humans and animals after ==consumption== of ====contaminated==== food, was the most frequently ====isolated==== ====pathogen==.
 
 This was followed by Klebsiella ==pneumonia==e, which can cause ====pneumonia==== and also infect the blood, cuts in the skin and the lining of the brain to cause meningitis. Coming close was the rise of the multidrug-resistant ====pathogen==== called Acinetobacter baumannii, which attacks the lungs of patients on life support in critical care units.
 
-The survey found antibiotic effectiveness against E.coli had consistently sharply declined while Klebsiella ==pneumonia==e showed an alarming rise in drug ====resistance==.== Doctors found that some of the main ====antibiotics==== were less than 15% effective in treating infections caused by these ======pathogen==s==.== Most worrying was the rising ====resistance==== to carbapenems, a critical ====last-resort==== antibiotic.
-
-Getty Images
+The survey found antibiotic effectiveness against E.coli had consistently sharply declined while Klebsiella ==pneumonia==e showed an alarming rise in drug ====resistance==. Doctors found that some of the main ====antibiotics==== were less than 15% effective in treating infections caused by these ======pathogens==. Most worrying was the rising ====resistance==== to carbapenems, a critical ====last-resort==== antibiotic.
 
 Doctors say antibiotic ====prescription==== practices in India urgently need reform
 
 "It's like playing ====whack-a-mole==== with bacteria. They ==evolve== at an incredibly fast pace, and we’re always playing catch-up. You get rid of one, another pops up. We need more ====innovation==== and to learn from past mistakes," Dr Manica Balasegaram, executive director of GARDP, told the BBC.
 
-Not surprisingly, GARDP is focussing on India. It’s collaborating with Hyderabad-based Aurigene Pharmaceutical Services to produce zoliflodacin, a novel ==oral== antibiotic for gonorrhea, a sexually ====transmitted==== disease which is showing increasing ====resistance==== to ====antibiotics==.== GARDP has also partnered with Japan's ==pharma== company Shionogi to distribute ====cefiderocol==== - a breakthrough FDA-approved antibiotic for tough infections like UTIs and hospital-acquired ====pneumonia==== - in 135 countries, with plans for production in India.
+Not surprisingly, GARDP is focussing on India. It’s collaborating with Hyderabad-based Aurigene Pharmaceutical Services to produce zoliflodacin, a novel ==oral== antibiotic for gonorrhea, a sexually ====transmitted==== disease which is showing increasing ====resistance==== to ====antibiotics==. GARDP has also partnered with Japan's ==pharma== company Shionogi to distribute ====cefiderocol==== - a breakthrough FDA-approved antibiotic for tough infections like UTIs and hospital-acquired ====pneumonia==== - in 135 countries, with plans for production in India.
 
-But this is only one part of the story. Doctors say drug ====prescription==== practices in India urgently need reform. The widespread use of broad-spectrum ====antibiotics==== - they target many bacteria types but can kill good bacteria, cause side-effects and increase antibiotic ====resistance==== - fuels drug ====resistance==== by encouraging the emergence of drug resistant bacterial ====mutants==.==
+But this is only one part of the story. Doctors say drug ====prescription==== practices in India urgently need reform. The widespread use of broad-spectrum ====antibiotics==== - they target many bacteria types but can kill good bacteria, cause side-effects and increase antibiotic ====resistance==== - fuels drug ====resistance==== by encouraging the emergence of drug resistant bacterial ====mutants==.
 
 Instead, say doctors, narrow-spectrum ====antibiotics==== should be prioritised. But hospitals often lack antibiograms - microbiology-based antibiotic guidelines - forcing doctors to ====prescribe==== "broadly and blindly".
 
@@ -59,6 +57,6 @@ India's crowded hospitals are hotspots for infections
 
 "I am definitely excited that we will have these new drugs. But what is also important is that we should create ====mechanisms==== that they should not be misused the way we have previously done with [what were once also] ====blockbuster==== drugs. Improper and irresponsible use will compromise the ====longevity==== of these new drugs," warns Dr Kamini Walia, a scientist at ICMR.
 
-The rapid mutation of bacteria, which can ==evolve== in a matter of hours, underscores the urgency of a ====holistic==== approach. This includes reducing infections through better water, ====sanitation==== and ====hygiene==,== improving ====vaccine==== ==uptake,== strengthening hospital infection control policies, educating physicians and ====deterring==== self-medication by patients. “Combating ====antimicrobial==== ====resistance==== is a complex, ====multi-faceted==== challenge tied to healthcare equity and systemic ====accountability==,==” says Dr Walia.
+The rapid mutation of bacteria, which can ==evolve== in a matter of hours, underscores the urgency of a ====holistic==== approach. This includes reducing infections through better water, ====sanitation==== and ====hygiene==,== improving ====vaccine==== ==uptake,== strengthening hospital infection control policies, educating physicians and ====deterring==== self-medication by patients. “Combating ====antimicrobial==== ====resistance==== is a complex, ====multi-faceted==== challenge tied to healthcare equity and systemic ====accountability==,” says Dr Walia.
 
 The message is clear: without urgent action, we risk a future where even relatively minor infections could become untreatable.
