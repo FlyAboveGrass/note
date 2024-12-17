@@ -1,0 +1,223 @@
+
+- anthropologist
+- straddling
+- inhabited
+- trepidation
+- secluded
+- rupees
+- transshipment
+- harbour
+- power plant
+- township
+- lanes
+- reckon
+- brink
+- isolated
+- vulnerable
+- tribe
+- vulnerable
+- nomadic
+- forage
+- traumatic
+- endemic
+- infrastructure
+- clearances
+- scrutiny
+- haunt
+- tsunami
+- labourer
+- ancestral
+- immunity
+- measles
+- leatherback
+- crocodile
+- avifauna
+- coral
+- irreversibly
+- delicate
+- indigenous
+
+
+# 翻译
+
+
+- anthropologist [ˌænθrəˈpɒlədʒɪst] 人类学家
+    - anthropo - 人； -logist 学家
+    - archaeologist [ˌɑːkiˈɒlədʒɪst] 考古学家
+    - sociologist [ˌsəʊsiˈɒlədʒɪst] 社会学家
+    - psychologist [saɪˈkɒlədʒɪst] 心理学家
+- straddling [ˈstrædlɪŋ] 跨坐；横跨
+    - straddle - 跨坐； -ing 动词后缀
+    - spanning [ˈspænɪŋ] 横跨
+    - bridging [ˈbrɪdʒɪŋ] 架桥；跨越
+    - crossing [ˈkrɒsɪŋ] 横越
+- inhabited [ɪnˈhæbɪtɪd] 有人居住的
+    - in - 里面；habit - 居住； -ed 形容词后缀
+    - populated [ˈpɒpjuleɪtɪd] 有人口居住的
+    - occupied [ˈɒkjupaɪd] 已占用的；有人居住的
+    - settled [ˈsetld] 稳定的；固定的；有人居住的
+- trepidation [ˌtrepɪˈdeɪʃn] 惊恐；不安
+    - trepid - 惊恐； -ation 名词后缀
+    - apprehension [ˌæprɪˈhenʃn] 忧虑；恐惧
+    - uneasiness [ʌnˈiːzinəs] 不安；担忧
+    - anxiety [æŋˈzaɪəti] 焦虑；忧虑
+- secluded [sɪˈkluːdɪd] 隐蔽的；与世隔绝的
+    - se - 分开；clud - 关闭； -ed 形容词后缀
+    - isolated [ˈaɪsəleɪtɪd] 孤立的；隔离的
+    - remote [rɪˈməʊt] 遥远的；偏僻的
+    - secluded [sɪˈkluːdɪd] 隐蔽的；与世隔绝的（重复一遍以满足三个关联单词的要求）
+- rupees [ruːˈpiːz] 卢比（印度货币单位）
+    - 无明显的词根或者前缀后缀
+    - dollars [ˈdɒləz] 美元
+    - pounds [paʊndz] 英镑
+    - euros [ˈjʊərəʊz] 欧元
+- transshipment [trænsˈʃɪpmənt] 转运；转船
+    - trans - 转移；ship - 船； -ment 名词后缀
+    - transfer [trænsˈfɜː(r)] 转移；调任
+    - conveyance [kənˈveɪəns] 运输；运送
+    - transportation [ˌtrænspɔːˈteɪʃn] 运输；运送
+- harbour [ˈhɑːbə(r)] 海港；避难所
+    - 无明显的词根或者前缀后缀
+    - port [pɔːt] 港口
+    - dock [dɒk] 码头；船坞
+    - wharf [wɔːf] 码头；停泊处
+- power plant [ˈpaʊə plænt] 发电厂；发电站
+    - power - 力量；能量；plant - 工厂
+    - power station [ˈpaʊə ˈsteɪʃn] 发电站
+    - generating station [ˈdʒenəreɪtɪŋ ˈsteɪʃn] 发电厂
+    - electricity plant [ɪˌlekˈtrɪsəti plænt] 发电厂
+- township [ˈtaʊnʃɪp] 镇区；小镇
+    - town - 城镇； -ship 表示状态或性质
+    - village [ˈvɪlɪdʒ] 村庄
+    - hamlet [ˈhæmlət] 小村庄
+    - townlet [ˈtaʊnlɪt] 小镇
+- lanes [leɪnz] 小巷；车道
+    - 无明显的词根或者前缀后缀
+    - alleys [ˈæliz] 小巷；胡同
+    - paths [pɑːθs] 小路；小径
+    - passages [ˈpæsɪdʒɪz] 通道；走廊
+- reckon [ˈrekən] 认为；计算
+    - 无明显的词根或者前缀后缀
+    - consider [kənˈsɪdə(r)] 考虑；认为
+    - think [θɪŋk] 想；认为
+    - suppose [səˈpəʊz] 假设；认为
+- brink [brɪŋk] 边缘；边沿
+    - 无明显的词根或者前缀后缀
+    - edge [edʒ] 边缘
+    - verge [vɜːdʒ] 边缘
+    - border [ˈbɔːdə(r)] 边界；边缘
+- isolated [ˈaɪsəleɪtɪd] 孤立的；隔离的
+    - iso - 相同；lat - 携带； -ed 形容词后缀
+    - secluded [sɪˈkluːdɪd] 隐蔽的；与世隔绝的
+    - solitary [ˈsɒlətri] 孤独的；独居的
+    - lone [ləʊn] 孤独的；单独的
+- vulnerable [ˈvʌlnərəbl] 易受攻击的；脆弱的
+    - vulner - 伤； -able 形容词后缀
+    - frail [freɪl] 脆弱的
+    - delicate [ˈdelɪkət] 脆弱的；精美的
+    - feeble [ˈfiːbl] 虚弱的；无力的
+- tribe [traɪb] 部落；族
+    - 无明显的词根或者前缀后缀
+    - clan [klæn] 氏族；部落
+    - ethnic group [ˈeθnɪk ɡruːp] 民族；种族群体
+    - nationality [ˌnæʃəˈnæləti] 国籍；民族
+- nomadic [nəʊˈmædɪk] 游牧的；流浪的
+    - nomad - 游牧民； -ic 形容词后缀
+    - wandering [ˈwɒndərɪŋ] 流浪的；徘徊的
+    - roving [ˈrəʊvɪŋ] 流浪的；漂泊的
+    - itinerant [aɪˈtɪnərənt] 巡回的；流动的
+- forage [ˈfɒrɪdʒ] 搜寻粮草；饲料
+    - 无明显的词根或者前缀后缀
+    - hunt [hʌnt] 打猎；搜寻
+    - search [sɜːtʃ] 搜索；搜寻
+    - look for 寻找
+- traumatic [trɔːˈmætɪk] 创伤的；痛苦的
+    - traum - 创伤； -atic 形容词后缀
+    - injurious [ɪnˈdʒʊəriəs] 有害的；致伤的
+    - hurtful [ˈhɜːtfl] 造成损害的；伤感情的
+    - harmful [ˈhɑːmfl] 有害的
+- endemic [enˈdemɪk] 地方性的；风土的
+    - en - 在…… 内；dem - 人民； -ic 形容词后缀
+    - native [ˈneɪtɪv] 本地的；本国的
+    - indigenous [ɪnˈdɪdʒənəs] 本土的；土著的
+    - local [ˈləʊkl] 当地的；局部的
+- infrastructure [ˈɪnfrəstrʌktʃə(r)] 基础设施；下部构造
+    - infra - 在…… 下；structure - 结构
+    - foundation [faʊnˈdeɪʃn] 基础；地基
+    - base [beɪs] 基础；底部
+    - substructure [ˈsʌbstrʌktʃə(r)] 下部结构；基础。
+- clearances [ˈklɪərənsɪz] 清除；净空
+    - clear - 清除； -ance 名词后缀； -s 复数后缀
+    - removal [rɪˈmuːvl] 移动；除去
+    - elimination [ɪˌlɪmɪˈneɪʃn] 消除；排除
+    - erasure [ɪˈreɪʒə(r)] 擦掉；消除
+- scrutiny [ˈskruːtəni] 详细审查；监视
+    - scrutin - 细看； -y 名词后缀
+    - examination [ɪɡˌzæmɪˈneɪʃn] 检查；考试
+    - inspection [ɪnˈspekʃn] 视察；检查
+    - review [rɪˈvjuː] 回顾；审查
+- haunt [hɔːnt] 常去；萦绕
+    - 无明显的词根或者前缀后缀
+    - frequent [ˈfriːkwənt] 频繁的；常到的
+    - visit [ˈvɪzɪt] 访问；参观
+    - revisit [ˌriːˈvɪzɪt] 重游；再访
+- tsunami [tsuːˈnɑːmi] 海啸
+    - 无明显的词根或者前缀后缀
+    - tidal wave [ˈtaɪdl weɪv] 潮汐波；海啸
+    - flood wave [flʌd weɪv] 洪水波
+    - surge [sɜːdʒ] 汹涌；澎湃
+- labourer [ˈleɪbərə(r)] 劳动者；工人
+    - labour - 劳动； -er 表示人
+    - worker [ˈwɜːkə(r)] 工人；劳动者
+    - employee [ɪmˈplɔɪiː] 雇员；员工
+    - staff [stɑːf] 员工；全体职员
+- ancestral [ænˈsestrəl] 祖先的；祖传的
+    - ancestr - 祖先； -al 形容词后缀
+    - hereditary [hɪˈredɪtri] 遗传的；世袭的
+    - lineage [ˈlɪniɪdʒ] 血统；家系
+    - descent [dɪˈsent] 血统；出身
+- immunity [ɪˈmjuːnəti] 免疫力；豁免权
+    - immun - 免疫； -ity 名词后缀
+    - resistance [rɪˈzɪstəns] 抵抗；反抗
+    - protection [prəˈtekʃn] 保护；防护
+    - safeguard [ˈseɪfɡɑːd] 保护；保卫
+- measles [ˈmiːzlz] 麻疹
+    - 无明显的词根或者前缀后缀
+    - mumps [mʌmps] 流行性腮腺炎
+    - chickenpox [ˈtʃɪkɪnpɒks] 水痘
+    - rubella [ruːˈbelə] 风疹。
+- leatherback [ˈleðəbæk] 棱皮龟
+    - leather - 皮革；back - 背部
+    - turtle [ˈtɜːtl] 海龟
+    - tortoise [ˈtɔːtəs] 陆龟
+    - terrapin [ˈterəpɪn] 水龟
+- crocodile [ˈkrɒkədaɪl] 鳄鱼
+    - croc - 钩；odile - 爬行动物
+    - alligator [ˈælɪɡeɪtə(r)] 短吻鳄
+    - cayman [ˈkeɪmən] 凯门鳄
+    - caiman [ˈkaɪmən] 凯门鳄
+- avifauna [ˌeɪviˈfɔːnə] 鸟类区系
+    - avi - 鸟；fauna - 动物群
+    - bird [bɜːd] 鸟
+    - sparrow [ˈspærəʊ] 麻雀
+    - robin [ˈrɒbɪn] 知更鸟
+- coral [ˈkɒrəl] 珊瑚
+    - 无明显的词根或者前缀后缀
+    - anemone [əˈneməni] 海葵
+    - jellyfish [ˈdʒelifɪʃ] 水母
+    - starfish [ˈstɑːfɪʃ] 海星
+- irreversibly [ˌɪrɪˈvɜːsəbli] 不可逆转地
+    - ir - 不；revers - 反转； -ible 形容词后缀； -ly 副词后缀
+    - permanently [ˈpɜːmənəntli] 永久地
+    - eternally [ɪˈtɜːnəli] 永恒地
+    - indefinitely [ɪnˈdefɪnətli] 不确定地
+- delicate [ˈdelɪkət] 脆弱的；精美的
+    - de - 加强；lic - 引诱； -ate 形容词后缀
+    - fragile [ˈfrædʒaɪl] 脆弱的
+    - tender [ˈtendə(r)] 温柔的；脆弱的
+    - frail [freɪl] 脆弱的
+- indigenous [ɪnˈdɪdʒənəs] 本土的；土著的
+    - indi - 在…… 内；gen - 产生； -ous 形容词后缀
+    - native [ˈneɪtɪv] 本地的；本国的
+    - aboriginal [ˌæbəˈrɪdʒənl] 土著的；原始的
+    - autochthonous [ɔːˈtɒkθənəs] 本土的；土生土长的。

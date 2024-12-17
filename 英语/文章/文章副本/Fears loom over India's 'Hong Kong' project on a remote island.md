@@ -2,11 +2,11 @@
 
 “The forest is our supermarket,” says Anice Justin. “We get almost everything from the forests on these islands. It is what we survive on.”
 
-Mr Justin, an ====anthropologist==,== has grown up in the Andaman and Nicobar islands ====straddling==== India’s east coast. A federally-administered territory, the ecologically-fragile region consists 836 islands, of which only 38 are ====inhabited==.== The Nicobar Islands are a distinct group of islands in the southern part of the territory, located some 150 km (93 miles) south of the Andaman Island.
+Mr Justin, an ====anthropologist==, has grown up in the Andaman and Nicobar islands ====straddling==== India’s east coast. A federally-administered territory, the ecologically-fragile region consists 836 islands, of which only 38 are ====inhabited==. The Nicobar Islands are a distinct group of islands in the southern part of the territory, located some 150 km (93 miles) south of the Andaman Island.
 
 Now Mr Justin watches with ====trepidation==== as India plans a multi-billion ‘Hong Kong-like’ development project on the Great Nicobar Island, one of the largest and most ====secluded==== parts of the Nicobar archipelago.
 
-Built on a budget of 720bn ==rupees== ($9bn or £6bn) and spread over 166 sq km, the project includes a ====transshipment==== ====harbour==,== a ====power plant==,== an airport and a new ====township==,== all designed to link the area to crucial global trade routes along the Indian Ocean and the Suez Canal.
+Built on a budget of 720bn ==rupees== ($9bn or £6bn) and spread over 166 sq km, the project includes a ====transshipment==== ====harbour==, a ====power plant==, an airport and a new ====township==, all designed to link the area to crucial global trade routes along the Indian Ocean and the Suez Canal.
 
 Positioned near the Strait of Malacca, one of the busiest shipping ==lanes== in the world, the project promises to boost international trade and tourism - the government ====reckons==== that some 650,000 people will be living on the island by the time the project is completed in 30 years.
 
@@ -18,7 +18,7 @@ Getty Images
 
 Andaman and Nicobar islands straddle India's east coast
 
-The Andaman and Nicobar Islands are home to some of the most ====isolated==== and ====vulnerable==== ==tribes== in the world, with five groups classified as "particularly ====vulnerable==.=="
+The Andaman and Nicobar Islands are home to some of the most ====isolated==== and ====vulnerable==== ==tribes== in the world, with five groups classified as "particularly ====vulnerable==."
 
 These include the Jarawas, North Sentinelese, Great Andamanese, Onge, and Shompen. While the Jarawas and North Sentinelese remain largely uncontacted, the Shompen - some 400 people - of the Great Nicobar Islands are also at risk of losing their way of life due to external pressures.
 
@@ -30,7 +30,7 @@ A ====nomadic==== tribe, most of them live deep inside the forest where they 
 
 Environmentalists say there are also huge environmental costs of the project.
 
-Spread across 921 sq km (355.6 sq miles), around 80% of the Great Nicobar island is covered with rainforests, which are home to more than 1,800 animals and 800 flora species, many of which are ====endemic==.==
+Spread across 921 sq km (355.6 sq miles), around 80% of the Great Nicobar island is covered with rainforests, which are home to more than 1,800 animals and 800 flora species, many of which are ====endemic==.
 
 The federal environment ministry has said that only 130 sq km or 14% of the total area of the island will be cleared for the project – but that's still about 964,000 trees. Experts warn the actual number could be much higher.
 
@@ -68,7 +68,7 @@ There are other wider environmental concerns as well, especially about the marin
 
 Ecologists warn of the effect on the Galathea Bay on the south-eastern side of the island, which has been the nesting place for giant ====leatherback==== sea turtles for centuries.
 
-Dr Manish Chandi, a social ecologist, says the project will also affect saltwater ====crocodiles==== and the island’s water monitors, fish and ====avifauna==.==
+Dr Manish Chandi, a social ecologist, says the project will also affect saltwater ====crocodiles==== and the island’s water monitors, fish and ====avifauna==.
 
 A government statement has said these nesting and breeding grounds of these species would not be altered.
 

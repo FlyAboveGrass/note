@@ -1,0 +1,252 @@
+
+- sink
+- toilet
+- protest
+- methane
+- dairy
+- cattle
+- boycott
+- depopulation
+- plot
+- swirled
+- misinformation
+- potent
+- fermentation
+- belched
+- suppress
+- enzymes
+- silicon
+- propylene
+- glycol
+- corrosive
+- irritant
+- inhalation
+- emphasised
+- dismissed
+- carcinogenic
+- undergo
+- rigorous
+- flatly
+- conspiracy
+- sought
+- infertility
+- precaution
+- stem
+- ingredient
+- latched
+- genuine
+- virtually
+- dispose
+- packet
+- carton
+- captioned
+
+
+
+# 翻译
+
+- sink [sɪŋk] 下沉；沉没
+    - s-（表向下）；-ink（无特定含义）
+    - submerge [səbˈmɜːdʒ] 浸没
+    - descend [dɪˈsend] 下降
+    - drop [drɒp] 落下
+- toilet [ˈtɔɪlət] 厕所；马桶
+    - toil（劳累）；-et（小）
+    - lavatory [ˈlævətri] 厕所
+    - restroom [ˈrestruːm] 洗手间
+    - bathroom [ˈbɑːθruːm] 浴室；卫生间
+- protest [ˈprəʊtest] 抗议；反对
+    - pro-（在前）；test（见证）
+    - object [ˈəbdʒekt] 反对
+    - oppose [əˈpəʊz] 反对
+    - resist [rɪˈzɪst] 抵抗
+- methane [ˈmiːθeɪn] 甲烷；沼气
+    - meth-（甲基）；-ane（烷）
+    - propane [ˈprəʊpeɪn] 丙烷
+    - butane [ˈbjuːteɪn] 丁烷
+    - ethane [ˈiːθeɪn] 乙烷
+- dairy [ˈdeəri] 奶制品；乳品店
+    - dair-（奶）；-y（名词后缀）
+    - milk [mɪlk] 牛奶
+    - yogurt [ˈjəʊgəːt] 酸奶
+    - cheese [tʃiːz] 奶酪
+- cattle [ˈkætl] 牛
+    - catt-（牛）；-le（小）
+    - cow [kaʊ] 母牛
+    - bull [bʊl] 公牛
+    - calf [kæf] 小牛
+- boycott [ˈbɔɪkɒt] 抵制；拒绝参加
+    - boy-（男孩）；cott（小屋）
+    - protest [ˈprəʊtest] 抗议；反对
+    - resist [rɪˈzɪst] 抵抗
+    - oppose [əˈpəʊz] 反对
+- depopulation [ˌdiːˌpɒpjuˈleɪʃn] 人口减少
+    - de-（减少）；population（人口）
+    - population decline [ˌpɒpjuˈleɪʃn dɪˈklaɪn] 人口下降
+    - population reduction [ˌpɒpjuˈleɪʃn rɪˈdʌkʃn] 人口减少
+    - population shrinkage [ˌpɒpjuˈleɪʃn ˈʃrɪŋkɪdʒ] 人口缩减
+- plot [plɒt] 情节；阴谋
+    - p-（平）；lot（小块地）
+    - story [ˈstɔːri] 故事
+    - scheme [skiːm] 计划；阴谋
+    - plan [plæn] 计划
+- swirled [swɜːld] 旋转；打旋
+    - swirl（打旋）；-ed（过去分词后缀）
+    - spin [spɪn] 旋转
+    - rotate [rəʊˈteɪt] 旋转
+    - whirl [wɜːl] 旋转
+- misinformation [ˌmɪsɪnfəˈmeɪʃn] 错误信息
+    - mis-（错误）；information（信息）
+    - false information [fɔːls ˌɪnfəˈmeɪʃn] 错误信息
+    - incorrect information [ˌɪnkəˈrekt ˌɪnfəˈmeɪʃn] 错误信息
+    - wrong information [rɒŋ ˌɪnfəˈmeɪʃn] 错误信息
+- potent [ˈpəʊtnt] 有效的；强有力的
+    - pot-（能力）；-ent（形容词后缀）
+    - powerful [ˈpaʊəfl] 强大的
+    - strong [strɒŋ] 强壮的
+    - forceful [ˈfɔːsfl] 强有力的
+- fermentation [ˌfɜːmenˈteɪʃn] 发酵
+    - ferment（发酵）；-ation（名词后缀）
+    - brew [bruː] 酿造
+    - fermenting [ˈfɜːmentɪŋ] 发酵的
+    - leaven [ˈlevn] 发酵剂
+- belched [beltʃt] 打嗝；喷出
+    - belch（打嗝）；-ed（过去分词后缀）
+    - burp [bɜːp] 打嗝
+    - hiccup [ˈhɪkʌp] 打嗝
+    - eruct [ɪˈrʌkt] 打嗝
+- suppress [səˈpres] 抑制；镇压
+    - sup-（在下面）；press（压）
+    - restrain [rɪˈstreɪn] 抑制
+    - inhibit [ɪnˈhɪbɪt] 抑制
+    - repress [rɪˈpres] 抑制
+- enzymes [ˈenzaɪmz] 酶
+    - en-（在里面）；zyme（酵母）
+    - catalyst [ˈkætəlɪst] 催化剂
+    - ferment [ˈfɜːment] 发酵剂
+    - activator [ˈæktɪveɪtə(r)] 活化剂
+- silicon [ˈsɪlɪkən] 硅
+    - silic-（硅）；-on（名词后缀）
+    - silica [ˈsɪlɪkə] 二氧化硅
+    - silicate [ˈsɪlɪkeɪt] 硅酸盐
+    - silicone [ˈsɪlɪkəʊn] 硅树脂
+- propylene [ˈprəʊpəliːn] 丙烯
+    - propyl（丙基）；-ene（烯）
+    - ethylene [ˈeθɪliːn] 乙烯
+    - butylene [ˈbjuːtəliːn] 丁烯
+    - pentylene [ˈpentəliːn] 戊烯
+- glycol [ˈɡlaɪkɒl] 乙二醇
+    - glyco-（糖）；-l（无特定含义）
+    - glycerol [ˈɡlɪsərɒl] 甘油
+    - ethylene glycol [ˈeθɪliːn ˈɡlaɪkɒl] 乙二醇
+    - propylene glycol [ˈprəʊpəliːn ˈɡlaɪkɒl] 丙二醇
+- corrosive [kəˈrəʊsɪv] 腐蚀性的；侵蚀性的
+    - cor-（共同）；ros（咬）；-ive（形容词后缀）
+    - erosive [ɪˈrəʊsɪv] 侵蚀性的
+    - caustic [ˈkɔːstɪk] 腐蚀性的
+    - acidic [ˈæsɪdɪk] 酸性的
+- irritant [ˈɪrɪtənt] 刺激物；刺激的
+    - irrit-（刺激）；-ant（名词或形容词后缀）
+    - stimulant [ˈstɪmjələnt] 兴奋剂；刺激的
+    - provocative [prəˈvɒkətɪv] 挑衅的；刺激的
+    - irritating [ˈɪrɪteɪtɪŋ] 刺激的
+- inhalation [ˌɪnhəˈleɪʃn] 吸入；吸入物
+    - in-（进入）；halation（呼吸）
+    - breathe in [briːð ɪn] 吸入
+    - inhale [ɪnˈheɪl] 吸入
+    - inspiration [ˌɪnspəˈreɪʃn] 吸气
+- emphasised [ˈemfəsaɪzd] 强调；着重
+    - em-（使）；phas-（显示）；-ised（过去分词后缀）
+    - stress [stres] 强调
+    - highlight [ˈhaɪlaɪt] 突出；强调
+    - underline [ˌʌndəˈlaɪn] 强调；在… 下面划线
+- dismissed [dɪsˈmɪst] 解散；解雇；不予理会
+    - dis-（离开）；miss（送）；-ed（过去分词后缀）
+    - fire [ˈfaɪə(r)] 解雇
+    - discharge [dɪsˈtʃɑːdʒ] 解雇；释放
+    - lay off [leɪ ɒf] 解雇
+- carcinogenic [ˌkɑːsɪnəˈdʒenɪk] 致癌的
+    - carcin-（癌）；-genic（产生… 的）
+    - cancer-causing [ˈkænsə(r) ˈkɔːzɪŋ] 致癌的
+    - tumorigenic [ˌtuːmərɪˈdʒenɪk] 致瘤的
+    - oncogenic [ˌɒŋkəʊˈdʒenɪk] 致癌的
+- undergo [ˌʌndəˈɡəʊ] 经历；经受
+    - under-（在… 下面）；go（走）
+    - experience [ɪkˈspɪəriəns] 经历
+    - endure [ɪnˈdjʊə(r)] 忍耐；经历
+    - suffer [ˈsʌfə(r)] 遭受；经历
+- rigorous [ˈrɪɡərəs] 严格的；严厉的
+    - rigor（严格）；-ous（形容词后缀）
+    - strict [strɪkt] 严格的
+    - stern [stɜːn] 严厉的
+    - severe [sɪˈvɪə(r)] 严厉的
+- flatly [ˈflætli] 断然地；平坦地
+    - flat（平坦的）；-ly（副词后缀）
+    - firmly [ˈfɜːmli] 坚定地
+    - decidedly [dɪˈsaɪdɪdli] 果断地
+    - resolutely [ˈrezəluːtli] 坚决地
+- conspiracy [kənˈspɪrəsi] 阴谋；共谋
+    - con-（共同）；spir-（呼吸）；-acy（名词后缀）
+    - plot [plɒt] 阴谋
+    - scheme [skiːm] 计划；阴谋
+    - intrigue [ɪnˈtriːɡ] 阴谋；私通
+- sought [sɔːt] 寻找（seek 的过去式和过去分词）
+    - s-（无特定含义）；ought（无特定含义）
+    - look for [lʊk fɔː(r)] 寻找
+    - hunt for [hʌnt fɔː(r)] 寻找
+    - search for [sɜːtʃ fɔː(r)] 寻找
+- infertility [ˌɪnfəˈtɪləti] 不孕；不肥沃
+    - in-（不）；fertility（肥沃；生育能力）
+    - barrenness [ˈbærənnəs] 贫瘠；不孕
+    - sterility [stəˈrɪləti] 不育；无菌
+    - unproductiveness [ˌʌnprəˈdʌktɪvnəs] 不肥沃；非生产性。
+- precaution [prɪˈkɔːʃn] 预防措施；谨慎
+    - pre-（预先）；caution（小心）
+    - preventive measure [prɪˈventɪv ˈmeʒə(r)] 预防措施
+    - safeguard [ˈseɪfɡɑːd] 保护措施
+    - precautionary step [prɪˈkɔːʃənəri step] 预防步骤
+- stem [stem] 茎；干；起源
+    - s-（无特定含义）；tem（无特定含义）
+    - stalk [stɔːk] 茎；梗
+    - trunk [trʌŋk] 树干
+    - branch [brɑːntʃ] 树枝
+- ingredient [ɪnˈɡriːdiənt] 成分；要素
+    - in-（进入）；gred-（步，级）；-ient（名词后缀）
+    - component [kəmˈpəʊnənt] 成分
+    - element [ˈelɪmənt] 元素；成分
+    - constituent [kənˈstɪtjuənt] 成分
+- latched [lætʃt] 闩上；锁住
+    - latch（门闩）；-ed（过去分词后缀）
+    - locked [lɒkt] 锁上的
+    - bolted [ˈbəʊltɪd] 用螺栓栓住的
+    - secured [sɪˈkjʊəd] 安全的；有保障的
+- genuine [ˈdʒenjuɪn] 真的；真诚的
+    - gen-（产生）；-uine（形容词后缀）
+    - authentic [ɔːˈθentɪk] 真正的
+    - real [rɪəl] 真实的
+    - sincere [sɪnˈsɪə(r)] 真诚的
+- virtually [ˈvɜːtʃuəli] 事实上；几乎
+    - virtu-（美德）；-ally（副词后缀）
+    - practically [ˈpræktɪkli] 几乎；实际上
+    - almost [ˈɔːlməʊst] 几乎
+    - nearly [ˈnɪəli] 几乎
+- dispose [dɪˈspəʊz] 处理；安排
+    - dis-（分开）；pose（放置）
+    - deal with [diːl wɪð] 处理
+    - handle [ˈhændl] 处理
+    - manage [ˈmænɪdʒ] 管理；处理
+- packet [ˈpækɪt] 小包；小捆
+    - pack（包装）；-et（小）
+    - package [ˈpækɪdʒ] 包裹
+    - parcel [ˈpɑːsl] 包裹
+    - pouch [paʊtʃ] 小袋
+- carton [ˈkɑːtn] 纸板箱；纸盒
+    - cart-（马车）；-on（名词后缀）
+    - box [bɒks] 盒子
+    - container [kənˈteɪnə(r)] 容器
+    - crate [kreɪt] 板条箱
+- captioned [ˈkæpʃnd] 有标题的；有说明文字的
+    - caption（标题）；-ed（过去分词后缀）
+    - titled [ˈtaɪtld] 有标题的
+    - labeled [ˈleɪbld] 有标签的
+    - annotated [ˈænəteɪtɪd] 有注释的。
