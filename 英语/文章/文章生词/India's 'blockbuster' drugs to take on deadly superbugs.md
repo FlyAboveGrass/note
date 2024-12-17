@@ -1,0 +1,32 @@
+
+- antibiotic
+- hail
+- saviours
+- crafty
+- adversary
+- mutate
+- outwit
+- antimicrobial
+- combat
+- pathogens
+- last-resort
+- pharma
+- urinary
+- tract
+- pneumonia
+- mechanisms
+- enzymes
+- lactamase
+- neutralising
+- immobilises
+- intravenous
+- infusion
+- compassionate
+- trademarked
+- oral
+- readiness
+- innovation
+- pharma
+- surveillance
+- intestines
+- 
