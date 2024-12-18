@@ -1,1 +1,354 @@
 
+- rattled
+- polarization
+- divisive
+- existential
+- metaphorical
+- faction
+- swath
+- consensus
+- neutral
+- arbiter
+- backstop
+- era
+- notable
+- intensity
+- ideology
+- look up
+- connotation
+- crack
+- rift
+- scrutiny
+- strip
+- lighthearted
+- proliferation
+- contest
+- nepo
+- paradoxically
+- cited
+- spectrum
+- ironic
+- twist
+- demure
+- reserved
+- modest
+- fortnight
+- spurred
+- totality
+- awe
+- stretch
+- gazed
+- skyward
+- blot
+- aggregate
+- reasonate
+- disproportionate
+- gravitas
+- allision
+- collision
+- motion
+- weird
+- nominee
+- cognitive
+- debate
+- conscious
+- pander
+- conservative
+- democracy
+- poignancy
+- curiosity
+
+
+# 翻译
+
+
+- rattled [ˈrætl̩d] 慌乱的；恼火的
+    - rattle - 使发出嘎嘎声； -ed 形容词后缀
+    - flustered [ˈflʌstəd] 慌张的
+    - agitated [ˈædʒɪteɪtɪd] 焦虑不安的
+    - perturbed [pəˈtɜːbd] 不安的
+- polarization [ˌpəʊləraɪˈzeɪʃn] 极化；两极分化
+    - polar - 极地的； -ization 名词后缀
+    - division [dɪˈvɪʒn] 分歧；分隔
+    - bifurcation [ˌbaɪfəˈkeɪʃn] 分歧；叉状分支
+    - dichotomy [daɪˈkɒtəmi] 二分法；对立
+- divisive [dɪˈvaɪsɪv] 分裂的；造成不和的
+    - divide - 分开； -ive 形容词后缀
+    - separatist [ˈseprətɪst] 分离主义者的
+    - fragmentary [ˈfræɡməntri] 碎片的；不完全的
+    - disuniting [dɪsˈjuːnɪtɪŋ] 使分裂的
+- existential [ˌeɡzɪˈstenʃl] 存在主义的；有关存在的
+    - exist - 存在； -ential 形容词后缀
+    - ontological [ˌɒntəˈlɒdʒɪkl] 本体论的
+    - essential [ɪˈsenʃl] 本质的；基本的
+    - fundamental [ˌfʌndəˈmentl] 基础的；根本的
+- metaphorical [ˌmetəˈfɒrɪkl] 隐喻性的；比喻性的
+    - metaphor - 隐喻； -ical 形容词后缀
+    - figurative [ˈfɪɡərətɪv] 比喻的；象征的
+    - symbolic [sɪmˈbɒlɪk] 象征的；符号的
+    - allegorical [ˌæləˈɡɒrɪkl] 寓言的；讽喻的
+- faction [ˈfækʃn] 派别；小集团
+    - - 无明显的词根或者前缀后缀
+    - clique [kliːk] [klek] 小集团；派系
+    - camp [kæmp] 阵营；派别
+    - bloc [blɒk] 集团；阵营
+- swath [swɒθ] 细长的列；一刈幅的宽度
+    - - 无明显的词根或者前缀后缀
+    - strip [strɪp] 条；带
+    - band [bænd] 带；箍
+    - stripe [straɪp] 条纹；线条
+- consensus [kənˈsensəs] 一致；共识
+    - con- 共同； sens - 感觉； -us 名词后缀
+    - agreement [əˈɡriːmənt] 同意；一致
+    - harmony [ˈhɑːməni] 和谐；协调
+    - unanimity [ˌjuːnəˈnɪməti] 全体一致；一致同意
+- neutral [ˈnjuːtrəl] 中立的；中性的
+    - neutr - 中间； -al 形容词后缀
+    - impartial [ɪmˈpɑːʃl] 公正的；不偏不倚的
+    - unbiased [ʌnˈbaɪəst] 无偏见的
+    - objective [əbˈdʒektɪv] 客观的
+- arbiter [ˈɑːbɪtə(r)] 仲裁人；裁决者
+    - - 无明显的词根或者前缀后缀
+    - mediator [ˈmiːdieɪtə(r)] 调解人
+    - referee [ˌrefəˈriː] 裁判员；仲裁人
+    - adjudicator [əˈdʒuːdɪkeɪtə(r)] 裁决者
+- backstop [ˈbækstɒp] 支撑物；后盾
+    - back - 后面； stop - 停止；阻止； - 无明显的后缀
+    - support [səˈpɔːt] 支持；支撑
+    - prop [prɒp] 支撑；支柱
+    - brace [breɪs] 支撑；加固物
+- era [ˈɪərə] 时代；年代
+    - - 无明显的词根或者前缀后缀
+    - epoch [ˈiːpɒk] 时代；时期
+    - period [ˈpɪəriəd] 时期；一段时间
+    - age [eɪdʒ] 时代；年龄段
+- notable [ˈnəʊtəbl] 值得注意的；显著的
+    - not - 知道； -able 形容词后缀
+    - remarkable [rɪˈmɑːkəbl] 显著的；非凡的
+    - outstanding [aʊtˈstændɪŋ] 杰出的；显著的
+    - prominent [ˈprɒmɪnənt] 突出的；显著的
+- intensity [ɪnˈtensəti] 强度；强烈
+    - in- 加强； tens - 伸展；拉紧； -ity 名词后缀
+    - strength [streŋθ] 力量；强度
+    - force [fɔːs] 力量；武力
+    - power [ˈpaʊə(r)] 力量；权力
+- ideology [ˌaɪdiˈɒlədʒi] 意识形态；思想体系
+    - ideo - 思想；观念； -logy 学科后缀
+    - doctrine [ˈdɒktrɪn] 教义；学说
+    - creed [kriːd] 信条；教义
+    - dogma [ˈdɒɡmə] 教条；教义
+- look up - 查找；向上看
+    - look - 看； up - 向上； - 无明显的后缀
+    - consult [kənˈsʌlt] 查阅；请教
+    - refer to [rɪˈfɜː(r) tuː] 参考；涉及
+    - check [tʃek] 检查；核对
+- connotation [ˌkɒnəˈteɪʃn] 内涵；隐含意义
+    - con- 共同； not - 知道； -ation 名词后缀
+    - implication [ˌɪmplɪˈkeɪʃn] 含义；暗示
+    - meaning [ˈmiːnɪŋ] 意义；含义
+    - significance [sɪɡˈnɪfɪkəns] 意义；重要性
+- crack [kræk] 裂缝；破裂声
+    - - 无明显的词根或者前缀后缀
+    - split [splɪt] 分裂；裂缝
+    - fissure [ˈfɪʃə(r)] 裂缝；裂沟
+    - crevice [ˈkrevɪs] 裂缝；裂隙
+- rift [rɪft] 裂缝；不和
+    - - 无明显的词根或者前缀后缀
+    - cleft [kleft] 裂缝；裂口
+    - gap [ɡæp] 缺口；间隔
+    - chasm [ˈkæzəm] 峡谷；分歧
+- scrutiny [ˈskruːtəni] 详细审查；监视
+    - scrutin - 细看； -y 名词后缀
+    - examination [ɪɡˌzæmɪˈneɪʃn] 检查；考试
+    - inspection [ɪnˈspekʃn] 检查；视察
+    - review [rɪˈvjuː] 回顾；审查
+- strip [strɪp] 条；带
+    - - 无明显的词根或者前缀后缀
+    - band [bænd] 带；箍
+    - stripe [straɪp] 条纹；线条
+    - ribbon [ˈrɪbən] 丝带；带状物
+- lighthearted [ˌlaɪtˈhɑːtɪd] 轻松愉快的；无忧无虑的
+    - light - 轻的； heart - 心； -ed 形容词后缀
+    - carefree [ˈkeəfriː] 无忧无虑的
+    - cheerful [ˈtʃɪəfl] 快乐的；愉快的
+    - joyful [ˈdʒɔɪfl] 快乐的；高兴的
+- proliferation [prəˌlɪfəˈreɪʃn] 增殖；扩散
+    - pro- 向前； lifer - 生命； -ation 名词后缀
+    - multiplication [ˌmʌltɪplɪˈkeɪʃn] 乘法；增加
+    - spread [spred] 传播；扩散
+    - expansion [ɪkˈspænʃn] 扩张；膨胀
+- contest [ˈkɒntest] 竞赛；争夺
+    - con- 共同； test - 考验； - 无明显的后缀
+    - competition [ˌkɒmpəˈtɪʃn] 竞争；比赛
+    - tournament [ˈtʊənəmənt] 锦标赛；联赛
+    - match [mætʃ] 比赛；竞赛
+- nepo [ˈnepəʊ] 裙带关系（非正式用词）
+    - - 无明显的词根或者前缀后缀
+    - cronyism [ˈkrəʊniɪzəm] 任人唯亲；裙带关系
+    - favoritism [ˈfeɪvərɪtɪzəm] 偏袒；偏爱
+    - nepotism [ˈnepətɪzəm] 裙带关系；任人唯亲。
+- paradoxically [ˌpærəˈdɒksɪkli] 矛盾地；似非而是地
+    - paradox - 悖论；矛盾； -ically 副词后缀
+    - contradictorily [ˌkɒntrəˈdɪktərəli] 矛盾地
+    - inconsistently [ˌɪnkənˈsɪstəntli] 不一致地
+    - incongruously [ɪnˈkɒŋɡruəsli] 不协调地
+- cited [ˈsaɪtɪd] 引用；引证
+    - cite - 引用； -ed 过去分词后缀
+    - quoted [ˈkwəʊtɪd] 引用；引述
+    - referenced [ˈrefrənsd] 提及；参考
+    - alluded to [əˈluːdɪd tuː] 暗指；提及
+- spectrum [ˈspektrəm] 光谱；范围
+    - - 无明显的词根或者前缀后缀
+    - range [reɪndʒ] 范围；幅度
+    - gamut [ˈɡæmət] 全范围；整个领域
+    - scale [skeɪl] 规模；范围
+- ironic [aɪˈrɒnɪk] 讽刺的；反话的
+    - iron - 铁； -ic 形容词后缀
+    - sarcastic [sɑːˈkæstɪk] 讽刺的；挖苦的
+    - satirical [səˈtɪrɪkl] 讽刺的；讥讽的
+    - caustic [ˈkɔːstɪk] 刻薄的；讽刺的
+- twist [twɪst] 扭曲；扭伤
+    - - 无明显的词根或者前缀后缀
+    - distort [dɪˈstɔːt] 扭曲；变形
+    - contort [kənˈtɔːt] 扭曲；歪曲
+    - deform [dɪˈfɔːm] 使变形；使残废
+- demure [dɪˈmjʊə(r)] 端庄的；娴静的
+    - - 无明显的词根或者前缀后缀
+    - modest [ˈmɒdɪst] 谦虚的；适度的
+    - reserved [rɪˈzɜːvd] 矜持的；内敛的
+    - prim [prɪm] 拘谨的；古板的
+- reserved [rɪˈzɜːvd] 矜持的；内敛的
+    - re- 回； serv - 保持； -ed 形容词后缀
+    - reticent [ˈretɪsnt] 沉默寡言的
+    - taciturn [ˈtæsɪtɜːn] 沉默寡言的
+    - uncommunicative [ˌʌnkəˈmjuːnɪkətɪv] 不爱说话的
+- modest [ˈmɒdɪst] 谦虚的；适度的
+    - mod - 适度； -est 形容词最高级后缀
+    - humble [ˈhʌmbl] 谦逊的；卑微的
+    - unassuming [ˌʌnəˈsjuːmɪŋ] 谦逊的；不装腔作势的
+    - meek [miːk] 温顺的；谦恭的
+- fortnight [ˈfɔːtnaɪt] 两星期
+    - - 无明显的词根或者前缀后缀
+    - two weeks [tuː wiːks] 两周
+    - fourteen days [ˌfɔːˈtiːn deɪz] 十四天
+    - biweekly [baɪˈwiːkli] 两周一次的。
+- spurred [spɜːd] 激励；促进
+    - spur - 刺激； -ed 过去分词后缀
+    - motivated [ˈməʊtɪveɪtɪd] 有动机的；受激励的
+    - inspired [ɪnˈspaɪəd] 受鼓舞的；有灵感的
+    - encouraged [ɪnˈkʌrɪdʒd] 受到鼓舞的
+- totality [təʊˈtæləti] 全体；总数
+    - - 无明显的词根或者前缀后缀
+    - entirety [ɪnˈtaɪərəti] 全部；整体
+    - whole [həʊl] 全部；整体
+    - sum [sʌm] 总数；总和
+- awe [ɔː] 敬畏；惊叹
+    - - 无明显的词根或者前缀后缀
+    - reverence [ˈrevərəns] 尊敬；敬畏
+    - admiration [ˌædməˈreɪʃn] 钦佩；赞赏
+    - wonder [ˈwʌndə(r)] 惊奇；奇迹
+- stretch [stretʃ] 伸展；延伸
+    - - 无明显的词根或者前缀后缀
+    - extend [ɪkˈstend] 延伸；扩大
+    - expand [ɪkˈspænd] 扩张；膨胀
+    - lengthen [ˈleŋθən] 使延长；变长
+- gazed [ɡeɪzd] 凝视；注视
+    - gaze - 凝视； -ed 过去分词后缀
+    - stared [steəd] 凝视；盯着看
+    - peered [pɪəd] 凝视；窥视
+    - glanced [ɡlɑːnst] 扫视；匆匆一看
+- skyward [ˈskaɪwəd] 向天空地；朝上地
+    - sky - 天空； -ward 向…… 的方向后缀
+    - upward [ˈʌpwəd] 向上地；上升地
+    - heavenward [ˈhevnwəd] 朝天空地；向天国地
+    - aloft [əˈlɒft] 在高处；在空中
+- blot [blɒt] 污渍；污点
+    - - 无明显的词根或者前缀后缀
+    - stain [steɪn] 污点；瑕疵
+    - spot [spɒt] 斑点；污点
+    - smudge [smʌdʒ] 污点；污迹
+- aggregate [ˈæɡrɪɡət] 总数；合计
+    - ag- 加强； greg - 群； -ate 动词后缀
+    - total [ˈtəʊtl] 总数；合计
+    - sum [sʌm] 总数；总和
+    - whole [həʊl] 全部；整体
+- reasonate（可能是你打错了单词，应为 resonate） [ˈrezəneɪt] 共鸣；共振
+    - re- 回； son - 声音； -ate 动词后缀
+    - echo [ˈekəʊ] 回声；共鸣
+    - reverberate [rɪˈvɜːbəreɪt] 回响；回荡
+    - vibrate [vaɪˈbreɪt] 振动；颤动。
+- disproportionate [ˌdɪsprəˈpɔːʃənət] 不成比例的
+    - dis- 否定； proportion - 比例； -ate 形容词后缀
+    - unbalanced [ʌnˈbælənst] 不平衡的
+    - unequal [ʌnˈiːkwəl] 不相等的
+    - asymmetrical [ˌeɪsɪˈmetrɪkl] 不对称的
+- gravitas [ˈɡrævɪtæs] 庄严；庄重
+    - - 无明显的词根或者前缀后缀
+    - solemnity [səˈlemnəti] 庄严；严肃
+    - dignity [ˈdɪɡnəti] 尊严；庄重
+    - majesty [ˈmædʒəsti] 威严；雄伟
+- allision [əˈlɪʒn] （船）碰撞（尤指与静止物体）
+    - - 无明显的词根或者前缀后缀
+    - crash [kræʃ] 碰撞；坠毁
+    - collision [kəˈlɪʒn] 碰撞；冲突
+    - impact [ˈɪmpækt] 撞击；影响
+- collision [kəˈlɪʒn] 碰撞；冲突
+    - col- 一起； lis - 打击； -ion 名词后缀
+    - crash [kræʃ] 碰撞；坠毁
+    - impact [ˈɪmpækt] 撞击；影响
+    - bump [bʌmp] 碰撞；撞击
+- motion [ˈməʊʃn] 运动；动作
+    - - 无明显的词根或者前缀后缀
+    - movement [ˈmuːvmənt] 运动；活动
+    - action [ˈækʃn] 行动；活动
+    - activity [ækˈtɪvəti] 活动；行动
+- weird [wɪəd] 奇怪的；怪异的
+    - - 无明显的词根或者前缀后缀
+    - strange [streɪndʒ] 奇怪的；陌生的
+    - odd [ɒd] 奇怪的；奇数的
+    - peculiar [pɪˈkjuːliə(r)] 特殊的；奇怪的
+- nominee [ˌnɒmɪˈniː] 被提名者
+    - nomin - 提名； -ee 被…… 的人后缀
+    - candidate [ˈkændɪdət] 候选人；应试者
+    - contender [kənˈtendə(r)] 竞争者；争夺者
+    - aspirant [əˈspaɪərənt] 有抱负的人；追求者
+- cognitive [ˈkɒɡnətɪv] 认知的；认识的
+    - cogn - 知道； -itive 形容词后缀
+    - perceptive [pəˈseptɪv] 感知的；有洞察力的
+    - discerning [dɪˈsɜːnɪŋ] 有洞察力的；有识别力的
+    - aware [əˈweə(r)] 意识到的；知道的。
+- debate [dɪˈbeɪt] 辩论；争论
+    - - 无明显的词根或者前缀后缀
+    - argument [ˈɑːɡjumənt] 争论；论据
+    - discussion [dɪˈskʌʃn] 讨论；议论
+    - controversy [ˈkɒntrəvɜːsi] 争论；辩论
+- conscious [ˈkɒnʃəs] 有意识的；自觉的
+    - con- 全部； sci - 知道； -ous 形容词后缀
+    - aware [əˈweə(r)] 意识到的；知道的
+    - cognizant [ˈkɒɡnɪzənt] 察知的；认识到的
+    - sensible [ˈsensəbl] 明智的；意识到的
+- pander [ˈpændə(r)] 迎合；奉迎
+    - - 无明显的词根或者前缀后缀
+    - cater [ˈkeɪtə(r)] 迎合；投合
+    - indulge [ɪnˈdʌldʒ] 迁就；纵容
+    - gratify [ˈɡrætɪfaɪ] 使满足；使高兴
+- conservative [kənˈsɜːvətɪv] 保守的；守旧的
+    - con- 全部； serv - 保持； -ative 形容词后缀
+    - traditional [trəˈdɪʃənl] 传统的；惯例的
+    - conventional [kənˈvenʃənl] 传统的；常规的
+    - old-fashioned [ˌəʊld ˈfæʃnd] 老式的；过时的
+- democracy [dɪˈmɒkrəsi] 民主；民主国家
+    - demo - 人民； cracy - 统治；权力
+    - republic [rɪˈpʌblɪk] 共和国；共和政体
+    - constitutional monarchy [ˌkɒnstɪˈtjuːʃənl ˈmɒnəki] 君主立宪制
+    - autocracy [ɔːˈtɒkrəsi] 独裁政治；专制国家
+- poignancy [ˈpɔɪnjənsi] 辛辣；强烈；深刻
+    - - 无明显的词根或者前缀后缀
+    - intensity [ɪnˈtensəti] 强烈；紧张
+    - sharpness [ˈʃɑːpnəs] 锐利；鲜明
+    - acuteness [əˈkjuːtnəs] 剧烈；敏锐
+- curiosity [ˌkjʊəriˈɒsəti] 好奇心；好奇
+    - curios - 好奇； -ity 名词后缀
+    - inquisitiveness [ɪnˈkwɪzətɪvnəs] 好奇；爱打听
+    - interest [ˈɪntrəst] 兴趣；关注
+    - wonder [ˈwʌndə(r)] 惊奇；奇迹。

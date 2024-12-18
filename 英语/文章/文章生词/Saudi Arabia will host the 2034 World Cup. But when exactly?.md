@@ -1,1 +1,158 @@
 
+
+- scored
+- formally
+- tournament
+- stadium
+- futuristic
+- venue
+- stadium
+- cliff
+- retractable
+- speculation
+- routinely
+- holy
+- back-to-back
+- bid
+- confederation
+- stadium
+- converstive
+- backtracked
+- luxury
+- suite
+- loom
+- diplomacy
+- indonesia
+- semifinals
+- congress
+- venue
+
+
+
+# 翻译
+
+- scored [skɔːd] 得分；记分
+    - score - 得分； -ed 过去分词后缀
+    - marked [mɑːkt] 有记号的；得分的
+    - graded [ˈɡreɪdɪd] 分等级的；打分的
+    - evaluated [ɪˈvæljueɪtɪd] 评估的；打分的
+- formally [ˈfɔːməli] 正式地；形式上
+    - form - 形式； -al 形容词后缀； -ly 副词后缀
+    - officially [əˈfɪʃəli] 官方地；正式地
+    - ceremoniously [ˌserɪˈməʊniəsli] 隆重地；正式地
+    - properly [ˈprɒpəli] 适当地；正确地
+- tournament [ˈtʊənəmənt] 锦标赛；联赛
+    - tourn - 转； -a-； -ment 名词后缀
+    - championship [ˈtʃæmpiənʃɪp] 锦标赛；冠军称号
+    - competition [ˌkɒmpəˈtɪʃn] 竞争；比赛
+    - contest [ˈkɒntest] 竞赛；争夺
+- stadium [ˈsteɪdiəm] 体育场；露天大型运动场
+    - - 无明显的词根或者前缀后缀
+    - arena [əˈriːnə] 竞技场；舞台
+    - coliseum [ˌkɒləˈsiːəm] 大竞技场；大剧场
+    - amphitheater [ˌæmfɪˈθiːətə(r)] 圆形露天剧场；竞技场
+- futuristic [ˌfjuːtʃəˈrɪstɪk] 未来派的；未来主义的
+    - future - 未来； -istic 形容词后缀
+    - advanced [ədˈvɑːnst] 先进的；高级的
+    - innovative [ˈɪnəveɪtɪv] 创新的；革新的
+    - cutting-edge [ˈkʌtɪŋ edʒ] 前沿的；先进的
+- venue [ˈvenjuː] 聚会地点；举行场所
+    - - 无明显的词根或者前缀后缀
+    - location [ləʊˈkeɪʃn] 位置；地点
+    - place [pleɪs] 地方；场所
+    - site [saɪt] 地点；位置
+- stadium [ˈsteɪdiəm] 体育场；露天大型运动场
+    - - 无明显的词根或者前缀后缀
+    - arena [əˈriːnə] 竞技场；舞台
+    - coliseum [ˌkɒləˈsiːəm] 大竞技场；大剧场
+    - amphitheater [ˌæmfɪˈθiːətə(r)] 圆形露天剧场；竞技场
+- cliff [klɪf] 悬崖；峭壁
+    - - 无明显的词根或者前缀后缀
+    - precipice [ˈpresəpɪs] 悬崖；绝壁
+    - bluff [blʌf] 悬崖；峭壁
+    - crag [kræɡ] 峭壁；悬崖
+- retractable [rɪˈtræktəbl] 可缩回的；可收起的
+    - re- 回； tract - 拉； -able 形容词后缀
+    - collapsible [kəˈlæpsəbl] 可折叠的；可收缩的
+    - foldable [ˈfəʊldəbl] 可折叠的
+    - portable [ˈpɔːtəbl] 便携式的；可移动的
+- speculation [ˌspekjuˈleɪʃn] 推测；猜测
+    - spec - 看； -ul-； -ation 名词后缀
+    - conjecture [kənˈdʒektʃə(r)] 推测；猜想
+    - guess [ɡes] 猜测；推测
+    - surmise [səˈmaɪz] 推测；猜度。
+- routinely [ruːˈtiːnli] 常规地；日常地
+    - routin - 常规； -e； -ly 副词后缀
+    - regularly [ˈreɡjələli] 有规律地；定期地
+    - habitually [həˈbɪtʃuəli] 习惯地；惯常地
+    - ordinarily [ˈɔːdnrəli] 通常地；平常地
+- holy [ˈhəʊli] 神圣的；圣洁的
+    - - 无明显的词根或者前缀后缀
+    - sacred [ˈseɪkrɪd] 神圣的；宗教的
+    - divine [dɪˈvaɪn] 神圣的；神的
+    - hallowed [ˈhæləʊd] 神圣的；被视为神圣的
+- back-to-back [ˌbæk tə ˈbæk] 背靠背的；连续的
+    - back - 后面； -to； -back 后面
+    - consecutive [kənˈsekjətɪv] 连续不断的
+    - successive [səkˈsesɪv] 连续的；相继的
+    - sequential [sɪˈkwenʃl] 连续的；有顺序的
+- bid [bɪd] 出价；投标；努力争取
+    - - 无明显的词根或者前缀后缀
+    - offer [ˈɒfə(r)] 提供；出价
+    - tender [ˈtendə(r)] 投标；提供
+    - proposal [prəˈpəʊzl] 提议；建议
+- confederation [kənˌfedəˈreɪʃn] 联盟；邦联
+    - con- 一起； feder - 联盟； -ation 名词后缀
+    - alliance [əˈlaɪəns] 联盟；结盟
+    - coalition [ˌkəʊəˈlɪʃn] 联合；同盟
+    - union [ˈjuːniən] 联盟；工会
+- stadium [ˈsteɪdiəm] 体育场；露天大型运动场
+    - - 无明显的词根或者前缀后缀
+    - arena [əˈriːnə] 竞技场；舞台
+    - coliseum [ˌkɒləˈsiːəm] 大竞技场；大剧场
+    - amphitheater [ˌæmfɪˈθiːətə(r)] 圆形露天剧场；竞技场
+- backtracked [ˈbæktræktɪd] 走回头路；退缩
+    - back - 向后； track - 追踪； -ed 过去分词后缀
+    - retreat [rɪˈtriːt] 撤退；退却
+    - withdraw [wɪðˈdrɔː] 撤退；收回
+    - pull back [pʊl bæk] 撤回；拉回。
+- luxury [ˈlʌkʃəri] 奢侈；奢华
+    - - 无明显的词根或者前缀后缀
+    - extravagance [ɪkˈstrævəɡəns] 奢侈；浪费
+    - sumptuousness [ˈsʌmptʃuəsnəs] 豪华；奢侈
+    - opulence [ˈɒpjələns] 富裕；豪华
+- suite [swiːt] 套房；一套家具
+    - - 无明显的词根或者前缀后缀
+    - apartment [əˈpɑːtmənt] 公寓；房间
+    - flat [flæt] 公寓；套房
+    - condominium [ˌkɒndəˈmɪniəm] 公寓；共管公寓
+- loom [luːm] 织布机；若隐若现
+    - - 无明显的词根或者前缀后缀
+    - appear [əˈpɪə(r)] 出现；显得
+    - emerge [iˈmɜːdʒ] 浮现；出现
+    - materialize [məˈtɪəriəlaɪz] 实现；出现
+- diplomacy [dɪˈpləʊməsi] 外交；外交手腕
+    - diplo - 双； -macy 名词后缀
+    - negotiation [nɪˌɡəʊʃiˈeɪʃn] 谈判；协商
+    - mediation [ˌmiːdiˈeɪʃn] 调解；调停
+    - arbitration [ˌɑːbɪˈtreɪʃn] 仲裁；公断
+- indonesia [ˌɪndəˈniːʒə] 印度尼西亚（国家名）
+    - - 无明显的词根或者前缀后缀
+    - Jakarta [dʒəˈkɑːrtə] 雅加达（印度尼西亚首都）
+    - Bali [ˈbɑːli] 巴厘岛（印度尼西亚旅游胜地）
+    - Sumatra [suˈmɑːtrə] 苏门答腊岛（印度尼西亚岛屿）
+- semifinals [ˌsemɪˈfaɪnəlz] 半决赛
+    - semi- 半； final - 决赛； -s 复数后缀
+    - quarterfinals [ˈkwɔːtəˌfaɪnəlz] 四分之一决赛
+    - finals [ˈfaɪnəlz] 决赛
+    - playoffs [ˈpleɪɔːfs] 季后赛；附加赛
+- congress [ˈkɒŋɡres] 国会；代表大会
+    - con- 一起； -gress 走
+    - parliament [ˈpɑːləmənt] 议会；国会
+    - assembly [əˈsembli] 议会；集会
+    - senate [ˈsenət] 参议院；上议院
+- venue [ˈvenjuː] 聚会地点；举行场所
+    - - 无明显的词根或者前缀后缀
+    - location [ləʊˈkeɪʃn] 位置；地点
+    - place [pleɪs] 地方；场所
+    - site [saɪt] 地点；位置。

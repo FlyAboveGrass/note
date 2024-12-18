@@ -25,7 +25,7 @@ January 2034 could be a possibility even though that would be just before the Wi
 
 In an interview with The Associated Press on Wednesday, Saudi World Cup ==bid== official Hammad Albalawi said the precise dates of the ====tournament==== are up the world soccer body.
 
-“That’s a decision by FIFA. We stand ready to be part of this conversation. But ultimately it’s a FIFA decision together with the ====confederations==,==” Albalawi said.
+“That’s a decision by FIFA. We stand ready to be part of this conversation. But ultimately it’s a FIFA decision together with the ====confederations==,” Albalawi said.
 
 # Will ======stadium==s==== be segregated for men and women?
 

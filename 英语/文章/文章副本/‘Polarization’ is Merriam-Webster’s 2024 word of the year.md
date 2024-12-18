@@ -13,7 +13,7 @@ Last year’s [pick was “authentic.”](https://apnews.com/article/merriam-we
 
 “It’s always been important to me that the dictionary serve as a kind of ====neutral==== and objective ====arbiter==== of meaning for everybody,” Sokolowski said. “It’s a kind of ====backstop==== for meaning in an ==era== of fake news, alternative facts, whatever you want to say about the value of a word’s meaning in the culture.”
 
-It’s ====notable==== that “==polarization==” originated in the early 1800s — and not during the Renaissance, as did most words with Latin roots about science, Sokolowski said. He called it a “pretty young word,” in the scheme of the English language. “Polarized is a term that brings ====intensity==== to another word,” he continued, most frequently used in the U.S. to describe race relations, politics and ====ideology==.==
+It’s ====notable==== that “==polarization==” originated in the early 1800s — and not during the Renaissance, as did most words with Latin roots about science, Sokolowski said. He called it a “pretty young word,” in the scheme of the English language. “Polarized is a term that brings ====intensity==== to another word,” he continued, most frequently used in the U.S. to describe race relations, politics and ====ideology==.
 
 “The basic job of the dictionary is to tell the truth about words,” the Merriam-Webster editor continued. “We’ve had dictionaries of English for 420 years and it’s only been in the last 20 years or so that we’ve actually known which words people ====look up==.==”
 
@@ -22,8 +22,6 @@ It’s ====notable==== that “==polarization==” originated in the early 180
 All the ====scrutiny==== over [Taylor Swift’s private jet usage](https://apnews.com/article/taylor-swift-climate-jet-carbon-emissions-kelce-chiefs-02ac425d24281bd26d73bfdf4590bc82)? Polarizing. Beef between rappers [Kendrick Lamar and Drake](https://apnews.com/article/kendrick-lamar-new-album-gnx-243dcef7e1efd6d82903bd51d4ab242c)? Polarizing. The International Olympic Committee’s decision to ==strip== American [gymnast Jordan Chiles of her bronze medal](https://apnews.com/article/2024-olympics-gymnastics-jordan-chiles-d246c9d544faf9dfb44185ae3661e869) after the Paris Games? You guessed it: polarizing.
 
 Even ====lighthearted==== memes — like those making fun of Australian breakdancer Rachael “Raygun” Gunn’s performance — or the ====proliferation==== of look-alike ====contests==,== or who counts as a ==nepo== baby proved polarizing.
-
-0:00 / 29
 
 # AP AUDIO: ‘==Polarization==’ is Merriam-Webster’s 2024 word of the year
 
