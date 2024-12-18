@@ -1,0 +1,170 @@
+
+
+- dominated
+- menstrual
+- symptom
+- alerted
+- elevated
+- tutted
+- perimenopause
+- gastric
+- clinician
+- overall
+- genuinely
+- hypochondria
+- blip
+- malfunction
+- psychological
+- nasty
+- cancerous
+- tumor
+- flagged
+- anecdotally
+- plugged
+- drain
+- wrist
+- sacrifice
+- sensor
+- tale
+- underpinning
+- capacity
+
+
+# 翻译
+
+- dominated [ˈdɒmɪneɪtɪd] 支配；占优势
+    - domin - 统治； -ate 动词后缀； -ed 过去分词后缀
+    - domineering [ˌdɒmɪˈnɪərɪŋ] 专横的；盛气凌人的
+    - preponderant [pəˈpɒndərənt] 占优势的；压倒性的
+    - predominant [prɪˈdɒmɪnənt] 主要的；占优势的
+- menstrual [ˈmenstruəl] 月经的；每月的
+    - menstru - 月经； -al 形容词后缀
+    - menses [ˈmensiːz] 月经
+    - menstruate [ˈmenstruˌeɪt] 行经；月经来潮
+    - period [ˈpɪəriəd] 周期；时期；月经
+- symptom [ˈsɪmptəm] 症状；征兆
+    - sym - 共同； -ptom 症状
+    - sign [saɪn] 迹象；符号；招牌
+    - indication [ˌɪndɪˈkeɪʃn] 指示；象征
+    - manifestation [ˌmænɪfeˈsteɪʃn] 显示；表现
+- alerted [əˈlɜːtɪd] 使警觉；使意识到
+    - aler - 警觉； -t 过去分词后缀； -ed 过去分词后缀
+    - vigilant [ˈvɪdʒɪlənt] 警惕的；警觉的
+    - watchful [ˈwɒtʃfl] 注意的；警惕的
+    - cautious [ˈkɔːʃəs] 谨慎的；小心的
+- elevated [ˈelɪveɪtɪd] 提高的；高尚的；严肃的
+    - elev - 提高； -ate 动词后缀； -ed 过去分词后缀
+    - lofty [ˈlɒfti] 高的；崇高的
+    - high [haɪ] 高的；高级的；崇高的
+    - exalted [ɪɡˈzɔːltɪd] 高尚的；尊贵的
+- tutted [ˈtʌtɪd] 发出嘘声；表示不满
+    - tut - 嘘声； -ed 过去分词后缀
+    - tsked [tʃtʃt] 发出啧啧声
+    - huffed [hʌft] 喷气；发怒
+    - pouted [ˈpautɪd] 撅嘴；生气
+- perimenopause [ˌperɪˈmenəpɔːz] 围绝经期
+    - peri - 周围；meno - 月经； -pause 停止
+    - menopause [ˈmenəpɔːz] 绝经期
+    - premenopause [ˌpriːˈmenəpɔːz] 绝经前期
+    - postmenopause [ˌpəʊstˈmenəpɔːz] 绝经后期
+- gastric [ˈɡæstrɪk] 胃的；胃部的
+    - gastr - 胃； -ic 形容词后缀
+    - stomachal [ˈstʌməkəl] 胃的；胃部的
+    - gastroenteric [ˌɡæstrəʊˌentəˈrɪk] 胃肠的
+    - gastrointestinal [ˌɡæstrəʊˌɪntesˈtaɪnl] 胃肠的
+- clinician [klɪˈnɪʃn] 临床医生
+    - clin - 床； -ician 人
+    - physician [fɪˈzɪʃn] 内科医生
+    - doctor [ˈdɒktə(r)] 医生；博士
+    - practitioner [prækˈtɪʃənə(r)] 从业者；执业医生
+- overall [ˈəʊvərɔːl] 全面的；总体的
+    - over - 在…… 之上；all - 全部； -al 形容词后缀
+    - comprehensive [ˌkɒmprɪˈhensɪv] 全面的；综合的
+    - total [ˈtəʊtl] 总的；全体的
+    - entire [ɪnˈtaɪə(r)] 全部的；整个的
+- genuinely [ˈdʒenjuɪnli] 真诚地；真正地
+    - genuin - 真正的； -e 形容词后缀； -ly 副词后缀
+    - truly [ˈtruːli] 真正地；确实地
+    - sincerely [sɪnˈsɪəli] 真诚地；诚挚地
+    - honestly [ˈɒnɪstli] 诚实地；正直地
+- hypochondria [ˌhaɪpəˈkɒndriə] 疑病症；忧郁症
+    - hypo - 在…… 之下；chondr - 软骨； -ia 名词后缀
+    - hypochondriac [ˌhaɪpəˈkɒndriæk] 疑病症患者
+    - melancholia [ˌmelənˈkəʊliə] 忧郁症
+    - depression [dɪˈpreʃn] 沮丧；忧郁
+- blip [blɪp] 短暂的信号；（雷达屏幕上的）光点
+    - 无明显的词根或者前缀后缀
+    - beep [biːp] 哔哔声
+    - ping [pɪŋ] 乒的一声；（声脉冲的）发出
+    - buzz [bʌz] 嗡嗡声
+- malfunction [ˌmælˈfʌŋkʃn] 故障；失灵
+    - mal - 坏；function - 功能； -al 名词后缀
+    - breakdown [ˈbreɪkdaʊn] 故障；崩溃
+    - failure [ˈfeɪljə(r)] 失败；故障
+    - defect [ˈdiːfekt] 缺点；缺陷
+- psychological [ˌsaɪkəˈlɒdʒɪkl] 心理的；心理学的
+    - psycho - 心理； -logical 形容词后缀
+    - mental [ˈmentl] 精神的；心理的
+    - emotional [ɪˈməʊʃənl] 情感的；情绪的
+    - psychic [ˈsaɪkɪk] 精神的；心灵的
+- nasty [ˈnɑːsti] 肮脏的；恶劣的；下流的
+    - 无明显的词根或者前缀后缀
+    - filthy [ˈfɪlθi] 肮脏的；污秽的
+    - foul [faʊl] 肮脏的；恶劣的
+    - malicious [məˈlɪʃəs] 恶意的；恶毒的
+- cancerous [ˈkænsərəs] 癌的；像癌的
+    - cancer - 癌症； -ous 形容词后缀
+    - carcinogenic [ˌkɑːsɪnəʊˈdʒenɪk] 致癌的
+    - malignant [məˈlɪɡnənt] 恶性的；致命的
+    - tumorous [ˈtjuːmərəs] 肿瘤的；肿胀的
+- tumor [ˈtjuːmə(r)] 肿瘤；肿块
+    - 无明显的词根或者前缀后缀
+    - lump [lʌmp] 肿块；隆起
+    - swelling [ˈswelɪŋ] 肿胀；膨胀
+    - nodule [ˈnɒdjuːl] 小结节；小瘤
+- flagged [flæɡd] 标记的；加旗标的
+- anecdotally [ˌænɪkˈdəʊtəli] 传闻地；轶事地
+    - anecdote - 轶事； -ally 副词后缀
+    - rumorously [ˈruːmərəsli] 传闻地
+    - reputedly [rɪˈpjuːtɪdli] 据说；据传闻
+    - allegedly [əˈledʒɪdli] 据称；据说
+- plugged [plʌɡd] 堵塞的；塞住的
+    - plug - 塞子；插头； -ed 过去分词后缀
+    - blocked [blɒkt] 堵塞的；封锁的
+    - clogged [klɒɡd] 堵塞的；阻塞的
+    - obstructed [əbˈstrʌktɪd] 阻塞的；妨碍的
+- drain [dreɪn] 排水；流干
+    - -
+    - leakage [ˈliːkɪdʒ] 泄漏；渗漏
+    - runoff [ˈrʌnˌɔːf] 径流；流出物
+    - seepage [ˈsiːpɪdʒ] 渗漏；渗流
+- wrist [rɪst] 手腕；腕关节
+    - -
+    - forearm [ˈfɔːrɑːm] 前臂
+    - hand [hænd] 手
+    - palm [pɑːm] 手掌
+- sacrifice [ˈsækrɪfaɪs] 牺牲；献祭
+    - sacri - 神圣的； -fice 做
+    - offering [ˈɒfərɪŋ] 祭品；提供物
+    - immolation [ˌɪməʊˈleɪʃn] 祭品；宰杀
+    - forfeiture [ˈfɔːfɪtʃə(r)] 没收；丧失
+- sensor [ˈsensə(r)] 传感器
+    - sens - 感觉； -or 表示物
+    - detector [dɪˈtektə(r)] 探测器
+    - transducer [trænzˈdjuːsə(r)] 传感器；变换器
+    - monitor [ˈmɒnɪtə(r)] 监视器；班长
+- tale [teɪl] 故事；传说
+    - -
+    - story [ˈstɔːri] 故事；小说
+    - legend [ˈledʒənd] 传说；传奇故事
+    - fable [ˈfeɪbl] 寓言；传说
+- underpinning [ˌʌndəˈpɪnɪŋ] 基础；支撑
+    - under - 在…… 下面；pin - 钉； -ing 名词后缀
+    - foundation [faʊnˈdeɪʃn] 基础；地基
+    - support [səˈpɔːt] 支持；支撑
+    - buttress [ˈbʌtrəs] 扶壁；支持物
+- capacity [kəˈpæsəti] 容量；能力
+    - cap - 容纳； -acity 名词后缀
+    - volume [ˈvɒljuːm] 体积；容量
+    - capability [ˌkeɪpəˈbɪləti] 能力；才能
+    - competence [ˈkɒmpɪtəns] 能力；胜任。

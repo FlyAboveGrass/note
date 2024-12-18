@@ -26,7 +26,7 @@ The rule announced Tuesday affects Medicaid, which provides health care coverage
 
 Under the proposal, the Centers for Medicare and Medicaid Services, or CMS, would ====reinterpret==== the ====federal==== law, to consider the drugs as a treatment for obesity diseases.
 
-The nation’s top health agency estimates as many as 3.5 million people on Medicare and 4 million on Medicaid could ====qualify==== for coverage of the drugs. But research suggests far more people might ====qualify==,== with the Centers for Medicare and Medicaid Services estimating roughly 28 million people on Medicaid are considered obese.
+The nation’s top health agency estimates as many as 3.5 million people on Medicare and 4 million on Medicaid could ====qualify==== for coverage of the drugs. But research suggests far more people might ====qualify==, with the Centers for Medicare and Medicaid Services estimating roughly 28 million people on Medicaid are considered obese.
 
 And the proposal would cost a lot of money — at least $35 billion over the next decade.
 

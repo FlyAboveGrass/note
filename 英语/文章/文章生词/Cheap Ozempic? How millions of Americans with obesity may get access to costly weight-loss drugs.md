@@ -1,0 +1,143 @@
+
+- shed
+- blessed
+- unveiled
+- mimic
+- hormone
+- peptide
+- gut
+- clinical
+- barred
+- reinterpret
+- federal
+- quality
+- qualify
+- bipartisan
+- coalition
+- lobbied
+- railed
+- poised
+- helm
+- skepticism
+- prescribed
+- dietitians
+- skyrocket
+- prescribed
+
+
+# 翻译
+
+- shed [ʃed] 流出；散发；摆脱；棚屋
+    - she - 分开； -d 过去式或过去分词后缀
+    - spill [spɪl] 溢出；流出
+    - pour [pɔː(r)] 倒；倾泻
+- blessed [ˈblesɪd] 神圣的；幸福的；受祝福的
+    - bless - 祝福； -ed 形容词后缀
+    - holy [ˈhəʊli] 神圣的
+    - sacred [ˈseɪkrɪd] 神圣的
+    - divine [dɪˈvaɪn] 神圣的；神的
+- unveiled [ˌʌnˈveɪld] 揭开；公布；显露
+    - un - 否定； veil - 面纱； -ed 形容词后缀
+    - disclosed [dɪsˈkləʊzd] 揭露；透露
+    - revealed [rɪˈviːld] 显示；透露
+    - exposed [ɪkˈspəʊzd] 暴露；显露
+- mimic [ˈmɪmɪk] 模仿；模拟
+    - mim - 模仿； -ic 形容词后缀
+    - imitate [ˈɪmɪteɪt] 模仿；仿效
+    - copy [ˈkɒpi] 复制；模仿
+    - emulate [ˈemjuleɪt] 仿效；仿真
+- hormone [ˈhɔːməʊn] 激素；荷尔蒙
+    - horm - 刺激； -one 化学物质后缀
+    - estrogen [ˈiːstrədʒən] 雌激素
+    - progesterone [prəʊˈdʒestərəʊn] 孕酮
+    - testosterone [teˈstɒstərəʊn] 睾酮
+- peptide [ˈpeptaɪd] 肽；缩氨酸
+    - pept - 消化； -ide 化学物质后缀
+    - protein [ˈprəʊtiːn] 蛋白质
+    - amino acid [əˈmiːnəʊ ˈæsɪd] 氨基酸
+    - polypeptide [ˌpɒliˈpeptaɪd] 多肽
+- gut [ɡʌt] 内脏；勇气；直觉；肠道
+    - gu - 容器； -t 名词后缀
+    - intestine [ɪnˈtestɪn] 肠
+    - bowel [ˈbaʊəl] 肠；内部
+    - stomach [ˈstʌmək] 胃
+- clinical [ˈklɪnɪkl] 临床的；诊所的
+    - clin - 床； -ical 形容词后缀
+    - medical [ˈmedɪkl] 医学的；医疗的
+    - therapeutic [ˌθerəˈpjuːtɪk] 治疗的；疗法的
+    - diagnostic [ˌdaɪəɡˈnɒstɪk] 诊断的
+- barred [bɑːd] 被禁止的；有条纹的
+    - bar - 条；障碍； -ed 形容词后缀
+    - striped [straɪpt] 有条纹的
+    - streaked [striːkt] 有条纹的
+    - banded [ˈbændɪd] 有带的；有条纹的
+- reinterpret [ˌriːɪnˈtɜːprɪt] 重新解释
+    - re - 再次； interpret - 解释； -ed 过去分词后缀
+    - redefine [ˌriːdɪˈfaɪn] 重新定义
+    - reevaluate [ˌriːɪˈvæljueɪt] 重新评估
+    - reexamine [ˌriːɪɡˈzæmɪn] 重新检查
+- federal [ˈfedərəl] 联邦的；同盟的
+    - feder - 联盟； -al 形容词后缀
+    - federation [ˌfedəˈreɪʃn] 联邦；联盟
+    - confederate [kənˈfedərət] 同盟的；邦联的
+    - union [ˈjuːniən] 联盟；工会
+- quality [ˈkwɒləti] 质量；品质；特性
+    - - 无明显的词根或者前缀后缀
+    - attribute [əˈtrɪbjuːt] [ˈætrɪbjuːt] 特质；属性
+    - characteristic [ˌkærəktəˈrɪstɪk] 特征；特点
+    - feature [ˈfiːtʃə(r)] 特色；特征
+- qualify [ˈkwɒlɪfaɪ] 使具有资格；限定
+    - - 无明显的词根或者前缀后缀
+    - enable [ɪˈneɪbl] 使能够；使有资格
+    - empower [ɪmˈpaʊə(r)] 授权；使有能力
+    - capacitate [ˌkæpəˈsɪteɪt] 使能够；赋予能力
+- bipartisan [ˌbaɪˈpɑːtɪzæn] 两党的；代表两党的
+    - bi - 两； partisan - 党派的； -an 形容词后缀
+    - nonpartisan [ˌnɒnˈpɑːtɪzæn] 无党派的
+    - multipartisan [ˌmʌltiˈpɑːtɪzæn] 多党派的
+    - bipartisanism [ˌbaɪpɑːtɪˈzænɪzəm] 两党制
+- coalition [ˌkəʊəˈlɪʃn] 联合；结合；联盟
+    - co - 共同； alit - 结合； -ion 名词后缀
+    - alliance [əˈlaɪəns] 联盟；联合
+    - union [ˈjuːniən] 联盟；工会
+    - federation [ˌfedəˈreɪʃn] 联邦；联盟
+- lobbied [ˈlɒbid] 游说；进行游说活动
+    - lobby - 游说； -ied 过去式或过去分词后缀
+    - advocate [ˈædvəkeɪt] 提倡；主张
+    - plead [pliːd] 辩护；恳求
+    - campaign [kæmˈpeɪn] 运动；竞选活动
+- railed [reɪld] 责骂；抱怨；用栏杆围住
+    - rail - 栏杆；责骂； -ed 过去式或过去分词后缀
+    - complain [kəmˈpleɪn] 抱怨；诉苦
+    - grumble [ˈɡrʌmbl] 抱怨；嘟囔
+    - murmur [ˈmɜːmə(r)] 低语；抱怨
+- poised [pɔɪzd] 泰然自若的；平衡的
+    - - 无明显的词根或者前缀后缀
+    - composed [kəmˈpəʊzd] 镇静的；沉着的
+    - calm [kɑːm] 平静的；沉着的
+    - serene [səˈriːn] 平静的；安详的
+- helm [helm] 舵；领导地位
+    - - 无明显的词根或者前缀后缀
+    - leadership [ˈliːdəʃɪp] 领导；领导地位
+    - command [kəˈmɑːnd] 指挥；控制
+    - guidance [ˈɡaɪdns] 指导；引导
+- skepticism [ˈskeptɪsɪzəm] 怀疑态度；怀疑论
+    - skeptic - 怀疑论者； -ism 主义后缀
+    - doubt [daʊt] 怀疑；疑惑
+    - suspicion [səˈspɪʃn] 怀疑；疑心
+    - incredulity [ˌɪnkrəˈdjuːləti] 怀疑；不轻信
+- prescribed [prɪˈskraɪbd] 规定的；指定的
+    - pre - 预先； scrib - 写； -ed 形容词后缀
+    - stipulated [ˈstɪpjuleɪtɪd] 规定的；约定的
+    - specified [ˈspesɪfaɪd] 明确规定的；具体说明的
+    - designated [ˈdezɪɡneɪtɪd] 指定的；选定的
+- dietitians [ˌdaɪəˈtɪʃənz] 营养师
+    - diet - 饮食； -itian 表示人的后缀
+    - nutritionist [njuˈtrɪʃənɪst] 营养学家
+    - dietician [ˌdaɪəˈtɪʃən] 营养师（美式拼写）
+    - diet counselor [ˈdaɪət ˈkaʊnsələ(r)] 饮食顾问
+- skyrocket [ˈskaɪrɒkɪt] 飞涨；猛涨
+    - sky - 天空； rocket - 火箭； -et 动词后缀
+    - surge [sɜːdʒ] 急剧上升；猛增
+    - soar [sɔː(r)] 高飞；猛增
+    - escalate [ˈeskəleɪt] 逐步上升；逐步增强

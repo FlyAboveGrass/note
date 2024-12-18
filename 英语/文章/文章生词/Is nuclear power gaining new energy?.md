@@ -1,0 +1,44 @@
+
+- irreversible
+- radioactive
+- sapped
+- enthusiasm
+- abundant
+- revival
+- fuelled
+- curb
+- seduced
+- kilogram
+- uranium
+- coal
+- contamination
+- aftermath
+- phase out
+- scrambling
+- striving
+- scrapped
+- fleet
+- reliance
+- reaffirmed
+- meltdown
+- tainted
+- nascent
+- in part
+- cobined
+- sheer
+- prohibitively
+- stretch
+- coastline
+- assembled
+- polarised
+- fission
+- folly
+- herald
+- accumulated
+- hazardous
+- purse
+- disposal
+- tunnels
+- dump
+- conundrum
+- dictating
