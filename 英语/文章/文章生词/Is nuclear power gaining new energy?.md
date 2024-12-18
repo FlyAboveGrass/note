@@ -24,7 +24,7 @@
 - tainted
 - nascent
 - in part
-- cobined
+- combined
 - sheer
 - prohibitively
 - stretch
@@ -42,3 +42,222 @@
 - dump
 - conundrum
 - dictating
+
+
+# 翻译
+
+- irreversible [ˌɪrɪˈvɜːsəbl] 不可逆的
+    - ir- 不；revers - 反转； -ible 形容词后缀
+    - unalterable [ʌnˈɔːltərəbl] 不可改变的
+    - unchangeable [ʌnˈtʃeɪndʒəbl] 不可改变的
+    - inalterable [ɪnˈɔːltərəbl] 不可改变的
+- radioactive [ˌreɪdiəʊˈæktɪv] 放射性的；有辐射的
+    - radio - 放射； -active 形容词后缀
+    - radiogenic [ˌreɪdiəʊˈdʒenɪk] 放射产生的
+    - radiological [ˌreɪdiəʊˈlɒdʒɪkl] 放射学的
+    - radiate [ˈreɪdieɪt] 辐射；发射
+- sapped [sæpt] 使衰竭；削弱
+    - sap - 使衰竭； -ed 过去分词后缀
+    - weakened [ˈwiːkənd] 虚弱的；减弱的
+    - enfeebled [ɪnˈfiːbld] 衰弱的
+    - debilitated [dɪˈbɪlɪteɪtɪd] 虚弱的
+- enthusiasm [ɪnˈθjuːziæzəm] 热情；热心
+    - en- 使；thus - 神； -iasm 名词后缀
+    - eagerness [ˈiːɡənəs] 渴望；热心
+    - zeal [ziːl] 热情；热心
+    - fervor [ˈfɜːvə(r)] 热情；热烈
+- abundant [əˈbʌndənt] 丰富的；充裕的
+    - ab- 加强；und - 流； -ant 形容词后缀
+    - plentiful [ˈplentɪfl] 丰富的；大量的
+    - copious [ˈkəʊpiəs] 丰富的；大量的
+    - ample [ˈæmpl] 丰富的；足够的
+- revival [rɪˈvaɪvl] 复兴；复活
+    - re- 再；viv - 活； -al 名词后缀
+    - resurgence [rɪˈsɜːdʒəns] 复苏；复兴
+    - rejuvenation [rɪˌdʒuːvəˈneɪʃn] 恢复活力；返老还童
+    - renewal [rɪˈnjuːəl] 更新；复兴
+- fuelled [ˈfjuːəld] 给…… 提供燃料；刺激
+    - fuel - 燃料； -ed 过去分词后缀
+    - powered [ˈpaʊəd] 有动力的；以…… 为动力的
+    - energized [ˈenədʒaɪzd] 充满活力的；激励
+    - stimulated [ˈstɪmjuleɪtɪd] 刺激；激励
+- curb [kɜːb] 控制；抑制
+    - 无明显的词根或者前缀后缀
+    - restrain [rɪˈstreɪn] 抑制；控制
+    - check [tʃek] 检查；控制
+    - control [kənˈtrəʊl] 控制；管理
+- seduced [sɪˈdjuːst] 引诱；诱惑
+    - se- 分开；duc - 引导； -ed 过去分词后缀
+    - lured [ljʊəd] 引诱；诱惑
+    - tempted [ˈtemptɪd] 诱惑；引诱
+    - enticed [ɪnˈtaɪst] 引诱；诱惑
+- kilogram [ˈkɪləɡræm] 千克；公斤
+    - kilo - 千；gram - 克
+    - gram [ɡræm] 克
+    - milligram [ˈmɪliɡræm] 毫克
+    - centigram [ˈsentɪɡræm] 厘克
+- uranium [juˈreɪniəm] 铀
+    - 无明显的词根或者前缀后缀
+    - plutonium [pluːˈtəʊniəm] 钚
+    - radium [ˈreɪdiəm] 镭
+    - thorium [ˈθɔːriəm] 钍
+- coal [kəʊl] 煤；煤炭
+    - 无明显的词根或者前缀后缀
+    - charcoal [ˈtʃɑːkəʊl] 木炭
+    - coke [kəʊk] 焦炭
+    - anthracite [ˈænθrəsaɪt] 无烟煤
+- contamination [kənˌtæmɪˈneɪʃn] 污染；弄脏
+    - con- 共同；tamin - 接触； -ation 名词后缀
+    - pollution [pəˈluːʃn] 污染
+    - impurity [ɪmˈpjʊərəti] 杂质；不纯
+    - taint [teɪnt] 污染；玷污
+- aftermath [ˈɑːftəmæθ] 后果；余波
+    - after - 在…… 之后；math - 割草
+    - consequence [ˈkɒnsɪkwəns] 结果；后果
+    - result [rɪˈzʌlt] 结果；成效
+    - outcome [ˈaʊtkʌm] 结果；结局
+- phase out [feɪz aʊt] 逐步淘汰；分阶段停止
+    - phase - 阶段；out - 出去
+    - eliminate [ɪˈlɪmɪneɪt] 消除；排除
+    - remove [rɪˈmuːv] 移除；去掉
+    - get rid of 摆脱；除去
+- scrambling [ˈskræmblɪŋ] 爬；攀登；争夺
+    - scrambl - 爬；争夺； -ing 名词后缀
+    - climbing [ˈklaɪmɪŋ] 攀登；爬
+    - ascending [əˈsendɪŋ] 上升的；攀登的
+    - scaling [ˈskeɪlɪŋ] 攀登；鳞状剥落
+- striving [ˈstraɪvɪŋ] 努力；奋斗
+    - striv - 努力； -ing 名词后缀
+    - endeavor [ɪnˈdevə(r)] 努力；尽力
+    - struggle [ˈstrʌɡl] 奋斗；努力
+    - exertion [ɪɡˈzɜːʃn] 努力；发挥
+- scrapped [skræpt] 废弃；报废
+    - scrap - 废弃； -ed 过去分词后缀
+    - discarded [dɪsˈkɑːdɪd] 丢弃的；废弃的
+    - abandoned [əˈbændənd] 被遗弃的；废弃的
+    - junked [dʒʌŋkt] 废弃的；报废的
+- fleet [fliːt] 舰队；船队
+    - 无明显的词根或者前缀后缀
+    - armada [ɑːˈmɑːdə] 舰队
+    - flotilla [fləˈtɪlə] 小型舰队
+    - convoy [ˈkɒnvɔɪ] 护航队；船队
+- reliance [rɪˈlaɪəns] 依赖；依靠
+    - re- 再；li - 依靠； -ance 名词后缀
+    - dependency [dɪˈpendənsi] 依赖；附属
+    - reliance [rɪˈlaɪəns] 依赖；依靠
+    - dependence [dɪˈpendəns] 依赖；依靠
+- reaffirmed [ˌriːəˈfɜːmd] 重申；再次确认
+    - re- 再；affirm - 肯定； -ed 过去分词后缀
+    - reassert [ˌriːəˈsɜːt] 重申；再断言
+    - reconfirm [ˌriːkənˈfɜːm] 再次确认；再次证实
+    - reiterate [riˈɪtəreɪt] 反复地说；重申
+- meltdown [ˈmeltdaʊn] 熔毁；崩溃
+    - melt - 融化；down - 向下
+    - breakdown [ˈbreɪkdaʊn] 故障；崩溃
+    - collapse [kəˈlæps] 倒塌；崩溃
+    - failure [ˈfeɪljə(r)] 失败；故障
+- tainted [ˈteɪntɪd] 污染的；玷污的
+    - taint - 污染；玷污； -ed 过去分词后缀
+    - contaminated [kənˌtæmɪˈneɪtɪd] 污染的；弄脏的
+    - polluted [pəˈluːtɪd] 受污染的
+    - defiled [dɪˈfaɪld] 弄脏的；污损的
+- nascent [ˈnæsnt] 新生的；初期的
+    - nasc - 出生； -ent 形容词后缀
+    - emerging [iˈmɜːdʒɪŋ] 新兴的；出现的
+    - incipient [ɪnˈsɪpiənt] 初始的；早期的
+    - budding [ˈbʌdɪŋ] 萌芽的；发育期的
+- in part 在某种程度上；部分地
+    - in - 在…… 里；part - 部分
+    - partly [ˈpɑːtli] 部分地；在一定程度上
+    - partially [ˈpɑːʃəli] 部分地；不完全地
+    - to some extent 在某种程度上
+- combined [kəmˈbaɪnd] 结合的；组合的
+    - com- 共同；bined（可能是 bind 的变形） - 捆绑； -ed 过去分词后缀
+    - integrated [ˈɪntɪɡreɪtɪd] 综合的；完整的
+    - unified [ˈjuːnɪfaɪd] 统一的；联合的
+    - merged [mɜːdʒd] 合并的；融合的
+- sheer [ʃɪə(r)] 纯粹的；全然的；陡峭的
+    - 无明显的词根或者前缀后缀
+    - pure [pjʊə(r)] 纯的；纯粹的
+    - absolute [ˈæbsəluːt] 绝对的；完全的
+    - utter [ˈʌtə(r)] 完全的；彻底的
+- prohibitively [prəˈhɪbɪtɪvli] 价格高得离谱地；禁止地
+    - prohibit - 禁止； -ively 副词后缀
+    - extremely expensively 极其昂贵地
+    - exorbitantly [ɪɡˈzɔːbɪtəntli] 过高地；过分地
+    - outrageously [aʊtˈreɪdʒəsli] 过分地；离谱地
+- stretch [stretʃ] 伸展；延伸
+    - 无明显的词根或者前缀后缀
+    - extend [ɪkˈstend] 延伸；扩大
+    - lengthen [ˈleŋθən] 使延长；变长
+    - prolong [prəˈlɒŋ] 延长；拉长
+- coastline [ˈkəʊstlaɪn] 海岸线
+    - coast - 海岸；line - 线
+    - seashore [ˈsiːʃɔː(r)] 海岸；海滨
+    - shoreline [ˈʃɔːlaɪn] 海岸线；海滨线
+    - beachfront [ˈbiːtʃfrʌnt] 海滨地区
+- assembled [əˈsembld] 装配的；集合的
+    - as- 向；sembl - 类似； -ed 过去分词后缀
+    - gathered [ˈɡæðəd] 聚集的；收集的
+    - collected [kəˈlektɪd] 收集的；聚集的
+    - put together 组装；组合
+- polarised [ˈpəʊləraɪzd] 两极分化的；极化的
+    - polar - 极地的； -ise（英式拼写为 - ize）使……； -d（英式拼写为 - ed）过去分词后缀
+    - divided [dɪˈvaɪdɪd] 分裂的；有分歧的
+    - split [splɪt] 分裂；分开
+    - opposed [əˈpəʊzd] 相反的；对立的
+- fission [ˈfɪʃn] 分裂；裂变
+    - 无明显的词根或者前缀后缀
+    - split [splɪt] 分裂；分开
+    - division [dɪˈvɪʒn] 分开；分配
+    - fragmentation [ˌfræɡmenˈteɪʃn] 分裂；破碎
+- folly [ˈfɒli] 愚蠢；荒唐事
+    - 无明显的词根或者前缀后缀
+    - stupidity [stjuːˈpɪdəti] 愚蠢；愚笨
+    - foolishness [ˈfuːlɪʃnəs] 愚蠢；傻气
+    - silliness [ˈsɪlinəs] 愚蠢；糊涂。
+- herald [ˈherəld] 预示；宣布
+    - her - 军队； -ald 名词后缀（表示人），引申为宣布者
+    - announce [əˈnaʊns] 宣布；宣告
+    - proclaim [prəˈkleɪm] 宣告；公布
+    - declare [dɪˈkleə(r)] 宣布；声明
+- accumulated [əˈkjuːmjəleɪtɪd] 累积的；积聚的
+    - ac- 加强；cumul - 堆积； -ate 动词后缀； -ed 过去分词后缀
+    - amassed [əˈmæst] 积聚；积累
+    - gathered [ˈɡæðəd] 聚集；收集
+    - collected [kəˈlektɪd] 收集；聚集
+- hazardous [ˈhæzədəs] 危险的；有害的
+    - hazard - 危险； -ous 形容词后缀
+    - dangerous [ˈdeɪndʒərəs] 危险的
+    - perilous [ˈperələs] 危险的；冒险的
+    - risky [ˈrɪski] 危险的；冒险的
+- purse [pɜːs] 钱包；资金
+    - 无明显的词根或者前缀后缀
+    - wallet [ˈwɒlɪt] 钱包；皮夹
+    - handbag [ˈhændbæɡ] 手提包
+    - pouch [paʊtʃ] 小袋；囊
+- disposal [dɪˈspəʊzl] 处理；处置
+    - dis- 分离；pos - 放置； -al 名词后缀
+    - treatment [ˈtriːtmənt] 处理；治疗
+    - handling [ˈhændlɪŋ] 处理；操作
+    - management [ˈmænɪdʒmənt] 管理；处理
+- tunnels [ˈtʌnlz] 隧道；地道
+    - tun - 桶；引申为管道、通道； -nel 名词后缀，表小； -s 复数后缀
+    - passageway [ˈpæsɪdʒweɪ] 通道；走廊
+    - corridor [ˈkɒrɪdɔː(r)] 走廊；通道
+    - tube [tjuːb] 管；隧道
+- dump [dʌmp] 倾倒；丢弃
+    - 无明显的词根或者前缀后缀
+    - discard [dɪsˈkɑːd] 丢弃；抛弃
+    - throw away 扔掉；丢弃
+    - abandon [əˈbændən] 遗弃；放弃
+- conundrum [kəˈnʌndrəm] 难题；谜语
+    - 无明显的词根或者前缀后缀
+    - puzzle [ˈpʌzl] 难题；谜
+    - enigma [ɪˈnɪɡmə] 谜；神秘的事物
+    - mystery [ˈmɪstri] 神秘；奥秘
+- dictating [ˈdɪkteɪtɪŋ] 口述；命令
+    - dict - 说； -ate 动词后缀； -ing 名词后缀
+    - order [ˈɔːdə(r)] 命令；指示
+    - command [kəˈmɑːnd] 命令；指挥
+    - instruct [ɪnˈstrʌkt] 指示；命令。

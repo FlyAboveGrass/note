@@ -57,7 +57,7 @@ Despite its ====tainted==== public image, another reactor at the plant continu
 
 Other tech giants have taken a different approach. [Google plans to buy energy](https://www.bbc.co.uk/news/articles/c748gn94k95o) produced from a handful of so-called Small Modular Reactors or SMRs – a ====nascent==== technology intended to make nuclear energy easier and cheaper to deploy. Amazon is also supporting SMR development and construction.
 
-SMRs themselves are being promoted, ====in part==,== as a solution to one of the biggest drawbacks facing nuclear power today. In western nations, new power stations have to be built to exacting modern safety standards. This, ====cobined==== with their ==sheer== scale, makes them ====prohibitively==== expensive and complicated to build.
+SMRs themselves are being promoted, ====in part==,== as a solution to one of the biggest drawbacks facing nuclear power today. In western nations, new power stations have to be built to exacting modern safety standards. This, ====combined==== with their ==sheer== scale, makes them ====prohibitively==== expensive and complicated to build.
 
 Hinkley Point C is a good example. Britain’s first new nuclear power station since the mid-1990s is being built on a ====stretch==== of remote ====coastline==== in southwest England.
 
