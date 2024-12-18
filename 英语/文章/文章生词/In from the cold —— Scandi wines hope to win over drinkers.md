@@ -1,1 +1,229 @@
 
+
+- frontier
+- vineyard
+- niche
+- vine
+- hillside
+- hectare
+- acre
+- winery
+- predominantly
+- grape
+- floral
+- aromatic
+- clime
+- ripen
+- spray
+- twinkle
+- half smile
+- chuckle
+- amateur
+- entrepreneur
+- infancy
+- cultivated
+- pinot
+- noir
+- merlot
+- milder
+- frost
+- reckon
+- phenomena
+- drought
+- robust
+- seedling
+- viticulture
+- peninsula
+- expat
+- fraction
+- negligible
+
+
+# 翻译
+
+
+- frontier [ˈfrʌntɪə(r)] 边界；边境；前沿
+    - front - 前面； -ier 名词后缀
+    - border [ˈbɔːdə(r)] 边界；边境
+    - boundary [ˈbaʊndri] 边界；界限
+    - perimeter [pəˈrɪmɪtə(r)] 周边；周长
+- vineyard [ˈvɪnjəd] 葡萄园
+    - vine - 葡萄藤； -yard 场地
+    - orchard [ˈɔːtʃəd] 果园
+    - plantation [plɑːnˈteɪʃn] 种植园；大农场
+    - grove [ɡrəʊv] 小树林；果园
+- niche [niːʃ] 壁龛；合适的位置；利基市场
+    - - 无明显的词根或者前缀后缀
+    - corner [ˈkɔːnə(r)] 角落；拐角处
+    - recess [rɪˈses] 壁凹；凹处
+    - alcove [ˈælkəʊv] 凹室；壁龛
+- vine [vaɪn] 葡萄藤
+    - - 无明显的词根或者前缀后缀
+    - grapevine [ˈɡreɪpvaɪn] 葡萄藤；小道消息
+    - ivy [ˈaɪvi] 常春藤
+    - creeper [ˈkriːpə(r)] 爬行者；匍匐植物
+- hillside [ˈhɪlsaɪd] 山坡；山腰
+    - hill - 小山； -side 边
+    - mountainside [ˈmaʊntənsaɪd] 山坡
+    - slope [sləʊp] 斜坡；斜面
+    - incline [ɪnˈklaɪn] 斜坡；斜面
+- hectare [ˈhekteə(r)] 公顷
+    - hect - 百； -are 公制面积单位后缀
+    - acre [ˈeɪkə(r)] 英亩
+    - square meter [skweə(r) ˈmiːtə(r)] 平方米
+    - square kilometer [skweə(r) ˈkɪləmiːtə(r)] 平方千米
+- acre [ˈeɪkə(r)] 英亩
+    - - 无明显的词根或者前缀后缀
+    - hectare [ˈhekteə(r)] 公顷
+    - square foot [skweə(r) ˈfʊt] 平方英尺
+    - square yard [skweə(r) ˈjɑːd] 平方码
+- winery [ˈwaɪnəri] 酿酒厂；葡萄酒厂
+    - wine - 葡萄酒； -ery 场所后缀
+    - brewery [ˈbruːəri] 啤酒厂
+    - distillery [dɪˈstɪləri] 酿酒厂；蒸馏厂
+    - cannery [ˈkænəri] 罐头食品厂
+- predominantly [prɪˈdɒmɪnəntli] 主要地；显著地
+    - pre - 前；dominant - 占优势的； -ly 副词后缀
+    - mainly [ˈmeɪnli] 主要地；大体上
+    - chiefly [ˈtʃiːfli] 主要地；首先
+    - largely [ˈlɑːdʒli] 主要地；很大程度上
+- grape [ɡreɪp] 葡萄
+    - - 无明显的词根或者前缀后缀
+    - raisin [ˈreɪzn] 葡萄干
+    - currant [ˈkʌrənt] 无核小葡萄干；醋栗
+    - sultana [sʌlˈtɑːnə] 无核小葡萄干。
+- floral [ˈflɔːrəl] 花的；植物群的；花似的
+    - flor - 花； -al 形容词后缀
+    - flowery [ˈflaʊəri] 花的；华丽的
+    - blossom [ˈblɒsəm] 花；开花
+    - petal [ˈpetl] 花瓣
+- aromatic [ˌærəˈmætɪk] 芳香的；有香味的
+    - aroma - 芳香； -tic 形容词后缀
+    - fragrant [ˈfreɪɡrənt] 芳香的；愉快的
+    - scented [ˈsentɪd] 有香味的；洒香水的
+    - perfumed [ˈpɜːfjuːmd] 芳香的；有香味的
+- clime [klaɪm] 气候；地方；地域
+    - - 无明显的词根或者前缀后缀
+    - climate [ˈklaɪmət] 气候；风气
+    - weather [ˈweðə(r)] 天气；气象
+    - atmosphere [ˈætməsfɪə(r)] 大气；气氛
+- ripen [ˈraɪpən] 使成熟；成熟
+    - ripe - 成熟的； -en 使动后缀
+    - mature [məˈtʃʊə(r)] 成熟的；到期的
+    - develop [dɪˈveləp] 发展；使成长
+    - grow up [ɡrəʊ ʌp] 长大；成熟
+- spray [spreɪ] 喷雾；浪花；喷雾器
+    - - 无明显的词根或者前缀后缀
+    - mist [mɪst] 薄雾；喷雾
+    - spurt [spɜːt] 喷出；冲刺
+    - squirt [skwɜːt] 喷出；注射
+- twinkle [ˈtwɪŋkl] 闪烁；闪耀；眨眼
+    - twin - 成双的； -kle 反复动作后缀
+    - sparkle [ˈspɑːkl] 闪耀；火花
+    - glitter [ˈɡlɪtə(r)] 闪烁；闪耀
+    - shine [ʃaɪn] 发光；照耀
+- half smile [hɑːf smaɪl] 浅笑；微笑
+    - half - 一半；smile - 微笑
+    - faint smile [feɪnt smaɪl] 淡淡的微笑
+    - gentle smile [ˈdʒentl smaɪl] 温柔的微笑
+    - soft smile [sɒft smaɪl] 轻柔的微笑
+- chuckle [ˈtʃʌkl] 轻声笑；咯咯笑
+    - - 无明显的词根或者前缀后缀
+    - giggle [ˈɡɪɡl] 咯咯笑；傻笑
+    - laugh [lɑːf] 笑；笑声
+    - snicker [ˈsnɪkə(r)] 窃笑；暗笑
+- amateur [ˈæmətə(r)] 业余爱好者；外行
+    - amat - 爱； -eur 人后缀
+    - hobbyist [ˈhɒbiɪst] 业余爱好者
+    - dilettante [ˌdɪləˈtænti] 业余爱好者；一知半解者
+    - nonprofessional [ˌnɒnprəˈfeʃənl] 非专业的；业余的。
+- entrepreneur [ˌɒntrəprəˈnɜː(r)] 企业家；创业者
+    - entre - 在… 之间；preneur - 承担者
+    - enterpriser [ˈentəpraɪzə(r)] 企业家；创业者
+    - businessperson [ˈbɪznəspɜːsn] 商人；企业家
+    - tycoon [taɪˈkuːn] 企业巨头；大亨
+- infancy [ˈɪnfənsi] 婴儿期；幼年；初期
+    - in - 在内；fan - 说； -cy 名词后缀
+    - babyhood [ˈbeɪbihʊd] 婴儿期；幼儿期
+    - childhood [ˈtʃaɪldhʊd] 童年；幼年时代
+    - early stage [ˈɜːli steɪdʒ] 早期；初期
+- cultivated [ˈkʌltɪveɪtɪd] 有教养的；栽培的；耕种的
+    - culti - 耕种； -vated 形容词后缀
+    - civilized [ˈsɪvəlaɪzd] 文明的；有教养的
+    - refined [rɪˈfaɪnd] 精炼的；有教养的
+    - cultured [ˈkʌltʃəd] 有教养的；有文化的
+- pinot [ˈpiːnəʊ] 黑皮诺（葡萄品种名）
+    - - 无明显的词根或者前缀后缀
+    - pinot noir [ˈpiːnəʊ nwɑː(r)] 黑皮诺葡萄酒
+    - pinot gris [ˈpiːnəʊ ɡriː] 灰皮诺葡萄酒
+    - pinot blanc [ˈpiːnəʊ blɑːŋ] 白皮诺葡萄酒
+- noir [nwɑː(r)] （法）黑色的；（葡萄酒）黑葡萄酿的
+    - - 无明显的词根或者前缀后缀
+    - pinot noir [ˈpiːnəʊ nwɑː(r)] 黑皮诺葡萄酒
+    - cabernet sauvignon noir [ˌkæbəˈneɪ səʊviˈnjɒn nwɑː(r)] 黑皮诺赤霞珠葡萄酒
+    - merlot noir [ˈmerləʊ nwɑː(r)] 黑皮诺梅洛葡萄酒
+- merlot [ˈmerləʊ] 梅洛（葡萄品种名）
+    - - 无明显的词根或者前缀后缀
+    - merlot wine [ˈmerləʊ waɪn] 梅洛葡萄酒
+    - cabernet merlot [ˌkæbəˈneɪ ˈmerləʊ] 赤霞珠梅洛葡萄酒
+    - shiraz merlot [ʃɪˈræz ˈmerləʊ] 西拉子梅洛葡萄酒
+- milder [ˈmaɪldə(r)] 更温和的；更淡的；更轻微的
+    - mild - 温和的； -er 比较级后缀
+    - gentle [ˈdʒentl] 温和的；文雅的
+    - soft [sɒft] 柔软的；温和的
+    - moderate [ˈmɒdərət] 适度的；温和的
+- frost [frɒst] 霜；霜冻；严寒
+    - - 无明显的词根或者前缀后缀
+    - freeze [friːz] 冻结；冷冻
+    - icy [ˈaɪsi] 冰冷的；结满冰的
+    - cold [kəʊld] 寒冷的；冷淡的
+- reckon [ˈrekən] 估计；计算；认为
+    - re - 再；ckon - 计数
+    - calculate [ˈkælkjuleɪt] 计算；估计
+    - estimate [ˈestɪmət] 估计；估算
+    - count [kaʊnt] 计算；数数。
+- phenomena [fəˈnɒmɪnə] 现象（phenomenon 的复数）
+    - pheno - 显示； -mena 复数后缀
+    - occurrence [əˈkʌrəns] 发生；出现
+    - incident [ˈɪnsɪdənt] 事件；事变
+    - event [ɪˈvent] 事件；大事
+- drought [draʊt] 干旱；缺乏
+    - - 无明显的词根或者前缀后缀
+    - aridity [əˈrɪdəti] 干旱；贫瘠
+    - dryness [ˈdraɪnəs] 干燥；干旱
+    - scarcity [ˈskeəsəti] 不足；缺乏
+- robust [rəʊˈbʌst] 强健的；强壮的；耐用的
+    - - 无明显的词根或者前缀后缀
+    - sturdy [ˈstɜːdi] 强壮的；坚固的
+    - strong [strɒŋ] 强壮的；强烈的
+    - powerful [ˈpaʊəfl] 强大的；有力的
+- seedling [ˈsiːdlɪŋ] 幼苗；秧苗
+    - seed - 种子； -ling 小后缀
+    - sprout [spraʊt] 发芽；嫩枝
+    - sapling [ˈsæplɪŋ] 树苗；幼树
+    - plantlet [ˈplæntlɪt] 小植物；苗
+- viticulture [ˈvɪtɪkʌltʃə(r)] 葡萄栽培；葡萄种植
+    - viti - 葡萄； -culture 栽培
+    - grape growing [ɡreɪp ˈɡrəʊɪŋ] 葡萄种植
+    - vine cultivation [vaɪn ˌkʌltɪˈveɪʃn] 葡萄栽培
+    - winemaking [ˈwaɪnmeɪkɪŋ] 酿酒；葡萄酒酿造
+- peninsula [pəˈnɪnsjələ] 半岛
+    - pen - 几乎；insula - 岛
+    - cape [keɪp] 海角；岬
+    - promontory [ˈprɒməntri] 海角；岬
+    - headland [ˈhedlənd] 岬；海角
+- expat [ˌɛksˈpæt] 侨民；移居国外者
+    - ex - 出；pat - 自己的国家
+    - expatriate [ˌɛksˈpætriət] 侨民；移居国外者
+    - immigrant [ˈɪmɪɡrənt] 移民；侨民
+    - emigrant [ˈɛmɪɡrənt] 移民；侨民
+- fraction [ˈfrækʃn] 分数；部分；小部分
+    - fract - 打破； -ion 名词后缀
+    - portion [ˈpɔːʃn] 部分；一份
+    - segment [ˈsɛɡmənt] 部分；片段
+    - section [ˈsɛkʃn] 部分；部门
+- negligible [ˈneɡlɪdʒəbl] 微不足道的；可以忽略的
+    - neg - 否定；lig - 选择； -ible 能… 的
+    - insignificant [ˌɪnsɪɡˈnɪfɪkənt] 无关紧要的；微不足道的
+    - trifling [ˈtraɪflɪŋ] 微不足道的；不重要的
+    - petty [ˈpeti] 小的；琐碎的。

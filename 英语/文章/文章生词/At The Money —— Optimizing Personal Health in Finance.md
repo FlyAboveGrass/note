@@ -14,3 +14,272 @@
 - rational
 - volatile
 - volatility
+- stamina
+- resilience
+- harping
+- recuperate
+- charisma
+- odd
+- hedge
+- metabolic
+- sustainable
+- metabolism
+- granular
+- debate
+- mitochondria
+- buzzword
+- anaerobic
+- duper
+- gung
+- fancy
+- ingredient
+- prominent
+- accrue
+- functioning
+- wise
+- aversion
+- fringe
+- flipping
+- mood
+- thriving
+- aha
+- miserable
+- buddhism
+- enlightenment
+- disclosure
+
+
+
+# 翻译
+
+- alpha [ˈælfə] 希腊字母表的第一个字母；开端；最初
+    - 无明显的词根或者前缀后缀
+    - beta [ˈbiːtə] 希腊字母表的第二个字母
+    - omega [ˈəʊmɪɡə] 希腊字母表的最后一个字母
+    - initial [ɪˈnɪʃl] 最初的
+- quant [kwænt] 定量分析专家；船桨
+    - 无明显的词根或者前缀后缀
+    - number [ˈnʌmbə(r)] 数字
+    - quantity [ˈkwɒntəti] 数量
+    - amount [əˈmaʊnt] 数量
+- implication [ˌɪmplɪˈkeɪʃn] 含义；暗示；牵连
+    - im- 向内；plic - 折叠；-ation 名词后缀
+    - hint [hɪnt] 暗示
+    - suggestion [səˈdʒestʃən] 建议；暗示
+    - indication [ˌɪndɪˈkeɪʃn] 指示；暗示
+- portfolio [pɔːtˈfəʊliəʊ] 公文包；证券投资组合
+    - port - 拿；携带；folio - 对折纸；-o 名词后缀
+    - investment [ɪnˈvestmənt] 投资
+    - stock [stɒk] 股票
+    - asset [ˈæset] 资产
+- derive [dɪˈraɪv] 源于；得自；衍生
+    - de- 从……；riv - 河流；-e 动词后缀
+    - originate [əˈrɪdʒɪneɪt] 起源；发源
+    - stem from 源于
+    - come from 来自
+- primer [ˈpraɪmə(r)] 底漆；启蒙读本
+    - 无明显的词根或者前缀后缀
+    - foundation [faʊnˈdeɪʃn] 基础
+    - basic [ˈbeɪsɪk] 基本的
+    - elementary [ˌelɪˈmentri] 基本的
+- outperform [ˌaʊtpəˈfɔːm] 胜过；做得比…… 好
+    - out- 超过；perform - 执行；表演
+    - surpass [səˈpɑːs] 超过；胜过
+    - exceed [ɪkˈsiːd] 超过
+    - excel [ɪkˈsel] 擅长；胜过
+- benchmark [ˈbentʃmɑːk] 基准；标准
+    - bench - 长凳；mark - 标记；-o 名词后缀
+    - standard [ˈstændəd] 标准
+    - criterion [kraɪˈtɪəriən] 标准；准则
+    - norm [nɔːm] 标准；规范
+- tolerance [ˈtɒlərəns] 宽容；容忍；公差
+    - tol - 忍受；-erance 名词后缀
+    - patience [ˈpeɪʃns] 耐心
+    - forbearance [fɔːˈbeərəns] 宽容；忍耐
+    - indulgence [ɪnˈdʌldʒəns] 纵容；宽容
+- cope [kəʊp] 应付；处理
+    - 无明显的词根或者前缀后缀
+    - deal with 处理
+    - handle [ˈhændl] 处理
+    - manage [ˈmænɪdʒ] 管理；处理
+- tilt [tɪlt] 倾斜；翘起；使倾斜
+    - 无明显的词根或者前缀后缀
+    - incline [ɪnˈklaɪn] 倾斜；倾向
+    - slant [slænt] 倾斜；斜面
+    - lean [liːn] 倾斜；倚靠
+- rational [ˈræʃnəl] 合理的；理性的
+    - ration - 定量；合理分配；-al 形容词后缀
+    - reasonable [ˈriːznəbl] 合理的
+    - sensible [ˈsensəbl] 明智的；合理的
+    - logical [ˈlɒdʒɪkl] 符合逻辑的
+- volatile [ˈvɒlətaɪl] 不稳定的；易挥发的；反复无常的
+    - volat - 飞；-ile 形容词后缀
+    - unstable [ʌnˈsteɪbl] 不稳定的
+    - fluctuating [ˈflʌktʃueɪtɪŋ] 波动的
+    - erratic [ɪˈrætɪk] 不稳定的
+- volatility [ˌvɒləˈtɪləti] 挥发性；不稳定
+    - volat - 飞；-ility 名词后缀
+    - instability [ˌɪnstəˈbɪləti] 不稳定
+    - fluctuation [ˌflʌktʃuˈeɪʃn] 波动
+    - variability [ˌveəriəˈbɪləti] 可变性
+- stamina [ˈstæmɪnə] 耐力；毅力
+    - 无明显的词根或者前缀后缀
+    - endurance [ɪnˈdjʊərəns] 忍耐；持久
+    - perseverance [ˌpɜːsəˈvɪərəns] 坚持不懈
+    - tenacity [təˈnæsəti] 坚韧
+- resilience [rɪˈzɪliəns] 恢复力；弹力
+    - re- 回；sili - 跳；-ence 名词后缀
+    - elasticity [ˌiːlæˈstɪsəti] 弹性；弹力
+    - flexibility [ˌfleksəˈbɪləti] 灵活性；弹性
+    - toughness [ˈtʌfnəs] 韧性；坚韧
+- harping [ˈhɑːpɪŋ] 反复提及；唠叨
+    - 无明显的词根或者前缀后缀
+    - nagging [ˈnæɡɪŋ] 唠叨的
+    - repetitive [rɪˈpetətɪv] 重复的
+    - monotonous [məˈnɒtənəs] 单调的
+- recuperate [rɪˈkuːpəreɪt] 恢复；复原
+    - re- 回；cuper - 获得；-ate 动词后缀
+    - recover [rɪˈkʌvə(r)] 恢复；重新获得
+    - heal [hiːl] 治愈；康复
+    - restore [rɪˈstɔː(r)] 恢复；修复
+- charisma [kəˈrɪzmə] 魅力；感召力
+    - 无明显的词根或者前缀后缀
+    - charm [tʃɑːm] 魅力
+    - allure [əˈlʊə(r)] 魅力；吸引力
+    - fascination [ˌfæsɪˈneɪʃn] 魅力；魔力
+- odd [ɒd] 奇数的；古怪的；临时的
+    - 无明显的词根或者前缀后缀
+    - strange [streɪndʒ] 奇怪的
+    - peculiar [pɪˈkjuːliə(r)] 奇特的
+    - eccentric [ɪkˈsentrɪk] 古怪的
+- hedge [hedʒ] 树篱；防范；用树篱围住
+    - 无明显的词根或者前缀后缀
+    - fence [fens] 栅栏
+    - barrier [ˈbæriə(r)] 障碍物；屏障
+    - barricade [ˌbærɪˈkeɪd] 路障
+- metabolic [ˌmetəˈbɒlɪk] 新陈代谢的
+    - meta- 变化；bol - 扔；-ic 形容词后缀
+    - physiological [ˌfɪziəˈlɒdʒɪkl] 生理的
+    - biological [ˌbaɪəˈlɒdʒɪkl] 生物的
+    - biochemical [ˌbaɪəʊˈkemɪkl] 生物化学的
+- sustainable [səˈsteɪnəbl] 可持续的；足可支撑的
+    - sus- 下；tain - 拿住；-able 形容词后缀
+    - renewable [rɪˈnjuːəbl] 可再生的
+    - eco-friendly [ˌiːkəʊ ˈfrendli] 环保的
+    - environmentally friendly [ɪnˌvaɪrənˈmentəli ˈfrendli] 环保的
+- metabolism [məˈtæbəlɪzəm] 新陈代谢
+    - meta- 变化；bol - 扔；-ism 名词后缀
+    - digestion [daɪˈdʒestʃən] 消化
+    - assimilation [əˌsɪməˈleɪʃn] 同化
+    - catabolism [kəˈtæbəlɪzəm] 分解代谢
+- granular [ˈɡrænjələ(r)] 颗粒状的；含颗粒的
+    - gran - 颗粒；-ular 形容词后缀
+    - grainy [ˈɡreɪni] 粒状的
+    - particulate [pɑːˈtɪkjələt] 微粒的
+    - powdery [ˈpaʊdəri] 粉状的
+- debate [dɪˈbeɪt] 辩论；争论
+    - de- 加强；bat - 打；-e 动词后缀
+    - argument [ˈɑːɡjumənt] 争论；论据
+    - discussion [dɪˈskʌʃn] 讨论
+    - controversy [ˈkɒntrəvɜːsi] 争论；争议
+- mitochondria [ˌmaɪtəʊˈkɒndriə] 线粒体
+    - 无明显的词根或者前缀后缀
+    - cell organelle [sel ˈɔːɡənel] 细胞器
+    - nucleus [ˈnjuːkliəs] 细胞核
+    - cytoplasm [ˈsaɪtəʊplæzəm] 细胞质
+- buzzword [ˈbʌzwɜːd] 流行词；时髦术语
+    - buzz - 嗡嗡声；word - 单词
+    - catchphrase [ˈkætʃfreɪz] 流行语
+    - slogan [ˈsləʊɡən] 标语；口号
+    - tagline [ˈtæɡlaɪn] 标语；品牌口号
+- anaerobic [ˌæneəˈrəʊbɪk] 厌氧的；没有空气而能生活的
+    - an- 无；aer - 空气；-obic 形容词后缀
+    - aerobic [eəˈrəʊbɪk] 需氧的
+    - oxygen-dependent [ˈɒksɪdʒən dɪˈpendənt] 依赖氧气的
+    - oxygen-requiring [ˈɒksɪdʒən rɪˈkwaɪərɪŋ] 需要氧气的
+- duper [ˈdjuːpə(r)] 骗子
+    - 无明显的词根或者前缀后缀
+    - swindler [ˈswɪndlə(r)] 骗子
+    - cheat [tʃiːt] 欺骗；骗子
+    - fraud [frɔːd] 欺诈；骗子
+- gung [ɡʌŋ] 无确切含义，可能是一个比较生僻或不常用的词，难以按照要求进行输出。
+- fancy [ˈfænsi] 幻想；想象力；爱好
+    - 无明显的词根或者前缀后缀
+    - imagination [ɪˌmædʒɪˈneɪʃn] 想象力
+    - fantasy [ˈfæntəsi] 幻想
+    - whim [wɪm] 突发的奇想
+- ingredient [ɪnˈɡriːdiənt] 成分；要素；原料
+    - in- 进入；gred - 步，级；-ient 名词后缀
+    - component [kəmˈpəʊnənt] 成分
+    - element [ˈelɪmənt] 元素；成分
+    - constituent [kənˈstɪtjuənt] 成分；要素
+- prominent [ˈprɒmɪnənt] 突出的；显著的；杰出的
+    - pro- 向前；min - 突出；-ent 形容词后缀
+    - conspicuous [kənˈspɪkjuəs] 显眼的；显著的
+    - outstanding [aʊtˈstændɪŋ] 杰出的；显著的
+    - remarkable [rɪˈmɑːkəbl] 非凡的；显著的
+- accrue [əˈkruː] 自然增长；产生
+    - ac- 向；cru - 生长；-e 动词后缀
+    - accumulate [əˈkjuːmjəleɪt] 积累；积聚
+    - amass [əˈmæs] 积聚；积累
+    - gather [ˈɡæðə(r)] 聚集；收集
+- functioning [ˈfʌŋkʃənɪŋ] 运行；起作用
+    - function - 功能；作用；-ing 名词后缀
+    - operation [ˌɒpəˈreɪʃn] 操作；运转
+    - working [ˈwɜːkɪŋ] 工作的；运行的
+    - performance [pəˈfɔːməns] 性能；表现
+- wise [waɪz] 明智的；聪明的
+    - 无明显的词根或者前缀后缀
+    - intelligent [ɪnˈtelɪdʒənt] 聪明的；有才智的
+    - clever [ˈklevə(r)] 聪明的；机灵的
+    - sensible [ˈsensəbl] 明智的；通情达理的。
+- aversion [əˈvɜːʃn] 厌恶；讨厌
+    - a- 加强；vers - 转；-ion 名词后缀
+    - dislike [dɪsˈlaɪk] 不喜欢
+    - repugnance [rɪˈpʌɡnəns] 厌恶
+    - loathing [ˈləʊðɪŋ] 厌恶
+- fringe [frɪndʒ] 边缘；穗；刘海
+    - 无明显的词根或者前缀后缀
+    - border [ˈbɔːdə(r)] 边界；边缘
+    - margin [ˈmɑːdʒɪn] 边缘；页边空白
+    - edge [edʒ] 边缘；刀口
+- flipping [ˈflɪpɪŋ] 非常；该死（表强调、生气等情绪）
+    - flip 的现在分词形式，flip 无明显的词根或者前缀后缀
+    - extremely [ɪkˈstriːmli] 非常；极其
+    - exceedingly [ɪkˈsiːdɪŋli] 非常；极度地
+    - terribly [ˈterəbli] 非常；可怕地
+- mood [muːd] 情绪；心境
+    - 无明显的词根或者前缀后缀
+    - emotion [ɪˈməʊʃn] 情感；情绪
+    - sentiment [ˈsentɪmənt] 感情；情绪
+    - temper [ˈtempə(r)] 脾气；情绪
+- thriving [ˈθraɪvɪŋ] 繁荣的；兴旺的
+    - thrive 的现在分词形式，thriv - 繁荣；-ing 形容词后缀
+    - prosperous [ˈprɒspərəs] 繁荣的；兴旺的
+    - flourishing [ˈflʌrɪʃɪŋ] 繁荣的；茂盛的
+    - booming [ˈbuːmɪŋ] 兴旺的；繁荣的
+- aha [ɑːˈhɑː] 啊哈（表示喜悦、惊讶等）
+    - 无明显的词根或者前缀后缀
+    - oh [əʊ] 哦；哎呀（表示惊讶、痛苦等）
+    - wow [waʊ] 哇（表示惊叹、羡慕等）
+    - yippee [ˈjɪpiː] 好啊（表示高兴、兴奋等）
+- miserable [ˈmɪzrəbl] 痛苦的；悲惨的；可怜的
+    - miser - 可怜的人；-able 形容词后缀
+    - wretched [ˈretʃɪd] 可怜的；悲惨的
+    - pathetic [pəˈθetɪk] 可怜的；悲哀的
+    - pitiable [ˈpɪtiəbl] 可怜的
+- buddhism [ˈbʊdɪzəm] 佛教
+    - buddha - 佛；-ism 名词后缀
+    - taoism [ˈtaʊɪzəm] 道教
+    - confucianism [kənˈfjuːʃənɪzəm] 儒家思想
+    - islam [ˈɪzlɑːm] 伊斯兰教
+- enlightenment [ɪnˈlaɪtnmənt] 启蒙；启迪；开导
+    - en- 使；lighten - 照亮；-ment 名词后缀
+    - illumination [ɪˌluːmɪˈneɪʃn] 照明；启迪
+    - inspiration [ˌɪnspəˈreɪʃn] 灵感；鼓舞
+    - revelation [ˌrevəˈleɪʃn] 启示；揭露
+- disclosure [dɪsˈkləʊʒə(r)] 披露；揭发；公开
+    - dis- 分开；close - 关闭；-ure 名词后缀
+    - revelation [ˌrevəˈleɪʃn] 启示；揭露
+    - exposure [ɪkˈspəʊʒə(r)] 暴露；曝光
+    - uncovering [ʌnˈkʌvərɪŋ] 揭露；发现。
