@@ -5,3 +5,150 @@
 - spot
 - custody
 - lenient
+- navy
+- hooded
+- verdict
+- scheme
+- schema
+- unjust
+- meticulously
+- high-profile
+- cum-ex
+- dividend
+- treasury
+- loophole
+- in terms of
+- lavish
+- extradited
+- flourished
+- crisis
+- withholding
+- civil
+- escorted
+
+
+
+# 翻译
+
+- hedge [hedʒ] 树篱；防范措施
+    - hedg - 树篱； -e 名词后缀
+    - fence [fens] 栅栏；围墙
+    - barricade [ˌbærɪˈkeɪd] 路障；设路障
+- orchestrating [ˈɔːkɪstreɪtɪŋ] 精心安排；把… 编成管弦乐曲
+    - orches - 管弦乐队； -trating 动词后缀
+    - arrange [əˈreɪndʒ] 安排；整理
+    - coordinate [kəʊˈɔːdɪneɪt] 协调；调整
+    - organize [ˈɔːɡənaɪz] 组织；安排
+- spot [spɒt] 地点；斑点
+    - s - 加强；pot - 地点； -t 名词后缀
+    - location [ləʊˈkeɪʃn] 位置；地点
+    - place [pleɪs] 地方；位置
+    - site [saɪt] 地点；位置
+- custody [ˈkʌstədi] 保管；监护
+    - custos - 看守； -dy 名词后缀
+    - guardianship [ˈɡɑːdiənʃɪp] 监护；保护
+    - supervision [ˌsuːpəˈvɪʒn] 监督；管理
+    - charge [tʃɑːdʒ] 责任；管理
+- lenient [ˈliːniənt] 宽大的；仁慈的
+    - leni - 柔软； -ent 形容词后缀
+    - indulgent [ɪnˈdʌldʒənt] 放纵的；宽容的
+    - merciful [ˈmɜːsɪfl] 仁慈的；慈悲的
+    - tolerant [ˈtɒlərənt] 宽容的；容忍的
+- navy [ˈneɪvi] 海军；船队
+    - nav - 船； -y 名词后缀
+    - fleet [fliːt] 舰队；船队
+    - armada [ɑːˈmɑːdə] 舰队；机群
+    - marine [məˈriːn] 海洋的；海产的；海军的
+- hooded [ˈhʊdɪd] 有兜帽的；戴头巾的
+    - hood - 兜帽；头巾； -ed 形容词后缀
+    - capped [kæpt] 有帽舌的
+    - bereted [bəˈreɪtɪd] 戴贝雷帽的
+    - bonneted [ˈbɒnɪtɪd] 有软帽的
+- verdict [ˈvɜːdɪkt] 裁决；判断
+    - ver - 真实；dict - 说； -t 名词后缀
+    - judgment [ˈdʒʌdʒmənt] 判断；判决
+    - decision [dɪˈsɪʒn] 决定；决议
+    - ruling [ˈruːlɪŋ] 裁决；裁定
+- scheme [skiːm] 计划；方案
+    - sch - 分开；eme - 计划； -e 名词后缀
+    - plan [plæn] 计划；方案
+    - project [ˈprɒdʒekt] 项目；计划
+    - program [ˈprəʊɡræm] 计划；程序
+- schema [ˈskiːmə] 图解；纲要
+    - sch - 分开；ema - 图形； -a 名词后缀
+    - diagram [ˈdaɪəɡræm] 图表；图解
+    - outline [ˈaʊtlaɪn] 轮廓；大纲
+    - blueprint [ˈbluːprɪnt] 蓝图；设计图
+- unjust [ˌʌnˈdʒʌst] 不公正的；非正义的
+    - un - 不；just - 公正的； -t 形容词后缀
+    - unfair [ˌʌnˈfeə(r)] 不公平的；不公正的
+    - inequitable [ɪnˈekwɪtəbl] 不公平的；不公正的
+    - partial [ˈpɑːʃl] 偏袒的；不公平的
+- meticulously [məˈtɪkjələsli] 小心翼翼地；细致地
+    - metic - 小心的；ulous - 多… 的； -ly 副词后缀
+    - carefully [ˈkeəfəli] 小心地；仔细地
+    - attentively [əˈtentɪvli] 注意地；周到地
+    - scrupulously [ˈskruːpjələsli] 小心翼翼地；审慎地
+- high-profile [ˌhaɪ ˈprəʊfaɪl] 引人注目的；高姿态的
+    - high - 高的；profile - 轮廓；侧面； -e 名词后缀
+    - conspicuous [kənˈspɪkjuəs] 显著的；显眼的
+    - prominent [ˈprɒmɪnənt] 突出的；显著的
+    - noticeable [ˈnəʊtɪsəbl] 显而易见的；值得注意的
+- cum-ex [ˈkʌm eks] Cum-ex 交易（一种复杂的金融交易方式）
+    - cum - 和；ex - 从… 离开
+    - complex transaction [ˈkɒmpleks trænˈzækʃn] 复杂交易
+    - sophisticated deal [səˈfɪstɪkeɪtɪd diːl] 复杂的交易
+- dividend [ˈdɪvɪdend] 股息；红利
+    - divi - 分； -dend 名词后缀
+    - bonus [ˈbəʊnəs] 奖金；红利
+    - reward [rɪˈwɔːd] 报酬；奖赏
+    - payoff [ˈpeɪɔːf] 回报；报酬
+- treasury [ˈtreʒəri] 国库；财政部
+    - treasur - 财富； -y 名词后缀
+    - exchequer [ɪksˈtʃekə(r)] 国库；财源
+    - fisc [fɪsk] 国库；财库
+    - coffer [ˈkɒfə(r)] 金库；保险箱
+- loophole [ˈluːphəʊl] 漏洞；空子
+    - loop - 圈；hole - 洞； -e 名词后缀
+    - flaw [flɔː] 瑕疵；缺陷
+    - weakness [ˈwiːknəs] 弱点；缺点
+    - defect [ˈdiːfekt] 缺点；缺陷
+- in terms of 就… 而言；在… 方面
+    - in - 在… 里；terms - 术语；of - 关于
+    - with regard to [wɪð rɪˈɡɑːd tuː] 关于；至于
+    - as regards [æz rɪˈɡɑːdz] 关于；至于
+- lavish [ˈlævɪʃ] 浪费的；丰富的；慷慨的
+    - lav - 冲洗； -ish 形容词后缀
+    - extravagant [ɪkˈstrævəɡənt] 奢侈的；浪费的
+    - prodigal [ˈprɒdɪɡl] 挥霍的；浪费的
+    - sumptuous [ˈsʌmptʃuəs] 豪华的；奢侈的。
+- extradited [ˈekstrədaɪtɪd] 引渡
+    - extra - 以外；dit - 给予； -ed 形容词后缀
+    - deported [dɪˈpɔːtɪd] 驱逐出境
+    - expelled [ɪkˈspeld] 驱逐；开除
+    - banished [ˈbænɪʃt] 放逐；流放
+- flourished [ˈflʌrɪʃt] 繁荣；兴旺
+    - flour - 花； -ish 动词后缀； -ed 形容词后缀
+    - prospered [ˈprɒspəd] 繁荣；成功
+    - thrived [θraɪvd] 繁荣；兴旺
+    - blossomed [ˈblɒsəmd] 开花；繁荣
+- crisis [ˈkraɪsɪs] 危机；危急关头
+    - cris - 判断； -is 名词后缀
+    - emergency [iˈmɜːdʒənsi] 紧急情况；突发事件
+    - predicament [prɪˈdɪkəmənt] 困境；窘况
+    - dilemma [dɪˈlemə] 困境；进退两难
+- withholding [wɪðˈhəʊldɪŋ] 扣缴；扣留
+    - with - 向后；hold - 拿着； -ing 名词后缀
+    - deduction [dɪˈdʌkʃn] 扣除；减除
+    - retention [rɪˈtenʃn] 保留；保持
+    - restraint [rɪˈstreɪnt] 抑制；约束
+- civil [ˈsɪvl] 公民的；民间的；文职的
+    - civ - 公民； -il 形容词后缀
+    - civic [ˈsɪvɪk] 市民的；公民的
+    - civilian [səˈvɪliən] 平民；百姓
+    - municipal [mjuːˈnɪsɪpl] 市政的；市的
+- escorted [ˈeskɔːtɪd] 护送；陪同
+    - escort - 护送；陪同； -ed 形容词后缀
+    - accompanied [əˈkʌmpənid] 陪伴；伴随
+    - chaperoned [ˈʃæpərəʊnd] 陪伴；护送
+    - guided [ˈɡaɪdɪd] 引导；带领。
