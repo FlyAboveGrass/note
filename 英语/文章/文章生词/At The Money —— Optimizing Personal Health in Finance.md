@@ -1,1 +1,16 @@
 
+- alpha
+- quant
+- implication
+- portfolio
+- derive
+- primer
+- outperform
+- benchmark
+- endeavor
+- tolerance
+- cope
+- tilt
+- rational
+- volatile
+- volatility

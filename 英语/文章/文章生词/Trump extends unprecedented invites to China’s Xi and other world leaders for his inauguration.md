@@ -36,3 +36,205 @@
 - dual-use
 - afloat
 - rein
+- repel
+- artillery
+- munition
+
+
+# 翻译
+
+
+- inauguration [ɪˌnɔːɡjəˈreɪʃn] 就职典礼；开始
+    - in - 进入；augur - 占卜； -ation 名词后缀
+    - commencement [kəˈmensmənt] 开始；毕业典礼
+    - initiation [ɪˌnɪʃiˈeɪʃn] 开始；启蒙
+    - outset [ˈaʊtset] 开始；开端
+- unorthodox [ʌnˈɔːθədɒks] 非正统的；异端的
+    - un - 否定；orthodox - 正统的； -al 形容词后缀
+    - unconventional [ˌʌnkənˈvenʃənl] 非传统的
+    - irregular [ɪˈreɡjələ(r)] 不规则的；不整齐的
+    - abnormal [æbˈnɔːml] 反常的；不正常的
+- unprecedented [ʌnˈpresɪdentɪd] 前所未有的；空前的
+    - un - 否定；precedent - 先例； -ed 形容词后缀
+    - unheard-of [ʌnˈhɜːd əv] 前所未闻的
+    - novel [ˈnɒvl] 新奇的；异常的
+    - unique [juˈniːk] 独特的；独一无二的
+- fentanyl [ˈfentənɪl] 芬太尼
+    - fentan - 芬太尼； -yl 后缀
+    - morphine [ˈmɔːfiːn] 吗啡
+    - codeine [ˈkəʊdiːn] 可待因
+    - heroin [ˈherəʊɪn] 海洛因
+- pledged [pledʒd] 保证；抵押
+    - pledg - 保证； -ed 形容词后缀
+    - promised [ˈprɒmɪst] 承诺的；答应的
+    - committed [kəˈmɪtɪd] 坚定的；忠诚的
+    - vowed [vaʊd] 发誓的；许愿的
+- transatlantic [ˌtrænzətˈlæntɪk] 横渡大西洋的；大西洋彼岸的
+    - trans - 穿过；atlantic - 大西洋； -ic 形容词后缀
+    - intercontinental [ˌɪntəˌkɒntɪˈnentl] 洲际的
+    - cross-oceanic [ˈkrɔːs əʊʃiˈænɪk] 跨洋的
+    - overseas [ˌəʊvəˈsiːz] 海外的；国外的
+- standpoint [ˈstændpɔɪnt] 立场；观点
+    - stand - 站立；point - 点； -stand 名词后缀
+    - perspective [pəˈspektɪv] 观点；远景
+    - viewpoint [ˈvjuːpɔɪnt] 观点；看法
+    - position [pəˈzɪʃn] 位置；立场
+- diplomacy [dɪˈpləʊməsi] 外交；外交手腕
+    - diplo - 双； -macy 名词后缀
+    - negotiation [nɪˌɡəʊʃiˈeɪʃn] 谈判；协商
+    - mediation [ˌmiːdiˈeɪʃn] 调解；仲裁
+    - conciliation [kənˌsɪliˈeɪʃn] 调解；安抚
+- triumph [ˈtraɪʌmf] 胜利；成功
+    - trium - 胜利； -ph 名词后缀
+    - victory [ˈvɪktəri] 胜利；成功
+    - success [səkˈses] 成功；成就
+    - achievement [əˈtʃiːvmənt] 成就；完成
+- dialogue [ˈdaɪəlɒɡ] 对话；对白
+    - dia - 穿过；logue - 说话； -ue 名词后缀
+    - conversation [ˌkɒnvəˈseɪʃn] 交谈；会话
+    - chat [tʃæt] 聊天；闲谈
+    - discussion [dɪˈskʌʃn] 讨论；议论
+- squares [skweəz] 正方形；广场
+    - squar - 正方形； -es 复数后缀
+    - rectangle [ˈrektæŋɡl] 长方形
+    - triangle [ˈtraɪæŋɡl] 三角形
+    - circle [ˈsɜːkl] 圆形
+- negotiation [nɪˌɡəʊʃiˈeɪʃn] 谈判；协商
+    - nego - 否定；tiation - 行动； -ion 名词后缀
+    - mediation [ˌmiːdiˈeɪʃn] 调解；仲裁
+    - conciliation [kənˌsɪliˈeɪʃn] 调解；安抚
+    - bargaining [ˈbɑːɡənɪŋ] 讨价还价；谈判
+- adversary [ˈædvəsəri] 对手；敌手
+    - ad - 向；vers - 转；ary - 名词后缀
+    - opponent [əˈpəʊnənt] 对手；反对者
+    - rival [ˈraɪvl] 竞争对手；敌手
+    - antagonist [ænˈtæɡənɪst] 敌手；对抗者
+- burnish [ˈbɜːnɪʃ] 擦亮；磨光
+    - burn - 燃烧； -ish 动词后缀
+    - polish [ˈpɒlɪʃ] 擦亮；磨光
+    - shine [ʃaɪn] 发光；擦亮
+    - glaze [ɡleɪz] 给… 上光；使光滑
+- dealmaker [ˈdiːlmeɪkə(r)] 交易商；谈判者
+    - deal - 交易；maker - 制造者； -er 名词后缀
+    - trader [ˈtreɪdə(r)] 商人；交易者
+    - negotiator [nɪˈɡəʊʃieɪtə(r)] 谈判者；协商者
+    - broker [ˈbrəʊkə(r)] 经纪人；中间人
+- savvy [ˈsævi] 悟性；理解能力
+    - sav - 知道； -vy 名词后缀
+    - understanding [ˌʌndəˈstændɪŋ] 理解；理解力
+    - perception [pəˈsepʃn] 知觉；洞察力
+    - comprehension [ˌkɒmprɪˈhenʃn] 理解；领悟
+- optics [ˈɒptɪks] 光学
+    - opt - 视力； -ics 学科后缀
+    - photonics [fəʊˈtɒnɪks] 光子学
+    - spectroscopy [spekˈtrɒskəpi] 光谱学
+    - microscopy [maɪˈkrɒskəpi] 显微镜学
+- standpoint [ˈstændpɔɪnt] 立场；观点
+    - stand - 站立；point - 点； -stand 名词后缀
+    - perspective [pəˈspektɪv] 观点；远景
+    - viewpoint [ˈvjuːpɔɪnt] 观点；看法
+    - position [pəˈzɪʃn] 位置；立场
+- cavalier [ˌkævəˈlɪə(r)] 漫不经心的；傲慢的
+    - caval - 马； -ier 名词后缀，后引申为形容词后缀
+    - arrogant [ˈærəɡənt] 傲慢的
+    - haughty [ˈhɔːti] 傲慢的
+    - disdainful [dɪsˈdeɪnfl] 轻蔑的
+- bilateral [ˌbaɪˈlætərəl] 双边的；双方的
+    - bi - 两；later - 边； -al 形容词后缀
+    - two-sided [ˌtuː ˈsaɪdɪd] 双边的
+    - mutual [ˈmjuːtʃuəl] 相互的；共同的
+    - reciprocal [rɪˈsɪprəkl] 相互的；互惠的
+- fraught [frɔːt] 充满的；焦虑的
+    - fraught - 充满； -t 过去分词后缀
+    - filled [fɪld] 充满的
+    - loaded [ˈləʊdɪd] 充满的
+    - anxious [ˈæŋkʃəs] 焦虑的
+- peril [ˈperəl] 危险；冒险
+    - per - 尝试； -il 名词后缀
+    - danger [ˈdeɪndʒə(r)] 危险
+    - hazard [ˈhæzəd] 危险；冒险
+    - jeopardy [ˈdʒepədi] 危险；危难
+- aide [eɪd] 助手；副官
+    - aide - 助手； -e 名词后缀
+    - assistant [əˈsɪstənt] 助手；助理
+    - helper [ˈhelpə(r)] 助手；帮手
+    - attendant [əˈtendənt] 服务员；侍从
+- slated [sleɪtɪd] 预定的；安排的
+    - slate - 石板； -ed 形容词后缀，引申为预定的
+    - scheduled [ˈʃedjuːld] 预定的；安排的
+    - planned [plænd] 计划好的
+    - arranged [əˈreɪndʒd] 安排好的
+- sought [sɔːt] 寻找；寻求（seek 的过去式和过去分词）
+    - sought - 寻找； -t 过去分词后缀
+    - looked for [lʊkt fɔː(r)] 寻找
+    - hunted for [ˈhʌntɪd fɔː(r)] 寻找
+    - searched for [sɜːtʃt fɔː(r)] 寻找
+- undermine [ˌʌndəˈmaɪn] 逐渐削弱；破坏
+    - under - 在… 下面；mine - 挖； -e 动词后缀
+    - weaken [ˈwiːkən] 削弱；变弱
+    - damage [ˈdæmɪdʒ] 损害；损坏
+    - sabotage [ˈsæbətɑːʒ] 蓄意破坏
+- sanction [ˈsæŋkʃn] 制裁；批准
+    - sanct - 神圣； -ion 名词后缀
+    - penalty [ˈpenəlti] 处罚；惩罚
+    - approval [əˈpruːvl] 批准；认可
+    - permission [pəˈmɪʃn] 许可；允许
+- mission [ˈmɪʃn] 使命；任务
+    - miss - 派遣； -ion 名词后缀
+    - assignment [əˈsaɪnmənt] 任务；分配
+    - task [tɑːsk] 任务；工作
+    - duty [ˈdjuːti] 责任；义务
+- anonymity [ˌænəˈnɪməti] 匿名；无名
+    - an - 无；onym - 名字； -ity 名词后缀
+    - namelessness [ˈneɪmləsnəs] 无名；匿名
+    - incognito [ˌɪnkɒɡˈniːtəʊ] 隐姓埋名的
+    - pseudonymity [ˌsuːdəˈnɪmɪti] 假名；匿名
+- customary [ˈkʌstəməri] 习惯的；惯例的
+    - custom - 习惯； -ary 形容词后缀
+    - habitual [həˈbɪtʃuəl] 习惯的；惯常的
+    - usual [ˈjuːʒuəl] 通常的；平常的
+    - routine [ruːˈtiːn] 常规的；例行的
+- perilous [ˈperələs] 危险的
+    - peril - 危险； -ous 形容词后缀
+    - dangerous [ˈdeɪndʒərəs] 危险的
+    - hazardous [ˈhæzədəs] 有危险的
+    - precarious [prɪˈkeəriəs] 不稳定的；危险的
+- retaliate [rɪˈtælieɪt] 报复；反击
+    - re - 回；tali - 惩罚； -ate 动词后缀
+    - revenge [rɪˈvendʒ] 报复；复仇
+    - avenge [əˈvendʒ] 为… 报仇；报复
+    - counterattack [ˈkaʊntərəˌtæk] 反击；反攻
+- surge [sɜːdʒ] 汹涌；激增
+    - surge - 汹涌； -e 动词后缀
+    - increase [ɪnˈkriːs] 增加；增长
+    - swell [swel] 膨胀；增大
+    - boost [buːst] 提高；促进
+- dual-use [ˈdjuːəl juːs] 两用的
+    - dual - 两的；use - 使用； -e 名词后缀
+    - multipurpose [ˌmʌltiˈpɜːpəs] 多用途的
+    - versatile [ˈvɜːsətaɪl] 多功能的；多用途的
+    - adaptable [əˈdæptəbl] 能适应的；可改编的
+- afloat [əˈfləʊt] 漂浮的；在水上的
+    - a - 在… 上；float - 漂浮； -e 形容词后缀
+    - buoyant [ˈbɔɪənt] 有浮力的；轻快的
+    - floating [ˈfləʊtɪŋ] 漂浮的；流动的
+    - adrift [əˈdrɪft] 漂浮的；随波逐流的
+- rein [reɪn] 缰绳；控制
+    - rein - 缰绳； -e 名词后缀
+    - control [kənˈtrəʊl] 控制；管理
+    - restraint [rɪˈstreɪnt] 抑制；约束
+    - check [tʃek] 检查；控制
+- repel [rɪˈpel] 击退；抵制
+    - re - 回；pel - 推； -e 动词后缀
+    - resist [rɪˈzɪst] 抵抗；抵制
+    - oppose [əˈpəʊz] 反对；反抗
+    - fend off [fend ɒf] 挡开；避开
+- artillery [ɑːˈtɪləri] 火炮；大炮
+    - artill - 火炮； -ery 名词后缀
+    - cannon [ˈkænən] 大炮；加农炮
+    - mortar [ˈmɔːtə(r)] 迫击炮
+    - howitzer [ˈhaʊɪtsə(r)] 榴弹炮
+- munition [mjuːˈnɪʃn] 军需品；军火
+    - mun - 战争； -ition 名词后缀
+    - ammunition [ˌæmjuˈnɪʃn] 弹药；军火
+    - arms [ɑːmz] 武器；军火

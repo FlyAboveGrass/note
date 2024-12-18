@@ -106,6 +106,7 @@
 - pa.per 壁纸软件
 - alfred 快速切换查找应用/文件
 - paste 复制粘贴历史
+	- ![[Paste 2.3.1.dmg]]
 - switchhost 修改本机 host
 - Hidden Bar  隐藏状态栏图标
 - Follow 订阅 RSS
