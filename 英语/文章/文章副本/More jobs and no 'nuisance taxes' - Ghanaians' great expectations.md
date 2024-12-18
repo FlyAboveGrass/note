@@ -3,7 +3,7 @@
 
 Ghana's former President John Mahama will be under enormous pressure to meet the expectations of voters following his landslide victory in Saturday's election.
 
-He swept back to power after eight years in opposition, running what political analyst Nansata Yakubu described as a =="==masterclass=="== in campaigning.
+He swept back to power after eight years in opposition, running what political analyst Nansata Yakubu described as a "==masterclass==" in campaigning.
 
 He defeated ====Vice-President==== Mahamudu Bawumia by 56.6% of votes to 41.6% to ==notch== up the biggest margin of victory by a ====candidate==== in 24 years.
 
@@ -23,7 +23,7 @@ Mahama has promised to bring down the size of the ====cabinet==== from more th
 
 Mahama will be ====flanked==== by former Education Minister Prof Naana Jane Opoku-Agyemang, who is set to become Ghana's first female ====vice-president==== when the new government takes office next month.
 
-Dr Yakubu said her appointment was not one of =="==tokenism=="== and she was not someone who could be "manipulated".
+Dr Yakubu said her appointment was not one of "==tokenism==" and she was not someone who could be "manipulated".
 
 "We have a fantastic first female ====vice-president==== in Prof Naana Jane Opoku-Agyemang," she told the [BBC Focus on Africa podcast](https://www.bbc.co.uk/sounds/play/p0k9wl9n).
 

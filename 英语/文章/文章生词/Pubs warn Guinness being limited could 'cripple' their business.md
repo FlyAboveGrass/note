@@ -1,1 +1,151 @@
 
+
+- cripple
+- landlord
+- litre
+- barrel
+- allocation
+- imposed
+- maximised
+- proactively
+- bare bone
+- keg
+- ring-fence
+- scrambling
+- cellar
+- stockpile
+- stout
+- bucking
+- upshot
+- whereby
+- swig
+- halfway
+- pint
+- wholesaler
+- capacity
+- disruption
+
+
+
+# 翻译
+
+- cripple [ˈkrɪpl] 使跛；使残废
+    - cripp - 跛； -le 动词后缀
+    - handicap [ˈhændikæp] 妨碍；使不利
+    - disable [dɪsˈeɪbl] 使失去能力
+    - incapacitate [ˌɪnkəˈpæsɪteɪt] 使无能力
+- landlord [ˈlændlɔːd] 房东；地主
+    - land - 土地； -lord 领主
+    - landlady [ˈlændleɪdi] 女房东；女地主
+    - tenant [ˈtenənt] 房客；租户
+    - leaseholder [ˈliːshəʊldə(r)] 租赁人
+- litre [ˈliːtə(r)] 升（容量单位）
+    - -
+    - gallon [ˈɡælən] 加仑（容量单位）
+    - pint [paɪnt] 品脱（容量单位）
+    - quart [kwɔːt] 夸脱（容量单位）
+- barrel [ˈbærəl] 桶；枪管
+    - bar - 条；棒； -rel 名词后缀
+    - bucket [ˈbʌkɪt] 桶；吊桶
+    - drum [drʌm] 鼓；圆桶
+    - cask [kæsk] 桶；木桶
+- allocation [ˌæləˈkeɪʃn] 分配；配给
+    - al- 向； -loc - 地方； -ation 名词后缀
+    - distribution [ˌdɪstrɪˈbjuːʃn] 分配；分发
+    - allotment [əˈlɒtmənt] 分配；份额
+    - apportionment [əˈpɔːʃənmənt] 分配；分摊
+- imposed [ɪmˈpəʊzd] 强加的；施加的
+    - im- 向内； -pos - 放置； -ed 形容词后缀
+    - enforced [ɪnˈfɔːst] 强制的；实施的
+    - obligatory [əˈblɪɡətəri] 义务的；必须的
+    - compulsory [kəmˈpʌlsəri] 强制的；义务的
+- maximised [ˈmæksɪmaɪzd] 最大化的
+    - max - 大； -im - 最； -ise 动词后缀； -d 形容词后缀
+    - optimized [ˈɒptɪmaɪzd] 优化的
+    - maximized [ˈmæksɪmaɪzd] 最大化的
+    - enhanced [ɪnˈhɑːnst] 增强的
+- proactively [ˌprəʊˈæktɪvli] 主动地；积极地
+    - pro - 向前； -act - 行动； -ive 形容词后缀； -ly 副词后缀
+    - actively [ˈæktɪvli] 积极地；活跃地
+    - initiative [ɪˈnɪʃətɪv] 主动性；首创精神
+    - energetic [ˌenəˈdʒetɪk] 精力充沛的
+- bare bone [beə(r) bəʊn] 基本的；骨干的
+    - bare - 赤裸的；空的； bone - 骨头
+    - essential [ɪˈsenʃl] 基本的；必要的
+    - fundamental [ˌfʌndəˈmentl] 基本的；根本的
+    - rudimentary [ˌruːdɪˈmentri] 基本的；初步的
+- keg [keɡ] 小桶
+    - -
+    - cask [kæsk] 桶；木桶
+    - barrel [ˈbærəl] 桶；枪管
+    - bucket [ˈbʌkɪt] 桶；吊桶
+- ring-fence [ˈrɪŋ fens] 用栅栏围起；保护
+    - ring - 环；圈； -fence - 栅栏； -ing 和…… 一起； -ence 名词后缀
+    - enclose [ɪnˈkləʊz] 围绕；装入
+    - surround [səˈraʊnd] 围绕；包围
+    - encircle [ɪnˈsɜːkl] 环绕；包围
+- scrambling [ˈskræmblɪŋ] 爬；攀登；争夺
+    - scrambl - 爬；争夺； -ing 名词后缀
+    - climbing [ˈklaɪmɪŋ] 攀登；爬
+    - scaling [ˈskeɪlɪŋ] 攀登；攀爬
+    - ascending [əˈsendɪŋ] 上升；攀登
+- cellar [ˈselə(r)] 地窖；地下室
+    - cell - 小房间； -ar 名词后缀
+    - basement [ˈbeɪsmənt] 地下室
+    - vault [vɔːlt] 地下室；金库
+    - storeroom [ˈstɔːruːm] 储藏室
+- stockpile [ˈstɒkpaɪl] 储备；贮存
+    - stock - 存货； -pile - 堆； -ing 名词后缀
+    - reserve [rɪˈzɜːv] 储备；保留
+    - store [stɔː(r)] 储存；储备
+    - hoard [hɔːd] 贮藏；囤积
+- stout [staʊt] 结实的；强壮的；矮胖的
+    - -
+    - sturdy [ˈstɜːdi] 结实的；坚固的
+    - robust [rəʊˈbʌst] 强健的；结实的
+    - strong [strɒŋ] 强壮的
+- bucking [ˈbʌkɪŋ] 突然移动；反抗
+    - buck - 突然移动；反抗； -ing 名词后缀
+    - resisting [rɪˈzɪstɪŋ] 抵抗；反抗
+    - opposing [əˈpəʊzɪŋ] 反对的；对抗的
+    - rebelling [rɪˈbelɪŋ] 反抗；造反
+- upshot [ˈʌpʃɒt] 结果；结局
+    - up - 向上； -shot - 发射； -ing 名词后缀
+    - outcome [ˈaʊtkʌm] 结果；结局
+    - result [rɪˈzʌlt] 结果；成效
+    - consequence [ˈkɒnsɪkwəns] 结果；后果
+- whereby [weəˈbaɪ] 凭此；借以
+    - where - 哪里； -by - 通过； -ing 名词后缀
+    - by which [baɪ wɪtʃ] 借此；通过…… 方式
+    - through which [θruː wɪtʃ] 通过……；凭借……
+    - by means of which [baɪ miːnz əv wɪtʃ] 借助……。
+- swig [swɪɡ] 大口喝；痛饮
+    - -
+    - gulp [ɡʌlp] 大口吞下；狼吞虎咽
+    - quaff [kwæf] 痛饮；畅饮
+    - drink deeply [drɪŋk ˈdiːpli] 大口喝
+- halfway [ˌhɑːfˈweɪ] 在中途；半路上
+    - half - 一半； -way - 路； -ing 名词后缀
+    - midway [ˌmɪdˈweɪ] 在中途；当中
+    - intermediate [ˌɪntəˈmiːdiət] 中间的；中级的
+    - in-between [ˌɪnˈbɪtwiːn] 在…… 之间；中间的
+- pint [paɪnt] 品脱（容量单位）
+    - -
+    - quart [kwɔːt] 夸脱（容量单位）
+    - gallon [ˈɡælən] 加仑（容量单位）
+    - liter [ˈliːtə(r)] 升（容量单位）
+- wholesaler [ˈhəʊlseɪlə(r)] 批发商
+    - whole - 全部；整体； -saler - 销售者； -ing 名词后缀
+    - distributor [dɪˈstrɪbjətə(r)] 经销商；分销商
+    - jobber [ˈdʒɒbə(r)] 批发商；股票经纪人
+    - dealer [ˈdiːlə(r)] 经销商；商人
+- capacity [kəˈpæsəti] 容量；能力
+    - cap - 拿；取； -acity - 性质；状态； -ing 名词后缀
+    - volume [ˈvɒljuːm] 体积；容量
+    - capability [ˌkeɪpəˈbɪləti] 能力；才能
+    - competence [ˈkɒmpɪtəns] 能力；胜任
+- disruption [dɪsˈrʌpʃn] 扰乱；中断
+    - dis - 分开； -rupt - 破裂； -ion - 名词后缀
+    - interruption [ˌɪntəˈrʌpʃn] 中断；干扰
+    - disturbance [dɪˈstɜːbəns] 干扰；骚乱
+    - dislocation [ˌdɪsləʊˈkeɪʃn] 混乱；脱臼。

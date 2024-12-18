@@ -1,1 +1,175 @@
 
+
+- masterclass
+- vice-president
+- notch
+- candidate
+- turnout
+- disillusioned
+- stronghold
+- hardship
+- prosecute
+- corrupt
+- phrase
+- crisis
+- shredded
+- reputation
+- lean
+- cabinet
+- merit
+- flanked
+- tokenism
+- bid
+- contested
+- mantra
+- plunged
+- bailout
+- nuisance
+- incentives
+- budgetary
+- intervention
+- poverty
+- expenditure
+- choppy
+- stint
+- plagued
+- corruption
+- aviation
+- bride
+- dogged
+- cathedral
+- inaugurated
+- succinctly
+- acknowledge
+- continent
+
+
+
+# 翻译
+
+- masterclass [ˈmɑːstəklɑːs] 大师班；高级讲习班
+    - master - 大师；class - 班级
+    - advanced workshop [ədˈvɑːnst ˈwɜːkʃɒp] 高级研讨会；expert seminar [ˈekspɜːt ˈsemɪnɑː(r)] 专家研讨会；professional training [prəˈfeʃənl ˈtreɪnɪŋ] 专业培训
+- vice-president [ˌvaɪs ˈprezɪdənt] 副总统；副会长
+    - vice - 副；president - 总统；会长
+    - deputy president [ˈdepjuti ˈprezɪdənt] 副总统；vice chairman [ˌvaɪs ˈtʃeəmən] 副会长；assistant president [əˈsɪstənt ˈprezɪdənt] 副总统
+- notch [nɒtʃ] 刻痕；等级
+    - 无明显的词根或者前缀后缀
+    - groove [ɡruːv] 凹槽；mark [mɑːk] 标记；indentation [ˌɪndenˈteɪʃn] 凹痕
+- candidate [ˈkændɪdət] 候选人；应试者
+    - cand - 白； -id - 有…… 性质的； -ate - 人； -e 名词后缀
+    - nominee [ˌnɒmɪˈniː] 被提名者；contestant [kənˈtestənt] 竞争者；applicant [ˈæplɪkənt] 申请人
+- turnout [ˈtɜːnaʊt] 出席人数；产量
+    - turn - 转；out - 出
+    - attendance [əˈtendəns] 出席；output [ˈaʊtpʊt] 产量；production [prəˈdʌkʃn] 生产
+- disillusioned [ˌdɪsɪˈluːʒnd] 幻想破灭的；大失所望的
+    - dis - 不；illusion - 幻想； -ed 形容词后缀
+    - disappointed [ˌdɪsəˈpɔɪntɪd] 失望的；frustrated [frʌˈstreɪtɪd] 挫败的；discouraged [dɪsˈkʌrɪdʒd] 泄气的
+- stronghold [ˈstrɒŋhəʊld] 要塞；据点
+    - strong - 强壮的；hold - 握住；控制
+    - fortress [ˈfɔːtrəs] 堡垒；citadel [ˈsɪtədəl] 城堡；fort [fɔːt] 要塞
+- hardship [ˈhɑːdʃɪp] 艰难；困苦
+    - hard - 困难的；ship - 性质；状态
+    - difficulty [ˈdɪfɪkəlti] 困难；suffering [ˈsʌfərɪŋ] 痛苦；adversity [ədˈvɜːsəti] 逆境
+- prosecute [ˈprɒsɪkjuːt] 起诉；检举
+    - pro - 向前；secut - 跟随； -e 动词后缀
+    - sue [suː] 起诉；indict [ɪnˈdaɪt] 控告；charge [tʃɑːdʒ] 指控
+- corrupt [kəˈrʌpt] 腐败的；贪污的
+    - cor - 一起；rupt - 打破； -e 形容词后缀
+    - dishonest [dɪsˈɒnɪst] 不诚实的；venal [ˈviːnl] 贪污的；bribery-prone [ˈbraɪbəri-prəʊn] 易受贿赂的。
+- phrase [freɪz] 短语；词组
+    - 无明显的词根或者前缀后缀
+    - expression [ɪkˈspreʃn] 表达；term [tɜːm] 术语；saying [ˈseɪɪŋ] 谚语
+- crisis [ˈkraɪsɪs] 危机；危急关头
+    - cris - 判断；区分； -is 名词后缀
+    - emergency [iˈmɜːdʒənsi] 紧急情况；crisis situation [ˈkraɪsɪs ˌsɪtʃuˈeɪʃn] 危机局势；critical moment [ˈkrɪtɪkl ˈməʊmənt] 关键时刻
+- shredded [ˈʃredɪd] 切碎的；细条状的
+    - shred - 切碎； -ed 形容词后缀
+    - minced [mɪnst] 切碎的；chopped [tʃɒpt] 剁碎的；diced [daɪst] 切成小方块的
+- reputation [ˌrepjuˈteɪʃn] 名声；声誉
+    - re - 再；put - 考虑； -ation 名词后缀
+    - fame [feɪm] 名声；renown [rɪˈnaʊn] 名望；prestige [preˈstiːʒ] 威望
+- lean [liːn] 倾斜；倚靠；瘦的
+    - 无明显的词根或者前缀后缀
+    - slender [ˈslendə(r)] 苗条的；thin [θɪn] 瘦的；slight [slaɪt] 轻微的
+- cabinet [ˈkæbɪnət] 内阁；橱柜
+    - 无明显的词根或者前缀后缀
+    - cupboard [ˈkʌbəd] 橱柜；closet [ˈklɒzɪt] 壁橱；wardrobe [ˈwɔːdrəʊb] 衣柜
+- merit [ˈmerɪt] 优点；价值
+    - 无明显的词根或者前缀后缀
+    - virtue [ˈvɜːtʃuː] 美德；优点；worth [wɜːθ] 价值；excellence [ˈeksələns] 优秀
+- flanked [flæŋkt] 侧面有；位于…… 的侧面
+    - flank - 侧面； -ed 形容词后缀
+    - sided [ˈsaɪdɪd] 有…… 边的；bordered [ˈbɔːdəd] 有边的；surrounded [səˈraʊndɪd] 被环绕的
+- tokenism [ˈtəʊkənɪzəm] 象征主义；装点门面
+    - token - 象征； -ism 主义
+    - symbolism [ˈsɪmbəlɪzəm] 象征主义；emblematism [ˌembləˈmætɪzəm] 象征主义；figurativism [ˌfɪɡjʊˈrætɪvɪzəm] 象征主义
+- bid [bɪd] 出价；投标
+    - 无明显的词根或者前缀后缀
+    - offer [ˈɒfə(r)] 出价；proposal [prəˈpəʊzl] 提议；tender [ˈtendə(r)] 投标。
+- contested [kənˈtestɪd] 有争议的；竞争的
+    - con - 一起；test - 见证； -ed 形容词后缀
+    - disputed [dɪˈspjuːtɪd] 有争议的；controversial [ˌkɒntrəˈvɜːʃl] 有争议的；arguable [ˈɑːɡjuəbl] 可争辩的
+- mantra [ˈmæntrə] 咒语；颂歌
+    - 无明显的词根或者前缀后缀
+    - incantation [ˌɪnkænˈteɪʃn] 咒语；charm [tʃɑːm] 魅力；符咒；spell [spel] 咒语
+- plunged [plʌndʒd] 投入；陷入
+    - plunge - 投入； -ed 形容词后缀
+    - dipped [dɪpt] 浸；陷入；sank [sæŋk] 下沉；submerged [səbˈmɜːdʒd] 浸没的
+- bailout [ˈbeɪlaʊt] 紧急救助；财政援助
+    - bail - 保释；out - 出
+    - financial rescue [faɪˈnænʃl ˈreskjuː] 金融救援；economic assistance [ˌiːkəˈnɒmɪk əˈsɪstəns] 经济援助；government support [ˈɡʌvənmənt səˈpɔːt] 政府支持
+- nuisance [ˈnjuːsns] 讨厌的人或事物；麻烦事
+    - 无明显的词根或者前缀后缀
+    - annoyance [əˈnɔɪəns] 烦恼；irritation [ˌɪrɪˈteɪʃn] 刺激；bother [ˈbɒðə(r)] 麻烦
+- incentives [ɪnˈsentɪvz] 激励；奖励
+    - in - 入；cent - 唱； -ive - 的； -s 复数； -s 名词后缀
+    - rewards [rɪˈwɔːdz] 奖励；motivations [ˌməʊtɪˈveɪʃənz] 动机；stimuli [ˈstɪmjʊlaɪ] 刺激物
+- budgetary [ˈbʌdʒɪtəri] 预算的
+    - budget - 预算； -ary 形容词后缀
+    - fiscal [ˈfɪskl] 财政的；financial [faɪˈnænʃl] 金融的；monetary [ˈmʌnɪtri] 货币的
+- intervention [ˌɪntəˈvenʃn] 干涉；干预
+    - inter - 在…… 之间；ven - 来； -tion 名词后缀
+    - interference [ˌɪntəˈfɪərəns] 干涉；meddling [ˈmedlɪŋ] 干涉；intrusion [ɪnˈtruːʒn] 闯入
+- poverty [ˈpɒvəti] 贫穷；贫困
+    - 无明显的词根或者前缀后缀
+    - destitution [ˌdestɪˈtjuːʃn] 穷困；indigence [ˈɪndɪdʒəns] 贫困；pauperism [ˈpɔːpərɪzəm] 贫困状态
+- expenditure [ɪkˈspendɪtʃə(r)] 支出；花费
+    - ex - 出；pend - 悬挂；支付； -iture 名词后缀
+    - spending [ˈspendɪŋ] 花费；cost [kɒst] 成本；expense [ɪkˈspens] 费用。
+- choppy [ˈtʃɒpi] 波涛汹涌的；不平稳的
+    - chop - 砍； -y 形容词后缀
+    - turbulent [ˈtɜːbjʊlənt] 动荡的；rough [rʌf] 粗糙的；uneven [ʌnˈiːvn] 不平坦的
+- stint [stɪnt] 定额；定量
+    - 无明显的词根或者前缀后缀
+    - quota [ˈkwəʊtə] 配额；ration [ˈræʃn] 定量；allotment [əˈlɒtmənt] 分配量
+- plagued [pleɪɡd] 困扰；折磨
+    - plague - 瘟疫；困扰； -ed 形容词后缀
+    - afflicted [əˈflɪktɪd] 折磨；beset [bɪˈset] 困扰；troubled [ˈtrʌbld] 烦恼的
+- corruption [kəˈrʌpʃn] 腐败；贪污
+    - cor - 一起；rupt - 打破； -ion 名词后缀
+    - bribery [ˈbraɪbəri] 贿赂；dishonesty [dɪsˈɒnɪsti] 不诚实；fraud [frɔːd] 欺诈
+- aviation [ˌeɪviˈeɪʃn] 航空；飞行
+    - avi - 鸟； -ation 名词后缀
+    - aerospace [ˈeərəʊspeɪs] 航空航天；flight [flaɪt] 飞行；air travel [eə ˈtrævl] 航空旅行
+- bride [braɪd] 新娘
+    - 无明显的词根或者前缀后缀
+    - newlywed [ˈnjuːliwed] 新婚夫妇；bridegroom [ˈbraɪdɡruːm] 新郎；fiancée [fiˈɒnseɪ] 未婚妻
+- dogged [ˈdɒɡɪd] 顽强的；坚持不懈的
+    - dog - 狗； -ed 形容词后缀
+    - persistent [pəˈsɪstənt] 坚持不懈的；tenacious [təˈneɪʃəs] 顽强的；determined [dɪˈtɜːmɪnd] 坚决的
+- cathedral [kəˈθiːdrəl] 大教堂
+    - cathedra - 主教座位； -al 形容词后缀
+    - basilica [bəˈzɪlɪkə] 长方形会堂；教堂；church [tʃɜːtʃ] 教堂；chapel [ˈtʃæpl] 小教堂。
+- inaugurated [ɪˈnɔːɡjəreɪtɪd] 为…… 举行就职典礼；开创
+    - in - 入；augur - 占卜； -ate 动词后缀； -ed 形容词后缀
+    - initiated [ɪˈnɪʃieɪtɪd] 开始；commenced [kəˈmensd] 开始；started [ˈstɑːtɪd] 开始
+- succinctly [səkˈsɪŋktli] 简洁地；简明地
+    - suc - 下；cinct - 束缚； -ly 副词后缀
+    - briefly [ˈbriːfli] 简短地；concisely [kənˈsaɪsli] 简洁地；terse [tɜːs] 简洁的
+- acknowledge [əkˈnɒlɪdʒ] 承认；答谢
+    - ac - 加强意义；knowledge - 知道； -e 动词后缀
+    - admit [ədˈmɪt] 承认；recognize [ˈrekəɡnaɪz] 认出；acknowledgement [əkˈnɒlɪdʒmənt] 承认；答谢
+- continent [ˈkɒntɪnənt] 大陆；洲
+    - con - 一起；tin - 持；拿； -ent 名词后缀
+    - mainland [ˈmeɪnlænd] 大陆；landmass [ˈlændmæs] 大陆块；territory [ˈterətri] 领土；region [ˈriːdʒən] 地区。

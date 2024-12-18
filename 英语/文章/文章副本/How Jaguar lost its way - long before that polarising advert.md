@@ -125,7 +125,7 @@ Prior to the relaunch, he says Jaguar has been "like a luxury hotel that doesn't
 
 # Genius or risky?
 
-This week's relaunch seems designed to get the brand out of a comfortable ==rut== and attempt to make it ==edgy== again, while retaining at least some of its past ==cachet.== Or, as Gerry McGovern put it from the Miami stage, "recapture the ====essence==== of Jaguar's original creative ====conviction=="==.
+This week's relaunch seems designed to get the brand out of a comfortable ==rut== and attempt to make it ==edgy== again, while retaining at least some of its past ==cachet.== Or, as Gerry McGovern put it from the Miami stage, "recapture the ====essence==== of Jaguar's original creative ====conviction==".
 
 Under normal circumstances, the ==debut== of a new car might gain a certain amount of attention in ====motoring==== magazines and websites, but it would rarely, if ever, get onto the front pages.
 
@@ -143,7 +143,7 @@ Mick Jagger pictured alongside a classic Jaguar
 
 But Tim Parker, strategy director at Conran Design Group, thinks it is a risky strategy. "They have indeed copied nothing that has come before in the brand's rich ====heritage==,== but at what cost?
 
-"Few brands ever succeed by ====alienating==== their traditional customer base over the longer term," he continues. "If the goal is to build ====relevance==== in a crowded luxury EV market, then differentiation makes sense – but only if the underlying strategy is ====coherent==.=="
+"Few brands ever succeed by ====alienating==== their traditional customer base over the longer term," he continues. "If the goal is to build ====relevance==== in a crowded luxury EV market, then differentiation makes sense – but only if the underlying strategy is ====coherent==."
 
 # 'Does the world need the Jaguar brand?'
 

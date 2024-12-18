@@ -49,9 +49,9 @@ Shayma, 18, says she also prefers ==herbal== tea, while most of her friends dr
 
 Ms Soininen points to the huge difference between sales of tea and coffee.
 
-“Sales of ordinary tea stood at £377m in 2023, leaving it far behind ====instant coffee==,== at [almost] £1bn,” she says.
+“Sales of ordinary tea stood at £377m in 2023, leaving it far behind ====instant coffee==, at [almost] £1bn,” she says.
 
-Even ====instant coffee=='==s popularity is being challenged by the fast-growing ready-to-drink coffee market, she adds, which has seen sales more than double over the last five years.
+Even ====instant coffee=='s popularity is being challenged by the fast-growing ready-to-drink coffee market, she adds, which has seen sales more than double over the last five years.
 
 Polina Jones from NielsenIQ says while people "are not falling out of love with tea per se", the landscape is changing with huge offerings from bubble tea, ==herbal== teas, kombuchas and energy drinks attracting the younger generation.
 

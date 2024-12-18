@@ -1,3 +1,84 @@
 
+- quintessential
+- crisis
+- bonding
+- ritual
+- stark
+- volume
+- herbal
+- smidge
+- caffeine
+- instant coffee
+- reinvent
+- meal deal
+- bust
 
-- 
+
+# 翻译
+
+
+- quintessential [ˌkwɪntɪˈsenʃl] 精髓的；典型的
+    - quint - 五；essential - 本质的； -al 形容词后缀
+    - exemplary [ɪɡˈzempləri] 典范的；可作榜样的
+    - paradigmatic [ˌpærədɪɡˈmætɪk] 典范的；范例的
+    - typical [ˈtɪpɪkl] 典型的；有代表性的
+- crisis [ˈkraɪsɪs] 危机；危急关头
+    - -
+    - emergency [iˈmɜːdʒənsi] 紧急情况；突发事件
+    - predicament [prɪˈdɪkəmənt] 困境；窘况
+    - dilemma [dɪˈlemə] 困境；进退两难
+- bonding [ˈbɒndɪŋ] 结合；黏合
+    - bond - 结合； -ing 名词后缀
+    - adhesion [ədˈhiːʒn] 黏附；附着
+    - attachment [əˈtætʃmənt] 附件；依恋
+    - union [ˈjuːniən] 联合；结合
+- ritual [ˈrɪtʃuəl] 仪式；惯例
+    - rit - 仪式； -ual 形容词后缀
+    - ceremony [ˈserəməni] 典礼；仪式
+    - rite [raɪt] 仪式；典礼
+    - observance [əbˈzɜːvəns] 遵守；仪式
+- stark [stɑːk] 完全的；荒凉的
+    - -
+    - sheer [ʃɪə(r)] 完全的；纯粹的
+    - utter [ˈʌtə(r)] 完全的；彻底的
+    - desolate [ˈdesələt] 荒凉的；无人烟的
+- volume [ˈvɒljuːm] 体积；音量；卷
+    - -
+    - capacity [kəˈpæsəti] 容量；容积
+    - quantity [ˈkwɒntəti] 数量；量
+    - magnitude [ˈmæɡnɪtjuːd] 大小；量级
+- herbal [ˈhɜːbl] 药草的；草本的
+    - herb - 草药； -al 形容词后缀
+    - botanical [bəˈtænɪkl] 植物的；植物学的
+    - vegetal [ˈvedʒətl] 植物的；植物性的
+    - herbal [ˈhɜːbl] 药草的；草本的。
+- smidge [smɪdʒ] 少量；一点点
+    - -
+    - bit [bɪt] 一点；少量
+    - speck [spek] 斑点；少量
+    - tad [tæd] 少量；一点儿
+- caffeine [ˈkæfiːn] 咖啡因
+    - -
+    - stimulant [ˈstɪmjələnt] 兴奋剂；刺激物
+    - energizer [ˈenədʒaɪzə(r)] 兴奋剂；增能器
+    - pick-me-up [ˈpɪk miː ʌp] 兴奋剂；提神的东西
+- instant coffee [ˈɪnstənt ˈkɔfi] 速溶咖啡
+    - instant - 立即的；速溶的；coffee - 咖啡
+    - soluble coffee [ˈsɒljəbl ˈkɔfi] 可溶咖啡
+    - powdered coffee [ˈpaʊdəd ˈkɔfi] 粉末咖啡
+    - quick coffee [kwɪk ˈkɔfi] 快速咖啡
+- reinvent [ˌriːɪnˈvent] 重新发明；彻底改造
+    - re - 再次；invent - 发明； -ent 动词后缀
+    - remake [ˈriːmeɪk] 重做；重制
+    - renovate [ˈrenəveɪt] 革新；修复
+    - refurbish [ˌriːˈfɜːbɪʃ] 翻新；整修
+- meal deal [miːl diːl] 套餐
+    - meal - 餐；deal - 交易； -
+    - combo [ˈkɒmbəʊ] 套餐；组合
+    - set meal [set miːl] 套餐
+    - package deal [ˈpækɪdʒ diːl] 一揽子交易；套餐
+- bust [bʌst] 打破；爆裂
+    - -
+    - break [breɪk] 打破；弄坏
+    - burst [bɜːst] 爆裂；爆发
+    - crack [kræk] 破裂；裂开。

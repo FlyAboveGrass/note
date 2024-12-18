@@ -1,1 +1,315 @@
 
+- strode
+- chilly
+- aura
+- teaser
+- ignited
+- bizarre
+- idiotic
+- virtue
+- resplendent
+- showcase
+- angular
+- bonnet
+- hint
+- polarised
+- frenzy
+- furore
+- demographic
+- diluted
+- drily
+- quipped
+- instigated
+- conglomerate
+- upmarket
+- regulator
+- phase out
+- petrol
+- diesel
+- far cry
+- glory
+- stereotype
+- decent
+- brewing
+- reinvention
+- ownership
+- overhauled
+- revamp
+- successor
+- competent
+- acclaimed
+- acquisition
+- refurbish
+- arguably
+- resonate
+- heritage
+- innovative
+- swooping
+- cylinder
+- ravage
+- revelation
+- motorsport
+- prestigious
+- striking
+- arguably
+- cachet
+- lustre
+- nostalgia
+- harking
+- trade off
+- rut
+- edgy
+- essence
+- conviction
+- debut
+- motoring
+- teaser
+- viral
+- seamlessly
+- masterclass
+- awareness
+- alienating
+- relevance
+- coherent
+- boxy
+- scent
+- sylinder
+- bluntly
+- disposable
+
+# 翻译
+
+
+
+- strode [strəʊd] 大步走（stride 的过去式）
+    - 无明显的词根或者前缀后缀
+    - striding [ˈstraɪdɪŋ] 大步走（现在分词）；walking [ˈwɔːkɪŋ] 步行；marching [ˈmɑːtʃɪŋ] 行进
+- chilly [ˈtʃɪli] 寒冷的；怕冷的
+    - chill - 寒冷； -y 形容词后缀
+    - cold [kəʊld] 寒冷的；frigid [ˈfrɪdʒɪd] 寒冷的；freezing [ˈfriːzɪŋ] 极冷的
+- aura [ˈɔːrə] 光环；气氛
+    - 无明显的词根或者前缀后缀
+    - atmosphere [ˈætməsfɪə(r)] 气氛；ambience [ˈæmbiəns] 氛围；vibe [vaɪb] 气氛
+- teaser [ˈtiːzə(r)] 戏弄者；难题
+    - teas - 戏弄； -er 名词后缀
+    - prankster [ˈpræŋkstə(r)] 恶作剧者；troublemaker [ˈtrʌblmeɪkə(r)] 捣乱者；joker [ˈdʒəʊkə(r)] 爱开玩笑的人
+- ignited [ɪɡˈnaɪtɪd] 点燃；使燃烧（ignite 的过去式和过去分词）
+    - ig - 火； -nit - 点燃； -ed 过去分词后缀
+    - lit [lɪt] 点燃（light 的过去式和过去分词）；kindled [ˈkɪndld] 点燃；inflamed [ɪnˈfleɪmd] 燃烧的
+- bizarre [bɪˈzɑː(r)] 奇异的；古怪的
+    - 无明显的词根或者前缀后缀
+    - strange [streɪndʒ] 奇怪的；weird [wɪəd] 怪异的；odd [ɒd] 奇怪的
+- idiotic [ˌɪdiˈɒtɪk] 白痴的；愚蠢的
+    - idio - 个人的； -tic 形容词后缀
+    - foolish [ˈfuːlɪʃ] 愚蠢的；stupid [ˈstjuːpɪd] 愚蠢的；silly [ˈsɪli] 傻的
+- virtue [ˈvɜːtʃuː] 美德；优点
+    - vir - 男人； -tue 名词后缀
+    - merit [ˈmerɪt] 优点；excellence [ˈeksələns] 优秀；virtuousness [ˈvɜːtʃuəsnəs] 美德
+- resplendent [rɪˈsplendənt] 辉煌的；灿烂的
+    - re - 再；splend - 光辉； -ent 形容词后缀
+    - glorious [ˈɡlɔːriəs] 辉煌的；brilliant [ˈbrɪliənt] 灿烂的；radiant [ˈreɪdiənt] 光芒四射的
+- showcase [ˈʃəʊkeɪs] 展示；陈列柜
+    - show - 展示； -case 箱子
+    - display [dɪˈspleɪ] 展示；exhibit [ɪɡˈzɪbɪt] 展览；presentation [ˌpreznˈteɪʃn] 展示。
+- angular [ˈæŋɡjələ(r)] 有角的；生硬的
+    - angul - 角； -ar 形容词后缀
+    - angled [ˈæŋɡld] 有角度的；cornered [ˈkɔːnəd] 有角的；pointed [ˈpɔɪntɪd] 尖的
+- bonnet [ˈbɒnɪt] 软帽；（机动车辆的）引擎罩
+    - 无明显的词根或者前缀后缀
+    - cap [kæp] 帽子；hat [hæt] 帽子；hood [hʊd] 兜帽
+- hint [hɪnt] 暗示；线索
+    - 无明显的词根或者前缀后缀
+    - clue [kluː] 线索；suggestion [səˈdʒestʃən] 建议；indication [ˌɪndɪˈkeɪʃn] 暗示
+- polarised [ˈpəʊləraɪzd] 极化的；两极分化的（polarize 的过去分词和过去式）
+    - pol - 极； -ar - 形容词后缀； -ize 动词后缀； -ed 过去分词后缀
+    - polarized [ˈpəʊləraɪzd] 极化的；bipolar [ˌbaɪˈpəʊlə(r)] 两极的；dichotomous [daɪˈkɒtəməs] 两分的
+- frenzy [ˈfrenzi] 狂暴；狂怒
+    - fren - 疯狂； -zy 名词后缀
+    - fury [ˈfjʊəri] 狂怒；rage [reɪdʒ] 愤怒；frenetic [frəˈnetɪk] 狂热的
+- furore [fjuˈrɔːri] 轰动；狂热
+    - fur - 狂怒； -ore 名词后缀
+    - uproar [ˈʌprɔː(r)] 骚动；commotion [kəˈməʊʃn] 骚动；excitement [ɪkˈsaɪtmənt] 激动
+- demographic [ˌdeməˈɡræfɪk] 人口统计学的；人口的
+    - demo - 人民； -graph - 写； -ic 形容词后缀
+    - population [ˌpɒpjuˈleɪʃn] 人口；demography [dɪˈmɒɡrəfi] 人口统计学；demographical [ˌdeməˈɡræfɪkl] 人口统计学的
+- diluted [daɪˈluːtɪd] 稀释的；冲淡的（dilute 的过去分词和过去式）
+    - di - 分开；lut - 冲洗； -e 动词后缀； -ed 过去分词后缀
+    - thinned [θɪnd] 稀释的；weakened [ˈwiːkənd] 减弱的；watered-down [ˈwɔːtəd daʊn] 冲淡的
+- drily [ˈdraɪli] 干燥地；冷淡地
+    - dry - 干燥； -ly 副词后缀
+    - aridly [ˈærɪdli] 干燥地；dully [ˈdʌli] 沉闷地；stiffly [ˈstɪfli] 僵硬地
+- quipped [kwɪpt] 俏皮地说（quip 的过去式和过去分词）
+    - quip - 俏皮话； -ed 过去分词后缀
+    - joked [dʒəʊkt] 开玩笑；teased [tiːzd] 取笑；bantered [ˈbæntəd] 打趣。
+- instigated [ˈɪnstɪɡeɪtɪd] 煽动；鼓动（instigate 的过去式和过去分词）
+    - in - 使；stig - 刺激； -ate 动词后缀； -ed 过去分词后缀
+    - incite [ɪnˈsaɪt] 煽动；provoke [prəˈvəʊk] 激怒；stir up [stɜː(r) ʌp] 激起
+- conglomerate [kənˈɡlɒmərət] 企业集团；联合大企业
+    - con - 一起；glomer - 球； -ate 名词后缀
+    - corporation [ˌkɔːpəˈreɪʃn] 公司；enterprise [ˈentəpraɪz] 企业；group [ɡruːp] 集团
+- upmarket [ˌʌpˈmɑːkɪt] 高档的；高级的
+    - up - 向上；market - 市场； -ed 形容词后缀
+    - high-end [ˌhaɪ ˈend] 高端的；luxury [ˈlʌkʃəri] 奢侈的；premium [ˈpriːmiəm] 优质的
+- regulator [ˈreɡjuleɪtə(r)] 监管机构；调整者
+    - reg - 统治； -ul - 连接字母； -ate 动词后缀； -or 名词后缀
+    - supervisor [ˈsuːpəvaɪzə(r)] 监督者；controller [kənˈtrəʊlə(r)] 控制器；monitor [ˈmɒnɪtə(r)] 监视器
+- phase out [feɪz aʊt] 逐步淘汰；分阶段停止
+    - phase - 阶段；out - 出去
+    - phase down [feɪz daʊn] 逐步减少；phase over [feɪz ˈəʊvə(r)] 逐步过渡；phase off [feɪz ɔːf] 逐步停止
+- petrol [ˈpetrəl] 汽油
+    - 无明显的词根或者前缀后缀
+    - gasoline [ˈɡæsəliːn] 汽油；fuel [ˈfjuːəl] 燃料；petroleum [pəˈtrəʊliəm] 石油
+- diesel [ˈdiːzl] 柴油
+    - 无明显的词根或者前缀后缀
+    - diesel oil [ˈdiːzl ɔɪl] 柴油；fuel oil [ˈfjuːəl ɔɪl] 燃油；kerosene [ˈkerəsiːn] 煤油
+- far cry [fɑː(r) kraɪ] 大不相同；悬殊
+    - far - 远；cry - 喊叫
+    - great difference [ɡreɪt ˈdɪfrəns] 很大不同；wide disparity [waɪd dɪˈspærəti] 巨大差距；marked contrast [mɑːkt ˈkɒntræst] 明显对比。
+- glory [ˈɡlɔːri] 光荣；荣誉
+    - 无明显的词根或者前缀后缀
+    - honor [ˈɒnə(r)] 荣誉；distinction [dɪˈstɪŋkʃn] 荣誉；fame [feɪm] 名声
+- stereotype [ˈsteriətaɪp] 刻板印象；老套
+    - stereo - 立体的； -type - 类型
+    - cliché [ˈkliːʃeɪ] 陈词滥调；conventional wisdom [kənˈvenʃənl ˈwɪzdəm] 传统观念；preconception [ˌpriːkənˈsepʃn] 先入之见
+- decent [ˈdiːsnt] 正派的；得体的
+    - de - 完全；cent - 新的； -ent 形容词后缀
+    - proper [ˈprɒpə(r)] 适当的；respectable [rɪˈspektəbl] 可敬的；seemly [ˈsiːmli] 合适的
+- brewing [ˈbruːɪŋ] 酿造；酝酿
+    - brew - 酿造； -ing 名词后缀
+    - fermenting [fəˈmentɪŋ] 发酵；preparing [prɪˈpeərɪŋ] 准备；cooking [ˈkʊkɪŋ] 烹饪
+- reinvention [ˌriːɪnˈvenʃn] 再创造；重新发明
+    - re - 再；invent - 发明； -ion 名词后缀
+    - renovation [ˌrenəˈveɪʃn] 革新；innovation [ˌɪnəˈveɪʃn] 创新；reformation [ˌrefəˈmeɪʃn] 改革
+- ownership [ˈəʊnəʃɪp] 所有权；物主身份
+    - own - 拥有； -er 名词后缀； -ship 名词后缀
+    - possession [pəˈzeʃn] 拥有；property [ˈprɒpəti] 财产；ownership rights [ˈəʊnəʃɪp raɪts] 所有权
+- overhauled [ˈəʊvəhɔːld] 彻底检修；全面修订（overhaul 的过去式和过去分词）
+    - over - 在…… 之上；haul - 拖； -ed 过去分词后缀
+    - renovated [ˈrenəveɪtɪd] 翻新的；repaired [rɪˈpeəd] 修理的；improved [ɪmˈpruːvd] 改进的
+- revamp [ˌriːˈvæmp] 改进；翻新
+    - re - 再；vamp - 修补； -ed 过去分词后缀
+    - refurbish [ˌriːˈfɜːbɪʃ] 翻新；renovate [ˈrenəveɪt] 革新；upgrade [ˈʌpɡreɪd] 升级
+- successor [səkˈsesə(r)] 继任者；继承人
+    - suc - 在…… 下面；cess - 走； -or 名词后缀
+    - heir [eə(r)] 继承人；inheritor [ɪnˈherɪtə(r)] 继承人；successive [səkˈsesɪv] 连续的
+- competent [ˈkɒmpɪtənt] 有能力的；能胜任的
+    - com - 一起；pet - 追求； -ent 形容词后缀
+    - capable [ˈkeɪpəbl] 有能力的；qualified [ˈkwɒlɪfaɪd] 有资格的；proficient [prəˈfɪʃnt] 熟练的
+- acclaimed [əˈkleɪmd] 受到高度赞扬的
+    - ac - 向；claim - 呼喊； -ed 过去分词后缀
+    - praised [preɪzd] 被赞扬的；commended [kəˈmendɪd] 受表扬的；applauded [əˈplɔːdɪd] 被称赞的。
+- acquisition [ˌækwɪˈzɪʃn] 获得；收购
+    - ac - 向；quisit - 寻求； -ion 名词后缀
+    - procurement [prəˈkjʊəmənt] 采购；obtainment [əbˈteɪnmənt] 获得；attainment [əˈteɪnmənt] 成就
+- refurbish [ˌriːˈfɜːbɪʃ] 翻新；整修
+    - re - 再；furbish - 磨光； -ed 过去分词后缀
+    - renovate [ˈrenəveɪt] 革新；restore [rɪˈstɔː(r)] 恢复；rehabilitate [ˌriːəˈbɪlɪteɪt] 修复
+- arguably [ˈɑːɡjuəbli] 可论证地；按理说
+    - argu - 争论； -able - 可…… 的； -ly 副词后缀
+    - debatably [ˈdebətəbli] 可争论地；questionably [ˈkwestʃənəbli] 可疑地；dubiously [ˈdjuːbiəsli] 怀疑地
+- resonate [ˈrezəneɪt] 共鸣；共振
+    - re - 再；son - 声音； -ate 动词后缀
+    - echo [ˈekəʊ] 回响；vibrate [vaɪˈbreɪt] 振动；resound [rɪˈzaʊnd] 回响
+- heritage [ˈherɪtɪdʒ] 遗产；传统
+    - herit - 继承； -age 名词后缀
+    - legacy [ˈleɡəsi] 遗产；inheritance [ɪnˈherɪtəns] 继承物；tradition [trəˈdɪʃn] 传统
+- innovative [ˈɪnəveɪtɪv] 创新的；革新的
+    - in - 进入；nov - 新； -ative 形容词后缀
+    - creative [kriˈeɪtɪv] 创造性的；original [əˈrɪdʒənl] 原始的；inventive [ɪnˈventɪv] 有发明才能的
+- swooping [ˈswuːpɪŋ] 猛扑；突然下降（swoop 的现在分词）
+    - swoop - 猛扑； -ing 现在分词后缀
+    - diving [ˈdaɪvɪŋ] 俯冲；plunging [ˈplʌndʒɪŋ] 突然下降；descending [dɪˈsendɪŋ] 下降。
+- cylinder [ˈsɪlɪndə(r)] 圆柱体；汽缸
+    - 无明显的词根或者前缀后缀
+    - tube [tjuːb] 管；barrel [ˈbærəl] 桶；vessel [ˈvesl] 容器
+- ravage [ˈrævɪdʒ] 破坏；蹂躏
+    - rav - 抢夺； -age 名词后缀
+    - devastate [ˈdevəsteɪt] 破坏；ruin [ˈruːɪn] 毁灭；destroy [dɪˈstrɔɪ] 破坏
+- revelation [ˌrevəˈleɪʃn] 揭示；揭露
+    - re - 再；vel - 覆盖； -ation 名词后缀
+    - disclosure [dɪsˈkləʊʒə(r)] 披露；unveiling [ˌʌnˈveɪlɪŋ] 揭幕；exposure [ɪkˈspəʊʒə(r)] 暴露
+- motorsport [ˈməʊtəspɔːt] 赛车运动
+    - motor - 发动机；sport - 运动
+    - car racing [kɑː(r) ˈreɪsɪŋ] 赛车；auto racing [ˈɔːtəʊ ˈreɪsɪŋ] 汽车比赛；racing sport [ˈreɪsɪŋ spɔːt] 竞赛运动
+- prestigious [preˈstɪdʒəs] 有声望的；受尊敬的
+    - pre - 前面；stig - 刺激； -ious 形容词后缀
+    - renowned [rɪˈnaʊnd] 著名的；distinguished [dɪˈstɪŋɡwɪʃt] 卓越的；eminent [ˈemɪnənt] 杰出的
+- striking [ˈstraɪkɪŋ] 显著的；引人注目的
+    - strik - 打击； -ing 形容词后缀
+    - remarkable [rɪˈmɑːkəbl] 非凡的；conspicuous [kənˈspɪkjuəs] 显眼的；noticeable [ˈnəʊtɪsəbl] 显而易见的
+- arguably [ˈɑːɡjuəbli] 可论证地；按理说
+    - argu - 争论； -able - 可…… 的； -ly 副词后缀
+    - debatably [ˈdebətəbli] 可争论地；questionably [ˈkwestʃənəbli] 可疑地；dubiously [ˈdjuːbiəsli] 怀疑地
+- cachet [ˈkæʃeɪ] 威望；声望
+    - 无明显的词根或者前缀后缀
+    - prestige [preˈstiːʒ] 威望；reputation [ˌrepjuˈteɪʃn] 名声；authority [ɔːˈθɒrəti] 权威。
+- lustre [ˈlʌstə(r)] 光泽；光彩
+    - 无明显的词根或者前缀后缀
+    - glow [ɡləʊ] 光辉；shine [ʃaɪn] 光亮；radiance [ˈreɪdiəns] 光辉
+- nostalgia [nəˈstældʒə] 怀旧；念旧
+    - nost - 回家；algia - 痛苦； -ia 名词后缀
+    - reminiscence [ˌremɪˈnɪsns] 回忆；yearning for the past [ˈjɜːnɪŋ fɔː(r) ðə ˈpɑːst] 怀念过去；longing for old times [ˈlɒŋɪŋ fɔː(r) əʊld taɪmz] 渴望旧时光
+- harking [ˈhɑːkɪŋ] 倾听；回想（hark 的现在分词）
+    - hark - 听； -ing 现在分词后缀
+    - listening [ˈlɪsnɪŋ] 听；heeding [ˈhiːdɪŋ] 注意；attending [əˈtendɪŋ] 倾听
+- trade off [ˈtreɪd ɔːf] 权衡；取舍
+    - trade - 贸易；交易；off - 离开
+    - balance [ˈbæləns] 平衡；weighing options [ˈweɪɪŋ ˈɒpʃnz] 权衡选择；considering pros and cons [kənˈsɪdərɪŋ prəʊz ənd kənz] 考虑利弊
+- rut [rʌt] 车辙；老一套
+    - 无明显的词根或者前缀后缀
+    - groove [ɡruːv] 凹槽；routine [ruːˈtiːn] 常规；habit [ˈhæbɪt] 习惯
+- edgy [ˈedʒi] 急躁的；尖利的
+    - edg - 边缘； -y 形容词后缀
+    - nervous [ˈnɜːvəs] 紧张的；tense [tens] 紧张的；anxious [ˈæŋkʃəs] 焦虑的
+- essence [ˈesns] 本质；精髓
+    - 无明显的词根或者前缀后缀
+    - core [kɔː(r)] 核心；quintessence [kwɪnˈtesns] 精华；substance [ˈsʌbstəns] 物质
+- conviction [kənˈvɪkʃn] 确信；定罪
+    - con - 一起；vict - 征服； -ion 名词后缀
+    - certainty [ˈsɜːtnti] 确定；belief [bɪˈliːf] 信念；confidence [ˈkɒnfɪdəns] 信心。
+- debut [ˈdeɪbjuː] 首次亮相；初次登台
+    - de - 出；but - 出现； -e 名词后缀
+    - appearance [əˈpɪərəns] 出现；introduction [ˌɪntrəˈdʌkʃn] 介绍；launch [lɔːntʃ] 推出
+- motoring [ˈməʊtərɪŋ] 驾驶；汽车运动
+    - motor - 发动机； -ing 名词后缀
+    - driving [ˈdraɪvɪŋ] 驾驶；automobile sport [ˈɔːtəməbiːl spɔːt] 汽车运动；car driving [kɑː(r) ˈdraɪvɪŋ] 驾车
+- teaser [ˈtiːzə(r)] 戏弄者；预告片
+    - teas - 逗弄； -er 名词后缀
+    - trailer [ˈtreɪlə(r)] 预告片；sneak peek [sniːk piːk] 先睹为快；preview [ˈpriːvjuː] 预演
+- viral [ˈvaɪrəl] 病毒的；病毒性的
+    - vir - 病毒； -al 形容词后缀
+    - contagious [kənˈteɪdʒəs] 传染的；infectious [ɪnˈfekʃəs] 传染性的；epidemic [ˌepɪˈdemɪk] 流行性的
+- seamlessly [ˈsiːmləsli] 无缝地；无瑕疵地
+    - seamless - 无缝的； -ly 副词后缀
+    - smoothly [ˈsmuːðli] 平滑地；flawlessly [ˈflɔːləslɪ] 完美地；continuously [kənˈtɪnjuəslɪ] 连续地
+- masterclass [ˈmɑːstəklɑːs] 大师班；高级讲习班
+    - master - 大师；class - 班级
+    - advanced workshop [ədˈvɑːnst ˈwɜːkʃɒp] 高级研讨会；expert seminar [ˈekspɜːt ˈsemɪnɑː(r)] 专家研讨会；professional training [prəˈfeʃənl ˈtreɪnɪŋ] 专业培训
+- awareness [əˈweənəs] 意识；认识
+    - aware - 意识到的； -ness 名词后缀
+    - consciousness [ˈkɒnʃəsnəs] 意识；perception [pəˈsepʃn] 感知；recognition [ˌrekəɡˈnɪʃn] 认识。
+- alienating [ˈeɪliəneɪtɪŋ] 使疏远；使离间
+    - alien - 外国的；陌生的； -ate - 使……； -ing 形容词后缀
+    - estranging [ɪˈstreɪndʒɪŋ] 使疏远；isolating [ˈaɪsəleɪtɪŋ] 使孤立；divorcing [dɪˈvɔːsɪŋ] 使分离
+- relevance [ˈreləvəns] 关联；相关性
+    - re - 再；lev - 举起； -ance 名词后缀
+    - connection [kəˈnekʃn] 联系；relatedness [rɪˈleɪtɪdnəs] 关联性；pertinence [ˈpɜːtɪnəns] 恰当
+- coherent [kəʊˈhɪərənt] 连贯的；一致的
+    - co - 一起；her - 粘着； -ent 形容词后缀
+    - consistent [kənˈsɪstənt] 一致的；unified [ˈjuːnɪfaɪd] 统一的；harmonious [hɑːˈməʊniəs] 和谐的
+- boxy [ˈbɒksi] 四四方方的；盒状的
+    - box - 盒子； -y 形容词后缀
+    - cubical [ˈkjuːbɪkl] 立方体的；square-shaped [skweə(r) ˈʃeɪpt] 方形的；rectangular [rekˈtæŋɡjələ(r)] 矩形的
+- scent [sent] 气味；香味
+    - 无明显的词根或者前缀后缀
+    - odor [ˈəʊdə(r)] 气味；fragrance [ˈfreɪɡrəns] 香味；aroma [əˈrəʊmə] 芳香
+- sylinder（可能是拼写错误，应为 cylinder）
+    - cylinder [ˈsɪlɪndə(r)] 圆柱体；汽缸
+        - 无明显的词根或者前缀后缀
+        - tube [tjuːb] 管；barrel [ˈbærəl] 桶；vessel [ˈvesl] 容器
+- bluntly [ˈblʌntli] 直率地；钝地
+    - blunt - 钝的；直率的； -ly 副词后缀
+    - frankly [ˈfræŋkli] 坦率地；directly [dəˈrektli] 直接地；candidly [ˈkændɪdli] 坦白地
+- disposable [dɪˈspəʊzəbl] 一次性的；可处理的
+    - dis - 分开；pos - 放置； -ible - 可…… 的； -able 形容词后缀
+    - single-use [ˈsɪŋɡl juːz] 一次性的；throwaway [ˈθrəʊəweɪ] 一次性的；expendable [ɪkˈspendəbl] 可消耗的。

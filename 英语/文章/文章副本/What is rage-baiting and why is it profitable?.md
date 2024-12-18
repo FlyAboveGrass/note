@@ -43,7 +43,7 @@ These creator programs - which reward users for likes, comments and shares, and 
 
 As Dr Brady observes: "There has been a ==spike== in the build up to elections, because it's an effective way to mobilize your political group to potentially vote and take action.”
 
-He notes the American election was light on policy, and instead centred around ==out======rage==,== adding, “it was hyper-focused on ‘Trump is horrible for this reason’ or ‘Harris is horrible for that reason’.”
+He notes the American election was light on policy, and instead centred around ==outrage==, adding, “it was hyper-focused on ‘Trump is horrible for this reason’ or ‘Harris is horrible for that reason’.”
 
 Getty Images
 
