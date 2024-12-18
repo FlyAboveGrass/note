@@ -39,3 +39,180 @@
 # 翻译
 
 
+- undergo [ˌʌndəˈɡəʊ] 经历；遭受
+    - under - 在…… 之下；go - 走； -o 动词后缀
+    - endure [ɪnˈdjʊə(r)] 忍耐；忍受
+    - experience [ɪkˈspɪəriəns] 经验；经历
+    - encounter [ɪnˈkaʊntə(r)] 遭遇；邂逅
+- spinal [ˈspaɪnl] 脊柱的；脊髓的
+    - spin - 旋转； -al 形容词后缀
+    - vertebra [ˈvɜːtɪbrə] 椎骨；脊椎
+    - backbone [ˈbækbəʊn] 脊梁；支柱
+    - spine [spaɪn] 脊柱；脊椎
+- proponent [prəˈpəʊnənt] 支持者；拥护者
+    - pro - 向前；pon - 放置； -ent 名词后缀
+    - advocate [ˈædvəkeɪt] 提倡；拥护
+    - supporter [səˈpɔːtə(r)] 支持者；拥护者
+    - champion [ˈtʃæmpiən] 冠军；拥护者
+- notably [ˈnəʊtəbli] 显著地；尤其
+    - note - 注意； -ably 副词后缀
+    - significantly [sɪɡˈnɪfɪkəntli] 显著地；重大地
+    - remarkably [rɪˈmɑːkəbli] 显著地；非常地
+    - obviously [ˈɒbviəsli] 明显地；显然地
+- absent [ˈæbsənt] 缺席的；不在的
+    - ab - 离开；sent - 存在； -ent 形容词后缀
+    - missing [ˈmɪsɪŋ] 失踪的；缺少的
+    - lacking [ˈlækɪŋ] 缺乏的；不足的
+    - unavailable [ˌʌnəˈveɪləbl] 不可用的；不在的
+- explicit [ɪkˈsplɪsɪt] 明确的；清楚的
+    - ex - 出；plic - 折叠； -it 形容词后缀
+    - definite [ˈdefɪnət] 明确的；一定的
+    - clear [klɪə(r)] 清楚的；清晰的
+    - specific [spəˈsɪfɪk] 特定的；明确的
+- corporate [ˈkɔːpərət] 公司的；法人的
+    - corpor - 身体； -ate 形容词后缀
+    - enterprise [ˈentəpraɪz] 企业；事业
+    - company [ˈkʌmpəni] 公司；陪伴
+    - firm [fɜːm] 公司；坚定的
+- detained [dɪˈteɪnd] 被拘留的；被耽搁的
+    - de - 向下；tain - 拿住； -ed 形容词后缀
+    - arrested [əˈrestɪd] 被捕的；被拘留的
+    - held [held] 握住；持有
+    - imprisoned [ɪmˈprɪznd] 被监禁的
+- emerged [iˈmɜːdʒd] 出现；浮现
+    - e - 出；merg - 沉； -ed 形容词后缀
+    - appeared [əˈpɪəd] 出现；似乎
+    - surfaced [ˈsɜːfɪst] 浮出水面；露面
+    - materialized [məˈtɪəriəlaɪzd] 实现；具体化
+- sheriff [ˈʃerɪf] 警长；郡治安官
+    - shire - 郡； -iff 名词后缀
+    - police chief [pəˈliːs tʃiːf] 警察局长
+    - constable [ˈkʌnstəbl] 警察；治安官
+    - marshal [ˈmɑːʃl] 元帅；警长。
+- deputy [ˈdepjuti] 代理人；代表
+    - de - 副的；puty - 职务； -y 名词后缀
+    - surrogate [ˈsʌrəɡət] 代理人；代用品
+    - representative [ˌreprɪˈzentətɪv] 代表；典型
+    - agent [ˈeɪdʒənt] 代理人；代理商
+- insured [ɪnˈʃʊəd] 被保险的；已投保的
+    - in - 进入；sur - 确定； -ed 形容词后缀
+    - assured [əˈʃʊəd] 确定的；有保证的
+    - guaranteed [ˌɡærənˈtiːd] 有保证的；担保的
+    - warranted [ˈwɒrəntɪd] 有担保的；保证的
+- overwhelmingly [ˌəʊvəˈwelmɪŋli] 压倒性地；不可抵抗地
+    - over - 在…… 之上；whelm - 淹没； -ing 形容词后缀； -ly 副词后缀
+    - overwhelmingly [ˌəʊvəˈwelmɪŋli] 压倒性地；不可抵抗地
+    - predominately [prɪˈdɒmɪnətli] 主要地；占优势地
+    - predominantly [prɪˈdɒmɪnəntli] 主要地；占主导地位地
+    - largely [ˈlɑːdʒli] 主要地；大量地
+- pleased [pliːzd] 高兴的；满意的
+    - pleas - 愉快； -ed 形容词后缀
+    - delighted [dɪˈlaɪtɪd] 高兴的；欣喜的
+    - happy [ˈhæpi] 幸福的；高兴的
+    - content [kənˈtent] 满意的；满足的
+- referenced [ˈrefrənsd] 引用的；参考的
+    - refer - 提及； -ence 名词后缀； -ed 形容词后缀
+    - cited [ˈsaɪtɪd] 引用的；引证的
+    - quoted [ˈkwəʊtɪd] 引用的；引证的
+    - mentioned [ˈmenʃnd] 提及的；说起的
+- backpacking [ˈbækpækɪŋ] 背包旅行
+    - back - 背；pack - 包； -ing 名词后缀
+    - hiking [ˈhaɪkɪŋ] 徒步旅行
+    - trekking [ˈtrekɪŋ] 徒步旅行；长途跋涉
+    - camping [ˈkæmpɪŋ] 露营；野营
+- spondylolisthesis [ˌspɒndɪləʊlɪsˈθiːsɪs] 脊椎滑脱
+    - spondyl - 脊椎；olisthesis - 滑脱； -sis 名词后缀
+    - spinal disorder [ˈspaɪnl dɪsˈɔːdə(r)] 脊椎疾病
+    - back problem [bæk ˈprɒbləm] 背部问题
+    - vertebral issue [ˈvɜːtɪbrəl ˈɪʃuː] 脊椎问题
+    - spine condition [spaɪn kənˈdɪʃn] 脊椎状况
+- vertebra [ˈvɜːtɪbrə] 椎骨；脊椎
+    - vertebr - 脊椎； -a 名词后缀
+    - spinal column [ˈspaɪnl ˈkɒləm] 脊柱
+    - backbone [ˈbækbəʊn] 脊梁；支柱
+    - spine [spaɪn] 脊柱；脊椎
+- bachelor [ˈbætʃələ(r)] 单身汉；学士
+    - bach - 单身； -elor 名词后缀
+    - unmarried man [ˌʌnˈmærid mæn] 单身汉
+    - single man [ˈsɪŋɡl mæn] 单身汉
+    - graduate [ˈɡrædʒuət] 毕业生；研究生。
+- waffled [ˈwɒfəld] 犹豫不决；胡扯
+    - waff - 胡扯； -le 动词后缀； -ed 形容词后缀
+    - hesitated [ˈhezɪteɪtɪd] 犹豫；迟疑
+    - vacillated [ˈvæsəleɪtɪd] 摇摆不定；犹豫不决
+    - wavered [ˈweɪvəd] 动摇；犹豫不决
+- rod [rɒd] 杆；棒
+    - -
+    - stick [stɪk] 棍；棒
+    - pole [pəʊl] 杆；柱
+    - bar [bɑː(r)] 条；棒
+- screw [skruː] 螺丝钉；螺旋桨
+    - -
+    - bolt [bəʊlt] 螺栓；插销
+    - nut [nʌt] 螺母；螺帽
+    - washer [ˈwɒʃə(r)] 垫圈；洗衣机
+- spine [spaɪn] 脊柱；脊椎
+    - spin - 旋转； -e 名词后缀
+    - backbone [ˈbækbəʊn] 脊梁；支柱
+    - vertebral column [ˈvɜːtɪbrəl ˈkɒləm] 脊柱
+    - spinal column [ˈspaɪnl ˈkɒləm] 脊柱
+- awhile [əˈwaɪl] 片刻；一会儿
+    - a - 一个；while - 一段时间； -e 副词后缀
+    - for a moment [fɔː(r) ə ˈməʊmənt] 片刻；一会儿
+    - for a short time [fɔː(r) ə ʃɔːt taɪm] 一会儿；一小段时间
+    - for a little while [fɔː(r) ə ˈlɪtl waɪl] 一会儿；一小会儿
+- rigorous [ˈrɪɡərəs] 严格的；严厉的
+    - rig - 僵硬； -or - 名词后缀； -ous 形容词后缀
+    - strict [strɪkt] 严格的；严厉的
+    - stern [stɜːn] 严厉的；苛刻的
+    - severe [sɪˈvɪə(r)] 严厉的；严峻的
+- anticipated [ænˈtɪsɪpeɪtɪd] 预期的；期望的
+    - anti - 预先；cip - 拿； -ate 动词后缀； -ed 形容词后缀
+    - expected [ɪkˈspektɪd] 预期的；预料的
+    - awaited [əˈweɪtɪd] 等候的；期待的
+    - looked forward to [lʊkt ˈfɔːwəd tuː] 期待；盼望。
+- gross [ɡrəʊs] 总的；严重的；粗俗的
+    - -
+    - total [ˈtəʊtl] 总的；全体的
+    - entire [ɪnˈtaɪə(r)] 全部的；整个的
+    - whole [həʊl] 全部的；完整的
+- conservative [kənˈsɜːvətɪv] 保守的；守旧的
+    - con - 共同；serv - 保持； -ative 形容词后缀
+    - traditional [trəˈdɪʃənl] 传统的；守旧的
+    - conventional [kənˈvenʃənl] 传统的；常规的
+    - old-fashioned [ˌəʊld ˈfæʃnd] 老式的；过时的
+- deductible [dɪˈdʌktəbl] 可扣除的；可减免的
+    - de - 向下；duct - 引导； -ible 形容词后缀
+    - subtractable [səbˈtræktəbl] 可减去的
+    - reducible [rɪˈdjuːsəbl] 可减少的；可简化的
+    - deductible [dɪˈdʌktəbl] 可扣除的；可减免的
+- factor [ˈfæktə(r)] 因素；要素
+    - -
+    - element [ˈelɪmənt] 元素；要素
+    - ingredient [ɪnˈɡriːdiənt] 成分；要素
+    - component [kəmˈpəʊnənt] 组成部分；成分
+- fog [fɒɡ] 雾；烟雾
+    - -
+    - mist [mɪst] 薄雾；水汽
+    - haze [heɪz] 霾；薄雾
+    - smog [smɒɡ] 烟雾
+- semblance [ˈsembləns] 外表；相似
+    - sembl - 相似； -ance 名词后缀
+    - appearance [əˈpɪərəns] 外貌；出现
+    - likeness [ˈlaɪknəs] 相似；相像
+    - resemblance [rɪˈzembləns] 相似；类似
+- inability [ˌɪnəˈbɪləti] 无能；无力
+    - in - 不；ability - 能力； -ity 名词后缀
+    - incapacity [ˌɪnkəˈpæsəti] 无能力；无能
+    - weakness [ˈwiːknəs] 弱点；软弱
+    - impotence [ˈɪmpətəns] 无力；虚弱
+- capitalist [ˈkæpɪtəlɪst] 资本家；资本主义者
+    - capital - 资本； -ist 名词后缀
+    - entrepreneur [ˌɒntrəprəˈnɜː(r)] 企业家；创业者
+    - tycoon [taɪˈkuːn] 企业巨头；大亨
+    - magnate [ˈmæɡneɪt] 巨头；富豪
+- unbeatable [ʌnˈbiːtəbl] 无敌的；无与伦比的
+    - un - 不；beat - 打败； -able 形容词后缀
+    - invincible [ɪnˈvɪnsəbl] 无敌的；不可战胜的
+    - unconquerable [ʌnˈkɒŋkərəbl] 不可征服的；无敌的
+    - unrivaled [ʌnˈraɪvəld] 无敌的；无与伦比的。
