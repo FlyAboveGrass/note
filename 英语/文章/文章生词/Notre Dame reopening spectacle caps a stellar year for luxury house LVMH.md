@@ -5,3 +5,332 @@
 - meticulously
 - choreographed
 - conglomerate
+- archbishop
+- clergy
+- counterpart
+- soprano
+- rendition
+- adorned
+- carat
+- inauguration
+- arena
+- cathedral
+- prominence
+- sacred
+- gothic
+- monument
+- venue
+- consultant
+- rivalry
+- conglomerate
+- actress
+- devastating
+- tailored
+- culmination
+- euro
+- restoration
+- dignitary
+- spire
+- testament
+- inextricably
+- intertwined
+- steep
+- deputy
+- generosity
+- craftsmen
+- quipped
+- worshiper
+- grandeur
+- cemented
+- stellar
+- torch
+- bitter
+- bidding
+- realms
+- philanthropy
+- stitch
+- liturgical
+- vestment
+- unorthodox
+- minimalist
+- robe
+
+
+# 翻译
+
+
+- notre dame [ˌnəʊtrə ˈdɑːm] 巴黎圣母院
+    - none
+    - basilica [bəˈzɪlɪkə] 大教堂
+    - abbey [ˈæbi] 修道院
+    - monastery [ˈmɒnəstri] 寺院
+- cathedral [kəˈθiːdrəl] 大教堂
+    - cathedra - 主教座位； -al 形容词后缀
+    - basilica [bəˈzɪlɪkə] 大教堂
+    - abbey [ˈæbi] 修道院
+    - chapel [ˈtʃæpl] 小教堂
+- revival [rɪˈvaɪvl] 复兴；复活；复苏
+    - re - 再；viv - 生命； -al 名词后缀
+    - resurgence [rɪˈsɜːdʒəns] 复苏；复兴
+    - rejuvenation [rɪˌdʒuːvəˈneɪʃn] 恢复活力；返老还童
+    - renewal [rɪˈnjuːəl] 更新；复兴
+- meticulously [məˈtɪkjələsli] 小心翼翼地；细致地
+    - metic - 小心的； -ulous 形容词后缀； -ly 副词后缀
+    - scrupulously [ˈskruːpjələsli] 小心翼翼地；审慎地
+    - painstakingly [ˈpeɪnzteɪkɪŋli] 煞费苦心地；精心地
+    - conscientiously [ˌkɒnʃiˈenʃəsli] 认真地；尽责地
+- choreographed [ˈkɔːriəɡrɑːft] 设计舞蹈动作；精心安排
+    - choreo - 舞蹈； -graph 写； -ed 形容词后缀
+    - orchestrated [ˈɔːkɪstreɪtɪd] 精心安排；编配（乐曲）
+    - arranged [əˈreɪndʒd] 安排；布置
+    - planned [plænd] 计划；打算
+- conglomerate [kənˈɡlɒmərət] 企业集团；联合大企业
+    - con - 一起；glomer - 球； -ate 名词后缀
+    - consortium [kənˈsɔːtiəm] 财团；联营企业
+    - syndicate [ˈsɪndɪkət] 辛迪加；企业联合组织
+    - combine [kəmˈbaɪn] 联合企业
+- archbishop [ˌɑːtʃˈbɪʃəp] 大主教；总主教
+    - arch - 主要的；bishop - 主教
+    - bishop [ˈbɪʃəp] 主教
+    - cardinal [ˈkɑːdɪnl] 红衣主教
+    - priest [priːst] 牧师；神父
+- clergy [ˈklɜːdʒi] 神职人员；牧师
+    - none
+    - pastor [ˈpɑːstə(r)] 牧师；神父
+    - minister [ˈmɪnɪstə(r)] 部长；大臣；牧师
+    - reverend [ˈrevərənd] 尊敬的；教士的
+- counterpart [ˈkaʊntəpɑːt] 对应的人或物；副本
+    - counter - 相对的；part - 部分
+    - equivalent [ɪˈkwɪvələnt] 相等的；等价物
+    - parallel [ˈpærəlel] 平行的；类似的事物
+    - duplicate [ˈdjuːplɪkeɪt] 副本；复制品
+- soprano [səˈprɑːnəʊ] 女高音；高音部
+    - none
+    - alto [ˈæltəʊ] 女低音；中音部
+    - tenor [ˈtenə(r)] 男高音
+    - bass [beɪs] 男低音
+- rendition [renˈdɪʃn] 表演；演奏；翻译
+    - rend - 给予； -ition 名词后缀
+    - performance [pəˈfɔːməns] 表演；表现
+    - interpretation [ɪnˌtɜːprɪˈteɪʃn] 解释；表演
+    - presentation [ˌpreznˈteɪʃn] 展示；陈述
+- adorned [əˈdɔːnd] 装饰；使生色
+    - ad - 向；orn - 装饰； -ed 形容词后缀
+    - decorated [ˈdekəreɪtɪd] 装饰的；修饰的
+    - embellished [ɪmˈbelɪʃt] 美化的；装饰的
+    - ornamented [ˈɔːnəmentɪd] 装饰的
+- carat [ˈkærət] 克拉（宝石的重量单位）
+    - none
+    - karat [ˈkærət] 开（黄金成色单位）
+    - gram [ɡræm] 克
+    - ounce [aʊns] 盎司
+- inauguration [ɪˌnɔːɡjəˈreɪʃn] 就职典礼；开幕式
+    - in - 进入；augur - 占卜； -ation 名词后缀
+    - ceremony [ˈserəməni] 典礼；仪式
+    - commencement [kəˈmensmənt] 开始；毕业典礼
+    - opening [ˈəʊpnɪŋ] 开幕；开端
+- arena [əˈriːnə] 竞技场；舞台
+    - none
+    - stadium [ˈsteɪdiəm] 体育场；露天大型运动场
+    - amphitheatre [ˌæmfiˈθiːətə(r)] 圆形露天剧场
+    - coliseum [ˌkɒləˈsiːəm] 大竞技场；大剧场
+- cathedral [kəˈθiːdrəl] 大教堂
+    - cathedra - 主教座位； -al 形容词后缀
+    - basilica [bəˈzɪlɪkə] 大教堂
+    - abbey [ˈæbi] 修道院
+    - chapel [ˈtʃæpl] 小教堂
+- prominence [ˈprɒmɪnəns] 突出；显著；重要
+    - pro - 向前；min - 突出； -ence 名词后缀
+    - eminence [ˈemɪnəns] 卓越；杰出
+    - distinction [dɪˈstɪŋkʃn] 区别；卓越
+    - prominence [ˈprɒmɪnəns] 突出；显著；重要（重复一遍）
+- sacred [ˈseɪkrɪd] 神圣的；宗教的
+    - sacer - 神圣的； -ed 形容词后缀
+    - holy [ˈhəʊli] 神圣的；圣洁的
+    - divine [dɪˈvaɪn] 神圣的；神的
+    - religious [rɪˈlɪdʒəs] 宗教的；虔诚的。
+- gothic [ˈɡɒθɪk] 哥特式的
+    - goth - 哥特人； -ic 形容词后缀
+    - baroque [bəˈrɒk] 巴洛克式的
+    - rococo [rəˈkəʊkəʊ] 洛可可式的
+    - neoclassical [ˌniːəʊˈklæsɪkl] 新古典主义的
+- monument [ˈmɒnjumənt] 纪念碑；历史遗迹
+    - monu - 提醒； -ment 名词后缀
+    - landmark [ˈlændmɑːk] 地标；里程碑
+    - memorial [məˈmɔːriəl] 纪念碑；纪念物
+    - statue [ˈstætʃuː] 雕像
+- venue [ˈvenjuː] 场地；场馆
+    - none
+    - stadium [ˈsteɪdiəm] 体育场；露天大型运动场
+    - arena [əˈriːnə] 竞技场；舞台
+    - auditorium [ˌɔːdɪˈtɔːriəm] 礼堂；观众席
+- consultant [kənˈsʌltənt] 顾问；咨询者
+    - con - 共同；sult - 跳； -ant 人后缀
+    - advisor [ədˈvaɪzə(r)] 顾问；指导者
+    - counsellor [ˈkaʊnsələ(r)] 顾问；律师
+    - specialist [ˈspeʃəlɪst] 专家
+- rivalry [ˈraɪvlri] 竞争；对抗
+    - riv - 河流； -al 形容词后缀； -ry 名词后缀
+    - competition [ˌkɒmpəˈtɪʃn] 竞争；比赛
+    - contention [kənˈtenʃn] 争论；竞争
+    - conflict [ˈkɒnflɪkt] 冲突；矛盾
+- conglomerate [kənˈɡlɒmərət] 企业集团；联合大企业
+    - con - 一起；glomer - 球； -ate 名词后缀
+    - consortium [kənˈsɔːtiəm] 财团；联营企业
+    - syndicate [ˈsɪndɪkət] 辛迪加；企业联合组织
+    - combine [kəmˈbaɪn] 联合企业
+- actress [ˈæktrəs] 女演员
+    - act - 行动； -ress 女性后缀
+    - actor [ˈæktə(r)] 男演员
+    - performer [pəˈfɔːmə(r)] 表演者
+    - artiste [ɑːˈtiːst] 艺人；大师
+- devastating [ˈdevəsteɪtɪŋ] 毁灭性的；极具破坏力的
+    - devastate - 破坏； -ing 形容词后缀
+    - destructive [dɪˈstrʌktɪv] 破坏的；毁灭性的
+    - ruinous [ˈruːɪnəs] 毁灭性的；破坏性的
+    - disastrous [dɪˈzɑːstrəs] 灾难性的；极坏的
+- tailored [ˈteɪləd] 定做的；合身的
+    - tail - 裁剪； -or 人后缀； -ed 形容词后缀
+    - custom-made [ˌkʌstəmˈmeɪd] 定做的；定制的
+    - bespoke [bɪˈspəʊk] 定做的；定制的
+    - fitted [ˈfɪtɪd] 合适的；合身的
+- culmination [ˌkʌlmɪˈneɪʃn] 顶点；高潮；完成
+    - culm - 顶点； -in - 入； -ation 名词后缀
+    - climax [ˈklaɪmæks] 高潮；顶点
+    - peak [piːk] 山峰；顶点
+    - zenith [ˈzenɪθ] 天顶；最高点。
+- euro [ˈjʊərəʊ] 欧元；欧洲的
+    - none
+    - dollar [ˈdɒlə(r)] 美元
+    - pound [paʊnd] 英镑
+    - yen [jen] 日元
+- restoration [ˌrestəˈreɪʃn] 恢复；修复；复位
+    - re - 再；stor - 储存； -ation 名词后缀
+    - renewal [rɪˈnjuːəl] 更新；复兴
+    - rejuvenation [rɪˌdʒuːvəˈneɪʃn] 恢复活力；返老还童
+    - rehabilitation [ˌriːəˌbɪlɪˈteɪʃn] 恢复；复原
+- dignitary [ˈdɪɡnɪtəri] 显要人物；权贵
+    - dign - 尊严； -itary 人后缀
+    - celebrity [səˈlebrəti] 名人；名流
+    - VIP [ˌviː aɪ ˈpiː] 重要人物；贵宾
+    - notable [ˈnəʊtəbl] 名人；显要人物
+- spire [ˈspaɪə(r)] 尖顶；尖塔
+    - none
+    - tower [ˈtaʊə(r)] 塔；塔楼
+    - minaret [ˌmɪnəˈret] 宣礼塔
+    - steeple [ˈstiːpl] 尖塔
+- testament [ˈtestəmənt] 遗嘱；证明
+    - test - 见证； -ament 名词后缀
+    - will [wɪl] 遗嘱；意愿
+    - legacy [ˈleɡəsi] 遗产；遗赠
+    - bequest [bɪˈkwest] 遗产；遗赠物
+- inextricably [ˌɪnɪkˈstrɪkəbli] 不可分割地；分不开地
+    - in - 不；ex - 出；tric - 纠缠； -ably 副词后缀
+    - inseparably [ɪnˈsepərəbli] 不可分离地
+    - indissolubly [ˌɪndɪˈsɒljʊbli] 不可分解地
+    - unbreakably [ʌnˈbreɪkəbli] 牢不可破地
+- intertwined [ˌɪntəˈtwaɪnd] 缠绕的；交织的
+    - inter - 在…… 之间；twine - 缠绕； -ed 形容词后缀
+    - interwoven [ˌɪntəˈwəʊvn] 交织的；编织的
+    - entangled [ɪnˈtæŋgld] 卷入的；纠缠的
+    - interlaced [ˌɪntəˈleɪst] 交织的；交错的
+- steep [stiːp] 陡峭的；急剧上升的
+    - none
+    - precipitous [prɪˈsɪpɪtəs] 陡峭的；险峻的
+    - sheer [ʃɪə(r)] 陡峭的；垂直的
+    - abrupt [əˈbrʌpt] 突然的；陡峭的
+- deputy [ˈdepjuti] 代理人；副手
+    - de - 副的；put - 思考； -y 人后缀
+    - assistant [əˈsɪstənt] 助手；助理
+    - subordinate [səˈbɔːdɪnət] 下属；从属的
+    - aide [eɪd] 助手；副官。
+- generosity [ˌdʒenəˈrɒsəti] 慷慨；大方
+    - gener - 产生； -osity 名词后缀
+    - magnanimity [ˌmæɡnəˈnɪməti] 宽宏大量；慷慨
+    - liberality [ˌlɪbəˈræləti] 慷慨；大方
+    - benevolence [bəˈnevələns] 仁慈；善行
+- craftsmen [ˈkrɑːftsmən] 工匠；手艺人
+    - craft - 工艺； -sman 人后缀
+    - artisan [ˌɑːtɪˈzæn] 工匠；技工
+    - artificer [ɑːˈtɪfɪsə(r)] 工匠；技师
+    - workman [ˈwɜːkmən] 工人；工匠
+- quipped [kwɪpt] 俏皮地说；打趣
+    - none
+    - jested [dʒestɪd] 开玩笑；打趣
+    - bantered [ˈbæntəd] 开玩笑；逗乐
+    - teased [tiːzd] 取笑；戏弄
+- worshiper [ˈwɜːʃɪpə(r)] 崇拜者；信徒
+    - worship - 崇拜； -er 人后缀
+    - devotee [ˌdevəˈtiː] 信徒；爱好者
+    - adherent [ədˈhɪərənt] 信徒；拥护者
+    - follower [ˈfɒləʊə(r)] 追随者；信徒
+- grandeur [ˈɡrændʒə(r)] 壮丽；宏伟
+    - grand - 宏伟的； -eur 名词后缀
+    - magnificence [mæɡˈnɪfɪsns] 壮丽；宏伟
+    - splendor [ˈsplendə(r)] 光辉；壮丽
+    - pomp [pɒmp] 盛况；壮丽
+- cemented [sɪˈmentɪd] 胶合的；巩固的
+    - cement - 水泥；胶合； -ed 形容词后缀
+    - consolidated [kənˈsɒlɪdeɪtɪd] 巩固的；强化的
+    - strengthened [ˈstreŋθnd] 加强的；巩固的
+    - reinforced [ˌriːɪnˈfɔːst] 加强的；加固的
+- stellar [ˈstelə(r)] 星的；恒星的
+    - stell - 星； -ar 形容词后缀
+    - astral [ˈæstrəl] 星的；星际的
+    - celestial [səˈlestiəl] 天空的；天体的
+    - planetary [ˈplænətri] 行星的
+- torch [tɔːtʃ] 火把；手电筒
+    - none
+    - flashlight [ˈflæʃlaɪt] 手电筒
+    - lantern [ˈlæntən] 灯笼
+    - candle [ˈkændl] 蜡烛
+- bitter [ˈbɪtə(r)] 苦的；痛苦的
+    - none
+    - acrid [ˈækrɪd] 辛辣的；刺鼻的
+    - harsh [hɑːʃ] 严厉的；刺耳的
+    - sour [ˈsaʊə(r)] 酸的；酸味的
+- bidding [ˈbɪdɪŋ] 出价；投标
+    - bid - 出价； -ing 名词后缀
+    - tender [ˈtendə(r)] 投标；温柔的
+    - offer [ˈɒfə(r)] 出价；提议
+    - proposal [prəˈpəʊzl] 提议；求婚。
+- realms [relmz] 领域；范围
+    - none
+    - domain [dəˈmeɪn] 领域；领地
+    - territory [ˈterətri] 领土；领域
+    - sphere [sfɪə(r)] 范围；领域
+- philanthropy [fɪˈlænθrəpi] 慈善；慈善事业
+    - phil - 爱；anthrop - 人； -y 名词后缀
+    - charity [ˈtʃærəti] 慈善；施舍
+    - benevolence [bəˈnevələns] 仁慈；善行
+    - donation [dəʊˈneɪʃn] 捐赠；捐款
+- stitch [stɪtʃ] 缝；针法
+    - none
+    - sew [səʊ] 缝；缝制
+    - embroider [ɪmˈbrɔɪdə(r)] 刺绣；装饰
+    - patch [pætʃ] 补丁；修补
+- liturgical [lɪˈtɜːdʒɪkl] 礼拜仪式的
+    - liturg - 礼拜仪式； -ical 形容词后缀
+    - ceremonial [ˌserɪˈməʋniəl] 仪式的；正式的
+    - ritual [ˈrɪtʃuəl] 仪式的；惯例的
+    - sacramental [ˌsækrəˈmentl] 圣礼的；神圣的
+- vestment [ˈvestmənt] 法衣；礼服
+    - vest - 穿衣服； -ment 名词后缀
+    - robe [rəʊb] 长袍；礼服
+    - gown [ɡaʊn] 长袍；女礼服
+    - cassock [ˈkæsək] 法衣；教士长袍
+- unorthodox [ʌnˈɔːθədɒks] 非正统的；异端的
+    - un - 不；ortho - 正；dox - 观点； -ous 形容词后缀
+    - unconventional [ˌʌnkənˈvenʃənl] 非传统的；不合常规的
+    - irregular [ɪˈreɡjələ(r)] 不规则的；不正规的
+    - abnormal [æbˈnɔːml] 反常的；不正常的
+- minimalist [ˈmɪnɪməlɪst] 极简主义者；极简抽象派艺术家
+    - minimal - 最小的； -ist 人后缀
+    - frugal [ˈfruːɡl] 节俭的；朴素的
+    - austere [ɒˈstɪə(r)] 简朴的；严厉的
+    - spartan [ˈspɑːtən] 简朴的；艰苦的
+- robe [rəʊb] 长袍；礼服
+    - none
+    - gown [ɡaʊn] 长袍；女礼服
+    - vestment [ˈvestmənt] 法衣；礼服
+    - cassock [ˈkæsək] 法衣；教士长袍。

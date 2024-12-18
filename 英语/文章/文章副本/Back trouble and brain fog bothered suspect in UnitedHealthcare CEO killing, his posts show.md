@@ -55,31 +55,6 @@ Experiencing chronic back pain can also significantly impact mental health, said
 
 Press shift question mark to access a list of keyboard shortcuts
 
-Keyboard Shortcuts
-
-Shortcuts Open/Close/ or ?
-
-Play/PauseSPACE
-
-Increase Volume↑
-
-Decrease Volume↓
-
-Seek Forward→
-
-Seek Backward←
-
-Captions On/Offc
-
-Fullscreen/Exit Fullscreenf
-
-Mute/Unmutem
-
-Decrease Caption Size-
-
-Increase Caption Size+ or =
-
-Seek %0-9
 
 Luigi Mangione, the suspect in the UnitedHealthcare CEO’s killing, suffered from back trouble and brain ==fog.== A look at the new details that have ====emerged==.==
 

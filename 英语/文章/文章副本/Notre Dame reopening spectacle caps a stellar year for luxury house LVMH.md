@@ -19,7 +19,7 @@ Some questioned the taste of such brand ====prominence==== occurring in a ==s
 
 Not far behind Arnault sat representatives of Kering, adding another layer to the ongoing ====rivalry==== between France’s two largest luxury ====conglomerates==.==
 
-French President Emmanuel Macron, center, and his wife Brigitte Macron arrive to attend the inaugural Mass, with the consecration of the altar, at the ====Notre Dame==== ====Cathedral==,== five-and-a-half years after a fire ravaged the ==Gothic== masterpiece, as part of ceremonies to mark the ====Cathedral=='==s reopening after its ====restoration==,== in Paris, France, Sunday, Dec. 8, 2024. (Sarah Meyssonnier/Pool Photo via AP)
+French President Emmanuel Macron, center, and his wife Brigitte Macron arrive to attend the inaugural Mass, with the consecration of the altar, at the ====Notre Dame==== ====Cathedral==,== five-and-a-half years after a fire ravaged the ==Gothic== masterpiece, as part of ceremonies to mark the ====Cathedral=='s reopening after its restoration, in Paris, France, Sunday, Dec. 8, 2024. (Sarah Meyssonnier/Pool Photo via AP)
 
 ====Actress==== Salma Hayek and her husband CEO of Kering Francois-Henri Pinault sit inside ====Notre Dame==== ====Cathedral==== before France's iconic ====cathedral==== is formally reopening its doors for the first time since a ====devastating==== fire nearly destroyed the 861-year-old landmark in 2019, Saturday Dec.7, 2024 in Paris. (Ludovic Marin/Pool via AP, File)
 
