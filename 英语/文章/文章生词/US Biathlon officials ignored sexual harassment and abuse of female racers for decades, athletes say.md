@@ -61,3 +61,293 @@
 
 
 # 翻译
+- harassment [ˈhærəsmənt] 骚扰；烦扰
+    - harass - 骚扰； -ment 名词后缀
+    - annoyance [əˈnɔɪəns] 烦恼；令人讨厌的事物
+    - disturbance [dɪˈstɜːbəns] 干扰；骚乱
+    - molestation [ˌmɒləˈsteɪʃn] 骚扰；干扰
+- biathlon [baɪˈæθlən] 冬季两项（越野滑雪和射击）
+    - bi - 二； -athlon 体育竞赛
+    - pentathlon [penˈtæθlən] 五项全能运动
+    - decathlon [dɪˈkæθlən] 十项全能运动
+    - heptathlon [hepˈtæθlən] 七项全能运动
+- dismissed [dɪsˈmɪst] 被解雇的；被开除的；被驳回的
+    - dis - 否定； -miss - 送，派； -ed 形容词后缀
+    - fired [ˈfaɪəd] 被解雇的
+    - laid off [leɪd ɒf] 被解雇；下岗
+    - sacked [sækt] 被解雇的
+- medal [ˈmedl] 奖章；勋章；纪念章
+    - -
+    - trophy [ˈtrəʊfi] 奖品；战利品；纪念品
+    - award [əˈwɔːd] 奖品；奖金；授予
+    - prize [praɪz] 奖品；奖赏
+- biathlete [ˈbaɪˌæθliːt] 冬季两项运动员
+    - bi - 二； -athlete 运动员
+    - pentathlete [penˈtæθliːt] 五项全能运动员
+    - decathlete [dɪˈkæθliːt] 十项全能运动员
+    - heptathlete [hepˈtæθliːt] 七项全能运动员
+- climb [klaɪm] 攀登；爬；上升
+    - -
+    - ascend [əˈsend] 上升；攀登
+    - scale [skeɪl] 攀登；衡量；鱼鳞
+    - mount [maʊnt] 登上；增加；安装
+- domestic [dəˈmestɪk] 国内的；家庭的；驯养的
+    - dom - 家； -estic 形容词后缀
+    - household [ˈhaʊshəʊld] 家庭的；一家人
+    - native [ˈneɪtɪv] 本国的；本土的；天生的
+    - internal [ɪnˈtɜːnl] 内部的；国内的
+- misogyny [mɪˈsɒdʒəni] 厌恶女人；厌女症
+    - miso - 厌恶； -gyny 女性
+    - sexism [ˈseksɪzəm] 性别歧视
+    - chauvinism [ˈʃəʊvɪnɪzəm] 沙文主义；盲目的爱国心
+    - discrimination [dɪˌskrɪmɪˈneɪʃn] 歧视；区别
+- retaliation [rɪˌtæliˈeɪʃn] 报复；反击
+    - re - 回； -tali - 惩罚； -ation 名词后缀
+    - revenge [rɪˈvendʒ] 报复；复仇
+    - reprisal [rɪˈpraɪzl] 报复；报复行动
+    - vengeance [ˈvendʒəns] 复仇；报仇
+- top-down [ˌtɒpˈdaʊn] 自上而下的；从上级到下级的
+    - top - 顶部； -down - 向下
+    - hierarchical [ˌhaɪəˈrɑːkɪkl] 等级制度的
+    - pyramidal [pɪˈræmɪdl] 金字塔形的；等级制的
+    - stratified [ˈstrætɪfaɪd] 分层的；成层的
+- marketing [ˈmɑːkɪtɪŋ] 市场营销；营销学
+    - market - 市场； -ing 名词后缀
+    - promotion [prəˈməʊʃn] 促销；晋升
+    - advertising [ˈædvətaɪzɪŋ] 广告；广告业
+    - publicity [pʌbˈlɪsəti] 宣传；公众的注意
+- assault [əˈsɔːlt] 攻击；袭击
+    - as - 向； -sault - 跳跃；攻击
+    - attack [əˈtæk] 攻击；抨击
+    - raid [reɪd] 袭击；突袭
+    - onslaught [ˈɒnslɔːt] 猛攻；突击
+- unheeded [ˌʌnˈhiːdɪd] 未被注意的；被忽视的
+    - un - 否定； heed - 注意； -ed 形容词后缀
+    - ignored [ɪɡˈnɔːd] 被忽视的；被忽略的
+    - neglected [nɪˈɡlektɪd] 被忽视的；未被好好照管的
+    - overlooked [ˌəʊvəˈlʊkt] 被忽视的；未被注意到的
+- predator [ˈpredətə(r)] 捕食者；食肉动物
+    - preda - 掠夺； -tor 表示人或物
+    - hunter [ˈhʌntə(r)] 猎人；猎犬
+    - carnivore [ˈkɑːnɪvɔː(r)] 食肉动物
+    - raptor [ˈræptə(r)] 猛禽
+- come forward [kʌm ˈfɔːwəd] 站出来；自告奋勇；主动提供
+    - come - 来； forward - 向前
+    - step forward [step ˈfɔːwəd] 向前一步；站出来
+    - volunteer [ˌvɒlənˈtɪə(r)] 自愿做；志愿者
+    - offer [ˈɒfə(r)] 提供；出价
+- aftermath [ˈɑːftəmæθ] 后果；余波
+    - after - 在…… 之后； math - 割草
+    - consequence [ˈkɒnsɪkwəns] 结果；后果
+    - repercussion [ˌriːpəˈkʌʃn] 影响；反响
+    - fallout [ˈfɔːlaʊt] 后果；附带结果
+- scandal [ˈskændl] 丑闻；丑事
+    - -
+    - disgrace [dɪsˈɡreɪs] 耻辱；不光彩的事
+    - outrage [ˈaʊtreɪdʒ] 愤怒；暴行；丑闻
+    - controversy [ˈkɒntrəvɜːsi] 争论；争议
+- relay [ˈriːleɪ] 接力；转播；接替
+    - re - 再； lay - 放置
+    - succession [səkˈseʃn] 连续；继任
+    - transmission [trænsˈmɪʃn] 传输；传送；播送
+    - transfer [trænsˈfɜː(r)] 转移；调任；转让。
+- violation [ˌvaɪəˈleɪʃn] 违反；违背；侵犯
+    - viola - 违背； -tion 名词后缀
+    - infringement [ɪnˈfrɪndʒmənt] 侵犯；违反
+    - breach [briːtʃ] 违背；破坏
+    - transgression [trænsˈɡreʃn] 违反；罪过
+- misogynistic [ˌmɪsəʊdʒɪˈnɪstɪk] 厌恶女人的；厌女症的
+    - miso - 厌恶； gyn - 女人； -istic 形容词后缀
+    - sexist [ˈseksɪst] 性别歧视者；性别歧视的
+    - chauvinistic [ˌʃəʊvɪˈnɪstɪk] 沙文主义的；盲目爱国的
+    - discriminatory [dɪˈskrɪmɪnətəri] 歧视的；差别对待的
+- dominated [ˈdɒmɪneɪtɪd] 占主导地位的；支配的
+    - domin - 统治； -ated 形容词后缀
+    - predominant [prɪˈdɒmɪnənt] 主要的；占优势的
+    - prevailing [prɪˈveɪlɪŋ] 流行的；占优势的
+    - dominant [ˈdɒmɪnənt] 占优势的；支配的
+- explicit [ɪkˈsplɪsɪt] 清楚明白的；明确的
+    - ex - 出； plic - 折叠； -it 形容词后缀
+    - definite [ˈdefɪnət] 明确的；一定的
+    - specific [spəˈsɪfɪk] 特定的；明确的
+    - clear [klɪə(r)] 清楚的；清晰的
+- pursuit [pəˈsjuːt] 追求；追赶；职业
+    - pur - 向前； suit - 跟随； -t 名词后缀
+    - chase [tʃeɪs] 追赶；追捕
+    - hunt [hʌnt] 打猎；追捕
+    - quest [kwest] 探索；追求
+- bronze [brɒnz] 青铜；青铜色；铜牌
+    - -
+    - copper [ˈkɒpə(r)] 铜；铜币
+    - brass [brɑːs] 黄铜；黄铜制品
+    - gold [ɡəʊld] 金；金色；金牌
+- filed [faɪld] 提出；申请；归档
+    - file - 把…… 归档； -ed 动词过去分词
+    - submitted [səbˈmɪtɪd] 提交；呈递
+    - presented [prɪˈzentɪd] 提出；呈现
+    - lodged [lɒdʒd] 提出（申诉等）；寄存
+- medal [ˈmedl] 奖章；勋章；纪念章
+    - -
+    - trophy [ˈtrəʊfi] 奖品；战利品；纪念品
+    - award [əˈwɔːd] 奖品；奖金；授予
+    - prize [praɪz] 奖品；奖赏
+- assault [əˈsɔːlt] 攻击；袭击
+    - as - 向； -sault - 跳跃；攻击
+    - attack [əˈtæk] 攻击；抨击
+    - raid [reɪd] 袭击；突袭
+    - onslaught [ˈɒnslɔːt] 猛攻；突击。
+- speechless [ˈspiːtʃləs] 说不出话的；哑的
+    - speech - 说话； -less 无…… 的
+    - mute [mjuːt] 哑的；无声的
+    - silent [ˈsaɪlənt] 沉默的；寂静的
+    - taciturn [ˈtæsɪtɜːn] 沉默寡言的
+- discipline [ˈdɪsəplɪn] 纪律；训练；学科
+    - dis - 加强； -cip - 拿； -line - 线；引申为规范
+    - training [ˈtreɪnɪŋ] 训练；培养
+    - regulation [ˌreɡjuˈleɪʃn] 规则；管理
+    - order [ˈɔːdə(r)] 秩序；命令
+- compete [kəmˈpiːt] 竞争；比赛
+    - com - 共同； -pet - 追求； -e 动词后缀
+    - contend [kənˈtend] 竞争；斗争
+    - vie [vaɪ] 竞争；争胜
+    - race [reɪs] 比赛；赛跑
+- maiden [ˈmeɪdn] 少女；未婚女子；首次的
+    - -
+    - girl [ɡɜːl] 女孩；少女
+    - lass [læs] 少女；小姑娘
+    - damsel [ˈdæmzl] 少女；年轻女子
+- sake [seɪk] 缘故；理由
+    - -
+    - reason [ˈriːzn] 理由；原因
+    - cause [kɔːz] 原因；事业
+    - purpose [ˈpɜːpəs] 目的；用途
+- rifle [ˈraɪfl] 步枪；来复枪
+    - -
+    - gun [ɡʌn] 枪；炮
+    - pistol [ˈpɪstl] 手枪
+    - shotgun [ˈʃɒtɡʌn] 霰弹枪
+- skis [skiːz] 滑雪板
+    - -
+    - snowboard [ˈsnəʊbɔːd] 滑雪板
+    - sled [sled] 雪橇
+    - toboggan [təˈbɒɡən] 长雪橇
+- bump [bʌmp] 碰撞；撞击；肿块
+    - -
+    - knock [nɒk] 敲；打；撞击
+    - collision [kəˈlɪʒn] 碰撞；冲突
+    - crash [kræʃ] 碰撞；坠毁
+- undergo [ˌʌndəˈɡəʊ] 经历；遭受
+    - under - 在…… 下面； go - 走
+    - endure [ɪnˈdjʊə(r)] 忍耐；忍受
+    - suffer [ˈsʌfə(r)] 遭受；忍受
+    - experience [ɪkˈspɪəriəns] 经历；经验。
+- catastrophic [ˌkætəˈstrɒfɪk] 灾难性的；悲惨的
+    - cata - 向下； -stroph - 转； -ic 形容词后缀
+    - disastrous [dɪˈzɑːstrəs] 灾难性的；极坏的
+    - calamitous [kəˈlæmɪtəs] 灾难的；悲惨的
+    - tragic [ˈtrædʒɪk] 悲剧的；悲惨的。
+- distress [dɪˈstres] 痛苦；苦恼；贫困
+    - dis - 加强； stress - 压力；引申为痛苦
+    - anguish [ˈæŋɡwɪʃ] 痛苦；苦恼
+    - agony [ˈæɡəni] 极度痛苦；苦恼
+    - suffering [ˈsʌfərɪŋ] 痛苦；苦难
+- recruit [rɪˈkruːt] 招募；征募；新兵
+    - re - 再； cruit - 生长；引申为补充人员
+    - enlist [ɪnˈlɪst] 征募；从军
+    - enroll [ɪnˈrəʊl] 登记；招收
+    - hire [ˈhaɪə(r)] 雇用；租用
+- rub [rʌb] 擦；摩擦；揉
+    - -
+    - scrub [skrʌb] 用力擦洗；刷洗
+    - polish [ˈpɒlɪʃ] 擦亮；磨光
+    - wipe [waɪp] 擦；抹；拭
+- buttock [ˈbʌtək] 臀部；半边屁股
+    - -
+    - hip [hɪp] 臀部；髋部
+    - rear [rɪə(r)] 后部；臀部
+    - bottom [ˈbɒtəm] 底部；臀部
+- conduct [kənˈdʌkt] 引导；带领；行为
+    - con - 共同； duct - 引导
+    - behavior [bɪˈheɪvjə(r)] 行为；举止
+    - act [ækt] 行动；行为
+    - deed [diːd] 行为；事迹
+- escalated [ˈeskəleɪtɪd] 逐步升级；使逐步上升
+    - e - 出； scal - 梯子； -ate 动词后缀； -ed 过去分词
+    - intensify [ɪnˈtensɪfaɪ] 增强；强化
+    - heighten [ˈhaɪtn] 提高；加强
+    - aggravate [ˈæɡrəveɪt] 加重；使恶化
+- fondling [ˈfɒndlɪŋ] 爱抚；钟爱
+    - fond - 喜爱； -ling 名词后缀
+    - caress [kəˈres] 爱抚；抚摸
+    - petting [ˈpetɪŋ] 爱抚；宠爱
+    - cuddle [ˈkʌdl] 拥抱；搂抱
+- oral [ˈɔːrəl] 口头的；口述的；口腔的
+    - -
+    - spoken [ˈspəʊkən] 口头的；口语的
+    - verbal [ˈvɜːbl] 言语的；口头的
+    - uttered [ˈʌtəd] 说出的；口头的
+- post-traumatic [ˌpəʊst trɔːˈmætɪk] 创伤后的
+    - post - 在…… 之后； traumatic - 创伤的
+    - after-trauma [ˈɑːftə ˈtrɔːmə] 创伤后
+    - post-injury [ˌpəʊst ˈɪndʒəri] 受伤后
+    - subsequent-to-trauma [ˈsʌbsɪkwənt tuː ˈtrɔːmə] 创伤后的。
+- overdose [ˈəʊvədəʊs] 过量用药；超剂量
+    - over - 超过； dose - 剂量
+    - excessive dose [ɪkˈsesɪv dəʊs] 过量剂量
+    - overuse [ˌəʊvəˈjuːz] 过度使用
+    - surplus dose [ˈsɜːpləs dəʊs] 多余剂量
+- antidepressant [ˌæntidɪˈpresnt] 抗抑郁药
+    - anti - 反对； depress - 使沮丧； -ant 名词后缀
+    - mood elevator [muːd ˈelɪveɪtə(r)] 情绪提升剂
+    - depression fighter [dɪˈpreʃn ˈfaɪtə(r)] 抗抑郁物
+    - anti-depressive [ˌæntidɪˈpresɪv] 抗抑郁的
+- vice [vaɪs] 恶习；缺点；邪恶
+    - -
+    - bad habit [bæd ˈhæbɪt] 坏习惯
+    - fault [fɔːlt] 缺点；毛病
+    - defect [ˈdiːfekt] 缺点；缺陷
+- grab [ɡræb] 抓住；攫取
+    - -
+    - seize [siːz] 抓住；夺取
+    - snatch [snætʃ] 抢夺；抓走
+    - clutch [klʌtʃ] 抓住；紧握
+- forcibly [ˈfɔːsəbli] 强制地；用力地
+    - force - 力量； -ly 副词后缀
+    - compulsorily [kəmˈpʌlsərəli] 强制地
+    - by force [baɪ fɔːs] 靠武力；强行
+    - under compulsion [ˈʌndə kəmˈpʌlʃn] 被迫地
+- groped [ɡrəʊpt] 摸索；触摸
+    - grope - 摸索； -ed 过去分词
+    - feel around [fiːl əˈraʊnd] 摸索
+    - fumble [ˈfʌmbl] 摸索；笨拙地做
+    - grope for [ɡrəʊp fɔː(r)] 摸索寻找
+- smothering [ˈsmʌðərɪŋ] 令人窒息的；闷死
+    - smother - 使窒息； -ing 形容词后缀
+    - suffocating [ˈsʌfəkeɪtɪŋ] 令人窒息的
+    - stifling [ˈstaɪflɪŋ] 令人窒息的；沉闷的
+    - choking [ˈtʃəʊkɪŋ] 令人窒息的。
+- crush [krʌʃ] 压碎；弄皱；挤入
+    - -
+    - squash [skwɒʃ] 压扁；压碎
+    - compress [kəmˈpres] 压缩；压紧
+    - smash [smæʃ] 打碎；粉碎
+- masseuse [mæˈsɜːz] 女按摩师
+    - -
+    - massager [ˈmæsɑːʒə(r)] 按摩器；按摩师
+    - rubdown artist [ˈrʌbdaʊn ˈɑːtɪst] 按摩师
+    - chiropractor [ˈkaɪərəʊpræktə(r)] 脊椎按摩师
+- absurd [əbˈsɜːd] 荒谬的；可笑的
+    - ab - 偏离； surd - 聋的；引申为不合理
+    - ridiculous [rɪˈdɪkjələs] 荒谬的；可笑的
+    - preposterous [prɪˈpɒstərəs] 荒谬的；可笑的
+    - ludicrous [ˈluːdɪkrəs] 荒唐可笑的
+- amateur [ˈæmətə(r)] 业余爱好者；外行
+    - -
+    - hobbyist [ˈhɒbiɪst] 业余爱好者
+    - dilettante [ˌdɪləˈtænti] 业余爱好者；一知半解的人
+    - nonprofessional [ˌnɒnprəˈfeʃənl] 非专业的；业余的
+- sanctioned [ˈsæŋkʃənd] 批准的；认可的
+    - sanct - 神圣； -ion 名词后缀； -ed 过去分词
+    - approved [əˈpruːvd] 批准的；认可的
+    - authorized [ˈɔːθəraɪzd] 经授权的；批准的
+    - ratified [ˈrætɪfaɪd] 批准的；认可的。
