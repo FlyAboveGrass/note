@@ -1,1 +1,63 @@
 
+
+- harassment
+- biathlon
+- dismissed
+- medal
+- biathlete
+- climb
+- domestic
+- misogyny
+- retaliation
+- top-down
+- marketing
+- assault
+- unheeded
+- predator
+- come forward
+- aftermath
+- scandal
+- relay
+- violation
+- misogynistic
+- dominated
+- explicit
+- pursuit
+- bronze
+- filed
+- medal
+- assault
+- speechless
+- discipline
+- compete
+- maiden
+- sake
+- rifle
+- skis
+- bump
+- undergo
+- catastrophic
+- distress
+- recruit
+- rub
+- buttock
+- conduct
+- escalated
+- fondling
+- oral
+- post-traumatic
+- overdose
+- antidepressant
+- vice
+- grab
+- forcibly
+- groped
+- smothering
+- crush
+- masseuse
+- absurd
+- amateur
+- sanctioned
+
+
+# 翻译

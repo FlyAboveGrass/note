@@ -12,7 +12,7 @@ Grace Boutot, who won a silver medal at the 2009 Youth World Championships, stan
 
 Two male coaches and a former racer on the men’s ====biathlon==== team confirmed the culture of ====misogyny==== described by the women, who all said they faced ====retaliation==== for speaking up.
 
-“My safety on the team was clearly secondary to a ====top-down==== power structure focused on image, ==medals== and ====marketing==,==” said two-time Olympian Joan Wilder, 58, who said her coach got away with trying to sexually ====assault==== her in 1990 despite her complaints to Cobb.
+“My safety on the team was clearly secondary to a ====top-down==== power structure focused on image, ==medals== and ====marketing==,” said two-time Olympian Joan Wilder, 58, who said her coach got away with trying to sexually ====assault==== her in 1990 despite her complaints to Cobb.
 
 Grace Boutot, a 2009 Youth World Championship silver medalist, said her reports to Cobb and other officials about abuse committed by two coaches, beginning when she was 15, also went ====unheeded==,== eventually leading to a suicide attempt.
 
@@ -20,7 +20,7 @@ Grace Boutot, a 2009 Youth World Championship silver medalist, said her reports 
 
 Grace Boutot, who won a silver medal in the Youth World Championships in 2009, displays targets from her time as a ====biathlon==== competitor, at her home in Boston, Oct. 17, 2024. (AP Photo/Steven Senne)
 
-The women ====came forward==== after the AP reported that [Olympian Joanne Reid was sexually abused and harassed for years](https://apnews.com/article/biathlon-sexual-harassment-abuse-safesport-767d17bdd3838962f6dafa6257f15542), according to findings by the U.S. Center for SafeSport, a watchdog group created to investigate sex-abuse allegations in Olympic sports in the ====aftermath==== of the Larry Nassar U.S. Gymnastics ====scandal==.==
+The women ====came forward==== after the AP reported that [Olympian Joanne Reid was sexually abused and harassed for years](https://apnews.com/article/biathlon-sexual-harassment-abuse-safesport-767d17bdd3838962f6dafa6257f15542), according to findings by the U.S. Center for SafeSport, a watchdog group created to investigate sex-abuse allegations in Olympic sports in the ====aftermath==== of the Larry Nassar U.S. Gymnastics ====scandal==.
 
 The AP generally does not identify victims of sexual abuse except in cases where they publicly identify themselves or share their stories openly, as these women have.
 
@@ -52,7 +52,7 @@ During a training camp in Montana that year, the team went out one night but the
 
 Grace Boutot, who won a silver medal in the Youth World Championships in 2009, displays a few of her ==medals== from competitions, Oct. 17, 2024, at her home in Boston. (AP Photo/Steven Senne)
 
-Pichler denied trying to sexually ====assault==== Wilder. “This is unbelievable,” he told AP. “I’m ====speechless==.== If this comes out, it does damage to me.”
+Pichler denied trying to sexually ====assault==== Wilder. “This is unbelievable,” he told AP. “I’m ====speechless==. If this comes out, it does damage to me.”
 
 “I always had a super relationship with Joanie, or with all the athletes, all the female, the men athletes. All of them.”
 
@@ -70,17 +70,17 @@ Two-time Olympian Joan Wilder looks through records from her time on the U.S. =
 
 Wilder said in her SafeSport complaint that she faced ====retaliation==== for pressing the issue of firing Pichler. “I was targeted as a ‘problem’ athlete,” she said, in the complaint.
 
-She said her ==rifle== disappeared, her ==skis== went to another athlete, and she was temporarily ==bumped== from the 1994 Olympic team, then dropped from the national team before the 1998 Olympics without being told. That put her health insurance at risk. She had ====undergone==== heart surgery, so losing coverage with a pre-existing condition was ====catastrophic==,== she said.
+She said her ==rifle== disappeared, her ==skis== went to another athlete, and she was temporarily ==bumped== from the 1994 Olympic team, then dropped from the national team before the 1998 Olympics without being told. That put her health insurance at risk. She had ====undergone==== heart surgery, so losing coverage with a pre-existing condition was ====catastrophic==, she said.
 
-She called Cobb in ====distress==.==
+She called Cobb in ====distress==.
 
-“Max ended the conversation with, ‘Well, if you write a letter to the U.S. Olympic Committee and say that you’re resigning from ====biathlon==,== I’ll extend your medical insurance,’” she told the AP. She hung up, she said, deciding she didn’t have any fight left.
+“Max ended the conversation with, ‘Well, if you write a letter to the U.S. Olympic Committee and say that you’re resigning from ====biathlon==, I’ll extend your medical insurance,’” she told the AP. She hung up, she said, deciding she didn’t have any fight left.
 
 “It was time for me to move on.”
 
-# Two coaches prey on teenage Maine ====biathlete==,== she says
+# Two coaches prey on teenage Maine ====biathlete==, she says
 
-Boutot grew up homeschooled and mostly isolated from others her age in Fort Kent, Maine, a town of 4,000 on the Canadian border. The Maine Winter Sports Center ran a world-class Nordic ==ski== facility there used by U.S. ====Biathlon==.==
+Boutot grew up homeschooled and mostly isolated from others her age in Fort Kent, Maine, a town of 4,000 on the Canadian border. The Maine Winter Sports Center ran a world-class Nordic ==ski== facility there used by U.S. ====Biathlon==.
 
 Boutot was 12 when she was ====recruited==== into the program in 2003. She started racing ====biathlon==== the next year and began training with newly hired coach Gary Colliander when she was 15.
 
@@ -114,7 +114,7 @@ Boutot said she also faced abuse by then-U.S. ====Biathlon==== junior team coa
 
 When she won a silver medal at the 2009 Youth World Championships in Canada, Cervenka ====grabbed==== her, she said.
 
-“He ====forcibly==== kissed me and ==groped== my entire body, ====smothering==== me and ====crushing==== me until he was pulled off of me by our team ====masseuse==,==” she said of Cervenka, who was 26 years older than her.
+“He ====forcibly==== kissed me and ==groped== my entire body, ====smothering==== me and ====crushing==== me until he was pulled off of me by our team ====masseuse==,” she said of Cervenka, who was 26 years older than her.
 
 In this 2009 photo provided by Karen Gorman, ====biathlete==== Grace Boutot, left, of Fort Kent, Maine, displays her silver medal from the Youth Women ====Biathlon==== World Championships, while standing with coach Gary Colliander, right, in Fort Kent. (Karen Gorman via AP)
 
@@ -152,7 +152,7 @@ She declined. A coach found guilty might only face a six-month suspension, she s
 
 Wilder said she didn’t know she had the option and ==filed== a SafeSport complaint, naming Cobb and Pichler, after she found out. She said it is “an important next step.”
 
-“I love the sport of ====biathlon==,==” Wilder said. “I sincerely hope that my shared story with other women ======biathlete==s==== results in this being bookends to a darker period — that it never happens again.”
+“I love the sport of ====biathlon==,” Wilder said. “I sincerely hope that my shared story with other women ======biathlete==s==== results in this being bookends to a darker period — that it never happens again.”
 
 Two-time Olympian Joan Wilder ==skis== at the Meissner Nordic Community ==Ski== Area within the Deschutes National Forest on Nov. 22, 2024, in Deschutes County near Bend, Ore. (AP Photo/Jenny Kane)
 
