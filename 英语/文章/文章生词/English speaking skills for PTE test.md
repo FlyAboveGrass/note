@@ -18,8 +18,6 @@
 - elaborate
 - vivid
 - concisely
-
-
 - criteria [kraɪˈtɪəriə] 标准；准则
     - crit - 判断；-er 名词后缀；-ia 名词后缀
     - critical [ˈkrɪtɪkl] 批评的；关键的；危急的
