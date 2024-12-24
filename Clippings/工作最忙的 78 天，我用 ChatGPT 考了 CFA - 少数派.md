@@ -41,6 +41,8 @@ tags:
 
 ![](https://cdnfile.sspai.com/2024/11/28/a1cb2e1340ac076f31a8245019945fbc.jpg?imageView2/2/format/webp)
 
+![403 Forbidden](https://cdnfile.sspai.com/2024/11/28/a1cb2e1340ac076f31a8245019945fbc.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1/format/webp)
+
 不要以为你学得轻松，都是 ChatGPT 在为你负重前行
 
 效果是这样的：

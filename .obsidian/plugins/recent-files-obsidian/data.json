@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "学习计划",
+      "path": "z 前端/学习计划.md"
+    },
+    {
+      "basename": "如何工作",
+      "path": "z 前端/如何工作.md"
+    },
+    {
+      "basename": "前端知识自检清单",
+      "path": "z 前端/前端知识自检清单.md"
+    },
+    {
+      "basename": "git 使用",
+      "path": "软件工程/git 使用.md"
+    },
+    {
+      "basename": "敏捷开发",
+      "path": "软件工程/敏捷开发.md"
+    },
+    {
       "basename": "No end for Boeing labor strike as workers reject latest contract proposal",
       "path": "英语/文章/文章生词/No end for Boeing labor strike as workers reject latest contract proposal.md"
     },
@@ -86,6 +106,7 @@
     }
   ],
   "omittedPaths": [],
+  "omittedTags": [],
   "maxLength": null,
   "openType": "tab"
 }

@@ -18,7 +18,7 @@ git checkout head~步数
 
 
 
-**git reset** 
+**git reset**
 
 ```
 git reset head 
@@ -43,12 +43,3 @@ git revert sha
 ```
 git rebase branch 
 ```
-
-
-
-
-
-
-
-
-
