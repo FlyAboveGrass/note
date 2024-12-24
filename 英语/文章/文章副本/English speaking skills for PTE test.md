@@ -64,7 +64,6 @@ We should also carefully control our breath, ensuring vowels and consonants are 
 Focusing on these points helps us ensure our study paths are on the right track, and consistently improve our pronunciation. In addition, there are two tips:
 
 1. **Don't try to imitate accents.** The PTE test does not expect you to have a perfect British or American accent. For beginners, attempting to achieve such an accent is time-consuming and pointless.
-
 2. **Never compare pronunciations between English and Chinese.** For instance, the Cantonese pronunciation `士多啤梨` is often equated with `Strawberry` in English, which overlooks many nuances. Therefore, it is important to acknowledge the pronunciation of English and Chinese words are completely different.
 
 
@@ -185,11 +184,8 @@ Some voices can be dropped in specific circumstances. Below are several examples
 ![Four reduction examples.](https://lrdim.oss-accelerate.aliyuncs.com/blogimg/2024-01-16/1-12.png)
 
 1. **Combining sounds.** Link the same consonant sounds that are adjacent, such as in `big garden`, two `/g/` sounds becoming one `/g:/` sound but a bit longer;
-
 2. **Dropping sounds.** In a rapid speech, we sometimes drop explosive sounds between two consonants, such as `an important role` becomes `an importan role`;
-
 3. **Holding sounds.** Similarly, we hold back explosive sounds without fully releasing them when these sounds between a vowel and a consonant, such as `that person` becomes `tha-person`;
-
 4. **Reducing /h/ sounds.** When a word ends with explosive sounds and the following word begins with the `/h/` sound, we always reduce the `/h/` sound, such as "might have" becomes "migh-t(h)ave" and "an hour" becomes "a-nour."
 
 
