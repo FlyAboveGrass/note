@@ -1,3 +1,73 @@
+- charged
+- prostitution
+- trafficking
+- authority
+- executive
+- allege
+- federal
+- prosecutor
+- fraud
+- coercion
+- engage
+- exploitive
+- indictment
+- approach
+- reveal
+- sophisticated
+- recruiter
+- attorney
+- traffic
+- outlining
+- conduct
+- tryout
+- globe
+- viagra
+- muscle
+- relaxant
+- erection
+- induct
+- infrastructure
+- encompass
+- dozen
+- bond
+- due
+- detain
+- conference
+- tip off
+- civil
+- lawsuit
+- rape
+- assault
+- exploited
+- legitimate
+- unprecedented
+- credit for
+- monumental
+- journalism
+- offence
+- coercive
+- household
+- misled
+- aspiring
+- oral
+- fame
+- compliance
+- mansion
+- secluded
+- presence
+- supervising
+- sue
+- abhor
+- condemn
+- filing
+- controversial
+- discrimination
+- lavish
+
+
+
+
+# 翻译
 
 - charged [tʃɑːdʒd] 充满…… 的；紧张的
     - charg - 装载、填充； -ed 形容词后缀
@@ -53,6 +123,11 @@
     - elaborate [ɪˈlæbərət] 精心制作的；complex [ˈkɒmpleks] 复杂的；intricate [ˈɪntrɪkət] 复杂精细的
 - recruiter [rɪˈkruːtə(r)] 招聘人员
     - recruit - 招聘； -er 人后缀
+	    - recruit [rɪˈkruːt] 招募；吸收（新成员）
+		    - re - 重新；cru - 生长； - it 动词后缀
+		    - enlist [ɪnˈlɪst] （使）入伍；（使）参加；征募
+		    - conscript [kənˈskrɪpt] 征召；征兵；拉夫
+		    - hire [ˈhaɪə(r)] 雇用；租用
     - headhunter [ˈhedhʌntə(r)] 猎头；employer [ɪmˈplɔɪə(r)] 雇主；hiring manager 招聘经理
 - attorney [əˈtɜːni] 律师
     - attorn - 转让； -ey 人后缀
