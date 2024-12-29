@@ -124,6 +124,11 @@
     - attack [əˈtæk] 攻击；strike [straɪk] 打击；raid [reɪd] 袭击
 - exploited [ɪkˈsplɔɪtɪd] 被剥削的；被利用的
     - exploit - 剥削；利用； -ed 形容词后缀
+		- exploit [ɪkˈsplɔɪt] 开发；利用；剥削
+		    - ex - 向外；ploit - 利用；
+		    - utilize [ˈjuːtəlaɪz] 利用；使用
+		    - capitalize [ˈkæpɪtəlaɪz] 利用；使…… 资本化
+		    - milk [mɪlk] 挤奶；榨取（利益等）
     - oppressed [əˈprest] 被压迫的；abused [əˈbjuːzd] 被虐待的；taken advantage of 被利用
 - legitimate [lɪˈdʒɪtɪmət] 合法的；合理的
     - legit - 合法； -imate 形容词后缀
@@ -136,6 +141,9 @@
     - deserve credit for 因…… 值得赞扬；be praised for 因…… 而被表扬；be commended for 因…… 而受到称赞
 - monumental [ˌmɒnjuˈmentl] 不朽的；巨大的
     - monument - 纪念碑； -al 形容词后缀
+	    - monument [ˈmɒnjumənt] 纪念碑；纪念物
+			- monu - 提醒；ment 名词后缀
+			- memorial [məˈmɔːriəl] 纪念物；纪念馆
     - massive [ˈmæsɪv] 巨大的；enormous [ɪˈnɔːməs] 巨大的；tremendous [trəˈmendəs] 极大的
 - journalism [ˈdʒɜːnəlɪzəm] 新闻业；新闻学
     - journal - 日报； -ism 名词后缀
