@@ -27,9 +27,6 @@
 - dumping
 - utterly
 - tackle
-
-
-
 - puree [pjʊˈreɪ] 果泥；菜泥
     - pur - 纯净； -ee 表示动作的对象
     - mashed [mæʃt] 捣碎的；mash [mæʃ] 捣碎；pure [pjʊə(r)] 纯净的
