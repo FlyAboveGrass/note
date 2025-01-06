@@ -1,5 +1,4 @@
 [
-  "cmenu-plugin",
   "obsidian-auto-link-title",
   "code-block-copy",
   "markdown-prettifier",
@@ -21,5 +20,6 @@
   "oz-clear-unused-images",
   "obsidian-enhancing-mindmap",
   "obsidian-better-command-palette",
-  "obsidian-textgenerator-plugin"
+  "obsidian-textgenerator-plugin",
+  "cmenu-plugin"
 ]
