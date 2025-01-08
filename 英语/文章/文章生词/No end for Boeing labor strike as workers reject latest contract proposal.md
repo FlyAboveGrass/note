@@ -1,111 +1,314 @@
+- picket
+- strike
+- aerospace
+- bestselling
+- jetliner
+- cast
+- ballot
+- sacrifice
+- resuming
+- negotiation
+- workspace
+- democracy
+- consequence
+- standoff
+- deprive
+- machinist
+- assemble
+- demand
+- revised
+- compound
+- pension
+- wage
+- coordinator
+- prime
+- heel
+- veteran
+- literally
+- chief
+- revise
+- giant
+- reputation
+- fester
+- avionic
+- military
+- erode
+- saddle
+- lapses
+- backlog
+- trillion
+- legacy
+- iconic
+- layoff
+- bankruptcy
+- manufacturer
+- per share
+- revenue
+- estimate
+- balance sheet
+- soured
+- regulator
+- term
+- ratification
 
-- picket [ˈpɪkɪt] 纠察队；设置纠察线
-    - strikebreaker [ˈstraɪkˌbreɪkə(r)] 破坏罢工者；protestor [prəˈtestə(r)] 抗议者
-- strike [straɪk] 罢工；打击
-    - walkout [ˈwɔːkaʊt] 罢工；boycott [ˈbɔɪkɒt] 抵制；lockout [ˈlɒkaʊt] 停工
-- aerospace [ˈeərəʊspeɪs] 航空航天
-    - astronaut [ˈæstrənɔːt] 宇航员；spaceship [ˈspeɪsʃɪp] 宇宙飞船
-- bestselling [ˌbestˈselɪŋ] 畅销的
-    - popular [ˈpɒpjələ(r)] 流行的；hot-selling [ˌhɒtˈselɪŋ] 热卖的
+
+# 翻译
+
+- picket [ˈpɪkɪt] 纠察队；警戒哨；设置纠察线
+    - pick - 挑选； -et 小
+    - protest [ˈprəʊtest] 抗议
+    - demonstration [ˌdemənˈstreɪʃn] 示威
+    - rally [ˈræli] 集会
+- strike [straɪk] 罢工；打击；袭击
+    - - 无明显的词根或者前缀后缀
+    - hit [hɪt] 打击
+    - attack [əˈtæk] 攻击
+    - beat [biːt] 击打
+- aerospace [ˈeərəʊspeɪs] 航空航天空间；航空航天技术
+    - aero - 空气；空间； -space 空间
+    - aviation [ˌeɪviˈeɪʃn] 航空
+    - astronautics [ˌæstrəˈnɔːtɪks] 航天学
+    - aeronautics [ˌeərəˈnɔːtɪks] 航空学
+- bestselling [ˈbestˈselɪŋ] 畅销的
+    - best - 最好的； -selling 销售的
+    - popular [ˈpɒpjələ(r)] 流行的；受欢迎的
+    - hot [hɒt] 热的；热门的
+    - trendy [ˈtrendi] 时髦的
 - jetliner [ˈdʒetlaɪnə(r)] 喷气客机
-    - airliner [ˈeəlaɪnə(r)] 客机；aircraft [ˈeəkrɑːft] 飞机
-- cast [kɑːst] 投掷；铸件
-    - throw [θrəʊ] 扔；fling [flɪŋ] 猛扔；toss [tɒs] 抛
-- ballot [ˈbælət] 投票；选票
-    - vote [vəʊt] 投票；election [ɪˈlekʃn] 选举
-- sacrifice [ˈsækrɪfaɪs] 牺牲；祭品
-    - give up [ɡɪv ʌp] 放弃；yield [jiːld] 让步
-- resuming [rɪˈzjuːmɪŋ] 重新开始；恢复
-    - restart [ˌriːˈstɑːt] 重新开始；recover [rɪˈkʌvə(r)] 恢复
+    - jet - 喷气式飞机； -liner 班轮
+    - airliner [ˈeəlaɪnə(r)] 客机
+    - airplane [ˈeəpleɪn] 飞机
+    - aircraft [ˈeəkrɑːft] 飞机；航空器
+- cast [kɑːst] 投；掷；抛；铸造
+    - - 无明显的词根或者前缀后缀
+    - throw [θrəʊ] 投；掷
+    - fling [flɪŋ] 扔；抛
+    - toss [tɒs] 扔；抛
+- ballot [ˈbælət] 投票；投票用纸
+    - - 无明显的词根或者前缀后缀
+    - vote [vəʊt] 投票
+    - poll [pəʊl] 民意测验；投票
+    - suffrage [ˈsʌfrɪdʒ] 选举权；投票权
+- sacrifice [ˈsækrɪfaɪs] 牺牲；献祭
+    - sacri - 神圣的； -fice 做
+    - offer [ˈɒfə(r)] 提供；奉献
+    - dedication [ˌdedɪˈkeɪʃn] 奉献；献身
+    - devotion [dɪˈvəʊʃn] 献身；奉献
+- resuming [rɪˈzjuːmɪŋ] 重新开始；继续
+    - re - 再；重新； -sume 拿；取
+    - restart [ˌriːˈstɑːt] 重新开始
+    - continue [kənˈtɪnjuː] 继续
+    - go on [ɡəʊ ɒn] 继续
 - negotiation [nɪˌɡəʊʃiˈeɪʃn] 谈判；协商
-    - discussion [dɪˈskʌʃn] 讨论；consultation [ˌkɒnslˈteɪʃn] 咨询
-- workspace [ˈwɜːkspeɪs] 工作区
-    - office [ˈɒfɪs] 办公室；studio [ˈstjuːdiəʊ] 工作室
-        - A studio is typically used for creative activities such as art, photography, or music production. An office is mainly for administrative, business, or professional work.
+    - nego - 否定； -tiation 名词后缀
+    - discussion [dɪˈskʌʃn] 讨论
+    - conference [ˈkɒnfərəns] 会议；协商会
+    - dialogue [ˈdaɪəlɒɡ] 对话；讨论
+- workspace [ˈwɜːkspeɪs] 工作空间；工作区
+    - work - 工作； -space 空间
+    - office [ˈɒfɪs] 办公室
+    - studio [ˈstjuːdiəʊ] 工作室
+    - laboratory [ləˈbɒrətri] 实验室
 - democracy [dɪˈmɒkrəsi] 民主；民主国家
-    - republic [rɪˈpʌblɪk] 共和国；autocracy [ɔːˈtɒkrəsi] 独裁统治
+    - demo - 人民； -cracy 统治
+    - republic [rɪˈpʌblɪk] 共和国；共和政体
+    - autocracy [ɔːˈtɒkrəsi] 独裁统治；专制国家
+    - monarchy [ˈmɒnəki] 君主政体；君主国
 - consequence [ˈkɒnsɪkwəns] 结果；后果
-    - result [rɪˈzʌlt] 结果；outcome [ˈaʊtkʌm] 结果
+    - con - 共同； -sequ - 跟随； -ence 名词后缀
+    - result [rɪˈzʌlt] 结果
+    - outcome [ˈaʊtkʌm] 结果
+    - effect [ɪˈfekt] 影响；结果
 - standoff [ˈstændɔːf] 僵持；对峙
-    - deadlock [ˈdedlɒk] 僵局；impasse [ˈæmpɑːs] 僵局
+    - stand - 站立； -off 离开
+    - deadlock [ˈdedlɒk] 僵局
+    - impasse [ˈæmpɑːs] 僵局
+    - stalemate [ˈsteɪlmeɪt] 僵局
 - deprive [dɪˈpraɪv] 剥夺；使丧失
-    - de - 去掉；priv - 个人的、私有的；-e 构成单词
-    - rob [rɒb] 抢劫；deplete [dɪˈpliːt] 耗尽
+    - de - 去掉； -priv - 个人的； -e 动词后缀
+    - dispossess [ˌdɪspəˈzes] 剥夺；夺去
+    - divest [daɪˈvest] 剥夺；使脱去
+    - strip [strɪp] 剥夺；脱去
 - machinist [məˈʃiːnɪst] 机械师；机工
-    - mechanic [məˈkænɪk] 机械工；technician [tekˈnɪʃn] 技术员
+    - machine - 机器； -ist 人
+    - mechanic [məˈkænɪk] 技工；机械工
+    - engineer [ˌendʒɪˈnɪə(r)] 工程师
+    - technician [tekˈnɪʃn] 技术员
 - assemble [əˈsembl] 集合；装配
-    - gather [ˈɡæðə(r)] 聚集；put together [pʊt təˈɡeðə(r)] 组装
+    - as - 加强； -sembl - 类似； -e 动词后缀
+    - gather [ˈɡæðə(r)] 聚集
+    - collect [kəˈlekt] 收集
+    - congregate [ˈkɒŋɡrɪɡeɪt] 聚集
 - demand [dɪˈmɑːnd] 要求；需求
-    - require [rɪˈkwaɪə(r)] 要求；request [rɪˈkwest] 请求
-- revised [rɪˈvaɪzd] 修订的；修正的
-    - re - 再次；vis - 看
-    - amended [əˈmendɪd] 修正的；corrected [kəˈrektɪd] 纠正的
-- compound [ˈkɒmpaʊnd] 化合物；复合词
-    - com - 一起；pound - 放置；-e
-    - mixture [ˈmɪkstʃə(r)] 混合物；blend [blend] 混合
+    - de - 加强； -mand - 命令
+    - require [rɪˈkwaɪə(r)] 要求
+    - request [rɪˈkwest] 请求
+    - need [niːd] 需要
+- revised [rɪˈvaɪzd] 修订的；修改的
+    - re - 再；重新； -vis - 看； -e 动词后缀； -ed 形容词后缀
+    - amended [əˈmendɪd] 修正的
+    - corrected [kəˈrektɪd] 改正的
+    - updated [ˌʌpˈdeɪtɪd] 更新的
+- compound [ˈkɒmpaʊnd] 化合物；复合词；混合的
+    - com - 共同； -pound - 放置
+    - mixture [ˈmɪkstʃə(r)] 混合物
+    - blend [blend] 混合
+    - combination [ˌkɒmbɪˈneɪʃn] 结合；组合
 - pension [ˈpenʃn] 养老金；退休金
-    - annuity [əˈnjuːəti] 年金；retirement pay [rɪˈtaɪəmənt peɪ] 退休金
-- wage [weɪdʒ] 工资；进行，发动（战争等）
-    - pay [peɪ] 工资；salary [ˈsæləri] 薪水
-- coordinator [kəʊˈɔːdɪneɪtə(r)] 协调者
-    - co - 共同；ordin - 顺序；-ator 表示人
-    - organizer [ˈɔːɡənaɪzə(r)] 组织者；mediator [ˈmiːdieɪtə(r)] 调解人
-- prime [praɪm] 首要的；最好的；最初
-    - chief [tʃiːf] 首要的；main [meɪn] 主要的
-- heel [hiːl] 脚后跟；倾侧
-    - ankle [ˈæŋkl] 脚踝；foot [fʊt] 脚
+    - - 无明显的词根或者前缀后缀
+    - annuity [əˈnjuːəti] 年金；养老金
+    - allowance [əˈlaʊəns] 津贴；补贴
+    - subsidy [ˈsʌbsədi] 补贴；津贴
+- wage [weɪdʒ] 工资；报酬
+    - - 无明显的词根或者前缀后缀
+    - salary [ˈsæləri] 薪水
+    - pay [peɪ] 工资；报酬
+    - remuneration [rɪˌmjuːnəˈreɪʃn] 报酬；酬金
+- coordinator [kəʊˈɔːdɪneɪtə(r)] 协调者；同等的人或物
+    - co - 共同； -ordin - 顺序； -ate 动词后缀； -or 人
+    - organizer [ˈɔːɡənaɪzə(r)] 组织者
+    - mediator [ˈmiːdieɪtə(r)] 调解人
+    - facilitator [fəˈsɪlɪteɪtə(r)] 促进者
+- prime [praɪm] 首要的；最好的；最初的
+    - - 无明显的词根或者前缀后缀
+    - chief [tʃiːf] 首要的；主要的
+    - main [meɪn] 主要的；最重要的
+    - primary [ˈpraɪməri] 主要的；初级的
+- heel [hiːl] 脚后跟；鞋跟
+    - - 无明显的词根或者前缀后缀
+    - ankle [ˈæŋkl] 踝关节
+    - foot [fʊt] 脚
+    - toe [təʊ] 脚趾
 - veteran [ˈvetərən] 老兵；老手
-    - experienced [ɪkˈspɪəriənst] 有经验的；expert [ˈekspɜːt] 专家
-- literally [ˈlɪtərəli] 照字面地；确实地
-    - actually [ˈæktʃuəli] 实际上；really [ˈriːəli] 真正地
-- chief [tʃiːf] 首领；主要的
-    - leader [ˈliːdə(r)] 领导者；principal [ˈprɪnsəpl] 主要的
-- revise [rɪˈvaɪz] 修订；复习
-    - re - 再次；vis - 看；-ed
-    - amend [əˈmend] 修正；modify [ˈmɒdɪfaɪ] 修改
+    - - 无明显的词根或者前缀后缀
+    - experienced [ɪkˈspɪəriənst] 有经验的
+    - proficient [prəˈfɪʃnt] 熟练的
+    - skilled [skɪld] 有技能的
+- literally [ˈlɪtərəli] 逐字地；照字面地
+    - - 无明显的词根或者前缀后缀
+    - word for word 逐字地
+    - exactly [ɪɡˈzæktli] 确切地
+    - precisely [prɪˈsaɪsli] 精确地
+- chief [tʃiːf] 首要的；主要的
+    - - 无明显的词根或者前缀后缀
+    - main [meɪn] 主要的
+    - principal [ˈprɪnsəpl] 主要的
+    - leading [ˈliːdɪŋ] 主要的
+- revise [rɪˈvaɪz] 修订；修改
+    - re - 再；重新； -vis - 看； -e 动词后缀
+    - amend [əˈmend] 修正
+    - correct [kəˈrekt] 改正
+    - update [ˌʌpˈdeɪt] 更新
 - giant [ˈdʒaɪənt] 巨人；巨大的
-    - huge [hjuːdʒ] 巨大的；enormous [ɪˈnɔːməs] 庞大的
+    - - 无明显的词根或者前缀后缀
+    - huge [hjuːdʒ] 巨大的
+    - enormous [ɪˈnɔːməs] 巨大的
+    - massive [ˈmæsɪv] 巨大的
 - reputation [ˌrepjuˈteɪʃn] 名声；声誉
-    - fame [feɪm] 名声；repute [rɪˈpjuːt] 名誉
+    - re - 再；反复； -put - 思考； -ation 名词后缀
+    - fame [feɪm] 名声
+    - renown [rɪˈnaʊn] 声誉
+    - prestige [preˈstiːʒ] 威望
 - fester [ˈfestə(r)] 溃烂；化脓
-    - ulcerate [ˈʌlsəreɪt] 形成溃疡；suppurate [ˈsʌpjureɪt] 化脓
+    - - 无明显的词根或者前缀后缀
+    - ulcerate [ˈʌlsəreɪt] 溃烂
+    - suppurate [ˈsʌpjureɪt] 化脓
+    - decay [dɪˈkeɪ] 腐烂
 - avionic [ˌeɪviˈɒnɪk] 航空电子的
-    - aerospace [ˈeərəʊspeɪs] 航空航天；aeronautical [ˌeərəˈnɔːtɪkl] 航空学的
+    - avio - 航空； -nic 形容词后缀
+    - aerospace [ˈeərəʊspeɪs] 航空航天空间；航空航天技术
+    - aviation [ˌeɪviˈeɪʃn] 航空
+    - aeronautical [ˌeərəˈnɔːtɪkl] 航空学的
 - military [ˈmɪlətri] 军事的；军队的
-    - armed [ɑːmd] 武装的；militant [ˈmɪlɪtənt] 好战的
+    - milit - 军事； -ary 形容词后缀
+    - armed [ɑːmd] 武装的
+    - martial [ˈmɑːʃl] 军事的
+    - warlike [ˈwɔːlaɪk] 好战的
 - erode [ɪˈrəʊd] 侵蚀；腐蚀
-    - corrode [kəˈrəʊd] 腐蚀；wear away [weə(r) əˈweɪ] 磨损
-- saddle [ˈsædl] 马鞍；使承担
-    - stirrup [ˈstɪrəp] 马镫；bridle [ˈbraɪdl] 缰绳
-- lapses [ˈlæpsɪz] 小错；失误
-    - mistakes [mɪˈsteɪks] 错误；errors [ˈerəz] 错误
-- backlog [ˈbæklɒɡ] 积压；储备
-    - pile-up [ˈpaɪl ʌp] 堆积；accumulation [əˌkjuːmjəˈleɪʃn] 积累
-- trillion [ˈtrɪljən] 万亿
-    - billion [ˈbɪljən] 十亿；million [ˈmɪljən] 百万
-- legacy [ˈlegəsi] 遗产；遗留问题
-    - inheritance [ɪnˈherɪtəns] 遗产；bequest [bɪˈkwest] 遗产
-- iconic [aɪˈkɒnɪk] 偶像的；标志性的
-    - symbolical [sɪmˈbɒlɪkl] 象征性的；emblematic [ˌembləˈmætɪk] 象征的
-- layoff [ˈleɪɔːf] 临时解雇；下岗
-    - dismissal [dɪsˈmɪsl] 解雇；unemployment [ˌʌnɪmˈplɔɪmənt] 失业
+    - e - 出； -rod - 咬； -e 动词后缀
+    - corrode [kəˈrəʊd] 腐蚀
+    - wear away [weə(r) əˈweɪ] 磨损；侵蚀
+    - deteriorate [dɪˈtɪəriəreɪt] 恶化；侵蚀。
+- saddle [ˈsædl] 马鞍；车座
+    - - 无明显的词根或者前缀后缀
+    - stirrup [ˈstɪrəp] 马镫
+    - harness [ˈhɑːnɪs] 马具
+    - bridle [ˈbraɪdl] 缰绳
+- lapses [ˈlæpsɪz] 失误；小错；时间流逝
+    - lapse - 失误；流逝； -es 名词复数后缀
+    - mistake [mɪˈsteɪk] 错误
+    - error [ˈerə(r)] 错误
+    - blunder [ˈblʌndə(r)] 大错
+- backlog [ˈbæklɒɡ] 积压的工作；积压未办之事
+    - back - 后面； -log 原木；堆积
+    - backorder [ˈbækoʊdə(r)] 延期交货订单
+    - arrears [əˈrɪəz] 欠款；拖欠
+    - outstanding [aʊtˈstændɪŋ] 未完成的
+- trillion [ˈtrɪljən] 万亿；兆
+    - - 无明显的词根或者前缀后缀
+    - billion [ˈbɪljən] 十亿
+    - million [ˈmɪljən] 百万
+    - thousand [ˈθaʊznd] 千
+- legacy [ˈleɡəsi] 遗产；遗赠
+    - leg - 法律； -acy 名词后缀
+    - inheritance [ɪnˈherɪtəns] 遗产
+    - bequest [bɪˈkwest] 遗产；遗赠
+    - heritage [ˈherɪtɪdʒ] 遗产；传统
+- iconic [aɪˈkɒnɪk] 偶像的；图标的
+    - icon - 图标； -ic 形容词后缀
+    - symbolic [sɪmˈbɒlɪk] 象征的
+    - representative [ˌreprɪˈzentətɪv] 有代表性的
+    - emblematic [ˌembləˈmætɪk] 象征的
+- layoff [ˈleɪɔːf] 解雇；下岗
+    - lay - 放置； -off 离开
+    - dismissal [dɪsˈmɪsl] 解雇
+    - firing [ˈfaɪərɪŋ] 解雇
+    - discharge [dɪsˈtʃɑːdʒ] 解雇
 - bankruptcy [ˈbæŋkrʌptsi] 破产
-    - insolvency [ɪnˈsɒlvənsi] 无力偿还；failure [ˈfeɪljə(r)] 失败
-- manufacturer [ˌmænjuˈfæktʃərə(r)] 制造商；生产者
-    - producer [prəˈdjuːsə(r)] 生产者；maker [ˈmeɪkə(r)] 制造者
+    - bank - 银行； -rupt - 断裂； -cy 名词后缀
+    - insolvency [ɪnˈsɒlvənsi] 无力偿还；破产
+    - failure [ˈfeɪljə(r)] 失败；破产
+    - default [dɪˈfɔːlt] 违约；破产。
+- manufacturer [ˌmænjuˈfæktʃərə(r)] 制造商；生产商
+    - manu - 手； -fact - 做； -ure 名词后缀； -er 人
+    - producer [prəˈdjuːsə(r)] 生产者
+    - maker [ˈmeɪkə(r)] 制造者
+    - fabricator [ˈfæbrɪkeɪtə(r)] 制作者
 - per share [pə(r) ʃeə(r)] 每股
-    - earnings per share [ˈɜːnɪŋz pə(r) ʃeə(r)] 每股收益；price per share [praɪs pə(r) ʃeə(r)] 每股价格
+    - - 无明显的词根或者前缀后缀
+    - - 无相关联单词可提供
 - revenue [ˈrevənjuː] 收入；收益
-    - income [ˈɪnkʌm] 收入；earnings [ˈɜːnɪŋz] 收益；proceeds [ˈprəʊsiːdz] 收入
+    - re - 回； -ven - 来； -ue 名词后缀
+    - income [ˈɪnkʌm] 收入
+    - earnings [ˈɜːnɪŋz] 收入
+    - profit [ˈprɒfɪt] 利润（与收入相关）
 - estimate [ˈestɪmət] 估计；估价
-    - assess [əˈses] 评估；evaluate [ɪˈvæljueɪt] 评价；gauge [ɡeɪdʒ] 测量
+    - e - 出； -stim - 刺； -ate 动词后缀
+    - evaluate [ɪˈvæljueɪt] 评估
+    - assess [əˈses] 评定
+    - appraise [əˈpreɪz] 估价
 - balance sheet [ˈbæləns ʃiːt] 资产负债表
-    - financial statement [faɪˈnænʃl ˈsteɪtmənt] 财务报表；accounting report [əˈkaʊntɪŋ rɪˈpɔːt] 会计报告
+    - balance - 平衡； sheet - 薄片
+    - financial statement [faɪˈnænʃl ˈsteɪtmənt] 财务报表
+    - income statement [ˈɪnkʌm ˈsteɪtmənt] 损益表
+    - cash flow statement [kæʃ fləʊ ˈsteɪtmənt] 现金流量表
 - soured [ˈsaʊəd] 变酸；恶化
-    - spoiled [spɔɪld] 变质的；turned sour [tɜːnd ˈsaʊə(r)] 变酸
-- regulator [ˈreɡjuleɪtə(r)] 监管机构；调整者
-    - supervisor [ˈsuːpəvaɪzə(r)] 监督者；controller [kənˈtrəʊlə(r)] 控制器；monitor [ˈmɒnɪtə(r)] 监视器
-- term [tɜːm] 学期；条款；术语
-    - condition [kənˈdɪʃn] 条件；clause [klɔːz] 条款；provision [prəˈvɪʒn] 规定
+    - sour - 酸的； -ed 形容词后缀
+    - spoil [spɔɪl] 变质；变坏
+    - deteriorate [dɪˈtɪəriəreɪt] 恶化
+    - decay [dɪˈkeɪ] 腐烂
+- regulator [ˈreɡjuleɪtə(r)] 监管机构；调整器
+    - reg - 统治； -ul - 小； -ate 动词后缀； -or 人或物
+    - supervisor [ˈsuːpəvaɪzə(r)] 监督者
+    - inspector [ɪnˈspektə(r)] 检查员
+    - controller [kənˈtrəʊlə(r)] 控制器
+- term [tɜːm] 学期；术语；条款
+    - - 无明显的词根或者前缀后缀
+    - semester [sɪˈmestə(r)] 学期
+    - expression [ɪkˈspreʃn] 表达；术语
+    - clause [klɔːz] 条款
 - ratification [ˌrætɪfɪˈkeɪʃn] 批准；认可
-    - approval [əˈpruːvl] 批准；confirmation [ˌkɒnfəˈmeɪʃn] 确认；endorsement [ɪnˈdɔːsmənt] 背书。
+    - rat - 批准； -i - 连接元音； -fic - 做； -ation 名词后缀
+    - approval [əˈpruːvl] 批准
+    - consent [kənˈsent] 同意
+    - endorsement [ɪnˈdɔːsmənt] 认可。
