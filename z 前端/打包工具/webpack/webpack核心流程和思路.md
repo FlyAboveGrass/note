@@ -2,7 +2,7 @@
 >
 > [Webpack 5 知识体系 - GitMind](https://gitmind.cn/app/doc/fac1c196e29b8f9052239f16cff7d4c7)
 >
-> [[万字总结\] 一文吃透 Webpack 核心原理 - 掘金 (juejin.cn)](https://juejin.cn/post/6949040393165996040#heading-1)
+> [[万字总结] 一文吃透 Webpack 核心原理 - 掘金 (juejin.cn)](https://juejin.cn/post/6949040393165996040#heading-1)
 >
 > [Introduction  | Web Fundamentals  | Google Developers](https://developers.google.com/web/fundamentals/performance/webpack/)
 
