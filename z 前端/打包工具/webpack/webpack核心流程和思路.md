@@ -6,8 +6,6 @@
 >
 > [Introduction  | Web Fundamentals  | Google Developers](https://developers.google.com/web/fundamentals/performance/webpack/)
 
-
-
 # 核心流程
 
 
@@ -41,8 +39,7 @@ Webpack 过程核心完成了 **内容转换 + 资源合并** 两种功能，实
 
 构建阶段从 `entry` 开始递归解析资源与资源的依赖，在 `compilation` 对象内逐步构建出 `module` 集合以及 `module` 之间的依赖关系
 
-![img](https://supermonkey.feishu.cn/space/api/box/stream/download/asynccode/?code=OGNiYzZlYmIzOGVlMWVkYTdiYjUxN2JlYzM3Y2EwNjFfV1prNDFTc0lvZzJZZVRvc3NmdGlPSjVPVGxTdWZJZ3lfVG9rZW46Ym94Y25xSnZ5S3lpZkQ5RWM1aUt5OTNUbGxoXzE2NDQ5MDUwNDc6MTY0NDkwODY0N19WNA)
-
+![[Pasted image 20250113165931.png]]
 
 
 
@@ -76,7 +73,6 @@ Webpack 过程核心完成了 **内容转换 + 资源合并** 两种功能，实
 这一步的关键逻辑是将 `module` 按规则组织成 `chunks` ，webpack 内置的 `chunk` 封装规则比较简单：
 
 - `entry` **及 entry 触达到的模块，组合成一个** `chunk`
-
 - **使用动态引入语句引入的模块，各自组合成一个** `chunk`
 
 
