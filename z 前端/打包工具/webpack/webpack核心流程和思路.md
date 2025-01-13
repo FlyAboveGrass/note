@@ -80,6 +80,115 @@ Webpack 过程核心完成了 **内容转换 + 资源合并** 两种功能，实
 # [优化思路](https://developers.google.com/web/fundamentals/performance/webpack)
 
 
+## 体积优化
+
+1. Tree Shaking:
+
+确保使用 ES6 模块语法 (import 和 export) 以便 Webpack 能够进行 tree shaking，移除未使用的代码。
+
+
+2. Code Splitting
+使用动态 import() 语法进行代码分割，按需加载模块，减少初始加载体积。
+
+- 减少初始的加载时间
+将应用程序的代码分割成多个小块，用户只需加载当前页面所需的代码，而不是整个应用程序的代码。
+
+- 提高缓存效率
+通过分割代码，未更改的代码块可以被浏览器缓存，从而减少后续访问时的加载时间。
+### 如何实现 Code Splitting
+
+- 入口点分割:
+- Webpack 允许通过配置多个入口点来分割代码。每个入口点会生成一个独立的 bundle。
+
+       module.exports = {
+
+         entry: {
+
+           app: './src/app.js',
+
+           vendor: './src/vendor.js'
+
+         },
+
+         output: {
+
+           filename: '[name].bundle.js',
+
+           path: path.resolve(__dirname, 'dist')
+
+         }
+
+       };
+
+
+- 动态导入:
+- 使用 import() 语法实现动态导入。Webpack 会自动将动态导入的模块分割成单独的 chunk。
+
+       function loadComponent() {
+
+         return import('./component').then(module => {
+
+           const Component = module.default;
+
+           // 使用 Component
+
+         }).catch(err => {
+
+           console.error('Failed to load component', err);
+
+         });
+
+       }
+
+
+- SplitChunksPlugin:
+- Webpack 内置的 SplitChunksPlugin 可以自动分割代码。通过配置 optimization.splitChunks，可以将共享的依赖分割到单独的 chunk 中。
+
+```
+   module.exports = {
+     optimization: {
+       splitChunks: {
+         chunks: 'all',
+         minSize: 20000,
+         maxSize: 0,
+         minChunks: 1,
+         maxAsyncRequests: 30,
+         maxInitialRequests: 30,
+         automaticNameDelimiter: '~',
+         cacheGroups: {
+           vendors: {
+             test: /[\\/]node_modules[\\/]/,
+             priority: -10
+           },
+           default: {
+             minChunks: 2,
+             priority: -20,
+             reuseExistingChunk: true
+           }
+         }
+       }
+     }
+   };
+```
+
+
+
+
+3. Minification:
+
+使用 TerserPlugin 来压缩 JavaScript 代码，移除多余的空格、注释等。
+
+
+4. CSS Minification:
+
+使用 cssnano 或 OptimizeCSSAssetsPlugin 来压缩 CSS 文件。
+
+
+5. Image Optimization:
+
+使用 image-webpack-loader 来压缩图片文件。
+
+
 
 ## **减少前端打包体积**
 
@@ -364,7 +473,6 @@ module.exports = {
 ### **让模块id更稳定**
 
 使用计数器作为模块的id，如果在中间加入一个模块会导致后面的未改动的模块都进行重新编译。而使用哈希值作为模块id则不会产生这个问题。
-
 
 
 使用 HashedModuleIdsPlugin 可以将模块id由计数器变成hash
