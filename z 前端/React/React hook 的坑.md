@@ -50,7 +50,7 @@ const handleClick = () => {
 
 setState 和 useState 是同步执行的（立即更新 state 的结果）多次执行 setState 和 useState，每一次的执行 setState 和 useState，都会调用一次 render
 
-2. react 18 以前，同步执行 setState，且不自动批处理
+react 18 以前，同步执行 setState，且不自动批处理
 ```
 const [count, setCount] = useState(0)
 const handleClick = () => {
