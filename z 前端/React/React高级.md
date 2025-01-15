@@ -14,7 +14,7 @@
 
  fps 全称为 `Frames Per Second`，即 `每一秒的更新帧数`。fps 越大，每秒的更新画面就越多，连续画面的显示就越流畅。浏览器的 fps 一般等于屏幕的刷新率，不会超过屏幕的刷新率。目前浏览器大多是 60Hz（60帧/s），**即 1s 刷新 60 次**，1000ms / 60hz = 16.6 ，大概每过16.6ms 浏览器会渲染一帧画面。
 
-​	
+​
 
 **浏览器一帧会经过下面这几个过程**：
 
@@ -76,7 +76,7 @@ React-Fiber 让这个执行过程变成可被中断。“适时”地让出 CPU 
 
 每个 *fiber* 都是一个链表的节点，它们通过子、兄弟节点和返回引用连接起来。第一次渲染的时候，react 会浏览每一个react 元素，然后组合成一棵fibers 树。
 
-**虽然我们称之为树，但 React Fiber 创建了一个节点的链表，其中每个节点都是一个 fiber。** 
+**虽然我们称之为树，但 React Fiber 创建了一个节点的链表，其中每个节点都是一个 fiber。**
 
 
 
@@ -95,8 +95,6 @@ Fiber 树的遍历采用的是深度优先遍历的方式
 >
 >- `Reconciliation`：协调阶段，新旧两棵树进行 diff 比较，找到所有需要更新的节点；
 >- `Commit`：提交阶段，将上一步找到的需要更新的 dom 节点更新到页面上，这个阶段是同步执行不可被打断的。
-
-
 
 #### 初始化渲染
 
@@ -140,11 +138,7 @@ React fiber 将更新划分为工作单元，可以为每一个工作单元分�
 
 ![undefined](fiber工作单元.png)
 
-
-
 > 在 React 15 中，堆栈协调器是同步的。所以，一个更新会递归地遍历整个树，并制作一个树的副本。假设在这之间，如果有其他的更新比它的优先级更高，那么就没有机会中止或暂停第一个更新并执行第二个更新。
-
-
 
 **遍历**（待补充）
 
@@ -265,7 +259,7 @@ Context 主要应用场景在于*很多*不同层级的组件需要访问同样�
 
 1. 创建 context
 2. 使用一个 provider 给以下的组件树
-3. 子组件读取当前的 them context 
+3. 子组件读取当前的 them context
 
 ```
 // Context 可以让我们无须明确地传遍每一个组件，就能将值深入传递进组件树。
@@ -393,8 +387,6 @@ export const ThemeContext = React.createContext({
 
 > 如果两个或者更多的 context 值经常被一起使用，那你可能要考虑一下另外创建你自己的渲染组件，以提供这些值
 
-
-
 ```
 // Theme context，默认的 theme 是 “light” 值
 const ThemeContext = React.createContext('light');
@@ -485,20 +477,12 @@ class App extends React.Component {
 
 错误边界是一种 react 组件，他的作用是捕获并打印发生在其子组件树任何位置的 JS 错误， 并且会渲染出备用的UI，而不是那些崩溃的子组件。
 
-
-
 > 注意： 错误边界无法捕获以下场景的错误
 >
 > 1. 事件处理
 > 2. 异步代码
 > 3. 服务端渲染
 > 4. 自身抛出的错误
-
-
-
-
-
-
 
 ### 基本使用
 
@@ -539,13 +523,9 @@ class ErrorBoundary extends React.Component {
 </ErrorBoundary>
 ```
 
-
-
 > 错误边界只可以捕获子组件的错误，但是不可以捕获自身的错误
 >
 > 如果一个错误边界无法渲染错误信息，则错误会冒泡至最近的上层错误边界
-
-
 
 ### 组件栈跟踪
 
@@ -579,7 +559,7 @@ React 是声明式的，并且具体指出 `什么` 需要被渲染
 
 **Ref 转发是一个可选特性，其允许某些组件接收 `ref`，并将其向下传递（换句话说，“转发”它）给子组件。**
 
-### 
+###
 
 ### 使用 refs 转发的思考
 
@@ -612,7 +592,7 @@ const ref = React.createRef();
 
 
 
-### 
+###
 
 ### 在高阶组件中转发 refs
 
@@ -747,7 +727,7 @@ type ReactNode = ReactChild | ReactFragment | ReactPortal | boolean | null | und
 
 ### 什么是 JSX
 
-JSX 仅仅只是 `React.createElement(component, props, ...children)` 函数的语法糖
+JSX 仅仅只是 `React.createElement(component, props, …children)` 函数的语法糖
 
 
 
@@ -799,7 +779,7 @@ React.createElement(
 
 
 
-#### js 表达式作为 props 
+#### js 表达式作为 props
 
 
 
@@ -857,8 +837,6 @@ JS 表达式可以被包裹在 `{}` 里面作为子元素
 
 > 类似于 vue3 里面的 teleport
 
-
-
 Portals 提供了一种将子节点渲染到父组件之外的Dom 节点的方案。
 
 
@@ -871,7 +849,7 @@ ReactDOM.createPortal(child, container)
 
 
 
-#### 通过 Portal 进行事件冒泡
+### 通过 Portal 进行事件冒泡
 
 尽管 portal 可以被放置在 DOM 树中的任何地方，但在任何其他方面，其行为和普通的 React 子节点行为一致。由于 portal 仍存在于 *React 树*， 且与 *DOM 树* 中的位置无关，那么无论其子节点是否是 portal，像 context 这样的功能特性都是不变的。
 
@@ -887,19 +865,11 @@ ReactDOM.createPortal(child, container)
 
 `Profiler` 测量渲染一个 React 应用多久渲染一次以及渲染一次的“代价”。 它的目的是识别出应用中渲染较慢的部分
 
-
-
 > 在生产环境里面会被禁用
 >
-> 
+>
 >
 > 尽管 `Profiler` 是一个轻量级组件，我们依然应该在需要时才去使用它。对一个应用来说，每添加一些都会给 CPU 和内存带来一些负担。
-
-
-
-
-
-
 
 ## 协调
 
@@ -1057,11 +1027,11 @@ hook 可以让你在不写 class 组件的时候就可以使用state 和其他 r
 
 
 
-### hook 基础
+## hook 基础
 
 
 
-#### **hook 的特点**
+### **hook 的特点**
 
 - 完全可选
 -  100 % 向后兼容
@@ -1070,7 +1040,7 @@ hook 可以让你在不写 class 组件的时候就可以使用state 和其他 r
 
 
 
-#### 为什么需要 hook 
+### 为什么需要 hook
 
 
 
@@ -1092,18 +1062,17 @@ Hook 使你在非 class 的情况下可以使用更多的 React 特性
 
 
 
-#### 使用 hooks 的注意事项
+### 使用 hooks 的注意事项
 
 - 只能在函数内部的最外层调用 Hook，不要在循环、条件判断或者子函数中调用
     - 遵守这条规则，你就能确保 Hook 在每一次渲染中都按照同样的顺序被调用。（React 靠的是 Hook 调用的顺序识别 state 对应哪一个 useState ）
 - 只能在 React 的函数组件中调用 Hook，不要在其他 JavaScript 函数中调用
-    - 
 
 
 
 
 
-### state hook
+## state hook
 
 在没有 hook 的时候，我们如果要给一个组件设定一个状态，那么我们必须把它写成 class 组件，因为函数组件没有状态，只能够编写静态内容。
 
@@ -1131,7 +1100,7 @@ function Example() {
 
 
 
-#### **useState**
+### **useState**
 
 
 
@@ -1159,7 +1128,7 @@ useState 定义一个变量，他是一个新的方法，作用和 class 组件�
 
 
 
-### Effect Hook
+## Effect Hook
 
 数据获取，设置订阅以及手动更改 React 组件中的 DOM 都属于副作用。
 
@@ -1173,7 +1142,7 @@ useState 定义一个变量，他是一个新的方法，作用和 class 组件�
 
 
 
-#### 无需清除的effect
+### 无需清除的effect
 
 
 
@@ -1183,7 +1152,7 @@ react 更新 dom 之后额外运行一些代码（例如 发送网络请求， �
 
 
 
-##### **class中的副作用**
+#### **class中的副作用**
 
 class 组件中，我们不希望在 `render` 函数中有任何的副作用，我们希望在 react 更新 dom 之后才执行我们的操作。
 
@@ -1193,7 +1162,7 @@ class 组件中，我们不希望在 `render` 函数中有任何的副作用，�
 
 
 
-#### useEffect
+### useEffect
 
 由于添加和删除订阅的代码的紧密性，所以 `useEffect` 的设计是在同一个地方执行。如果你的 effect 返回一个函数，React 将会在执行清除操作时调用它：
 
@@ -1235,25 +1204,25 @@ react 会在组件卸载的时候进行清除。
 
 
 
-### effect 使用提示
+## effect 使用提示
 
 
 
-#### 使用多个 effect 实现关注点分离
-
-
-
-
-
-
-
-#### 为什么每次更新都要运行 effect
+### 使用多个 effect 实现关注点分离
 
 
 
 
 
-#### 通过跳过 effect 进行性能优化
+
+
+### 为什么每次更新都要运行 effect
+
+
+
+
+
+### 通过跳过 effect 进行性能优化
 
 
 
@@ -1275,7 +1244,7 @@ useEffect(() => {
 
 
 
-### 自定义 Hook
+## 自定义 Hook
 
 
 
@@ -1285,7 +1254,7 @@ useEffect(() => {
 
 
 
-#### 提取自定义 hook
+### 提取自定义 hook
 
 
 
@@ -1330,7 +1299,7 @@ function FriendListItem(props) {
 
 
 
-#### 多个 hook 之间信息传递
+### 多个 hook 之间信息传递
 
 
 
@@ -1344,17 +1313,15 @@ function FriendListItem(props) {
 
 
 
-### hook API
+## hook API
 
 > [React Hooks 详解 【近 1W 字】+ 项目实战 - 掘金 (juejin.cn)](https://juejin.cn/post/6844903985338400782)
 
-
-
-#### [基础 Hook](https://zh-hans.reactjs.org/docs/hooks-reference.html#basic-hooks)
+### [基础 Hook](https://zh-hans.reactjs.org/docs/hooks-reference.html#basic-hooks)
 
 
 
-##### [`useState`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usestate)
+#### [`useState`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usestate)
 
 返回一个 state，以及更新 state 的函数。
 
@@ -1364,13 +1331,13 @@ function FriendListItem(props) {
 
 
 
-##### [`useEffect`](https://zh-hans.reactjs.org/docs/hooks-reference.html#useeffect)
+#### [`useEffect`](https://zh-hans.reactjs.org/docs/hooks-reference.html#useeffect)
 
 执行带有副作用的函数
 
 
 
-##### [`useContext`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usecontext)
+#### [`useContext`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usecontext)
 
 接收一个 context 对象（`React.createContext` 的返回值）并返回该 context 的当前值。
 
@@ -1378,11 +1345,11 @@ function FriendListItem(props) {
 
 
 
-#### [额外的 Hook](https://zh-hans.reactjs.org/docs/hooks-reference.html#additional-hooks)
+### [额外的 Hook](https://zh-hans.reactjs.org/docs/hooks-reference.html#additional-hooks)
 
 
 
-##### [`useReducer`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usereducer)
+#### [`useReducer`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usereducer)
 
 [`useState`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usestate) 的替代方案。它接收一个形如 `(state, action) => newState` 的 reducer，并返回当前的 state 以及与其配套的 `dispatch` 方法
 
@@ -1390,7 +1357,7 @@ function FriendListItem(props) {
 
 
 
-##### [`useCallback`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usecallback)
+#### [`useCallback`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usecallback)
 
 ```
 const memoizedCallback = useCallback(
@@ -1407,7 +1374,7 @@ const memoizedCallback = useCallback(
 
 
 
-##### [`useMemo`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usememo)
+#### [`useMemo`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usememo)
 
 返回一个 [memoized](https://en.wikipedia.org/wiki/Memoization) 值。
 
@@ -1417,7 +1384,7 @@ const memoizedCallback = useCallback(
 
 
 
-##### [`useRef`](https://zh-hans.reactjs.org/docs/hooks-reference.html#useref)
+#### [`useRef`](https://zh-hans.reactjs.org/docs/hooks-reference.html#useref)
 
 一般用于命令式的访问子组件
 
@@ -1427,11 +1394,7 @@ const memoizedCallback = useCallback(
 
 > 当 ref 对象内容发生变化时，`useRef` 并*不会*通知你。变更 `.current` 属性不会引发组件重新渲染。如果想要在 React 绑定或解绑 DOM 节点的 ref 时运行某些代码，则需要使用[回调 ref](https://zh-hans.reactjs.org/docs/hooks-faq.html#how-can-i-measure-a-dom-node) 来实现。
 
-
-
-
-
-##### [`useImperativeHandle`](https://zh-hans.reactjs.org/docs/hooks-reference.html#useimperativehandle)
+#### [`useImperativeHandle`](https://zh-hans.reactjs.org/docs/hooks-reference.html#useimperativehandle)
 
 ```
 function FancyInput(props, ref) {
@@ -1452,29 +1415,10 @@ FancyInput = forwardRef(FancyInput);
 
 
 
-##### [`useLayoutEffect`](https://zh-hans.reactjs.org/docs/hooks-reference.html#uselayouteffect)
+#### [`useLayoutEffect`](https://zh-hans.reactjs.org/docs/hooks-reference.html#uselayouteffect)
 
 其函数签名与 `useEffect` 相同，但它会在所有的 DOM 变更之后同步调用 effect。可以使用它来读取 DOM 布局并同步触发重渲染。在浏览器执行绘制之前，`useLayoutEffect` 内部的更新计划将被同步刷新。
 
-##### [`useDebugValue`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usedebugvalue)
+#### [`useDebugValue`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usedebugvalue)
 
 用于在 React 开发者工具中显示自定义 hook 的标签。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
