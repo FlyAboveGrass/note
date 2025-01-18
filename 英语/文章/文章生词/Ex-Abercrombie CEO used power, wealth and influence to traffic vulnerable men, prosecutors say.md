@@ -265,7 +265,7 @@
 - abhor [əbˈhɔː(r)] 憎恶；痛恨
     - ab - 离开；hor - 颤抖；恐惧；憎恶
     - detest [dɪˈtest] 憎恶；
-- condemn [kənˈdem] 谴责；判刑
+- condemn [kənˈdem] 谴责；判刑     
     - con - 共同；demn - 伤害；指责
     - censure [ˈsenʃə(r)] 指责；rebuke [rɪˈbjuːk] 斥责；denounce [dɪˈnaʊns] 谴责
 - filing [ˈfaɪlɪŋ] 存档；归档
