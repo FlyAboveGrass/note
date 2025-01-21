@@ -3,6 +3,8 @@
 
 
 
+
+
 # 在代码库索引排除不需要的文件
 
 将一些不涉及代码逻辑编写的内容排除在代码库索引外，会让 cursor 的建议更加智能。
@@ -296,3 +298,11 @@ Always respond in 中文 with utf-8 encoding.
 cursorrules 集合网站：
 -  [https://cursor.directory/](https://cursor.directory/)
 -  [https://cursorlist.com/](https://cursorlist.com/)
+
+
+# notepad 
+
+使用 notepad 为开发工作流程创建可重用的上下文
+
+[Features / Beta / Notepads – Cursor](https://docs.cursor.com/features/beta/notepads)
+
