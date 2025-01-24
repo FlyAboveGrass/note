@@ -14,7 +14,8 @@
     "bullet-point-relationship-lines",
     "autofading-ui",
     "better-bullet-points-in-edit-mode",
-    "bigger-link-popup-preview"
+    "bigger-link-popup-preview",
+    "fly"
   ],
   "translucency": false,
   "nativeMenus": true,
