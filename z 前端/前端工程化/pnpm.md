@@ -77,11 +77,9 @@ node_modules
 
 # pnpm 如何组织依赖
 
-
-
 ## 软链接和硬连接结合
 
-![[Pasted image 20240223180945.png]]
+![[Pasted image 20250113111207.png]]
 
 ### [软链接和硬链接](https://zhuanlan.zhihu.com/p/442133074)
 
@@ -122,7 +120,6 @@ node_modules
 
 
 ### pnpm 的 node_modules
-
 
 
 以安装koa为例，当我们使用 pnpm 安装koa 时，实际上会生成两个文件夹，两个文件夹的形式分别是：
@@ -173,7 +170,7 @@ pnpm 为我们提供了相当方便的方式从 npm 迁移过来， 步骤如下
     brew install pnpm
     ```
 
-    
+
 
 2. 将旧的 package-lock.json 转换为 pnpm-lock.yaml
 
@@ -182,27 +179,15 @@ pnpm 为我们提供了相当方便的方式从 npm 迁移过来， 步骤如下
     pnpm import
     ```
 
-    
+
 
 3. 删除原来的 node_modules
-
 4. 使用 pnpm 重新安装依赖
 
     ```
     pnpm install
     ```
 
-    
-
-
-
-
-
 > 参考链接：
 >
 > [浅谈 pnpm 软链接和硬链接 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/442133074)
-
-
-
-
-

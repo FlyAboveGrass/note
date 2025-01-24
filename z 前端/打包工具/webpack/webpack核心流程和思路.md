@@ -2,11 +2,9 @@
 >
 > [Webpack 5 知识体系 - GitMind](https://gitmind.cn/app/doc/fac1c196e29b8f9052239f16cff7d4c7)
 >
-> [[万字总结\] 一文吃透 Webpack 核心原理 - 掘金 (juejin.cn)](https://juejin.cn/post/6949040393165996040#heading-1)
+> [[万字总结] 一文吃透 Webpack 核心原理 - 掘金 (juejin.cn)](https://juejin.cn/post/6949040393165996040#heading-1)
 >
 > [Introduction  | Web Fundamentals  | Google Developers](https://developers.google.com/web/fundamentals/performance/webpack/)
-
-
 
 # 核心流程
 
@@ -41,8 +39,7 @@ Webpack 过程核心完成了 **内容转换 + 资源合并** 两种功能，实
 
 构建阶段从 `entry` 开始递归解析资源与资源的依赖，在 `compilation` 对象内逐步构建出 `module` 集合以及 `module` 之间的依赖关系
 
-![img](https://supermonkey.feishu.cn/space/api/box/stream/download/asynccode/?code=OGNiYzZlYmIzOGVlMWVkYTdiYjUxN2JlYzM3Y2EwNjFfV1prNDFTc0lvZzJZZVRvc3NmdGlPSjVPVGxTdWZJZ3lfVG9rZW46Ym94Y25xSnZ5S3lpZkQ5RWM1aUt5OTNUbGxoXzE2NDQ5MDUwNDc6MTY0NDkwODY0N19WNA)
-
+![[Pasted image 20250113165931.png]]
 
 
 
@@ -76,7 +73,6 @@ Webpack 过程核心完成了 **内容转换 + 资源合并** 两种功能，实
 这一步的关键逻辑是将 `module` 按规则组织成 `chunks` ，webpack 内置的 `chunk` 封装规则比较简单：
 
 - `entry` **及 entry 触达到的模块，组合成一个** `chunk`
-
 - **使用动态引入语句引入的模块，各自组合成一个** `chunk`
 
 
@@ -84,308 +80,207 @@ Webpack 过程核心完成了 **内容转换 + 资源合并** 两种功能，实
 # [优化思路](https://developers.google.com/web/fundamentals/performance/webpack)
 
 
+## 体积优化
 
-## **减少前端打包体积**
+### Tree Shaking:
+
+确保使用 ES6 模块语法 (import 和 export) 以便 Webpack 能够进行 tree shaking，移除未使用的代码。
 
 
+### Code Splitting
 
-### **使用生产模式**
+- 减少初始加载时间：只加载用户当前需要的代码。
+- 提高应用性能：按需加载减少了不必要的资源消耗。
+- 更好的用户体验：通过懒加载，用户可以更快地访问应用的关键功能。
 
-```JavaScript
+#### 如何实现 Code Splitting
+
+1. 动态导入
+
+使用动态 import() 语法可以实现按需加载模块。这种方式适用于需要在运行时加载的模块。
+```
+// 使用动态 import
+function loadComponent() {
+  return import('./SomeComponent')
+    .then(module => {
+      const SomeComponent = module.default;
+      // 使用 SomeComponent
+    })
+    .catch(error => {
+      console.error('Error loading component:', error);
+    });
+}
+```
+
+2. SplitChunksPlugin
+
+Webpack 的 SplitChunksPlugin 可以自动将公共模块提取到单独的文件中。通过配置这个插件，可以更好地管理代码分割。
+
+```
 // webpack.config.js
 module.exports = {
-  mode: 'production',
-};
-```
-
-
-
-
-
-### **启用 minification**
-
-minification 会对你的代码进行压缩，手段包括去除多余空格、缩短变量名等
-
-
-
-**包层级的压缩**
-
-webpack4是默认开启的，webpack3则需要手动配置
-
-```JavaScript
-// webpack.config.js
-const webpack = require('webpack');
-module.exports = {
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin(),
-  ],
-};
-```
-
-
-
-**特定 loader 的压缩配置**
-
-```JavaScript
-// webpack.config.js
-module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.css$/,
-        use: [
-          'style-loader',
-          { loader: 'css-loader', options: { minimize: true } },
-        ],
-      },
-    ],
-  },
-};
-```
-
-### **使用 ES6 模块**
-
-使用 ES6 模块可以让webpack进行自动的摇树优化。
-
-
-
-### **图片优化**
-
-url-loader
-
-svg-url-loader
-
-Image-webpack-loader
-
-
-
-### **[依赖优化](https://github.com/GoogleChromeLabs/webpack-libs-optimizations)**
-
-
-
-### **启用ES模块串联**
-
-启用之后，打包bundle时webpack 会自动将模块都打包进一个方法中，并且所有的模块都放在同一个文件中，能有效减少文件数。
-
-```JavaScript
-// webpack.config.js (for webpack 4)
-module.exports = {
-  optimization: {
-    concatenateModules: true,
-  },
-};
-```
-
-
-
-## **使用长期缓存**
-
-
-
-### **缓存的方式**
-
-**使用带版本的包或者带缓存的请求头**
-
-```JavaScript
-<!-- Before the change -->
-<script src="./index-v15.js"></script>
-
-
-<!-- After the change -->
-<script src="./index-v16.js"></script>
-
-Cache-Control: max-age=31536000
-```
-
-
-
-### **选取依赖和运行时代码到不同文件中**
-
-#### **依赖**
-
-将依赖分离到独立的块中，有三个步骤
-
-```JavaScript
-// 1.替代输出文件名
-// webpack.config.js
-module.exports = {
-  output: {
-    // Before
-    filename: 'bundle.[chunkhash].js',
-    // After
-    filename: '[name].[chunkhash].js',
-  },
-};
-
-
-// 2. 将 entry 字段转换成object
-module.exports = {
-  // Before
-  entry: './index.js',
-  // After
-  entry: {
-    main: './index.js',
-  },
-};
-
-
-// 3.webpack.config.js (for webpack 4)
-module.exports = {
+  // ...
   optimization: {
     splitChunks: {
-      chunks: 'all',
+      chunks: 'all', // 对所有类型的 chunks 进行分割
+      minSize: 20000, // 生成 chunk 的最小大小
+      maxSize: 0, // 不限制 chunk 的最大大小
+      minChunks: 1, // 最小共享次数
+      maxAsyncRequests: 30, // 最大异步请求数
+      maxInitialRequests: 30, // 最大初始化请求数
+      automaticNameDelimiter: '~', // 文件名分隔符
+      cacheGroups: {
+        vendors: {
+          test: /[\\/]node_modules[\\/]/,
+          priority: -10
+        },
+        default: {
+          minChunks: 2,
+          priority: -20,
+          reuseExistingChunk: true
+        }
+      }
     }
-  },
+  }
 };
 ```
 
+3. React.lazy 和 Suspense
 
+在 React 应用中，可以使用 React.lazy 和 Suspense 来实现组件的懒加载。
 
-#### **运行时代码**
-
-```JavaScript
-// webpack.config.js (for webpack 4)
-module.exports = {
-  optimization: {
-    runtimeChunk: true,
-  },
-};
 ```
+import React, { Suspense } from 'react';
 
+const LazyComponent = React.lazy(() => import('./LazyComponent'));
 
-
-### **内联运行时代码以节省http请求**
-
-```JavaScript
-// before
-<script src="./runtime.79f17c27b335abc7aaf4.js"></script>
-
-// after
-<script>
-!function(e){function n(r){if(t[r])return t[r].exports;…}} ([]);
-</script>
-```
-
-
-
-#### **用HtmlWebpackPlugin生成html的情况**
-
-```JavaScript
-// webpack.config.js
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const InlineSourcePlugin = require('html-webpack-inline-source-plugin');
-
-module.exports = {
-  plugins: [
-    new HtmlWebpackPlugin({
-      // Inline all files which names start with “runtime~” and end with “.js”.
-      // That’s the default naming of runtime chunks
-      inlineSource: 'runtime~.+\\.js',
-    }),
-    // This plugin enables the “inlineSource” option
-    new InlineSourcePlugin(),
-  ],
-};
-```
-
-
-
-#### **用服务器生成html的情况**
-
-**使用ManifestPlugin插件得知运行时的生成文件名**
-
-```JavaScript
-// webpack.config.js (for webpack 4)
-const ManifestPlugin = require('webpack-manifest-plugin');
-
-module.exports = {
-  plugins: [
-    new ManifestPlugin(),
-  ],
-};
-
-
-// manifest.json
-{
-  "runtime~main.js": "runtime~main.8e0d62a03.js"
+function App() {
+  return (
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <LazyComponent />
+      </Suspense>
+    </div>
+  );
 }
 ```
 
 
 
-**使用node服务将运行时内联到内容里**
+### 懒加载
 
-```JavaScript
-// server.js
+路由级别的 Code Splitting
 
-const fs = require('fs');
-const manifest = require('./manifest.json');
-const runtimeContent = fs.readFileSync(manifest['runtime~main.js'], 'utf-8');
+对于单页应用（SPA），可以在路由级别实现 Code Splitting。React Router 和 Vue Router 都支持这种方式。
 
-app.get('/', (req, res) => {
-  res.send(`
-    …
-    <script>${runtimeContent}</script>
-    …
-	`);
-});
+```
+import React, { Suspense } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+const Home = React.lazy(() => import('./Home'));
+const About = React.lazy(() => import('./About'));
+
+function App() {
+  return (
+    <Router>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Switch>
+          <Route path="/about" component={About} />
+          <Route path="/" component={Home} />
+        </Switch>
+      </Suspense>
+    </Router>
+  );
+}
 ```
 
 
 
-### **懒加载**
+3. Minification:
 
-不在一开始就引入所有的文件。只先引入重要的必须文件，其他的可以进行动态的import
-
-
-
-### **将代码拆分到路由或者页面中**
-
-#### **单页面应用**
-
-react-router 和 vue-router 都提供了代码分割的能力
+使用 TerserPlugin 来压缩 JavaScript 代码，移除多余的空格、注释等。
 
 
+4. CSS Minification:
 
-**多页面应用**
+使用 cssnano 或 OptimizeCSSAssetsPlugin 来压缩 CSS 文件。
 
-使用 entry 选项，将页面内容分开
 
-```JavaScript
-module.exports = {
-  entry: {
-    home: './src/Home/index.js',
-    article: './src/Article/index.js',
-    profile: './src/Profile/index.js'
-  },
-};
-```
+5. Image Optimization:
+
+使用 image-webpack-loader 来压缩图片文件。
 
 
 
 
 
-### **让模块id更稳定**
+### 代码压缩
 
-使用计数器作为模块的id，如果在中间加入一个模块会导致后面的未改动的模块都进行重新编译。而使用哈希值作为模块id则不会产生这个问题。
+对你的代码进行压缩，手段包括去除多余空格、缩短变量名
 
+- 使用 TerserPlugin 来压缩 JavaScript 代码。
+- 确保在生产环境中启用 mode: 'production'，Webpack 会自动应用一些优化。
 
+### 图片优化
 
-使用 HashedModuleIdsPlugin 可以将模块id由计数器变成hash
-
-```JavaScript
-// webpack.config.js
-module.exports = {
-  plugins: [
-    new webpack.HashedModuleIdsPlugin(),
-  ],
-};
-```
+- 使用 image-webpack-loader 或 url-loader 来优化图片。
+- 考虑使用 WebP 格式的图片。
 
 
+### CSS 压缩
+
+- 使用 MiniCssExtractPlugin 来提取 CSS。
+- 使用 cssnano 来压缩 CSS。
 
 
+### CDN
 
+- 将第三方库通过 CDN 引入，减少打包体积。
+
+
+## 构建速度优化
+
+### 使用最新版本的 Webpack:
+
+- 确保使用最新版本的 Webpack 和相关插件，因为新版本通常包含性能改进。
+
+### 优化 Loader:
+
+- 减少 Loader 的处理范围: 使用 include 和 exclude 选项来限制 Loader 处理的文件范围。
+- 使用缓存: 对于一些耗时的 Loader（如 Babel），可以使用 cache-loader 或者 babel-loader 的 cacheDirectory 选项来启用缓存。
+
+### 优化 Plugin:
+
+- 减少不必要的 Plugin: 只使用项目中真正需要的插件。
+- 使用并行化插件: 如 terser-webpack-plugin 支持多线程并行压缩。
+
+### 代码分割:
+
+- 使用 Webpack 的代码分割功能（如 SplitChunksPlugin）来分割代码，减少单个文件的大小。
+
+### 持久化缓存:
+
+- 使用 Webpack 的持久化缓存功能（cache: { type: 'filesystem' }）来加速二次构建。
+
+### 缩小构建目标:
+
+- 在开发环境中，使用 cheap-module-eval-source-map 代替 source-map，以加快构建速度。
+- 在生产环境中，使用 production 模式来启用内置的优化。
+
+### 减少模块解析时间:
+
+- 使用 resolve.alias 和 resolve.extensions 来减少模块解析时间。
+- 确保 node_modules 中的模块不被重复解析。
+	- 明确指定需要解析的文件扩展名范围，减少不必要的尝试
+	- 对于一些需要频繁解析的模块，使用缓存来
+
+### 使用 DLLPlugin:
+
+- 在开发环境中，使用 DLLPlugin 和 DLLReferencePlugin 来预编译不常变化的依赖库。
+
+### 多进程/多实例构建:
+
+- 使用 thread-loader 来启用多进程构建，尤其是对于 CPU 密集型的任务。
 
 
 ## **[监控和分析应用](https://developers.google.com/web/fundamentals/performance/webpack/monitor-and-analyze)**

@@ -4,13 +4,11 @@
 >
 > [[万字总结\] 一文吃透 Webpack 核心原理 - 掘金 (juejin.cn)](https://juejin.cn/post/6949040393165996040#heading-18)
 
-
-
-## Plugin
+# Plugin
 
 
 
-### 什么是 Plugin
+## 什么是 Plugin
 
 插件通常是一个带有 `apply` 函数的类。`apply` 函数运行时会得到参数 `compiler` ，以此为起点可以调用 `hook` 对象注册各种钩子回调，webpack 的插件架构基于这种模式构建而成，插件开发者可以使用这种模式在钩子回调中，插入特定代码。
 
@@ -44,19 +42,17 @@ const {
 
 
 
-### 如何使用 plugin
+## 如何使用 plugin
 
 Tapable 使用时通常需要经历如下步骤：
 
 - 创建钩子实例
-
 - 调用订阅接口注册回调，包括：`tap、tapAsync、tapPromise`
-
 - 调用发布接口触发回调，包括：`call、callAsync、promise`
 
 
 
-#### Tapable 钩子类型
+### Tapable 钩子类型
 
 Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
@@ -73,27 +69,20 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 | AsyncSeriesLoopHook      | 异步串行循环钩子   | Webpack 中未使用                                             |
 | AsyncSeriesWaterfallHook | 异步串行瀑布流钩子 | Webpack 共出现 3 次，如 ContextModuleFactory.hooks.beforeResolve |
 
-
-
-##### 钩子分类依据两条规则：
+#### 钩子分类依据两条规则：
 
 - 按回调逻辑，分为：
     - 基本类型，名称不带 `Waterfall/Bail/Loop` 关键字，与通常 **「订阅/回调」** 模式相似，按钩子注册顺序，逐次调用回调
-
 - `waterfall` 类型：前一个回调的返回值会被带入下一个回调
-
 - `bail` 类型：逐次调用回调，若有任何一个回调返回非 `undefined` 值，则终止后续调用
-
 - `loop` 类型：逐次、循环调用，直到所有回调函数都返回 `undefined`
-
 - 按执行回调的并行方式，分为：
     - `sync` ：同步执行，启动后会按次序逐个执行回调，支持 `call/tap` 调用语句
-
 - `async` ：异步执行，支持传入 `callback` 或 `promise` 风格的异步回调函数，支持 `callAsync/tapAsync` 、`promise/tapPromise` 两种调用语句
 
 
 
-### 什么时候触发钩子
+## 什么时候触发钩子
 
 
 
@@ -102,15 +91,12 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 - compiler.hooks.compilation：
     - 时机：启动编译创建出 compilation 对象后触发
     - 参数：当前编译的 compilation 对象
-
 - compiler.hooks.make：
     - 时机：正式开始编译时触发
     - 参数：同样是当前编译的 `compilation` 对象
-
 - compilation.hooks.optimizeChunks：
     - 时机： `seal` 函数中，`chunk` 集合构建完毕后触发
     - 参数：`chunks` 集合与 `chunkGroups` 集合
-
 - compiler.hooks.done：
     - 时机：编译完成后触发
     - 参数： `stats` 对象，包含编译过程中的各类统计信息
@@ -121,11 +107,11 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
 
 
-#### [触发时机](https://juejin.cn/post/6949040393165996040#heading-16)
+### [触发时机](https://juejin.cn/post/6949040393165996040#heading-16)
 
 
 
-##### `compiler` 对象逐次触发如下钩子
+#### `compiler` 对象逐次触发如下钩子
 
 
 
@@ -133,7 +119,7 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
 
 
-##### `compilation` 对象逐次触发如下钩子
+#### `compilation` 对象逐次触发如下钩子
 
 ![img](https://supermonkey.feishu.cn/space/api/box/stream/download/asynccode/?code=NTNlYWRiMjg5OTFmMjQ3NzQ1YjY3MzFhZmU4YWMyOTJfbFZ0R3lycXU5T3JQNHdicnh4cW43UXB4MG14QjRlSmpfVG9rZW46Ym94Y25oZ1JDVnMxV0RqUjE3WUVMZjZvenFjXzE2NDQ5MDU1MjI6MTY0NDkwOTEyMl9WNA)
 
@@ -143,7 +129,7 @@ Tabable 提供如下类型的钩子(统计数据来自 webpack@5.37.0)：
 
 
 
-### 如何影响编译状态
+## 如何影响编译状态
 
 hooks 回调由 webpack 决定何时，以何种方式执行；webpack 会将上下文信息以参数或 `this` (compiler 对象) 形式传递给钩子回调，在回调中可以调用上下文对象的方法或者直接修改上下文对象属性的方式，对原定的流程产生 **side effect**。
 
@@ -152,13 +138,9 @@ hooks 回调由 webpack 决定何时，以何种方式执行；webpack 会将上
 例如：
 
 - `compilation.addModule`：添加模块，可以在原有的 `module` 构建规则之外，添加自定义模块
-
 - `compilation.emitAsset`：直译是“提交资产”，功能可以理解将内容写入到特定路径
-
 - `compilation.addEntry`：添加入口，功能上与直接定义 `entry` 配置相同
-
 - `module.addError`：添加编译错误信息
-
 - ……
 
 
@@ -167,7 +149,7 @@ hooks 回调由 webpack 决定何时，以何种方式执行；webpack 会将上
 
 
 
-### [如何编写 Plugin](https://webpack.wuhaolin.cn/5原理/5-4编写Plugin.html)
+## [如何编写 Plugin](https://webpack.wuhaolin.cn/5原理/5-4编写Plugin.html)
 
 
 
@@ -176,11 +158,8 @@ hooks 回调由 webpack 决定何时，以何种方式执行；webpack 会将上
 - 确定 Plugin 的形式
     - 函数形式。 定义一个 JavaScript 命名函数。在插件函数的 prototype 上定义一个 `apply` 方法。
     - 类形式。 定义一个 Plugin 的类，定义 constructor（获取参数） 和 apply 方法。
-
 - 指定一个绑定到 webpack 自身的[事件钩子](https://www.webpackjs.com/api/compiler-hooks/)。
-
 - 处理 webpack 内部实例的特定数据。
-
 - 功能完成后调用 webpack 提供的回调。
 
 ```JavaScript
@@ -208,8 +187,6 @@ class Plugin {
         });
       });
 
-
-
       // 这是一个异步事件，要记得调用 callback 通知 Webpack 本次事件监听处理结束。
       // 如果忘记了调用 callback，Webpack 将一直卡在这里而不会往后执行。
       callback();
@@ -224,7 +201,7 @@ class Plugin {
 
 
 
-## [Loader](https://www.webpackjs.com/contribute/writing-a-loader/)
+# [Loader](https://www.webpackjs.com/contribute/writing-a-loader/)
 
 `webpack` 只认识 `JavaScript` 这们语言，对于其他的资源通过 `loader` 后可以转化做预处理。
 
@@ -232,14 +209,13 @@ class Plugin {
 
 
 
-### Loader 的特性
+## Loader 的特性
 
 
 
 **loader特点**
 
 - loader的执行顺序和代码书写的顺序是相反的，即：最后一个loader最先执行，第一个loader最后执行
-
 - 第一个执行的loader会接收源文件做为参数，下一次执行的loader会接收前一个loader执行的返回值做为参数
 
 
@@ -247,30 +223,21 @@ class Plugin {
 **loader 编写原则**
 
 - **简单易用**。loaders 应该只做单一任务
-
 - 使用**链式**传递。Webpack 会按顺序链式调用每个 Loader
-
 - **模块化**的输出。
-
 - 确保**无状态**。输入与输出均为字符串，各个 Loader 完全独立，即插即用
-
 - 使用 **loader utilities**。
-
 - 记录 **loader 的依赖**。
-
 - 解析**模块依赖关系**。
-
 - 提取**通用代码**。
-
 - 避免**绝对路径**。
-
 - 使用 **peer dependencies**。
 
 
 
 
 
-### 如何编写 Loader
+## 如何编写 Loader
 
 ```JavaScript
 // ./loader/replaceLoader.js
@@ -305,7 +272,7 @@ module.exports = function(source) {
 }
 ```
 
-#### 如何使用
+### 如何使用
 
 ```JavaScript
 module.exports = {

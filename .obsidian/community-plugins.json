@@ -21,5 +21,7 @@
   "obsidian-enhancing-mindmap",
   "obsidian-better-command-palette",
   "obsidian-textgenerator-plugin",
-  "cmenu-plugin"
+  "cmenu-plugin",
+  "dataview",
+  "lapel"
 ]
