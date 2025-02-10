@@ -1,12 +1,16 @@
 
 > 这部分的位运算非常巧妙
 
+jquery时代更新视图是直接对DOM进行操作，缺点是**频繁**操作真实 DOM，性能差。
+react和vue时代引入了虚拟DOM，更新视图是对新旧虚拟DOM树进行一层层的遍历比较，然后找出需要更新的DOM节点进行更新。这样做的缺点就是如果DOM树很复杂，在进行新旧DOM树比较的时候性能就比较差了。
+那么有没有一种方法是不需要去遍历新旧DOM树就可以知道哪些DOM需要更新呢？
+
+答案是：在编译时我们就能够知道哪些节点是静态的，哪些是动态的。在更新视图时只需要对这些动态的节点进行靶向更新，就可以省去对比新旧虚拟DOM带来的开销。
+vue3也是这样做的，甚至都可以抛弃虚拟DOM。
+但是考虑到渲染函数的灵活性和需要兼容vue2，vue3最终还是保留了虚拟DOM。 
 
 
-
-jquery时代更新视图是直接对DOM进行操作，缺点是**频繁**操作真实 DOM，性能差。react和vue时代引入了虚拟DOM，更新视图是对新旧虚拟DOM树进行一层层的遍历比较，然后找出需要更新的DOM节点进行更新。这样做的缺点就是如果DOM树很复杂，在进行新旧DOM树比较的时候性能就比较差了。那么有没有一种方法是不需要去遍历新旧DOM树就可以知道哪些DOM需要更新呢？
-
-答案是：在编译时我们就能够知道哪些节点是静态的，哪些是动态的。在更新视图时只需要对这些动态的节点进行靶向更新，就可以省去对比新旧虚拟DOM带来的开销。vue3也是这样做的，甚至都可以抛弃虚拟DOM。但是考虑到渲染函数的灵活性和需要兼容vue2，vue3最终还是保留了虚拟DOM。 **这篇文章我们来讲讲vue3是如何找出动态节点，以及响应式变量修改后如何靶向更新。** 注：本文使用的vue版本为`3.4.19`
+**这篇文章我们来讲讲vue3是如何找出动态节点，以及响应式变量修改后如何靶向更新。** 注：本文使用的vue版本为`3.4.19`
 
 # 靶向更新的流程
 
@@ -15,14 +19,10 @@ jquery时代更新视图是直接对DOM进行操作，缺点是**频繁**操作�
 整个流程主要分为两个大阶段：编译时和运行时。
 
 - 编译时阶段找出动态节点，使用`patchFlag`属性将其标记为动态节点。
-    
 - 运行时阶段分为两块：执行render函数阶段和更新视图阶段。
-    
-
 - 执行render函数阶段会找出所有被标记的动态节点，将其塞到`block`节点的`dynamicChildren`属性数组中。
-    
 - 更新视图阶段会从block节点的`dynamicChildren`属性数组中拿到所有的动态节点，然后遍历这个数组将里面的动态节点进行靶向更新。
-    
+
 
 # 一个简单的demo
 
@@ -58,7 +58,9 @@ p标签绑定了响应式变量`msg`，点击button按钮时会将`msg`变量的
 
 # 编译阶段
 
-在之前的 面试官：来说说vue3是怎么处理内置的v-for、v-model等指令？文章中我们讲过了在编译阶段对vue内置的指令、模版语法是在`transform`函数中处理的。在`transform`函数中实际干活的是一堆转换函数，每种转换函数都有不同的作用。比如v-for标签就是由`transformFor`转换函数处理的，而将节点标记为动态节点就是在`transformElement`转换函数中处理的。
+在之前的面试官：来说说vue3是怎么处理内置的v-for、v-model等指令？
+文章中我们讲过了在编译阶段对vue内置的指令、模版语法是在 `transform` 函数中处理的。在 `transform` 函数中实际干活的是一堆转换函数，每种转换函数都有不同的作用。
+比如v-for标签就是由`transformFor`转换函数处理的，而将节点标记为动态节点就是在`transformElement`转换函数中处理的。
 
 首先我们需要启动一个`debug`终端，才可以在node端打断点。这里以vscode举例，首先我们需要打开终端，然后点击终端中的`+`号旁边的下拉箭头，在下拉中点击`Javascript Debug Terminal`就可以启动一个`debug`终端。![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yLxuPNHDVYZ0zOesyNWMZ3196QkUOtKXUoJEQcsSJoE6a9zawBuictPg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)然后给`transformElement`函数打个断点，`transformElement`函数在**node_modules/@vue/compiler-core/dist/compiler-core.cjs.js**文件中。
 
@@ -215,11 +217,9 @@ import {  createElementBlock as _createElementBlock,  createElementVNode�
 从上图中可以看到render函数中主要就执行了这三个函数：
 
 - `openBlock`函数
-    
 - `createElementVNode`函数
-    
 - `createElementBlock`函数
-    
+
 
 ## openBlock函数
 
@@ -454,14 +454,10 @@ function setElementText(el, text) {  el.textContent = text;}
 整个流程主要分为两个大阶段：编译时和运行时。
 
 - 编译时阶段找出动态节点，使用`patchFlag`属性将其标记为动态节点。
-    
 - 运行时阶段分为两块：执行render函数阶段和更新视图阶段。
-    
-
 - 执行render函数阶段会找出所有被标记的动态节点，将其塞到`block`节点的`dynamicChildren`属性数组中。
-    
 - 更新视图阶段会从block节点的`dynamicChildren`属性数组中拿到所有的动态节点，然后遍历这个数组将里面的动态节点进行靶向更新。
-    
+
 
 如果使用了`v-for`或者`v-if`这种会改变html结构的指令，那么就不只有根节点是block节点了。`v-for`和`v-if`的节点都会生成block节点，此时的这些block节点就组成了一颗block节点树。如果小伙伴们对使用了`v-for`或者`v-if`是如何实现靶向更新感兴趣，可以参考本文的debug方式去探索。又或者在评论区留言，我会在后面的文章中安排上。
 
