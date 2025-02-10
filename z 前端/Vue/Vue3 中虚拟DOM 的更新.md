@@ -1,4 +1,6 @@
 
+> 参考链接： [vue3早已具备抛弃虚拟DOM的能力了-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2415940)
+
 > 这部分的位运算非常巧妙
 
 jquery时代更新视图是直接对DOM进行操作，缺点是**频繁**操作真实 DOM，性能差。
