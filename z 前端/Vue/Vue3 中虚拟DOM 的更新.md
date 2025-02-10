@@ -65,8 +65,7 @@ p标签绑定了响应式变量`msg`，点击button按钮时会将`msg`变量的
 文章中我们讲过了在编译阶段对vue内置的指令、模版语法是在 `transform` 函数中处理的。在 `transform` 函数中实际干活的是一堆转换函数，每种转换函数都有不同的作用。
 比如v-for标签就是由`transformFor`转换函数处理的，而将节点标记为动态节点就是在`transformElement`转换函数中处理的。
 
-首先我们需要启动一个`debug`终端，才可以在node端打断点。这里以vscode举例，首先我们需要打开终端，然后点击终端中的`+`号旁边的下拉箭头，在下拉中点击`Javascript Debug Terminal`就可以启动一个`debug`终端。![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yLxuPNHDVYZ0zOesyNWMZ3196QkUOtKXUoJEQcsSJoE6a9zawBuictPg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)然后给`transformElement`函数打个断点，`transformElement`函数在**node_modules/@vue/compiler-core/dist/compiler-core.cjs.js**文件中。
-
+首先我们需要启动一个 `debug` 终端，才可以在node端打断点。这里以vscode举例，首先我们需要打开终端，然后点击终端中的 `+` 号旁边的下拉箭头，在下拉中点击 `Javascript Debug Terminal` 就可以启动一个 `debug` 终端。![[Pasted image 20250210151035.png]] 然后给 `transformElement` 函数打个断点，`transformElement` 函数在**node_modules/@vue/compiler-core/dist/compiler-core. cjs.js**文件中。![[Pasted image 20250210151052.png]]
 ## `transformElement`转换函数
 
 接着在`debug`终端中执行`yarn dev`（这里是以`vite`举例）。在浏览器中访问 http://localhost:5173/，此时断点就会走到`transformElement`函数中了。我们看到`transformElement`函数中的代码是下面这样的：
@@ -172,7 +171,9 @@ enum PatchFlags {
 
 这里涉及到了位运算 `<<`，他的意思是向左移多少位。比如`TEXT`表示向左移0位，二进制表示为1。`CLASS`表示为左移一位，二进制表示为10。`STYLE`表示为左移两位，二进制表示为100。
 
-现在你明白了为什么给`patchFlag`赋值要使用“按位或”的运算符了吧，假如当前p标签除了有动态的文本节点，还有动态的class。那么`patchFlag`就会进行两次赋值，分别是：`patchFlag |= PatchFlags.TEXT`和`patchFlag |= PatchFlags.CLASS`。经过两次“按位或”的运算符进行计算后，`patchFlag`的二进制值就是11，二进制值信息中包含动态文本节点和动态class，从右边数的第一位1表示动态文本节点，从右边数的第二位1表示动态class。如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6ypEOLAj6VotleR10brcLWWg33Rl5xEFCicWSoUcS3KvQibQtYwMia8nVmQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+现在你明白了为什么给 `patchFlag` 赋值要使用“按位或”的运算符了吧，假如当前p标签除了有动态的文本节点，还有动态的class。那么 `patchFlag` 就会进行两次赋值，分别是：`patchFlag |= PatchFlags.TEXT` 和 `patchFlag |= PatchFlags.CLASS`。经过两次“按位或”的运算符进行计算后，`patchFlag` 的二进制值就是11，二进制值信息中包含动态文本节点和动态class，从右边数的第一位1表示动态文本节点，从右边数的第二位1表示动态class。如下图：
+
+![[Pasted image 20250210151009.png]]
 
 这样设计其实很精妙，后面拿到动态节点进行更新时，只需要将动态节点的`patchFlag`和`PatchFlags`中的枚举进行`&`"按位与"运算就可以知道当前节点是否是动态文本节点、动态class的节点。上面之所以没有涉及到`PatchFlags.CLASS`相关的代码，是因为当前例子中不存在动态class，所以我省略了。
 
@@ -181,13 +182,14 @@ enum PatchFlags {
 if (patchFlag !== 0) {  vnodePatchFlag = String(patchFlag)}
 ```
 
-这段代码很简单，如果`patchFlag !== 0`表示当前节点是动态节点。然后将`patchFlag`转换为字符串赋值给`vnodePatchFlag`变量，在dev环境中`vnodePatchFlag`字符串中还包含节点是哪种动态类型的信息。如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yLJictQyAcUibGHAd6KPPft2UbuicMssNPskuXSxfWLxz9MqRJ2rGaxlIQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
+这段代码很简单，如果 `patchFlag !== 0` 表示当前节点是动态节点。然后将 `patchFlag` 转换为字符串赋值给 `vnodePatchFlag` 变量，在dev环境中 `vnodePatchFlag` 字符串中还包含节点是哪种动态类型的信息。如下图：
+![[Pasted image 20250210151259.png]]
 ### 第三部分
 
 我们接着将断点走到第三部分，这一块也很简单。将`createVNodeCall`方法的返回值赋值给`codegenNode`属性，`codegenNode`属性中存的就是节点经过`transform`转换函数处理后的信息。
 
-我们将断点走到执行完`createVNodeCall`函数后，看看当前的p标签节点是什么样的。如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yxVmASg9DxOyEy8qVRxZibGtZLopaeUFuc0mKyebPdRD5LKw2yG2b5iag/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+我们将断点走到执行完 `createVNodeCall` 函数后，看看当前的p标签节点是什么样的。如下图：
+![[Pasted image 20250210151312.png]]
 
 从上图中可以看到此时的p标签的node节点中有了一个`patchFlag`属性，经过编译处理后p标签已经被标记成了动态节点。
 
@@ -197,11 +199,49 @@ if (patchFlag !== 0) {  vnodePatchFlag = String(patchFlag)}
 
 其实很简单直接在network上面找到你的那个vue文件就行了，比如我这里的文件是`index.vue`，那我只需要在network上面找叫`index.vue`的文件就行了。但是需要注意一下network上面有两个`index.vue`的js请求，分别是template模块+script模块编译后的js文件，和style模块编译后的js文件。
 
-那怎么区分这两个`index.vue`文件呢？很简单，通过query就可以区分。由style模块编译后的js文件的URL中有type=style的query，如下图所示：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yGksMhZjGmENjSttPxzNn7gzcWBjxkdXKNKAoIPHpebIicve2E1yj27Q/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+那怎么区分这两个 `index.vue` 文件呢？很简单，通过query就可以区分。由style模块编译后的js文件的URL中有type=style的query，如下图所示：
+![[Pasted image 20250210151359.png]]
 
 接下来我们来看看编译后的`index.vue`，简化的代码如下：
+
 ```
-import {  createElementBlock as _createElementBlock,  createElementVNode as _createElementVNode,  defineComponent as _defineComponent,  openBlock as _openBlock,  toDisplayString as _toDisplayString,} from "/node_modules/.vite/deps/vue.js?v=23bfe016";const _sfc_main = _defineComponent({  __name: "index",  setup(__props, { expose: __expose }) {    // ...省略  },});function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {  return (    _openBlock(),    _createElementBlock("div", null, [      _createElementVNode("h1", null, "title", -1),      _createElementVNode(        "p",        null,        _toDisplayString($setup.msg),        1        /* TEXT */      ),      _createElementVNode(        "button",        { onClick: $setup.handleChange },        "change msg"      ),    ])  );}_sfc_main.render = _sfc_render;export default _sfc_main;
+import {
+  createElementBlock as _createElementBlock,
+  createElementVNode as _createElementVNode,
+  defineComponent as _defineComponent,
+  openBlock as _openBlock,
+  toDisplayString as _toDisplayString,
+} from "/node_modules/.vite/deps/vue.js?v=23bfe016";
+
+const _sfc_main = _defineComponent({
+  __name: "index",
+  setup(__props, { expose: __expose }) {
+    // ...省略
+  },
+});
+
+function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (
+    _openBlock(),
+    _createElementBlock("div", null, [
+      _createElementVNode("h1", null, "title", -1),
+      _createElementVNode(
+        "p",
+        null,
+        _toDisplayString($setup.msg),
+        1 /* TEXT */
+      ),
+      _createElementVNode(
+        "button",
+        { onClick: $setup.handleChange },
+        "change msg"
+      ),
+    ])
+  );
+}
+
+_sfc_main.render = _sfc_render;
+export default _sfc_main;
 ```
 
 
@@ -215,7 +255,8 @@ import {  createElementBlock as _createElementBlock,  createElementVNode�
 
 那么根block节点又是怎么收集到所有的动态子节点的呢？
 
-我们先来搞清楚render函数中的那一堆嵌套函数的执行顺序，我们前面已经讲过了首先会执行返回的括号中的第一项`openBlock`函数，然后再执行括号中的第二项`createElementBlock`函数。`createElementBlock`函数是一个层层嵌套的结构，执行顺序是`内层先执行，外层再执行`。所以接下来会先执行里层`createElementVNode`生成h1标签的虚拟DOM，然后执行`createElementVNode`生成p标签的虚拟DOM，最后执行`createElementVNode`生成button标签的虚拟DOM。内层的函数执行完了后再去执行外层的`createElementBlock`生成div标签的虚拟DOM。如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yGYNhABh0icBM3icGQRsWh9Hh8SdBR1cIBAzAz8uB14AYgHLOayX3TJlw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+我们先来搞清楚render函数中的那一堆嵌套函数的执行顺序，我们前面已经讲过了首先会执行返回的括号中的第一项 `openBlock` 函数，然后再执行括号中的第二项 `createElementBlock` 函数。`createElementBlock` 函数是一个层层嵌套的结构，执行顺序是 `内层先执行，外层再执行`。所以接下来会先执行里层 `createElementVNode` 生成h1标签的虚拟DOM，然后执行 `createElementVNode` 生成p标签的虚拟DOM，最后执行 `createElementVNode` 生成button标签的虚拟DOM。内层的函数执行完了后再去执行外层的 `createElementBlock` 生成div标签的虚拟DOM。如下图：
+![[Pasted image 20250210151539.png]]
 
 从上图中可以看到render函数中主要就执行了这三个函数：
 
@@ -344,11 +385,13 @@ const patchElement = (n1, n2) => {
 
 从上面可以看到`patchElement`函数是实际干活的地方了，我们在控制台中来看看接收n1、n2这两个参数是什么样的。
 
-先来看看n1旧虚拟DOM ，如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yyJ5q8QbX8JFTMdJIN1b06kT2ZibGI5EQaCgYcfBBhicj6SArdEmbdKibQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+先来看看n1旧虚拟DOM ，如下图：
+![[Pasted image 20250210151800.png]]
 
 从上面可以看到此时的n1为根block节点，此时p标签中的文本还是更新前的文本"hello"，`dynamicChildren`属性为收集到的所有动态子节点。
 
-接着来看n2新虚拟DOM，如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yYM6tWT7zHpibLK0sc5HrgqEaicutXR4o1VEx4Fmt9yicR3qMTb4YseTeg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+接着来看n2新虚拟DOM，如下图：
+![[Pasted image 20250210151736.png]]
 
 从上面可以看到新虚拟DOM中p标签中的文本节点已经是更新后的文本"world"了。
 
@@ -435,11 +478,14 @@ enum PatchFlags {
 
 我们前面给p标签标记为动态节点时给c。在`patchElement`函数中使用`patchFlag`属性进行"按位与"运算，判断当前节点是否是动态文本节点、动态class节点、动态style节点。
 
-`patchFlag`的值是1，转换为两位的二进制后是01。`PatchFlags.CLASS`为`1 << 1`，转换为二进制值为10。01和10进行&(按位与)操作，计算下来的值为00。所以`patchFlag & PatchFlags.CLASS`转换为布尔值后为false，说明当前p标签不是动态class标签。如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yNm7G9KlQqPb2sq0zxswN4JYta697pfzTvhciaFLAfrgxJcUNWynpQHA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+`patchFlag` 的值是1，转换为两位的二进制后是01。`PatchFlags.CLASS` 为 `1 << 1`，转换为二进制值为10。01和10进行&(按位与)操作，计算下来的值为00。所以 `patchFlag & PatchFlags.CLASS` 转换为布尔值后为false，说明当前p标签不是动态class标签。如下图：
+![[Pasted image 20250210151708.png]]
 
-同理将`patchFlag`转换为三位的二进制后是001。`PatchFlags.STYLE`为`1 << 2`，转换为二进制值为100。001和100进行&(按位与)操作，计算下来的值为000。所以`patchFlag & PatchFlags.CLASS`转换为布尔值后为false，说明当前p标签不是动态style标签。如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6y1NJvFmp7ujOz8JiaU4MXnaLrP5zfAttsKCdiaFRibBsCoAwYWzdTxjSwA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+同理将 `patchFlag` 转换为三位的二进制后是001。`PatchFlags.STYLE` 为 `1 << 2`，转换为二进制值为100。001和100进行&(按位与)操作，计算下来的值为000。所以 `patchFlag & PatchFlags.CLASS` 转换为布尔值后为false，说明当前p标签不是动态style标签。如下图：
+![[Pasted image 20250210151653.png]]
 
-同理将`patchFlag`转换为一位的二进制后还是1。`PatchFlags.TEXT`为1，转换为二进制值还是1。1和1进行&(按位与)操作，计算下来的值为1。所以`patchFlag & PatchFlags.TEXT`转换为布尔值后为true，说明当前p标签是动态文本标签。如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6ytfHSmicfXOw6I6ueeAmoFVJ7cWBUs2xfuOkJzOBq1pw4vusx5LsC4QA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+同理将 `patchFlag` 转换为一位的二进制后还是1。`PatchFlags.TEXT` 为1，转换为二进制值还是1。1和1进行&(按位与)操作，计算下来的值为1。所以 `patchFlag & PatchFlags.TEXT` 转换为布尔值后为true，说明当前p标签是动态文本标签。如下图：
+![[Pasted image 20250210151639.png]]
 
 判断到当前节点是动态文本节点，然后使用`n1.children !== n2.children`判断新旧文本是否相等。如果不相等就传入`el`和`n2.children`执行`hostSetElementText`函数，其中的`el`为当前p标签，`n2.children`为新的文本。我们来看看`hostSetElementText`函数的代码，如下：
 ```
@@ -452,7 +498,8 @@ function setElementText(el, text) {  el.textContent = text;}
 
 # 总结
 
-现在来看我们最开始讲的整个靶向更新的流程图你应该很容易理解了，如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yQ6dYLJxfZ8SrvyXgttmEwqKPfvLaYeU6BvhiczB3UOsIWQwxXwlibPSA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+现在来看我们最开始讲的整个靶向更新的流程图你应该很容易理解了，如下图：
+![[Pasted image 20250210151622.png]]
 
 整个流程主要分为两个大阶段：编译时和运行时。
 
@@ -464,4 +511,5 @@ function setElementText(el, text) {  el.textContent = text;}
 
 如果使用了`v-for`或者`v-if`这种会改变html结构的指令，那么就不只有根节点是block节点了。`v-for`和`v-if`的节点都会生成block节点，此时的这些block节点就组成了一颗block节点树。如果小伙伴们对使用了`v-for`或者`v-if`是如何实现靶向更新感兴趣，可以参考本文的debug方式去探索。又或者在评论区留言，我会在后面的文章中安排上。
 
-在实验阶段的`Vue Vapor`中已经抛弃了虚拟DOM，更多关于`Vue Vapor`的内容可以查看我之前的文章： 没有虚拟DOM版本的vue（Vue Vapor）。根据vue团队成员三咲智子 所透露未来将使用`<script vapor>`的方式去区分Vapor组件和目前的组件。![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yibOULw6CibKFuuLJJzwVwPJtJYXL9ePrvI84ILC8pbeDHNlQfic6uwELQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+在实验阶段的 `Vue Vapor` 中已经抛弃了虚拟DOM，更多关于 `Vue Vapor` 的内容可以查看我之前的文章： 没有虚拟DOM版本的vue（Vue Vapor）。根据vue团队成员三咲智子所透露未来将使用 `<script vapor>` 的方式去区分Vapor组件和目前的组件。
+![[Pasted image 20250210151604.png]]
