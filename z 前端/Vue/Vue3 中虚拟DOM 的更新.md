@@ -14,7 +14,9 @@ vue3也是这样做的，甚至都可以抛弃虚拟DOM。
 
 # 靶向更新的流程
 
-先来看看我画的整个靶向更新的流程，如下图：![Image](https://mmbiz.qpic.cn/mmbiz_png/8hhrUONQpFto5ScznqoeHs8mWXMjKS6yQ6dYLJxfZ8SrvyXgttmEwqKPfvLaYeU6BvhiczB3UOsIWQwxXwlibPSA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+先来看看我画的整个靶向更新的流程，如下图：
+![[Pasted image 20250210150213.png]]
+
 
 整个流程主要分为两个大阶段：编译时和运行时。
 
@@ -59,6 +61,7 @@ p标签绑定了响应式变量`msg`，点击button按钮时会将`msg`变量的
 # 编译阶段
 
 在之前的面试官：来说说vue3是怎么处理内置的v-for、v-model等指令？
+
 文章中我们讲过了在编译阶段对vue内置的指令、模版语法是在 `transform` 函数中处理的。在 `transform` 函数中实际干活的是一堆转换函数，每种转换函数都有不同的作用。
 比如v-for标签就是由`transformFor`转换函数处理的，而将节点标记为动态节点就是在`transformElement`转换函数中处理的。
 
