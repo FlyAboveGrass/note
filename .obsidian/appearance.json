@@ -20,5 +20,6 @@
   "translucency": false,
   "nativeMenus": true,
   "showViewHeader": true,
-  "textFontFamily": "Ayuthaya"
+  "textFontFamily": "Ayuthaya",
+  "showRibbon": false
 }
