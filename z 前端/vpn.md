@@ -1,4 +1,4 @@
-### 宝塔面板
+# 宝塔面板
 
 **安装宝塔**
 Centos安装命令：
@@ -13,7 +13,7 @@ username: 5drubuxc
 password: ac67fcdf
 
 
-### vpn 搭建步骤
+# vpn 搭建步骤
 
 [科学上网服务器搭建 不再受限于人！（v2ray/xray/trojan） | SKY博客](https://www.sky350.com/576.html)
 
@@ -33,25 +33,25 @@ firewall-cmd --zone=public --add-port=80/tcp --permanent #添加80端口
 另外， 在 x-ui 中新建了节点之后，需要 设置你服务器节点的 流量，然后在宝塔面板里面开放你的 vpn 的端口
 
 
-### 服务器管理
+# 服务器管理
 [Login - DediPath](https://portal.dedipath.com/clientarea.php?action=productdetails&id=62859)
 
 Hostname: linux.690b8f.com
 ip: 92.118.229.241
 
-### x-ui 管理
+# x-ui 管理
 http://92.118.229.241:54321/xui/inbounds
 - caoshangfei
 - 123456
 
 
 
-### VPS 加速
+# VPS 加速
 [Vultr速度慢？Vultr一键开启BBR、BBRplus、魔改版BBR、锐速加速教程 - Vultr优惠网](https://www.vultryhw.cn/how-to-speed-up-vultr-vps/)
 
 
 
-### 域名及 dns 解析
+# 域名及 dns 解析
 
 域名：   caoshangfei.online
 DNS 服务器：
@@ -122,10 +122,3 @@ xWiqGf0gbOwswIPzsGclROO5
 
 
 ```
-
-
-
-
-
-
-
