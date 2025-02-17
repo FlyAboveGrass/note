@@ -1,23 +1,23 @@
-### let和const
+# let和const
 
-#### let
+## let
 
 - 不存在变量提升
 - 暂时性死区： let 声明的变量就“绑定”（binding）这个区域，不再受外部的影响。（即使外面也有定义，里面已已经定义的话就不可以再访问外界的同名变量了）
 - 不允许重复声明
 
-#### const
+## const
 
 - 定义时必须赋值
-- 基本类型不可修改，对象内的变量值可以改变。 
+- 基本类型不可修改，对象内的变量值可以改变。
   - 使用 Object.freeze（obj）函数可以将对象也锁死，里面值不可以再改变
 
 
 
-### [箭头函数](https://zhuanlan.zhihu.com/p/62482741)
+# [箭头函数](https://zhuanlan.zhihu.com/p/62482741)
 
 - 语法简洁清晰
-- 没有this。 
+- 没有this。
   - 箭头函数的this永远从作用域链的上层继承而来，没有自己的this
   - 不可以使用bind/apply/call 改变this指向
   - 没有arguments。 但是可以访问外部的arguments对象。
@@ -27,7 +27,7 @@
 
 
 
-### [Symbol类型](https://www.jianshu.com/p/e36a558bec34)
+# [Symbol类型](https://www.jianshu.com/p/e36a558bec34)
 
 **特点：**
 
@@ -36,24 +36,23 @@
 
 
 
-#### 用途
+## 用途
 
 1. 属性名
 2. 类的私有属性/方法
 3. 模块化机制
 4. 使用`Symbol`来替代常量
-5. 
 
-#### 常用api
+## 常用api
 
 1. Symbol.for(key) ： key相同的情况下返回同一个symbol值，
 2. Symbol.keyFor ： 找到一个symbol的 key
 
 
 
-### 异步编程
+# 异步编程
 
-异步编程的方法： 
+异步编程的方法：
 
 - 回调函数
 - 事件监听
@@ -64,9 +63,9 @@
 
 
 
-### Promise
+# Promise
 
-#### Promise的不足
+## Promise的不足
 
 1、无法取消`Promise`，一旦新建它就会立即执行，无法中途取消。
 
@@ -74,7 +73,7 @@
 
 3、当处于`Pending`状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）。
 
-#### [中断promise](https://juejin.cn/post/6847902216028848141)
+## [中断promise](https://juejin.cn/post/6847902216028848141)
 
 ```
 // 手动中断
@@ -97,7 +96,7 @@ function timeoutWrapper(p, timeout = 2000) {
 }
 ```
 
-#### promise.all报错也全部返回
+## promise.all报错也全部返回
 
 ```
 function dbFuc(p) {
@@ -106,7 +105,7 @@ function dbFuc(p) {
 }
 ```
 
-#### [手写promise](https://juejin.cn/post/6850037281206566919#heading-3)
+## [手写promise](https://juejin.cn/post/6850037281206566919#heading-3)
 
 ```
 const PENDING = 'pending';
@@ -230,13 +229,13 @@ class PromiseA {
 
 
 
-### [set和map](http://caibaojian.com/es6/set-map.html)
+# [set和map](http://caibaojian.com/es6/set-map.html)
 
-#### Set
+## Set
 
 类似于数组，但是成员的值都是唯一的，没有重复的值。
 
-操作方法： 
+操作方法：
 
 - `add(value)`：添加某个值，返回Set结构本身。
 - `delete(value)`：删除某个值，返回一个布尔值，表示删除是否成功。
@@ -246,16 +245,13 @@ class PromiseA {
 遍历方法
 
 - `keys()`：返回键名的遍历器
-
 - `values()`：返回键值的遍历器
-
 - `entries()`：返回键值对的遍历器
-
 - `forEach()`：使用回调函数遍历每个成员
 
-    
 
-#### Map
+
+## Map
 
 类似于对象，也是键值对的集合，但是“键”的范围不限于字符串，各种类型的值（包括对象）都可以当作键。
 
@@ -263,38 +259,32 @@ class PromiseA {
 
 
 
-#### 弱引用
+## 弱引用
 
-如果没有其他的对WeakSet中对象的引用，那么这些对象会被当成垃圾回收掉。 
+如果没有其他的对WeakSet中对象的引用，那么这些对象会被当成垃圾回收掉。
 
 a 强引用 obj，b 弱引用 obj，那么当 a 不再引用 obj ，obj就会被垃圾回收回收掉，而不顾及b的引用（引用计数法垃圾回收）。
 
-
-
 > 无法预测垃圾回收触发的时机，所以弱引用的属性不能遍历。
 
-
-
-#### WeakSet
+## WeakSet
 
 1. WeakSet的成员只能是对象，而不能是其他类型的值。
 2. WeakSet中的对象都是弱引用，即垃圾回收机制不考虑WeakSet对该对象的引用
 3. 没有size属性，无法遍历
 
->  WeakSet 是弱引用：集合中对象的引用为弱引用。 
+>  WeakSet 是弱引用：集合中对象的引用为弱引用。
 
-
-
-#### WeakMap
+## WeakMap
 
 和map类似。只接受对象作为键名，且键名所指向的对象，不计入垃圾回收机制。
 
 不能包含无引用的对象，否则会被自动清除出集合
 
 
-##### WeakMap的应用：
+### WeakMap的应用：
 
-###### 私有数据
+#### 私有数据
 
 ```
 const privateData = new WeakMap();
@@ -318,7 +308,7 @@ export default Person;
 
 
 
-###### 缓存
+#### 缓存
 
 缓存实际上是给数据一个快速访问的方式，当数据销毁，我们就不必再保存这个数据的缓存信息了，应当将它去除从而给其他数据提供位置。weakMap 可以让我们不用手动的去控制缓存的删除。
 
@@ -338,7 +328,7 @@ function countOwnKeys(obj) {
 
 
 
-###### 保持数据
+#### 保持数据
 
 这也是我后面看 vue3 源码的时候看到的，用 WeakMap来保持对data中的数据的劫持，当实例销毁，data 消失，那么对应的数据劫持也就失效了。
 
@@ -362,4 +352,3 @@ function createReactiveObject(
   return proxy
 }
 ```
-
