@@ -103,23 +103,13 @@
 
 },
 
-"cursor.cpp.disabledLanguages": [
-
-"plaintext",
-
-"markdown",
-
-"scminput"
-
-],
+"cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
 
 "cursor.cpp.enablePartialAccepts": true,
 
 "debug.console.fontSize": 13,
 
 "debug.onTaskErrors": "debugAnyway",
-
-"diffEditor.hideUnchangedRegions.enabled": true,
 
 "diffEditor.ignoreTrimWhitespace": false,
 
@@ -165,11 +155,7 @@
 
 //每120行就显示一条线
 
-"editor.rulers": [
-
-120
-
-],
+"editor.rulers": [120],
 
 "editor.smoothScrolling": true,
 
@@ -299,25 +285,11 @@
 
 "git.enableSmartCommit": true,
 
-"gitMergeBranchTo.branches": [
-
-"develop",
-
-"uat"
-
-],
+"gitMergeBranchTo.branches": ["develop", "uat"],
 
 "gitMergeBranchTo.deployConfig": {
 
-"projectList": [
-
-"monkey-cms-web-new",
-
-"monkey-saas-enterprise-web",
-
-"monkey-saas-web"
-
-],
+"projectList": ["monkey-cms-web-new", "monkey-saas-enterprise-web", "monkey-saas-web"],
 
 "urlConfig": [
 
@@ -513,23 +485,9 @@
 
 "prettier.printWidth": 120,
 
-"projectManager.git.baseFolders": [
+"projectManager.git.baseFolders": ["/Users/yangjiajian/Work/workspace/"],
 
-"/Users/yangjiajian/Work/workspace/"
-
-],
-
-"projectManager.tags": [
-
-"Work",
-
-"Dependencies",
-
-"OldRepo",
-
-"selfRepo"
-
-],
+"projectManager.tags": ["Work", "Dependencies", "OldRepo", "selfRepo"],
 
 // 在使用搜索功能时，将这些文件夹/文件排除在外
 
@@ -545,29 +503,9 @@
 
 },
 
-"stylelint.snippet": [
+"stylelint.snippet": ["css", "less", "postcss", "vue"],
 
-"css",
-
-"less",
-
-"postcss",
-
-"vue"
-
-],
-
-"stylelint.validate": [
-
-"css",
-
-"less",
-
-"postcss",
-
-"vue"
-
-],
+"stylelint.validate": ["css", "less", "postcss", "vue"],
 
 "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
 
@@ -577,7 +515,9 @@
 
 "FIG_NEW_SESSION": "1",
 
-"PATH": "/Users/yangjiajian/.volta/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:$PATH"
+"VOLTA_HOME": "${env:HOME}/.volta",
+
+"PATH": "${env:HOME}/.volta/bin:${env:PATH}"
 
 },
 
@@ -587,11 +527,7 @@
 
 "bash": {
 
-"args": [
-
-"-l"
-
-],
+"args": ["-l"],
 
 "icon": "terminal-bash",
 
@@ -601,11 +537,7 @@
 
 "fish": {
 
-"args": [
-
-"-l"
-
-],
+"args": ["-l"],
 
 "path": "fish"
 
@@ -629,11 +561,7 @@
 
 "zsh": {
 
-"args": [
-
-"-l"
-
-],
+"args": ["-l"],
 
 "path": "zsh"
 
@@ -681,7 +609,7 @@
 
 "workbench.activityBar.orientation": "vertical",
 
-"workbench.colorTheme": "One Dark Pro",
+"workbench.colorTheme": "Visual Studio Dark",
 
 "workbench.editor.decorations.colors": false,
 
@@ -697,7 +625,17 @@
 
 "workbench.tree.enableStickyScroll": true,
 
-"workbench.tree.renderIndentGuides": "always"
+"workbench.tree.renderIndentGuides": "always",
+
+"diffEditor.experimental.showEmptyDecorations": false,
+
+"files.autoSave": "onFocusChange",
+
+"gitlens.advanced.messages": {
+
+"suppressCreatePullRequestPrompt": true
+
+}
 
 }
 ```
