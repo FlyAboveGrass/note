@@ -29,8 +29,6 @@ Vue3 对于不同的元素，会添加不同的静态标记。对于静态的不
 2. **跟踪更改它的函数**：我们在 Proxy 中的 getter 中执行此操作，称为 effect
 3. **触发函数以便它可以更新最终值**：我们在 Proxy 中的 setter 中进行该操作，名为 trigger
 
-
-
 # 响应性基础
 
 ## Composition API（组合API）
@@ -102,8 +100,6 @@ original.count++ // 在copy上转换original 会触发侦听器依赖 ，正常�
 copy.count++ // 转换copy 将导失败并导致警告 ， 无法修改，会报错
 ```
 
-
-
 # shallow（浅）
 
  **Vue提供的一种非递归监听的方案**
@@ -122,13 +118,11 @@ ref在对对象转换reactive化的过程中，会判断是否是shallow 的，�
 
 类似于shallowRef, 改变对象的值的时候直接给属性赋值。
 
-## 注意：
+## 注意
 
 Vue没有给reactive提供手动触发视图更新的方法，没有triggerReactive。shallowRef是特殊的
 
 shallowReactive， 就像ref是特殊的reactive一样
-
-
 
 # Raw
 
@@ -139,8 +133,6 @@ reactive的toRaw： 是一个用来优化资源加载的方案，可以重新获
 ref 的 toRaw： 如果要获取ref的源数据，要明确的告诉toRaw要获取的是 .value 的值 toRaw（xx.value）。直接获取只会返回自身（ref 的本质是 reative（{ value ： obj}））。ref中的  .value 保存的才是当初传入的原始数据。
 
 markRaw : 标识一个**对象**永远不被跟踪。再对它进行reactive的时候即使数据更新，也不会再更新视图了。
-
-
 
 # 响应式计算和侦听计算值
 
@@ -157,8 +149,6 @@ const plusOne = computed({
     }
 })
 ```
-
-
 
 ## [watchEffect](https://vue3js.cn/docs/zh/guide/reactivity-computed-watchers.html#watcheffect)
 
@@ -240,8 +230,6 @@ directives: {
 }
 ```
 
-
-
 ### 动态指令参数
 
 ```
@@ -279,8 +267,6 @@ Teleport 提供了一种干净的方法，允许控制在哪一个父节点下�
 如果teleport包含Vue组件，那个Vue组件是 `<teleport> `父组件的逻辑子组件。
 
 如果在同一个目标上使用多个teleport，那么多个teleport的内容会按顺序挂载到同一个目标元素中。
-
-
 
 ## [Suspense](https://juejin.cn/post/6854573214547312654)
 

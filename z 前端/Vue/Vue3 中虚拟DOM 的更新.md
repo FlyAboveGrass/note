@@ -27,7 +27,6 @@ vue3也是这样做的，甚至都可以抛弃虚拟DOM。
 - 执行render函数阶段会找出所有被标记的动态节点，将其塞到`block`节点的`dynamicChildren`属性数组中。
 - 更新视图阶段会从block节点的`dynamicChildren`属性数组中拿到所有的动态节点，然后遍历这个数组将里面的动态节点进行靶向更新。
 
-
 # 一个简单的demo
 
 还是同样的套路，我们通过debug一个demo，来搞清楚vue3是如何找出动态节点以及响应式变量修改后如何靶向更新的，demo代码如下：
@@ -68,6 +67,7 @@ p标签绑定了响应式变量`msg`，点击button按钮时会将`msg`变量的
 比如v-for标签就是由`transformFor`转换函数处理的，而将节点标记为动态节点就是在`transformElement`转换函数中处理的。
 
 首先我们需要启动一个 `debug` 终端，才可以在node端打断点。这里以vscode举例，首先我们需要打开终端，然后点击终端中的 `+` 号旁边的下拉箭头，在下拉中点击 `Javascript Debug Terminal` 就可以启动一个 `debug` 终端。![[Pasted image 20250210151035.png]] 然后给 `transformElement` 函数打个断点，`transformElement` 函数在**node_modules/@vue/compiler-core/dist/compiler-core. cjs.js**文件中。![[Pasted image 20250210151052.png]]
+
 ## `transformElement`转换函数
 
 接着在`debug`终端中执行`yarn dev`（这里是以`vite`举例）。在浏览器中访问 http://localhost:5173/，此时断点就会走到`transformElement`函数中了。我们看到`transformElement`函数中的代码是下面这样的：
@@ -186,6 +186,7 @@ if (patchFlag !== 0) {  vnodePatchFlag = String(patchFlag)}
 
 这段代码很简单，如果 `patchFlag !== 0` 表示当前节点是动态节点。然后将 `patchFlag` 转换为字符串赋值给 `vnodePatchFlag` 变量，在dev环境中 `vnodePatchFlag` 字符串中还包含节点是哪种动态类型的信息。如下图：
 ![[Pasted image 20250210151259.png]]
+
 ### 第三部分
 
 我们接着将断点走到第三部分，这一块也很简单。将`createVNodeCall`方法的返回值赋值给`codegenNode`属性，`codegenNode`属性中存的就是节点经过`transform`转换函数处理后的信息。
@@ -265,7 +266,6 @@ export default _sfc_main;
 - `openBlock`函数
 - `createElementVNode`函数
 - `createElementBlock`函数
-
 
 ## openBlock函数
 
