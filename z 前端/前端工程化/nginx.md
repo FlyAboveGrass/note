@@ -1,8 +1,4 @@
-
-
-## 什么是 nginx
-
-
+# 什么是 nginx
 
 **什么是nginx**
 
@@ -18,11 +14,9 @@ nginx是一个高性能的反向代理服务器。
 - 负载均衡
 - 静态资源服务器
 
+# 正向代理和反向代理
 
-
-## 正向代理和反向代理
-
-### 正向代理
+## 正向代理
 
 **正向代理**，意思是一个位于客户端和原始服务器(origin server)之间的服务器，为了从原始服务器取得内容，客户端向代理发送一个请求并指定目标(原始服务器)，然后代理向原始服务器转交请求并将获得的内容返回给客户端。
 
@@ -32,19 +26,16 @@ nginx是一个高性能的反向代理服务器。
 
 ![image-20220316153610544](正向代理.png)
 
-### 反向代理
+## 反向代理
 
 **反向代理**（Reverse Proxy）方式是指以代理服务器来接受internet上的连接请求，然后将请求转发给内部网络上的服务器，并将从服务器上得到的结果返回给internet上请求连接的客户端，此时代理服务器对外就表现为一个反向代理服务器。
 
 **反向代理**是为服务端服务的，反向代理可以帮助服务器接收来自客户端的请求，帮助服务器做请求转发，负载均衡等。
 
 **反向代理**对服务端是透明的，对我们是非透明的，即我们并不知道自己访问的是代理服务器，而服务器知道反向代理在为他服务。
+ ![image-20220316153828592](反向代理.png)
 
-## ![image-20220316153828592](反向代理.png)
-
-
-
-## 基本配置
+# 基本配置
 
 - `main`:nginx的全局配置，对全局生效。
 - `events`:配置影响nginx服务器或与用户的网络连接。
@@ -100,9 +91,7 @@ http
 | `$server_name`     | 服务器名称                                                   |
 | `$server_port`     | 服务器的端口号                                               |
 
-
-
-## nginx 跨域
+# nginx 跨域
 
 例如：
 
@@ -125,9 +114,7 @@ server {
 
 这样可以完美绕过浏览器的同源策略：`fe.server.com`访问`nginx`的`fe.server.com` 属于同源访问，而`nginx`对服务端转发的请求不会触发浏览器的同源策略。
 
-
-
-## 请求过滤
+# 请求过滤
 
 根据状态码过滤
 
@@ -155,9 +142,7 @@ if ( $request_method !~ ^(GET|POST|HEAD)$ ) {
     }
 ```
 
-
-
-## 配置 gzip 
+# 配置 gzip
 
 `GZIP`是规定的三种标准HTTP压缩格式之一。目前绝大多数的网站都在使用`GZIP`传输 `HTML`、`CSS`、`JavaScript` 等资源文件。
 
@@ -171,15 +156,13 @@ if ( $request_method !~ ^(GET|POST|HEAD)$ ) {
     gzip_types text/csv text/xml text/css text/plain text/javascript application/javascript application/x-javascript application/json application/xml;
 ```
 
-
-
-#### gzip
+## gzip
 
 - 开启或者关闭`gzip`模块
 - 默认值为`off`
 - 可配置为`on / off`
 
-#### gzip_http_version
+## gzip_http_version
 
 - 启用 `GZip` 所需的`HTTP` 最低版本
 - 默认值为`HTTP/1.1`
@@ -202,26 +185,24 @@ if ( $request_method !~ ^(GET|POST|HEAD)$ ) {
 
 所以，在`HTTP1.0`中如果利用`Nginx`启用了`GZip`，是无法获得`Content-Length`的，这导致HTTP1.0中开启持久链接和使用`GZip`只能二选一，所以在这里`gzip_http_version`默认设置为`1.1`。
 
-#### gzip_comp_level
+## gzip_comp_level
 
 - 压缩级别，级别越高压缩率越大，当然压缩时间也就越长（传输快但比较消耗cpu）。
 - 默认值为 `1`
 - 压缩级别取值为`1-9`
 
-#### gzip_min_length
+## gzip_min_length
 
 - 设置允许压缩的页面最小字节数，`Content-Length`小于该值的请求将不会被压缩
 - 默认值:`0`
 - 当设置的值较小时，压缩后的长度可能比原文件大，建议设置`1000`以上
 
-#### gzip_types
+## gzip_types
 
 - 要采用gzip压缩的文件类型(`MIME`类型)
 - 默认值:`text/html`(默认不压缩`js`/`css`)
 
-
-
-## 请求限制
+# 请求限制
 
 对于大流量恶意的访问，会造成带宽的浪费，给服务器增加压力。往往对于同一 IP 的连接数以及并发数进行限制。
 
@@ -230,18 +211,18 @@ if ( $request_method !~ ^(GET|POST|HEAD)$ ) {
 - limit_conn_module 连接频率限制
 - limit_req_module 请求频率限制
 
-## 访问控制
+# 访问控制
 
 关于访问控制主要有两种类型：
 
 - -http_access_module 基于 IP 的访问控制
 - -http_auth_basic_module 基于用户的信任登陆
 
-## 防盗链
+# 防盗链
 
 防盗链的原理就是根据请求头中 referer 得到网页来源，从而实现访问控制。这样可以防止网站资源被非法盗用，从而保证信息安全，减少带宽损耗，减轻服务器压力。
 
-## 负载均衡
+# 负载均衡
 
 Upstream指定后端服务器地址列表
 
@@ -267,11 +248,7 @@ upstream balanceServer {
 
 上面的配置只是指定了nginx需要转发的服务端列表，并没有指定分配策略。
 
-
-
-### nginx实现负载均衡的策略
-
-
+## nginx实现负载均衡的策略
 
 **轮询策略**
 
@@ -328,9 +305,7 @@ upstream balanceServer {
 }
 ```
 
-
-
-## 静态资源服务器
+# 静态资源服务器
 
 ```text
 location ~* \.(png|gif|jpg|jpeg)$ {
@@ -343,37 +318,4 @@ location ~* \.(png|gif|jpg|jpeg)$ {
 
 匹配以`png|gif|jpg|jpeg`为结尾的请求，并将请求转发到本地路径，`root`中指定的路径即nginx本地路径。同时也可以进行一些缓存的设置。
 
-
-
-
-
-
-
 > 参考链接：[前端开发者必备的nginx知识 | ConardLi的blog](http://www.conardli.top/blog/article/前端工程化/前端开发者必备的nginx知识.html#配置gzip)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
