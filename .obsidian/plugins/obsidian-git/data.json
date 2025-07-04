@@ -1,5 +1,7 @@
 {
   "commitMessage": "笔记更新: {{date}}",
+  "autoCommitMessage": "笔记更新: {{date}}",
+  "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
   "autoPushInterval": 20,
@@ -8,6 +10,7 @@
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
+  "showErrorNotices": true,
   "disablePopupsForNoChanges": false,
   "listChangedFilesInMessageBody": true,
   "showStatusBar": true,
@@ -29,6 +32,7 @@
   "showFileMenu": true,
   "authorInHistoryView": "hide",
   "dateInHistoryView": false,
+  "diffStyle": "split",
   "lineAuthor": {
     "show": false,
     "followMovement": "inactive",
@@ -53,6 +57,5 @@
     "gutterSpacingFallbackLength": 5,
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
-  },
-  "autoCommitMessage": "笔记更新: {{date}}"
+  }
 }

@@ -21,5 +21,5 @@
   "nativeMenus": true,
   "showViewHeader": true,
   "textFontFamily": "Ayuthaya",
-  "showRibbon": false
+  "showRibbon": true
 }

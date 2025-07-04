@@ -39,7 +39,8 @@
     "iconIdentifier": ":",
     "debugMode": false,
     "iconInTitlePosition": "above",
-    "lucideIconPackType": "native"
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
   },
   "计算机": "🖥",
   "经济学": "💸",
