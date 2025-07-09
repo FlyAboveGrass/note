@@ -109,3 +109,66 @@ beforeEach(() => resetState()); // 每个测试前执行[5](@ref)
     定制测试环境（如 `testEnvironment: 'jsdom'` 模拟浏览器环境）
 
     。
+
+
+在这个 tests/dependencies.test.tsx 文件中，主要用到了以下 jest 的 API：
+
+1. describe
+
+- 作用：用于对一组相关的测试用例进行分组。这样可以让测试输出更有层次感，便于阅读和维护。
+- 用法示例：
+
+describe('Form.Dependencies', () => { … })
+
+- 解释：这里把所有和“表单依赖”相关的测试都放在一个 describe 里，输出时会有分组标题。
+
+1. it / test
+
+- 作用：定义一个具体的测试用例。it 和 test 是等价的，都是 jest 提供的 API。
+- 用法示例：
+
+it('touched', async () => { … })
+
+test('form level', { initialValues: { field_2: 'bamboo' } });
+
+- 解释：每个 it 或 test 代表一个独立的测试场景。可以用来描述行为或功能点。
+
+1. expect
+
+- 作用：断言。用于判断某个值是否符合预期。expect 返回一个断言对象，可以链式调用各种匹配器（如 toBe、toEqual、toBeTruthy 等）。
+- 用法示例：
+
+expect(validated).toBeTruthy();
+
+expect(spy).toHaveBeenCalledTimes(1);
+
+- 解释：比如 expect(validated).toBeTruthy() 判断 validated 是否为真，expect(spy).toHaveBeenCalledTimes(1) 判断 spy 这个 mock 函数是否被调用了一次。
+
+1. jest.fn()
+
+- 作用：创建一个 mock 函数（模拟函数）。可以用来追踪函数的调用情况，比如调用次数、参数等。
+- 用法示例：
+
+const spy = jest.fn();
+
+- 解释：在测试中经常用来代替真实函数，便于断言和监控。
+
+1. expect(…).toHaveBeenCalledTimes(n)
+
+- 作用：断言 mock 函数被调用的次数。
+- 用法示例：
+
+expect(spy).toHaveBeenCalledTimes(2);
+
+- 解释：比如 expect(spy).toHaveBeenCalledTimes(2) 就是判断 spy 这个 mock 函数是否被调用了两次。
+
+1. expect(…).toBeTruthy() / toBeFalsy() / toEqual() / toBe() / toHaveLength()
+
+- 作用：这些都是 jest 的断言方法，用于判断值的真假、相等、长度等。
+- 用法示例：
+
+expect(validated).toBeTruthy();
+
+expect(container.querySelectorAll('input')).toHaveLength(2);
+
+- 解释：这些方法可以灵活地断言各种类型的结果。
