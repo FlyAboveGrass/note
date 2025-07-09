@@ -41,15 +41,15 @@
 
 Jest 使用 `expect(value).matcher(expected)` 结构：
 
-|​**匹配器**​|​**用途**​|​**示例**​|
-|---|---|---|
-|`toBe(value)`|严格相等（`===`）|`expect(sum(1,2)).toBe(3)`|
-|`toEqual(object)`|深度递归对象比较|`expect(obj).toEqual({id:1})`|
-|`toContain(item)`|检查数组/字符串包含|`expect(['a','b']).toContain('a')`|
-|`toMatch(regex)`|正则匹配字符串|`expect('hello').toMatch(/ll/)`|
-|`toThrow(error?)`|验证函数抛出异常|`expect(() => fn()).toThrow('Error')`|
-|`resolves`/`rejects`|处理异步 Promise 结果|`await expect(fetchData()).resolves.toBe(data)`|
-|`toHaveBeenCalled()`|验证 Mock 函数被调用（需搭配 `jest.fn()`）|`expect(mockFn).toHaveBeenCalled()`|
+| ​**匹配器**​            | ​**用途**​                       | ​**示例**​                                        |
+| -------------------- | ------------------------------ | ----------------------------------------------- |
+| `toBe(value)`        | 严格相等（`===`）                    | `expect(sum(1,2)).toBe(3)`                      |
+| `toEqual(object)`    | 深度递归对象比较                       | `expect(obj).toEqual({id:1})`                   |
+| `toContain(item)`    | 检查数组/字符串包含                     | `expect(['a','b']).toContain('a')`              |
+| `toMatch(regex)`     | 正则匹配字符串                        | `expect('hello').toMatch(/ll/)`                 |
+| `toThrow(error?)`    | 验证函数抛出异常                       | `expect(() => fn()).toThrow('Error')`           |
+| `resolves`/`rejects` | 处理异步 Promise 结果                | `await expect(fetchData()).resolves.toBe(data)` |
+| `toHaveBeenCalled()` | 验证 Mock 函数被调用（需搭配 `jest.fn()`） | `expect(mockFn).toHaveBeenCalled()`             |
 
 > 💡 更多匹配器：浮点数比较（`toBeCloseTo(0.3)`）、长度检查（`toHaveLength(3)`）等
 >
