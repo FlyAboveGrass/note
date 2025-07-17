@@ -25,7 +25,6 @@ const Component = () => {
 };
 ```
 
-
 # 防止不必要的重复计算
 
 如 [React 文档]( https://link.juejin.cn/?target=https%3A%2F%2Fzh-hans.reactjs.org%2Fdocs%2Fhooks-reference.html%23usememo " https://zh-hans.reactjs.org/docs/hooks-reference.html#usememo" )所说，useMemo 的基本作用是，避免在每次渲染时都进行高开销的计算。
@@ -33,7 +32,6 @@ const Component = () => {
 但大部分情况下，组件渲染才是性能的瓶颈，应该把 useMemo 用在程序里渲染昂贵的组件上，而不是数值计算上。当然，除非这个计算真的很昂贵，比如阶乘计算。
 
 至于为什么不给所有的组件都使用 useMemo，那是因为useMemo 是有成本的，它会增加整体程序初始化的耗时，并不适合全局全面使用，它更适合做局部的优化。
-
 
 # 防止不必要的 re-render
 
@@ -74,7 +72,6 @@ const App = () => {
 ```
 
 当使用 setState 改变 state 时，App 会 re-render，作为子组件的 Page 也会跟着 re-render。这里 useCallback 是完全无效的，它并不能阻止 Page 的 re-render。
-
 
 ## 2. 如何防止子组件 re-render
 
