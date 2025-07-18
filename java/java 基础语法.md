@@ -1430,3 +1430,103 @@ num = 20; // 如果取消注释，会导致编译错误
 2. ​**函数式编程**​：支持将行为作为参数传递
 3. ​**并行处理**​：更容易实现并行操作
 4. ​**可读性强**​：表达意图更明确
+
+### 默认方法
+
+默认方法就是接口可以有实现方法，而且不需要实现类去实现其方法。
+
+### Stream 类
+
+以让你以一种声明的方式处理数据。
+这种风格将要处理的元素集合看作一种流， 流在管道中传输， 并且可以在管道的节点上进行处理， 比如筛选， 排序，聚合等。
+
+元素流在管道中经过中间操作（intermediate operation）的处理，最后由最终操作(terminal operation)得到前面处理的结果。
+
+```
+List<Integer> transactionsIds = 
+widgets.stream()
+             .filter(b -> b.getColor() == RED)
+             .sorted((x,y) -> x.getWeight() - y.getWeight())
+             .mapToInt(Widget::getWeight)
+             .sum();
+
+```
+
+Stream操作还有两个基础的特征：
+- **Pipelining**: 中间操作都会返回流对象本身。 这样多个操作可以串联成一个管道， 如同流式风格（fluent style）。 这样做可以对操作进行优化， 比如延迟执行(laziness)和短路( short-circuiting)。
+- **内部迭代**： 以前对集合遍历都是通过Iterator或者For-Each的方式, 显式的在集合外部进行迭代， 这叫做外部迭代。 Stream提供了内部迭代的方式， 通过访问者模式(Visitor)实现。
+
+### Date Time API
+
+在旧版的 Java 中，日期时间 API 存在诸多问题，其中有：
+
+- **非线程安全** − java.util.Date 是非线程安全的，所有的日期类都是可变的，这是Java日期类最大的问题之一。
+- **设计很差** − Java的日期/时间类的定义并不一致，在java.util和java.sql的包中都有日期类，此外用于格式化和解析的类在java.text包中定义。java.util.Date同时包含日期和时间，而java.sql.Date仅包含日期，将其纳入java.sql包并不合理。另外这两个类都有相同的名字，这本身就是一个非常糟糕的设计
+- **时区处理麻烦** − 日期类并不提供国际化，没有时区支持，因此Java引入了java.util.Calendar和java.util.TimeZone类，但他们同样存在上述所有的问题。
+
+```
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.LocalDateTime;
+import java.time.Month;
+ 
+ 
+// LocalDate/LocalTime 和 LocalDateTime 类可以在处理时区不是必须的情况。
+public class Java8Tester {
+   public static void main(String args[]){
+      Java8Tester java8tester = new Java8Tester();
+      java8tester.testLocalDateTime();
+   }
+    
+   public void testLocalDateTime(){
+    
+      // 获取当前的日期时间
+      LocalDateTime currentTime = LocalDateTime.now();
+      System.out.println("当前时间: " + currentTime);
+        
+      LocalDate date1 = currentTime.toLocalDate();
+      System.out.println("date1: " + date1);
+        
+      Month month = currentTime.getMonth();
+      int day = currentTime.getDayOfMonth();
+      int seconds = currentTime.getSecond();
+        
+      System.out.println("月: " + month +", 日: " + day +", 秒: " + seconds);
+        
+      LocalDateTime date2 = currentTime.withDayOfMonth(10).withYear(2012);
+      System.out.println("date2: " + date2);
+        
+      // 12 december 2014
+      LocalDate date3 = LocalDate.of(2014, Month.DECEMBER, 12);
+      System.out.println("date3: " + date3);
+        
+      // 22 小时 15 分钟
+      LocalTime date4 = LocalTime.of(22, 15);
+      System.out.println("date4: " + date4);
+        
+      // 解析字符串
+      LocalTime date5 = LocalTime.parse("20:15:30");
+      System.out.println("date5: " + date5);
+   }
+}
+```
+
+### Optional 类
+
+Optional 是个容器：它可以保存类型T的值，或者仅仅保存null。Optional提供很多有用的方法，这样我们就不用显式进行空值检测。
+
+Optional 类的引入很好的解决空指针异常。
+
+| 方法                                                     | 描述                                      |
+| ------------------------------------------------------ | --------------------------------------- |
+| `Optional.empty()`                                     | 创建一个空的 Optional 实例                      |
+| `Optional.of(T value)`                                 | 创建一个指定非 null 值的 Optional                |
+| `Optional.ofNullable(T value)`                         | 创建一个可能为 null 的 Optional                 |
+| `isPresent()`                                          | 检查值是否存在                                 |
+| `isEmpty()`                                            | 检查值是否不存在 (Java 11+)                     |
+| `get()`                                                | 获取值，如果值为 null 抛出 NoSuchElementException |
+| `ifPresent(Consumer<? super T> consumer)`              | 如果值存在，执行给定的消费者操作                        |
+| `orElse(T other)`                                      | 如果值存在则返回，否则返回指定的默认值                     |
+| `orElseGet(Supplier<? extends T> supplier)`            | 如果值存在则返回，否则返回由 Supplier 提供的值            |
+| `orElseThrow()`                                        | 如果值存在则返回，否则抛出 NoSuchElementException    |
+| `orElseThrow(Supplier<? extends X> exceptionSupplier)` | 如果值存在则返回，否则抛出由 Supplier 提供的异常           |
