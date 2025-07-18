@@ -1,21 +1,19 @@
-
-
 > 课程来自：[https://www.bilibili.com/video/BV12J411M7Sj?spm_id_from=333.999.0.0&vd_source=345a382f2c86d3441cc342a80fc25545](https://www.bilibili.com/video/BV12J411M7Sj?spm_id_from=333.999.0.0&vd_source=345a382f2c86d3441cc342a80fc25545)
 
-## 前言
+# 前言
 
-提示：这里可以添加本文要记录的大概内容：  
+提示：这里可以添加本文要记录的大概内容：
 例如：随着人工智能的不断发展，机器学习这门技术也越来越重要，很多人都开启了学习机器学习，本文就介绍了机器学习的基础内容。
 
-## 1.基本概念 
+# 1.基本概念
 
-### 1.1 基本概念
+## 1.1 基本概念
 
 1.  静态web：html，css（提供给所有人看的数据，始终不会发生变化）
-2.  动态web：Servlet/JSP，ASP，PHP，淘宝等几乎所有的网站  
+2.  动态web：Servlet/JSP，ASP，PHP，淘宝等几乎所有的网站
     （提供给所有人看的数据，始终会发生变化，每个人在不同时间，不同地方看到的都不同）
 
-### 1.2 web应用程序
+## 1.2 web应用程序
 
 web应用程序：可以提供浏览器访问的程序
 
@@ -25,72 +23,72 @@ web应用程序：可以提供浏览器访问的程序
 -   这个统一的web资源会被放在同一个文件夹下，web应用程序—>Tomcat：服务器。
 -   web应用程序编写完毕后，若想提供给外界访问：需要一个服务器来统一管理。
 
-### 1.3 静态web
+## 1.3 静态web
 
-_.htm，_.html，这些都是网页的后缀，如果服务器上一直存在这些东西，我们就可以直接进行读取。  
+_.htm，_.html，这些都是网页的后缀，如果服务器上一直存在这些东西，我们就可以直接进行读取。
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/06/kuangstudy6ab7a752-fa17-431e-be07-163b8865e4b1.jpg)
 
-### 1.4 动态web
+## 1.4 动态web
 
-页面会动态展示：Web的页面展示的效果因人而异。  
+页面会动态展示：Web的页面展示的效果因人而异。
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/06/kuangstudy5f53e972-3ea0-4539-b0de-27be95784eda.jpg)
 
-## 2.web服务器
+# 2.web服务器
 
-服务器是一种被动的操作，用来处理用户的一些请求和给用户一些响应信息。  
-IIS:  
+服务器是一种被动的操作，用来处理用户的一些请求和给用户一些响应信息。
+IIS:
 微软的服务器
 
-tomcat:  
-Tomcat是Apache软件基金会（Apache Software Foundation）的Jakarta 项目中的一个核心项目，由Apache、Sun和其他一些公司及个人共同开发而成。由于有了Sun 的参与和支持，最新的Servlet 和JSP规范总是能在Tomcat 中得到体现，Tomcat 5支持最新的Servlet 2.4和JSP2.0规范。  
-Tomcat服务器是一个免费的开放源代码的Web应用服务器，属于轻量级应用服务器，在中小型系统和并发访问用户不是很多的场合下被普遍使用，是开发和调试JSP程序的首选。  
+tomcat:
+Tomcat是Apache软件基金会（Apache Software Foundation）的Jakarta 项目中的一个核心项目，由Apache、Sun和其他一些公司及个人共同开发而成。由于有了Sun 的参与和支持，最新的Servlet 和JSP规范总是能在Tomcat 中得到体现，Tomcat 5支持最新的Servlet 2.4和JSP2.0规范。
+Tomcat服务器是一个免费的开放源代码的Web应用服务器，属于轻量级应用服务器，在中小型系统和并发访问用户不是很多的场合下被普遍使用，是开发和调试JSP程序的首选。
 对于一个初学者来说，可以这样认为，当在一台机器上配置好Apache服务器，可利用它响应HTML（标准通用标记语言下的一个应用）页面的访问请求。实际上Tomcat是Apache服务器的扩展，但运行时它是独立运行的，所以当你运行tomcat时，它实际上作为一个与Apache 独立的进程单独运行的。
 
-## 3.tomcat详解
+# 3.tomcat详解
 
-### 3.1 安装
+## 3.1 安装
 
-### 3.2 启动
+## 3.2 启动
 
-### 3.3 配置
+## 3.3 配置
 
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/06/kuangstudy48420cfc-3029-4923-8ad7-ed9ad217a000.jpg)
 
-`高难度面试题`  
+`高难度面试题`
 请你谈谈网站是如何访问的？
 
 1.  输入一个域名，回车
-2.  检查本机的C:Windows\System32\drivers\etc\hosts配置文件下有没有这个域名映射  
+2.  检查本机的C:Windows\System32\drivers\etc\hosts配置文件下有没有这个域名映射
     有：直接返回对应的ip地址，这个地址中，有我们需要访问的web程序，可以直接访问。
-    
-    没有：去DNS服务器找，找到的话就返回，找不到就返回找不到。  
-    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/06/kuangstudy6de04f31-84b6-43c1-8d81-ed0665f49ae5.jpg)
-    
 
-### 3.4 发布一个网站
+    没有：去DNS服务器找，找到的话就返回，找不到就返回找不到。
+    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/06/kuangstudy6de04f31-84b6-43c1-8d81-ed0665f49ae5.jpg)
+
+
+## 3.4 发布一个网站
 
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/06/kuangstudyc157c9e0-2313-486e-b0ab-aef80e710d2d.jpg)
 
-## 4.Http
+# 4.Http
 
-### 4.1 什么是http
+## 4.1 什么是http
 
 HTTP（超文本传输协议）是一个简单的请求-响应协议，它通常运行在TCP之上。
 
 -   文本：html，字符串…
 -   超文本：图片，音乐，视频，定位，地图…
--   默认端口：80  
+-   默认端口：80
     HTTPS：安全的协议
 -   默认端口：443
 
-### 4.2 http的两个时代
+## 4.2 http的两个时代
 
 -   http1.0：客户端可以与web服务器连接后，只能获得一个web资源，断开连接。
 -   http2.0：客户端可以与web服务器连接后，可以获得多个web资源。
 
-### 4.3 http请求
+## 4.3 http请求
 
-客户端—->发请求(request)—->服务器（比如：访问百度）  
+客户端—->发请求(request)—->服务器（比如：访问百度）
 `General`
 
 1.  `// 请求地址`
@@ -112,25 +110,24 @@ HTTP（超文本传输协议）是一个简单的请求-响应协议，它通常
 4.  `Accept-Language: zh-CN,zh;q=0.9`
 5.  `Cache-Control: max-age=0`
 6.  `Connection: keep-alive`
-
 1.  请求行
 
 -   请求行中的请求方式：GET
--   请求方式：Get，Post，HEAD，DELETE，PUT…  
-    GET:请求能够携带的参数比较少，大小有限制，会在浏览器的URL地址栏显示数据内容，不安全，但高效。  
+-   请求方式：Get，Post，HEAD，DELETE，PUT…
+    GET:请求能够携带的参数比较少，大小有限制，会在浏览器的URL地址栏显示数据内容，不安全，但高效。
     POST:请求能够携带的参数没有限制，大小没有限制，不会在浏览器的URL地址栏显示数据内容，安全，但不高效。
 
 1.  请求头（消息头）
-    
+
     1.  `Accept: 告诉浏览器，它所支持的数据类型`
     2.  `Accept-Encoding: 告诉浏览器，它支持哪种编码格式：GBK,UTF-8,GB2312,ISO8859-1`
     3.  `Accept-Language: 告诉浏览器，它的语言环境`
     4.  `Cache-Control: 缓存控制`
     5.  `Connection: 告诉浏览器，请求完成是断开还是保持`
     6.  `HOST：主机`
-    
 
-### 4.4 http响应
+
+## 4.4 http响应
 
 `Response Headers`
 
@@ -142,9 +139,8 @@ HTTP（超文本传输协议）是一个简单的请求-响应协议，它通常
 6.  `Content-Encoding: gzip`
 7.  `// 响应类型`
 8.  `Content-Type: text/html;charset=utf-8`
-
 1.  响应体
-    
+
     1.  `Accept: 告诉浏览器，它所支持的数据类型`
     2.  `Accept-Encoding: 告诉浏览器，它支持哪种编码格式：GBK,UTF-8,GB2312,ISO8859-1`
     3.  `Accept-Language: 告诉浏览器，它的语言环境`
@@ -153,76 +149,76 @@ HTTP（超文本传输协议）是一个简单的请求-响应协议，它通常
     6.  `HOST：主机`
     7.  `Refrush：告诉客户端，多久刷新一次`
     8.  `Location：让网页重新定位`
-    
+
 2.  响应状态码
-    
+
 
 -   200：响应成功
 -   3xx：请求重定向（304等等）
 -   4xx：找不到资源（404等等）
 -   5xx：服务器代码错误（500代码错误，502网关错误）
 
-`常见面试题`  
+`常见面试题`
 当你的浏览器中地址栏输入地址并回车的一瞬间到页面能够展示回来，经历了什么？
 
-## 5.Maven
+# 5.Maven
 
-## 6.Servlet
+# 6.Servlet
 
-### 6.1 servlet简介
+## 6.1 servlet简介
 
 -   Servlet就是sun公司开发动态web的一门技术。
 -   Sun在这些API中提供一个接口叫做：Servlet，如果你想开发一个Servlet程序，只需要完成两个小步骤：
     1.  编写一个类，实现Servlet接口；
-    2.  把开发好的Java类部署到web服务器中。  
+    2.  把开发好的Java类部署到web服务器中。
         把实现了Servlet接口Java程序叫做，Servlet
 
-### 6.2 HelloServlet
+## 6.2 HelloServlet
 
-Serlvet接口Sun公司有两个默认的实现类：HttpServlet，GenericServlet  
+Serlvet接口Sun公司有两个默认的实现类：HttpServlet，GenericServlet
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/07/kuangstudya8b378f6-e3bd-40ba-865c-bd61670f3f51.jpg)
 
 1.  构建一个普通的Maven项目，删掉里面的src目录，以后我们的学习就在这个项目里面建立Moudel；这个空的工程就是Maven主工程；
-2.  关于Maven父子工程的理解：  
+2.  关于Maven父子工程的理解：
     父工程中会有：
-    
+
     1.       `<modules>`
     2.           `<module>servlet-01</module>`
     3.       `</modules>`
-    
+
     子项目中会有：
-    
+
     1.       `<parent>`
     2.           `<groupId>org.example</groupId>`
     3.           `<artifactId>javaweb-servlet</artifactId>`
     4.           `<version>1.0-SNAPSHOT</version>`
     5.       `</parent>`
-    
+
     父项目中的jar包，子项目可以直接使用。反之，不可。
-    
+
 3.  Maven环境优化
-4.  编写一个Servlet程序  
-    1.编写一个普通的类  
+4.  编写一个Servlet程序
+    1.编写一个普通的类
     2.实现Servlet接口，这里我们直接继承HttpServlet类
-    
+
     1.   `public class HelloServlet extends HttpServlet {`
-    
+
     3.       `[@Override](https://github.com/Override "@Override")`
     4.       `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     5.           `System.out.println("hello servlet");`
     6.           `PrintWriter writer = resp.getWriter();`
     7.           `writer.println("Hello Servlet");`
     8.       `}`
-    
+
     10.       `[@Override](https://github.com/Override "@Override")`
     11.       `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     12.           `this.doGet(req,resp);`
     13.       `}`
     14.   `}`
-    
-5.  编写Servlet的映射  
+
+5.  编写Servlet的映射
     为什么需要映射：我们写的是JAVA程序，但是要通过浏览器访问，而浏览器需要连接web服务器，所以我们需要在web服务中注册我们写的Servlet，还需给他一个浏览器能够访问的路径。
-    
+
     1.  `<!--注册servlet-->`
     2.  `<servlet>`
     3.   `<servlet-name>helloservlet</servlet-name>`
@@ -233,30 +229,30 @@ Serlvet接口Sun公司有两个默认的实现类：HttpServlet，GenericServlet
     8.   `<servlet-name>helloservlet</servlet-name>`
     9.   `<url-pattern>/hello</url-pattern>`
     10.  `</servlet-mapping>`
-    
-6.  配置tomcat  
+
+6.  配置tomcat
     注意：配置项目发布路径就可以了
-    
+
 7.  启动测试
 
-### 6.3 Servlet原理
+## 6.3 Servlet原理
 
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/07/kuangstudybf07068f-3fe7-4651-ba6d-88f522085994.jpg)
 
-### 6.4 Mapping问题
+## 6.4 Mapping问题
 
 1.  一个Servlet可以指定一个映射路径
 2.  一个Servlet可以指定多个映射路径
 3.  一个Servlet可以指定通用映射路径
 4.  指定一些后缀或者前缀等等…
 
-### 6.5 ServletContext
+## 6.5 ServletContext
 
 web容器在启动的时候，它会为每个web程序都创建一个对应的ServletContext对象，它代表了当前的web应用。
 
-1.  共享数据：在这个Servlet中保存的数据，可以在另一个Servlet中拿到  
+1.  共享数据：在这个Servlet中保存的数据，可以在另一个Servlet中拿到
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/07/kuangstudy8761b223-9619-4d95-83c3-bc83b21a0658.jpg)
-    
+
     1.  `public class HelloServlet extends HttpServlet {`
     2.   `[@Override](https://github.com/Override "@Override")`
     3.   `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
@@ -306,7 +302,7 @@ web容器在启动的时候，它会为每个web程序都创建一个对应的Se
     24.  `</servlet-mapping>`
     25.  `</web-app>`
 2.  获取初始化参数
-    
+
     1.  `// web.xml文件`
     2.  `<!--配置一些web应用一些初始化参数-->`
     3.  `<context-param>`
@@ -325,7 +321,7 @@ web容器在启动的时候，它会为每个web程序都创建一个对应的Se
     11.   `}`
     12.  `}`
 3.  请求转发
-    
+
     1.  `// web.xml文件`
     2.  `// 请求sd4`
     3.  `<servlet>`
@@ -360,9 +356,9 @@ web容器在启动的时候，它会为每个web程序都创建一个对应的Se
     15.       `this.doGet(req, resp);`
     16.   `}`
     17.  `}`
-4.  读取资源文件  
+4.  读取资源文件
     Properties
-    
+
 
 -   在java目录下新建properties
 -   在resources目录下新建properties发现：都被打包到了同一个路径下：classes，我们俗称这个路径为classpath。
@@ -379,7 +375,6 @@ web容器在启动的时候，它会为每个web程序都创建一个对应的Se
 8.          `String password = properties.getProperty("password");`
 9.          `resp.getWriter().println(username+":"+password);`
 10.      `}`
-
 12.      `@Override`
 13.      `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
 14.          `this.doGet(req, resp);`
@@ -388,7 +383,7 @@ web容器在启动的时候，它会为每个web程序都创建一个对应的Se
 
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/07/kuangstudyf9f97b5a-f7cc-4575-b74d-a3f71cfe1865.jpg)
 
-### 6.5 HttpServletResponse
+## 6.5 HttpServletResponse
 
 web服务器接收到客户端的http请求，针对这个请求，分别创建一个代表请求的HttpServletRequest对象，代表响应的一个HttpServletResponse；|
 
@@ -396,18 +391,18 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
 -   如果要给客户端响应一些信息：找HttpServletResponse
 
 1.  负责向浏览器发送数据的方法
-    
+
     1.  `public ServletOutputStream getOutputStream() throws IOException;`
     2.  `public PrintWriter getWriter() throws IOException;`
-    
+
 2.  响应的状态码
-    
+
     1.  `public static final int SC_CONTINUE = 100;`
     2.   `/**`
     3.    `* Status code (200) indicating the request succeeded normally.`
     4.    `*/`
     5.   `public static final int SC_OK = 200;`
-    
+
     7.   `/**`
     8.    `* Status code (302) indicating that the resource has temporarily`
     9.    `* moved to another location, but that future references should`
@@ -417,7 +412,7 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     13.    `* SC_FOUND is now the preferred definition.`
     14.    `*/`
     15.   `public static final int SC_MOVED_TEMPORARILY = 302;`
-    
+
     17.   `/**`
     18.   `* Status code (302) indicating that the resource reside`
     19.   `* temporarily under a different URI. Since the redirection might`
@@ -426,40 +421,40 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     22.   `* status code (302), it is recommended to use this variable.`
     23.   `*/`
     24.   `public static final int SC_FOUND = 302;`
-    
+
     26.   `/**`
     27.    `* Status code (304) indicating that a conditional GET operation`
     28.    `* found that the resource was available and not modified.`
     29.    `*/`
     30.   `public static final int SC_NOT_MODIFIED = 304;`
-    
+
     32.   `/**`
     33.    `* Status code (404) indicating that the requested resource is not`
     34.    `* available.`
     35.    `*/`
     36.   `public static final int SC_NOT_FOUND = 404;`
-    
+
     38.   `/**`
     39.    `* Status code (500) indicating an error inside the HTTP server`
     40.    `* which prevented it from fulfilling the request.`
     41.    `*/`
     42.   `public static final int SC_INTERNAL_SERVER_ERROR = 500;`
-    
+
     44.   `/**`
     45.    `* Status code (502) indicating that the HTTP server received an`
     46.    `* invalid response from a server it consulted when acting as a`
     47.    `* proxy or gateway.`
     48.    `*/`
     49.   `public static final int SC_BAD_GATEWAY = 502;`
-    
-    51.   `// ...`
-    
+
+    51.   `// …`
+
 
 `常见应用`
 
 1.  向浏览器输出消息
 2.  下载文件
-    
+
     1.  `public class FileServlet extends HttpServlet {`
     2.   `[@Override](https://github.com/Override "@Override")`
     3.   `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
@@ -484,21 +479,21 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     22.       `in.close();`
     23.       `out.close();`
     24.   `}`
-    
+
     26.   `[@Override](https://github.com/Override "@Override")`
     27.   `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     28.       `this.doGet(req, resp);`
     29.   `}`
     30.  `}`
-    
+
 3.  验证码功能
-    
+
     1.  `public class ImageServlet extends HttpServlet {`
     2.   `[@Override](https://github.com/Override "@Override")`
     3.   `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     4.       `// 让浏览器3秒刷新一次`
     5.       `resp.setHeader("refresh", "3");`
-    
+
     7.       `// 在内存中创建一个图片`
     8.       `BufferedImage image = new BufferedImage(80, 20, BufferedImage.TYPE_INT_RGB);// 宽、高、颜色`
     9.       `// 得到图片`
@@ -521,7 +516,7 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     26.       `// 把图片写给浏览器`
     27.       `boolean write = ImageIO.write(image, "jpg",resp.getOutputStream());`
     28.   `}`
-    
+
     30.   `// 生成随机数`
     31.   `private String makeNum() {`
     32.       `Random random = new Random();`
@@ -533,15 +528,15 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     38.       `num = sb.toString()+num;// 不足七位，在随机数前面添加0`
     39.       `return num;`
     40.   `}`
-    
+
     42.   `[@Override](https://github.com/Override "@Override")`
     43.   `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     44.       `this.doGet(req, resp);`
     45.   `}`
     46.  `}`
-    
+
 4.  实现请求重定向
-    
+
     1.  `public class RedirectServlet extends HttpServlet {`
     2.   `[@Override](https://github.com/Override "@Override")`
     3.   `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
@@ -549,23 +544,23 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     5.       `resp.setStatus(HttpServletResponse.SC_NOT_MODIFIED);*/`
     6.       `resp.sendRedirect("/response_war/image");// 重定向相当于上面两行代码`
     7.   `}`
-    
+
     9.   `[@Override](https://github.com/Override "@Override")`
     10.   `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     11.       `this.doGet(req, resp);`
     12.   `}`
     13.  `}`
-    
 
-### 6.5 HttpServletRequest
+
+## 6.5 HttpServletRequest
 
 HttpServletRequest代表客户端的请求，用户通过Http协议访问服务器，HTTP请求中的所有信息会被封装到HttpServletRequest，通过这个HttpServletRequest的方法，获得客户端的所有信息。
 
-1.  获取前端传递的参数  
+1.  获取前端传递的参数
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/09/kuangstudyfbb80cd9-dac2-49f1-aea8-625e2b074aa9.jpg)
-2.  请求转发  
+2.  请求转发
     前端：
-    
+
     1.  `<%@ page contentType="text/html;charset=UTF-8" language="java" %>`
     2.  `<html>`
     3.  `<head>`
@@ -585,21 +580,21 @@ HttpServletRequest代表客户端的请求，用户通过Http协议访问服务�
     17.  `</form>`
     18.  `</body>`
     19.  `</html>`
-    
+
     后端：
-    
+
     1.  `public class LoginServlet extends HttpServlet {`
     2.   `[@Override](https://github.com/Override "@Override")`
     3.   `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     4.       `this.doPost(req, resp);`
     5.   `}`
-    
+
     7.   `[@Override](https://github.com/Override "@Override")`
     8.   `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     9.       `// 处理请求中文乱码（后期可以使用过滤器来解决）`
     10.       `req.setCharacterEncoding("utf-8");`
     11.       `resp.setCharacterEncoding("utf-8");`
-    
+
     13.       `String username = req.getParameter("username");`
     14.       `String password = req.getParameter("password");`
     15.       `String[] hobbys = req.getParameterValues("hobbys");`
@@ -610,23 +605,23 @@ HttpServletRequest代表客户端的请求，用户通过Http协议访问服务�
     20.       `req.getRequestDispatcher("/success.jsp").forward(req,resp);`
     21.   `}`
     22.  `}`
-    
 
-web.xml  
+
+web.xml
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/09/kuangstudy591711cf-1d5c-4ea3-9d80-4001b924f6df.jpg)
 
-`面试题：请你聊聊重定向和转发的区别？`  
-相同点：页面都会实现跳转  
+`面试题：请你聊聊重定向和转发的区别？`
+相同点：页面都会实现跳转
 不同点：
 
 -   请求转发的时候，url地址栏不会产生变化。307
 -   重定向时候，url地址栏会发生变化。302
 
-## 7.cookie/session
+# 7.cookie/session
 
-### 7.1 会话
+## 7.1 会话
 
-无状态的会话：用户打开一个浏览器，点击了很多超链接，访问多个web资源，关闭浏览器，这个过程可以称之为会话。  
+无状态的会话：用户打开一个浏览器，点击了很多超链接，访问多个web资源，关闭浏览器，这个过程可以称之为会话。
 有状态的会话：一个用户打开一个浏览器，访问某些资源（网站），下次再来访问该资源（网站），我们会知道这个用户曾经来过，称之为有状态会话；
 
 `一个网站，怎么证明你来过？`
@@ -634,7 +629,7 @@ web.xml
 1.  服务端给客户端一个信件，客户端下次访问服务端带上信件就可以了；cookie（客户端）
 2.  服务器登记你来过了，下次你来的时候我来匹配你；seesion（服务端）
 
-### 7.2 保存会话的两种技术
+## 7.2 保存会话的两种技术
 
 cookie：
 
@@ -644,22 +639,22 @@ session：
 
 -   服务端技术，利用这个技术，可以保存用户的会话信息？我们可以把信息或者数据放在Session中。
 
-### 7.3 Cookie
+## 7.3 Cookie
 
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/09/kuangstudy436007a6-2fe3-4f8b-a276-ba59867e156f.jpg)
 
 1.  从请求中拿到cookie
 2.  服务器响应给客户端cookie
-    
+
     1.  `Cookie[] cookies = req.getCookies();// 获得cookie`
     2.  `cookie.getName();// 获得cookie中的key`
     3.  `cookie.getValue();// 获得cookie中的value`
     4.  `new Cookie("lastLoginTime",System.currentTimeMills()+"");// 新建一个cookie`
     5.  `cookie.setMaxAge(24*60*60);// 设置cookie的有效期，单位：秒`
     6.  `resp.addCookie(cookie);// 响应给客户端一个cookie`
-    
 
-`cookie：一般会保存在本地的用户目录下appdata`  
+
+`cookie：一般会保存在本地的用户目录下appdata`
 `一个网站cookie是否存在上限！聊聊细节问题`
 
 -   一个Cookie只能保存一个信息；
@@ -687,7 +682,6 @@ session：
 6.          `// 解决中文乱码`
 7.          `req.setCharacterEncoding("utf-8");`
 8.          `resp.setCharacterEncoding("utf-8");`
-
 10.          `PrintWriter out = resp.getWriter();`
 11.          `// Cookie，服务器端从客户端获取cookie`
 12.          `Cookie[] cookies = req.getCookies();// 数组，说明cookie可以有多个`
@@ -709,7 +703,6 @@ session：
 28.          `Cookie cookie = new Cookie("lastLoginTime", System.currentTimeMillis() + "");`
 29.          `cookie.setMaxAge(24*60*60);// 设置cookie的有效期为一天，单位是：秒`
 30.          `resp.addCookie(cookie);`
-
 32.      `}`
 33.      `@Override`
 34.      `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
@@ -717,9 +710,9 @@ session：
 36.      `}`
 37.  `}`
 
-### 7.4 session（重点）
+## 7.4 session（重点）
 
-![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/09/kuangstudyeb1e8d24-496a-4939-a2ce-4d9e9817da6c.jpg)  
+![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/09/kuangstudyeb1e8d24-496a-4939-a2ce-4d9e9817da6c.jpg)
 什么是Session：
 
 -   服务器会给每一个用户（浏览器）创建一个Seesion对象。
@@ -755,7 +748,6 @@ session：
 5.          `req.setCharacterEncoding("UTF-8");`
 6.          `resp.setCharacterEncoding("UTF-8");`
 7.          `resp.setContentType("text/html;charset=utf-8");`
-
 9.          `// 得到session`
 10.          `HttpSession session = req.getSession();`
 11.          `// 给session中存东西`
@@ -771,7 +763,6 @@ session：
 21.          `// session创建的时候做了什么事情`
 22.          `/*Cookie cookie = new Cookie("JSESSIONID", sessionId);`
 23.          `resp.addCookie(cookie);*/`
-
 25.          `//------------------`
 26.          `// 从session中获取数据`
 27.          `String name = (String) session.getAttribute("name");`
@@ -789,11 +780,11 @@ session：
 
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/09/kuangstudyd1fb94cc-5e84-4cc5-a1af-49babe8ea2f0.jpg)
 
-## 8.jsp
+# 8.jsp
 
-### 8.1 什么是jsp
+## 8.1 什么是jsp
 
-Java Server Pages：Java服务端页面，和servlet一样，用于动态web技术  
+Java Server Pages：Java服务端页面，和servlet一样，用于动态web技术
 最大的特点：
 
 -   写jsp就像在写html
@@ -801,21 +792,21 @@ Java Server Pages：Java服务端页面，和servlet一样，用于动态web技�
     -   html只给用户提供静态的数据
     -   jsp页面中可以嵌入Java代码，为用户提供动态数据
 
-### 8.2 jsp原理
+## 8.2 jsp原理
 
 思路：jsp是怎样执行的？
 
 -   代码层面没有任何问题
 -   服务器内部工作
     -   tomcat中有一个work目录；IDEA中使用tomcat的会在IDEA的tomcat中生产一个work目录
--   目录地址  
+-   目录地址
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudy785da300-879f-434f-9b19-ad10fa0cd9c7.jpg)
 
 我电脑上的地址：
 
 1.  `C:\Users\Administrator\AppData\Local\JetBrains\IntelliJIdea2021.2`
 
-发现页面会被转换成为一个Java类！  
+发现页面会被转换成为一个Java类！
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudy807345c3-c71c-4562-a197-729dfb29ffee.jpg)
 
 `浏览器向服务器发送请求，不管访问什么资源，其实都是在访问Servlet！`
@@ -832,10 +823,9 @@ Java Server Pages：Java服务端页面，和servlet一样，用于动态web技�
 6.    `}`
 7.  `// JSPservice`
 8.    `public void _jspService(final javax.servlet.http.HttpServletRequest request, final javax.servlet.http.HttpServletResponse response)`
-
 1.  判断请求的方式
 2.  内置一些对象（9个）
-    
+
     1.  `final javax.servlet.jsp.PageContext pageContext;    // 页面上下文`
     2.  `javax.servlet.http.HttpSession session = null;        // session`
     3.  `final javax.servlet.ServletContext application;        // applicationContext`
@@ -844,9 +834,9 @@ Java Server Pages：Java服务端页面，和servlet一样，用于动态web技�
     6.  `final java.lang.Object page = this;                    // page：当前`
     7.  `HttpServletRequest request;                            // 请求`
     8.  `HttpServletResponse response;                        // 响应`
-    
+
 3.  输出页面前增加的代码
-    
+
     1.  `response.setContentType("text/html;charset=UTF-8");// 设置响应的页面类型`
     2.  `pageContext = _jspxFactory.getPageContext(this, request, response,`
     3.           `null, true, 8192, true);`
@@ -856,15 +846,15 @@ Java Server Pages：Java服务端页面，和servlet一样，用于动态web技�
     7.  `session = pageContext.getSession();`
     8.  `out = pageContext.getOut();`
     9.  `_jspx_out = out;`
-    
-4.  以上的内置对象可以在jsp页面中直接使用
-    
-5.  原理图  
-    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudy91ca1997-e219-4e14-9457-6c0f4ce3ade4.jpg)
-    
 
-在JSP页面中；  
-只要是JAVA代码就会原封不动的输出；  
+4.  以上的内置对象可以在jsp页面中直接使用
+
+5.  原理图
+    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudy91ca1997-e219-4e14-9457-6c0f4ce3ade4.jpg)
+
+
+在JSP页面中；
+只要是JAVA代码就会原封不动的输出；
 如果是HTML代码，就会被转换为：
 
 1.  `out.write("<html>\r\n");`
@@ -872,21 +862,21 @@ Java Server Pages：Java服务端页面，和servlet一样，用于动态web技�
 
 这样的格式，输出到前端！
 
-### 8.3 JSP基础语法
+## 8.3 JSP基础语法
 
-任何语言都有自己的语法，JAVA中有；  
+任何语言都有自己的语法，JAVA中有；
 JSP作为java技术的一种应用，它拥有一些自己扩充的语法（了解，知道即可！），Java所有语法它都支持！
 
 1.  jsp表达式
-    
+
     1.  `<%--jsp表达式`
     2.  `作用：用来将程序的输出，输出到客户端`
     3.  `<%= 变量或表达式%>`
     4.  `--%>`
     5.  `<%= new java.util.Date() %>`
-    
+
 2.  jsp脚本片段
-    
+
     1.  `<%--jsp脚本片段--%>`
     2.  `<%`
     3.   `int sum = 0;`
@@ -904,40 +894,40 @@ JSP作为java技术的一种应用，它拥有一些自己扩充的语法（了�
     15.  `<%`
     16.   `}`
     17.  `%>`
-    
+
 3.  jsp声明
-    
+
     1.  `<%!`
     2.  `static {`
     3.   `System.out.println("loading Servlet!");`
     4.  `}`
     5.  `private int globalVar =0;`
-    
+
     7.  `public void kuang(){`
     8.   `System.out.println("进入了该方法！");`
     9.  `}`
     10.  `%>`
-    
 
-JSP声明：会被编译到jsp生成java的类中！  
-其他的，就会被生成到_jspService方法中！  
+
+JSP声明：会被编译到jsp生成java的类中！
+其他的，就会被生成到_jspService方法中！
 在jsp，嵌入Java代码即可！
 
-### 8.4 jsp指令
+## 8.4 jsp指令
 
 1.  定制错误页面
-    
+
     1.  `<%--定制错误页面--%>`
     2.  `<%@ page errorPage="error/500.jsp" %>`
-    
-    或者在web.xml定制全局的错误页面  
-    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudycfd43edb-06bc-4796-b7d6-0b5022cc3a88.jpg)
-    
-2.  包含头部和尾部  
-    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudyb64caaa0-79ff-44e6-9a17-5371bfad0057.jpg)
-    
 
-### 8.5 九大内置对象
+    或者在web.xml定制全局的错误页面
+    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudycfd43edb-06bc-4796-b7d6-0b5022cc3a88.jpg)
+
+2.  包含头部和尾部
+    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudyb64caaa0-79ff-44e6-9a17-5371bfad0057.jpg)
+
+
+## 8.5 九大内置对象
 
 -   PageContext `存东西`
 -   Request `存东西`
@@ -958,15 +948,15 @@ JSP声明：会被编译到jsp生成java的类中！
 
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudy8374695c-80b2-4c0a-96ee-e588b6604359.jpg)
 
-request：客户端向服务器发送请求，产生的数据，用户看完就没用了，比如：新闻，用户看完没用的！  
-session：客户端向服务器发送请求，产生的数据，用户用完一会还有用，比如：购物车；  
+request：客户端向服务器发送请求，产生的数据，用户看完就没用了，比如：新闻，用户看完没用的！
+session：客户端向服务器发送请求，产生的数据，用户用完一会还有用，比如：购物车；
 application：客户端向服务器发送请求，产生的数据，一个用户用完了，其他用户还可能使用，比如：聊天数据；
 
-### 8.6 jsp标签、JSTL标签、EL表达式
+## 8.6 jsp标签、JSTL标签、EL表达式
 
-## 9.mvc三层架构
+# 9.mvc三层架构
 
-## 10.过滤器（Filter）
+# 10.过滤器（Filter）
 
 Filter：过滤器，用来过滤网站的数据：
 
@@ -976,7 +966,7 @@ Filter：过滤器，用来过滤网站的数据：
 Filter开发步骤：
 
 1.  导包
-    
+
     1.  `<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->`
     2.       `<!--servlet依赖-->`
     3.       `<dependency>`
@@ -993,9 +983,9 @@ Filter开发步骤：
     14.           `<version>2.3.3</version>`
     15.           `<scope>provided</scope>`
     16.       `</dependency>`
-    
+
 2.  编写过滤器（自定义类实现javax.servlet.Filter接口）
-    
+
     1.  `public class CharaterEncodingFilter implements Filter {`
     2.   `/**`
     3.    `* 初始化：服务器启动的时候，就已经初始化了，随时等待过滤对象出现！`
@@ -1024,10 +1014,10 @@ Filter开发步骤：
     26.       `System.out.println("CharaterEncodingFilter销毁");`
     27.   `}`
     28.  `}`
-    
+
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/12/kuangstudyec776842-89f3-4f5e-8d4a-0777548366fb.jpg)
 3.  在web.xml中配置Filter
-    
+
     1.   `<filter>`
     2.       `<filter-name>filter</filter-name>`
     3.       `<filter-class>com.sunyiwenlong.filter.CharaterEncodingFilter</filter-class>`
@@ -1037,14 +1027,14 @@ Filter开发步骤：
     7.       `<！--只要是/servlet的任何请求，会经过这个过滤器-->`
     8.       `<url-pattern>/servlet/*</url-pattern>`
     9.   `</filter-mapping>`
-    
 
-## 11.监听器
+
+# 11.监听器
 
 实现一个监听器的接口；（有N种监听器）
 
 1.  编写一个监听器
-    
+
     1.  `public class OnlineCountListener implements HttpSessionListener {`
     2.   `/**`
     3.    `* 创建session的监听：创建一个session就会触发一次这个事件。`
@@ -1062,7 +1052,7 @@ Filter开发步骤：
     15.       `}`
     16.       `context.setAttribute("OnlineCount",onlineCount);`
     17.   `}`
-    
+
     19.   `/**`
     20.    `* 销毁session监听`
     21.    `* 销毁Session就会触发一次这个事件！`
@@ -1081,16 +1071,16 @@ Filter开发步骤：
     34.       `context.setAttribute("OnlineCount",onlineCount);`
     35.   `}`
     36.  `}`
-    
+
 2.  在web.xml中注册监听器
-    
+
     1.   `<listener>`
     2.       `<listener-class>com.sunyiwenlong.listener.OnlineCountListener</listener-class>`
     3.   `</listener>`
-    
+
 3.  看情况是否使用
 
-## 12. 过滤器、监听器常见应用
+# 12. 过滤器、监听器常见应用
 
 1.  `public class TestPanel {`
 2.      `public static void main(String[] args) {`
@@ -1111,7 +1101,6 @@ Filter开发步骤：
 17.          `frame.add(panel);`
 18.          `// 设置可见性 true`
 19.          `frame.setVisible(true);`
-
 21.          `// 监听事件，监听关闭事件`
 22.          `frame.addWindowListener(new WindowAdapter() {`
 23.              `@Override`
@@ -1122,9 +1111,9 @@ Filter开发步骤：
 28.      `}`
 29.  `}`
 
-## 总结
+# 总结
 
-提示：这里对文章进行总结：  
+提示：这里对文章进行总结：
 例如：以上就是今天要讲的内容，本文仅仅简单介绍了pandas的使用，而pandas提供了大量能使我们快速便捷地处理数据的函数和方法。
 
 标签：_JavaWeb_

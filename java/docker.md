@@ -2,38 +2,38 @@
 
 ## 1. Docker为什么出现
 
-一款产品：开发—上线 两套环境（应用环境，应用配置）  
-开发—-运维。问题：我在我的电脑上可以运行！版本更新，导致服务不可用！对于运维来说，考验就十分大？  
-环境配置是十分的麻烦，每一个机器都要部署环境（集群Redis、ES、Hadoop…）费时费力。  
-发布一个项目（jar +（Redis MySQL jdk ES）），项目能不能都带上环境安装打包！  
-之前在服务器配置一个应用的环境Redis MySQL jdk ES Hadoop，配置超麻烦了，不能够跨平台。  
+一款产品：开发—上线 两套环境（应用环境，应用配置）
+开发—-运维。问题：我在我的电脑上可以运行！版本更新，导致服务不可用！对于运维来说，考验就十分大？
+环境配置是十分的麻烦，每一个机器都要部署环境（集群Redis、ES、Hadoop…）费时费力。
+发布一个项目（jar +（Redis MySQL jdk ES）），项目能不能都带上环境安装打包！
+之前在服务器配置一个应用的环境Redis MySQL jdk ES Hadoop，配置超麻烦了，不能够跨平台。
 Windows开发，最后发布到Linux:
 
 -   传统：开发jar，运维来做！
 -   现在：开发打包部署上线，一套流程做完！
 
-java —- apk — 发布（应用商店）—-张三使用apk—-安装即可用！  
+java —- apk — 发布（应用商店）—-张三使用apk—-安装即可用！
 java —- jar（环境）—- 打包项目带上环境（镜像）—-（Docker仓库：商店）—-下载我们发布的镜像—直接运行即可！
 
 **Docker给以上的问题，提出了解决方案！**
 
-Docker的思想就来自于集装箱！  
+Docker的思想就来自于集装箱！
 隔离：Docker核心思想！打包装箱！每个箱子是互相隔离的。
 
 `本质：所有的技术都是因为出现了一些问题，我们需要去解决，才去学习。`
 
 ## 2. Docker的历史
 
-2010年，几个搞IT的年轻人，就在美国成立了一家公司**dotcloud**做一些pass的云计算服务！  
-LXC有关的容器技术！他们将自己的技术（容器化技术）命名就是Docker！  
-Docker刚刚诞生的时候，没有引起行业的注意！（dotCloud就活不下去）  
-**开源**（开放源代码）  
-2013年，Docker开源！  
-Docker越来越多的人发现了docker的优点！就火了，Docker每个月都会更新一个版本！  
-2014年4月9日，Docker1.0发布！  
-Docker为什么这么火？**十分的轻巧**  
-在容器技术出来之前，我们都是使用虚拟机技术！  
-虚拟机：在window中装一个Vmware，通过这个软件我们可以虚拟出来一台或者多台电脑！（很笨重）  
+2010年，几个搞IT的年轻人，就在美国成立了一家公司**dotcloud**做一些pass的云计算服务！
+LXC有关的容器技术！他们将自己的技术（容器化技术）命名就是Docker！
+Docker刚刚诞生的时候，没有引起行业的注意！（dotCloud就活不下去）
+**开源**（开放源代码）
+2013年，Docker开源！
+Docker越来越多的人发现了docker的优点！就火了，Docker每个月都会更新一个版本！
+2014年4月9日，Docker1.0发布！
+Docker为什么这么火？**十分的轻巧**
+在容器技术出来之前，我们都是使用虚拟机技术！
+虚拟机：在window中装一个Vmware，通过这个软件我们可以虚拟出来一台或者多台电脑！（很笨重）
 虚拟机也是属于虚拟化技术，Docker容器技术，也是一种虚拟化技术！
 
 1.  `vm：隔离，需要开启多个虚拟机！linux centos原生镜像（一个电脑！）需要几个G内存空间，开启需要几分钟！`
@@ -41,24 +41,24 @@ Docker为什么这么火？**十分的轻巧**
 
 > 聊聊Doker
 
-Docker是基于Go语言开发的！开源项目！  
-官网：[https://www.docker.com/](https://www.docker.com/)  
-文档地址：[https://docs.docker.com/](https://docs.docker.com/)  
+Docker是基于Go语言开发的！开源项目！
+官网：[https://www.docker.com/](https://www.docker.com/)
+文档地址：[https://docs.docker.com/](https://docs.docker.com/)
 Doker镜像仓库地址：[https://hub.docker.com/](https://hub.docker.com/)
 
 ## 3. Docker能做什么
 
 > 之前的虚拟机技术
 
-![](https://img-blog.csdnimg.cn/img_convert/e440c7d10ff2727fd6d5465fb6ef4988.jpeg)  
-虚拟机技术缺点：  
-1、资源占用十分多  
-2、冗余步骤多  
+![](https://img-blog.csdnimg.cn/img_convert/e440c7d10ff2727fd6d5465fb6ef4988.jpeg)
+虚拟机技术缺点：
+1、资源占用十分多
+2、冗余步骤多
 3、启动很慢！
 
 > 容器化技术
 
-**容器化技术不是模拟的一个完整的操作系统**  
+**容器化技术不是模拟的一个完整的操作系统**
 ![](https://img-blog.csdnimg.cn/img_convert/47a51e0d5fddebea74e86fbc49c90812.jpeg)
 
 比较Docker和虚拟机技术的不同：
@@ -71,12 +71,12 @@ Doker镜像仓库地址：[https://hub.docker.com/](https://hub.docker.com/)
 
 **应用更快速的交付和部署**
 
-传统：一堆帮助文档，安装程序!  
+传统：一堆帮助文档，安装程序!
 Docker：打包镜像发布测试，一键运行!
 
 **更便捷的升级和扩缩容**
 
-使用了Docker之后，我们部署应用就和搭积木一样！  
+使用了Docker之后，我们部署应用就和搭积木一样！
 项目打包为一个镜像，扩展服务器A！服务器B!
 
 **更简单的系统运维**
@@ -85,25 +85,25 @@ Docker：打包镜像发布测试，一键运行!
 
 **更高效的计算资源利用**
 
-Docker是内核级别的虚拟化，可以在一个物理机上可以运行很多的容器实例！服务器的性能可以被压榨到极致。  
+Docker是内核级别的虚拟化，可以在一个物理机上可以运行很多的容器实例！服务器的性能可以被压榨到极致。
 只要学不死，就往死里学！
 
 # 二、Docker安装
 
 ## 1. Docker的基本组成
 
-![](https://img-blog.csdnimg.cn/img_convert/03e39bfb64ffd63d93e4baee45358500.jpeg)  
-**镜像（image）：**  
+![](https://img-blog.csdnimg.cn/img_convert/03e39bfb64ffd63d93e4baee45358500.jpeg)
+**镜像（image）：**
 docker镜像就好比是一个模板，可以通过这个模板来创建容器服务，tomcat镜像===>run==>tomcat01容器（提供服务器），通过这个镜像可以创建多个容器（最终服务运行或者项目运行就是在容器中的）。
 
-**容器（container）：**  
-Docker利用容器技术，独立运行一个或者一个组应用，通过镜像来创建的。  
-启动，停止，删除，基本命令！  
+**容器（container）：**
+Docker利用容器技术，独立运行一个或者一个组应用，通过镜像来创建的。
+启动，停止，删除，基本命令！
 目前就可以把这个容器理解为就是一个简易的linux系统
 
-**仓库（repository）：**  
-仓库就是存放镜像的地方！  
-仓库分为公有仓库和私有仓库！  
+**仓库（repository）：**
+仓库就是存放镜像的地方！
+仓库分为公有仓库和私有仓库！
 Docker Hub（默认是国外的）阿里云.…都有容器服务器（配置镜像加速！）
 
 ## 2. 安装Docker
@@ -119,7 +119,6 @@ Docker Hub（默认是国外的）阿里云.…都有容器服务器（配置镜
 1.  `# 系统内核是 3.10 以上的`
 2.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# uname -r`
 3.  `3.10.0-1160.66.1.el7.x86_64`
-
 1.  `# 查看系统版本`
 2.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# cat /etc/os-release`
 3.  `NAME="CentOS Linux"`
@@ -132,7 +131,6 @@ Docker Hub（默认是国外的）阿里云.…都有容器服务器（配置镜
 10.  `CPE_NAME="cpe:/o:centos:centos:7"`
 11.  `HOME_URL="https://www.centos.org/"`
 12.  `BUG_REPORT_URL="https://bugs.centos.org/"`
-
 14.  `CENTOS_MANTISBT_PROJECT="CentOS-7"`
 15.  `CENTOS_MANTISBT_PROJECT_VERSION="7"`
 16.  `REDHAT_SUPPORT_PRODUCT="centos"`
@@ -157,11 +155,9 @@ Docker Hub（默认是国外的）阿里云.…都有容器服务器（配置镜
 13.  `yum-config-manager \`
 14.      `--add-repo \`
 15.      `https://download.docker.com/linux/centos/docker-ce.repo # 默认是从国外的。`
-
 17.  `yum-config-manager \`
 18.      `--add-repo \`
 19.      `http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo # 推荐使用阿里云的。`
-
 22.  `# 安装容器之前，更新yum软件包索引。`
 23.  `yum makecache fast`
 24.  `# 4.安装容器相关的。docker-ce（社区版）docker-ee（企业版）`
@@ -186,28 +182,27 @@ Docker Hub（默认是国外的）阿里云.…都有容器服务器（配置镜
 3.  `# 2.删除资源`
 4.  `rm -rf /var/lib/docker`
 5.  `rm -rf /var/lib/containerd`
-
 7.  `# /var/lib/docker  docker的默认工作路径`
 
 ## 3. 阿里云镜像加速
 
 1.  登录阿里云，找到容器服务。
 2.  找到镜像加速地址。
-3.  配置使用。  
+3.  配置使用。
     四个命令，依次执行即可：
-    
+
     1.  `sudo mkdir -p /etc/docker`
-    
+
     1.  `sudo tee /etc/docker/daemon.json <<-'EOF'`
     2.  `{`
     3.  `"registry-mirrors": ["https://xxx.xxx.xxx.com"]`
     4.  `}`
     5.  `EOF`
-    
+
     1.  `sudo systemctl daemon-reload`
-    
+
     1.  `sudo systemctl restart docker`
-    
+
 
 ## 4. 回顾hello-world流程
 
@@ -215,19 +210,18 @@ Docker Hub（默认是国外的）阿里云.…都有容器服务器（配置镜
 
 ## 5. 底层原理
 
-Docker是怎么工作的？  
-Docker 是一个Client-Server结构的系统，Docker的守护进程运行在主机上。通过Socket从客户端访问！  
-DockerServer 接收到Docker-Client的指令，就会执行这个命令！  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/61c3a5a753d54241b4632f8aeae737ea.png)  
-**Docker为什么比VM快？**  
-1、Docker有着比虚拟机更少的抽象层。  
-2、docker利用的是宿主机的内核，vm需要是Guest OS。  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/63afc76d81d74f429f983f306e4621d0.png)  
-所以说，新建一个容器的时候，docker不需要像虚拟机一样重新加载一个操作系统内核，避免引导。  
+Docker是怎么工作的？
+Docker 是一个Client-Server结构的系统，Docker的守护进程运行在主机上。通过Socket从客户端访问！
+DockerServer 接收到Docker-Client的指令，就会执行这个命令！
+![在这里插入图片描述](https://img-blog.csdnimg.cn/61c3a5a753d54241b4632f8aeae737ea.png)
+**Docker为什么比VM快？**
+1、Docker有着比虚拟机更少的抽象层。
+2、docker利用的是宿主机的内核，vm需要是Guest OS。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/63afc76d81d74f429f983f306e4621d0.png)
+所以说，新建一个容器的时候，docker不需要像虚拟机一样重新加载一个操作系统内核，避免引导。
 虚拟机是加载GuestOS，分钟级别的，而docker是利用宿主机的操作系统，省略了这个复杂的过程，秒级！
 
 # 三、Docker的常用命令
-
 
 ## 1. 帮助命令
 
@@ -256,6 +250,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 11.   `-a, --all         # 显示所有镜像 (docker images -a)`
 12.   `-q, --quiet       # 仅显示镜像id (docker images -q)`
 ```
+
 ### docker search
 
 搜索镜像
@@ -269,7 +264,6 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 7.  `# 解释`
 8.  `# 命令参数可选项 (通过搜索来过滤)`
 9.  `--filter=STARS=3000     # 搜索出来的镜像就是stars大于3000的`
-
 11.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker search mysql --filter=STARS=3000`
 12.  `NAME      DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED`
 13.  `mysql     MySQL is a widely used, open-source relation…   12941     [OK]`
@@ -324,8 +318,6 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 
 ```
 
-
-
 ### docker rmi
 
 删除镜像
@@ -366,7 +358,9 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 20.  `[root@iZbp13qr3mm4ucsjumrlgqZ /]# ls`
 21.  `bin  boot  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var  www`
 ```
+
 ### 列出所有运行的容器
+
 ```
 1.  `docker ps    # 列出当前正在运行的容器`
 2.  `# 命令参数可选项`
@@ -384,7 +378,9 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 14.  `CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS                     PORTS     NAMES`
 15.  `526c31d2c298   centos    "/bin/bash"   5 minutes ago   Exited (0) 3 minutes ago             optimistic_allen`
 ```
+
 ### 退出容器
+
 ```
 1.  `exit        # 容器直接停止，并退出`
 2.  `ctrl+P+Q    # 容器不停止，退出`
@@ -395,22 +391,28 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 7.  `c5d61aa9d7df   centos    "/bin/bash"   56 seconds ago   Up 55 seconds             kind_clarke`
 8.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]#`
 ```
+
 ### 删除容器
+
 ```
 1.  `docker rm 容器id                    # 删除容器（不能删除正在运行的容器）如果要强制删除：docker rm -f 容器id`
 2.  `docker rm -f $(docker ps -aq)        # 删除全部容器`
 3.  `docker ps -a -q|xargs docker rm        # 删除所有容器`
 ```
+
 ### 启动和停止容器的操作
+
 ```
 1.  `docker start 容器id        # 启动容器`
 2.  `docker restart 容器id    # 重启容器`
 3.  `docker stop 容器id        # 停止当前正在运行的容器`
 4.  `docker kill 容器id        # 强制停止当前容器`
 ```
+
 ## 4. 常用其他命令
 
 ### 后台启动容器
+
 ```
 1.  `# 命令docker run -d 镜像名`
 2.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker run -d centos`
@@ -419,6 +421,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 5.  `# 常见的坑：docker容器使用后台运行，就必须要有要一个前台进程，docker发现没有应用，就会自动停止。`
 6.  `# 比如：nginx，容器启动后，发现自己没有提供服务，就会立刻停止，就是没有程序了`
 ```
+
 ### 查看日志
 
 ```
@@ -433,7 +436,9 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 10.  `-tf                        # 显示日志`
 11.  `--tail number    # 要显示的日志条数`
 ```
+
 ### 查看容器中进程的信息
+
 ```
 1.  `# 命令 docker top 容器id` 
 2.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker top 88d23bcbe1f2`
@@ -443,6 +448,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 ```
 
 ### 查看镜像的元数据
+
 ```
 1.  `# 命令docker inspect 容器id`
 2.  `[`
@@ -655,6 +661,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 ```
 
 ### 进入当前正在运行的容器
+
 ```
 1.  `# 我们通常容器都是使用后台方式运行的，需要进入容器，修改一些配置`
 2.  `# 命令`
@@ -682,8 +689,8 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 24.  `# docker attach        # 进入容器正在执行的终端，不会启动新的进程。`
 ```
 
-
 ### 从容器内拷贝文件到主机上
+
 ```
 1.  `docker cp 容器id:容器内路径 目的主机的路径`
 
@@ -774,14 +781,14 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
     21.   `</body>`
     22.   `</html>`
     ```
-2. 
 
 > 端口暴露的概念
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c07e77f5e7f0487182b3ffd0881adfff.png)  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/c07e77f5e7f0487182b3ffd0881adfff.png)
 `思考问题：我们每次改动nginx配置文件，都需要进入容器内部？十分的麻烦，我要是可以在容器外部提供一个映射路径，达到在容器外修改文件名，容器内部就可以自动修改？-v 数据卷`
 
 ### docker安装tomcat
+
 ```
 1.  `# 官方的使用`
 2.  `docker run -it --rm tomcat`
@@ -812,6 +819,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 思考问题：我们以后要部署项目，如果每次都要进入容器是不是十分麻烦？我要是可以在容器外部提供一个映射路径，webapps，我们在外部放置项目，就自动同步到内部就好了！
 
 ### 部署ES+kibana
+
 ```
 1.  `# es暴露的端口很多！`
 2.  `# es十分的耗内存！`
@@ -848,7 +856,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 ```
 
 
-作业：使用kibana连接es？思考网络如何才能连接过去！  
+作业：使用kibana连接es？思考网络如何才能连接过去！
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/db499d541e114a53a896c928fb5e8167.png)
 
 ## 7. 可视化
@@ -859,6 +867,7 @@ DockerServer 接收到Docker-Client的指令，就会执行这个命令！
 
 -   Rancher（CI/CD时再用这个）
 ```
+
 ### 什么是portainer ?
 
 Docker图形化界面管理工具！提供一个后台面板供我们操作！
@@ -866,19 +875,19 @@ Docker图形化界面管理工具！提供一个后台面板供我们操作！
 1.  `# 启动运行`
 2.  `docker run -d -p 8088:9000 --restart=always -v /var/run/docker.sock:/var/run/docker.sock --privileged=true portainer/portainer`
 
-访问测试：[http://ip:8088](http://ip:8088/)  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d97228af6226442ca7a4c627479f74c5.png)  
-选择本地的：Local  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/22c80e1b155640398dd3f3c9da9998a7.png)  
-进入之后的面板  
+访问测试：[http://ip:8088](http://ip:8088/)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/d97228af6226442ca7a4c627479f74c5.png)
+选择本地的：Local
+![在这里插入图片描述](https://img-blog.csdnimg.cn/22c80e1b155640398dd3f3c9da9998a7.png)
+进入之后的面板
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/87ab76e133a948fbbf1909ecae20df1b.png)
 
 # 四、Docker镜像讲解
 
 ## 1. 镜像是什么
 
-镜像是一种轻量级、可执行的独立软件包，用来打包软件运行环境和基于运行环境开发的软件，它包含运行某个软件所需的所有内容，包括代码、运行时、库、环境变量和配置文件。  
-所有的应用，直接打包docker镜像，就可以直接跑起来！  
+镜像是一种轻量级、可执行的独立软件包，用来打包软件运行环境和基于运行环境开发的软件，它包含运行某个软件所需的所有内容，包括代码、运行时、库、环境变量和配置文件。
+所有的应用，直接打包docker镜像，就可以直接跑起来！
 如何得到镜像：
 
 -   从远程仓库下载
@@ -889,7 +898,7 @@ Docker图形化界面管理工具！提供一个后台面板供我们操作！
 
 ### UnionFS（联合文件系统）
 
-我们下载的时候看到的一层层就是这个！  
+我们下载的时候看到的一层层就是这个！
 UnionFS（联合文件系统）：Union文件系统（UnionFS）是一种分层、轻量级并且高性能的文件系统，它支持对文件系统的修改作为一次提交来一层层的叠加，同时可以将不同目录挂载到同一个虚拟文件系统下（unite several directories into a single virtual filesystem）。Union 文件系统是Docker 镜像的基础。镜像可以通过分层来进行继承，基于基础镜像（没有父镜像），可以制作各种具体的应用镜像。
 
 特性：一次同时加载多个文件系统，但从外面看起来，只能看到一个文件系统，联合加载会把各层文件系统叠加起来，这样最终的文件系统会包含所有底层的文件和目录。
@@ -900,23 +909,23 @@ docker的镜像实际上由一层一层的文件系统组成，这种层级的�
 
 bootfs（boot file system）主要包含bootloader和kernel，bootloader主要是引导加载kernel，Linux刚启动时会加载bootfs文件系统，在Docker镜像的最底层是bootfs。这一层与我们典型的Linux/Unix系统是一样的，包含boot加载器和内核。当boot加载完成之后整个内核就都在内存中了，此时内存的使用权已由bootfs转交给内核，此时系统也会卸载bootfs。
 
-rootfs（root file system），在bootfs之上。包含的就是典型Linux系统中的/dev，/proc，/bin，/etc等标准目录和文件。  
-rootfs就是各种不同的操作系统发行版，比如Ubuntu，Centos等等。  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2979b1cb9ae24cf8b1f3e92bc1c7d666.png)  
-平时我们安装进虚拟机的CentOS都是好几个G，为什么Docker这里才200M？  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/0e3b0e98c314470fa59d15419aaa4681.png)  
-对于一个精简的OS，rootfs可以很小，只需要包含最基本的命令，工具和程序库就可以了，因为底层直接用Host的kernel，自己只需要提供rootfs就可以了。  
-由此可见对于不同的linux发行版，bootfs基本是一致的，rootfs会有差别，因此不同的发行版可以公用bootfs。  
+rootfs（root file system），在bootfs之上。包含的就是典型Linux系统中的/dev，/proc，/bin，/etc等标准目录和文件。
+rootfs就是各种不同的操作系统发行版，比如Ubuntu，Centos等等。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2979b1cb9ae24cf8b1f3e92bc1c7d666.png)
+平时我们安装进虚拟机的CentOS都是好几个G，为什么Docker这里才200M？
+![在这里插入图片描述](https://img-blog.csdnimg.cn/0e3b0e98c314470fa59d15419aaa4681.png)
+对于一个精简的OS，rootfs可以很小，只需要包含最基本的命令，工具和程序库就可以了，因为底层直接用Host的kernel，自己只需要提供rootfs就可以了。
+由此可见对于不同的linux发行版，bootfs基本是一致的，rootfs会有差别，因此不同的发行版可以公用bootfs。
 （虚拟机是分钟级，容器是秒级！）
 
 ## 3. 分层理解
 
 ### 分层的镜像
 
-我们可以去下载一个镜像，注意观察下载的日志输出，可以看到是一层一层的在下载！  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/db130ea8682d484bbac8333f69773752.png)  
-思考：为什么Docker镜像要采用这种分层的结构呢？  
-最大的好处，我觉得莫过于是资源共享了！比如有多个镜像都从相同的Base镜像构建而来，那么宿主机只需在磁盘上保留一份base镜像，同时内存中也只需要加载一份base镜像，这样就可以为所有的容器服务了，而且镜像的每一层都可以被共享。  
+我们可以去下载一个镜像，注意观察下载的日志输出，可以看到是一层一层的在下载！
+![在这里插入图片描述](https://img-blog.csdnimg.cn/db130ea8682d484bbac8333f69773752.png)
+思考：为什么Docker镜像要采用这种分层的结构呢？
+最大的好处，我觉得莫过于是资源共享了！比如有多个镜像都从相同的Base镜像构建而来，那么宿主机只需在磁盘上保留一份base镜像，同时内存中也只需要加载一份base镜像，这样就可以为所有的容器服务了，而且镜像的每一层都可以被共享。
 查看镜像分层的方式可以通过 docker image inspect命令！
 
 1.  `[`
@@ -938,27 +947,27 @@ rootfs就是各种不同的操作系统发行版，比如Ubuntu，Centos等等�
 17.      `}`
 18.  `]`
 
-**理解：**  
-所有的Docker 镜像都起始于一个基础镜像层，当进行修改或增加新的内容时，就会在当前镜像层之上，创建新的镜像层。  
-举一个简单的例子，假如基于Ubuntu Linux 16.04创建一个新的镜像，这就是新镜像的第一层；如果在该镜像中添加Python包，就会在基础镜像层之上创建第二个镜像层；如果继续添加一个安全补丁，就会创建第三个镜像层。  
-该镜像当前已经包含3个镜像层，如下图所示（这只是一个用于演示的很简单的例子）。  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9863930d17ed4093b9183fa4bb7470e6.png)  
-在添加额外的镜像层的同时，镜像始终保持是当前所有镜像的组合，理解这一点非常重要。下图中举了一个简单的例子，每个镜像层包含3个文件，而镜像包含了来自两个镜像层的6个文件。  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/7ef963ba3271426885fdb033e3f27a12.png)  
-上图中的镜像层跟之前图中的略有区别，主要目的是便于展示文件。  
-下图中展示了一个稍微复杂的三层镜像，在外部看来整个镜像只有6个文件，这是因为最上层中的文件7是文件5的一个更新版本。  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/4635178e0b794754939c5e5f602ea2e4.png)  
-这种情况下，上层镜像层中的文件覆盖了底层镜像层中的文件。这样就使得文件的更新版本作为一个新镜像层添加到镜像当中。  
-Docker通过存储引擎（新版本采用快照机制）的方式来实现镜像层堆栈，并保证多镜像层对外展示为统一的文件系统。  
-Linux上可用的存储引擎有AUFS、Overlay2、Device Mapper、Btrfs以及ZFS。顾名思义，每种存储引擎都基于Linux中对应的文件系统或者块设备技术，并且每种存储引擎都有其独有的性能特点。  
-Docker在Windows 上仅支持 windowsfilter一种存储引擎，该引擎基于NTFS文件系统之上实现了分层和CoW[1]。  
-下图展示了与系统显示相同的三层镜像。所有镜像层堆叠并合并，对外提供统一的视图。  
+**理解：**
+所有的Docker 镜像都起始于一个基础镜像层，当进行修改或增加新的内容时，就会在当前镜像层之上，创建新的镜像层。
+举一个简单的例子，假如基于Ubuntu Linux 16.04创建一个新的镜像，这就是新镜像的第一层；如果在该镜像中添加Python包，就会在基础镜像层之上创建第二个镜像层；如果继续添加一个安全补丁，就会创建第三个镜像层。
+该镜像当前已经包含3个镜像层，如下图所示（这只是一个用于演示的很简单的例子）。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/9863930d17ed4093b9183fa4bb7470e6.png)
+在添加额外的镜像层的同时，镜像始终保持是当前所有镜像的组合，理解这一点非常重要。下图中举了一个简单的例子，每个镜像层包含3个文件，而镜像包含了来自两个镜像层的6个文件。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/7ef963ba3271426885fdb033e3f27a12.png)
+上图中的镜像层跟之前图中的略有区别，主要目的是便于展示文件。
+下图中展示了一个稍微复杂的三层镜像，在外部看来整个镜像只有6个文件，这是因为最上层中的文件7是文件5的一个更新版本。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/4635178e0b794754939c5e5f602ea2e4.png)
+这种情况下，上层镜像层中的文件覆盖了底层镜像层中的文件。这样就使得文件的更新版本作为一个新镜像层添加到镜像当中。
+Docker通过存储引擎（新版本采用快照机制）的方式来实现镜像层堆栈，并保证多镜像层对外展示为统一的文件系统。
+Linux上可用的存储引擎有AUFS、Overlay2、Device Mapper、Btrfs以及ZFS。顾名思义，每种存储引擎都基于Linux中对应的文件系统或者块设备技术，并且每种存储引擎都有其独有的性能特点。
+Docker在Windows 上仅支持 windowsfilter一种存储引擎，该引擎基于NTFS文件系统之上实现了分层和CoW[1]。
+下图展示了与系统显示相同的三层镜像。所有镜像层堆叠并合并，对外提供统一的视图。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/765f1e60ff06464d98bd33391ce50891.png)
 
 ### 特点
 
-Docker镜像都是只读的，当容器启动时，一个新的可写层被加载到镜像的顶部！  
-这一层就是我们通常说的容器层，容器之下的都叫镜像层！  
+Docker镜像都是只读的，当容器启动时，一个新的可写层被加载到镜像的顶部！
+这一层就是我们通常说的容器层，容器之下的都叫镜像层！
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/8144d08138314609907009189cf18080.png)
 
 ## 4. commit镜像
@@ -983,13 +992,13 @@ Docker镜像都是只读的，当容器启动时，一个新的可写层被加�
 
 ## 1. 什么是容器数据卷
 
-**docker的理念回顾**  
-将应用和环境打包成一个镜像！  
-数据？如果数据都在容器中，那么我们容器删除，数据就会丢失！（需求：数据可以持久化）  
-MySQL，容器删了，删库跑路！（需求：MySQL数据可以存储在本地）  
-容器之间可以有一个数据共享的技术！Docker容器中产生的数据，同步到本地！  
-这就是卷技术！目录的挂载，将我们容器内的目录，挂载到Linux主机上面！  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/1a3836dc6eb64763a2a001bf60dcfdc0.png)  
+**docker的理念回顾**
+将应用和环境打包成一个镜像！
+数据？如果数据都在容器中，那么我们容器删除，数据就会丢失！（需求：数据可以持久化）
+MySQL，容器删了，删库跑路！（需求：MySQL数据可以存储在本地）
+容器之间可以有一个数据共享的技术！Docker容器中产生的数据，同步到本地！
+这就是卷技术！目录的挂载，将我们容器内的目录，挂载到Linux主机上面！
+![在这里插入图片描述](https://img-blog.csdnimg.cn/1a3836dc6eb64763a2a001bf60dcfdc0.png)
 `总结一句话：容器的持久化和同步操作！容器间也是可以数据共享的！`
 
 ## 2. 使用数据卷
@@ -1000,20 +1009,20 @@ MySQL，容器删了，删库跑路！（需求：MySQL数据可以存储在本�
 2.  `# 测试，查看容器信息`
 3.  `docker inspect 容器id`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/04bf1adef71a42c3943c11df5725a91b.png)  
-测试文件的同步：  
-在容器的/home文件夹下，新建test.java文件，会同步到主机的/home/ceshi文件夹下。  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/04bf1adef71a42c3943c11df5725a91b.png)
+测试文件的同步：
+在容器的/home文件夹下，新建test.java文件，会同步到主机的/home/ceshi文件夹下。
 `删除操作也是同步的；双向绑定，保证两边文件夹下的数据始终是一直的。`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a8164d32aef9493caae71107d983fa84.png)  
-再来测试：  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/a8164d32aef9493caae71107d983fa84.png)
+再来测试：
 停止容器后，在主机的/home/ceshi文件夹下，修改文件或新增文件，启动容器，查看容器的/home文件夹，发现容器内的数据依旧是同步的
 
 1.  停止容器。
 2.  宿主机上修改文件。
 3.  启动容器。
-4.  容器内的数据依旧是同步的。  
-    ![在这里插入图片描述](https://img-blog.csdnimg.cn/3afc0b10472f4095821c4ade058edfa1.png)  
+4.  容器内的数据依旧是同步的。
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/3afc0b10472f4095821c4ade058edfa1.png)
     好处：我们以后修改只需要在本地修改即可，容器内会自动同步！|
 
 ## 3. 实战：安装mysql
@@ -1025,12 +1034,11 @@ MySQL，容器删了，删库跑路！（需求：MySQL数据可以存储在本�
 5.  `docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag`
 6.  `# 我们启动mysql（-e是环境配置）`
 7.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker run -d -p 7777:3306 -v /home/mysql/conf:/etc/mysql/conf.d -v /home/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql01 mysql:5.7`
-
 9.  `# 启动成功之后，我们在本地使用navicat来接测试一下。`
 10.  `# navicat连接到服务器的7777端口和容器内的3306映射，这个时候我们就可以连接上了！`
 11.  `# 在本地测试创建一个数据库，查看一下我们映射的路径是否ok！（OK的）`
 
-如果我们将容器删除：  
+如果我们将容器删除：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/bce7ab0857224804b502ef82504cc1da.png)
 
 发现，我们挂载到本地的数据卷依旧没有丢失，这就实现了容器数据持久化功能！
@@ -1044,7 +1052,6 @@ MySQL，容器删了，删库跑路！（需求：MySQL数据可以存储在本�
 5.  `DRIVER    VOLUME NAME`
 6.  `local     964b8e505f12f65fb23fd21f05cfa9ecd6c2c6b2ca89c0e44f168bb017dfabd6`
 7.  `# 这种就是匿名挂载：我们在-v挂载目录时，只写了容器内的路径，没有写容器外的路径。`
-
 9.  `# 具名挂载`
 10.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker run -d -p 3344:80 --name nginx02 -v juming-nginx:/etc/nginx nginx`
 11.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker volume ls`
@@ -1054,8 +1061,8 @@ MySQL，容器删了，删库跑路！（需求：MySQL数据可以存储在本�
 15.  `# 通过 -v 卷名:容器内的路径（具名挂载）`
 16.  `# 查看一下这个卷`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/e214799a7d3d4fabaf627f5ce947aa45.png)  
-所有的docker容器内的卷，没有指定目录的情况下都是在`/var/lib/docker/volumes/xxxx/_data"`（xxxx是卷名）  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/e214799a7d3d4fabaf627f5ce947aa45.png)
+所有的docker容器内的卷，没有指定目录的情况下都是在`/var/lib/docker/volumes/xxxx/_data"`（xxxx是卷名）
 我们通过具名挂载可以方便的找到我们的一个卷，`大多数情况在使用的具名挂载`
 
 1.  `# 如何确定是具名挂载，还是匿名挂载，还是指定路径挂载`
@@ -1068,7 +1075,6 @@ MySQL，容器删了，删库跑路！（需求：MySQL数据可以存储在本�
 1.  `# 通过 -v 容器内的路径:ro    rw    改变读写权限`
 2.  `ro    read only    # 只读`
 3.  `rw    read write    # 可读可写`
-
 5.  `# 一旦设置了容器权限，容器对我们挂载出来的内容就有了限定。`
 6.  `docker run -d -p 3344:80 --name nginx02 -v juming-nginx:/etc/nginx:ro nginx`
 7.  `docker run -d -p 3344:80 --name nginx02 -v juming-nginx:/etc/nginx:rw nginx`
@@ -1076,7 +1082,7 @@ MySQL，容器删了，删库跑路！（需求：MySQL数据可以存储在本�
 
 ## 5. 初识Dockerfile
 
-Dockerfile就是用来构建 docker 镜像的构建命令！命令脚本！先体验一下！  
+Dockerfile就是用来构建 docker 镜像的构建命令！命令脚本！先体验一下！
 通过这个脚本可以生成镜像，镜像是一层一层的，脚本一个一个的命令，每个命令都是一层！
 
 1.  `# 创建一个dockerfile文件，名字可以随机，建议dockerfile`
@@ -1087,73 +1093,71 @@ Dockerfile就是用来构建 docker 镜像的构建命令！命令脚本！先�
 6.  `CMD /bin/bash`
 7.  `# 这里的每个命令，就是镜像的一层。`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/8c3eddc6cd9b415e9382c41976080a5e.png)  
-启动自己写的容器：  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/48134489ae4646aa90190744fe507435.png)  
-这个卷和外部一定有一个同步的目录！  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/7c09b250f26549e7a8d505549c902802.png)  
-查看一下卷挂载的路径：docker inspect 容器id  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ccf82d7d7ccb4433962014e2bd85a091.png)  
-测试一下文件是否同步出去：在容器的volume01文件夹下创建文件，查看宿主机对应目录是否同步成功。  
-`这种方式我们未来使用的十分多，因为我们通常会构建自己的镜像！`  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/8c3eddc6cd9b415e9382c41976080a5e.png)
+启动自己写的容器：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/48134489ae4646aa90190744fe507435.png)
+这个卷和外部一定有一个同步的目录！
+![在这里插入图片描述](https://img-blog.csdnimg.cn/7c09b250f26549e7a8d505549c902802.png)
+查看一下卷挂载的路径：docker inspect 容器id
+![在这里插入图片描述](https://img-blog.csdnimg.cn/ccf82d7d7ccb4433962014e2bd85a091.png)
+测试一下文件是否同步出去：在容器的volume01文件夹下创建文件，查看宿主机对应目录是否同步成功。
+`这种方式我们未来使用的十分多，因为我们通常会构建自己的镜像！`
 如果构建镜像时候没有挂载卷，就需要自己手动镜像挂载目录！
 
 ## 6. 数据卷容器
 
-多个mysql同步数据  
+多个mysql同步数据
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/83ae90d4016d4b58a3f7008d1a980247.png)
 
 1.  `# 启动3个容器，通过我们刚才自己的写镜像启动。`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/53263e57bd3342e3bb56d168a30db360.png)  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/79088a4ed27e47b9a77fb71e3988e740.png)  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/53263e57bd3342e3bb56d168a30db360.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/79088a4ed27e47b9a77fb71e3988e740.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/d0c73f1f20d6455f92169b81dafc6778.png)
 
 1.  `# 测试：可以删除docker01，查看一下docker02和docker03是否还可以访问这个文件`
 2.  `# 测试依旧可以访问`
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/11127a59728f4994975e379b34bea768.png)  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/993d33e1120c4fc8a643772daf2b1041.png)  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/11127a59728f4994975e379b34bea768.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/993d33e1120c4fc8a643772daf2b1041.png)
 多个mysql实现数据共享：
 
 1.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker run -d -p 7777:3306 -v /home/mysql/conf:/etc/mysql/conf.d -v /home/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql01 mysql:5.7`
-
 3.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker run -d -p 7777:3306 -e MYSQL_ROOT_PASSWORD=123456 --name mysql02 --volumes-from mysql01 mysql:5.7`
-
 5.  `# 这个时候，可以实现两个容器数据同步！`
 
-结论：  
-容器之间配置信息的传递，数据卷容器的生命同期一直持续到没有容器使用为止。  
+结论：
+容器之间配置信息的传递，数据卷容器的生命同期一直持续到没有容器使用为止。
 但是一旦你持久化到了本地，这个时候，本地的数据是不会删除的！
 
 # 六、DockerFile
 
 ## 1. DockerFile介绍
 
-dockerfile是用来构建docker镜像的文件！命令参数脚本！  
-构建步骤：  
-1、编写一个dockerfile文件  
-2、docker build 构建成为一个镜像  
-3、docker run运行镜像  
-4、docker push发布镜像（DockerHub、阿里云镜像仓库！）  
-查看一下官方是怎么做的？  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/14043f8e717c4ae2b4e80a6ff03496dc.png)  
+dockerfile是用来构建docker镜像的文件！命令参数脚本！
+构建步骤：
+1、编写一个dockerfile文件
+2、docker build 构建成为一个镜像
+3、docker run运行镜像
+4、docker push发布镜像（DockerHub、阿里云镜像仓库！）
+查看一下官方是怎么做的？
+![在这里插入图片描述](https://img-blog.csdnimg.cn/14043f8e717c4ae2b4e80a6ff03496dc.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/e489fa9a6e564c95b4a015751612b76e.png)
 
 ## 2. DockerFile的构建过程
 
 ### 基础知识
 
-1、每个保留关键字（指令）都是必须是大写字母  
-2、执行从上到下顺序执行  
-3、# 表示注释  
-4、每一个指令都会创建提交一个新的镜像层，并提交！  
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c17459384d6d494181b6e344b9cf3f7b.png)  
-dockerfile是面向开发的，我们以后要发布项目，做镜像，就需要编写dockerfile文件，这个文件十分简单！  
-Docker镜像逐渐成为企业交付的标准，必须要掌握！  
-步骤：开发，部署，运维。。。缺一不可！|  
-DockerFile：构建文件，定义了一切的步骤，源代码。  
-Dockerlmages：通过DockerFile构建生成的镜像，最终发布和运行的产品。  
+1、每个保留关键字（指令）都是必须是大写字母
+2、执行从上到下顺序执行
+3、# 表示注释
+4、每一个指令都会创建提交一个新的镜像层，并提交！
+![在这里插入图片描述](https://img-blog.csdnimg.cn/c17459384d6d494181b6e344b9cf3f7b.png)
+dockerfile是面向开发的，我们以后要发布项目，做镜像，就需要编写dockerfile文件，这个文件十分简单！
+Docker镜像逐渐成为企业交付的标准，必须要掌握！
+步骤：开发，部署，运维。。。缺一不可！|
+DockerFile：构建文件，定义了一切的步骤，源代码。
+Dockerlmages：通过DockerFile构建生成的镜像，最终发布和运行的产品。
 Docker容器：容器就是镜像运行起来提供服务的。
 
 ## 3. DockerFile的命令
@@ -1182,34 +1186,27 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
 1.  `# 1. 编写dockerfile的文件`
 2.  `FROM centos:7`
 3.  `MAINTAINER sywl<xxx@qq.com>`
-
 5.  `ENV MYPATH /usr/local`
 6.  `WORKDIR $MYPATH`
-
 8.  `RUN yum -y install vim`
 9.  `RUN yum -y install net-tools`
-
 11.  `EXPOSE 80`
-
 13.  `CMD echo $MYPATH`
 14.  `CMD echo "-----end-----"`
 15.  `CMD /bin/bash`
-
 17.  `# 2. 通过这个文件构建镜像`
 18.  `# 命令：docker build -f dockerfile文件路径 -t 镜像名:[tag]`
 19.  `docker build -f mydockerfile-centos -t mycentos:0.1 .`
-
 21.  `Successfully built 285c2064af01`
 22.  `Successfully tagged mycentos:0.1`
-
 24.  `# 3. 测试运行`
 
-对比：  
-之前的原生的centos7：  
-![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/03/kuangstudy3e59f341-6850-445c-a1bc-330c574a781c.jpg)  
-我们增加之后的镜像：  
-![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/03/kuangstudye10e7d39-2971-4e5e-ae7e-6646b3a97a35.jpg)  
-我们可以列出本地进行的变更历史：docker history 镜像id  
+对比：
+之前的原生的centos7：
+![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/03/kuangstudy3e59f341-6850-445c-a1bc-330c574a781c.jpg)
+我们增加之后的镜像：
+![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/03/kuangstudye10e7d39-2971-4e5e-ae7e-6646b3a97a35.jpg)
+我们可以列出本地进行的变更历史：docker history 镜像id
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/03/kuangstudy62d94e6e-5f92-4f5e-aa5b-be3574e4ac6b.jpg)
 
 > CMD和ENTRYPOINT区别
@@ -1234,7 +1231,6 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
 2.  `[root@iZbp13qr3mm4ucsjumrlgqZ dockerfile]# docker run ec0d2dd226b3 -l`
 3.  `docker: Error response from daemon: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: "-l": executable file not found in $PATH: unknown.`
 4.  `ERRO[0000] error waiting for container: context canceled`
-
 6.  `# 原因：CMD命令的情况下，"-l"替换了CMD["1s"，"-a"]命令，因为"-l"不是命令，所以报错！`
 
 测试ENTRYPOINT
@@ -1259,46 +1255,46 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
 
 ## 5. 制作tomcat镜像
 
-1.  准备镜像文件：tomcat压缩包，jdk的压缩包！  
+1.  准备镜像文件：tomcat压缩包，jdk的压缩包！
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/03/kuangstudy3b8c3159-7579-42b9-99d7-8d10b48187e0.jpg)
-    
+
 2.  编写dockerfile文件，官方命名**Dockerfile**，build会自动寻找这个文件，就不需要-f指定文件名了！
-    
+
     1.   `FROM centos:7`
     2.   `MAINTAINER sywl<[xxxx@qq.com](mailto:xxxx@qq.com)>`
-    
+
     4.   `COPY readme.txt /usr/local/readme.txt`
-    
+
     6.   `ADD jdk-8u271-linux-x64.tar.gz /usr/local/`
     7.   `ADD apache-tomcat-9.0.5.tar.gz /usr/local/`
-    
+
     9.   `RUN yum -y install vim`
-    
+
     11.   `ENV MYPATH /usr/local`
     12.   `WORKDIR $MYPATH`
-    
+
     14.   `ENV JAVA_HOME /usr/local/jdk1.8.0_271`
     15.   `ENV CLASS_PATH $JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar`
     16.   `ENV CATALINA_HOME /usr/local/apache-tomcat-9.0.5`
     17.   `ENV CATALINA_BASH /usr/local/apache-tomcat-9.0.5`
     18.   `ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/lib:$CATALINA_HOME/bin`
-    
+
     20.   `EXPOSE 8080`
-    
+
     22.   `CMD /usr/local/apache-tomcat-9.0.5/bin/startup.sh && tail -F /usr/local/apache-tomcat-9.0.5/bin/logs/catalina.out`
-    
+
 3.  构建镜像
-    
+
     1.  `docker build --name diytomcat .`
-    
+
 4.  启动镜像
-    
+
     1.  `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker run -d -p 3355:8080 --name sywltomcat -v /home/sywl/build/tomcat/test:/usr/local/apache-tomcat-9.0.5/webapps/test -v /home/sywl/build/tomcat/tomcatlog:/usr/local/apache-tomcat-9.0.5/logs diytomcat`
-    
-5.  访问测试  
+
+5.  访问测试
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/03/kuangstudyb6900457-27f2-448e-be54-6069b4f9783f.jpg)
 6.  发布项目（由于做了卷挂载，我们直接在本地test文件夹下编写项目就可以发布了！）
-    
+
     1.  `# /home/sywl/build/tomcat/test/WEB-INF/web.xml文件`
     2.  `<?xml version="1.0" encoding="UTF-8"?>`
     3.  `<web-app xmlns="http://java.sun.com/xml/ns/javaee"`
@@ -1306,7 +1302,7 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
     5.       `xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"`
     6.       `version="2.5">`
     7.  `</web-app>`
-    
+
     1.  `# /home/sywl/build/tomcat/test/index.jsp文件`
     2.  `<%@ page language="java" contentType="text/html; charset=UTF-8"`
     3.   `pageEncoding="UTF-8"%>`
@@ -1323,8 +1319,8 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
     14.  `%>`
     15.  `</body>`
     16.  `</html>`
-    
-    发现：项目部署成功，可以直接访问ok！（ip地址:3355/test）  
+
+    发现：项目部署成功，可以直接访问ok！（ip地址:3355/test）
     我们以后开发的步骤：需要掌握Dokcerfile的编写！我们之后的一切都是使用docker镜像来发布运行！
 
 ## 6. 发布自己的镜像
@@ -1334,41 +1330,41 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
 1.  [https://hub.docker.com/](https://hub.docker.com/) 注册自己的账号
 2.  确定这个账号可以登录
 3.  在我们服务器上提交自己的镜像
-    
+
     1.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker login --help`
-    
+
     3.   `Usage:  docker login [OPTIONS] [SERVER]`
-    
+
     5.   `Log in to a Docker registry.`
     6.   `If no server is specified, the default is defined by the daemon.`
-    
+
     8.   `Options:`
     9.     `-p, --password string   Password`
     10.         `--password-stdin    Take the password from stdin`
     11.     `-u, --username string   Username`
-    
+
 4.  登录完毕后就可以提交镜像了，就是一步： docker push
-    
+
     1.   `# 登录命令`
     2.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker login -u xxxx`
     3.   `Password:`
     4.   `WARNING! Your password will be stored unencrypted in /root/.docker/config.json.`
     5.   `Configure a credential helper to remove this warning. See`
     6.   `https://docs.docker.com/engine/reference/commandline/login/#credentials-store`
-    
+
     8.   `Login Succeeded`
-    
+
     10.   `# push镜像出现的问题？`
     11.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker push sunyiwenlong/diytomcat`
     12.   `The push refers to repository [docker.io/sunyiwenlong/diytomcat]`
     13.   `An image does not exist locally with the tag: sunyiwenlong/diytomcat`
-    
+
     15.   `# 解决，增加一个tag`
     16.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker tag 6a5eb12e1252 账号id/tomcat:1.0`
-    
+
     18.   `# docker push即可；自己发布的镜像尽量带上版本号`
     19.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker push 账号id/tomcat:1.0`
-    
+
 
 ### 2. 发布到阿里云镜像服务上
 
@@ -1388,7 +1384,7 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
 
 ### 测试
 
-![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudydee80493-070a-4d74-88b2-816d0bce1f3b.jpg)  
+![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudydee80493-070a-4d74-88b2-816d0bce1f3b.jpg)
 有三个网络
 
 1.  `# 问题：docker是如何处理容器网络访问的？`
@@ -1396,7 +1392,6 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudy21a89436-12e0-4cad-947d-77eefb762997.jpg)
 
 1.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker run -d -P --name tomcat01 tomcat`
-
 3.  `# 查看容器的内部网络地址ip addr，发现容器启动的时候会得到一个eth0@if119的ip地址（docker分配的）`
 4.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker exec -it tomcat01 ip addr`
 5.  `1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000`
@@ -1407,7 +1402,6 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
 10.      `link/ether 02:42:ac:11:00:02 brd ff:ff:ff:ff:ff:ff link-netnsid 0`
 11.      `inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0`
 12.         `valid_lft forever preferred_lft forever`
-
 14.  `# 思考：liunx能不能ping通容器内部？（linux可以ping通容器内部）`
 15.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# ping 172.17.0.2`
 16.  `PING 172.17.0.2 (172.17.0.2) 56(84) bytes of data.`
@@ -1418,37 +1412,37 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
 
 ### 原理
 
-1.  我们每启动一个docker容器，docker就会给docker容器分配一个ip，我们只要安装了ddcker，就会有一个网卡docker0  
-    （桥接模式，使用的技术是veth-pair技术）  
-    再次测试：  
+1.  我们每启动一个docker容器，docker就会给docker容器分配一个ip，我们只要安装了ddcker，就会有一个网卡docker0
+    （桥接模式，使用的技术是veth-pair技术）
+    再次测试：
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudy7134bffc-5262-4393-a6a0-42b27b89e906.png)
-2.  在启动一个容器测试，发现又多了一对网卡。  
-    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudya5d90c2d-5be3-4c92-b72e-b8aa1f68324e.jpg)  
+2.  在启动一个容器测试，发现又多了一对网卡。
+    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudya5d90c2d-5be3-4c92-b72e-b8aa1f68324e.jpg)
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudye5aa04a0-d3fe-42a1-9143-ff5809597941.jpg)
-    
+
     1.  `# 我们发现这个容器带来网卡，都是一对对的。`
     2.  `# veth-pair 就是一对的虚拟设备接口，他们都是成对出现的，一端连着协议，一端彼此相连。`
     3.  `# 正因为有这个特性，evth-pair充当一个桥梁，连接各种虚拟网络设备的。`
     4.  `# openstack，Docker容器之间的连接，OVS的连接，都是使用veth-pair技术。`
-    
+
 3.  我们来测试下tomcat01和tomcat02是否可以ping通！（可以ping通）
-    
+
     1.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") ~]# docker exec -it tomcat02 ping 172.17.0.2`
     2.   `PING 172.17.0.2 (172.17.0.2) 56(84) bytes of data.`
     3.   `64 bytes from 172.17.0.2: icmp_seq=1 ttl=64 time=0.094 ms`
     4.   `64 bytes from 172.17.0.2: icmp_seq=2 ttl=64 time=0.055 ms`
-    
-    6.   `# 结论：容器和容器之间是可以互相ping通的！`
-    
-    绘制一个网络模型图  
-    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudye5054f76-0675-4c98-a969-4d2826c95e10.jpg)  
-    结论：tomcat01和tomcat02是公用的一个路由器，dockero。  
-    所有的容器不指定网络的情况下，都是docker0路由的，docker会给我们的容器分配一个默认的可用IP
-    
 
-![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudy1a3f75b3-decf-4b88-9d35-c02d029c5f7d.jpg)  
-Docker中的所有的网络接口都是虚拟的。虚拟的转发效率高！（内网传递文件！）  
-只要容器删除，对应网桥一对就没了！  
+    6.   `# 结论：容器和容器之间是可以互相ping通的！`
+
+    绘制一个网络模型图
+    ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudye5054f76-0675-4c98-a969-4d2826c95e10.jpg)
+    结论：tomcat01和tomcat02是公用的一个路由器，dockero。
+    所有的容器不指定网络的情况下，都是docker0路由的，docker会给我们的容器分配一个默认的可用IP
+
+
+![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudy1a3f75b3-decf-4b88-9d35-c02d029c5f7d.jpg)
+Docker中的所有的网络接口都是虚拟的。虚拟的转发效率高！（内网传递文件！）
+只要容器删除，对应网桥一对就没了！
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudy0a4781e6-e272-4e1f-a184-ffe7d6ff1692.jpg)
 
 ## 2. —link
@@ -1460,7 +1454,6 @@ Docker中的所有的网络接口都是虚拟的。虚拟的转发效率高！�
 1.  `# 通过服务名ping不通；如何解决？`
 2.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker exec -it tomcat02 ping tomcat01`
 3.  `ping: tomcat01: Name or service not known`
-
 5.  `# 通过--link可以解决网络连接问题。`
 6.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker run -d -P --name tomcat03 --link tomcat02 tomcat:7.0`
 7.  `2393eecb870e5755068ea8b7d8bdcdd0f1ff110534c3359384413677c651bec4`
@@ -1468,13 +1461,12 @@ Docker中的所有的网络接口都是虚拟的。虚拟的转发效率高！�
 9.  `PING tomcat02 (172.17.0.3) 56(84) bytes of data.`
 10.  `64 bytes from tomcat02 (172.17.0.3): icmp_seq=1 ttl=64 time=0.085 ms`
 11.  `64 bytes from tomcat02 (172.17.0.3): icmp_seq=2 ttl=64 time=0.055 ms`
-
 13.  `# 反向可以ping通吗？（不可以）`
 14.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker exec -it tomcat02 ping tomcat03`
 15.  `ping: tomcat03: Name or service not known`
 
-探究：docker network inspect networkID (docker network ls可以查看networkID)  
-![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudyb4c2cdd5-23f7-4cd0-bbdc-a6c843187c99.jpg)  
+探究：docker network inspect networkID (docker network ls可以查看networkID)
+![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudyb4c2cdd5-23f7-4cd0-bbdc-a6c843187c99.jpg)
 其实这个tomcat03就是在本地配置了tomcat02的配置？
 
 1.  `# 查看`
@@ -1488,9 +1480,9 @@ Docker中的所有的网络接口都是虚拟的。虚拟的转发效率高！�
 9.  `172.17.0.3      tomcat02 20398a94efa7`
 10.  `172.17.0.4      2393eecb870e`
 
-本质探究：—link 就是我们在hosts配置中增加了一个”172.17.0.3 tomcat02 20398a94efa7”  
-我们现在玩Docker已经不建议使用—link了！  
-自定义网络！不适用docker0！  
+本质探究：—link 就是我们在hosts配置中增加了一个”172.17.0.3 tomcat02 20398a94efa7”
+我们现在玩Docker已经不建议使用—link了！
+自定义网络！不适用docker0！
 docker0问题：他不支持容器名连接访问！
 
 ## 3. 自定义网络
@@ -1501,9 +1493,9 @@ docker0问题：他不支持容器名连接访问！
 
 ### 网络模式
 
-bridge：桥接 docker（默认，自己创建也使用bridge桥接模式）  
-none：不配置网络  
-host：和主机共享网络  
+bridge：桥接 docker（默认，自己创建也使用bridge桥接模式）
+none：不配置网络
+host：和主机共享网络
 container：容器网络连通！（用的少！局限很大）
 
 ### 测试
@@ -1511,7 +1503,6 @@ container：容器网络连通！（用的少！局限很大）
 1.  `# 我们直接启动的命令--net bridge（这个就是我们的docker0）；默认带上这个参数的，以下两种启动方式效果一致。`
 2.  `docker run -d -P --name tomcat01 tomcat`
 3.  `docker run -d -P --name tomcato1 --het bridge tomcat`
-
 5.  `# docker0特点：默认，域名不能访问，--1ink可以打通连接！`
 6.  `# 我们可以自定义一个网络！`
 7.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker network create --driver bridge --subnet 192.168.0.0/16 --gateway 192.168.0.1 mynet`
@@ -1522,8 +1513,8 @@ container：容器网络连通！（用的少！局限很大）
 12.  `266acd66473c   mynet     bridge    local`
 13.  `7795cbc2686c   none      null      local`
 
-我们自己的网络就创建好了  
-![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudy5d3a6b5a-ff82-4bcb-9255-6755c473a5bd.jpg)  
+我们自己的网络就创建好了
+![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudy5d3a6b5a-ff82-4bcb-9255-6755c473a5bd.jpg)
 启动两个容器测试：
 
 1.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker run -d -P --name tomcat-net-01 --net mynet tomcat:7.0`
@@ -1542,8 +1533,8 @@ container：容器网络连通！（用的少！局限很大）
 9.  `64 bytes from tomcat-net-01.mynet (192.168.0.2): icmp_seq=1 ttl=64 time=0.050 ms`
 10.  `64 bytes from tomcat-net-01.mynet (192.168.0.2): icmp_seq=2 ttl=64 time=0.056 ms`
 
-我们自定义的网络docker都已经帮我们维护好了对应的关系，**推荐我们平时这样使用网络**！  
-redis -不同的集群使用不同的网络，保证集群是安全和健康的  
+我们自定义的网络docker都已经帮我们维护好了对应的关系，**推荐我们平时这样使用网络**！
+redis -不同的集群使用不同的网络，保证集群是安全和健康的
 mysql -不同的集群使用不同的网络，保证集群是安全和健康的
 
 ## 4. 网络连通
@@ -1553,15 +1544,14 @@ mysql -不同的集群使用不同的网络，保证集群是安全和健康的
 3.  `[root@iZbp13qr3mm4ucsjumrlgqZ ~]# docker exec -it tomcat01 ping tomcat-net-01`
 4.  `ping: tomcat-net-01: Name or service not known`
 
-容器和mynet网络需要打通  
-![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudy06b13128-bb64-478b-8f97-5aff19bc2536.jpg)  
-打通命令  
-![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudyec3a2bcc-43e6-4081-ae71-55e6c425c046.jpg)  
+容器和mynet网络需要打通
+![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudy06b13128-bb64-478b-8f97-5aff19bc2536.jpg)
+打通命令
+![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudyec3a2bcc-43e6-4081-ae71-55e6c425c046.jpg)
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/04/kuangstudyd5ffaf3c-8422-4bc4-bd4e-69350ced4496.jpg)
 
 1.  `# 测试：打通tomcat01连接mynet`
 2.  `docker network connect mynet tomcat01`
-
 4.  `# 连通之后就是将tomcat01放到了mynet网络下`
 5.  `# 一个容器两个ip地址！I`
 6.  `# 阿里云服务：公网ip和私网ip`
@@ -1586,63 +1576,63 @@ mysql -不同的集群使用不同的网络，保证集群是安全和健康的
 
 [本文链接：https://www.kuangstudy.com/bbs/1552836707509223426](https://www.kuangstudy.com/bbs/1552836707509223426)
 
-  
+
 
 嘿~ 大神，别默默的看了，快来点评一下吧！
 
 提交评论
 
-  
 
-### 总共已有 6 条评论
 
-  
+## 总共已有 6 条评论
+
+
 
 1.  [![](https://thirdwx.qlogo.cn/mmopen/vi_32/KoIa5QlbG7IUYrdmXiaU7OvwKmzn0rbOJxnQSy8mwicMIufNYuMsOfQXE1DUfoM1NFoYBFFGbcfs1TcToqjr0qcg/132)](https://www.kuangstudy.com/user/6ccb8266bff24788bcf9b94350369dbe)
-    
+
     [Y-TR](https://www.kuangstudy.com/user/6ccb8266bff24788bcf9b94350369dbe)
-    
+
     [回复](https://www.kuangstudy.com/bbs/1552836707509223426#respond-post-573c168c0d3d404fbc54ae3b65778601) 2022-08-31 14:54:47
-    
+
     狂神 ![[[30]]](https://www.kuangstudy.com/assert/qq/30.gif)
-    
+
 2.  [![](https://www.kuangstudy.com/assert/images/avatar/10.jpg)](https://www.kuangstudy.com/user/1794f65993914f04b608a17a4370c5eb)
-    
+
     [万事胜意](https://www.kuangstudy.com/user/1794f65993914f04b608a17a4370c5eb)
-    
+
     [回复](https://www.kuangstudy.com/bbs/1552836707509223426#respond-post-c1717281ac1647b8afcabef58eb1b892) 2022-08-25 16:57:45
-    
+
     那个elasticsearch修改配置启动那里少了个-e，给我整半天。。。
-    
+
     正确的是
-    
+
     docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e ES_JAVA_OPTS="-Xms64m -Xmx512m" elasticsearch:7.6.2
-    
+
     1.  [![](https://www.kuangstudy.com/assert/images/avatar/10.jpg)](https://www.kuangstudy.com/user/1794f65993914f04b608a17a4370c5eb)
-        
+
         [万事胜意](https://www.kuangstudy.com/user/1794f65993914f04b608a17a4370c5eb) @[SYWL](https://www.kuangstudy.com/user/b789b99c11944eacb8be1959931638c8)
-        
+
         [回复](https://www.kuangstudy.com/bbs/1552836707509223426#respond-post-c1717281ac1647b8afcabef58eb1b892) 2022-08-26 10:44:08
-        
+
         是你上面写的那里少了个-e![[[37]]](https://www.kuangstudy.com/assert/qq/37.gif)，你要不要修改下。。
-        
+
     2.  [![](https://www.kuangstudy.com/assert/images/avatar/15.jpg)](https://www.kuangstudy.com/user/b789b99c11944eacb8be1959931638c8)
-        
+
         [SYWL](https://www.kuangstudy.com/user/b789b99c11944eacb8be1959931638c8) @[万事胜意](https://www.kuangstudy.com/user/1794f65993914f04b608a17a4370c5eb)
-        
+
         [回复](https://www.kuangstudy.com/bbs/1552836707509223426#respond-post-c1717281ac1647b8afcabef58eb1b892) 2022-08-25 17:54:11
-        
+
         这个要看仔细了
-        
-    
+
+
 3.  [![](https://thirdwx.qlogo.cn/mmopen/vi_32/dJjvcHFUlTOSbAhEZ2jQ1GbLP4WAXSFbsdtM8ibKsibukjgdR5bfv3HSIaKicp69nibrPq9TWgh0xelvXjNbbyfycg/132)](https://www.kuangstudy.com/user/55b3ba6ad38a4524ac6dc070b49a3f5d)
-    
+
     [川久保玲球](https://www.kuangstudy.com/user/55b3ba6ad38a4524ac6dc070b49a3f5d)
-    
+
     [回复](https://www.kuangstudy.com/bbs/1552836707509223426#respond-post-c61c6eb7a165409db7a0e04ef6705e6f) 2022-08-24 16:01:17
-    
+
     错别字一堆 果然是狂神带出来的学生
-    
+
 
 没有更多了 (共3条 / 当前1页)
 
@@ -1658,18 +1648,17 @@ mysql -不同的集群使用不同的网络，保证集群是安全和健康的
     -   [导航](https://www.kuangstudy.com/app)
 -   [技术支持](https://www.kuangstudy.com/)
     -   [广东学相伴网络科技有限公司](https://www.kuangstudy.com/)
-
 -   ![](https://www.kuangstudy.com/assert/img/weixin.jpg)
-    
+
     公众号
-    
+
     ![](https://www.kuangstudy.com/assert/img/wx.jpg)
-    
+
 -   ![](https://www.kuangstudy.com/assert/img/douyin.png)
-    
+
     官方抖音
-    
+
     ![](https://www.kuangstudy.com/assert/img/dy.png)
-    
+
 
 Copyright © 广东学相伴网络科技有限公司[粤ICP备 - 2020109190号](http://beian.miit.gov.cn/)
