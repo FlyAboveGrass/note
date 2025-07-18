@@ -790,7 +790,7 @@ zoo.animalSound(new Cat()); // 输出"喵喵喵"
 
 ### 集合框架 (Collection Framework)
 
-#### 1. List (有序、可重复)
+#### 1. List 链表 (有序、可重复)
 
 ##### ArrayList
 
@@ -826,7 +826,7 @@ vector.add("A"); // 同步方法
 - ​**特点**​：线程安全的动态数组，性能较差
 - ​**替代方案**​：`Collections.synchronizedList(new ArrayList<>())`
 
-##### Stack (继承自Vector)
+##### Stack 栈 (继承自Vector)
 
 ```java
 Stack<String> stack = new Stack<>();
@@ -837,7 +837,7 @@ stack.pop();
 - ​**特点**​：后进先出(LIFO)
 - ​**推荐替代**​：`Deque<Integer> stack = new ArrayDeque<>()`
 
-#### 2. Set (无序、唯一)
+#### 2. Set 哈希表 (无序、唯一)
 
 ##### HashSet
 

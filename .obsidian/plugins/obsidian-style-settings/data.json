@@ -43,7 +43,8 @@
   "minimal-style@@ribbon-style": "ribbon-bottom-left-hover-vertical",
   "minimal-style@@h1-size": "1.5em",
   "minimal-style@@h2-size": "1.15em",
-  "minimal-style@@h1-l": false,
+  "minimal-style@@h1-l": true,
   "minimal-style@@h2-l": false,
-  "minimal-style@@h3-l": false
+  "minimal-style@@h3-l": false,
+  "minimal-style@@h5-variant": "normal"
 }
