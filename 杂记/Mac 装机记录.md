@@ -817,8 +817,6 @@
 }
 ```
 
-
-
 ### [Iterm2](https://link.juejin.cn/?target=https%3A%2F%2Fiterm2.com%2F "https://iterm2.com/")
 
 其实我日常用的最多的 terminal 是 `VSCode` 的集成 terminal，其次就是 `iterm2`。`Warp` 暂时还没有啥吸引我转过去的杀手级优势，反倒很多功能都是没有的，例如 Key Mapping。
@@ -896,7 +894,6 @@ typeset -g POWERLEVEL9K_NODE_ICON='\uF898'
 ### nodejs
 
 使用 volta 管理 node 版本，安装最新的 lts node V18.16.0。
-
 
 #### [rust](https://link.juejin.cn/?target=https%3A%2F%2Fwww.rust-lang.org%2Ftools%2Finstall "https://www.rust-lang.org/tools/install")
 
