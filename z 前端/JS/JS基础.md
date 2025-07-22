@@ -1,12 +1,12 @@
-### 数据类型
+# 数据类型
 
 基础数据类型：Undefined、Null、Boolean、String、Number、Symbol
 
 引用数据类型：Object、Array、Date、RegExp、Function
 
-#### 类型判断
+## 类型判断
 
-##### typeof
+### typeof
 
 判断一个变量的类型
 
@@ -15,19 +15,16 @@
 3. 函数判断结果是‘function’， 对象判断结果都是 ‘object’
 4. 判断null 返回的结果也是一个 'object'
 
-
-
-##### instanceof
+### instanceof
 
 判断一个对象是否是另一个对象的子类型
 
 1. 返回值是true和false
-
 2. 检测对象
 
-   
 
-##### 手写typeof/instanceof
+
+### 手写typeof/instanceof
 
 ```
 // 实现typeof
@@ -49,9 +46,9 @@ function instanceof(left,right){
 }
 ```
 
-### for of 和for in区别
+# for of 和for in区别
 
-#### for in 
+## for in
 
 **枚举**。 适合遍历对象
 
@@ -61,7 +58,7 @@ function instanceof(left,right){
 3. 性能不好，要遍历原型上的属性
 4. 对于[稀疏数组](https://zhuanlan.zhihu.com/p/268534702)，会跳过已删除或未初始化的项
 
-#### for...of 
+## for…of
 
 **迭代**。适合遍历数组
 
@@ -69,14 +66,3 @@ function instanceof(left,right){
 2. 可以迭代数组，获得数组的**值**
 3. 可以迭代类数组， 如字符串、arguments、nodeList、map/set、generator
 4. 可以用break中断遍历
-
-
-
-
-
-
-
-
-
-
-
