@@ -2,7 +2,7 @@
 
 ## 起步
 
-1. docker 下载 mysql
+- docker 下载 mysql
 
 ```bash
 docker pull mysql:latest  # 拉取最新版[6,10](@ref)
@@ -10,10 +10,16 @@ docker pull mysql:latest  # 拉取最新版[6,10](@ref)
 docker pull mysql:5.7[3,8](@ref)
 ```
 
-1. 创建容器启动 mysql
+- 创建容器启动 mysql
 	-  密码： 123456
 ```
 docker run -d --name my-mysql -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 -v ~/mysql/data:/var/lib/mysql  -v ~/mysql/conf:/etc/mysql/conf.d mysql:latest
+```
+
+- 重新进入
+```
+docker exec -it my-mysql mysql -uroot -p
+// 密码 123456
 ```
 
 ## 图书管理系统表
@@ -30,7 +36,7 @@ CREATE TABLE `user` (
   `password` VARCHAR(100) NOT NULL COMMENT '加密密码（SHA-256）',
   `phone` VARCHAR(20) COMMENT '联系方式',
   `role` ENUM('USER', 'ADMIN', 'LIBRARIAN') DEFAULT 'USER' COMMENT '角色',
-  `status` ENUM('ACTIVE', 'INACTIVE', 'SUSPENDED') DEFAULT 'ACTIVE' COMMENT '账号状态',
+  `status` ENUM('ACTIVE', 'INACTIVE', 'SUSPENDED', 'INVALID') DEFAULT 'INVALID' COMMENT '账号状态',
   `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT '注册时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
