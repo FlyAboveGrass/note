@@ -1,4 +1,3 @@
-
 # 自定义任务
 
 > **Tip:** To get access to the global scope `tasks.json` file, open the Command Palette (⇧⌘P) and run the **Tasks: Open User Tasks** command.
@@ -27,8 +26,6 @@ homebrew 安装的 git 版本不是最新
 `git pull origin develop: develop` 如果本地与 develop 的记录不一致，在合并 develop 到 develop 后，还会将 develop 合并到本地分支
 - `git fetch . sourceBranch:develop` develop 分支上的合并记录会丢失，如
 	- commit 1 - commit 2 - mergeCommit 只会拉取到 commit 1 - commit 2
-
-
 
 # jsconfig / tsconfig. json
 
