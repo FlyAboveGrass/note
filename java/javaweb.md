@@ -64,7 +64,6 @@ Tomcat服务器是一个免费的开放源代码的Web应用服务器，属于�
     没有：去DNS服务器找，找到的话就返回，找不到就返回找不到。
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/06/kuangstudy6de04f31-84b6-43c1-8d81-ed0665f49ae5.jpg)
 
-
 ## 3.4 发布一个网站
 
 ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/06/kuangstudyc157c9e0-2313-486e-b0ab-aef80e710d2d.jpg)
@@ -118,14 +117,12 @@ HTTP（超文本传输协议）是一个简单的请求-响应协议，它通常
     POST:请求能够携带的参数没有限制，大小没有限制，不会在浏览器的URL地址栏显示数据内容，安全，但不高效。
 
 1.  请求头（消息头）
-
     1.  `Accept: 告诉浏览器，它所支持的数据类型`
     2.  `Accept-Encoding: 告诉浏览器，它支持哪种编码格式：GBK,UTF-8,GB2312,ISO8859-1`
     3.  `Accept-Language: 告诉浏览器，它的语言环境`
     4.  `Cache-Control: 缓存控制`
     5.  `Connection: 告诉浏览器，请求完成是断开还是保持`
     6.  `HOST：主机`
-
 
 ## 4.4 http响应
 
@@ -140,7 +137,6 @@ HTTP（超文本传输协议）是一个简单的请求-响应协议，它通常
 7.  `// 响应类型`
 8.  `Content-Type: text/html;charset=utf-8`
 1.  响应体
-
     1.  `Accept: 告诉浏览器，它所支持的数据类型`
     2.  `Accept-Encoding: 告诉浏览器，它支持哪种编码格式：GBK,UTF-8,GB2312,ISO8859-1`
     3.  `Accept-Language: 告诉浏览器，它的语言环境`
@@ -149,7 +145,6 @@ HTTP（超文本传输协议）是一个简单的请求-响应协议，它通常
     6.  `HOST：主机`
     7.  `Refrush：告诉客户端，多久刷新一次`
     8.  `Location：让网页重新定位`
-
 2.  响应状态码
 
 
@@ -202,20 +197,17 @@ Serlvet接口Sun公司有两个默认的实现类：HttpServlet，GenericServlet
     2.实现Servlet接口，这里我们直接继承HttpServlet类
 
     1.   `public class HelloServlet extends HttpServlet {`
-
     3.       `[@Override](https://github.com/Override "@Override")`
     4.       `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     5.           `System.out.println("hello servlet");`
     6.           `PrintWriter writer = resp.getWriter();`
     7.           `writer.println("Hello Servlet");`
     8.       `}`
-
     10.       `[@Override](https://github.com/Override "@Override")`
     11.       `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     12.           `this.doGet(req,resp);`
     13.       `}`
     14.   `}`
-
 5.  编写Servlet的映射
     为什么需要映射：我们写的是JAVA程序，但是要通过浏览器访问，而浏览器需要连接web服务器，所以我们需要在web服务中注册我们写的Servlet，还需给他一个浏览器能够访问的路径。
 
@@ -229,7 +221,6 @@ Serlvet接口Sun公司有两个默认的实现类：HttpServlet，GenericServlet
     8.   `<servlet-name>helloservlet</servlet-name>`
     9.   `<url-pattern>/hello</url-pattern>`
     10.  `</servlet-mapping>`
-
 6.  配置tomcat
     注意：配置项目发布路径就可以了
 
@@ -302,7 +293,6 @@ web容器在启动的时候，它会为每个web程序都创建一个对应的Se
     24.  `</servlet-mapping>`
     25.  `</web-app>`
 2.  获取初始化参数
-
     1.  `// web.xml文件`
     2.  `<!--配置一些web应用一些初始化参数-->`
     3.  `<context-param>`
@@ -321,7 +311,6 @@ web容器在启动的时候，它会为每个web程序都创建一个对应的Se
     11.   `}`
     12.  `}`
 3.  请求转发
-
     1.  `// web.xml文件`
     2.  `// 请求sd4`
     3.  `<servlet>`
@@ -391,18 +380,14 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
 -   如果要给客户端响应一些信息：找HttpServletResponse
 
 1.  负责向浏览器发送数据的方法
-
     1.  `public ServletOutputStream getOutputStream() throws IOException;`
     2.  `public PrintWriter getWriter() throws IOException;`
-
 2.  响应的状态码
-
     1.  `public static final int SC_CONTINUE = 100;`
     2.   `/**`
     3.    `* Status code (200) indicating the request succeeded normally.`
     4.    `*/`
     5.   `public static final int SC_OK = 200;`
-
     7.   `/**`
     8.    `* Status code (302) indicating that the resource has temporarily`
     9.    `* moved to another location, but that future references should`
@@ -412,7 +397,6 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     13.    `* SC_FOUND is now the preferred definition.`
     14.    `*/`
     15.   `public static final int SC_MOVED_TEMPORARILY = 302;`
-
     17.   `/**`
     18.   `* Status code (302) indicating that the resource reside`
     19.   `* temporarily under a different URI. Since the redirection might`
@@ -421,32 +405,27 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     22.   `* status code (302), it is recommended to use this variable.`
     23.   `*/`
     24.   `public static final int SC_FOUND = 302;`
-
     26.   `/**`
     27.    `* Status code (304) indicating that a conditional GET operation`
     28.    `* found that the resource was available and not modified.`
     29.    `*/`
     30.   `public static final int SC_NOT_MODIFIED = 304;`
-
     32.   `/**`
     33.    `* Status code (404) indicating that the requested resource is not`
     34.    `* available.`
     35.    `*/`
     36.   `public static final int SC_NOT_FOUND = 404;`
-
     38.   `/**`
     39.    `* Status code (500) indicating an error inside the HTTP server`
     40.    `* which prevented it from fulfilling the request.`
     41.    `*/`
     42.   `public static final int SC_INTERNAL_SERVER_ERROR = 500;`
-
     44.   `/**`
     45.    `* Status code (502) indicating that the HTTP server received an`
     46.    `* invalid response from a server it consulted when acting as a`
     47.    `* proxy or gateway.`
     48.    `*/`
     49.   `public static final int SC_BAD_GATEWAY = 502;`
-
     51.   `// …`
 
 
@@ -454,7 +433,6 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
 
 1.  向浏览器输出消息
 2.  下载文件
-
     1.  `public class FileServlet extends HttpServlet {`
     2.   `[@Override](https://github.com/Override "@Override")`
     3.   `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
@@ -479,21 +457,17 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     22.       `in.close();`
     23.       `out.close();`
     24.   `}`
-
     26.   `[@Override](https://github.com/Override "@Override")`
     27.   `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     28.       `this.doGet(req, resp);`
     29.   `}`
     30.  `}`
-
 3.  验证码功能
-
     1.  `public class ImageServlet extends HttpServlet {`
     2.   `[@Override](https://github.com/Override "@Override")`
     3.   `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     4.       `// 让浏览器3秒刷新一次`
     5.       `resp.setHeader("refresh", "3");`
-
     7.       `// 在内存中创建一个图片`
     8.       `BufferedImage image = new BufferedImage(80, 20, BufferedImage.TYPE_INT_RGB);// 宽、高、颜色`
     9.       `// 得到图片`
@@ -516,7 +490,6 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     26.       `// 把图片写给浏览器`
     27.       `boolean write = ImageIO.write(image, "jpg",resp.getOutputStream());`
     28.   `}`
-
     30.   `// 生成随机数`
     31.   `private String makeNum() {`
     32.       `Random random = new Random();`
@@ -528,15 +501,12 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     38.       `num = sb.toString()+num;// 不足七位，在随机数前面添加0`
     39.       `return num;`
     40.   `}`
-
     42.   `[@Override](https://github.com/Override "@Override")`
     43.   `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     44.       `this.doGet(req, resp);`
     45.   `}`
     46.  `}`
-
 4.  实现请求重定向
-
     1.  `public class RedirectServlet extends HttpServlet {`
     2.   `[@Override](https://github.com/Override "@Override")`
     3.   `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
@@ -544,13 +514,11 @@ web服务器接收到客户端的http请求，针对这个请求，分别创建�
     5.       `resp.setStatus(HttpServletResponse.SC_NOT_MODIFIED);*/`
     6.       `resp.sendRedirect("/response_war/image");// 重定向相当于上面两行代码`
     7.   `}`
-
     9.   `[@Override](https://github.com/Override "@Override")`
     10.   `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     11.       `this.doGet(req, resp);`
     12.   `}`
     13.  `}`
-
 
 ## 6.5 HttpServletRequest
 
@@ -588,13 +556,11 @@ HttpServletRequest代表客户端的请求，用户通过Http协议访问服务�
     3.   `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     4.       `this.doPost(req, resp);`
     5.   `}`
-
     7.   `[@Override](https://github.com/Override "@Override")`
     8.   `protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {`
     9.       `// 处理请求中文乱码（后期可以使用过滤器来解决）`
     10.       `req.setCharacterEncoding("utf-8");`
     11.       `resp.setCharacterEncoding("utf-8");`
-
     13.       `String username = req.getParameter("username");`
     14.       `String password = req.getParameter("password");`
     15.       `String[] hobbys = req.getParameterValues("hobbys");`
@@ -645,7 +611,6 @@ session：
 
 1.  从请求中拿到cookie
 2.  服务器响应给客户端cookie
-
     1.  `Cookie[] cookies = req.getCookies();// 获得cookie`
     2.  `cookie.getName();// 获得cookie中的key`
     3.  `cookie.getValue();// 获得cookie中的value`
@@ -825,7 +790,6 @@ Java Server Pages：Java服务端页面，和servlet一样，用于动态web技�
 8.    `public void _jspService(final javax.servlet.http.HttpServletRequest request, final javax.servlet.http.HttpServletResponse response)`
 1.  判断请求的方式
 2.  内置一些对象（9个）
-
     1.  `final javax.servlet.jsp.PageContext pageContext;    // 页面上下文`
     2.  `javax.servlet.http.HttpSession session = null;        // session`
     3.  `final javax.servlet.ServletContext application;        // applicationContext`
@@ -834,9 +798,7 @@ Java Server Pages：Java服务端页面，和servlet一样，用于动态web技�
     6.  `final java.lang.Object page = this;                    // page：当前`
     7.  `HttpServletRequest request;                            // 请求`
     8.  `HttpServletResponse response;                        // 响应`
-
 3.  输出页面前增加的代码
-
     1.  `response.setContentType("text/html;charset=UTF-8");// 设置响应的页面类型`
     2.  `pageContext = _jspxFactory.getPageContext(this, request, response,`
     3.           `null, true, 8192, true);`
@@ -846,9 +808,7 @@ Java Server Pages：Java服务端页面，和servlet一样，用于动态web技�
     7.  `session = pageContext.getSession();`
     8.  `out = pageContext.getOut();`
     9.  `_jspx_out = out;`
-
 4.  以上的内置对象可以在jsp页面中直接使用
-
 5.  原理图
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudy91ca1997-e219-4e14-9457-6c0f4ce3ade4.jpg)
 
@@ -868,15 +828,12 @@ Java Server Pages：Java服务端页面，和servlet一样，用于动态web技�
 JSP作为java技术的一种应用，它拥有一些自己扩充的语法（了解，知道即可！），Java所有语法它都支持！
 
 1.  jsp表达式
-
     1.  `<%--jsp表达式`
     2.  `作用：用来将程序的输出，输出到客户端`
     3.  `<%= 变量或表达式%>`
     4.  `--%>`
     5.  `<%= new java.util.Date() %>`
-
 2.  jsp脚本片段
-
     1.  `<%--jsp脚本片段--%>`
     2.  `<%`
     3.   `int sum = 0;`
@@ -894,15 +851,12 @@ JSP作为java技术的一种应用，它拥有一些自己扩充的语法（了�
     15.  `<%`
     16.   `}`
     17.  `%>`
-
 3.  jsp声明
-
     1.  `<%!`
     2.  `static {`
     3.   `System.out.println("loading Servlet!");`
     4.  `}`
     5.  `private int globalVar =0;`
-
     7.  `public void kuang(){`
     8.   `System.out.println("进入了该方法！");`
     9.  `}`
@@ -916,7 +870,6 @@ JSP声明：会被编译到jsp生成java的类中！
 ## 8.4 jsp指令
 
 1.  定制错误页面
-
     1.  `<%--定制错误页面--%>`
     2.  `<%@ page errorPage="error/500.jsp" %>`
 
@@ -925,7 +878,6 @@ JSP声明：会被编译到jsp生成java的类中！
 
 2.  包含头部和尾部
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/11/kuangstudyb64caaa0-79ff-44e6-9a17-5371bfad0057.jpg)
-
 
 ## 8.5 九大内置对象
 
@@ -966,7 +918,6 @@ Filter：过滤器，用来过滤网站的数据：
 Filter开发步骤：
 
 1.  导包
-
     1.  `<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->`
     2.       `<!--servlet依赖-->`
     3.       `<dependency>`
@@ -983,9 +934,7 @@ Filter开发步骤：
     14.           `<version>2.3.3</version>`
     15.           `<scope>provided</scope>`
     16.       `</dependency>`
-
 2.  编写过滤器（自定义类实现javax.servlet.Filter接口）
-
     1.  `public class CharaterEncodingFilter implements Filter {`
     2.   `/**`
     3.    `* 初始化：服务器启动的时候，就已经初始化了，随时等待过滤对象出现！`
@@ -1017,7 +966,6 @@ Filter开发步骤：
 
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/07/12/kuangstudyec776842-89f3-4f5e-8d4a-0777548366fb.jpg)
 3.  在web.xml中配置Filter
-
     1.   `<filter>`
     2.       `<filter-name>filter</filter-name>`
     3.       `<filter-class>com.sunyiwenlong.filter.CharaterEncodingFilter</filter-class>`
@@ -1028,13 +976,11 @@ Filter开发步骤：
     8.       `<url-pattern>/servlet/*</url-pattern>`
     9.   `</filter-mapping>`
 
-
 # 11.监听器
 
 实现一个监听器的接口；（有N种监听器）
 
 1.  编写一个监听器
-
     1.  `public class OnlineCountListener implements HttpSessionListener {`
     2.   `/**`
     3.    `* 创建session的监听：创建一个session就会触发一次这个事件。`
@@ -1052,7 +998,6 @@ Filter开发步骤：
     15.       `}`
     16.       `context.setAttribute("OnlineCount",onlineCount);`
     17.   `}`
-
     19.   `/**`
     20.    `* 销毁session监听`
     21.    `* 销毁Session就会触发一次这个事件！`
@@ -1071,13 +1016,10 @@ Filter开发步骤：
     34.       `context.setAttribute("OnlineCount",onlineCount);`
     35.   `}`
     36.  `}`
-
 2.  在web.xml中注册监听器
-
     1.   `<listener>`
     2.       `<listener-class>com.sunyiwenlong.listener.OnlineCountListener</listener-class>`
     3.   `</listener>`
-
 3.  看情况是否使用
 
 # 12. 过滤器、监听器常见应用

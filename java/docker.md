@@ -192,17 +192,13 @@ Docker Hub（默认是国外的）阿里云.…都有容器服务器（配置镜
     四个命令，依次执行即可：
 
     1.  `sudo mkdir -p /etc/docker`
-
     1.  `sudo tee /etc/docker/daemon.json <<-'EOF'`
     2.  `{`
     3.  `"registry-mirrors": ["https://xxx.xxx.xxx.com"]`
     4.  `}`
     5.  `EOF`
-
     1.  `sudo systemctl daemon-reload`
-
     1.  `sudo systemctl restart docker`
-
 
 ## 4. 回顾hello-world流程
 
@@ -1259,42 +1255,28 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/03/kuangstudy3b8c3159-7579-42b9-99d7-8d10b48187e0.jpg)
 
 2.  编写dockerfile文件，官方命名**Dockerfile**，build会自动寻找这个文件，就不需要-f指定文件名了！
-
     1.   `FROM centos:7`
     2.   `MAINTAINER sywl<[xxxx@qq.com](mailto:xxxx@qq.com)>`
-
     4.   `COPY readme.txt /usr/local/readme.txt`
-
     6.   `ADD jdk-8u271-linux-x64.tar.gz /usr/local/`
     7.   `ADD apache-tomcat-9.0.5.tar.gz /usr/local/`
-
     9.   `RUN yum -y install vim`
-
     11.   `ENV MYPATH /usr/local`
     12.   `WORKDIR $MYPATH`
-
     14.   `ENV JAVA_HOME /usr/local/jdk1.8.0_271`
     15.   `ENV CLASS_PATH $JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar`
     16.   `ENV CATALINA_HOME /usr/local/apache-tomcat-9.0.5`
     17.   `ENV CATALINA_BASH /usr/local/apache-tomcat-9.0.5`
     18.   `ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/lib:$CATALINA_HOME/bin`
-
     20.   `EXPOSE 8080`
-
     22.   `CMD /usr/local/apache-tomcat-9.0.5/bin/startup.sh && tail -F /usr/local/apache-tomcat-9.0.5/bin/logs/catalina.out`
-
 3.  构建镜像
-
     1.  `docker build --name diytomcat .`
-
 4.  启动镜像
-
     1.  `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker run -d -p 3355:8080 --name sywltomcat -v /home/sywl/build/tomcat/test:/usr/local/apache-tomcat-9.0.5/webapps/test -v /home/sywl/build/tomcat/tomcatlog:/usr/local/apache-tomcat-9.0.5/logs diytomcat`
-
 5.  访问测试
     ![](https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2022/08/03/kuangstudyb6900457-27f2-448e-be54-6069b4f9783f.jpg)
 6.  发布项目（由于做了卷挂载，我们直接在本地test文件夹下编写项目就可以发布了！）
-
     1.  `# /home/sywl/build/tomcat/test/WEB-INF/web.xml文件`
     2.  `<?xml version="1.0" encoding="UTF-8"?>`
     3.  `<web-app xmlns="http://java.sun.com/xml/ns/javaee"`
@@ -1302,7 +1284,6 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
     5.       `xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"`
     6.       `version="2.5">`
     7.  `</web-app>`
-
     1.  `# /home/sywl/build/tomcat/test/index.jsp文件`
     2.  `<%@ page language="java" contentType="text/html; charset=UTF-8"`
     3.   `pageEncoding="UTF-8"%>`
@@ -1330,41 +1311,30 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
 1.  [https://hub.docker.com/](https://hub.docker.com/) 注册自己的账号
 2.  确定这个账号可以登录
 3.  在我们服务器上提交自己的镜像
-
     1.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker login --help`
-
     3.   `Usage:  docker login [OPTIONS] [SERVER]`
-
     5.   `Log in to a Docker registry.`
     6.   `If no server is specified, the default is defined by the daemon.`
-
     8.   `Options:`
     9.     `-p, --password string   Password`
     10.         `--password-stdin    Take the password from stdin`
     11.     `-u, --username string   Username`
-
 4.  登录完毕后就可以提交镜像了，就是一步： docker push
-
     1.   `# 登录命令`
     2.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker login -u xxxx`
     3.   `Password:`
     4.   `WARNING! Your password will be stored unencrypted in /root/.docker/config.json.`
     5.   `Configure a credential helper to remove this warning. See`
     6.   `https://docs.docker.com/engine/reference/commandline/login/#credentials-store`
-
     8.   `Login Succeeded`
-
     10.   `# push镜像出现的问题？`
     11.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker push sunyiwenlong/diytomcat`
     12.   `The push refers to repository [docker.io/sunyiwenlong/diytomcat]`
     13.   `An image does not exist locally with the tag: sunyiwenlong/diytomcat`
-
     15.   `# 解决，增加一个tag`
     16.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker tag 6a5eb12e1252 账号id/tomcat:1.0`
-
     18.   `# docker push即可；自己发布的镜像尽量带上版本号`
     19.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") tomcat]# docker push 账号id/tomcat:1.0`
-
 
 ### 2. 发布到阿里云镜像服务上
 
@@ -1424,14 +1394,11 @@ Docker Hub中99%镜像都是从这个基础镜像过来的FROM scratch，然后�
     2.  `# veth-pair 就是一对的虚拟设备接口，他们都是成对出现的，一端连着协议，一端彼此相连。`
     3.  `# 正因为有这个特性，evth-pair充当一个桥梁，连接各种虚拟网络设备的。`
     4.  `# openstack，Docker容器之间的连接，OVS的连接，都是使用veth-pair技术。`
-
 3.  我们来测试下tomcat01和tomcat02是否可以ping通！（可以ping通）
-
     1.   `[root[@iZbp13qr3mm4ucsjumrlgqZ](https://github.com/iZbp13qr3mm4ucsjumrlgqZ "@iZbp13qr3mm4ucsjumrlgqZ") ~]# docker exec -it tomcat02 ping 172.17.0.2`
     2.   `PING 172.17.0.2 (172.17.0.2) 56(84) bytes of data.`
     3.   `64 bytes from 172.17.0.2: icmp_seq=1 ttl=64 time=0.094 ms`
     4.   `64 bytes from 172.17.0.2: icmp_seq=2 ttl=64 time=0.055 ms`
-
     6.   `# 结论：容器和容器之间是可以互相ping通的！`
 
     绘制一个网络模型图
@@ -1582,11 +1549,7 @@ mysql -不同的集群使用不同的网络，保证集群是安全和健康的
 
 提交评论
 
-
-
 ## 总共已有 6 条评论
-
-
 
 1.  [![](https://thirdwx.qlogo.cn/mmopen/vi_32/KoIa5QlbG7IUYrdmXiaU7OvwKmzn0rbOJxnQSy8mwicMIufNYuMsOfQXE1DUfoM1NFoYBFFGbcfs1TcToqjr0qcg/132)](https://www.kuangstudy.com/user/6ccb8266bff24788bcf9b94350369dbe)
 
