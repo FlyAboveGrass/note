@@ -1,5 +1,5 @@
-
 # 配置
+
 ```
 {
 
@@ -642,11 +642,10 @@
 }
 ```
 
-
 # vscode 的 git 找不到 npx
+
 创建 ~/.huskyrc 文件并添加 Volta 的路径到 PATH 环境变量中
 
 ```
 export PATH="/Users/yangjiajian/.volta/bin:$PATH"
 ```
-
