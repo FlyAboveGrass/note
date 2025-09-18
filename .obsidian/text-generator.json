@@ -80,14 +80,13 @@
     "Experimental": {
       "packageId": "Experimental",
       "name": "Experimental Package",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "minTextGeneratorVersion": "0.6.6",
       "description": "Contains experimental templates",
       "author": "Noureddine",
       "tags": "experiments",
       "authorUrl": "https://www.buymeacoffee.com/haouarine",
-      "repo": "text-gen/experimental-package",
-      "installed": false
+      "repo": "text-gen/experimental-package"
     },
     "testExtension": {
       "core": true,

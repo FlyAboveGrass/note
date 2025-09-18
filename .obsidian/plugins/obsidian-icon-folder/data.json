@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🔯",
       "LiWebhook",
       "LiBrain",
       "LiRemixMentalHealthFill",
-      "LiLanguages",
-      "LiBookMinus"
+      "LiLanguages"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -55,5 +55,6 @@
   "阅读": "LiBookMinus",
   "英语": "LiLanguages",
   "AI": "LiBrain",
-  "web3.0&区块链": "LiWebhook"
+  "web3.0&区块链": "LiWebhook",
+  "考公": "🔯"
 }
