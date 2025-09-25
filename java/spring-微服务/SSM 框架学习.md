@@ -1,10 +1,10 @@
 # Spring
 
 ## 框架概念
+
 ![[Pasted image 20221113235459.png]]
 
-
-### Ioc 
+### Ioc
 
 Ioc—Inversion of Control，即“控制反转”.
 
@@ -16,8 +16,6 @@ Ioc意味着将你设计好的对象交给容器控制，而不是传统的在�
 
 没有 Ioc 之前的代码是直接 new,自己显示的去定义自己要使用的类。 现在是把 new 这个操作移交出去给 spring 的 Ioc 容器去 new, 这个 new 的过程你看不见，想用的时候直接从 spring 获取。隐藏了内部的 new 操作，实现了代码的解耦。
 Ioc 容器负责对象的创建、初始化等一系列操作，被创建或者被管理的对象被称为 **Bean**
-
-
 
 ### Bean
 
@@ -31,10 +29,8 @@ Ioc 容器负责对象的创建、初始化等一系列操作，被创建或者�
 
 **实例工厂与 factory bean**
 
-
-
-
 #### Bean 的生命周期
+
 1. 初始化容器
 	1. 创建对象（内存分配）
 	2. 执行构造方法
@@ -50,8 +46,6 @@ Ioc 容器负责对象的创建、初始化等一系列操作，被创建或者�
 	- ConfigurableApplicationContext 的 close 方法。
 - 注册关闭钩子
 	- ConfigurableApplicationContext 接口的 registerShutdownHook
-
-
 
 ### DI
 
@@ -73,10 +67,7 @@ DI—Dependency Injection，即“依赖注入”. 在容器中建立 bean 和 b
 3. spring 倡导使用构造器，第三方框架内不大多数采用构造器注入的方式进行数据初始化，相对严谨
 4. 自己开发的模块推荐使用setter 注入
 
-
-
-
-##### 依赖自动装配
+#### 依赖自动装配
 
 Ioc 容器根据 Bean 依赖的资源在容器中查找并注入到 bean 中的过程叫做自动装配。
 
