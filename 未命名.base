@@ -1,3 +1,9 @@
 views:
   - type: table
     name: 表格
+  - type: cards
+    name: 视图
+    order:
+      - file.name
+    cardSize: 430
+    imageAspectRatio: 0.9
