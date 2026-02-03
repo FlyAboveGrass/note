@@ -8,3 +8,12 @@ workspace.json
 data.json
 .obsidian/plugins/recent-files-obsidian/data.json
 .obsidian/workspace.json
+
+# Auto Claude generated files
+.auto-claude/
+.auto-claude-security.json
+.auto-claude-status
+.claude_settings.json
+.worktrees/
+.security-key
+logs/security/
