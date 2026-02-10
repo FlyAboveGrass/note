@@ -17,3 +17,6 @@ data.json
 .worktrees/
 .security-key
 logs/security/
+
+# Nutstore sync plugin logs
+.obsidian/plugins/nutstore-sync/logs/
