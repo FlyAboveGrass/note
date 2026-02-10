@@ -817,11 +817,14 @@
 }
 ```
 
-### [Iterm2](https://link.juejin.cn/?target=https%3A%2F%2Fiterm2.com%2F "https://iterm2.com/")
+### Wrap
 
-其实我日常用的最多的 terminal 是 `VSCode` 的集成 terminal，其次就是 `iterm2`。`Warp` 暂时还没有啥吸引我转过去的杀手级优势，反倒很多功能都是没有的，例如 Key Mapping。
+Warp 的定位更像是一个 **IDE（集成开发环境）与终端的混合体**。它的核心优势在于将现代软件的用户体验（如 AI、协作、块状操作）引入了原本枯燥的命令行。
 
-安装完后切换 `Minimal` 主题。
+### [CC switch](https://github.com/farion1231/cc-switch)
+
+管理 claude code/open code 等工具的代理站
+
 
 ### [HomeBrew](https://link.juejin.cn/?target=https%3A%2F%2Fbrew.sh%2F "https://brew.sh/")
 
