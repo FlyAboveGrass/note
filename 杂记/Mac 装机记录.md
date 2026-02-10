@@ -825,7 +825,6 @@ Warp 的定位更像是一个 **IDE（集成开发环境）与终端的混合体
 
 管理 claude code/open code 等工具的代理站
 
-
 ### [HomeBrew](https://link.juejin.cn/?target=https%3A%2F%2Fbrew.sh%2F "https://brew.sh/")
 
 [安装步骤](https://gitee.com/cunkai/HomebrewCN)
