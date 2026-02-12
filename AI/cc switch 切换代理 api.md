@@ -19,11 +19,11 @@
 
 配置方式： [OpenCode 自定义服务商（中转站）接入指南 - 开发调优 - LINUX DO](https://linux.do/t/topic/1329050/34)
 
-> 注意： 1.any router 不能用。 2. 模型一定要配置！
+> 注意： 1.any router 不能用。 2. base url 后面要加一个 v1. 3. 模型一定要配置！
 
 配置方式： 
-![[Pasted image 20260212155758.png]]
-![[Pasted image 20260212155919.png]]
+![[Pasted image 20260212160901.png]]
+
 
 # claude
 
